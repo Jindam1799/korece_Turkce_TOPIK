@@ -155,156 +155,156 @@
 날아가다|uçup gitmek, kaybolmak|새가 날아가다=kuş uçup gitmek;향이 날아가다=koku uçup gitmek
 제안하다|önermek|의견을 제안하다=fikir önermek;새로운 방법을 제안하다=yeni yöntem önermek
 #4
-포장|ambalaj, paketleme
-신경을 쓰다|özen göstermek
-고도|irtifa, yükseklik
-미각|tat alma duyusu
-둔하다|körelmek, zayıflamak
-대비하다|önlem almak, hazırlıklı olmak
-일부러|bilerek, kasıtlı olarak
-조리하다|yemek pişirmek
-싣다|yüklemek
-데우다|çorbayı ısıtıp yedim
-예민해지다|hassaslaşmak
-온도|sıcaklık çok düşük
-방지하다|önlemek
-종종|sık sık, zaman zaman
-적합하다|uygun olmak
-생존|hayatta kalma, yaşamını sürdürme
-식물|bitki
-먹이|yiyecek, besin||yiyecek, besin (özellikle hayvanlar için)
-제공하다|sağlamak, sunmak
-농촌|kırsal bölge, köy
-상대적|göreceli, nispi
-농약|tarım ilacı
-뿌리다|serpmek, püskürtmek||serpmek, püskürtmek (ilaç, su, tohum vb.)
-방지법|önleme yöntemi, korunma yolu
-진행하다|ilerlemek, yürütmek
-벌이다|başlatmak, yürütmek,ilerletmek||başlatmak, yürütmek,ilerletmek (kampanya, etkinlik)
-활성화|canlandırma, aktif hâle getirme
-목적|amaç, hedef
-기업|şirket, kurum
-근로자|çalışan, işçi
-유도하다|teşvik etmek, yönlendirmek
-소비|tüketim
-관광업계|turizm sektörü
-집중력|odaklanma gücü, dikkat
-악영향|olumsuz etki
-미혼|evlenmemiş (ama evlenmesi beklenen kişi)
-포함되다|dahil olmak, içinde yer almak
-비혼|evlenmeme tercihi||evlenmeme tercihi, evliliği bilinçli olarak seçmemek
-독신|yalnız yaşamak, bekâr olmak
-누군가|biri, birisi
-색상|renk tonu
-전략적|stratejik
-연출하다|sahnelemek, yönetmek, düzenlemek||sahnelemek, yönetmek, düzenlemek, ortaya koymak
-의지|irade, kararlılık
-표명하다|ifade etmek, göstermek
-빳빳하다|sert, dik (kumaş için)
-무채색|nötr renk (siyah, gri, beyaz)
-협상|müzakere, pazarlık
-복장|kıyafet, giyim
-친근감|samimiyet, yakınlık hissi
+포장|ambalaj, paketleme|포장을 뜯다=ambalajı açmak;선물 포장=hediye paketi
+신경을 쓰다|özen göstermek|건강에 신경을 쓰다=sağlığına özen göstermek;신경 쓰지 마세요=kafanı takma
+고도|irtifa, yükseklik|높은 고도=yüksek irtifa;고도가 올라가다=irtifa yükselmek
+미각|tat alma duyusu|미각이 둔해지다=tat alma duyusu zayıflamak;미각을 자극하다=damak tadını uyarmak
+둔하다|körelmek, zayıflamak|감각이 둔하다=duyuları zayıf olmak;움직임이 둔하다=hareketleri hantal olmak
+대비하다|önlem almak, hazırlıklı olmak|시험에 대비하다=sınava hazırlanmak;사고에 대비하다=kazaya karşı önlem almak
+일부러|bilerek, kasıtlı olarak|일부러 늦게 가다=bilerek geç gitmek;일부러 그런 게 아니다=kasten yapmadım
+조리하다|yemek pişirmek|음식을 조리하다=yemek pişirmek;조리 방법=pişirme yöntemi
+싣다|yüklemek|짐을 싣다=yük yüklemek;신문에 싣다=gazetede yayımlamak
+데우다|ısıtmak|국을 데우다=çorbayı ısıtmak;전자레인지에 데우다=mikrodalgada ısıtmak
+예민해지다|hassaslaşmak|신경이 예민해지다=sinirleri hassaslaşmak;시험 전에 예민해지다=sınavdan önce gerginleşmek
+온도|sıcaklık|온도가 낮다=sıcaklık düşük olmak;실내 온도=iç mekân sıcaklığı
+방지하다|önlemek|사고를 방지하다=kazayı önlemek;감염을 방지하다=enfeksiyonu önlemek
+종종|sık sık, zaman zaman|종종 만나다=ara sıra buluşmak;종종 있는 일=sık sık olan bir şey
+적합하다|uygun olmak|목적에 적합하다=amaca uygun olmak;적합한 인재=uygun aday
+생존|hayatta kalma, yaşamını sürdürme|생존 경쟁=hayatta kalma mücadelesi;생존에 필요하다=hayatta kalmak için gerekli olmak
+식물|bitki|식물을 키우다=bitki yetiştirmek;식물에 물을 주다=bitkiyi sulamak
+먹이|yiyecek, besin|먹이를 주다=yem vermek;먹이를 찾다=yiyecek aramak|yiyecek, besin (özellikle hayvanlar için)
+제공하다|sağlamak, sunmak|정보를 제공하다=bilgi sağlamak;무료로 제공하다=ücretsiz sunmak
+농촌|kırsal bölge, köy|농촌 지역=kırsal bölge;농촌 인구=köy nüfusu
+상대적|göreceli, nispi|상대적으로 적다=görece az olmak;상대적인 개념=göreceli kavram
+농약|tarım ilacı|농약을 뿌리다=tarım ilacı püskürtmek;농약을 쓰지 않다=ilaç kullanmamak
+뿌리다|serpmek, püskürtmek|물을 뿌리다=su serpmek;씨를 뿌리다=tohum ekmek|serpmek, püskürtmek (ilaç, su, tohum vb.)
+방지법|önleme yöntemi, korunma yolu|사고 방지법=kaza önleme yöntemi;부패 방지법=yolsuzlukla mücadele yasası
+진행하다|ilerlemek, yürütmek|회의를 진행하다=toplantıyı yürütmek;계획대로 진행하다=plana göre ilerlemek
+벌이다|başlatmak, yürütmek,ilerletmek|캠페인을 벌이다=kampanya başlatmak;잔치를 벌이다=şölen düzenlemek|başlatmak, yürütmek,ilerletmek (kampanya, etkinlik)
+활성화|canlandırma, aktif hâle getirme|경제 활성화=ekonomiyi canlandırma;지역 활성화=bölgeyi canlandırma
+목적|amaç, hedef|목적을 이루다=amaca ulaşmak;여행 목적=seyahat amacı
+기업|şirket, kurum|대기업=büyük şirket;기업을 운영하다=şirket yönetmek
+근로자|çalışan, işçi|근로자의 권리=çalışan hakları;외국인 근로자=yabancı işçi
+유도하다|teşvik etmek, yönlendirmek|참여를 유도하다=katılımı teşvik etmek;소비를 유도하다=tüketimi özendirmek
+소비|tüketim|소비가 늘다=tüketim artmak;에너지 소비=enerji tüketimi
+관광업계|turizm sektörü|관광업계가 어렵다=turizm sektörü zor durumda olmak;관광업계 종사자=turizm sektörü çalışanı
+집중력|odaklanma gücü, dikkat|집중력이 떨어지다=dikkati dağılmak;집중력을 높이다=odaklanmayı artırmak
+악영향|olumsuz etki|악영향을 미치다=olumsuz etki yapmak;건강에 악영향=sağlığa olumsuz etki
+미혼|evlenmemiş (ama evlenmesi beklenen kişi)|미혼 남녀=bekâr kadın ve erkekler;미혼이다=evli değil
+포함되다|dahil olmak, içinde yer almak|가격에 포함되다=fiyata dahil olmak;명단에 포함되다=listeye dahil olmak
+비혼|evlenmeme tercihi|비혼을 선택하다=evlenmemeyi seçmek;비혼 인구=evlenmemeyi seçenlerin sayısı|evlenmeme tercihi, evliliği bilinçli olarak seçmemek
+독신|yalnız yaşamak, bekâr olmak|독신으로 살다=bekâr yaşamak;독신 생활=bekâr hayatı
+누군가|biri, birisi|누군가가 찾아오다=birisi ziyarete gelmek;누군가에게 말하다=birine söylemek
+색상|renk tonu|색상이 다양하다=renk seçenekleri çeşitli olmak;밝은 색상=açık renk tonu
+전략적|stratejik|전략적으로 접근하다=stratejik yaklaşmak;전략적 선택=stratejik seçim
+연출하다|sahnelemek, yönetmek, düzenlemek|분위기를 연출하다=ortam yaratmak;영화를 연출하다=film yönetmek|sahnelemek, yönetmek, düzenlemek, ortaya koymak
+의지|irade, kararlılık|의지가 강하다=iradesi güçlü olmak;의지를 보이다=kararlılık göstermek
+표명하다|ifade etmek, göstermek|의사를 표명하다=niyetini ifade etmek;입장을 표명하다=tutumunu açıklamak
+빳빳하다|sert, dik (kumaş için)|빳빳한 셔츠=kolalı gömlek;빳빳한 종이=sert kâğıt
+무채색|nötr renk (siyah, gri, beyaz)|무채색 옷=nötr renkli kıyafet;무채색 계열=siyah-beyaz-gri tonları
+협상|müzakere, pazarlık|협상을 하다=pazarlık yapmak;협상이 결렬되다=müzakereler çökmek
+복장|kıyafet, giyim|복장을 갖추다=uygun kıyafet giymek;편한 복장=rahat kıyafet
+친근감|samimiyet, yakınlık hissi|친근감을 주다=samimi bir his vermek;친근감이 들다=yakınlık hissetmek
 #5
-부합하다|uygun olmak, örtüşmek
-조성하다|oluşturmak, kurmak (atmosfer, ortam)
-육체적|fiziksel
-정신적|zihinsel
-무기력|halsizlik, isteksizlik
-지속되다|devam etmek, sürmek
-소진증후군|tükenmişlik sendromu
-상태|durum
-의심하다|şüphelenmek
-증상|belirti
-불안감|kaygı, endişe
-일단|bir kez, önce
-앓다|hastalık geçirmek
-회복|iyileşme
-재충전|yeniden enerji kazanma
-심신|beden ve zihin
-자세|tutum, yaklaşım
-요구되다|gerekli olmak
-평소|günlük, sıradan zaman
-활력|yaşam enerjisi
-착용하다|takmak, giymek||takmak, giymek (özellikle aksesuar veya koruyucu ekipman)
-분석하다|analiz etmek
-치료법|tedavi yöntemi
-사전|önceden, önleyici
-야간|gece zamanı
-차선|yol çizgisi
-반사|yansıma
-특수하다|özel, özel amaçlı
-성능|performans, işlev
-강화하다|güçlendirmek
-유리알|cam tanecikleri
-불빛|ışık, far ışığı
-물려주다|devretmek, miras bırakmak
-사업체|işletme, ticari kuruluş
-집단|grup, topluluk
-상속|miras, devretme
-축적|biriktirme, edinme
-유형|tür, biçim
-상속형|miras yoluyla zenginleşmiş
-부자|zengin kişi
-절반|yarı, %50
-자녀|çocuklar
-의향|niyet, eğilim
-기회|fırsat
-자수성가형|kendi emeğiyle zenginleşmiş
-비법|sır, özel yöntem
-전수하다|aktarmak, öğretmek
-남다른|sıra dışı, olağanüstü
-인재|yetenekli kişi, nitelikli insan
+부합하다|uygun olmak, örtüşmek|기준에 부합하다=ölçütlere uymak;기대에 부합하다=beklentiyi karşılamak
+조성하다|oluşturmak, kurmak (atmosfer, ortam)|분위기를 조성하다=ortam oluşturmak;공원을 조성하다=park kurmak
+육체적|fiziksel|육체적 노동=bedensel çalışma;육체적으로 힘들다=fiziksel olarak zor olmak
+정신적|zihinsel|정신적 스트레스=zihinsel stres;정신적으로 지치다=ruhen yorulmak
+무기력|halsizlik, isteksizlik|무기력에 빠지다=halsizliğe düşmek;무기력한 상태=isteksiz durum
+지속되다|devam etmek, sürmek|더위가 지속되다=sıcaklar sürmek;효과가 지속되다=etkisi devam etmek
+소진증후군|tükenmişlik sendromu|소진증후군을 겪다=tükenmişlik sendromu yaşamak;소진증후군 증상=tükenmişlik belirtileri
+상태|durum|건강 상태=sağlık durumu;상태가 좋아지다=durumu iyileşmek
+의심하다|şüphelenmek|병을 의심하다=hastalıktan şüphelenmek;사람을 의심하다=birinden şüphelenmek
+증상|belirti|증상이 나타나다=belirti görülmek;감기 증상=soğuk algınlığı belirtisi
+불안감|kaygı, endişe|불안감을 느끼다=kaygı duymak;불안감이 커지다=endişe büyümek
+일단|bir kez, önce|일단 해 보다=önce bir denemek;일단 쉬다=önce dinlenmek
+앓다|hastalık geçirmek|감기를 앓다=soğuk algınlığı geçirmek;오래 앓다=uzun süre hasta yatmak
+회복|iyileşme|건강 회복=sağlığın düzelmesi;회복이 빠르다=çabuk iyileşmek
+재충전|yeniden enerji kazanma|재충전의 시간=yeniden enerji toplama zamanı;휴가로 재충전하다=tatille dinlenip güç toplamak
+심신|beden ve zihin|심신을 단련하다=beden ve zihni güçlendirmek;심신이 지치다=bedenen ve ruhen yorulmak
+자세|tutum, yaklaşım|긍정적인 자세=olumlu tutum;자세가 바르다=duruşu düzgün olmak
+요구되다|gerekli olmak|책임감이 요구되다=sorumluluk gerekmek;능력이 요구되다=yetenek aranmak
+평소|günlük, sıradan zaman|평소처럼=her zamanki gibi;평소에 운동하다=düzenli olarak spor yapmak
+활력|yaşam enerjisi|활력이 넘치다=enerji dolu olmak;활력을 되찾다=canlılığını geri kazanmak
+착용하다|takmak, giymek|안전모를 착용하다=baret takmak;마스크를 착용하다=maske takmak|takmak, giymek (özellikle aksesuar veya koruyucu ekipman)
+분석하다|analiz etmek|자료를 분석하다=veri analiz etmek;원인을 분석하다=nedeni incelemek
+치료법|tedavi yöntemi|새로운 치료법=yeni tedavi yöntemi;치료법을 개발하다=tedavi yöntemi geliştirmek
+사전|önceden, önleyici|사전 예약=ön rezervasyon;사전에 알리다=önceden haber vermek
+야간|gece zamanı|야간 운전=gece sürüşü;야간 근무=gece mesaisi
+차선|yol çizgisi|차선을 바꾸다=şerit değiştirmek;차선을 지키다=şeridinde kalmak
+반사|yansıma|빛의 반사=ışığın yansıması;반사가 되다=yansıtmak
+특수하다|özel, özel amaçlı|특수한 경우=özel durum;특수 장비=özel ekipman
+성능|performans, işlev|성능이 좋다=performansı iyi olmak;성능을 높이다=performansı artırmak
+강화하다|güçlendirmek|규제를 강화하다=denetimi sıkılaştırmak;체력을 강화하다=kondisyonu güçlendirmek
+유리알|cam tanecikleri|작은 유리알=küçük cam boncuk;유리알이 빛나다=cam tanecikleri parlamak
+불빛|ışık, far ışığı|불빛이 밝다=ışık parlak olmak;도시의 불빛=şehrin ışıkları
+물려주다|devretmek, miras bırakmak|자식에게 물려주다=çocuğuna miras bırakmak;재산을 물려주다=mal varlığını devretmek
+사업체|işletme, ticari kuruluş|사업체를 운영하다=işletme yönetmek;작은 사업체=küçük işletme
+집단|grup, topluluk|집단 생활=toplu yaşam;집단을 이루다=grup oluşturmak
+상속|miras, devretme|재산 상속=mal mirası;상속을 받다=miras almak
+축적|biriktirme, edinme|부의 축적=servet birikimi;경험의 축적=deneyim birikimi
+유형|tür, biçim|성격 유형=kişilik tipi;여러 유형=çeşitli türler
+상속형|miras yoluyla zenginleşmiş|상속형 부자=mirasla zengin olan;상속형 기업=aileden devralınan şirket
+부자|zengin kişi|부자가 되다=zengin olmak;부자 동네=zengin mahalle
+절반|yarı, %50|절반으로 줄다=yarıya inmek;절반 이상=yarıdan fazlası
+자녀|çocuklar|자녀를 키우다=çocuk büyütmek;자녀 교육=çocuk eğitimi
+의향|niyet, eğilim|구입 의향=satın alma niyeti;의향을 묻다=niyetini sormak
+기회|fırsat|기회를 잡다=fırsatı yakalamak;기회를 놓치다=fırsatı kaçırmak
+자수성가형|kendi emeğiyle zenginleşmiş|자수성가형 부자=kendi emeğiyle zengin olan;자수성가형 사업가=kendi başına yükselmiş iş insanı
+비법|sır, özel yöntem|성공 비법=başarının sırrı;요리 비법=yemek sırrı
+전수하다|aktarmak, öğretmek|기술을 전수하다=tekniği aktarmak;비법을 전수하다=sırrı öğretmek
+남다른|sıra dışı, olağanüstü|남다른 재능=sıra dışı yetenek;남다른 노력=olağanüstü çaba
+인재|yetenekli kişi, nitelikli insan|인재를 키우다=yetenek yetiştirmek;우수한 인재=nitelikli insan
 #6
-등용|göreve alma, istihdam etme
-한국형|Kore tarzı, Kore modeli
-쏟다|yoğunlaşmak, dökmek
-신간|yeni yayımlanmış kitap
-일종|bir tür, bir çeşit
-면모|yön, nitelik, karakter
-만일|eğer, diyelim ki
-탁월하다|üstün, mükemmel
-창제|yaratma, icat etme
-업적|başarı, eser
-신분|sosyal statü
-따지다|ayırt etmek, sorgulamak
-역량|yetenek
-기준|ölçüt, kıstas
-성인|yetişkin
-호기|cesaret, meydan okuma
-손짓|el hareketi, işaret
-추정되다|tahmin edilmek
-당연히|doğal olarak, elbette
-겁내다|korkmak
-허공|boşluk, hava
-휘젓다|sallamak, savurmak
-숨을 멈추다|nefesini tutmak
-풍덩|şapırt, suya düşme sesi
-망설이다|tereddüt etmek, kararsız kalmak
-나뭇잎|yaprak
-격려하다|cesaret vermek, teşvik etmek
-위로하다|teselli etmek, avutmak
-안도하다|rahatlamak, içi ferahlamak
-원망하다|suçlamak, içerlemek
-환경부|çevre Bakanlığı
-온실가스|sera gazı
-거래제|ticaret sistemi
-시행|yürütme, uygulama
-앞두다|öncesinde olmak, yaklaşmak
-총량|toplam miktar
-정하다|belirlemek/karar vermek, düzenlemek
-할당하다|tahsis etmek, paylaştırmak
-제도|sistem/düzenleme
-지구온난화|küresel ısınma
-업체별|şirketlere göre / firma bazında
-일정하다|belirli, sabit, düzenli
-모자라다|eksik olmak, yetersiz olmak
-사고팔다|사다 + 팔다 birleşimi: Alıp satmak
-성장률|büyüme oranını
-고려하다|dikkate almak, göz önünde bulundurmak
-지적|eleştiri, işaret etme, dikkat çekme
-악화|kötüleşme, bozulma
-경영|yönetim, işletme
+등용|göreve alma, istihdam etme|인재 등용=yetenekli kişileri göreve alma;관리로 등용되다=memur olarak atanmak
+한국형|Kore tarzı, Kore modeli|한국형 모델=Kore modeli;한국형 교육=Kore tarzı eğitim
+쏟다|yoğunlaşmak, dökmek|물을 쏟다=suyu dökmek;열정을 쏟다=tutkusunu vermek
+신간|yeni yayımlanmış kitap|신간 소설=yeni çıkan roman;신간이 나오다=yeni kitap çıkmak
+일종|bir tür, bir çeşit|일종의 놀이=bir tür oyun;일종의 습관=bir çeşit alışkanlık
+면모|yön, nitelik, karakter|새로운 면모=yeni bir yüzü;면모를 보이다=bir yönünü göstermek
+만일|eğer, diyelim ki|만일의 경우=olası bir durumda;만일 비가 오면=eğer yağmur yağarsa
+탁월하다|üstün, mükemmel|탁월한 능력=üstün yetenek;효과가 탁월하다=etkisi mükemmel olmak
+창제|yaratma, icat etme|한글 창제=Hangıl'ın icadı;창제 원리=yaratılış ilkesi
+업적|başarı, eser|업적을 남기다=eser bırakmak;위대한 업적=büyük başarı
+신분|sosyal statü|신분 제도=sınıf sistemi;신분을 밝히다=kimliğini açıklamak
+따지다|ayırt etmek, sorgulamak|잘잘못을 따지다=kimin haklı olduğunu sorgulamak;조건을 따지다=koşulları hesaba katmak
+역량|yetenek|역량을 키우다=yeteneğini geliştirmek;역량을 발휘하다=yeteneğini göstermek
+기준|ölçüt, kıstas|기준을 세우다=ölçüt belirlemek;기준에 맞다=ölçüte uymak
+성인|yetişkin|성인이 되다=yetişkin olmak;성인 요금=yetişkin ücreti
+호기|cesaret, meydan okuma|호기를 부리다=cesaret gösterisi yapmak;호기 있게 말하다=cesurca konuşmak
+손짓|el hareketi, işaret|손짓을 하다=el işareti yapmak;손짓으로 부르다=el sallayarak çağırmak
+추정되다|tahmin edilmek|원인으로 추정되다=neden olarak tahmin edilmek;천 년 전으로 추정되다=bin yıl öncesine tarihlenmek
+당연히|doğal olarak, elbette|당연히 해야 하다=elbette yapmak gerekmek;당연히 그렇다=doğal olarak öyle
+겁내다|korkmak|실패를 겁내다=başarısızlıktan korkmak;겁내지 마=korkma
+허공|boşluk, hava|허공을 바라보다=boşluğa bakmak;허공에 손을 휘젓다=havada el sallamak
+휘젓다|sallamak, savurmak|팔을 휘젓다=kollarını savurmak;물을 휘젓다=suyu karıştırmak
+숨을 멈추다|nefesini tutmak|잠시 숨을 멈추다=bir an nefesini tutmak;물속에서 숨을 멈추다=suyun altında nefesini tutmak
+풍덩|şapırt, suya düşme sesi|물에 풍덩 빠지다=suya şapırtıyla düşmek;풍덩 뛰어들다=suya atlamak
+망설이다|tereddüt etmek, kararsız kalmak|결정을 망설이다=karar vermekte tereddüt etmek;망설이지 말고=tereddüt etmeden
+나뭇잎|yaprak|나뭇잎이 떨어지다=yaprak düşmek;나뭇잎이 물들다=yapraklar renk değiştirmek
+격려하다|cesaret vermek, teşvik etmek|친구를 격려하다=arkadaşına cesaret vermek;격려의 말=cesaret verici söz
+위로하다|teselli etmek, avutmak|슬픈 친구를 위로하다=üzgün arkadaşını teselli etmek;위로의 말=teselli sözü
+안도하다|rahatlamak, içi ferahlamak|소식을 듣고 안도하다=haberi duyunca rahatlamak;안도의 한숨=rahat bir nefes
+원망하다|suçlamak, içerlemek|부모를 원망하다=anne babasına içerlemek;하늘을 원망하다=kaderine isyan etmek
+환경부|Çevre Bakanlığı|환경부 장관=Çevre Bakanı;환경부가 발표하다=Çevre Bakanlığı açıklamak
+온실가스|sera gazı|온실가스를 줄이다=sera gazını azaltmak;온실가스 배출=sera gazı salımı
+거래제|ticaret sistemi|배출권 거래제=emisyon ticaret sistemi;거래제를 도입하다=ticaret sistemini getirmek
+시행|yürütme, uygulama|시행에 들어가다=yürürlüğe girmek;법 시행=yasanın uygulanması
+앞두다|öncesinde olmak, yaklaşmak|시험을 앞두다=sınavın eşiğinde olmak;결혼을 앞두다=evlenmek üzere olmak
+총량|toplam miktar|배출 총량=toplam salım miktarı;총량을 제한하다=toplam miktarı sınırlamak
+정하다|belirlemek/karar vermek, düzenlemek|날짜를 정하다=tarih belirlemek;규칙을 정하다=kural koymak
+할당하다|tahsis etmek, paylaştırmak|예산을 할당하다=bütçe tahsis etmek;업무를 할당하다=görev paylaştırmak
+제도|sistem/düzenleme|제도를 도입하다=sistem getirmek;교육 제도=eğitim sistemi
+지구온난화|küresel ısınma|지구온난화를 막다=küresel ısınmayı önlemek;지구온난화의 원인=küresel ısınmanın nedeni
+업체별|şirketlere göre / firma bazında|업체별로 다르다=firmaya göre değişmek;업체별 할당량=firma bazında kota
+일정하다|belirli, sabit, düzenli|일정한 속도=sabit hız;온도가 일정하다=sıcaklık sabit olmak
+모자라다|eksik olmak, yetersiz olmak|돈이 모자라다=para yetmemek;잠이 모자라다=uykusunu alamamak
+사고팔다|alıp satmak|물건을 사고팔다=eşya alıp satmak;주식을 사고팔다=hisse alıp satmak
+성장률|büyüme oranı|경제 성장률=ekonomik büyüme oranı;성장률이 떨어지다=büyüme oranı düşmek
+고려하다|dikkate almak, göz önünde bulundurmak|상황을 고려하다=durumu dikkate almak;여러 가지를 고려하다=birçok şeyi göz önünde bulundurmak
+지적|eleştiri, işaret etme, dikkat çekme|지적을 받다=eleştiri almak;날카로운 지적=yerinde bir tespit
+악화|kötüleşme, bozulma|상황 악화=durumun kötüleşmesi;건강 악화=sağlığın bozulması
+경영|yönetim, işletme|경영 위기=yönetim krizi;경영을 맡다=yönetimi üstlenmek
 #7
 가동하다|çalıştırmak, faaliyete geçirmek
 도리어|aksine, tersine, bilakis

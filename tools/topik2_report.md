@@ -6,8 +6,12 @@ Oyuna alınan kelime: **2689** · tekrar edenler atlandı: 23
 | Önce | Sonra | Tür |
 |---|---|---|
 | 익논하다 | 의논하다 | yazım düzeltmesi |
+| 데우다 | anlam: “Çorbayı ısıtıp yedim” → “ısıtmak” | anlam düzeltmesi |
+| 온도 | anlam: “Sıcaklık çok düşük” → “sıcaklık” | anlam düzeltmesi |
 | 휘지르다 | 휘젓다 | yazım düzeltmesi |
 | 사고팔 | 사고팔다 | yazım düzeltmesi |
+| 사고팔다 | anlam: “사다 + 팔다 birleşimi: Alıp satmak” → “alıp satmak” | anlam düzeltmesi |
+| 성장률 | anlam: “Büyüme oranını” → “büyüme oranı” | anlam düzeltmesi |
 | 회열을 느끼다 | 희열을 느끼다 | yazım düzeltmesi |
 | 희열을 느끼다 | anlam: “gurur duymak” → “büyük bir sevinç duymak, coşmak” | anlam düzeltmesi |
 | 티끌 모아 태산 | anlam: “deyim olarak sabit” → “damlaya damlaya göl olur” | anlam düzeltmesi |
