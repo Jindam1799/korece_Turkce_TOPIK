@@ -3,7 +3,7 @@
  * "#" ile başlayan satır yeni bir bölüm (단원) başlatır.
  */
 (window.LEVELS=window.LEVELS||[]).push({id:'A1-A2',name:'A1–A2',text:`
-#1
+#1 · 자기소개와 교실 (tanışma ve sınıf)
 직업|meslek|직업이 뭐예요?=Mesleğiniz ne?;직업을 구하다=iş aramak
 회사원|ofis çalışanı|회사원이 되다=ofis çalışanı olmak;평범한 회사원=sıradan bir ofis çalışanı
 경찰|polis|경찰을 부르다=polis çağırmak;경찰서=karakol
@@ -47,7 +47,7 @@
 일흔|yetmiş|일흔 살=yetmiş yaş;일흔이 넘다=yetmişi geçmek
 여든|seksen|여든 살=seksen yaş;여든 개=seksen tane
 아흔|doksan|아흔 살=doksan yaş;아흔이 넘다=doksanı geçmek
-#2
+#2 · 날짜·날씨·계절 (tarih, hava, mevsim)
 공|top|공을 던지다=top atmak;공을 차다=topa vurmak (ayakla)
 지우개|silgi|지우개로 지우다=silgiyle silmek;지우개를 빌리다=silgi ödünç almak
 잔|bardak (sayaç)|커피 한 잔=bir fincan kahve;물 두 잔=iki bardak su
@@ -88,7 +88,7 @@
 아주|çok|아주 좋다=çok iyi;아주 맛있다=çok lezzetli
 자주|sık sık|자주 가다=sık sık gitmek;자주 만나다=sık sık buluşmak
 단풍|sonbahar yaprakları|단풍이 들다=yaprakların kızarması (renginin değişmesi);단풍 구경=sonbahar yapraklarını seyretmek
-#3
+#3 · 취미와 여가 (hobi ve boş zaman)
 활동|etkinlik, aktivite|야외 활동=açık hava etkinliği;활동을 하다=etkinlik yapmak
 미용실|kuaför|미용실에 가다=kuaföre gitmek;미용실에서 머리를 자르다=kuaförde saç kestirmek
 놀이공원|lunapark|놀이공원에 가다=lunaparka gitmek;놀이공원에서 놀다=lunaparkta eğlenmek
@@ -129,7 +129,7 @@
 옷장|elbise dolabı|옷장에 걸다=dolaba asmak;옷장을 정리하다=dolabı toplamak (düzenlemek)
 독서|kitap okuma|독서를 하다=kitap okumak;취미가 독서이다=hobim kitap okumaktır
 근처|civar, yakın|집 근처=evin yakını;근처에 있다=yakında olmak
-#4
+#4 · 옷차림과 장소 찾기 (giyim ve yer bulma)
 옷차림|kılık kıyafet|옷차림이 단정하다=kıyafeti düzgün;편한 옷차림=rahat kıyafet
 청바지|kot pantolon|청바지를 입다=kot pantolon giymek;찢어진 청바지=yırtık kot
 티셔츠|tişört|흰 티셔츠=beyaz tişört;티셔츠를 입다=tişört giymek
@@ -173,7 +173,7 @@
 주차장|otopark|주차장에 세우다=otoparka park etmek;지하 주차장=kapalı otopark
 건물|bina|높은 건물=yüksek bina;건물 안=binanın içi
 화장실|tuvalet|화장실에 가다=tuvalete gitmek;화장실이 어디예요?=Tuvalet nerededir?
-#5
+#5 · 교통과 여행 (ulaşım ve seyahat)
 무섭다|korkunç olmak, korkmak|영화가 무섭다=film korkunç;개가 무섭다=köpekten korkmak
 걸리다|sürmek (zaman)|시간이 걸리다=zaman almak;30분 걸리다=30 dakika sürmek
 저쪽|şu taraf|저쪽으로 가세요=şu tarafa gidin;저쪽에 있다=şu tarafta olmak
@@ -216,7 +216,7 @@
 경험|deneyim|좋은 경험=iyi bir deneyim;경험이 많다=deneyimi çok
 거리|cadde, sokak|거리를 걷다=caddede yürümek;번화한 거리=kalabalık cadde
 축제|festival|축제가 열리다=festival düzenlenmek;축제에 가다=festivale gitmek
-#6
+#6 · 몸과 건강 (vücut ve sağlık)
 전통 시장|geleneksel pazar|전통 시장을 구경하다=geleneksel pazarı gezmek;전통 시장에서 장을 보다=geleneksel pazardan alışveriş yapmak
 새롭다|yeni olmak|새로운 경험=yeni bir deneyim;새로운 친구=yeni arkadaş
 공연|gösteri, konser|공연을 보다=gösteri izlemek;공연이 시작되다=gösterinin başlaması
@@ -256,7 +256,7 @@
 기침|öksürük|기침을 하다=öksürmek;기침이 심하다=öksürüğü şiddetli
 몸|vücut|몸이 아프다=hasta olmak;몸에 좋다=sağlığa iyi gelmek
 새|yeni|새 옷=yeni kıyafet;새 차=yeni araba
-#7
+#7 · 생활과 모임 (günlük hayat ve buluşmalar)
 복잡하다|kalabalık, karışık olmak|길이 복잡하다=yol kalabalık;문제가 복잡하다=sorun karmaşık
 숙제|ödev|숙제를 하다=ödev yapmak;숙제를 내다=ödev vermek
 단어|kelime|단어를 외우다=kelime ezberlemek;새 단어=yeni kelime
@@ -304,7 +304,7 @@
 고등학교|lise|고등학교에 다니다=liseye gitmek;고등학교 때=lisedeyken
 입학식|okula başlama töreni|입학식에 참석하다=okula başlama törenine katılmak;대학교 입학식=üniversite giriş töreni
 표|bilet|표를 사다=bilet almak;기차 표=tren bileti
-#8
+#8 · 직업과 주말 (meslek ve hafta sonu)
 열심히|çok çalışarak, gayretle|열심히 공부하다=çok çalışmak (ders);열심히 일하다=gayretle çalışmak
 말|söz, laf|말을 하다=konuşmak;말이 많다=çok konuşkan
 교사|öğretmen|교사가 되다=öğretmen olmak;초등학교 교사=ilkokul öğretmeni
@@ -346,7 +346,7 @@
 양말|çorap|양말을 신다=çorap giymek;양말을 벗다=çorabı çıkarmak
 정장 바지|kumaş pantolon|정장 바지를 입다=kumaş pantolon giymek;검은 정장 바지=siyah kumaş pantolon
 반바지|şort|반바지를 입다=şort giymek;여름 반바지=yazlık şort
-#9
+#9 · 집과 기분 (ev ve duygular)
 입다|giymek (kıyafet)|옷을 입다=kıyafet giymek;치마를 입다=etek giymek
 하다|takmak (kravat, aksesuar)|넥타이를 하다=kravat takmak;목걸이를 하다=kolye takmak
 끼다|takmak (eldiven, yüzük)|장갑을 끼다=eldiven takmak;반지를 끼다=yüzük takmak
@@ -385,7 +385,7 @@
 얼굴이 붓다|yüzü şişmek|아침에 얼굴이 붓다=sabah yüzü şişmek;라면을 먹고 얼굴이 붓다=ramen yiyince yüzü şişmek
 눈이 붓다|gözleri şişmek|울어서 눈이 붓다=ağladığı için gözleri şişmek;눈이 퉁퉁 붓다=gözleri kocaman şişmek
 잠이 안 오다|uyuyamamak|밤에 잠이 안 오다=gece uyuyamamak;걱정 때문에 잠이 안 오다=endişeden uyuyamamak
-#10
+#10 · 음식과 물건 (yemek ve eşyalar)
 달다|tatlı olmak (tat)|케이크가 달다=pasta tatlı;너무 달다=çok tatlı
 낫다|iyileşmek|감기가 낫다=soğuk algınlığı geçmek;빨리 나으세요=geçmiş olsun
 짓다|inşa etmek, yapmak|집을 짓다=ev yapmak;밥을 짓다=pilav pişirmek
@@ -430,7 +430,7 @@
 확인하다|kontrol etmek|메일을 확인하다=e-postayı kontrol etmek;시간을 확인하다=saati kontrol etmek
 알아보다|araştırmak|가격을 알아보다=fiyat araştırmak;방법을 알아보다=yöntem araştırmak
 열다|açmak (kapı, pencere)|문을 열다=kapıyı açmak;창문을 열다=pencereyi açmak
-#11
+#11 · 여행 계획과 길 안내 (seyahat planı ve yol tarifi)
 여행지|gezilecek yer|여행지를 고르다=gezi yeri seçmek;인기 여행지=popüler tatil yeri
 숙소|konaklama yeri|숙소를 예약하다=konaklama yeri ayırtmak;숙소에 묵다=konaklama yerinde kalmak
 교통편|ulaşım imkânı|교통편을 알아보다=ulaşım imkânlarını araştırmak;교통편이 좋다=ulaşımı kolay
@@ -470,7 +470,7 @@
 예정|plan, program (beklenen)|출발 예정=kalkış planı;예정대로=plana göre
 걸어오다|yürüyerek gelmek|집까지 걸어오다=eve yürüyerek gelmek;여기까지 걸어오다=buraya yürüyerek gelmek
 멀리|uzağa, uzakta|멀리 가다=uzağa gitmek;멀리 살다=uzakta yaşamak
-#12
+#12 · 선물과 감정 (hediye ve duygular)
 나오다|çıkmak, gelmek|밖으로 나오다=dışarı çıkmak;결과가 나오다=sonuç çıkmak
 정문|ana giriş|학교 정문=okulun ana girişi;정문에서 만나다=ana girişte buluşmak
 대왕|büyük kral|세종 대왕=Kral Sejong;대왕의 업적=büyük kralın başarıları
@@ -512,7 +512,7 @@
 이기다|kazanmak (yarışma)|경기에서 이기다=maçı kazanmak;싸움에서 이기다=kavgayı kazanmak
 지다|kaybetmek (yarışma)|경기에서 지다=maçı kaybetmek;아깝게 지다=kıl payı kaybetmek
 사귀다|arkadaş edinmek, çıkmak|친구를 사귀다=arkadaş edinmek;여자 친구를 사귀다=kız arkadaşla çıkmak
-#13
+#13 · 공공장소 예절 (toplum içi kurallar)
 자리|yer, koltuk|자리에 앉다=yerine oturmak;자리가 없다=yer yok
 바꾸다|değiştirmek|옷을 바꾸다=kıyafeti değiştirmek;자리를 바꾸다=yer değiştirmek
 앞자리|ön koltuk|앞자리에 앉다=ön koltuğa oturmak;앞자리를 맡다=ön tarafta yer tutmak
@@ -554,7 +554,7 @@
 깨끗이|temizce|깨끗이 씻다=temizce yıkamak;깨끗이 치우다=tertemiz toplamak
 입구|giriş|입구에서 기다리다=girişte beklemek;지하철 입구=metro girişi
 복습|tekrar (ders)|복습을 하다=tekrar yapmak;예습과 복습=ön hazırlık ve tekrar
-#14
+#14 · 성격과 외모 (kişilik ve görünüş)
 성격|kişilik, karakter|성격이 좋다=karakteri iyi;성격이 밝다=neşeli bir karakteri var
 착하다|iyi kalpli olmak|착한 사람=iyi kalpli insan;마음이 착하다=kalbi iyi
 부지런하다|çalışkan olmak|부지런한 학생=çalışkan öğrenci;부지런하게 일하다=gayretle çalışmak
@@ -596,7 +596,7 @@
 마음이 따뜻하다|sıcak kalpli olmak|마음이 따뜻한 사람=sıcak kalpli insan;선생님은 마음이 따뜻하다=öğretmen çok sıcakkanlı
 마음이 넓다|hoşgörülü olmak|마음이 넓은 사람=hoşgörülü insan;이해심이 많고 마음이 넓다=anlayışlı ve hoşgörülü olmak
 마음이 잘 맞다|uyuşmak, anlaşmak|룸메이트와 마음이 잘 맞다=oda arkadaşıyla iyi anlaşmak;마음이 잘 맞는 친구=can dostu
-#15
+#15 · 한국 생활과 경험 (Kore'de yaşam)
 저희|biz (alçakgönüllü)|저희 집=bizim ev;저희 회사=bizim şirket
 기숙사|yurt|기숙사에 살다=yurtta kalmak;학교 기숙사=okul yurdu
 이후|sonra|졸업 이후=mezuniyetten sonra;그 이후로=ondan sonra
@@ -655,13 +655,13 @@
 미래|gelecek|미래의 꿈=gelecek hayali;밝은 미래=parlak gelecek
 역시|tahmin edildiği gibi, yine|역시 맛있다=tahmin ettiğim gibi lezzetli;역시 최고다=yine en iyisi
 외롭다|yalnız hissetmek|혼자 있어서 외롭다=tek başına olduğu için yalnız hissetmek;외로운 밤=yalnız gece
-#Gün sayma
+#날 세기 (gün sayma)
 이틀|iki gün|이틀 동안=iki gün boyunca;이틀 후=iki gün sonra
 사흘|üç gün|사흘 동안=üç gün boyunca;사흘 만에=üç gün sonra (nihayet)
 나흘|dört gün|나흘 동안=dört gün boyunca;나흘째=dördüncü gün
 닷새|beş gün|닷새 동안=beş gün boyunca;닷새 후=beş gün sonra
 열흘|on gün|열흘 동안=on gün boyunca;열흘 뒤=on gün sonra
-#Saygı dili
+#높임말 (saygı dili)
 계시다|bulunmak (saygı · 있다)|집에 계시다=evde bulunmak (saygılı);안녕히 계세요=hoşça kalın
 편찮으시다|rahatsız olmak (saygı · 아프다)|할머니가 편찮으시다=büyükanne rahatsız (hasta);많이 편찮으세요?=Çok mu rahatsızsınız?
 성함|isim (saygı · 이름)|성함이 어떻게 되세요?=İsminiz nedir?;성함을 여쭙다=ismini sormak (saygılı)
@@ -677,7 +677,7 @@
 뵙다|görmek, buluşmak (saygı · 만나다)|처음 뵙겠습니다=tanıştığımıza memnun oldum;선생님을 뵙다=öğretmenle görüşmek
 분|kişi (saygı · 사람)|두 분=iki kişi (saygılı);이 분=bu kişi (saygılı)
 말씀|söz (saygı · 말)|말씀 많이 들었어요=sizden çok bahsedildi;좋은 말씀=güzel söz
-#Renkler
+#색깔 (renkler)
 금색|altın rengi|금색 반지=altın renkli yüzük;금색으로 칠하다=altın rengine boyamak
 은색|gümüş rengi|은색 자동차=gümüş renkli araba;은색 목걸이=gümüş renkli kolye
 흰색|beyaz|흰색 셔츠=beyaz gömlek;흰색 벽=beyaz duvar
@@ -693,14 +693,14 @@
 초록색|yeşil|초록색 잎=yeşil yaprak;초록색 신호=yeşil ışık
 남색|lacivert|남색 바지=lacivert pantolon;남색 교복=lacivert okul forması
 색깔|renk|좋아하는 색깔=sevdiğim renk;색깔이 예쁘다=rengi güzel olmak
-#Yön · Konum
+#방향과 위치 (yön ve konum)
 건너편|karşı taraf|길 건너편=yolun karşı tarafı;건너편 건물=karşıdaki bina
 밖|dış|밖에 나가다=dışarı çıkmak;창문 밖=pencerenin dışı
 가운데|orta|가운데에 서다=ortada durmak;방 가운데=odanın ortası
 엘리베이터|asansör|엘리베이터를 타다=asansöre binmek;엘리베이터가 고장 나다=asansör bozulmak
 이쪽|bu taraf|이쪽으로 오세요=bu tarafa gelin;이쪽이 제 친구예요=bu benim arkadaşım
 위치|konum|위치를 확인하다=konumu kontrol etmek;위치가 좋다=konumu iyi
-#Vücut
+#신체 (vücut)
 이마|alın|이마가 넓다=alnı geniş;이마에 땀이 나다=alnı terlemek
 엉덩이|kalça|엉덩이가 아프다=kalçası ağrımak;엉덩이를 흔들다=kalçasını sallamak
 머리|baş, kafa|머리가 아프다=başı ağrımak;머리를 감다=saçını yıkamak
@@ -735,7 +735,7 @@
 폐|akciğer|폐가 건강하다=akciğeri sağlıklı;폐에 나쁘다=akciğere zararlı
 간|karaciğer|간이 나쁘다=karaciğeri kötü;간 건강=karaciğer sağlığı
 신장|böbrek|신장이 약하다=böbrekleri zayıf;신장 기능=böbrek fonksiyonu
-#Sayma birimleri
+#단위 명사 (sayma birimleri)
 개|tane|사과 세 개=üç tane elma;몇 개예요?=Kaç tane?
 통|bütün (karpuz vb.), kutu|수박 한 통=bir bütün karpuz;우유 한 통=bir kutu süt
 송이|salkım, dal (çiçek)|포도 한 송이=bir salkım üzüm;장미 한 송이=bir dal gül
@@ -749,7 +749,7 @@
 다발|demet|꽃 한 다발=bir demet çiçek;꽃다발을 받다=çiçek buketi almak
 자루|adet (kalem vb.)|연필 한 자루=bir kalem;볼펜 세 자루=üç tükenmez kalem
 그릇|kap, kâse|밥 한 그릇=bir kâse pilav;국 한 그릇=bir kâse çorba
-#Hayvan · Bitki
+#동물과 식물 (hayvan ve bitki)
 나무|ağaç|나무를 심다=ağaç dikmek;큰 나무=büyük ağaç
 오리|ördek|오리가 헤엄치다=ördek yüzmek;오리 고기=ördek eti
 사자|aslan|사자가 울다=aslan kükremesi;무서운 사자=korkunç aslan
@@ -837,7 +837,7 @@
 꽃|çiçek|꽃이 피다=çiçek açmak;꽃을 선물하다=çiçek hediye etmek
 나뭇가지|ağaç dalı|나뭇가지가 부러지다=dalın kırılması;나뭇가지에 앉다=dala konmak
 나뭇잎|ağaç yaprağı|나뭇잎이 떨어지다=yaprak dökülmesi;노란 나뭇잎=sarı yaprak
-#Sayılar
+#숫자 (sayılar)
 영|sıfır|영점=sıfır puan;영하=sıfırın altı
 하나|bir (öz Korece)|하나, 둘, 셋=bir, iki, üç;하나 더 주세요=bir tane daha verin
 둘|iki (öz Korece)|둘이서=ikimiz;둘 다=ikisi de
@@ -864,7 +864,7 @@
 만|on bin|만 원=on bin won;만 명=on bin kişi
 십만|yüz bin|십만 원=yüz bin won;십만 명=yüz bin kişi
 백만|bir milyon|백만 원=bir milyon won;백만 명=bir milyon kişi
-#Zaman · Takvim
+#시간과 달력 (zaman ve takvim)
 월요일|pazartesi|월요일 아침=pazartesi sabahı;다음 주 월요일=gelecek pazartesi
 화요일|salı|화요일에 만나다=salı günü buluşmak;매주 화요일=her salı
 수요일|çarşamba|수요일 오후=çarşamba öğleden sonra;이번 수요일=bu çarşamba
