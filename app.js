@@ -69,7 +69,7 @@ tr:{sub:'Korece kelime ormanı · A1–B2',a2hsT:'📲 Ana ekrana ekle (uygulama
  namePh:'Bitki arkadaşının adı (isteğe bağlı)',chromeTxt:'Bir uygulamanın içindeki tarayıcıdasın. Sesli okuma için Chrome\'da açman daha iyi olur.',openChrome:'Chrome\'da aç',copy:'Kopyala',copied:'Kopyalandı ✓',
  rights:'Tüm hakları saklıdır.',biz:'İş birliği',
  credit:'Kelime listesi: Aslıhan Erdoğan · Karakter çizimleri: 덩어리숲',
- settings:'Ayarlar',lang:'Dil',roundSize:'Bir turdaki kelime',sizeAll:'Tümü',sound:'Ses',autoOn:'Kelimeyi otomatik oku: Açık',autoOff:'Kelimeyi otomatik oku: Kapalı',test:'Sesi dene',voiceH:'Ses seçimi',vAuto:'Otomatik (kadın sesi)',vGT:'Google Çeviri sesi (kadın · internet)',vMale:'Erkek sesi',vOnline:'çevrimiçi',noVoice:'Bu tarayıcıda Korece ses bulunamadı. Chrome\'da Google 한국의 sesini kullanabilirsin.',speedH:'Okuma hızı',rSlow2:'Çok yavaş',rSlow:'Yavaş',rNorm:'Normal',name:'Bitki arkadaşının adı',
+ settings:'Ayarlar',lang:'Dil',roundSize:'Bir turdaki kelime',sizeAll:'Tümü',sound:'Ses',autoOn:'Kelimeyi otomatik oku: Açık',autoOff:'Kelimeyi otomatik oku: Kapalı',test:'Sesi dene',voiceH:'Ses seçimi',vAuto:'Otomatik (kadın sesi)',vGT:'Google Çeviri sesi (kadın · internet)',vMale:'Erkek sesi',vHQ:'gelişmiş',vHQ2:'premium',vOnline:'çevrimiçi',noVoice:'Bu tarayıcıda Korece ses bulunamadı. Chrome\'da Google 한국의 sesini kullanabilirsin.',speedH:'Okuma hızı',rSlow2:'Çok yavaş',rSlow:'Yavaş',rNorm:'Normal',name:'Bitki arkadaşının adı',
  look:'Görünüm',stacheOn:'Bıyık: Var',stacheOff:'Bıyık: Yok',
  reset:'İlerlemeyi sıfırla',resetSure:'Emin misin? Tekrar dokun',msg:'Mesaj',settingsA:'Ayarlar',quit:'Çık',listen:'Dinle',
  lvUp:'Seviye atladın!',lvSub:n=>`Artık Lv.${n}`,great:'Harika!',
@@ -115,7 +115,7 @@ ko:{sub:'한국어 단어의 숲 · A1–B2',a2hsT:'📲 홈 화면에 추가하
  namePh:'식물 친구 이름 (선택)',chromeTxt:'앱 안의 브라우저에서는 음성이 안 나올 수 있어요. Chrome에서 여는 게 좋아요.',openChrome:'Chrome에서 열기',copy:'복사',copied:'복사됨 ✓',
  rights:'All rights reserved.',biz:'비즈니스 협업',
  credit:'단어 자료: Aslıhan Erdoğan · 캐릭터 그림: 덩어리숲',
- settings:'설정',lang:'언어',roundSize:'한 판 단어 수',sizeAll:'전체',sound:'소리',autoOn:'단어 자동 읽기: 켜짐',autoOff:'단어 자동 읽기: 꺼짐',test:'소리 들어 보기',voiceH:'목소리 선택',vAuto:'자동 (여성 목소리)',vGT:'구글 번역 목소리 (여성 · 인터넷)',vMale:'남자 목소리',vOnline:'온라인',noVoice:'이 브라우저에는 한국어 음성이 없어요. Chrome의 Google 한국의 음성을 쓸 수 있어요.',speedH:'읽기 속도',rSlow2:'아주 느리게',rSlow:'느리게',rNorm:'보통',name:'식물 친구 이름',
+ settings:'설정',lang:'언어',roundSize:'한 판 단어 수',sizeAll:'전체',sound:'소리',autoOn:'단어 자동 읽기: 켜짐',autoOff:'단어 자동 읽기: 꺼짐',test:'소리 들어 보기',voiceH:'목소리 선택',vAuto:'자동 (여성 목소리)',vGT:'구글 번역 목소리 (여성 · 인터넷)',vMale:'남자 목소리',vHQ:'고음질',vHQ2:'프리미엄',vOnline:'온라인',noVoice:'이 브라우저에는 한국어 음성이 없어요. Chrome의 Google 한국의 음성을 쓸 수 있어요.',speedH:'읽기 속도',rSlow2:'아주 느리게',rSlow:'느리게',rNorm:'보통',name:'식물 친구 이름',
  look:'꾸미기',stacheOn:'콧수염: 있음',stacheOff:'콧수염: 없음',
  reset:'기록 초기화',resetSure:'정말요? 한 번 더 누르세요',msg:'메시지',quit:'그만하기',listen:'듣기',
  lvUp:'레벨 업!',lvSub:n=>`이제 Lv.${n}`,great:'좋아요!',
@@ -129,7 +129,7 @@ ko:{sub:'한국어 단어의 숲 · A1–B2',a2hsT:'📲 홈 화면에 추가하
  way:'갈래'}
 };
 TX.ko.route=Object.fromEntries(Object.values(CH.GROWTH).flatMap(g=>g.routes.map(r=>[r.id,r.final])));
-let S={music:true,vol:45,lang:'tr',xp:0,level:1,name:'',pet:'',route:'',branch:'',mem:{},retry:[],lv:LEVELS[0].id,unit:'all',timer:true,size:10,auto:true,best:0,stache:true,voice:'',rate:.9};
+let S={music:true,vol:45,lang:'tr',xp:0,level:1,name:'',pet:'',route:'',branch:'',mem:{},retry:[],lv:LEVELS[0].id,unit:'all',timer:true,size:10,auto:true,best:0,stache:true,voice:'',rate:1};
 try{Object.assign(S,JSON.parse(localStorage.getItem('deongeoriForestTR2')||'{}'))}catch(e){}
 if(S.size!==0&&S.size!==10)S.size=10;
 S.retry=S.retry.filter(id=>BYID.has(id));if(!LEVELS.some(L=>L.id===S.lv))S.lv=LEVELS[0].id;
@@ -611,6 +611,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
+ ['1.10','2026-11-25',{tr:['Aynı sesin iki kez görünmesi düzeltildi','Okuma hızları arasındaki fark büyütüldü','Yeni fon müziği: daha aydınlık, Rast makamında ney, bağlama, kanun ve bendir'],ko:['같은 목소리가 두 번 보이던 문제 수정','읽기 속도 차이를 더 크게 조정','새 배경 음악: 더 밝은 라스트(Rast) 음계의 네이·바을라마·카눈·벤디르']}],
  ['1.9','2026-11-25',{tr:['Yeni sesler: Google Çeviri sesi (internet gerekir) ve Erkek sesi'],ko:['새 목소리: 구글 번역 목소리(인터넷 필요), 남자 목소리']}],
  ['1.8','2026-11-25',{tr:['Bir turdaki kelime: 10 ya da Tümü (seçili bölümün tüm kelimeleri)'],ko:['한 판 단어 수: 10개 또는 전체(고른 단원의 모든 단어)']}],
  ['1.7','2026-11-25',{tr:['Ses seçimi: Chrome\'un Google 한국의 sesi dahil, cihazdaki tüm Korece sesler','Okuma hızı: Çok yavaş / Yavaş / Normal'],ko:['목소리 선택: Chrome의 Google 한국의 음성 포함, 기기의 모든 한국어 음성','읽기 속도: 아주 느리게 / 느리게 / 보통']}],
@@ -629,61 +630,79 @@ $('bNotesOk').onclick=()=>{$('mNotes').hidden=true};
 
 // ---------- arka plan müziği (WebAudio ile üretilir) ----------
 const BGM=(()=>{
- // Türk halk müziği esintili, dinlendirici fon müziği: Hicaz makamı, saz, ney ve hafif darbuka (9/8 aksak)
+ // Türk halk müziği esintili, aydınlık ve dinlendirici fon müziği: Rast makamı (Sol), ney, bağlama, kanun ve yumuşak bendir
  let ctx=null,master=null,duckG=null,bus=null,timer=null,step=0,next=0,on=false,noise=null;
- const E=0.3;// sekizlik süresi (sn)
+ const E=0.34;// sekizlik süresi (sn) ≈ 88 bpm
  const N=m=>440*Math.pow(2,(m-69)/12);
- const HICAZ=[62,63,66,67,69,70,72,74,75,78,79];// Re Mi♭ Fa# Sol La Si♭ Do Re …
- let idx=4,phrase=0;
- function reverb(){const len=ctx.sampleRate*3,b=ctx.createBuffer(2,len,ctx.sampleRate);for(let c=0;c<2;c++){const d=b.getChannelData(c);for(let i=0;i<len;i++)d[i]=(Math.random()*2-1)*Math.pow(1-i/len,2.6)}const r=ctx.createConvolver();r.buffer=b;return r}
+ // Rast: Sol La Si(biraz pes) Do Re Mi Fa#(biraz pes) Sol …
+ const RAST=[55,57,58.8,60,62,64,65.85,67,69,70.8,72,74,76,77.85,79];
+ const deg=d=>RAST[d+7];// 0 = Sol4 (67)
+ // Bir ölçü = 8 sekizlik. [derece, süre]
+ const OPEN=[[[4,2],[5,1],[4,1],[3,2],[2,2]],[[0,1],[2,1],[4,2],[5,2],[4,1],[2,1]],[[2,1],[3,1],[4,2],[5,2],[4,2]],[[4,2],[4,1],[5,1],[6,2],[7,2]],[[7,3],[6,1],[5,2],[4,2]],[[5,1],[4,1],[3,1],[2,1],[3,2],[4,2]]];
+ const MID=[[[3,2],[4,1],[3,1],[2,2],[1,2]],[[5,2],[4,2],[3,2],[4,2]],[[1,1],[2,1],[3,2],[4,3],[3,1]],[[6,2],[5,1],[4,1],[5,4]]];
+ const CAD=[[[3,2],[2,1],[1,1],[2,2],[0,2]],[[2,1],[1,1],[0,2],[0,4]],[[4,2],[2,1],[1,1],[0,4]]];
+ const CHORDS=[[43,50,55],[48,55,60],[50,57,62],[43,50,55]];// Sol – Do – Re – Sol
+ let section=[],lead='ney';
+ const pick=a=>a[Math.random()*a.length|0];
+ function newSection(){section=[pick(OPEN),pick(MID),pick(OPEN),pick(CAD)];lead=Math.random()<.6?'ney':'saz'}
+ function reverb(){const len=ctx.sampleRate*3,b=ctx.createBuffer(2,len,ctx.sampleRate);for(let c=0;c<2;c++){const d=b.getChannelData(c);for(let i=0;i<len;i++)d[i]=(Math.random()*2-1)*Math.pow(1-i/len,2.4)}const r=ctx.createConvolver();r.buffer=b;return r}
  function init(){
   ctx=new (window.AudioContext||window.webkitAudioContext)();
   master=ctx.createGain();master.gain.value=0;duckG=ctx.createGain();bus=ctx.createGain();bus.connect(duckG);
-  const rv=reverb(),wet=ctx.createGain();wet.gain.value=.5;duckG.connect(master);duckG.connect(rv);rv.connect(wet);wet.connect(master);master.connect(ctx.destination);
+  const rv=reverb(),wet=ctx.createGain();wet.gain.value=.55;duckG.connect(master);duckG.connect(rv);rv.connect(wet);wet.connect(master);master.connect(ctx.destination);
   const len=ctx.sampleRate;noise=ctx.createBuffer(1,len,ctx.sampleRate);const d=noise.getChannelData(0);for(let i=0;i<len;i++)d[i]=Math.random()*2-1;
  }
- // Re ve La üzerinde yumuşak dem (drone)
- function drone(t,dur){
-  [[38,.05],[45,.035],[50,.025]].forEach(([m,v])=>{const o=ctx.createOscillator(),g=ctx.createGain(),f=ctx.createBiquadFilter();
-   o.type='sawtooth';o.frequency.value=N(m);f.type='lowpass';f.frequency.value=420;
-   g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(v,t+1.5);g.gain.setValueAtTime(v,t+dur-1);g.gain.linearRampToValueAtTime(0,t+dur+.6);
-   o.connect(f);f.connect(g);g.connect(bus);o.start(t);o.stop(t+dur+.7)});
+ // yumuşak, sıcak dem: akorun kökü ve beşlisi
+ function pad(ch,t,dur){
+  ch.forEach((m,i)=>{const o=ctx.createOscillator(),g=ctx.createGain(),f=ctx.createBiquadFilter();
+   o.type=i?'triangle':'sawtooth';o.frequency.value=N(m);o.detune.value=i*3;f.type='lowpass';f.frequency.value=i?900:380;
+   const v=[.04,.03,.018][i];
+   g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(v,t+.8);g.gain.setValueAtTime(v,t+dur-.4);g.gain.linearRampToValueAtTime(0,t+dur+.5);
+   o.connect(f);f.connect(g);g.connect(bus);o.start(t);o.stop(t+dur+.6)});
  }
- // Saz (bağlama) gibi tellerin çekilmesi
- function saz(m,t,v=.09){
-  const f=ctx.createBiquadFilter();f.type='lowpass';f.Q.value=4;f.frequency.setValueAtTime(3200,t);f.frequency.exponentialRampToValueAtTime(700,t+.6);
-  const g=ctx.createGain();g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(v,t+.004);g.gain.exponentialRampToValueAtTime(.0008,t+1.4);
-  [0,7,-5].forEach((det,i)=>{const o=ctx.createOscillator();o.type=i?'triangle':'sawtooth';o.frequency.value=N(m)*(i===2?2:1);o.detune.setValueAtTime(det+(Math.random()<.25?-60:0),t);o.detune.linearRampToValueAtTime(det,t+.06);
-   const og=ctx.createGain();og.gain.value=i===2?.25:.6;o.connect(og);og.connect(f);o.start(t);o.stop(t+1.5)});
+ // bağlama: parlak tel; uzun notalarda tezene tremolosu
+ function saz(m,t,v=.08,len=1.2){
+  const f=ctx.createBiquadFilter();f.type='lowpass';f.Q.value=3;f.frequency.setValueAtTime(4200,t);f.frequency.exponentialRampToValueAtTime(900,t+.5);
+  const g=ctx.createGain();g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(v,t+.004);g.gain.exponentialRampToValueAtTime(.0008,t+len);
+  [[0,'sawtooth',.5,1],[6,'triangle',.6,1],[-4,'triangle',.22,2]].forEach(([det,ty,gv,mul])=>{const o=ctx.createOscillator();o.type=ty;o.frequency.value=N(m)*mul;o.detune.value=det;
+   const og=ctx.createGain();og.gain.value=gv;o.connect(og);og.connect(f);o.start(t);o.stop(t+len+.1)});
   f.connect(g);g.connect(bus);
  }
- // Ney gibi nefesli uzun ses
- function ney(m,t,dur){
+ function sazNote(m,t,dur,v){if(dur<=E*1.5){saz(m,t,v);return}const n=Math.round(dur/(E/2));for(let i=0;i<n;i++)saz(m,t+i*E/2,v*(i?(i%2?.55:.7):1),.45)}
+ // ney: nefesli, hafif vibratolu
+ function ney(m,t,dur,v=.055){
   const o=ctx.createOscillator(),o2=ctx.createOscillator(),g=ctx.createGain(),lfo=ctx.createOscillator(),lg=ctx.createGain();
-  o.type='sine';o2.type='triangle';o.frequency.value=N(m);o2.frequency.value=N(m);lfo.frequency.value=5;lg.gain.value=6;lfo.connect(lg);lg.connect(o.detune);lg.connect(o2.detune);
-  const g2=ctx.createGain();g2.gain.value=.25;
-  g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(.06,t+.35);g.gain.setValueAtTime(.06,t+dur-.4);g.gain.linearRampToValueAtTime(0,t+dur+.2);
-  const n=ctx.createBufferSource(),bp=ctx.createBiquadFilter(),ng=ctx.createGain();n.buffer=noise;n.loop=true;bp.type='bandpass';bp.frequency.value=N(m)*2;bp.Q.value=2;ng.gain.value=.012;
+  o.type='sine';o2.type='triangle';o.frequency.value=N(m);o2.frequency.value=N(m);lfo.frequency.value=4.6;lg.gain.setValueAtTime(0,t);lg.gain.linearRampToValueAtTime(7,t+Math.min(.5,dur*.6));lfo.connect(lg);lg.connect(o.detune);lg.connect(o2.detune);
+  o.detune.setValueAtTime(-35,t);o.detune.linearRampToValueAtTime(0,t+.09);
+  const g2=ctx.createGain();g2.gain.value=.22;
+  g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(v,t+.08);g.gain.setValueAtTime(v,t+Math.max(.1,dur-.12));g.gain.linearRampToValueAtTime(0,t+dur+.15);
+  const n=ctx.createBufferSource(),bp=ctx.createBiquadFilter(),ng=ctx.createGain();n.buffer=noise;n.loop=true;bp.type='bandpass';bp.frequency.value=N(m)*2;bp.Q.value=2.5;ng.gain.value=.01;
   o.connect(g);o2.connect(g2);g2.connect(g);n.connect(bp);bp.connect(ng);ng.connect(g);g.connect(bus);
-  [o,o2,lfo,n].forEach(x=>{x.start(t);x.stop(t+dur+.3)});
+  [o,o2,lfo,n].forEach(x=>{x.start(t);x.stop(t+dur+.25)});
  }
- // Darbuka: düm (pes) ve tek (tiz), çok hafif
- function dum(t,v=.16){const o=ctx.createOscillator(),g=ctx.createGain();o.type='sine';o.frequency.setValueAtTime(110,t);o.frequency.exponentialRampToValueAtTime(52,t+.18);
-  g.gain.setValueAtTime(v,t);g.gain.exponentialRampToValueAtTime(.001,t+.35);o.connect(g);g.connect(bus);o.start(t);o.stop(t+.4)}
- function tek(t,v=.05){const n=ctx.createBufferSource(),f=ctx.createBiquadFilter(),g=ctx.createGain();n.buffer=noise;f.type='bandpass';f.frequency.value=3400;f.Q.value=1.4;
-  g.gain.setValueAtTime(v,t);g.gain.exponentialRampToValueAtTime(.001,t+.06);n.connect(f);f.connect(g);g.connect(bus);n.start(t);n.stop(t+.08)}
- const RHY={0:'D',2:'T',4:'T',6:'D',7:'t'};// 9/8: 2+2+2+3
- function walk(){const r=Math.random();idx+=r<.35?-1:r<.7?1:r<.82?-2:r<.94?2:0;idx=Math.max(0,Math.min(HICAZ.length-1,idx));return HICAZ[idx]}
+ // kanun: tiz, ışıltılı çekme
+ function kanun(m,t,v=.035){const o=ctx.createOscillator(),o2=ctx.createOscillator(),g=ctx.createGain();o.type='triangle';o2.type='sine';o.frequency.value=N(m);o2.frequency.value=N(m)*2;
+  const g2=ctx.createGain();g2.gain.value=.3;g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(v,t+.003);g.gain.exponentialRampToValueAtTime(.0006,t+.9);
+  o.connect(g);o2.connect(g2);g2.connect(g);g.connect(bus);o.start(t);o2.start(t);o.stop(t+1);o2.stop(t+1)}
+ // bendir: yumuşak düm ve parmak tek
+ function dum(t,v=.12){const o=ctx.createOscillator(),g=ctx.createGain();o.type='sine';o.frequency.setValueAtTime(95,t);o.frequency.exponentialRampToValueAtTime(55,t+.25);
+  g.gain.setValueAtTime(v,t);g.gain.exponentialRampToValueAtTime(.001,t+.45);o.connect(g);g.connect(bus);o.start(t);o.stop(t+.5)}
+ function tek(t,v=.03){const n=ctx.createBufferSource(),f=ctx.createBiquadFilter(),g=ctx.createGain();n.buffer=noise;f.type='bandpass';f.frequency.value=2600;f.Q.value=1.1;
+  g.gain.setValueAtTime(v,t);g.gain.exponentialRampToValueAtTime(.001,t+.08);n.connect(f);f.connect(g);g.connect(bus);n.start(t);n.stop(t+.1)}
  function schedule(){
-  while(next<ctx.currentTime+1.2){
-   const pos=step%9,bar=Math.floor(step/9),t=next;
-   if(pos===0&&bar%2===0)drone(t,E*18);
-   const r=RHY[pos];if(r==='D')dum(t,pos===0?.15:.1);else if(r==='T')tek(t,.04);else if(r==='t')tek(t,.025);
-   const phraseEnd=bar%4===3&&pos>=6;
-   if(phraseEnd){if(pos===6){idx=Math.random()<.6?0:4;saz(HICAZ[idx],t,.1)}}
-   else if(pos===0||pos===2||pos===4||pos===6){if(Math.random()<.78)saz(walk(),t,pos===0?.1:.075)}
-   else if(Math.random()<.22)saz(walk(),t,.05);
-   if(pos===0&&bar%4===1&&Math.random()<.85){const m=HICAZ[[4,5,7,6][Math.random()*4|0]]+12;ney(m,t+E,E*6)}
+  while(next<ctx.currentTime+1.4){
+   const pos=step%8,bar=Math.floor(step/8),bi=bar%4,t=next;
+   if(pos===0&&bi===0)newSection();
+   const ch=CHORDS[bi];
+   if(pos===0)pad(ch,t,E*8);
+   // ritim (sofyan hissi): düm . . tek | düm . tek .
+   if(pos===0)dum(t,.12);else if(pos===4)dum(t,.08);
+   if(pos===3||pos===6)tek(t,.03);else if(pos===7&&Math.random()<.5)tek(t,.018);
+   // kanun arpejleri: akor notaları, yukarıda
+   if(pos%2===1&&Math.random()<.7){const c=ch[Math.random()*3|0]+24+(Math.random()<.3?12:0);kanun(c,t,.028)}
+   // melodi
+   if(bar%8!==7||pos<4){let acc=0;for(const [d,l] of section[bi]){if(acc===pos){const m=deg(d),dur=l*E;
+     if(lead==='ney'){ney(m,t,dur*.98);if(Math.random()<.35)saz(m-12,t,.05)}else sazNote(m,t,dur,.075);break}acc+=l}}
    step++;next+=E;
   }
  }
@@ -708,7 +727,8 @@ $('bWel').onclick=()=>{const n=$('nameIn').value.trim();if(n)S.name=n;save();$('
 
 // ---------- ses (kadın sesi öncelikli) ----------
 let voice=null,KOV=[],maleReal=null;
-const RATES=[[.55,'rSlow2'],[.7,'rSlow'],[.9,'rNorm']];
+const RATES=[[.4,'rSlow2'],[.65,'rSlow'],[1,'rNorm']];
+if(!RATES.some(([r])=>r===S.rate))S.rate=S.rate<.6?.4:S.rate<.8?.65:1;
 const FEMALE=/yuna|sora|sunhi|heami|jimin|seoyeon|female|여성|google 한국의|standard-a|wavenet-a|neural2-a/i;
 const MALE=/injoon|minsu|hyunsu|bongjin|gookmin|\bmale\b|남성|standard-c|standard-d|wavenet-c|wavenet-d|neural2-c/i;
 function pickVoice(){try{KOV=speechSynthesis.getVoices().filter(v=>/^ko/i.test(v.lang));
@@ -718,12 +738,13 @@ function pickVoice(){try{KOV=speechSynthesis.getVoices().filter(v=>/^ko/i.test(v
  if($('mSet')&&!$('mSet').hidden)renderVoices()}
 function voiceLabel(v){let n=v.name.replace(/^Microsoft\s+/,'').replace(/\s*\(.*?\)\s*/g,' ').replace(/Online|Natural/g,'').replace(/\s*-\s*Korean.*$/i,'').replace(/\s+/g,' ').trim();
  if(/google/i.test(v.name))n='Google 한국의 (Chrome)';
+ if(/premium/i.test(v.voiceURI+v.name))n+=' · '+t('vHQ2');else if(/enhanced/i.test(v.voiceURI+v.name))n+=' · '+t('vHQ');
  return n+(v.localService===false&&!/google/i.test(v.name)?' · '+t('vOnline'):'')}
 function renderVoices(){const sel=$('voiceSel');if(!sel)return;
- const vs=[...KOV].sort((a,b)=>(/google/i.test(b.name)-/google/i.test(a.name)));
+ const seen=new Set(),vs=[...KOV].sort((a,b)=>(/google/i.test(b.name)-/google/i.test(a.name))).filter(v=>{const k=voiceLabel(v);if(seen.has(k))return false;seen.add(k);return true});
  sel.innerHTML=`<option value="">${esc(t('vAuto'))}</option><option value="gt">${esc(t('vGT'))}</option><option value="male">${esc(t('vMale'))}</option>`
   +vs.map(v=>`<option value="${esc(v.voiceURI)}">${esc(voiceLabel(v))}</option>`).join('');
- sel.value=(S.voice==='gt'||S.voice==='male'||KOV.some(v=>v.voiceURI===S.voice))?S.voice:''}
+ sel.value=(S.voice==='gt'||S.voice==='male'||vs.some(v=>v.voiceURI===S.voice))?S.voice:''}
 try{pickVoice();speechSynthesis.onvoiceschanged=pickVoice;setTimeout(pickVoice,800)}catch(e){}
 // Google Çeviri sesi (internet gerekir; olmazsa cihaz sesine döner)
 const GTA=new Audio();GTA.preload='auto';try{GTA.referrerPolicy='no-referrer';GTA.crossOrigin=null}catch(e){}
@@ -736,7 +757,7 @@ document.addEventListener('pointerdown',()=>{if(gtUnlocked)return;gtUnlocked=tru
 function speakDevice(text,male){
  speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang='ko-KR';
  const v=male?(maleReal||voice):voice;if(v)u.voice=v;
- const r=+S.rate||.9;u.rate=/google/i.test(v&&v.name||'')?r*1.05:r;
+ const r=+S.rate||1;u.rate=r;
  u.pitch=male?(maleReal?1:.55):(v&&FEMALE.test(v.name)||S.voice)?1:1.15;
  BGM.duck(true);u.onend=u.onerror=()=>BGM.duck(false);speechSynthesis.speak(u)}
 function speakGT(text){
@@ -744,7 +765,7 @@ function speakGT(text){
  let done=false;const fail=()=>{if(done)return;done=true;BGM.duck(false);try{speakDevice(text,false)}catch(e){}};
  GTA.onended=()=>{done=true;BGM.duck(false)};GTA.onerror=fail;
  GTA.src='https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ko&q='+encodeURIComponent(text.slice(0,190));
- const r=+S.rate||.9;try{GTA.playbackRate=Math.max(.5,r/.9)}catch(e){}
+ const r=+S.rate||1;try{GTA.preservesPitch=true;GTA.playbackRate=Math.max(.35,r)}catch(e){}
  BGM.duck(true);const p=GTA.play();if(p&&p.catch)p.catch(fail)}
 function speak(text,force){
  if(!S.auto&&!force)return;
