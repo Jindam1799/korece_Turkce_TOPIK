@@ -3,7 +3,7 @@
  * kakao: 카카오톡 ID · instagram: 인스타그램 아이디 (@ 없이)
  */
 window.SITE_CONFIG = {
-  owner: 'Wonju (원주)',
+  owner: 'Wonju Kim (원주)',
   contact: 'wkim5298@gmail.com',
   kakao: 'wj5298',
   instagram: 'wj_kimi'
