@@ -484,7 +484,7 @@ function renderLinks(){
  const h=[];
  if(INSTA)h.push(`<a class="lk ig" href="https://www.instagram.com/${encodeURIComponent(INSTA)}/" target="_blank" rel="noopener"><span class="ic"><svg><use href="#i-ig"/></svg></span><span class="tx"><b>Instagram</b><small>@${esc(INSTA)}</small></span></a>`);
  if(KAKAO)h.push(`<button class="lk kk" data-copy="${esc(KAKAO)}"><span class="ic"><svg><use href="#i-kk"/></svg></span><span class="tx"><b>KakaoTalk</b><small>ID · ${esc(KAKAO)}</small></span></button>`);
- if(CONTACT)h.push(`<a class="lk ml" href="mailto:${esc(CONTACT)}"><span class="ic"><svg><use href="#i-mail"/></svg></span><span class="tx"><b>E-mail</b><small>${esc(CONTACT)}</small></span></a>`);
+ if(CONTACT)h.push(`<a class="lk ml" href="https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(CONTACT)}&su=${encodeURIComponent('덩어리숲')}" target="_blank" rel="noopener"><span class="ic"><svg><use href="#i-mail"/></svg></span><span class="tx"><b>E-mail</b><small>${esc(CONTACT)}</small></span></a>`);
  ['links','linksW','linksN'].forEach(id=>{$(id).innerHTML=h.join('')});
 }
 document.addEventListener('click',async e=>{const b=e.target.closest('[data-copy]');if(!b)return;const sm=b.querySelector('small');
