@@ -1,0 +1,52 @@
+"""Aslıhan Erdoğan'ın TOPİK SINAV KELİMELERİ.docx dosyasından data/topik2.js üretir.
+Kullanım: python3 tools/build_topik2.py <docx>  → data/topik2.js + tools/topik2_report.md"""
+import sys,re,docx,os
+SRC=sys.argv[1]
+ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+FIX={'익논하다':'의논하다','휘지르다':'휘젓다','사고팔':'사고팔다','회열을 느끼다':'희열을 느끼다','얇팍하다':'얄팍하다',
+ '곁면':'겉면','빠곡히':'빼곡히','훽':'홱','그렇저럭':'그럭저럭','맥맥':'명맥','최대하다':'최대한','재현한':'재현하다','향신':'향신료','막이':'막'}
+TRFIX={'티끌 모아 태산':'damlaya damlaya göl olur','희열을 느끼다':'büyük bir sevinç duymak, coşmak','최대한':'olabildiğince, mümkün olduğunca'}
+SHORT={'자랑하다':'övünmek, gurur duymak','삭제':'silme','훨훨 날다':'özgürce uçmak','횡단하다':'baştan sona geçmek',
+ '끼치다':'(etki, zarar) vermek, neden olmak','몸살 앓다':'yorgunluktan hasta olmak','한 술 더 뜨다':'işi daha da ileri götürmek',
+ '발목을 잡다':'ayağına bağ olmak, engellemek','눈을 딱 감다':'görmezden gelmek','목에 힘을 주다':'kibirli davranmak',
+ '생사가 갈리다':'ölüm kalım meselesi olmak','윗물이 맑아야 아랫물이 맑다':'önce üsttekiler düzgün olmalı','마일리지':'puan sistemi',
+ '속도':'hız','경고음':'uyarı sesi','상점':'mağaza, dükkân','석':'üç (석 달 = üç ay)'}
+HOLD={'머지다','경충하다','축인','변식','주기하다','툭하다'}  # Aslı onaylayana kadar oyunda yok
+UP='A-ZÇĞİÖŞÜ'
+def lower1(s):
+    if re.match(r'(Kore|Joseon|Ulaştırma)',s):return s
+    c=s[0];return ({'I':'ı','İ':'i'}.get(c,c.lower()))+s[1:]
+def short(t):
+    if len(t)<=40:return t
+    s=re.split(r'\s*\(|;|\.\s|\s→|/\s*(?=['+UP+'])|'+r',\s*(?=['+UP+'])|\s{2,}',t)[0].strip(' ,.')
+    if len(s)>40:
+        parts=[p.strip() for p in s.split(',')];acc=parts[0]
+        for p in parts[1:]:
+            if len(acc)+2+len(p)>40:break
+            acc+=', '+p
+        s=acc
+    return s
+d=docx.Document(SRC)
+seen=set();out=[];rep=[];held=[];dups=[];n=0
+for ti,t in enumerate(d.tables):
+    out.append(f'#{ti+1}')
+    for r in t.rows:
+        cs=[c.text for c in r.cells];ko=re.sub(r'\s+',' ',cs[0]).strip();tr=re.sub(r'\s+',' ',cs[1]).strip().rstrip('.').strip()
+        if not ko or not tr:continue
+        note=''
+        if '=' in ko or '/' in ko:
+            a=re.split(r'\s*[=/]\s*',ko);ko=a[0];note='= '+', '.join(a[1:])
+        if ko in FIX:rep.append(f'| {ko} | {FIX[ko]} | yazım düzeltmesi |');ko=FIX[ko]
+        if ko in HOLD:held.append(f'| {ko} | {tr} |');continue
+        if ko in TRFIX:rep.append(f'| {ko} | anlam: “{tr}” → “{TRFIX[ko]}” | anlam düzeltmesi |');tr=TRFIX[ko]
+        if ko in seen:dups.append(ko);continue
+        seen.add(ko)
+        tr=lower1(tr.replace('|','/'));s=SHORT.get(ko) or short(tr)
+        if ko=='석':tr=s
+        if s!=tr:note=(note+' · ' if note else '')+tr
+        out.append(f'{ko}|{s}||{note}' if note else f'{ko}|{s}');n+=1
+js="/* TOPIK Ⅱ sınav kelimeleri — Aslıhan Erdoğan'ın derlediği liste (yaklaşık 15 TOPIK Ⅱ sınavının okuma bölümlerinden).\n   Biçim: korece|türkçe|eş kelimeler|açıklama */\n(window.LEVELS=window.LEVELS||[]).push({id:'TOPIK2',name:'TOPIK Ⅱ',nameKo:'TOPIK Ⅱ',text:`\n"+'\n'.join(out)+"\n`});\n"
+open(os.path.join(ROOT,'data/topik2.js'),'w').write(js)
+md=f"# TOPIK Ⅱ listesi — dönüştürme raporu\n\nOyuna alınan kelime: **{n}** · tekrar edenler atlandı: {len(dups)}\n\n## Düzeltmeler\n| Önce | Sonra | Tür |\n|---|---|---|\n"+'\n'.join(rep)+"\n\n## Aslı'nın kontrolü bekleniyor (şimdilik oyunda yok)\n| Kelime | Anlam |\n|---|---|\n"+'\n'.join(held)+"\n\n## Tekrar eden kelimeler (ilki tutuldu)\n"+', '.join(dups)+"\n"
+open(os.path.join(ROOT,'tools/topik2_report.md'),'w').write(md)
+print(n,len(dups),len(held))

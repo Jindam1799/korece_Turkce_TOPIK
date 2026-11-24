@@ -16,16 +16,16 @@ const LEVELS=(window.LEVELS||[]).map(L=>{
  for(const raw of L.text.split('\n')){
   const line=raw.trim();if(!line)continue;
   if(line.startsWith('#')){unit={key:line.slice(1).trim(),words:[]};units.push(unit);continue}
-  const [ko,tr,ps='']=line.split('|').map(x=>x.trim());if(!ko||!tr)continue;
+  const [ko,tr,ps='',note='']=line.split('|').map(x=>x.trim());if(!ko||!tr)continue;
   if(!unit){unit={key:'1',words:[]};units.push(unit)}
   const base=L.id+':'+ko;seenKo[base]=(seenKo[base]||0)+1;const id=seenKo[base]>1?base+'#'+seenKo[base]:base;n++;
-  const w={id,ko,tr,lv:L.id,unit:unit.key,ui:units.length-1,verb:isVerb(tr),hanja:!!L.hanja,pairs:[]};
+  const w={id,ko,tr,lv:L.id,unit:unit.key,ui:units.length-1,verb:isVerb(tr),hanja:!!L.hanja,note,pairs:[]};
   w.pairs=ps.split(';').map(x=>x.trim()).filter(Boolean).map((p,j)=>{const k=p.indexOf('=');const pt=p.slice(k+1).trim();return {id:id+'~'+j,ko:p.slice(0,k).trim(),tr:pt,parent:w,verb:isVerb(pt)}}).filter(p=>p.ko&&p.tr);
   unit.words.push(w);words.push(w);
  }
  return {...L,units,words};
 }).filter(L=>L.words.length);
-const ORDER=['A1-A2','B1.1','B1.2','B2.1','B2.2','HANJA'];
+const ORDER=['A1-A2','B1.1','B1.2','B2.1','B2.2','TOPIK2','HANJA'];
 LEVELS.sort((a,b)=>ORDER.indexOf(a.id)-ORDER.indexOf(b.id));
 const ALL=LEVELS.flatMap(L=>L.words);
 const BYID=new Map();ALL.forEach(w=>{BYID.set(w.id,w);w.pairs.forEach(p=>BYID.set(p.id,p))});
@@ -35,7 +35,7 @@ const clash=(a,b)=>{const x=norm(a),y=norm(b);return !x||!y||x===y||x.includes(y
 
 // ---------- dil ----------
 const TX={
-tr:{sub:'Korece kelime ormanı · A1–B2',a2hsT:'📲 Ana ekrana ekle (uygulama gibi kullan)',installBtn:'Ana ekrana ekle',
+tr:{sub:'Korece kelime ormanı · A1–B2 · TOPIK Ⅱ',a2hsT:'📲 Ana ekrana ekle (uygulama gibi kullan)',installBtn:'Ana ekrana ekle',
  and1:'Bu sayfayı Chrome\'da aç.',and2:'Sağ üstteki ⋮ menüsüne dokun.',and3:'“Ana ekrana ekle” ya da “Uygulamayı yükle”yi seç.',
  ios1:'Bu sayfayı Safari\'de aç.',ios2:'Alttaki Paylaş düğmesine (□↑) dokun.',ios3:'“Ana Ekrana Ekle”yi seç ve “Ekle”ye dokun.',feedback:'💬 덩어리숲 düzenli olarak güncellenmeye devam edecek. Çalışırken zorlandığınız bir şey ya da ihtiyacınız olan bir özellik olursa lütfen bize yazın!',rvH:'Kelime kontrolü (editör)',rvOpen:'Kontrol modunu aç',rvTitle:'Kelime kontrolü',rvSend:'Gönder',rvMean:'Türkçe anlam',rvPairs:'Eş kelimeler (Korece = Türkçe)',rvAdd:'+ Eş kelime ekle',rvNote:'Not (isteğe bağlı)',rvNotePh:'Örn. bu kelime eski, yerine … daha doğal',rvEmpty:'Bu filtrede kelime yok.',
  rvAll:'Tümü',rvTodo:'Bakılmadı',rvOkF:'Doğru',rvEditF:'Düzeltildi',rvDelF:'Kaldırılacak',rvOkBtn:'✓ Doğru',rvSaveBtn:'✓ Kaydet',rvDelBtn:'🗑 Kaldır',rvUndel:'↺ Geri al',
@@ -81,7 +81,7 @@ tr:{sub:'Korece kelime ormanı · A1–B2',a2hsT:'📲 Ana ekrana ekle (uygulama
  fam:{petal:'Gönül Çiçeği',mushroom:'Gönül Mantarı',succulent:'Gönül Sukulenti',clover:'Gönül Yaprağı',berry:'Gönül Meyvesi',tree:'Gönül Ağacı'},
  route:{sunflower:'Altın Ayçiçeği',rose:'Kraliçe Gül',hibiscus:'Cesur Hibiskus',matsutake:'Kral Matsutake',horn:'Şık Boynuzlu Mantar',reishi:'Parlak Reishi',undulata:'Dev Undulata',euphorbia:'Nazlı Sütleğen',cactus:'Azimli Kaktüs',lucky:'Şanslı Dört Yapraklı Yonca',silver:'Ay Işığı Yoncası',crimson:'Sevecen Kırmızı Yonca',strawberry:'Tatlı Dev Çilek',blueberry:'Yıldızlı Yaban Mersini',raspberry:'Canlı Ahududu',oak:'Sağlam Meşe',willow:'Rüzgârlı Söğüt',ginkgo:'Altın Ginkgo'},
  way:'Yol'},
-ko:{sub:'한국어 단어의 숲 · A1–B2',a2hsT:'📲 홈 화면에 추가하기 (앱처럼 쓰기)',installBtn:'홈 화면에 추가',
+ko:{sub:'한국어 단어의 숲 · A1–B2 · TOPIK Ⅱ',a2hsT:'📲 홈 화면에 추가하기 (앱처럼 쓰기)',installBtn:'홈 화면에 추가',
  and1:'이 페이지를 Chrome에서 열어요.',and2:'오른쪽 위 ⋮ 메뉴를 눌러요.',and3:'“홈 화면에 추가” 또는 “앱 설치”를 골라요.',
  ios1:'이 페이지를 Safari에서 열어요.',ios2:'아래쪽 공유 버튼(□↑)을 눌러요.',ios3:'“홈 화면에 추가”를 고르고 “추가”를 눌러요.',feedback:'💬 덩어리숲은 앞으로도 꾸준히 업데이트돼요. 공부하면서 어려운 점이나 필요한 게 있으면 언제든 건의해 주세요!',rvH:'단어 검수 (편집자)',rvOpen:'검수 모드 열기',rvTitle:'단어 검수',rvSend:'보내기',rvMean:'튀르키예어 뜻',rvPairs:'짝꿍어휘 (한국어 = 튀르키예어)',rvAdd:'+ 짝꿍어휘 추가',rvNote:'메모 (선택)',rvNotePh:'예: 이 단어는 오래된 말, … 가 더 자연스러움',rvEmpty:'이 필터에 해당하는 단어가 없어요.',
  rvAll:'전체',rvTodo:'안 본 것',rvOkF:'맞음',rvEditF:'고침',rvDelF:'뺄 것',rvOkBtn:'✓ 맞아요',rvSaveBtn:'✓ 저장',rvDelBtn:'🗑 빼기',rvUndel:'↺ 되돌리기',
@@ -338,7 +338,7 @@ function renderFeedback(){
  $('fReward').textContent=correct?t('plus',state.gain,state.sb):state.bonus?t('bonusFree'):t('willRepeat');
  $('fWord').textContent=e.ko;$('fMean').textContent=e.tr;
  const w=e.parent||e;
- $('fPairs').innerHTML=(!state.offerBonus?w.pairs:[]).map(p=>`<span>${esc(p.ko)} · ${esc(p.tr)}</span>`).join('');
+ $('fPairs').innerHTML=(w.note&&!state.offerBonus?`<span class="note">${esc(w.note)}</span>`:'')+(!state.offerBonus?w.pairs:[]).map(p=>`<span>${esc(p.ko)} · ${esc(p.tr)}</span>`).join('');
  $('fMine').hidden=!state.chosen;if(state.chosen)$('fMine').textContent=t('mine')+state.chosen.tr;
  $('fNote').textContent=state.offerBonus?t('askBonus'):correct?t('sayIt'):'';
  const last=state.index===state.queue.length-1;
@@ -368,7 +368,7 @@ function renderCard(){
  $('cFront').textContent=w.ko;$('cFront').classList.toggle('long',w.ko.length>6);
  $('cBackKo').innerHTML=`<span>${esc(w.ko)}</span><button class="say sm" data-say="${esc(w.id)}" aria-label="${esc(t('listen'))}">${SPK}</button>`;
  $('cBackTr').textContent=w.tr;
- $('cPairs').innerHTML=(w.pairs||[]).map(p=>`<li><div><b>${esc(p.ko)}</b><span>${esc(p.tr)}</span></div><button class="say sm" data-say="${esc(p.id)}" aria-label="${esc(t('listen'))}">${SPK}</button></li>`).join('');
+ $('cPairs').innerHTML=(w.note?`<li class="note"><div><span>${esc(w.note)}</span></div></li>`:'')+(w.pairs||[]).map(p=>`<li><div><b>${esc(p.ko)}</b><span>${esc(p.tr)}</span></div><button class="say sm" data-say="${esc(p.id)}" aria-label="${esc(t('listen'))}">${SPK}</button></li>`).join('');
  $('kNo').textContent=t('kNoBtn');$('kYes').textContent=t('kYesBtn');
  if(S.auto)speak(sayText(w));
 }
@@ -611,6 +611,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
+ ['2.0','2026-11-25',{tr:['Yeni seviye: TOPIK Ⅱ — gerçek TOPIK Ⅱ sınavlarından 2.687 kelime ve deyim (listeyi derleyen: Aslıhan Erdoğan)','Uzun anlamlarda açıklama: cevaptan sonra ve kartın arkasında görünür'],ko:['새 레벨: TOPIK Ⅱ — 실제 TOPIK Ⅱ 기출에서 모은 단어·관용 표현 2,687개 (정리: Aslıhan Erdoğan)','긴 뜻은 설명으로: 정답 뒤와 카드 뒷면에 보여요']}],
  ['1.10','2026-11-25',{tr:['Yeni ses seçenekleri: Biraz kalın ses, Kalın ses (gerçek erkek sesi olan cihazlarda Erkek sesi)','Aynı sesin iki kez görünmesi düzeltildi','Okuma hızları arasındaki fark büyütüldü','Yeni fon müziği: daha aydınlık, Rast makamında ney, bağlama, kanun ve bendir'],ko:['새 목소리 선택: 조금 낮은 목소리, 낮은 목소리 (진짜 남자 음성이 있는 기기에선 남자 목소리)','같은 목소리가 두 번 보이던 문제 수정','읽기 속도 차이를 더 크게 조정','새 배경 음악: 더 밝은 라스트(Rast) 음계의 네이·바을라마·카눈·벤디르']}],
  ['1.9','2026-11-25',{tr:['Yeni sesler: Google Çeviri sesi (internet gerekir) ve Erkek sesi'],ko:['새 목소리: 구글 번역 목소리(인터넷 필요), 남자 목소리']}],
  ['1.8','2026-11-25',{tr:['Bir turdaki kelime: 10 ya da Tümü (seçili bölümün tüm kelimeleri)'],ko:['한 판 단어 수: 10개 또는 전체(고른 단원의 모든 단어)']}],

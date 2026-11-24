@@ -73,7 +73,9 @@ def main():
                 tr = clean(r.get('tr', ''))
                 pairs = ';'.join(f'{clean(a)}={clean(b)}' for a, b in r.get('pairs', []) if a and b)
                 old_tr = s.split('|')[1]
-                out.append(f'{ko}|{tr}|{pairs}')
+                parts = s.split('|')
+                extra = '|' + parts[3] if len(parts) > 3 and parts[3].strip() else ''
+                out.append(f'{ko}|{tr}|{pairs}{extra}')
                 section.append(f'- ✏️ **{ko}**: {old_tr} → {tr}{note}')
                 continue
             out.append(line)
