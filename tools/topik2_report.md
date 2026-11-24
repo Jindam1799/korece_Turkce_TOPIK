@@ -25,7 +25,19 @@ Oyuna alınan kelime: **2689** · tekrar edenler atlandı: 23
 | 기부 | anlam: “bağış dediğimiz şey, bağış kavramı” → “bağış” | anlam düzeltmesi |
 | 티끌 모아 태산 | anlam: “deyim olarak sabit” → “damlaya damlaya göl olur” | anlam düzeltmesi |
 | 얇팍하다 | 얄팍하다 | yazım düzeltmesi |
+| 향상하다 | anlam: “geliştirme, yükseltme, iyileştirme” → “geliştirmek, yükseltmek” | anlam düzeltmesi |
+| 재배하다 | anlam: “yetiştirilmiş, tarımı yapılmış” → “yetiştirmek (bitki)” | anlam düzeltmesi |
+| 피하다 | anlam: “kaçınma, zarar görme” → “kaçınmak, sakınmak” | anlam düzeltmesi |
+| 요청하다 | anlam: “talep, istek; istemek” → “talep etmek, istemek” | anlam düzeltmesi |
+| 황금연휴 | anlam: “altın tatil (uzun ve değerli tatil dönemi)” → “uzun tatil (altın tatil)” | anlam düzeltmesi |
 | 곁면 | 겉면 | yazım düzeltmesi |
+| 겉면 | anlam: “yan yüz, kenar taraf” → “dış yüzey” | anlam düzeltmesi |
+| 번식하다 | anlam: “üreme, çoğalma” → “üremek, çoğalmak” | anlam düzeltmesi |
+| 끼우다 | anlam: “Eklemek, iliştirmek, dahil etmek” → “takmak, araya sıkıştırmak” | anlam düzeltmesi |
+| 탄식이 새어 나오다 | anlam: “İç çekişin dışarı sızması” → “iç çekişi dışarı sızmak” | anlam düzeltmesi |
+| 간담회 | anlam: “Basın toplantısı, görüşme” → “samimi görüşme toplantısı” | anlam düzeltmesi |
+| 수납 | anlam: “Kabul etme, içine alma” → “tahsilat; eşya saklama” | anlam düzeltmesi |
+| 본격화되다 | anlam: “am anlamıyla başlamak, ciddileşmek” → “tam anlamıyla başlamak, hız kazanmak” | anlam düzeltmesi |
 | 훽 | 홱 | yazım düzeltmesi |
 | 빠곡히 | 빼곡히 | yazım düzeltmesi |
 | 최대하다 | 최대한 | yazım düzeltmesi |
