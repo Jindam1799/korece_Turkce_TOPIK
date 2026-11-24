@@ -876,18 +876,18 @@
 동쪽|doğu|동쪽 하늘=doğu gökyüzü;해가 동쪽에서 뜨다=güneş doğudan doğmak
 남쪽|güney|남쪽 지방=güney bölgesi;남쪽으로 내려가다=güneye inmek
 북쪽|kuzey|북쪽 지방=kuzey bölgesi;북쪽으로 가다=kuzeye gitmek
-일월|ocak|일월 일일=bir ocak;일월에 태어나다=ocakta doğmak
-이월|şubat|이월 십사일=on dört şubat;이월 말=şubat sonu
-삼월|mart|삼월에 개학하다=martta okullar açılmak;삼월 초=mart başı
-사월|nisan|사월에 꽃이 피다=nisanda çiçekler açmak;사월 중순=nisan ortası
-오월|mayıs|오월 오일=beş mayıs;오월의 날씨=mayıs havası
-유월|haziran|유월부터=hazirandan itibaren;유월 말=haziran sonu
-칠월|temmuz|칠월 휴가=temmuz tatili;칠월에 덥다=temmuzda sıcak
-팔월|ağustos|팔월 십오일=on beş ağustos;팔월 여름 방학=ağustos yaz tatili
-구월|eylül|구월에 학기가 시작되다=eylülde dönem başlamak;구월 초=eylül başı
-시월|ekim|시월의 하늘=ekim gökyüzü;시월 마지막 날=ekimin son günü
-십일월|kasım|십일월 날씨=kasım havası;십일월 말=kasım sonu
-십이월|aralık|십이월 이십오일=yirmi beş aralık;십이월 말=aralık sonu
+일월|ocak
+이월|şubat
+삼월|mart
+사월|nisan
+오월|mayıs
+유월|haziran
+칠월|temmuz
+팔월|ağustos
+구월|eylül
+시월|ekim
+십일월|kasım
+십이월|aralık
 주|hafta|이번 주=bu hafta;일 주일=bir hafta
 작년|geçen yıl|작년 여름=geçen yaz;작년에 비해=geçen yıla göre
 달|ay (zaman)|이번 달=bu ay;한 달 동안=bir ay boyunca
