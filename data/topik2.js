@@ -2,158 +2,158 @@
    Biçim: korece|türkçe|eş kelimeler|açıklama */
 (window.LEVELS=window.LEVELS||[]).push({id:'TOPIK2',name:'TOPIK Ⅱ',nameKo:'TOPIK Ⅱ',text:`
 #1
-친절하다|nazik olmak
-상담|danışma/Danışmanlık/Görüşme
-대사관|büyükelçilik
-없어지다|yok olmak
-숲|orman
-정보|bilgi
-상담원|danışman
-통화|telefon görüşmesi
-박람회|fuar
-입장료|giriş Ücreti
-단체|grup
-요금|ücret
-평일|hafta içi
-애완동물|evcil hayvan
-버려진 동물|terk edilmiş hayvan
-공간|mekân/alan/boşluk
-극장|tiyatro/sinema salonu
-남녀노소|kadın erkek, yaşlı genç||kadın erkek, yaşlı genç (herkes anlamında topluca kullanılır)
-전시되다|sergilenmek, teşhir edilmek
-가면|maske||maske, bazen sembolik olarak başka bir kimliği ifade etmek için kullanılır
-힘이 세다|güçlü olmak
-자랑하다|övünmek, gurur duymak||sahip olunan bir şeyi başkalarına göstermekten gurur duymak; övünmek
-제작 비용|üretim maliyeti
-유니폼|üniforma||= 운동복
-소재|malzeme, kumaş, içerik||malzeme, kumaş, içerik; hem fiziksel (örneğin kıyafet kumaşı) hem de soyut (örneğin hikâye konusu) anlamda kullanılır
-재활용하다|geri dönüştürmek||geri dönüştürmek; kullanılmış bir şeyi tekrar kullanıma uygun hâle getirmek
-지원|yardım, destek, katkı sağlama
-사업|ticari iş, kamu projesi, faaliyet
-훨씬|çok daha/epeyce
-정부|hükümet
-예산|bütçe
-추가 요금|ek ücret/ilave masraf
-부담하다|üstlenmek, yüklenmek, karşılamak||üstlenmek, yüklenmek, karşılamak (masraf, sorumluluk vb.)
-얽히다|karışmak/birbirine dolanmak/iç içe geçmek
-가사|ev işleri||= 집안일
-육아|çocuk bakımı/çocuk büyütme
-여전히|hâlâ, eskisi gibi, değişmeden
-승진하다|terfi etmek
-보름달|dolunay
-반달|yarım ay
-둥글다|yuvarlak olmak
-환하다|parlak olmak/ışık saçmak/aydınlık olmak
-즉|yani/demek ki
-완전하다|eksiksiz/tam/mükemmel olmak
-빛|ışık/parlaklık
-소화|sindirim
-속도|hız||bir şeyin gerçekleşme veya hareket etme hızı
-조절하다|düzenlemek/ayarlanmak
-측정하다|ölçmek||ölçmek/ Bir değeri sayısal olarak belirlemek
-경고음|uyarı sesi||tehlike veya hata durumunda çıkan uyarı sesi
+친절하다|nazik olmak|친절한 직원=nazik çalışan;친절하게 안내하다=nazikçe yol göstermek
+상담|danışma/danışmanlık/görüşme|상담을 받다=danışmanlık almak;진로 상담=kariyer danışmanlığı
+대사관|büyükelçilik|대사관에 연락하다=büyükelçilikle iletişime geçmek;한국 대사관=Kore Büyükelçiliği
+없어지다|yok olmak|지갑이 없어지다=cüzdan kaybolmak;걱정이 없어지다=endişe yok olmak
+숲|orman|숲을 걷다=ormanda yürümek;숲이 우거지다=orman sık olmak
+정보|bilgi|정보를 얻다=bilgi edinmek;정보를 공유하다=bilgi paylaşmak
+상담원|danışman|상담원과 통화하다=danışmanla telefonda konuşmak;고객 상담원=müşteri temsilcisi
+통화|telefon görüşmesi|통화 중이다=telefonla meşgul olmak;통화를 끝내다=görüşmeyi bitirmek
+박람회|fuar|취업 박람회=kariyer fuarı;박람회가 열리다=fuar açılmak
+입장료|giriş ücreti|입장료를 내다=giriş ücreti ödemek;입장료가 무료이다=giriş ücretsiz olmak
+단체|grup|단체 관람=grup ziyareti;단체로 신청하다=grup olarak başvurmak
+요금|ücret|요금을 내다=ücret ödemek;요금이 오르다=ücret artmak
+평일|hafta içi|평일 오전=hafta içi sabah;평일에는 한가하다=hafta içi sakin olmak
+애완동물|evcil hayvan|애완동물을 키우다=evcil hayvan beslemek;애완동물 출입 금지=evcil hayvan giremez
+버려진 동물|terk edilmiş hayvan|버려진 동물을 돌보다=terk edilmiş hayvanlara bakmak;버려진 동물을 입양하다=terk edilmiş hayvan sahiplenmek
+공간|mekân/alan/boşluk|공간이 넓다=alan geniş olmak;휴식 공간=dinlenme alanı
+극장|tiyatro/sinema salonu|극장에 가다=sinemaya gitmek;극장에서 공연을 보다=tiyatroda gösteri izlemek
+남녀노소|kadın erkek, yaşlı genç|남녀노소 누구나=kadın erkek, genç yaşlı herkes;남녀노소 즐기다=her yaştan insanın keyif alması|kadın erkek, yaşlı genç (herkes anlamında topluca kullanılır)
+전시되다|sergilenmek, teşhir edilmek|작품이 전시되다=eser sergilenmek;박물관에 전시되다=müzede sergilenmek
+가면|maske|가면을 쓰다=maske takmak;가면을 벗다=maskeyi çıkarmak|maske, bazen sembolik olarak başka bir kimliği ifade etmek için kullanılır
+힘이 세다|güçlü olmak|힘이 센 사람=güçlü kişi;힘이 세서 무거운 것을 들다=güçlü olduğu için ağır şey kaldırmak
+자랑하다|övünmek, gurur duymak|성적을 자랑하다=notlarıyla övünmek;자랑할 만하다=övünmeye değer olmak|sahip olunan bir şeyi başkalarına göstermekten gurur duymak; övünmek
+제작 비용|üretim maliyeti|제작 비용이 들다=üretim maliyeti tutmak;제작 비용을 줄이다=üretim maliyetini düşürmek
+유니폼|üniforma|유니폼을 입다=üniforma giymek;축구 유니폼=futbol forması|= 운동복
+소재|malzeme, kumaş, içerik|소설의 소재=romanın konusu;가벼운 소재=hafif malzeme|malzeme, kumaş, içerik; hem fiziksel (örneğin kıyafet kumaşı) hem de soyut (örneğin hikâye konusu) anlamda kullanılır
+재활용하다|geri dönüştürmek|병을 재활용하다=şişeyi geri dönüştürmek;재활용한 종이=geri dönüştürülmüş kâğıt|geri dönüştürmek; kullanılmış bir şeyi tekrar kullanıma uygun hâle getirmek
+지원|yardım, destek, katkı sağlama|지원을 받다=destek almak;정부 지원=devlet desteği
+사업|ticari iş, kamu projesi, faaliyet|사업을 시작하다=iş kurmak;사업에 성공하다=işte başarılı olmak
+훨씬|çok daha/epeyce|훨씬 낫다=çok daha iyi olmak;훨씬 많다=çok daha fazla olmak
+정부|hükümet|정부 정책=hükümet politikası;정부가 발표하다=hükümet açıklamak
+예산|bütçe|예산을 세우다=bütçe yapmak;예산이 부족하다=bütçe yetersiz olmak
+추가 요금|ek ücret/ilave masraf|추가 요금을 내다=ek ücret ödemek;추가 요금이 붙다=ek ücret eklenmek
+부담하다|üstlenmek, yüklenmek, karşılamak|비용을 부담하다=masrafı karşılamak;반씩 부담하다=yarı yarıya karşılamak|üstlenmek, yüklenmek, karşılamak (masraf, sorumluluk vb.)
+얽히다|karışmak/birbirine dolanmak/iç içe geçmek|실이 얽히다=iplik dolanmak;이해관계가 얽히다=çıkarlar iç içe geçmek
+가사|ev işleri|가사를 분담하다=ev işlerini paylaşmak;가사와 육아=ev işleri ve çocuk bakımı|= 집안일
+육아|çocuk bakımı/çocuk büyütme|육아 휴직=ebeveyn izni;육아를 돕다=çocuk bakımına yardım etmek
+여전히|hâlâ, eskisi gibi, değişmeden|여전히 바쁘다=hâlâ meşgul olmak;여전히 예쁘다=hâlâ güzel olmak
+승진하다|terfi etmek|과장으로 승진하다=müdürlüğe terfi etmek;빨리 승진하다=hızlı terfi etmek
+보름달|dolunay|보름달이 뜨다=dolunay doğmak;보름달에 소원을 빌다=dolunaya dilek dilemek
+반달|yarım ay|반달 모양=yarım ay şekli;반달이 뜨다=yarım ay doğmak
+둥글다|yuvarlak olmak|둥근 얼굴=yuvarlak yüz;달이 둥글다=ay yuvarlak olmak
+환하다|parlak olmak/ışık saçmak/aydınlık olmak|방이 환하다=oda aydınlık olmak;환하게 웃다=yüzü aydınlanarak gülmek
+즉|yani/demek ki|즉, 다시 말해=yani, başka bir deyişle;즉시=hemen, derhal
+완전하다|eksiksiz/tam/mükemmel olmak|완전한 문장=tam cümle;완전히 끝나다=tamamen bitmek
+빛|ışık/parlaklık|빛이 나다=ışık saçmak;햇빛=güneş ışığı
+소화|sindirim|소화가 잘되다=sindirimi kolay olmak;소화가 안되다=hazımsızlık çekmek
+속도|hız|속도를 줄이다=hızı azaltmak;속도가 빠르다=hızlı olmak|bir şeyin gerçekleşme veya hareket etme hızı
+조절하다|düzenlemek/ayarlanmak|온도를 조절하다=sıcaklığı ayarlamak;양을 조절하다=miktarı ayarlamak
+측정하다|ölçmek|키를 측정하다=boy ölçmek;온도를 측정하다=sıcaklık ölçmek|ölçmek/ Bir değeri sayısal olarak belirlemek
+경고음|uyarı sesi|경고음이 울리다=uyarı sesi çalmak;경고음을 듣다=uyarı sesini duymak|tehlike veya hata durumunda çıkan uyarı sesi
 #2
-꾸미다|bir şeyi süslemek
-고치다|düzeltmek/tamir etmek
-예절|adap, görgü kuralları
-식사량|yemek miktarı
-또는|ya da/veya
-익히다|pişirmek/olgunlaştırmak (meyve)
-화학|kimya, madde
-물질|madde||madde, Fiziksel veya kimyasal bir varlık; içerik
-겉모양|bir şeyin dış kısmı, dış yüzey||bir şeyin dış kısmı, dış yüzey, dış görünüş
-향|koku/aroma
-지속적으로|sürekli olarak
-껍질|kabuk (meyve vs)
-숙성되다|zamanla doğal şekilde olgunlaşmış
-수집하다|toplamak, derlemek (bilgi vs)
-양|miktar
-방해하다|engel olmak, müdahale etmek
-골치만 아프다|baş ağrıtmak/sorun çıkartmak
-콧대만 높아지다|burnu havalanmak/kibirlenmek
-비행기만 태우다|sürekli pohpohlamak / abartılı övmek
-요인|etken/faktör
-없애다|yok etmek/ortadan kaldırmak
-풍부하다|bol / zengin / çok
-운영하다|işletmek, yönetmek
-사정|durum, koşul, hal
-공장|fabrika
-불이 나다|yangın çıkmak
-매출|satış geliri
-어쩔 수 없이|çaresizce, mecburen
-한자리|aynı yer, tek yer
-한참|uzun süre
-봉투|zarf/poşet
-내밀다|uzatmak, ileri doğru vermek
-살림|geçim, ev/şirket ekonomisi
-순간|an
-마치|sanki/adeta
-든든하다|güçlü, güven verici, içi rahat
-한쪽|bir taraf, tek yön
-메다|takmak, omza almak (çanta, silah vb.)
-허리|bel
-빨간 불|kırmızı ışık, tehlike sinyali
-방향|yön, taraf
-독특하다|özgün, sıradışı
-간판|tabela, işaret levhası
-시선을 끌다|dikkat çekmek
-눈길을 사로잡다|gözleri üzerine çekmek, büyülemek
-통일시키다|birleştirmek, standartlaştırmak
-눈에 띄다|göze çarpmak, fark edilmek
-취업률|istihdam oranı
-석|üç (석 달 = üç ay)
-제자리걸음|yerinde sayma, ilerleyememe
+꾸미다|bir şeyi süslemek|방을 꾸미다=odayı süslemek;이야기를 꾸미다=hikâye uydurmak
+고치다|düzeltmek/tamir etmek|고장 난 것을 고치다=bozuk şeyi tamir etmek;습관을 고치다=alışkanlığı düzeltmek
+예절|adap, görgü kuralları|식사 예절=sofra adabı;예절을 지키다=görgü kurallarına uymak
+식사량|yemek miktarı|식사량을 줄이다=yemek miktarını azaltmak;식사량이 많다=çok yemek yemek
+또는|ya da/veya|토요일 또는 일요일=cumartesi ya da pazar;전화 또는 이메일=telefon veya e-posta
+익히다|pişirmek/olgunlaştırmak (meyve)|고기를 익히다=eti pişirmek;기술을 익히다=beceri edinmek
+화학|kimya, madde|화학 반응=kimyasal tepkime;화학 성분=kimyasal bileşen
+물질|madde|유해 물질=zararlı madde;화학 물질=kimyasal madde|madde, Fiziksel veya kimyasal bir varlık; içerik
+겉모양|bir şeyin dış kısmı, dış yüzey|겉모양만 보다=sadece dış görünüşe bakmak;겉모양이 비슷하다=dış görünüşü benzer olmak|bir şeyin dış kısmı, dış yüzey, dış görünüş
+향|koku/aroma|향이 좋다=kokusu güzel olmak;커피 향=kahve kokusu
+지속적으로|sürekli olarak|지속적으로 노력하다=sürekli çaba göstermek;지속적으로 증가하다=sürekli artmak
+껍질|kabuk (meyve vs)|껍질을 벗기다=kabuğunu soymak;사과 껍질=elma kabuğu
+숙성되다|zamanla doğal şekilde olgunlaşmış|김치가 숙성되다=kimçi olgunlaşmak;잘 숙성된 고기=iyi dinlendirilmiş et
+수집하다|toplamak, derlemek (bilgi vs)|자료를 수집하다=veri toplamak;우표를 수집하다=pul biriktirmek
+양|miktar|양이 많다=miktarı fazla olmak;적당한 양=uygun miktar
+방해하다|engel olmak, müdahale etmek|공부를 방해하다=derse engel olmak;잠을 방해하다=uykuyu bölmek
+골치만 아프다|baş ağrıtmak/sorun çıkartmak|생각할수록 골치만 아프다=düşündükçe başım ağrıyor;골치 아픈 문제=baş ağrıtan sorun
+콧대만 높아지다|burnu havalanmak/kibirlenmek|칭찬하면 콧대만 높아진다=översen burnu havalanır;콧대가 높다=burnu havada olmak
+비행기만 태우다|sürekli pohpohlamak / abartılı övmek|자꾸 비행기만 태우지 마=beni hep pohpohlama;비행기를 태우다=göklere çıkarmak
+요인|etken/faktör|주요 요인=ana etken;성공 요인=başarı faktörü
+없애다|yok etmek/ortadan kaldırmak|냄새를 없애다=kokuyu gidermek;스트레스를 없애다=stresi atmak
+풍부하다|bol / zengin / çok|경험이 풍부하다=deneyimi zengin olmak;영양이 풍부하다=besin değeri yüksek olmak
+운영하다|işletmek, yönetmek|가게를 운영하다=dükkân işletmek;회사를 운영하다=şirket yönetmek
+사정|durum, koşul, hal|집안 사정=aile durumu;사정이 생기다=bir durum çıkmak
+공장|fabrika|공장에서 일하다=fabrikada çalışmak;공장을 짓다=fabrika kurmak
+불이 나다|yangın çıkmak|공장에 불이 나다=fabrikada yangın çıkmak;불이 나서 대피하다=yangın çıktığı için tahliye olmak
+매출|satış geliri|매출이 늘다=satışlar artmak;매출이 떨어지다=satışlar düşmek
+어쩔 수 없이|çaresizce, mecburen|어쩔 수 없이 포기하다=mecburen vazgeçmek;어쩔 수 없이 따르다=çaresizce uymak
+한자리|aynı yer, tek yer|한자리에 모이다=bir araya toplanmak;한자리에 앉다=aynı yerde oturmak
+한참|uzun süre|한참 기다리다=uzun süre beklemek;한참 동안=epey bir süre
+봉투|zarf/poşet|봉투에 넣다=zarfa koymak;비닐봉투=naylon poşet
+내밀다|uzatmak, ileri doğru vermek|손을 내밀다=elini uzatmak;명함을 내밀다=kartvizit uzatmak
+살림|geçim, ev/şirket ekonomisi|살림을 하다=ev işlerini çekip çevirmek;살림이 어렵다=geçim sıkıntısı çekmek
+순간|an|그 순간=o an;순간적으로=bir anlığına
+마치|sanki/adeta|마치 꿈 같다=sanki rüya gibi olmak;마치 ~처럼=adeta ~ gibi
+든든하다|güçlü, güven verici, içi rahat|마음이 든든하다=içi rahat olmak;든든하게 먹다=karnını iyice doyurmak
+한쪽|bir taraf, tek yön|한쪽 구석=bir köşe;한쪽으로 치우치다=bir tarafa kaymak
+메다|takmak, omza almak (çanta, silah vb.)|가방을 메다=çantayı omza takmak;배낭을 메다=sırt çantası takmak
+허리|bel|허리가 아프다=beli ağrımak;허리를 펴다=belini doğrultmak
+빨간 불|kırmızı ışık, tehlike sinyali|빨간 불이 켜지다=kırmızı ışık yanmak;건강에 빨간 불=sağlıkta tehlike sinyali
+방향|yön, taraf|방향을 바꾸다=yön değiştirmek;반대 방향=ters yön
+독특하다|özgün, sıradışı|독특한 디자인=özgün tasarım;맛이 독특하다=tadı sıra dışı olmak
+간판|tabela, işaret levhası|간판을 달다=tabela asmak;가게 간판=dükkân tabelası
+시선을 끌다|dikkat çekmek|사람들의 시선을 끌다=insanların dikkatini çekmek;화려한 옷이 시선을 끌다=gösterişli kıyafet dikkat çekmek
+눈길을 사로잡다|gözleri üzerine çekmek, büyülemek|관객의 눈길을 사로잡다=izleyicilerin gözünü üzerine çekmek;독특한 간판이 눈길을 사로잡다=özgün tabela gözleri üzerine çekmek
+통일시키다|birleştirmek, standartlaştırmak|색깔을 통일시키다=renkleri aynılaştırmak;의견을 통일시키다=görüşleri birleştirmek
+눈에 띄다|göze çarpmak, fark edilmek|눈에 띄게 늘다=gözle görülür şekilde artmak;눈에 띄는 색=göze çarpan renk
+취업률|istihdam oranı|취업률이 높다=istihdam oranı yüksek olmak;청년 취업률=genç istihdam oranı
+석|üç (석 달 = üç ay)|석 달=üç ay;석 잔=üç bardak
+제자리걸음|yerinde sayma, ilerleyememe|제자리걸음을 하다=yerinde saymak;실력이 제자리걸음이다=becerisi yerinde saymak
 #3
-대책|önlem, çözüm planı
-현실적|gerçekçi
-실현|gerçekleşme, hayata geçirme
-상자|kutu
-자꾸|sürekli, tekrar tekrar
-애쓰다|çabalamak, uğraşmak
-마찬가지다|aynı şekilde olmak, benzer olmak
-구속|kısıtlama, sınırlama
-반발심|karşı koyma duygusu, tepki
-규칙|kural
-의논하다|görüşmek, tartışmak||görüşmek, tartışmak (karar vermeden önce konuşmak)
-관여하다|müdahale etmek, karışmak
-따로 내다|zaman ayırmak
-등장하다|ortaya çıkmak, sahneye çıkmak
-분량|miktar, hacim||miktar, hacim (özellikle metin/dosya için)
-피로하다|yorgun olmak, yorulmak
-간격|aralık, boşluk (satır, zaman, mesafe)
-편집되다|düzenlenmek, editlenmek
-등장인물|karakter, hikâyedeki kişi
-제한하다|sınırlamak
-관심을 끌다|dikkat çekmek, ilgi uyandırmak
-각색하다|uyarlamak (özellikle edebi eserleri)
-궁중|saray, saray çevresi
-잔치|ziyafet, kutlama
-가득|dolu dolu, tamamen dolu
-차리다|hazırlamak, kurmak (sofra, düzen)
-성대하다|görkemli, ihtişamlı
-백성|halk, vatandaşlar (tarihsel bağlamda)
-과시하다|gösteriş yapmak, sergilemek
-풍습|gelenek, adet
-대접하다|ağırlamak, ikram etmek
-귀하다|değerli, kıymetli, nadir
-상|masa, sofra||= 식탁, 밥상 · masa, sofra (özellikle yemek için hazırlanmış masa)
-지위|mevki, konum, statü||mevki, konum, statü, toplumsal veya mesleki pozisyon
-활용하다|kullanmak, değerlendirmek
-풍경화|manzara resmi
-대기|atmosfer, hava
-먼지|toz
-해가 지다|güneşin batması
-붉다|kırmızı olmak
-산업화|sanayileşme
-진행되다|ilerlemek, gerçekleşmek
-오염|kirlilik
-항공사|havayolu şirketi
-기내식|uçak içi yemek
-살리다|canlandırmak, korumak, ortaya çıkarmak
-건조하다|kuru
-수분|nem
-날아가다|uçup gitmek, kaybolmak
-제안하다|önermek
+대책|önlem, çözüm planı|대책을 세우다=önlem almak;대책이 없다=çaresi olmamak
+현실적|gerçekçi|현실적인 방법=gerçekçi yöntem;현실적으로 어렵다=gerçekte zor olmak
+실현|gerçekleşme, hayata geçirme|꿈의 실현=hayalin gerçekleşmesi;실현 가능성=gerçekleşme olasılığı
+상자|kutu|상자를 열다=kutuyu açmak;종이 상자=karton kutu
+자꾸|sürekli, tekrar tekrar|자꾸 잊어버리다=sürekli unutmak;자꾸 생각나다=tekrar tekrar aklına gelmek
+애쓰다|çabalamak, uğraşmak|합격하려고 애쓰다=geçmek için çabalamak;애쓴 보람=emeğinin karşılığı
+마찬가지다|aynı şekilde olmak, benzer olmak|나도 마찬가지다=ben de aynıyım;결과는 마찬가지다=sonuç aynı olmak
+구속|kısıtlama, sınırlama|구속을 받다=kısıtlanmak;구속에서 벗어나다=kısıtlamadan kurtulmak
+반발심|karşı koyma duygusu, tepki|반발심이 생기다=tepki duygusu oluşmak;반발심을 일으키다=karşı koyma isteği uyandırmak
+규칙|kural|규칙을 지키다=kurala uymak;규칙을 어기다=kuralı çiğnemek
+의논하다|görüşmek, tartışmak|가족과 의논하다=ailesiyle görüşmek;문제를 의논하다=sorunu tartışmak|görüşmek, tartışmak (karar vermeden önce konuşmak)
+관여하다|müdahale etmek, karışmak|일에 관여하다=işe karışmak;결정에 관여하다=karara dahil olmak
+따로 내다|zaman ayırmak|시간을 따로 내다=ayrıca zaman ayırmak;따로 내기 어렵다=ayrıca zaman ayırmak zor olmak
+등장하다|ortaya çıkmak, sahneye çıkmak|새로운 기술이 등장하다=yeni teknoloji ortaya çıkmak;무대에 등장하다=sahneye çıkmak
+분량|miktar, hacim|분량이 많다=miktarı çok olmak;원고 분량=metin uzunluğu|miktar, hacim (özellikle metin/dosya için)
+피로하다|yorgun olmak, yorulmak|몸이 피로하다=vücut yorgun olmak;눈이 피로하다=gözler yorulmak
+간격|aralık, boşluk (satır, zaman, mesafe)|간격을 두다=aralık bırakmak;일정한 간격=düzenli aralık
+편집되다|düzenlenmek, editlenmek|영상이 편집되다=video düzenlenmek;편집된 장면=kurgulanmış sahne
+등장인물|karakter, hikâyedeki kişi|주요 등장인물=ana karakter;등장인물의 성격=karakterin kişiliği
+제한하다|sınırlamak|속도를 제한하다=hızı sınırlamak;인원을 제한하다=kişi sayısını sınırlamak
+관심을 끌다|dikkat çekmek, ilgi uyandırmak|관객의 관심을 끌다=seyircinin ilgisini çekmek;관심을 끌기 위해=ilgi çekmek için
+각색하다|uyarlamak (özellikle edebi eserleri)|소설을 각색하다=romanı uyarlamak;영화로 각색되다=filme uyarlanmak
+궁중|saray, saray çevresi|궁중 음식=saray yemeği;궁중 생활=saray hayatı
+잔치|ziyafet, kutlama|잔치를 벌이다=şölen düzenlemek;생일 잔치=doğum günü kutlaması
+가득|dolu dolu, tamamen dolu|가득 차다=ağzına kadar dolmak;사람들로 가득하다=insanlarla dolu olmak
+차리다|hazırlamak, kurmak (sofra, düzen)|상을 차리다=sofra kurmak;가게를 차리다=dükkân açmak
+성대하다|görkemli, ihtişamlı|성대한 잔치=görkemli şölen;성대하게 열리다=ihtişamla düzenlenmek
+백성|halk, vatandaşlar (tarihsel bağlamda)|백성을 위하다=halkı düşünmek;백성의 삶=halkın yaşamı
+과시하다|gösteriş yapmak, sergilemek|힘을 과시하다=gücünü göstermek;부를 과시하다=zenginliğini sergilemek
+풍습|gelenek, adet|옛 풍습=eski gelenek;풍습을 따르다=geleneğe uymak
+대접하다|ağırlamak, ikram etmek|손님을 대접하다=misafir ağırlamak;음식을 대접하다=yemek ikram etmek
+귀하다|değerli, kıymetli, nadir|귀한 손님=değerli misafir;귀하게 여기다=kıymetli saymak
+상|masa, sofra|상을 차리다=sofra kurmak;상을 치우다=sofrayı kaldırmak|= 식탁, 밥상 · masa, sofra (özellikle yemek için hazırlanmış masa)
+지위|mevki, konum, statü|사회적 지위=toplumsal statü;지위가 높다=mevkii yüksek olmak|mevki, konum, statü, toplumsal veya mesleki pozisyon
+활용하다|kullanmak, değerlendirmek|시간을 활용하다=zamanı değerlendirmek;자료를 활용하다=kaynakları kullanmak
+풍경화|manzara resmi|풍경화를 그리다=manzara resmi yapmak;유명한 풍경화=ünlü manzara resmi
+대기|atmosfer, hava|대기 오염=hava kirliliği;대기 중의 먼지=havadaki toz
+먼지|toz|먼지가 쌓이다=toz birikmek;먼지를 털다=tozu silkelemek
+해가 지다|güneşin batması|해가 진 후=güneş battıktan sonra;해가 지기 전에=güneş batmadan önce
+붉다|kırmızı olmak|붉은 노을=kızıl gün batımı;얼굴이 붉어지다=yüzü kızarmak
+산업화|sanayileşme|산업화 시대=sanayileşme çağı;산업화가 진행되다=sanayileşme ilerlemek
+진행되다|ilerlemek, gerçekleşmek|회의가 진행되다=toplantı devam etmek;공사가 진행되다=inşaat sürmek
+오염|kirlilik|환경 오염=çevre kirliliği;오염이 심하다=kirlilik ciddi olmak
+항공사|havayolu şirketi|항공사 직원=havayolu çalışanı;저가 항공사=düşük maliyetli havayolu
+기내식|uçak içi yemek|기내식을 먹다=uçakta yemek yemek;기내식이 나오다=uçak yemeği servis edilmek
+살리다|canlandırmak, korumak, ortaya çıkarmak|맛을 살리다=tadı ortaya çıkarmak;생명을 살리다=hayat kurtarmak
+건조하다|kuru|피부가 건조하다=cilt kuru olmak;날씨가 건조하다=hava kuru olmak
+수분|nem|수분을 섭취하다=sıvı almak;수분이 부족하다=nem eksik olmak
+날아가다|uçup gitmek, kaybolmak|새가 날아가다=kuş uçup gitmek;향이 날아가다=koku uçup gitmek
+제안하다|önermek|의견을 제안하다=fikir önermek;새로운 방법을 제안하다=yeni yöntem önermek
 #4
 포장|ambalaj, paketleme
 신경을 쓰다|özen göstermek
@@ -387,7 +387,7 @@
 대안|alternatif / çözüm yolu
 모색하다|araştırmak / çözüm aramak
 가로등|sokak lambası
-역할|rol / işlev/Bir şeyin üstlendiği görev
+역할|rol / işlev/bir şeyin üstlendiği görev
 의견|görüş / fikir
 설치하다|kurmak / monte etmek
 시설물|tesis / kamu yapısı
@@ -397,7 +397,7 @@
 내보내다|dışarı çıkarmak / göndermek
 핏줄|damar
 식히다|soğutmak
-기운|enerji / güç||enerji / güç/Bedensel veya ruhsal güç, enerji
+기운|enerji / güç/bedensel veya ruhsal güç||enerji / güç/bedensel veya ruhsal güç, enerji
 동작|hareket / eylem
 불과하다|sadece / yalnızca
 장치|cihaz / sistem / mekanizma
@@ -405,10 +405,10 @@
 손동작|el hareketi
 조언하다|tavsiye vermek
 관련성|ilişki / bağlantı
-밀접하다|yakın / sıkı / güçlü||yakın / sıkı / güçlü/Çok yakın, sıkı, güçlü bir bağ veya ilişkiyi ifade eder
+밀접하다|yakın / sıkı / güçlü/çok yakın, sıkı||yakın / sıkı / güçlü/çok yakın, sıkı, güçlü bir bağ veya ilişkiyi ifade eder
 청년층|genç kesim / gençler
 #9
-가치관|değer yargısı||değer yargısı/Bir kişinin veya toplumun doğru–yanlış, önemli–önemsiz gibi konulardaki düşünce sistemi
+가치관|değer yargısı/bir kişinin veya toplumun doğru–yanlış||değer yargısı/bir kişinin veya toplumun doğru–yanlış, önemli–önemsiz gibi konulardaki düşünce sistemi
 평생|bir ömür boyunca
 비중|önem / ağırlık
 전통적|geleneksel
@@ -491,7 +491,7 @@
 숨다|gizlenmek / saklanmak
 얼음|buz
 사라지다|kaybolmak / yok olmak
-빠져나가다|dışarı çıkmak / kaçmak||dışarı çıkmak / kaçmak/İçeriden dışarıya çıkmak
+빠져나가다|dışarı çıkmak / kaçmak/içeriden dışarıya çıkmak
 받아들이다|kabul etmek / algılamak
 연인|sevgili / partner
 헤어지다|ayrılmak / ilişkiyi bitirmek

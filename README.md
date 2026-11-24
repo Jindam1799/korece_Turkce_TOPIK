@@ -9,7 +9,7 @@ Türk ve Azerbaycanlı arkadaşlar için Korece kelime oyunu.
 | 단계 | 단어 수 | 파일 |
 |---|---|---|
 | A1–A2 | 893 | `data/a12.js` |
-| B1.1 | 447 | `data/b11.js` |
+| B1–B2 (B1.1) | 447 | `data/b11.js` |
 | B1.2 | 616 | `data/b12.js` |
 | B2.1 | 607 | `data/b21.js` |
 | B2.2 | 121 | `data/b22.js` |

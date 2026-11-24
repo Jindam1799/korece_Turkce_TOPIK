@@ -26,8 +26,15 @@ def short(t):
             acc+=', '+p
         s=acc
     return s
+PAIRS={}
+pp=os.path.join(ROOT,'data/topik2_pairs.txt')
+if os.path.exists(pp):
+    for line in open(pp,encoding='utf-8'):
+        line=line.strip()
+        if line and not line.startswith('#') and '|' in line:
+            k,v=line.split('|',1);PAIRS[k.strip()]=v.strip()
 d=docx.Document(SRC)
-seen={};SAME={'애쓰다','따지다','안타깝다','숨다','꾸미다','부피','녹다','급변하다','휴지','북극곰','담당하다','확보하다','펼치다','합리적이다','소화','개입하다','적','차단하다','향하다','독창적','질','권하다'};out=[];rep=[];held=[];dups=[];n=0
+seen={};pairsUsed=set();SAME={'애쓰다','따지다','안타깝다','숨다','꾸미다','부피','녹다','급변하다','휴지','북극곰','담당하다','확보하다','펼치다','합리적이다','소화','개입하다','적','차단하다','향하다','독창적','질','권하다'};out=[];rep=[];held=[];dups=[];n=0
 for ti,t in enumerate(d.tables):
     out.append(f'#{ti+1}')
     for r in t.rows:
@@ -42,10 +49,12 @@ for ti,t in enumerate(d.tables):
         k0=re.sub(r'[^a-zçğıöşü ]','',tr.lower()).split()
         if ko in seen and (set(k0[:2])&seen[ko] or ko in SAME):dups.append(ko);continue
         seen.setdefault(ko,set()).update(k0[:2])
-        tr=lower1(tr.replace('|','/'));s=SHORT.get(ko) or short(tr)
+        tr=lower1(tr.replace('|','/'));tr=re.sub(r'(?<=/)([A-ZÇĞİÖŞÜ])(?=[a-zçğıöşü])',lambda m:lower1(m.group(1)),tr).replace(' Ücreti',' ücreti');s=SHORT.get(ko) or short(tr)
         if ko=='석':tr=s
         if s!=tr:note=(note+' · ' if note else '')+tr
-        out.append(f'{ko}|{s}||{note}' if note else f'{ko}|{s}');n+=1
+        pr=PAIRS.get(ko,'') if ko not in pairsUsed else ''
+        if pr:pairsUsed.add(ko)
+        out.append(f'{ko}|{s}|{pr}|{note}' if note else (f'{ko}|{s}|{pr}' if pr else f'{ko}|{s}'));n+=1
 js="/* TOPIK Ⅱ sınav kelimeleri — Aslıhan Erdoğan'ın derlediği liste (yaklaşık 15 TOPIK Ⅱ sınavının okuma bölümlerinden).\n   Biçim: korece|türkçe|eş kelimeler|açıklama */\n(window.LEVELS=window.LEVELS||[]).push({id:'TOPIK2',name:'TOPIK Ⅱ',nameKo:'TOPIK Ⅱ',text:`\n"+'\n'.join(out)+"\n`});\n"
 open(os.path.join(ROOT,'data/topik2.js'),'w').write(js)
 md=f"# TOPIK Ⅱ listesi — dönüştürme raporu\n\nOyuna alınan kelime: **{n}** · tekrar edenler atlandı: {len(dups)}\n\n## Düzeltmeler\n| Önce | Sonra | Tür |\n|---|---|---|\n"+'\n'.join(rep)+"\n\n## Aslı'nın kontrolü bekleniyor (şimdilik oyunda yok)\n| Kelime | Anlam |\n|---|---|\n"+'\n'.join(held)+"\n\n## Tekrar eden kelimeler (ilki tutuldu)\n"+', '.join(dups)+"\n"

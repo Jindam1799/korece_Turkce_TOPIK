@@ -25,9 +25,17 @@ const LEVELS=(window.LEVELS||[]).map(L=>{
  }
  return {...L,units,words};
 }).filter(L=>L.words.length);
-const ORDER=['A1-A2','B1.1','B1.2','B2.1','B2.2','TOPIK2','HANJA'];
+// B1.1–B2.2 tek seviyede (kelime kimlikleri değişmez: ilerleme ve kontrol kayıtları korunur)
+const GROUPS=[{id:'B1-B2',name:'B1–B2',parts:['B1.1','B1.2','B2.1','B2.2']}];
+for(const G of GROUPS){const parts=G.parts.map(id=>LEVELS.find(L=>L.id===id)).filter(Boolean);if(!parts.length)continue;
+ const units=[],words=[];
+ parts.forEach(P=>P.units.forEach(u=>{const nu={key:P.name+' · '+u.key,words:u.words};units.push(nu);u.words.forEach(w=>{w.unit=nu.key;w.ui=units.length-1;w.grp=G.id;words.push(w)})}));
+ parts.forEach(P=>LEVELS.splice(LEVELS.indexOf(P),1));LEVELS.push({id:G.id,name:G.name,units,words})}
+LEVELS.forEach(L=>L.words.forEach(w=>{if(!w.grp)w.grp=L.id}));
+const ORDER=['A1-A2','B1-B2','TOPIK2','HANJA'];
 LEVELS.sort((a,b)=>ORDER.indexOf(a.id)-ORDER.indexOf(b.id));
 const ALL=LEVELS.flatMap(L=>L.words);
+const lvOf=w=>(w.parent||w).grp;
 const BYID=new Map();ALL.forEach(w=>{BYID.set(w.id,w);w.pairs.forEach(p=>BYID.set(p.id,p))});
 const lvById=id=>LEVELS.find(L=>L.id===id)||LEVELS[0];
 const norm=s=>s.toLowerCase().replace(/\(.*?\)/g,'').replace(/[^a-zçğıöşüâîû0-9 ]/g,' ').replace(/\s+/g,' ').trim();
@@ -46,7 +54,7 @@ tr:{sub:'Korece kelime ormanı · A1–B2 · TOPIK Ⅱ',a2hsT:'📲 Ana ekrana e
  pathH:'Büyüme yolu',famH:'Bitki aileleri',
  path:[['Lv.1','Gönül Tohumu','Yolculuk başlıyor. Deongi toprağa düştü.'],['Lv.2','Gönül Filizi','İlk iki yaprak çıktı!'],['Lv.3','Aile seçimi','6 bitki ailesinden birini seçersin.'],['Lv.4–9','Büyüme','Her seviyede biraz daha büyür.'],['Lv.10','Evrim','Ailenin 3 yolundan birini seçersin.'],['Lv.15','Gizemli dönüşüm','İki gizemli formdan birini seçersin.'],['Lv.20','Efsanevi form','Antik ve efsanevi bitkiye dönüşür.']],
  famTxt:(f,mine)=>mine?`Senin ailen: ${f}`:'Başka bir aile — gölge olarak görünür.',locked:'Kilitli',lvReq:n=>`Lv.${n}\'da`,cur:'Şu an',music:'Müzik',musicOn:'Arka plan müziği: Açık',musicOff:'Arka plan müziği: Kapalı',notesH:'Güncelleme notları',notesBtn:'Neler yeni?',kakaoCopied:'Kopyalandı ✓',bizTitle:'İş birliği ve iletişim',bizText:'Kurumsal iş birliği, eğitim ve içerik ortaklığı için ulaşabilirsiniz.',myProg:'İlerleme tablom',stLearned:'Öğrenildi',stReview:'Tekrar edilecek',stNew:'Henüz çalışılmadı',learned:'Öğrenilen',toReview:'Tekrar',bestStreak:'En iyi seri',
- start:'Başla',quiz:'Test',cards:'Kartlar',review:n=>`Tekrar ${n}`,allUnits:'Tüm bölümler',unitN:k=>/^\d+$/.test(k)?`Bölüm ${k}`:k,
+ start:'Başla',quiz:'Test',cards:'Kartlar',review:n=>`Tekrar ${n}`,allUnits:'Tüm bölümler',unitN:k=>{const m=k.match(/^(.+) · (\d+)$/);return m?`${m[1]} · Bölüm ${m[2]}`:/^\d+$/.test(k)?`Bölüm ${k}`:k},
  level:'Seviye',unit:'Bölüm',timerOn:'12 saniye',timerOff:'Süre yok',timeLimit:'Süre sınırı (test)',
  hint:'Doğru anlama dokun · klavye 1–4',qWord:'Bu kelimenin anlamı nedir?',qPair:'Bu eş kelimenin anlamı nedir?',qHanja:'Bu Çince karakterin anlamı nedir?',
  kNew:'✦ Yeni kelime',kBase:'Kelime',kRev:'↺ Tekrar',kBonus:'✦ Eş kelime bonusu',kPairRev:'↺ Eş kelime tekrarı',
@@ -92,7 +100,7 @@ ko:{sub:'한국어 단어의 숲 · A1–B2 · TOPIK Ⅱ',a2hsT:'📲 홈 화면
  pathH:'성장 단계',famH:'식물 계열',
  path:[['Lv.1','마음씨','여행이 시작돼요. 덩이가 땅에 떨어졌어요.'],['Lv.2','마음싹','첫 떡잎 두 장이 나왔어요!'],['Lv.3','계열 선택','6가지 식물 계열 중 하나를 골라요.'],['Lv.4–9','쑥쑥 성장','레벨마다 조금씩 커져요.'],['Lv.10','진화','계열마다 3가지 길 중 하나를 골라요.'],['Lv.15','신기한 변신','두 갈래 중 하나를 골라요.'],['Lv.20','전설의 모습','고대·전설의 식물로 변신해요.']],
  famTxt:(f,mine)=>mine?`나의 계열: ${f}`:'다른 계열이에요 — 그림자로 보여요.',locked:'잠김',lvReq:n=>`Lv.${n}`,cur:'지금',music:'음악',musicOn:'배경 음악: 켜짐',musicOff:'배경 음악: 꺼짐',notesH:'업데이트 노트',notesBtn:'새로운 내용 보기',kakaoCopied:'복사됨 ✓',bizTitle:'비즈니스 협업 · 문의',bizText:'기관·기업 협업, 교육·콘텐츠 제휴는 아래로 연락 주세요.',myProg:'나의 진도표',stLearned:'익힘',stReview:'다시 볼 단어',stNew:'아직 안 함',learned:'익힌 단어',toReview:'복습',bestStreak:'최고 연속',
- start:'시작하기',quiz:'퀴즈',cards:'카드',review:n=>`복습 ${n}`,allUnits:'전체 단원',unitN:k=>/^\d+$/.test(k)?`${k}단원`:k,
+ start:'시작하기',quiz:'퀴즈',cards:'카드',review:n=>`복습 ${n}`,allUnits:'전체 단원',unitN:k=>{const m=k.match(/^(.+) · (\d+)$/);return m?`${m[1]} · ${m[2]}단원`:/^\d+$/.test(k)?`${k}단원`:k},
  level:'단계',unit:'단원',timerOn:'12초',timerOff:'시간제한 없음',timeLimit:'제한 시간 (퀴즈)',
  hint:'알맞은 뜻을 누르세요 · 키보드 1–4',qWord:'이 단어의 뜻은 무엇일까요?',qPair:'이 짝꿍어휘의 뜻은 무엇일까요?',qHanja:'이 한자의 뜻은 무엇일까요?',
  kNew:'✦ 새 단어',kBase:'기본 단어',kRev:'↺ 복습 단어',kBonus:'✦ 짝꿍어휘 보너스',kPairRev:'↺ 짝꿍어휘 복습',
@@ -132,6 +140,7 @@ TX.ko.route=Object.fromEntries(Object.values(CH.GROWTH).flatMap(g=>g.routes.map(
 let S={music:true,vol:45,lang:'tr',xp:0,level:1,name:'',pet:'',route:'',branch:'',mem:{},retry:[],lv:LEVELS[0].id,unit:'all',timer:true,size:10,auto:true,best:0,stache:true,voice:'',rate:1};
 try{Object.assign(S,JSON.parse(localStorage.getItem('deongeoriForestTR2')||'{}'))}catch(e){}
 if(S.size!==0&&S.size!==10)S.size=10;
+if(/^B[12]\.[12]$/.test(S.lv)){S.lv='B1-B2';S.unit='all'}
 S.retry=S.retry.filter(id=>BYID.has(id));if(!LEVELS.some(L=>L.id===S.lv))S.lv=LEVELS[0].id;
 const save=()=>{try{localStorage.setItem('deongeoriForestTR2',JSON.stringify(S))}catch(e){}};
 const t=(k,...a)=>{const v=TX[S.lang][k];return typeof v==='function'?v(...a):v};
@@ -241,12 +250,12 @@ function rankCands(e,list){
 }
 function optionsFor(e){
  let cand;
- if(e.parent){const w=e.parent,L=lvById(w.lv);
+ if(e.parent){const w=e.parent,L=lvById(w.grp);
   const sib=shuffle(w.pairs.filter(p=>p!==e));
   const near=rankCands({...w,verb:e.verb},L.words.filter(x=>x!==w&&x.pairs.length));
   const others=near.flatMap(x=>{const ps=shuffle(x.pairs.slice());return ps.filter(p=>p.verb===e.verb).concat(ps.filter(p=>p.verb!==e.verb)).slice(0,1)});
   cand=[...sib,...others];
- }else{const L=lvById(e.lv);cand=rankCands(e,L.words.filter(x=>x!==e&&x.ko!==e.ko))}
+ }else{const L=lvById(e.grp);cand=rankCands(e,L.words.filter(x=>x!==e&&x.ko!==e.ko))}
  const wrong=[];
  for(const c of cand){if(clash(c.tr,e.tr)||wrong.some(w=>clash(w.tr,c.tr))||c.ko===e.ko)continue;wrong.push(c);if(wrong.length===3)break}
  return shuffle([e,...wrong]);
@@ -289,7 +298,7 @@ function renderQuestionText(){
  $('gXp').textContent=`+${state.xp} ${t('nutrient').toLowerCase()}`;
  $('gProg').style.width=(state.index/state.queue.length*100)+'%';
  $('gMode').textContent=S.timer?t('modeTimed'):t('modeFree');
- const k=$('qKind'),lvName=lvById((item.parent||item).lv).name;
+ const k=$('qKind'),lvName=lvById(lvOf(item)).name;
  if(state.bonus){k.textContent=t('kBonus');k.className='qkind bonus'}
  else if(item.parent){k.textContent=t('kPairRev');k.className='qkind rev'}
  else if(state.kind==='review'){k.textContent=t('kRev')+' · '+lvName;k.className='qkind rev'}
@@ -364,7 +373,7 @@ function renderCard(){
  $('cCount').textContent=`${deck.i+1} / ${deck.list.length}`;$('cKnown').textContent=t('knownN',deck.known);
  $('cProg').style.width=(deck.i/deck.list.length*100)+'%';
  const base=w.parent||w;
- $('cUnit').textContent=w.parent?t('kPairRev'):`${lvById(base.lv).name} · ${t('unitN',base.unit)}`;
+ $('cUnit').textContent=w.parent?t('kPairRev'):`${lvById(base.grp).name} · ${t('unitN',base.unit)}`;
  $('cFront').textContent=w.ko;$('cFront').classList.toggle('long',w.ko.length>6);
  $('cBackKo').innerHTML=`<span>${esc(w.ko)}</span><button class="say sm" data-say="${esc(w.id)}" aria-label="${esc(t('listen'))}">${SPK}</button>`;
  $('cBackTr').textContent=w.tr;
@@ -611,7 +620,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
- ['2.0','2026-11-25',{tr:['Yeni seviye: TOPIK Ⅱ — gerçek TOPIK Ⅱ sınavlarından 2.689 kelime ve deyim (listeyi derleyen: Aslıhan Erdoğan)','Uzun anlamlarda açıklama: cevaptan sonra ve kartın arkasında görünür'],ko:['새 레벨: TOPIK Ⅱ — 실제 TOPIK Ⅱ 기출에서 모은 단어·관용 표현 2,689개 (정리: Aslıhan Erdoğan)','긴 뜻은 설명으로: 정답 뒤와 카드 뒷면에 보여요']}],
+ ['2.0','2026-11-25',{tr:['B1.1–B2.2 tek seviyede birleşti: B1–B2 (ilerlemen korunur)','TOPIK Ⅱ kelimelerine eş kelimeler eklenmeye başladı (Bölüm 1–3)','Yeni seviye: TOPIK Ⅱ — gerçek TOPIK Ⅱ sınavlarından 2.689 kelime ve deyim (listeyi derleyen: Aslıhan Erdoğan)','Uzun anlamlarda açıklama: cevaptan sonra ve kartın arkasında görünür'],ko:['B1.1–B2.2를 B1–B2 한 레벨로 합침 (진도는 그대로)','TOPIK Ⅱ 짝꿍어휘 추가 시작 (1–3단원)','새 레벨: TOPIK Ⅱ — 실제 TOPIK Ⅱ 기출에서 모은 단어·관용 표현 2,689개 (정리: Aslıhan Erdoğan)','긴 뜻은 설명으로: 정답 뒤와 카드 뒷면에 보여요']}],
  ['1.10','2026-11-25',{tr:['Yeni ses seçenekleri: Biraz kalın ses, Kalın ses (gerçek erkek sesi olan cihazlarda Erkek sesi)','Aynı sesin iki kez görünmesi düzeltildi','Okuma hızları arasındaki fark büyütüldü','Yeni fon müziği: daha aydınlık, Rast makamında ney, bağlama, kanun ve bendir'],ko:['새 목소리 선택: 조금 낮은 목소리, 낮은 목소리 (진짜 남자 음성이 있는 기기에선 남자 목소리)','같은 목소리가 두 번 보이던 문제 수정','읽기 속도 차이를 더 크게 조정','새 배경 음악: 더 밝은 라스트(Rast) 음계의 네이·바을라마·카눈·벤디르']}],
  ['1.9','2026-11-25',{tr:['Yeni sesler: Google Çeviri sesi (internet gerekir) ve Erkek sesi'],ko:['새 목소리: 구글 번역 목소리(인터넷 필요), 남자 목소리']}],
  ['1.8','2026-11-25',{tr:['Bir turdaki kelime: 10 ya da Tümü (seçili bölümün tüm kelimeleri)'],ko:['한 판 단어 수: 10개 또는 전체(고른 단원의 모든 단어)']}],
