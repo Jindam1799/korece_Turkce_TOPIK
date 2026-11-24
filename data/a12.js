@@ -16,7 +16,7 @@
 쪽|sayfa|10쪽을 펴세요=10. sayfayı açın;몇 쪽이에요?=Kaçıncı sayfa?
 번|numara, kez|몇 번이에요?=Numarası kaç?;한 번 더=bir kez daha
 호|numara (oda, daire)|302호=302 numara;몇 호예요?=Kaç numara?
-전화번호|telefon numarası|전화번호를 알려 주다=telefon numarasını vermek;전화번호가 뭐예요?=Telefon numaranız ne?
+전화번호|telefon numarası|전화번호를 알려 주다=telefon numarasını vermek;전화번호가 뭐예요?=Telefon numaranız nedir?
 지하|bodrum kat|지하 1층=eksi birinci kat;지하에 있다=bodrum katta olmak
 교실|sınıf (derslik)|교실에 들어가다=sınıfa girmek;교실이 넓다=sınıf geniş
 칠판|kara tahta|칠판에 쓰다=tahtaya yazmak;칠판을 지우다=tahtayı silmek
@@ -36,7 +36,7 @@
 장소|yer, mekân|약속 장소=buluşma yeri;장소를 정하다=yeri belirlemek
 식품|gıda|식품 코너=gıda reyonu;건강 식품=sağlıklı gıda
 과일|meyve|과일을 깎다=meyve soymak;과일 가게=manav
-과자|atıştırmalık, bisküvi|과자를 먹다=atıştırmalık yemek;과자 한 봉지=bir paket bisküvi
+과자|atıştırmalık|과자를 먹다=atıştırmalık yemek;과자 한 봉지=bir paket atıştırmalık
 화장품|kozmetik|화장품 가게=kozmetik dükkânı;화장품을 바르다=kozmetik ürün sürmek
 고유어|öz Korece kelime|고유어 숫자=öz Korece sayılar;고유어와 한자어=öz Korece ve Çince kökenli kelimeler
 스물|yirmi|스무 살=yirmi yaş;스물두 명=yirmi iki kişi
@@ -57,8 +57,8 @@
 창문|pencere|창문을 열다=pencereyi açmak;창문을 닫다=pencereyi kapatmak
 펴다|açmak (kitap vb.)|책을 펴다=kitabı açmak;우산을 펴다=şemsiyeyi açmak
 가게|dükkân|가게에 가다=dükkâna gitmek;가게 문을 닫다=dükkânı kapatmak
-편의점|market (7/24 açık)|편의점에서 사다=marketten almak;24시간 편의점=24 saat açık market
-치약|diş macunu|치약을 짜다=diş macunu sıkmak;치약을 사다=diş macunu almak
+편의점|market (7/24 açık)|편의점에서 사다=marketten satın almak;24시간 편의점=24 saat açık market
+치약|diş macunu|치약을 짜다=diş macununu sıkmak;치약을 사다=diş macunu satın almak
 칫솔|diş fırçası|칫솔에 치약을 묻히다=diş fırçasına macun sürmek;새 칫솔=yeni diş fırçası
 날짜|tarih (gün)|날짜를 정하다=tarihi belirlemek;오늘 날짜=bugünün tarihi
 달력|takvim|달력을 보다=takvime bakmak;달력에 표시하다=takvime işaretlemek
@@ -68,26 +68,26 @@
 회의|toplantı|회의를 하다=toplantı yapmak;회의에 참석하다=toplantıya katılmak
 저녁|akşam, akşam yemeği|저녁을 먹다=akşam yemeği yemek;저녁 7시=akşam yedi
 하루|bir gün|하루 종일=bütün gün;하루에 세 번=günde üç kez
-계절|mevsim|계절이 바뀌다=mevsim değişmek;좋아하는 계절=sevdiğim mevsim
+계절|mevsim|계절이 바뀌다=mevsimin değişmesi;좋아하는 계절=sevdiğim mevsim
 맑다|açık olmak (hava)|날씨가 맑다=hava açık;하늘이 맑다=gökyüzü açık
-흐리다|bulutlu olmak|날씨가 흐리다=hava bulutlu;하늘이 흐리다=gökyüzü kapalı
-불다|esmek, üflemek|바람이 불다=rüzgâr esmek;촛불을 불다=mumu üflemek
+흐리다|bulutlu olmak|날씨가 흐리다=hava bulutlu;하늘이 흐리다=gökyüzü bulutlu
+불다|esmek, üflemek|바람이 불다=rüzgârın esmesi;촛불을 불다=mumu üflemek
 덥다|sıcak olmak (hava)|날씨가 덥다=hava sıcak;너무 더워요=çok sıcak
-시원하다|serin olmak|바람이 시원하다=rüzgâr serin;시원한 물=serin su
-쌀쌀하다|serin, soğukça olmak|아침저녁으로 쌀쌀하다=sabah akşam serin;날씨가 쌀쌀하다=hava soğukça
-춥다|soğuk olmak (hava)|날씨가 춥다=hava soğuk;손이 춥다=ellerim üşüyor
+시원하다|serin olmak|바람이 시원하다=Rüzgar serin;시원한 물=serin su
+쌀쌀하다|serin, soğukça olmak|아침저녁으로 쌀쌀하다=sabah akşam serin;날씨가 쌀쌀하다=hava serin (soğuk)
+춥다|soğuk olmak (hava)|날씨가 춥다=hava soğuk;손이 춥다=elleri üşümek
 사계절|dört mevsim|사계절이 뚜렷하다=dört mevsim belirgin;사계절 내내=dört mevsim boyunca
-봄|ilkbahar|봄이 오다=bahar gelmek;봄 날씨=bahar havası
+봄|ilkbahar|봄이 오다=baharın gelmesi;봄 날씨=bahar havası
 여름|yaz|여름 방학=yaz tatili;여름이 덥다=yaz sıcak
-가을|sonbahar|가을 하늘=sonbahar gökyüzü;가을이 되다=sonbahar olmak
-겨울|kış|겨울 방학=kış tatili;겨울에 눈이 오다=kışın kar yağmak
+가을|sonbahar|가을이 되다=sonbaharın gelmesi
+겨울|kış|겨울 방학=kış tatili;겨울에 눈이 오다=kışın kar yağması
 좀|biraz, lütfen|좀 도와주세요=biraz yardım eder misiniz;좀 비싸다=biraz pahalı
 무겁다|ağır olmak|가방이 무겁다=çanta ağır;몸이 무겁다=vücudu ağır gelmek
 가볍다|hafif olmak|가방이 가볍다=çanta hafif;가벼운 옷=ince giysi
 도시|şehir|큰 도시=büyük şehir;도시 생활=şehir hayatı
 아주|çok|아주 좋다=çok iyi;아주 맛있다=çok lezzetli
 자주|sık sık|자주 가다=sık sık gitmek;자주 만나다=sık sık buluşmak
-단풍|sonbahar yaprakları|단풍이 들다=yapraklar kızarmak;단풍 구경=sonbahar yapraklarını seyretmek
+단풍|sonbahar yaprakları|단풍이 들다=yaprakların kızarması (renginin değişmesi);단풍 구경=sonbahar yapraklarını seyretmek
 #3
 활동|etkinlik, aktivite|야외 활동=açık hava etkinliği;활동을 하다=etkinlik yapmak
 미용실|kuaför|미용실에 가다=kuaföre gitmek;미용실에서 머리를 자르다=kuaförde saç kestirmek
@@ -126,8 +126,8 @@
 은행|banka|은행에 가다=bankaya gitmek;은행 계좌=banka hesabı
 돈을 찾다|para çekmek|은행에서 돈을 찾다=bankadan para çekmek;현금 인출기에서 돈을 찾다=ATM'den para çekmek
 사무실|ofis|사무실에서 일하다=ofiste çalışmak;사무실에 출근하다=ofise gitmek
-옷장|elbise dolabı|옷장에 걸다=dolaba asmak;옷장을 정리하다=dolabı toplamak
-독서|kitap okuma|독서를 하다=kitap okumak;취미가 독서이다=hobisi kitap okumak
+옷장|elbise dolabı|옷장에 걸다=dolaba asmak;옷장을 정리하다=dolabı toplamak (düzenlemek)
+독서|kitap okuma|독서를 하다=kitap okumak;취미가 독서이다=hobim kitap okumaktır
 근처|civar, yakın|집 근처=evin yakını;근처에 있다=yakında olmak
 #4
 옷차림|kılık kıyafet|옷차림이 단정하다=kıyafeti düzgün;편한 옷차림=rahat kıyafet
@@ -139,9 +139,9 @@
 신다|giymek (ayakkabı, çorap)|신발을 신다=ayakkabı giymek;양말을 신다=çorap giymek
 기차역|tren istasyonu|기차역에 가다=tren istasyonuna gitmek;서울 기차역=Seul tren istasyonu
 결혼식|düğün|결혼식에 가다=düğüne gitmek;결혼식을 올리다=düğün yapmak
-이따가|birazdan, sonra|이따가 봐요=sonra görüşürüz;이따가 전화할게요=birazdan ararım
+이따가|birazdan, sonra|이따가 봐요=sonra görüşürüz;이따가 전화할게요=birazdan arayacağım
 계획|plan|계획을 세우다=plan yapmak;여행 계획=seyahat planı
-이유|sebep|이유가 뭐예요?=Sebebi ne?;이유를 묻다=sebebini sormak
+이유|sebep|이유가 뭐예요?=Sebebi nedir?;이유를 묻다=sebebini sormak
 채소|sebze|채소를 먹다=sebze yemek;신선한 채소=taze sebze
 크다|büyük olmak|키가 크다=uzun boylu olmak;집이 크다=ev büyük
 작다|küçük olmak|키가 작다=kısa boylu olmak;작은 가방=küçük çanta
@@ -158,7 +158,7 @@
 잠|uyku|잠을 자다=uyumak;잠이 오다=uykusu gelmek
 꿈|rüya, hayal|꿈을 꾸다=rüya görmek;꿈을 이루다=hayalini gerçekleştirmek
 점원|tezgâhtar|점원에게 묻다=tezgâhtara sormak;친절한 점원=nazik tezgâhtar
-손님|müşteri, misafir|손님이 오다=misafir gelmek;손님이 많다=müşteri çok
+손님|müşteri, misafir|손님이 오다=misafirin gelmesi;손님이 많다=müşteri çok
 잠시|kısa bir süre|잠시만 기다리세요=bir dakika bekleyin;잠시 쉬다=biraz dinlenmek
 보이다|görünmek, göstermek|잘 보이다=iyi görünmek;신분증을 보이다=kimliğini göstermek
 가격|fiyat|가격이 비싸다=fiyatı pahalı;가격을 묻다=fiyat sormak
@@ -172,7 +172,7 @@
 건너가다|karşıya geçmek|길을 건너가다=yolun karşısına geçmek;다리를 건너가다=köprüden geçmek
 주차장|otopark|주차장에 세우다=otoparka park etmek;지하 주차장=kapalı otopark
 건물|bina|높은 건물=yüksek bina;건물 안=binanın içi
-화장실|tuvalet|화장실에 가다=tuvalete gitmek;화장실이 어디예요?=Tuvalet nerede?
+화장실|tuvalet|화장실에 가다=tuvalete gitmek;화장실이 어디예요?=Tuvalet nerededir?
 #5
 무섭다|korkunç olmak, korkmak|영화가 무섭다=film korkunç;개가 무섭다=köpekten korkmak
 걸리다|sürmek (zaman)|시간이 걸리다=zaman almak;30분 걸리다=30 dakika sürmek
@@ -196,7 +196,7 @@
 호텔|otel|호텔에 묵다=otelde kalmak;호텔을 예약하다=otel rezervasyonu yapmak
 공항|havalimanı|공항에 도착하다=havalimanına varmak;인천 공항=İncheon Havalimanı
 간식|ara öğün, atıştırmalık|간식을 먹다=atıştırmalık yemek;간식 시간=ara öğün zamanı
-배가 고프다|aç olmak|배가 고파요=acıktım;너무 배가 고프다=çok aç olmak
+배가 고프다|aç olmak|배가 고파요=Karnım aç;너무 배가 고프다=çok aç olmak
 싫어하다|sevmemek|채소를 싫어하다=sebze sevmemek;운동을 싫어하다=spordan hoşlanmamak
 늦다|geç kalmak, geç olmak|약속에 늦다=randevuya geç kalmak;시간이 늦다=vakit geç
 미술관|sanat müzesi|미술관에 가다=sanat müzesine gitmek;미술관 전시=sanat müzesi sergisi
@@ -205,7 +205,7 @@
 호수|göl|호수 근처=göl kenarı;맑은 호수=berrak göl
 약|ilaç|약을 먹다=ilaç içmek;감기약=soğuk algınlığı ilacı
 여권|pasaport|여권을 만들다=pasaport çıkarmak;여권을 잃어버리다=pasaportu kaybetmek
-수영복|mayo|수영복을 입다=mayo giymek;수영복을 챙기다=mayo yanına almak
+수영복|mayo|수영복을 입다=mayo giymek;수영복을 챙기다=mayoyu yanına almak
 구경|gezme, seyir|시내 구경=şehir gezisi;구경을 가다=gezmeye gitmek
 맛집|ünlü lezzet mekânı|맛집을 찾다=lezzetli mekân aramak;유명한 맛집=ünlü restoran
 휴가|izin, tatil|휴가를 가다=tatile gitmek;여름 휴가=yaz tatili
@@ -219,12 +219,12 @@
 #6
 전통 시장|geleneksel pazar|전통 시장을 구경하다=geleneksel pazarı gezmek;전통 시장에서 장을 보다=geleneksel pazardan alışveriş yapmak
 새롭다|yeni olmak|새로운 경험=yeni bir deneyim;새로운 친구=yeni arkadaş
-공연|gösteri, konser|공연을 보다=gösteri izlemek;공연이 시작되다=gösteri başlamak
+공연|gösteri, konser|공연을 보다=gösteri izlemek;공연이 시작되다=gösterinin başlaması
 멋있다|havalı, harika olmak|옷이 멋있다=kıyafet havalı;멋있는 사람=havalı biri
-끝나다|bitmek|수업이 끝나다=ders bitmek;영화가 끝나다=film bitmek
+끝나다|bitmek|수업이 끝나다=dersin bitmesi;영화가 끝나다=filmin bitmesi
 이|diş|이를 닦다=dişleri fırçalamak;이가 아프다=dişi ağrımak
 닦다|silmek, fırçalamak|창문을 닦다=pencereyi silmek;이를 닦다=dişleri fırçalamak
-설거지|bulaşık yıkama|설거지를 하다=bulaşık yıkamak;설거지가 쌓이다=bulaşık birikmek
+설거지|bulaşık yıkama|설거지를 하다=bulaşık yıkamak;설거지가 쌓이다=bulaşık birikmesi
 더|daha|더 주세요=daha verin;더 크다=daha büyük
 귤|mandalina|귤을 까다=mandalina soymak;제주 귤=Jeju mandalinası
 다녀오다|gidip gelmek|학교에 다녀오다=okula gidip gelmek;다녀오겠습니다=gidip geliyorum
@@ -237,7 +237,7 @@
 참|gerçekten, çok|참 좋다=gerçekten güzel;참 친절하다=çok nazik
 다시|tekrar|다시 말해 주세요=tekrar söyler misiniz;다시 만나다=tekrar buluşmak
 신체|vücut, beden|신체 부위=vücut bölümü;신체 검사=sağlık muayenesi
-증상|belirti|감기 증상=soğuk algınlığı belirtisi;증상이 나타나다=belirti görülmek
+증상|belirti|감기 증상=soğuk algınlığı belirtisi;증상이 나타나다=belirti görülmesi
 귀|kulak|귀가 아프다=kulağı ağrımak;귀를 기울이다=kulak vermek
 코|burun|코를 풀다=sümkürmek;코가 막히다=burnu tıkanmak
 입|ağız|입을 열다=ağzını açmak;입을 다물다=ağzını kapamak
@@ -277,12 +277,12 @@
 샐러드|salata|샐러드를 만들다=salata yapmak;야채 샐러드=sebze salatası
 제일|en|제일 좋아하다=en çok sevmek;제일 크다=en büyük
 습관|alışkanlık|좋은 습관=iyi alışkanlık;습관을 고치다=alışkanlığı düzeltmek
-모임|toplantı, buluşma|모임이 있다=buluşma olmak;동창 모임=mezunlar buluşması
+모임|toplantı, buluşma|모임이 있다=buluşması olmak;동창 모임=mezunlar buluşması
 정하다|belirlemek, karar vermek|날짜를 정하다=tarihi belirlemek;장소를 정하다=yeri belirlemek
 예약하다|rezervasyon yapmak|식당을 예약하다=restoran rezervasyonu yapmak;미리 예약하다=önceden rezervasyon yapmak
-연락|iletişim, haber|연락을 하다=haber vermek;연락이 오다=haber gelmek
+연락|iletişim, haber|연락을 하다=haber vermek;연락이 오다=haber gelmesi
 다치다|yaralanmak, incinmek|다리를 다치다=bacağını incitmek;크게 다치다=ağır yaralanmak
-모이다|toplanmak, bir araya gelmek|친구들이 모이다=arkadaşlar toplanmak;돈이 모이다=para birikmek
+모이다|toplanmak, bir araya gelmek|친구들이 모이다=arkadaşlarla toplanmak;돈이 모이다=para birikmek
 초대장|davetiye|초대장을 보내다=davetiye göndermek;결혼식 초대장=düğün davetiyesi
 부르다|(şarkı) söylemek, seslenmek|노래를 부르다=şarkı söylemek;이름을 부르다=adını seslenmek
 춤|dans|춤을 추다=dans etmek;춤을 배우다=dans öğrenmek
@@ -312,7 +312,7 @@
 굽다|(fırında, ızgarada) pişirmek|빵을 굽다=ekmek pişirmek;고기를 굽다=et pişirmek
 가르치다|öğretmek|한국어를 가르치다=Korece öğretmek;학생을 가르치다=öğrenci okutmak
 프로그래머|programcı|프로그래머로 일하다=programcı olarak çalışmak;게임 프로그래머=oyun programcısı
-제빵사|fırıncı|제빵사가 빵을 굽다=fırıncı ekmek pişirmek;제빵사가 되다=fırıncı olmak
+제빵사|fırıncı|제빵사가 빵을 굽다=fırıncının ekmek pişirmesi;제빵사가 되다=fırıncı olmak
 가구|mobilya|가구를 사다=mobilya almak;가구를 옮기다=mobilyaları taşımak
 잃어버리다|kaybetmek|지갑을 잃어버리다=cüzdanını kaybetmek;우산을 잃어버리다=şemsiyesini kaybetmek
 휴게실|dinlenme salonu|휴게실에서 쉬다=dinlenme salonunda dinlenmek;직원 휴게실=personel dinlenme odası
@@ -321,7 +321,7 @@
 일기 예보|hava durumu|일기 예보를 보다=hava durumuna bakmak;일기 예보에 따르면=hava durumuna göre
 글쎄요|bilmem ki, emin değilim|글쎄요, 잘 모르겠어요=bilmem ki, emin değilim;글쎄요, 생각해 볼게요=şey, bir düşüneyim
 악기|müzik aleti|악기를 연주하다=müzik aleti çalmak;악기를 배우다=enstrüman öğrenmek
-연주하다|çalmak (müzik)|피아노를 연주하다=piyano çalmak;곡을 연주하다=parça çalmak
+연주하다|çalmak (müzik)|피아노를 연주하다=piyano çalmak;곡을 연주하다=müzik parçasını çalmak
 소설|roman|소설을 읽다=roman okumak;소설가=romancı
 만화|çizgi roman|만화를 보다=çizgi roman okumak;만화 영화=çizgi film
 풍경 사진|manzara fotoğrafı|풍경 사진을 찍다=manzara fotoğrafı çekmek;아름다운 풍경 사진=güzel manzara fotoğrafı
@@ -335,7 +335,7 @@
 동아리 활동|kulüp etkinliği|동아리 활동을 하다=kulüp etkinliğine katılmak;대학교 동아리 활동=üniversite kulüp etkinliği
 출퇴근하다|işe gidip gelmek|지하철로 출퇴근하다=metroyla işe gidip gelmek;차로 출퇴근하다=arabayla işe gidip gelmek
 행복하다|mutlu olmak|정말 행복하다=gerçekten mutlu olmak;행복한 가정=mutlu aile
-출발하다|yola çıkmak|일찍 출발하다=erken yola çıkmak;기차가 출발하다=tren kalkmak
+출발하다|yola çıkmak|일찍 출발하다=erken yola çıkmak;기차가 출발하다=trenin hareket etmesi
 평일|hafta içi|평일 오후=hafta içi öğleden sonra;평일에는 바쁘다=hafta içi yoğun olmak
 문자|kısa mesaj|문자를 보내다=mesaj atmak;문자가 오다=mesaj gelmek
 발표|sunum|발표를 하다=sunum yapmak;발표 준비=sunum hazırlığı
@@ -372,7 +372,7 @@
 화분|saksı|화분에 물을 주다=saksıya su vermek;화분을 키우다=saksı çiçeği yetiştirmek
 꽃병|vazo|꽃병에 꽂다=vazoya koymak (çiçek);유리 꽃병=cam vazo
 쿠션|minder, yastık|소파 위 쿠션=kanepedeki minder;쿠션을 놓다=minder koymak
-놓여 있다|konmuş olmak|책상 위에 놓여 있다=masanın üstünde duruyor;꽃병이 놓여 있다=vazo konmuş
+놓여 있다|konmuş olmak|책상 위에 놓여 있다=masanın üstünde duruyor;꽃병이 놓여 있다=vazo duruyor (konulmuş durumda)
 걸려 있다|asılı olmak|벽에 걸려 있다=duvarda asılı;옷이 걸려 있다=kıyafet asılı
 소파|kanepe|소파에 앉다=kanepeye oturmak;편한 소파=rahat kanepe
 외국어|yabancı dil|외국어를 배우다=yabancı dil öğrenmek;외국어를 잘하다=yabancı dili iyi konuşmak
@@ -390,7 +390,7 @@
 낫다|iyileşmek|감기가 낫다=soğuk algınlığı geçmek;빨리 나으세요=geçmiş olsun
 짓다|inşa etmek, yapmak|집을 짓다=ev yapmak;밥을 짓다=pilav pişirmek
 젓다|karıştırmak|커피를 젓다=kahveyi karıştırmak;숟가락으로 젓다=kaşıkla karıştırmak
-울다|ağlamak|아기가 울다=bebek ağlamak;슬퍼서 울다=üzüldüğü için ağlamak
+울다|ağlamak|아기가 울다=bebek ağlaması;슬퍼서 울다=üzüldüğü için ağlamak
 강아지|köpek yavrusu|강아지를 키우다=köpek yavrusu beslemek;강아지와 산책하다=köpekle yürüyüş yapmak
 생강차|zencefil çayı|생강차를 마시다=zencefil çayı içmek;따뜻한 생강차=sıcak zencefil çayı
 자꾸|durmadan, sık sık|자꾸 잊어버리다=durmadan unutmak;자꾸 생각나다=sık sık aklına gelmek
@@ -398,14 +398,14 @@
 항상|her zaman|항상 바쁘다=her zaman meşgul;항상 웃다=hep gülümsemek
 추천하다|tavsiye etmek|맛집을 추천하다=lezzetli mekân tavsiye etmek;책을 추천하다=kitap tavsiye etmek
 가져오다|getirmek|우산을 가져오다=şemsiye getirmek;물을 가져오다=su getirmek
-안 그래도|zaten, ben de tam|안 그래도 전화하려고 했어요=ben de tam arayacaktım;안 그래도 바쁜데=zaten meşgulken
+안 그래도|zaten, ben de tam|안 그래도 전화하려고 했어요=ben de tam arayacaktım;안 그래도 바쁜데=zaten meşgulüm
 골고루|dengeli, her şeyden|골고루 먹다=dengeli beslenmek;골고루 나누다=eşit paylaştırmak
 씻다|yıkamak|손을 씻다=ellerini yıkamak;과일을 씻다=meyveyi yıkamak
 짜증을 내다|sinirlenmek, sinirini dökmek|친구에게 짜증을 내다=arkadaşına sinirlenmek;자주 짜증을 내다=sık sık sinirlenmek
 야식|gece atıştırması|야식을 먹다=gece atıştırması yapmak;야식으로 라면을 먹다=gece ramen yemek
 낮|gündüz|낮에 자다=gündüz uyumak;낮과 밤=gündüz ve gece
 국|çorba|국을 끓이다=çorba pişirmek;미역국=yosun çorbası
-국수|erişte, noodle|국수를 먹다=erişte yemek;잔치국수=şenlik eriştesi
+국수|erişte, noodle|국수를 먹다=erişte yemek;잔치국수=sebzeli erişte çorbası
 종이|kâğıt|종이에 쓰다=kâğıda yazmak;종이 한 장=bir yaprak kâğıt
 연필|kurşun kalem|연필로 쓰다=kurşun kalemle yazmak;연필을 깎다=kalem açmak
 볼펜|tükenmez kalem|볼펜으로 쓰다=tükenmezle yazmak;볼펜을 빌리다=tükenmez kalem ödünç almak
@@ -417,14 +417,14 @@
 배달|eve teslim, paket servis|배달을 시키다=paket servis söylemek;배달 음식=paket yemek
 끓이다|kaynatmak, pişirmek|물을 끓이다=su kaynatmak;라면을 끓이다=ramen pişirmek
 모양|şekil|모양이 예쁘다=şekli güzel;하트 모양=kalp şekli
-단순하다|sade, basit olmak|디자인이 단순하다=tasarım sade;단순한 생각=basit düşünce
-적당하다|uygun olmak|가격이 적당하다=fiyat uygun;적당한 운동=ölçülü egzersiz
+단순하다|sade, basit olmak|디자인이 단순하다=tasarımı sade;단순한 생각=basit düşünce
+적당하다|uygun olmak|가격이 적당하다=fiyatı uygun;적당한 운동=ölçülü egzersiz
 크기|boyut|크기가 크다=boyutu büyük;크기를 재다=boyutunu ölçmek
 장마|yağmur mevsimi|장마가 시작되다=yağmur mevsimi başlamak;장마철=muson dönemi
 길이|uzunluk|길이를 재다=uzunluğunu ölçmek;바지 길이=pantolon boyu
 켜다|açmak (elektrikli alet)|불을 켜다=ışığı açmak;텔레비전을 켜다=televizyonu açmak
 비슷하다|benzer olmak|성격이 비슷하다=karakterleri benzer;비슷한 색=benzer renk
-어울리다|yakışmak|옷이 잘 어울리다=kıyafet çok yakışmak;친구들과 어울리다=arkadaşlarla kaynaşmak
+어울리다|yakışmak|옷이 잘 어울리다=kıyafeti çok yakışmak;친구들과 어울리다=arkadaşlarla kaynaşmak
 다이어리|ajanda|다이어리에 쓰다=ajandaya yazmak;새해 다이어리=yeni yıl ajandası
 문방구|kırtasiye|문방구에서 사다=kırtasiyeden almak;학교 앞 문방구=okul önündeki kırtasiye
 확인하다|kontrol etmek|메일을 확인하다=e-postayı kontrol etmek;시간을 확인하다=saati kontrol etmek
@@ -437,13 +437,13 @@
 예매하다|önceden bilet almak|표를 예매하다=bileti önceden almak;영화를 예매하다=sinema bileti almak
 독일|Almanya|독일에 가다=Almanya'ya gitmek;독일 사람=Alman
 드디어|nihayet, sonunda|드디어 도착하다=sonunda varmak;드디어 끝나다=nihayet bitmek
-벌써|şimdiden, çoktan|벌써 끝났어요?=Şimdiden bitti mi?;벌써 12월이다=çoktan aralık oldu
+벌써|şimdiden, çoktan|벌써 끝났어요?=Şimdiden bitti mi?;벌써 12월이다=çoktan Aralık oldu
 세우다|kurmak (plan), durdurmak|계획을 세우다=plan yapmak;차를 세우다=arabayı durdurmak
 도착하다|varmak|공항에 도착하다=havalimanına varmak;제시간에 도착하다=zamanında varmak
 야경|gece manzarası|야경을 보다=gece manzarasını seyretmek;서울의 야경=Seul'ün gece manzarası
 전통 음식|geleneksel yemek|전통 음식을 먹다=geleneksel yemek yemek;한국 전통 음식=Kore geleneksel yemeği
-입에 맞다|damak tadına uymak|음식이 입에 맞다=yemek damak tadına uymak;입에 맞는 음식=damak tadına uygun yemek
-구경거리|görülecek şey|구경거리가 많다=görülecek çok şey var;재미있는 구경거리=ilginç görülecek şey
+입에 맞다|damak tadına uymak|음식이 입에 맞다=yemek damak tadına uygun;입에 맞는 음식=damak tadına uyan yemek
+구경거리|görülecek şey|구경거리가 많다=görülecek çok şey var;재미있는 구경거리=ilginç seyirlik şey
 친절하다|nazik olmak|친절한 직원=nazik çalışan;사람들이 친절하다=insanlar nazik
 다행|iyi ki, şans eseri|정말 다행이다=iyi ki öyle olmuş;다행히=neyse ki
 역사|tarih (geçmiş)|역사를 공부하다=tarih çalışmak;한국 역사=Kore tarihi
@@ -452,7 +452,7 @@
 나중|sonra|나중에 연락하다=sonra haber vermek;나중에 봐요=sonra görüşürüz
 결정하다|karar vermek|여행지를 결정하다=gezi yerine karar vermek;빨리 결정하다=çabuk karar vermek
 인기 있다|popüler olmak|인기 있는 가수=popüler şarkıcı;학생들에게 인기 있다=öğrenciler arasında popüler
-찾아보다|araştırıp bakmak|인터넷에서 찾아보다=internetten bakmak;사전에서 찾아보다=sözlükte bakmak
+찾아보다|araştırıp bakmak|인터넷에서 찾아보다=internetten bakmak;사전에서 찾아보다=sözlükten bakmak
 취향|zevk, tercih|취향이 비슷하다=zevkleri benzer;제 취향이 아니다=benim tarzım değil
 잠깐|bir an, kısa süre|잠깐만요=bir saniye;잠깐 쉬다=kısa bir mola vermek
 연습하다|pratik yapmak|발음을 연습하다=telaffuz çalışmak;피아노를 연습하다=piyano çalışmak
@@ -467,7 +467,7 @@
 좌회전하다|sola dönmek|신호등에서 좌회전하다=trafik ışığında sola dönmek;좌회전 금지=sola dönmek yasak
 행사|etkinlik|행사를 하다=etkinlik düzenlemek;행사에 참석하다=etkinliğe katılmak
 안내|rehberlik, bilgilendirme|안내를 받다=bilgi almak;안내 방송=anons
-예정|plan, program (beklenen)|출발 예정=kalkış planlanıyor;예정대로=plana göre
+예정|plan, program (beklenen)|출발 예정=kalkış planı;예정대로=plana göre
 걸어오다|yürüyerek gelmek|집까지 걸어오다=eve yürüyerek gelmek;여기까지 걸어오다=buraya yürüyerek gelmek
 멀리|uzağa, uzakta|멀리 가다=uzağa gitmek;멀리 살다=uzakta yaşamak
 #12
@@ -490,7 +490,7 @@
 기쁘다|sevinçli olmak|정말 기쁘다=gerçekten sevinçli;기쁜 소식=sevindirici haber
 최고|en iyi|최고의 선물=en iyi hediye;기분이 최고다=keyfim yerinde
 신나다|heyecanlanmak, coşmak|신나게 놀다=coşkuyla eğlenmek;신나는 음악=coşkulu müzik
-기분이 나쁘다|keyfi kaçmak|그 말 때문에 기분이 나쁘다=o söz yüzünden keyfim kaçtı;아침부터 기분이 나쁘다=sabahtan beri keyfim yok
+기분이 나쁘다|keyfi kaçmak|그 말 때문에 기분이 나쁘다=o söz yüzünden keyfi kaçmak;아침부터 기분이 나쁘다=sabahtan beri keyfi olmamak
 짜증이 나다|sinirlenmek, canı sıkılmak|길이 막혀서 짜증이 나다=yol tıkalı olduğu için sinirlenmek;짜증이 날 때=sinirlendiğimde
 걱정|endişe|걱정을 하다=endişelenmek;걱정이 많다=endişesi çok
 지루하다|sıkıcı olmak|수업이 지루하다=ders sıkıcı;지루한 영화=sıkıcı film
@@ -524,7 +524,7 @@
 빈자리|boş yer|빈자리를 찾다=boş yer aramak;빈자리에 앉다=boş yere oturmak
 잘생기다|yakışıklı olmak|잘생긴 배우=yakışıklı oyuncu;정말 잘생기다=gerçekten yakışıklı
 문제|soru, sorun|문제를 풀다=soru çözmek;문제가 생기다=sorun çıkmak
-아이|çocuk|아이를 키우다=çocuk büyütmek;아이가 울다=çocuk ağlamak
+아이|çocuk|아이를 키우다=çocuk büyütmek;아이가 울다=çocuk ağlaması
 주차하다|park etmek|차를 주차하다=arabayı park etmek;주차 금지=park yasak
 담배|sigara|담배를 끊다=sigarayı bırakmak;담배 냄새=sigara kokusu
 피우다|(sigara) içmek|담배를 피우다=sigara içmek;피우지 마세요=içmeyin
@@ -544,7 +544,7 @@
 천천히|yavaşça|천천히 말하다=yavaş konuşmak;천천히 드세요=yavaş yiyin
 넘다|aşmak, geçmek|10시가 넘다=saat onu geçmek;담을 넘다=duvarı aşmak
 밀다|itmek|문을 밀다=kapıyı itmek;밀지 마세요=itmeyin
-뛰어다니다|koşturup durmak|복도에서 뛰어다니다=koridorda koşturmak;아이들이 뛰어다니다=çocuklar koşuşturmak
+뛰어다니다|koşturup durmak|복도에서 뛰어다니다=koridorda koşturmak;아이들이 뛰어다니다=çocukların koşuşturması
 통화하다|telefonda konuşmak|친구와 통화하다=arkadaşıyla telefonda konuşmak;오래 통화하다=uzun süre telefonda konuşmak
 이상|üstü, fazlası|두 시간 이상=iki saatten fazla;18세 이상=18 yaş ve üstü
 사용하다|kullanmak|휴대폰을 사용하다=cep telefonu kullanmak;사용 방법=kullanım şekli
@@ -559,7 +559,7 @@
 착하다|iyi kalpli olmak|착한 사람=iyi kalpli insan;마음이 착하다=kalbi iyi
 부지런하다|çalışkan olmak|부지런한 학생=çalışkan öğrenci;부지런하게 일하다=gayretle çalışmak
 게으르다|tembel olmak|게으른 사람=tembel insan;아침에 게으르다=sabahları tembel
-활발하다|hareketli, neşeli olmak|성격이 활발하다=hareketli bir kişiliği var;활발한 아이=hareketli çocuk
+활발하다|hareketli, neşeli olmak|성격이 활발하다=kişiliği hareketli olmak;활발한 아이=hareketli çocuk
 빨리빨리|çabuk çabuk|빨리빨리 하다=çabuk çabuk yapmak;빨리빨리 문화="çabuk çabuk" kültürü
 화를 내다|kızmak|친구에게 화를 내다=arkadaşına kızmak;크게 화를 내다=çok kızmak
 어리다|küçük, genç olmak|나이가 어리다=yaşı küçük;어린 아이=küçük çocuk
@@ -568,14 +568,14 @@
 바뀌다|değişmek|계획이 바뀌다=plan değişmek;많이 바뀌다=çok değişmek
 화나다|sinirlenmek|정말 화나다=çok sinirlenmek;화난 얼굴=kızgın yüz
 냄새|koku|냄새가 나다=koku gelmek;좋은 냄새=güzel koku
-이미|çoktan, zaten|이미 끝났다=çoktan bitti;이미 알고 있다=zaten biliyorum
+이미|çoktan, zaten|이미 끝났다=çoktan bitmek;이미 알고 있다=zaten bilmek
 옆집|yan ev, komşu|옆집 사람=komşu;옆집에 살다=yan evde oturmak
 서로|birbirine|서로 돕다=birbirine yardım etmek;서로 사랑하다=birbirini sevmek
 아이디어|fikir|아이디어를 내다=fikir ortaya atmak;좋은 아이디어=iyi fikir
 새|kuş|새가 날다=kuş uçmak;새가 울다=kuş ötmek
 사실|aslında, gerçek|사실은=aslında;사실을 말하다=gerçeği söylemek
 갑자기|aniden|갑자기 비가 오다=aniden yağmur yağmak;갑자기 생각나다=aniden aklına gelmek
-해|güneş|해가 뜨다=güneş doğmak;해가 지다=güneş batmak
+해|güneş|해가 뜨다=güneşin doğması;해가 지다=güneşin batması
 마르다|zayıf olmak|몸이 마르다=vücudu zayıf;마른 체형=zayıf yapılı
 날씬하다|ince, zarif olmak|날씬한 몸매=ince vücut;날씬해지다=incelmek
 통통하다|tombul olmak|볼이 통통하다=yanakları tombul;통통한 아기=tombul bebek
@@ -583,24 +583,24 @@
 보통|genellikle, normal|보통 7시에 일어나다=genellikle yedide kalkmak;보통 키=orta boy
 초콜릿|çikolata|초콜릿을 먹다=çikolata yemek;초콜릿 케이크=çikolatalı pasta
 비타민|vitamin|비타민을 먹다=vitamin almak;비타민 C=C vitamini
-남다|artmak, kalmak|음식이 남다=yemek artmak;시간이 남다=zaman kalmak
+남다|artmak, kalmak|음식이 남다=yemek artmak;시간이 남다=zamanı kalmak
 관심|ilgi|관심이 있다=ilgisi olmak;관심을 가지다=ilgi göstermek
 그때|o zaman|그때 만나요=o zaman görüşelim;그때부터=o zamandan beri
-모습|görünüş, hâl|웃는 모습=gülen hâli;옛날 모습=eski görünüşü
-하루 종일|bütün gün|하루 종일 자다=bütün gün uyumak;하루 종일 비가 오다=bütün gün yağmur yağmak
+모습|görünüş, hâl|웃는 모습=gülen hâli (görünüşü);옛날 모습=eski görünüşü
+하루 종일|bütün gün|하루 종일 자다=bütün gün uyumak;하루 종일 비가 오다=bütün gün yağmur yağması
 축구장|futbol sahası|축구장에서 뛰다=futbol sahasında koşmak;축구장에 가다=stada gitmek
 축구 선수|futbolcu|유명한 축구 선수=ünlü futbolcu;축구 선수가 되다=futbolcu olmak
 화가|ressam|유명한 화가=ünlü ressam;화가가 되다=ressam olmak
-생각이 깊다|düşünceli, derin düşünen|생각이 깊은 사람=derin düşünen biri;나이에 비해 생각이 깊다=yaşına göre olgun düşünüyor
-말이 잘 통하다|iyi anlaşmak|친구와 말이 잘 통하다=arkadaşıyla iyi anlaşmak;말이 잘 통하는 사람=iyi anlaştığım kişi
+생각이 깊다|düşünceli, derin düşünen|생각이 깊은 사람=derin düşünen biri;나이에 비해 생각이 깊다=yaşına göre olgun düşünmek
+말이 잘 통하다|iyi anlaşmak|친구와 말이 잘 통하다=arkadaşıyla iyi anlaşmak;말이 잘 통하는 사람=iyi anlaşılan kişi
 마음이 따뜻하다|sıcak kalpli olmak|마음이 따뜻한 사람=sıcak kalpli insan;선생님은 마음이 따뜻하다=öğretmen çok sıcakkanlı
-마음이 넓다|hoşgörülü olmak|마음이 넓은 사람=hoşgörülü insan;이해심이 많고 마음이 넓다=anlayışlı ve hoşgörülü
+마음이 넓다|hoşgörülü olmak|마음이 넓은 사람=hoşgörülü insan;이해심이 많고 마음이 넓다=anlayışlı ve hoşgörülü olmak
 마음이 잘 맞다|uyuşmak, anlaşmak|룸메이트와 마음이 잘 맞다=oda arkadaşıyla iyi anlaşmak;마음이 잘 맞는 친구=can dostu
 #15
 저희|biz (alçakgönüllü)|저희 집=bizim ev;저희 회사=bizim şirket
 기숙사|yurt|기숙사에 살다=yurtta kalmak;학교 기숙사=okul yurdu
 이후|sonra|졸업 이후=mezuniyetten sonra;그 이후로=ondan sonra
-알람 시계|çalar saat|알람 시계를 맞추다=çalar saati kurmak;알람 시계가 울리다=çalar saat çalmak
+알람 시계|çalar saat|알람 시계를 맞추다=çalar saati kurmak;알람 시계가 울리다=çalar saatin çalması
 하늘|gökyüzü|하늘이 파랗다=gökyüzü mavi;하늘을 보다=gökyüzüne bakmak
 발음|telaffuz|발음이 좋다=telaffuzu iyi;발음을 연습하다=telaffuz çalışmak
 싸우다|kavga etmek|친구와 싸우다=arkadaşıyla kavga etmek;싸우지 마세요=kavga etmeyin
@@ -611,7 +611,7 @@
 방송국|yayın kuruluşu|방송국에서 일하다=televizyon kanalında çalışmak;방송국 견학=yayın kuruluşu gezisi
 동전|bozuk para|동전을 넣다=bozuk para atmak;동전 지갑=bozuk para cüzdanı
 체험하다|deneyimlemek|문화를 체험하다=kültürü deneyimlemek;직접 체험하다=bizzat deneyimlemek
-방문하다|ziyaret etmek|친구 집을 방문하다=arkadaşının evini ziyaret etmek;회사를 방문하다=şirketi ziyaret etmek
+방문하다|ziyaret etmek|친구 집을 방문하다=arkadaş evini ziyaret etmek;회사를 방문하다=şirketi ziyaret etmek
 찾아가다|ziyarete gitmek|선생님을 찾아가다=öğretmeni ziyarete gitmek;직접 찾아가다=bizzat gitmek
 산악자전거|dağ bisikleti|산악자전거를 타다=dağ bisikletine binmek;산악자전거 동호회=dağ bisikleti kulübü
 연기|oyunculuk|연기를 하다=rol yapmak;연기를 잘하다=iyi oyunculuk yapmak
@@ -628,7 +628,7 @@
 성공하다|başarılı olmak|사업에 성공하다=işte başarılı olmak;크게 성공하다=büyük başarı kazanmak
 노력|çaba|노력을 하다=çaba göstermek;노력한 만큼=gösterilen çaba kadar
 부족하다|yetersiz olmak|시간이 부족하다=zaman yetersiz;잠이 부족하다=uykusuz olmak
-부끄럽다|utanmak|정말 부끄럽다=çok utanmak;부끄러운 일=utanılacak şey
+부끄럽다|utanmak|정말 부끄럽다=çok utanmak;부끄러운 일=utanılan şey
 실수하다|hata yapmak|큰 실수를 하다=büyük hata yapmak;말을 실수하다=ağzından yanlış bir laf kaçırmak
 넘어지다|düşmek, yere kapaklanmak|길에서 넘어지다=yolda düşmek;계단에서 넘어지다=merdivende düşmek
 변하다|değişmek|많이 변하다=çok değişmek;마음이 변하다=fikri değişmek
@@ -637,22 +637,22 @@
 익숙해지다|alışmak|생활에 익숙해지다=hayata alışmak;음식에 익숙해지다=yemeklere alışmak
 쌍둥이|ikiz|쌍둥이 형제=ikiz kardeşler;쌍둥이를 낳다=ikiz doğurmak
 생일날|doğum günü (günü)|생일날 파티를 하다=doğum gününde parti yapmak;생일날 아침=doğum günü sabahı
-좋아지다|iyileşmek, düzelmek|날씨가 좋아지다=hava düzelmek;건강이 좋아지다=sağlığı iyileşmek
-학기|dönem (okul)|새 학기=yeni dönem;학기가 시작되다=dönem başlamak
+좋아지다|iyileşmek, düzelmek|날씨가 좋아지다=havanın iyileşmesi;건강이 좋아지다=sağlığı iyileşmek
+학기|dönem (okul)|새 학기=yeni dönem;학기가 시작되다=dönemin başlaması
 천사|melek|천사 같은 사람=melek gibi insan;작은 천사=küçük melek
 유학하다|yurt dışında okumak|미국에서 유학하다=Amerika'da okumak;한국에 유학하다=Kore'de okumak
 대학원|lisansüstü okul|대학원에 가다=lisansüstüne başlamak;대학원생=lisansüstü öğrencisi
 진학하다|üst okula geçmek|대학교에 진학하다=üniversiteye girmek;대학원에 진학하다=lisansüstüne geçmek
-세계 여행|dünya turu|세계 여행을 하다=dünya turuna çıkmak;세계 여행이 꿈이다=hayali dünya turu
+세계 여행|dünya turu|세계 여행을 하다=dünya turuna çıkmak;세계 여행이 꿈이다=dünya turuna çıkma hayali
 자유롭다|özgür olmak|자유롭게 생활하다=özgürce yaşamak;자유로운 분위기=özgür ortam
 토끼|tavşan|토끼를 키우다=tavşan beslemek;하얀 토끼=beyaz tavşan
 문화|kültür|한국 문화=Kore kültürü;문화 차이=kültür farkı
-달라지다|farklılaşmak, değişmek|생활이 달라지다=hayat değişmek;많이 달라지다=çok farklılaşmak
+달라지다|farklılaşmak, değişmek|생활이 달라지다=hayatı değişmek;많이 달라지다=çok farklılaşmak
 세상|dünya, âlem|넓은 세상=geniş dünya;세상에서 제일=dünyada en
 전시회|sergi|전시회에 가다=sergiye gitmek;사진 전시회=fotoğraf sergisi
 추억|anı, hatıra|추억을 만들다=anı biriktirmek;어린 시절 추억=çocukluk anıları
 저축하다|para biriktirmek|돈을 저축하다=para biriktirmek;매달 저축하다=her ay biriktirmek
-미래|gelecek|미래의 꿈=gelecekteki hayal;밝은 미래=parlak gelecek
+미래|gelecek|미래의 꿈=gelecek hayali;밝은 미래=parlak gelecek
 역시|tahmin edildiği gibi, yine|역시 맛있다=tahmin ettiğim gibi lezzetli;역시 최고다=yine en iyisi
 외롭다|yalnız hissetmek|혼자 있어서 외롭다=tek başına olduğu için yalnız hissetmek;외로운 밤=yalnız gece
 #Gün sayma
@@ -663,20 +663,20 @@
 열흘|on gün|열흘 동안=on gün boyunca;열흘 뒤=on gün sonra
 #Saygı dili
 계시다|bulunmak (saygı · 있다)|집에 계시다=evde bulunmak (saygılı);안녕히 계세요=hoşça kalın
-편찮으시다|rahatsız olmak (saygı · 아프다)|할머니가 편찮으시다=büyükanne rahatsız;많이 편찮으세요?=Çok mu rahatsızsınız?
+편찮으시다|rahatsız olmak (saygı · 아프다)|할머니가 편찮으시다=büyükanne rahatsız (hasta);많이 편찮으세요?=Çok mu rahatsızsınız?
 성함|isim (saygı · 이름)|성함이 어떻게 되세요?=İsminiz nedir?;성함을 여쭙다=ismini sormak (saygılı)
-주무시다|uyumak (saygı · 자다)|안녕히 주무세요=iyi geceler;할아버지가 주무시다=büyükbaba uyuyor
-돌아가시다|vefat etmek (saygı · 죽다)|할아버지께서 돌아가시다=büyükbaba vefat etmek;작년에 돌아가셨다=geçen yıl vefat etti
+주무시다|uyumak (saygı · 자다)|안녕히 주무세요=iyi geceler;할아버지가 주무시다=büyükbabanın uyuması (saygılı)
+돌아가시다|vefat etmek (saygı · 죽다)|할아버지께서 돌아가시다=büyükbabanın vefat etmesi;작년에 돌아가셨다=geçen yıl vefat etti
 연세|yaş (saygı · 나이)|연세가 어떻게 되세요?=Yaşınız kaç?;연세가 많으시다=yaşlı olmak (saygılı)
-말씀하다|söylemek (saygı · 말하다)|선생님께서 말씀하시다=öğretmen söylüyor;천천히 말씀해 주세요=yavaş söyler misiniz
+말씀하다|söylemek (saygı · 말하다)|선생님께서 말씀하시다=öğretmenin konuşması (saygılı);천천히 말씀해 주세요=yavaş söyler misiniz
 진지|yemek (saygı · 밥)|진지 드세요=buyurun yemek yiyin;진지를 잡수시다=yemek yemek (saygılı)
-생신|doğum günü (saygı · 생일)|할머니 생신=büyükannenin doğum günü;생신을 축하드리다=doğum gününü kutlamak (saygılı)
+생신|doğum günü (saygı · 생일)|할머니 생신=büyükannenin doğum günü (saygılı);생신을 축하드리다=doğum gününü kutlamak (saygılı)
 드리다|vermek (saygı · 주다)|선물을 드리다=hediye vermek (saygılı);말씀을 드리다=arz etmek
-댁|ev (saygı · 집)|선생님 댁=öğretmenin evi;댁에 계시다=evde bulunmak (saygılı)
+댁|ev (saygı · 집)|선생님 댁=öğretmenin evi (saygılı);댁에 계시다=evde bulunmak (saygılı)
 모시다|refakat etmek (saygı · 데리다)|부모님을 모시다=anne babaya bakmak;손님을 모시다=misafiri ağırlamak
 뵙다|görmek, buluşmak (saygı · 만나다)|처음 뵙겠습니다=tanıştığımıza memnun oldum;선생님을 뵙다=öğretmenle görüşmek
-분|kişi (saygı · 사람)|두 분=iki kişi (saygılı);이 분=bu zat
-말씀|söz (saygı · 말)|말씀 많이 들었어요=sizden çok bahsedildi;좋은 말씀=güzel sözler
+분|kişi (saygı · 사람)|두 분=iki kişi (saygılı);이 분=bu kişi (saygılı)
+말씀|söz (saygı · 말)|말씀 많이 들었어요=sizden çok bahsedildi;좋은 말씀=güzel söz
 #Renkler
 금색|altın rengi|금색 반지=altın renkli yüzük;금색으로 칠하다=altın rengine boyamak
 은색|gümüş rengi|은색 자동차=gümüş renkli araba;은색 목걸이=gümüş renkli kolye
@@ -692,7 +692,7 @@
 주황색|turuncu|주황색 귤=turuncu mandalina;주황색 모자=turuncu şapka
 초록색|yeşil|초록색 잎=yeşil yaprak;초록색 신호=yeşil ışık
 남색|lacivert|남색 바지=lacivert pantolon;남색 교복=lacivert okul forması
-색깔|renk|좋아하는 색깔=sevdiğim renk;색깔이 예쁘다=rengi güzel
+색깔|renk|좋아하는 색깔=sevdiğim renk;색깔이 예쁘다=rengi güzel olmak
 #Yön · Konum
 건너편|karşı taraf|길 건너편=yolun karşı tarafı;건너편 건물=karşıdaki bina
 밖|dış|밖에 나가다=dışarı çıkmak;창문 밖=pencerenin dışı
@@ -713,7 +713,7 @@
 혀|dil (organ)|혀를 내밀다=dilini çıkarmak;혀를 데다=dilini yakmak
 손가락|el parmağı|손가락으로 가리키다=parmakla göstermek;손가락을 다치다=parmağını incitmek
 입술|dudak|입술이 트다=dudakları çatlamak;입술을 깨물다=dudağını ısırmak
-심장|kalp|심장이 뛰다=kalp atmak;심장이 두근거리다=kalbi küt küt atmak
+심장|kalp|심장이 뛰다=kalp atması;심장이 두근거리다=kalbi küt küt atmak
 뺨|yanak|뺨이 빨개지다=yanakları kızarmak;뺨을 맞다=tokat yemek
 위|mide|위가 아프다=midesi ağrımak;위가 약하다=midesi hassas
 머리카락|saç (teli)|머리카락이 빠지다=saçları dökülmek;긴 머리카락=uzun saç
@@ -732,7 +732,7 @@
 피|kan|피가 나다=kanamak;피를 흘리다=kan kaybetmek
 피부|cilt|피부가 좋다=cildi güzel;피부가 건조하다=cildi kuru
 뇌|beyin|뇌를 쓰다=beynini kullanmak;뇌 건강=beyin sağlığı
-폐|akciğer|폐가 건강하다=akciğerleri sağlıklı;폐에 나쁘다=akciğere zararlı
+폐|akciğer|폐가 건강하다=akciğeri sağlıklı;폐에 나쁘다=akciğere zararlı
 간|karaciğer|간이 나쁘다=karaciğeri kötü;간 건강=karaciğer sağlığı
 신장|böbrek|신장이 약하다=böbrekleri zayıf;신장 기능=böbrek fonksiyonu
 #Sayma birimleri
@@ -752,42 +752,42 @@
 #Hayvan · Bitki
 나무|ağaç|나무를 심다=ağaç dikmek;큰 나무=büyük ağaç
 오리|ördek|오리가 헤엄치다=ördek yüzmek;오리 고기=ördek eti
-사자|aslan|사자가 울다=aslan kükremek;무서운 사자=korkunç aslan
+사자|aslan|사자가 울다=aslan kükremesi;무서운 사자=korkunç aslan
 돼지|domuz|돼지 고기=domuz eti;돼지 저금통=kumbara
-까치|saksağan|까치가 울다=saksağan ötmek;까치 소리=saksağan sesi
+까치|saksağan|까치가 울다=saksağan ötmesi;까치 소리=saksağan sesi
 쥐|fare|쥐가 나오다=fare çıkmak;쥐를 잡다=fare yakalamak
 물고기|balık (canlı)|물고기를 잡다=balık tutmak;물고기가 헤엄치다=balık yüzmek
-호랑이|kaplan|호랑이가 나타나다=kaplan ortaya çıkmak;호랑이 그림=kaplan resmi
-상어|köpek balığı|상어가 나타나다=köpek balığı görünmek;상어에게 물리다=köpek balığı tarafından ısırılmak
-악어|timsah|악어가 입을 벌리다=timsah ağzını açmak;악어 가죽=timsah derisi
-나비|kelebek|나비가 날다=kelebek uçmak;나비를 잡다=kelebek yakalamak
+호랑이|kaplan|호랑이가 나타나다=kaplanın ortaya çıkması;호랑이 그림=kaplan resmi
+상어|köpek balığı|상어가 나타나다=köpek balığının ortaya çıkması;상어에게 물리다=köpek balığı tarafından ısırılmak
+악어|timsah|악어가 입을 벌리다=timsahın ağzını açması;악어 가죽=timsah derisi
+나비|kelebek|나비가 날다=kelebeğin uçması;나비를 잡다=kelebek yakalamak
 문어|ahtapot|문어 다리=ahtapot kolu;문어를 삶다=ahtapot haşlamak
 새우|karides|새우를 굽다=karides pişirmek;새우 튀김=karides kızartması
-개|köpek|개를 키우다=köpek beslemek;개가 짖다=köpek havlamak
-돌고래|yunus|돌고래 쇼=yunus gösterisi;돌고래가 헤엄치다=yunus yüzmek
+개|köpek|개를 키우다=köpek beslemek;개가 짖다=köpek havlaması
+돌고래|yunus|돌고래 쇼=yunus gösterisi;돌고래가 헤엄치다=yunusun yüzmesi
 닭|tavuk|닭을 키우다=tavuk beslemek;닭고기=tavuk eti
 고래|balina|고래를 보다=balina görmek;큰 고래=büyük balina
-다람쥐|sincap|다람쥐가 도토리를 먹다=sincap meşe palamudu yemek;귀여운 다람쥐=sevimli sincap
+다람쥐|sincap|다람쥐가 도토리를 먹다=sincabın meşe palamudu yemesi;귀여운 다람쥐=sevimli sincap
 게|yengeç|게를 잡다=yengeç yakalamak;게 요리=yengeç yemeği
-고양이|kedi|고양이를 키우다=kedi beslemek;고양이가 울다=kedi miyavlamak
-소|inek|소를 키우다=inek beslemek;소가 풀을 먹다=inek ot yemek
+고양이|kedi|고양이를 키우다=kedi beslemek;고양이가 울다=kedi miyavlaması
+소|inek|소를 키우다=inek beslemek;소가 풀을 먹다=ineğin ot yemesi
 염소|keçi|염소 우유=keçi sütü;염소를 키우다=keçi beslemek
-까마귀|karga|까마귀가 울다=karga ötmek;검은 까마귀=kara karga
+까마귀|karga|까마귀가 울다=karga ötmesi;검은 까마귀=kara karga
 양|koyun|양을 키우다=koyun beslemek;양털=koyun yünü
-늑대|kurt|늑대가 울다=kurt ulumak;늑대 무리=kurt sürüsü
-파리|sinek|파리를 잡다=sinek öldürmek;파리가 날아다니다=sinek uçuşmak
-벌레|böcek|벌레에 물리다=böcek ısırmak;벌레가 많다=böcek çok
+늑대|kurt|늑대가 울다=kurt uluması;늑대 무리=kurt sürüsü
+파리|sinek|파리를 잡다=sinek öldürmek;파리가 날아다니다=sinek uçuşması
+벌레|böcek|벌레에 물리다=böcek ısırması;벌레가 많다=böcek çok
 거위|kaz|거위 털=kaz tüyü;거위를 키우다=kaz beslemek
-사슴|geyik|사슴이 뛰다=geyik koşmak;사슴 뿔=geyik boynuzu
-뱀|yılan|뱀에 물리다=yılan sokmak;뱀이 무섭다=yılandan korkmak
+사슴|geyik|사슴이 뛰다=geyiğin koşması;사슴 뿔=geyik boynuzu
+뱀|yılan|뱀에 물리다=yılan sokması;뱀이 무섭다=yılandan korkmak
 비둘기|güvercin|비둘기에게 모이를 주다=güvercinlere yem vermek;하얀 비둘기=beyaz güvercin
-곰|ayı|곰 인형=oyuncak ayı;곰이 겨울잠을 자다=ayı kış uykusuna yatmak
-타조|deve kuşu|타조 알=deve kuşu yumurtası;타조가 빨리 달리다=deve kuşu hızlı koşmak
+곰|ayı|곰 인형=oyuncak ayı;곰이 겨울잠을 자다=ayının kış uykusuna yatması
+타조|deve kuşu|타조 알=deve kuşu yumurtası;타조가 빨리 달리다=deve kuşunun hızlı koşması
 낙타|deve|낙타를 타다=deveye binmek;낙타 혹=deve hörgücü
 거미|örümcek|거미줄=örümcek ağı;거미가 무섭다=örümcekten korkmak
 코끼리|fil|코끼리 코=fil hortumu;코끼리를 타다=file binmek
 개미|karınca|개미가 많다=karınca çok;부지런한 개미=çalışkan karınca
-말|at|말을 타다=ata binmek;말이 달리다=at koşmak
+말|at|말을 타다=ata binmek;말이 달리다=atın koşması
 소고기|dana eti|소고기를 굽다=dana eti pişirmek;소고기 국=dana etli çorba
 고등어|uskumru|고등어를 굽다=uskumru pişirmek;고등어 구이=uskumru ızgara
 멸치|hamsi|멸치 볶음=hamsi kavurması;멸치 국물=hamsi suyu
@@ -796,47 +796,47 @@
 바닷가재|ıstakoz|바닷가재 요리=ıstakoz yemeği;바닷가재를 먹다=ıstakoz yemek
 홍합|midye|홍합 탕=midye çorbası;홍합을 삶다=midye haşlamak
 굴|istiridye|굴을 먹다=istiridye yemek;생굴=çiğ istiridye
-원숭이|maymun|원숭이가 바나나를 먹다=maymun muz yemek;원숭이처럼=maymun gibi
+원숭이|maymun|원숭이가 바나나를 먹다=maymunun muz yemesi;원숭이처럼=maymun gibi
 기린|zürafa|기린의 목=zürafanın boynu;키가 기린처럼 크다=zürafa gibi uzun
-얼룩말|zebra|얼룩말 무늬=zebra deseni;얼룩말이 뛰다=zebra koşmak
-하마|su aygırı|하마가 입을 벌리다=su aygırı ağzını açmak;하마가 물속에 있다=su aygırı suyun içinde
-고릴라|goril|고릴라가 가슴을 치다=goril göğsünü dövmek;힘센 고릴라=güçlü goril
+얼룩말|zebra|얼룩말 무늬=zebra deseni;얼룩말이 뛰다=zebranın koşması
+하마|su aygırı|하마가 입을 벌리다=su aygırının ağzını açması;하마가 물속에 있다=su aygırı suyun içinde
+고릴라|goril|고릴라가 가슴을 치다=gorilin göğsünü dövmesi;힘센 고릴라=güçlü goril
 표범|leopar|표범 무늬=leopar deseni;표범이 빠르다=leopar hızlı
-여우|tilki|여우 같은 사람=tilki gibi kurnaz;여우가 숨다=tilki saklanmak
-앵무새|papağan|앵무새가 말하다=papağan konuşmak;앵무새를 키우다=papağan beslemek
+여우|tilki|여우 같은 사람=tilki gibi kurnaz;여우가 숨다=tilkinin saklanması
+앵무새|papağan|앵무새가 말하다=papağanın konuşması;앵무새를 키우다=papağan beslemek
 햄스터|hamster|햄스터를 키우다=hamster beslemek;햄스터 집=hamster kafesi
 곤충|böcek (bilimsel)|곤충을 관찰하다=böcek gözlemlemek;곤충 채집=böcek toplama
-벌|arı|벌에 쏘이다=arı sokmak;꿀벌=bal arısı
-모기|sivrisinek|모기에 물리다=sivrisinek ısırmak;모기가 많다=sivrisinek çok
-나방|güve|나방이 날아오다=güve uçup gelmek;나방이 불빛에 모이다=güveler ışığa toplanmak
-매미|ağustos böceği|매미가 울다=ağustos böceği ötmek;여름 매미 소리=yaz ağustos böceği sesi
-무당벌레|uğur böceği|무당벌레가 날다=uğur böceği uçmak;빨간 무당벌레=kırmızı uğur böceği
-바퀴벌레|hamam böceği|바퀴벌레가 나오다=hamam böceği çıkmak;바퀴벌레를 잡다=hamam böceği öldürmek
-메뚜기|çekirge|메뚜기가 뛰다=çekirge zıplamak;메뚜기 떼=çekirge sürüsü
+벌|arı|벌에 쏘이다=arı sokması;꿀벌=bal arısı
+모기|sivrisinek|모기에 물리다=sivrisinek ısırması;모기가 많다=sivrisinek çok
+나방|güve|나방이 날아오다=güvenin uçup gelmesi;나방이 불빛에 모이다=güvelerin ışığa toplanması
+매미|ağustos böceği|매미가 울다=ağustos böceği ötmesi;여름 매미 소리=yaz ağustos böceği sesi
+무당벌레|uğur böceği|무당벌레가 날다=uğur böceğinin uçması;빨간 무당벌레=kırmızı uğur böceği
+바퀴벌레|hamam böceği|바퀴벌레가 나오다=hamam böceğinin çıkması;바퀴벌레를 잡다=hamam böceği öldürmek
+메뚜기|çekirge|메뚜기가 뛰다=çekirge zıplaması;메뚜기 떼=çekirge sürüsü
 달팽이|salyangoz|달팽이처럼 느리다=salyangoz gibi yavaş;달팽이 집=salyangoz kabuğu
 판다|panda|판다가 대나무를 먹다=panda bambu yemek;아기 판다=yavru panda
 애벌레|tırtıl|애벌레가 나비가 되다=tırtıl kelebek olmak;초록색 애벌레=yeşil tırtıl
-코뿔소|gergedan|코뿔소 뿔=gergedan boynuzu;코뿔소가 달리다=gergedan koşmak
-캥거루|kanguru|캥거루 주머니=kanguru kesesi;캥거루가 뛰다=kanguru zıplamak
-개구리|kurbağa|개구리가 울다=kurbağa vıraklamak;개구리가 뛰다=kurbağa zıplamak
+코뿔소|gergedan|코뿔소 뿔=gergedan boynuzu;코뿔소가 달리다=gergedanın koşması
+캥거루|kanguru|캥거루 주머니=kanguru kesesi;캥거루가 뛰다=kangurunun zıplaması
+개구리|kurbağa|개구리가 울다=kurbağa vıraklaması;개구리가 뛰다=kurbağa zıplaması
 백조|kuğu|백조의 호수=Kuğu Gölü;하얀 백조=beyaz kuğu
 고슴도치|kirpi|고슴도치 가시=kirpi dikeni;고슴도치를 키우다=kirpi beslemek
-부엉이|baykuş|부엉이가 울다=baykuş ötmek;밤의 부엉이=gece baykuşu
+부엉이|baykuş|부엉이가 울다=baykuş ötmesi;밤의 부엉이=gece baykuşu
 칠면조|hindi|칠면조 요리=hindi yemeği;칠면조를 굽다=hindi pişirmek
 털|tüy|털이 빠지다=tüyleri dökülmek;부드러운 털=yumuşak tüy
 꼬리|kuyruk|꼬리를 흔들다=kuyruk sallamak;긴 꼬리=uzun kuyruk
 부리|gaga|새의 부리=kuşun gagası;부리로 쪼다=gagalamak
 날개|kanat|날개를 펴다=kanat açmak;새의 날개=kuşun kanadı
-매|şahin|매가 날다=şahin uçmak;매의 눈=şahin bakışı
-독수리|kartal|독수리가 날다=kartal uçmak;독수리 날개=kartal kanadı
+매|şahin|매가 날다=şahinin uçması;매의 눈=şahin bakışı
+독수리|kartal|독수리가 날다=kartalın uçması;독수리 날개=kartal kanadı
 뿌리|kök|뿌리를 내리다=kök salmak;나무 뿌리=ağaç kökü
 장미|gül|장미 한 송이=bir dal gül;빨간 장미=kırmızı gül
 백합|zambak|하얀 백합=beyaz zambak;백합 향기=zambak kokusu
 벚꽃|kiraz çiçeği|벚꽃이 피다=kiraz çiçekleri açmak;벚꽃 구경=kiraz çiçeği seyri
 해바라기|ayçiçeği|해바라기 씨=ay çekirdeği;해바라기 밭=ayçiçeği tarlası
 꽃|çiçek|꽃이 피다=çiçek açmak;꽃을 선물하다=çiçek hediye etmek
-나뭇가지|ağaç dalı|나뭇가지가 부러지다=dal kırılmak;나뭇가지에 앉다=dala konmak
-나뭇잎|ağaç yaprağı|나뭇잎이 떨어지다=yapraklar dökülmek;노란 나뭇잎=sarı yaprak
+나뭇가지|ağaç dalı|나뭇가지가 부러지다=dalın kırılması;나뭇가지에 앉다=dala konmak
+나뭇잎|ağaç yaprağı|나뭇잎이 떨어지다=yaprak dökülmesi;노란 나뭇잎=sarı yaprak
 #Sayılar
 영|sıfır|영점=sıfır puan;영하=sıfırın altı
 하나|bir (öz Korece)|하나, 둘, 셋=bir, iki, üç;하나 더 주세요=bir tane daha verin
@@ -872,22 +872,22 @@
 금요일|cuma|금요일 밤=cuma gecesi;불금 (불타는 금요일)=coşkulu cuma gecesi
 토요일|cumartesi|토요일에 쉬다=cumartesi dinlenmek;토요일 오전=cumartesi öğleden önce
 일요일|pazar|일요일 아침=pazar sabahı;일요일마다=her pazar
-서쪽|batı|서쪽으로 가다=batıya gitmek;해가 서쪽으로 지다=güneş batıdan batmak
-동쪽|doğu|동쪽 하늘=doğu gökyüzü;해가 동쪽에서 뜨다=güneş doğudan doğmak
+서쪽|batı|서쪽으로 가다=batıya gitmek;해가 서쪽으로 지다=güneşin batıdan batması
+동쪽|doğu|동쪽 하늘=doğu gökyüzü;해가 동쪽에서 뜨다=güneşin doğudan doğması
 남쪽|güney|남쪽 지방=güney bölgesi;남쪽으로 내려가다=güneye inmek
 북쪽|kuzey|북쪽 지방=kuzey bölgesi;북쪽으로 가다=kuzeye gitmek
-일월|ocak
-이월|şubat
-삼월|mart
-사월|nisan
-오월|mayıs
-유월|haziran
-칠월|temmuz
-팔월|ağustos
-구월|eylül
-시월|ekim
-십일월|kasım
-십이월|aralık
+일월|ocak|일월 일일=bir ocak;일월에 태어나다=ocakta doğmak
+이월|şubat|이월 십사일=on dört şubat;이월 말=şubat sonu
+삼월|mart|삼월에 개학하다=martta okulların açılması;삼월 초=mart başı
+사월|nisan|사월에 꽃이 피다=nisanda çiçek açması;사월 중순=nisan ortası
+오월|mayıs|오월 오일=beş mayıs;오월의 날씨=mayıs havası
+유월|haziran|유월부터=hazirandan itibaren;유월 말=haziran sonu
+칠월|temmuz|칠월 휴가=temmuz tatili;칠월에 덥다=temmuzda sıcak
+팔월|ağustos|팔월 십오일=on beş ağustos;팔월 여름 방학=ağustos yaz tatili
+구월|eylül|구월에 학기가 시작되다=eylülde dönemin başlaması;구월 초=eylül başı
+시월|ekim|시월 마지막 날=ekimin son günü;시월 초=ekim başı
+십일월|kasım|십일월 날씨=kasım havası;십일월 말=kasım sonu
+십이월|aralık|십이월 이십오일=yirmi beş aralık;십이월 말=aralık sonu
 주|hafta|이번 주=bu hafta;일 주일=bir hafta
 작년|geçen yıl|작년 여름=geçen yaz;작년에 비해=geçen yıla göre
 달|ay (zaman)|이번 달=bu ay;한 달 동안=bir ay boyunca
@@ -915,7 +915,7 @@
 조금|biraz|조금만 기다리세요=biraz bekleyin;조금 피곤하다=biraz yorgun
 눈이 내리다|kar yağmak|눈이 많이 내리다=çok kar yağmak;밤새 눈이 내리다=bütün gece kar yağmak
 비가 오다|yağmur yağmak|비가 많이 오다=çok yağmur yağmak;비가 와서 우산을 쓰다=yağmur yağdığı için şemsiye açmak
-처음|ilk, ilk kez|처음 만나다=ilk kez tanışmak;처음부터=baştan
+처음|ilk, ilk kez|처음 만나다=ilk kez tanışmak;처음부터=en baştan
 평소|her zamanki, normalde|평소처럼=her zamanki gibi;평소에=normalde
 엄청|son derece, müthiş|엄청 크다=devasa büyük;엄청 많다=bir sürü
 특히|özellikle|특히 좋아하다=özellikle sevmek;특히 겨울에=özellikle kışın
