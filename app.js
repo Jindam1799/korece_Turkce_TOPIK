@@ -42,7 +42,7 @@ tr:{sub:'Korece kelime ormanı · A1–B2',a2hsT:'📲 Ana ekrana ekle (uygulama
  story2:'Deongi Korece kelimelerle beslenir: her doğru cevap bir damla besin. Kelime öğrendikçe filizlenir, çiçek açar ve sonunda efsanevi bir bitkiye dönüşür. Bıyığını İstanbul\'daki ilk arkadaşı Berk kardeş hediye etti!',
  pathH:'Büyüme yolu',famH:'Bitki aileleri',
  path:[['Lv.1','Gönül Tohumu','Yolculuk başlıyor. Deongi toprağa düştü.'],['Lv.2','Gönül Filizi','İlk iki yaprak çıktı!'],['Lv.3','Aile seçimi','6 bitki ailesinden birini seçersin.'],['Lv.4–9','Büyüme','Her seviyede biraz daha büyür.'],['Lv.10','Evrim','Ailenin 3 yolundan birini seçersin.'],['Lv.15','Gizemli dönüşüm','İki gizemli formdan birini seçersin.'],['Lv.20','Efsanevi form','Antik ve efsanevi bitkiye dönüşür.']],
- famTxt:(f,mine)=>mine?`Senin ailen: ${f}`:'Başka bir aile — gölge olarak görünür.',locked:'Kilitli',lvReq:n=>`Lv.${n}\'da`,cur:'Şu an',music:'Müzik',musicOn:'Arka plan müziği: Açık',musicOff:'Arka plan müziği: Kapalı',notesH:'Güncelleme notları',notesBtn:'Neler yeni?',kakaoCopied:'KakaoTalk ID kopyalandı ✓',bizTitle:'İş birliği ve iletişim',bizText:'Kurumsal iş birliği, eğitim ve içerik ortaklığı için ulaşabilirsiniz.',myProg:'İlerleme tablom',stLearned:'Öğrenildi',stReview:'Tekrar edilecek',stNew:'Henüz çalışılmadı',learned:'Öğrenilen',toReview:'Tekrar',bestStreak:'En iyi seri',
+ famTxt:(f,mine)=>mine?`Senin ailen: ${f}`:'Başka bir aile — gölge olarak görünür.',locked:'Kilitli',lvReq:n=>`Lv.${n}\'da`,cur:'Şu an',music:'Müzik',musicOn:'Arka plan müziği: Açık',musicOff:'Arka plan müziği: Kapalı',notesH:'Güncelleme notları',notesBtn:'Neler yeni?',kakaoCopied:'Kopyalandı ✓',bizTitle:'İş birliği ve iletişim',bizText:'Kurumsal iş birliği, eğitim ve içerik ortaklığı için ulaşabilirsiniz.',myProg:'İlerleme tablom',stLearned:'Öğrenildi',stReview:'Tekrar edilecek',stNew:'Henüz çalışılmadı',learned:'Öğrenilen',toReview:'Tekrar',bestStreak:'En iyi seri',
  start:'Başla',quiz:'Test',cards:'Kartlar',review:n=>`Tekrar ${n}`,allUnits:'Tüm bölümler',unitN:k=>/^\d+$/.test(k)?`Bölüm ${k}`:k,
  level:'Seviye',unit:'Bölüm',timerOn:'12 saniye',timerOff:'Süre yok',timeLimit:'Süre sınırı (test)',
  hint:'Doğru anlama dokun · klavye 1–4',qWord:'Bu kelimenin anlamı nedir?',qPair:'Bu eş kelimenin anlamı nedir?',qHanja:'Bu Çince karakterin anlamı nedir?',
@@ -85,7 +85,7 @@ ko:{sub:'한국어 단어의 숲 · A1–B2',a2hsT:'📲 홈 화면에 추가하
  story2:'덩이는 한국어 단어를 먹고 자라요. 정답 하나가 양분 한 방울! 단어를 익힐수록 싹이 트고 꽃이 피고, 마침내 전설의 식물이 돼요. 콧수염은 이스탄불에서 처음 사귄 친구, Berk 동생의 선물이에요!',
  pathH:'성장 단계',famH:'식물 계열',
  path:[['Lv.1','마음씨','여행이 시작돼요. 덩이가 땅에 떨어졌어요.'],['Lv.2','마음싹','첫 떡잎 두 장이 나왔어요!'],['Lv.3','계열 선택','6가지 식물 계열 중 하나를 골라요.'],['Lv.4–9','쑥쑥 성장','레벨마다 조금씩 커져요.'],['Lv.10','진화','계열마다 3가지 길 중 하나를 골라요.'],['Lv.15','신기한 변신','두 갈래 중 하나를 골라요.'],['Lv.20','전설의 모습','고대·전설의 식물로 변신해요.']],
- famTxt:(f,mine)=>mine?`나의 계열: ${f}`:'다른 계열이에요 — 그림자로 보여요.',locked:'잠김',lvReq:n=>`Lv.${n}`,cur:'지금',music:'음악',musicOn:'배경 음악: 켜짐',musicOff:'배경 음악: 꺼짐',notesH:'업데이트 노트',notesBtn:'새로운 내용 보기',kakaoCopied:'카카오톡 ID 복사됨 ✓',bizTitle:'비즈니스 협업 · 문의',bizText:'기관·기업 협업, 교육·콘텐츠 제휴는 아래로 연락 주세요.',myProg:'나의 진도표',stLearned:'익힘',stReview:'다시 볼 단어',stNew:'아직 안 함',learned:'익힌 단어',toReview:'복습',bestStreak:'최고 연속',
+ famTxt:(f,mine)=>mine?`나의 계열: ${f}`:'다른 계열이에요 — 그림자로 보여요.',locked:'잠김',lvReq:n=>`Lv.${n}`,cur:'지금',music:'음악',musicOn:'배경 음악: 켜짐',musicOff:'배경 음악: 꺼짐',notesH:'업데이트 노트',notesBtn:'새로운 내용 보기',kakaoCopied:'복사됨 ✓',bizTitle:'비즈니스 협업 · 문의',bizText:'기관·기업 협업, 교육·콘텐츠 제휴는 아래로 연락 주세요.',myProg:'나의 진도표',stLearned:'익힘',stReview:'다시 볼 단어',stNew:'아직 안 함',learned:'익힌 단어',toReview:'복습',bestStreak:'최고 연속',
  start:'시작하기',quiz:'퀴즈',cards:'카드',review:n=>`복습 ${n}`,allUnits:'전체 단원',unitN:k=>/^\d+$/.test(k)?`${k}단원`:k,
  level:'단계',unit:'단원',timerOn:'12초',timerOff:'시간제한 없음',timeLimit:'제한 시간 (퀴즈)',
  hint:'알맞은 뜻을 누르세요 · 키보드 1–4',qWord:'이 단어의 뜻은 무엇일까요?',qPair:'이 짝꿍어휘의 뜻은 무엇일까요?',qHanja:'이 한자의 뜻은 무엇일까요?',
@@ -482,47 +482,18 @@ $('bReset').onclick=()=>{if(!resetArm){resetArm=true;$('bReset').textContent=t('
 // ---------- iletişim bağlantıları ----------
 function renderLinks(){
  const h=[];
- if(INSTA)h.push(`<a class="ig" href="https://www.instagram.com/${encodeURIComponent(INSTA)}/" target="_blank" rel="noopener">Instagram @${esc(INSTA)}</a>`);
- if(KAKAO)h.push(`<button class="kk" data-copy="${esc(KAKAO)}">KakaoTalk ID: ${esc(KAKAO)} · ${esc(t('copy'))}</button>`);
- if(CONTACT)h.push(`<a class="ml" href="mailto:${esc(CONTACT)}">✉ ${esc(CONTACT)}</a>`);
+ if(INSTA)h.push(`<a class="lk ig" href="https://www.instagram.com/${encodeURIComponent(INSTA)}/" target="_blank" rel="noopener"><span class="ic"><svg><use href="#i-ig"/></svg></span><span class="tx"><b>Instagram</b><small>@${esc(INSTA)}</small></span></a>`);
+ if(KAKAO)h.push(`<button class="lk kk" data-copy="${esc(KAKAO)}"><span class="ic"><svg><use href="#i-kk"/></svg></span><span class="tx"><b>KakaoTalk</b><small>ID · ${esc(KAKAO)}</small></span></button>`);
+ if(CONTACT)h.push(`<a class="lk ml" href="mailto:${esc(CONTACT)}"><span class="ic"><svg><use href="#i-mail"/></svg></span><span class="tx"><b>E-mail</b><small>${esc(CONTACT)}</small></span></a>`);
  ['links','linksW','linksN'].forEach(id=>{$(id).innerHTML=h.join('')});
 }
-document.addEventListener('click',async e=>{const b=e.target.closest('[data-copy]');if(!b)return;
- try{await navigator.clipboard.writeText(b.dataset.copy);b.textContent=t('kakaoCopied')}catch(err){b.textContent='KakaoTalk ID: '+b.dataset.copy}});
-
-// ---------- bitki rehberi (도감) ----------
-let bookFam=null;
-function svgAt(pet,lv,route,branch,lock){CH.setProfile({routes:route?{[pet]:route}:{},branches:branch?{[pet]:branch}:{}});return CH.creatureSVG(pet,route||null,lv,undefined,lock,branch||null)}
-function renderBook(){
- $('bkMascot').innerHTML=art();
- const L=S.level,stageIdx=L>=20?6:L>=15?5:L>=10?4:L>=4?3:L>=3?2:L>=2?1:0,mins=[1,2,3,4,10,15,20];
- $('bkPath').innerHTML=t('path').map(([lv,n,d],i)=>`<li class="${L>=mins[i]?'on':''}${i===stageIdx?' now':''}"><span class="lv">${esc(lv)}</span><div><b>${esc(n)}${i===stageIdx?` · ${esc(t('cur'))}`:''}</b><small>${esc(d)}</small></div></li>`).join('');
- const fams=Object.keys(CH.GROWTH);bookFam=bookFam||S.pet||fams[0];
- $('bkFam').innerHTML=fams.map(f=>`<button data-bf="${f}" aria-pressed="${f===bookFam}">${esc(TX[S.lang].fam[f])}${f===S.pet?' ★':''}</button>`).join('');
- const mine=bookFam===S.pet;
- $('bkFamTxt').textContent=t('famTxt',TX[S.lang].fam[bookFam],mine);
- const card=(svg,name,sub,cls)=>`<div class="ccard ${cls}">${svg}<b>${esc(name)}</b><small>${esc(sub)}</small></div>`;
- const reach=(lv,route,branch)=>mine&&L>=lv&&(!route||S.route===route)&&(!branch||S.branch===branch);
- let h=`<div class="sep">Lv.3 · Lv.6</div>`;
- h+=card(svgAt(bookFam,3,null,null,!reach(3)),TX[S.lang].fam[bookFam],t('lvReq',3),reach(3)?'mine':'lock');
- h+=card(svgAt(bookFam,6,null,null,!reach(6)),t('growing',TX[S.lang].fam[bookFam]),t('lvReq',6),reach(6)?'mine':'lock');
- h+=`<div class="sep">Lv.10</div>`;
- const routes=CH.GROWTH[bookFam].routes;
- routes.forEach(r=>{const ok=reach(10,r.id);h+=card(svgAt(bookFam,10,r.id,null,!ok),TX[S.lang].route[r.id],t('lvReq',10),ok?'mine':'lock')});
- routes.forEach(r=>{h+=`<div class="sep">${esc(TX[S.lang].route[r.id])} · Lv.15 / Lv.20</div>`;
-  r.branches.forEach((b,i)=>{
-   const n15=S.lang==='ko'?b.name:t('magic',TX.tr.route[r.id])+' '+(i+1),n20=S.lang==='ko'?b.final:t('legend',TX.tr.route[r.id])+' '+(i+1);
-   const o15=reach(15,r.id,b.id),o20=reach(20,r.id,b.id);
-   h+=card(svgAt(bookFam,15,r.id,b.id,!o15),o15?n15:'?',t('lvReq',15),o15?'mine':'lock');
-   if(i===0)h+=card(svgAt(bookFam,20,r.id,b.id,!o20),o20?n20:'?',t('lvReq',20),o20?'mine':'lock');
-   else h+=card(svgAt(bookFam,20,r.id,b.id,!o20),o20?n20:'?',t('lvReq',20),o20?'mine':'lock');
-  });h+='<div></div><div></div>'.slice(0,0)});
- $('bkGrid').innerHTML=h;
-}
-function openBook(){bookFam=S.pet||null;renderBook();$('mBook').hidden=false}
-$('bBook').onclick=openBook;$('mascot').addEventListener('click',openBook);
-$('bBookX').onclick=()=>{$('mBook').hidden=true};
-$('bkFam').addEventListener('click',e=>{const b=e.target.closest('[data-bf]');if(b){bookFam=b.dataset.bf;renderBook()}});
+document.addEventListener('click',async e=>{const b=e.target.closest('[data-copy]');if(!b)return;const sm=b.querySelector('small');
+ try{await navigator.clipboard.writeText(b.dataset.copy);sm.textContent=t('kakaoCopied');sm.classList.add('ok')}catch(err){}
+ setTimeout(()=>{sm.textContent='ID · '+b.dataset.copy;sm.classList.remove('ok')},2200)});
+// logo: bıyıklı gönül tohumu
+function logoSVG(){CH.setProfile({routes:{},branches:{}});const g=CH.plantGeometry('tree',null,1,null),[fx,fy]=g.face;
+ return CH.creatureSVG('tree',null,1).replace(/viewBox="[^"]*"/,'viewBox="57 119 66 74"').replace('<g class="expression-normal">',stache(fx,fy,1)+'<g class="expression-normal">')}
+document.querySelectorAll('.logo-seed').forEach(el=>el.innerHTML=logoSVG());
 
 // ---------- güncelleme notları ----------
 const NOTES=[
