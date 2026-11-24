@@ -495,6 +495,39 @@ function logoSVG(){CH.setProfile({routes:{},branches:{}});const g=CH.plantGeomet
  return CH.creatureSVG('tree',null,1).replace(/viewBox="[^"]*"/,'viewBox="57 119 66 74"').replace('<g class="expression-normal">',stache(fx,fy,1)+'<g class="expression-normal">')}
 document.querySelectorAll('.logo-seed').forEach(el=>el.innerHTML=logoSVG());
 
+// ---------- bitki rehberi (도감) ----------
+let bookFam=null;
+function svgAt(pet,lv,route,branch,lock){CH.setProfile({routes:route?{[pet]:route}:{},branches:branch?{[pet]:branch}:{}});return CH.creatureSVG(pet,route||null,lv,undefined,lock,branch||null)}
+function renderBook(){
+ $('bkMascot').innerHTML=art();
+ const L=S.level,stageIdx=L>=20?6:L>=15?5:L>=10?4:L>=4?3:L>=3?2:L>=2?1:0,mins=[1,2,3,4,10,15,20];
+ $('bkPath').innerHTML=t('path').map(([lv,n,d],i)=>`<li class="${L>=mins[i]?'on':''}${i===stageIdx?' now':''}"><span class="lv">${esc(lv)}</span><div><b>${esc(n)}${i===stageIdx?` · ${esc(t('cur'))}`:''}</b><small>${esc(d)}</small></div></li>`).join('');
+ const fams=Object.keys(CH.GROWTH);bookFam=bookFam||S.pet||fams[0];
+ $('bkFam').innerHTML=fams.map(f=>`<button data-bf="${f}" aria-pressed="${f===bookFam}">${esc(TX[S.lang].fam[f])}${f===S.pet?' ★':''}</button>`).join('');
+ const mine=bookFam===S.pet;
+ $('bkFamTxt').textContent=t('famTxt',TX[S.lang].fam[bookFam],mine);
+ const card=(svg,name,sub,ok)=>`<div class="ccard ${ok?'mine':'lock'}">${svg}<b>${esc(name)}</b><small>${esc(sub)}</small></div>`;
+ const reach=(lv,route,branch)=>mine&&L>=lv&&(!route||S.route===route)&&(!branch||S.branch===branch);
+ let h=`<div class="sep">Lv.3 · Lv.6</div>`;
+ h+=card(svgAt(bookFam,3,null,null,!reach(3)),TX[S.lang].fam[bookFam],t('lvReq',3),reach(3));
+ h+=card(svgAt(bookFam,6,null,null,!reach(6)),t('growing',TX[S.lang].fam[bookFam]),t('lvReq',6),reach(6));
+ h+=`<div class="sep">Lv.10</div>`;
+ const routes=CH.GROWTH[bookFam].routes;
+ routes.forEach(r=>{const ok=reach(10,r.id);h+=card(svgAt(bookFam,10,r.id,null,!ok),TX[S.lang].route[r.id],t('lvReq',10),ok)});
+ routes.forEach(r=>{h+=`<div class="sep">${esc(TX[S.lang].route[r.id])} · Lv.15 / Lv.20</div>`;
+  r.branches.forEach((b,i)=>{
+   const n15=S.lang==='ko'?b.name:t('magic',TX.tr.route[r.id])+' '+(i+1),n20=S.lang==='ko'?b.final:t('legend',TX.tr.route[r.id])+' '+(i+1);
+   const o15=reach(15,r.id,b.id),o20=reach(20,r.id,b.id);
+   h+=card(svgAt(bookFam,15,r.id,b.id,!o15),o15?n15:'?',t('lvReq',15),o15);
+   h+=card(svgAt(bookFam,20,r.id,b.id,!o20),o20?n20:'?',t('lvReq',20),o20);
+  })});
+ $('bkGrid').innerHTML=h;
+}
+function openBook(){bookFam=S.pet||null;renderBook();$('mBook').hidden=false;$('mBook').querySelector('.box').scrollTop=0}
+$('bBook').onclick=openBook;$('mascot').addEventListener('click',openBook);
+$('bBookX').onclick=()=>{$('mBook').hidden=true};
+$('bkFam').addEventListener('click',e=>{const b=e.target.closest('[data-bf]');if(b){bookFam=b.dataset.bf;renderBook()}});
+
 // ---------- güncelleme notları ----------
 const NOTES=[
  ['1.5','2026-11-24',{tr:['Giriş ekranı ve Türk halk müziği esintili dinlendirici fon müziği (Hicaz makamı, saz, ney, darbuka)','Deongi\'nin hikâyesi ve bitki rehberi (seviyelere göre büyüme)','Bağlantı paylaşınca önizleme görseli, uygulama içi tarayıcıdan otomatik Chrome\'a geçiş','Ana ekrana ekleme rehberi, güncelleme notları, Instagram ve KakaoTalk bağlantıları'],ko:['인트로 화면과 튀르키예 민속 음악 느낌의 힐링 배경 음악(히자즈 음계, 사즈, 네이, 다르부카)','덩이의 이야기와 식물 도감(레벨별 성장)','링크 미리보기 그림, 앱 안 브라우저에서 Chrome으로 자동 전환','홈 화면 추가 안내, 업데이트 노트, 인스타그램·카카오톡 바로가기']}],
