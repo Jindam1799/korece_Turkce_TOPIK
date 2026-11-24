@@ -69,7 +69,7 @@ tr:{sub:'Korece kelime ormanı · A1–B2',a2hsT:'📲 Ana ekrana ekle (uygulama
  namePh:'Bitki arkadaşının adı (isteğe bağlı)',chromeTxt:'Bir uygulamanın içindeki tarayıcıdasın. Sesli okuma için Chrome\'da açman daha iyi olur.',openChrome:'Chrome\'da aç',copy:'Kopyala',copied:'Kopyalandı ✓',
  rights:'Tüm hakları saklıdır.',biz:'İş birliği',
  credit:'Kelime listesi: Aslıhan Erdoğan · Karakter çizimleri: 덩어리숲',
- settings:'Ayarlar',lang:'Dil',roundSize:'Bir turdaki kelime',sizeAll:'Tümü',sound:'Ses',autoOn:'Kelimeyi otomatik oku: Açık',autoOff:'Kelimeyi otomatik oku: Kapalı',test:'Sesi dene',voiceH:'Ses seçimi',vAuto:'Otomatik (kadın sesi)',vOnline:'çevrimiçi',noVoice:'Bu tarayıcıda Korece ses bulunamadı. Chrome\'da Google 한국의 sesini kullanabilirsin.',speedH:'Okuma hızı',rSlow2:'Çok yavaş',rSlow:'Yavaş',rNorm:'Normal',name:'Bitki arkadaşının adı',
+ settings:'Ayarlar',lang:'Dil',roundSize:'Bir turdaki kelime',sizeAll:'Tümü',sound:'Ses',autoOn:'Kelimeyi otomatik oku: Açık',autoOff:'Kelimeyi otomatik oku: Kapalı',test:'Sesi dene',voiceH:'Ses seçimi',vAuto:'Otomatik (kadın sesi)',vGT:'Google Çeviri sesi (kadın · internet)',vMale:'Erkek sesi',vOnline:'çevrimiçi',noVoice:'Bu tarayıcıda Korece ses bulunamadı. Chrome\'da Google 한국의 sesini kullanabilirsin.',speedH:'Okuma hızı',rSlow2:'Çok yavaş',rSlow:'Yavaş',rNorm:'Normal',name:'Bitki arkadaşının adı',
  look:'Görünüm',stacheOn:'Bıyık: Var',stacheOff:'Bıyık: Yok',
  reset:'İlerlemeyi sıfırla',resetSure:'Emin misin? Tekrar dokun',msg:'Mesaj',settingsA:'Ayarlar',quit:'Çık',listen:'Dinle',
  lvUp:'Seviye atladın!',lvSub:n=>`Artık Lv.${n}`,great:'Harika!',
@@ -115,7 +115,7 @@ ko:{sub:'한국어 단어의 숲 · A1–B2',a2hsT:'📲 홈 화면에 추가하
  namePh:'식물 친구 이름 (선택)',chromeTxt:'앱 안의 브라우저에서는 음성이 안 나올 수 있어요. Chrome에서 여는 게 좋아요.',openChrome:'Chrome에서 열기',copy:'복사',copied:'복사됨 ✓',
  rights:'All rights reserved.',biz:'비즈니스 협업',
  credit:'단어 자료: Aslıhan Erdoğan · 캐릭터 그림: 덩어리숲',
- settings:'설정',lang:'언어',roundSize:'한 판 단어 수',sizeAll:'전체',sound:'소리',autoOn:'단어 자동 읽기: 켜짐',autoOff:'단어 자동 읽기: 꺼짐',test:'소리 들어 보기',voiceH:'목소리 선택',vAuto:'자동 (여성 목소리)',vOnline:'온라인',noVoice:'이 브라우저에는 한국어 음성이 없어요. Chrome의 Google 한국의 음성을 쓸 수 있어요.',speedH:'읽기 속도',rSlow2:'아주 느리게',rSlow:'느리게',rNorm:'보통',name:'식물 친구 이름',
+ settings:'설정',lang:'언어',roundSize:'한 판 단어 수',sizeAll:'전체',sound:'소리',autoOn:'단어 자동 읽기: 켜짐',autoOff:'단어 자동 읽기: 꺼짐',test:'소리 들어 보기',voiceH:'목소리 선택',vAuto:'자동 (여성 목소리)',vGT:'구글 번역 목소리 (여성 · 인터넷)',vMale:'남자 목소리',vOnline:'온라인',noVoice:'이 브라우저에는 한국어 음성이 없어요. Chrome의 Google 한국의 음성을 쓸 수 있어요.',speedH:'읽기 속도',rSlow2:'아주 느리게',rSlow:'느리게',rNorm:'보통',name:'식물 친구 이름',
  look:'꾸미기',stacheOn:'콧수염: 있음',stacheOff:'콧수염: 없음',
  reset:'기록 초기화',resetSure:'정말요? 한 번 더 누르세요',msg:'메시지',quit:'그만하기',listen:'듣기',
  lvUp:'레벨 업!',lvSub:n=>`이제 Lv.${n}`,great:'좋아요!',
@@ -611,6 +611,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
+ ['1.9','2026-11-25',{tr:['Yeni sesler: Google Çeviri sesi (internet gerekir) ve Erkek sesi'],ko:['새 목소리: 구글 번역 목소리(인터넷 필요), 남자 목소리']}],
  ['1.8','2026-11-25',{tr:['Bir turdaki kelime: 10 ya da Tümü (seçili bölümün tüm kelimeleri)'],ko:['한 판 단어 수: 10개 또는 전체(고른 단원의 모든 단어)']}],
  ['1.7','2026-11-25',{tr:['Ses seçimi: Chrome\'un Google 한국의 sesi dahil, cihazdaki tüm Korece sesler','Okuma hızı: Çok yavaş / Yavaş / Normal'],ko:['목소리 선택: Chrome의 Google 한국의 음성 포함, 기기의 모든 한국어 음성','읽기 속도: 아주 느리게 / 느리게 / 보통']}],
  ['1.6','2026-11-25',{tr:['Kelime kontrol modu (editör): anlamları ve eş kelimeleri düzelt, eski kelimeleri işaretle, dosyayı paylaş','Türkçe ek düzeltmesi: 덩어리숲\'a hoş geldin! (Aslı\'ya teşekkürler)'],ko:['단어 검수 모드(편집자): 뜻·짝꿍어휘 고치기, 오래된 단어 표시, 파일로 보내기','터키어 접미사 수정: 덩어리숲\'a hoş geldin! (아슬르 고마워요)']}],
@@ -706,28 +707,49 @@ $('bWel').onclick=()=>{const n=$('nameIn').value.trim();if(n)S.name=n;save();$('
  $('mascot').className='mascot hop';setTimeout(()=>$('mascot').className='mascot',1200);speak('안녕하세요! 같이 공부해요.')};
 
 // ---------- ses (kadın sesi öncelikli) ----------
-let voice=null,KOV=[];
+let voice=null,KOV=[],maleReal=null;
 const RATES=[[.55,'rSlow2'],[.7,'rSlow'],[.9,'rNorm']];
 const FEMALE=/yuna|sora|sunhi|heami|jimin|seoyeon|female|여성|google 한국의|standard-a|wavenet-a|neural2-a/i;
-const MALE=/injoon|minsu|hyunsu|bongjin|gookmin|\bmale\b|남성/i;
+const MALE=/injoon|minsu|hyunsu|bongjin|gookmin|\bmale\b|남성|standard-c|standard-d|wavenet-c|wavenet-d|neural2-c/i;
 function pickVoice(){try{KOV=speechSynthesis.getVoices().filter(v=>/^ko/i.test(v.lang));
- voice=(S.voice&&KOV.find(v=>v.voiceURI===S.voice||v.name===S.voice))||KOV.find(v=>FEMALE.test(v.name))||KOV.find(v=>!MALE.test(v.name))||KOV[0]||null}catch(e){}
- if(!$('mSet').hidden)renderVoices()}
+ maleReal=KOV.find(v=>MALE.test(v.name))||null;
+ const fem=KOV.find(v=>FEMALE.test(v.name))||KOV.find(v=>!MALE.test(v.name))||KOV[0]||null;
+ voice=S.voice==='male'?(maleReal||fem):(S.voice&&KOV.find(v=>v.voiceURI===S.voice||v.name===S.voice))||fem}catch(e){}
+ if($('mSet')&&!$('mSet').hidden)renderVoices()}
 function voiceLabel(v){let n=v.name.replace(/^Microsoft\s+/,'').replace(/\s*\(.*?\)\s*/g,' ').replace(/Online|Natural/g,'').replace(/\s*-\s*Korean.*$/i,'').replace(/\s+/g,' ').trim();
  if(/google/i.test(v.name))n='Google 한국의 (Chrome)';
  return n+(v.localService===false&&!/google/i.test(v.name)?' · '+t('vOnline'):'')}
 function renderVoices(){const sel=$('voiceSel');if(!sel)return;
- if(!KOV.length){sel.innerHTML=`<option value="">${esc(t('noVoice'))}</option>`;sel.disabled=true;return}
- sel.disabled=false;
  const vs=[...KOV].sort((a,b)=>(/google/i.test(b.name)-/google/i.test(a.name)));
- sel.innerHTML=`<option value="">${esc(t('vAuto'))}</option>`+vs.map(v=>`<option value="${esc(v.voiceURI)}">${esc(voiceLabel(v))}</option>`).join('');
- sel.value=KOV.some(v=>v.voiceURI===S.voice)?S.voice:''}
+ sel.innerHTML=`<option value="">${esc(t('vAuto'))}</option><option value="gt">${esc(t('vGT'))}</option><option value="male">${esc(t('vMale'))}</option>`
+  +vs.map(v=>`<option value="${esc(v.voiceURI)}">${esc(voiceLabel(v))}</option>`).join('');
+ sel.value=(S.voice==='gt'||S.voice==='male'||KOV.some(v=>v.voiceURI===S.voice))?S.voice:''}
 try{pickVoice();speechSynthesis.onvoiceschanged=pickVoice;setTimeout(pickVoice,800)}catch(e){}
+// Google Çeviri sesi (internet gerekir; olmazsa cihaz sesine döner)
+const GTA=new Audio();GTA.preload='auto';try{GTA.referrerPolicy='no-referrer';GTA.crossOrigin=null}catch(e){}
+let gtUnlocked=false;
+const SILENT=(()=>{const n=800,b=new ArrayBuffer(44+n),d=new DataView(b),w=(o,t)=>{for(let k=0;k<t.length;k++)d.setUint8(o+k,t.charCodeAt(k))};
+ w(0,'RIFF');d.setUint32(4,36+n,true);w(8,'WAVE');w(12,'fmt ');d.setUint32(16,16,true);d.setUint16(20,1,true);d.setUint16(22,1,true);d.setUint32(24,8000,true);d.setUint32(28,8000,true);d.setUint16(32,1,true);d.setUint16(34,8,true);w(36,'data');d.setUint32(40,n,true);for(let k=0;k<n;k++)d.setUint8(44+k,128);
+ return URL.createObjectURL(new Blob([b],{type:'audio/wav'}))})();
+document.addEventListener('pointerdown',()=>{if(gtUnlocked)return;gtUnlocked=true;
+ try{GTA.src=SILENT;GTA.play().catch(()=>{})}catch(e){}},{capture:true});
+function speakDevice(text,male){
+ speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang='ko-KR';
+ const v=male?(maleReal||voice):voice;if(v)u.voice=v;
+ const r=+S.rate||.9;u.rate=/google/i.test(v&&v.name||'')?r*1.05:r;
+ u.pitch=male?(maleReal?1:.55):(v&&FEMALE.test(v.name)||S.voice)?1:1.15;
+ BGM.duck(true);u.onend=u.onerror=()=>BGM.duck(false);speechSynthesis.speak(u)}
+function speakGT(text){
+ try{speechSynthesis.cancel()}catch(e){}
+ let done=false;const fail=()=>{if(done)return;done=true;BGM.duck(false);try{speakDevice(text,false)}catch(e){}};
+ GTA.onended=()=>{done=true;BGM.duck(false)};GTA.onerror=fail;
+ GTA.src='https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ko&q='+encodeURIComponent(text.slice(0,190));
+ const r=+S.rate||.9;try{GTA.playbackRate=Math.max(.5,r/.9)}catch(e){}
+ BGM.duck(true);const p=GTA.play();if(p&&p.catch)p.catch(fail)}
 function speak(text,force){
  if(!S.auto&&!force)return;
- try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang='ko-KR';if(voice)u.voice=voice;
-  const r=+S.rate||.9;u.rate=/google/i.test(voice&&voice.name||'')?r*1.05:r;
-  u.pitch=voice&&(FEMALE.test(voice.name)||S.voice)?1:1.15;BGM.duck(true);u.onend=u.onerror=()=>BGM.duck(false);speechSynthesis.speak(u)}catch(e){}
+ try{try{GTA.pause()}catch(e){}
+  if(S.voice==='gt'&&navigator.onLine!==false)speakGT(text);else speakDevice(text,S.voice==='male')}catch(e){}
 }
 
 // ---------- uygulama içi tarayıcı → Chrome ----------
