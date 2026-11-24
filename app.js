@@ -69,7 +69,7 @@ tr:{sub:'Korece kelime ormanı · A1–B2',a2hsT:'📲 Ana ekrana ekle (uygulama
  namePh:'Bitki arkadaşının adı (isteğe bağlı)',chromeTxt:'Bir uygulamanın içindeki tarayıcıdasın. Sesli okuma için Chrome\'da açman daha iyi olur.',openChrome:'Chrome\'da aç',copy:'Kopyala',copied:'Kopyalandı ✓',
  rights:'Tüm hakları saklıdır.',biz:'İş birliği',
  credit:'Kelime listesi: Aslıhan Erdoğan · Karakter çizimleri: 덩어리숲',
- settings:'Ayarlar',lang:'Dil',roundSize:'Bir turdaki kelime',sound:'Ses',autoOn:'Kelimeyi otomatik oku: Açık',autoOff:'Kelimeyi otomatik oku: Kapalı',test:'Sesi dene',name:'Bitki arkadaşının adı',
+ settings:'Ayarlar',lang:'Dil',roundSize:'Bir turdaki kelime',sound:'Ses',autoOn:'Kelimeyi otomatik oku: Açık',autoOff:'Kelimeyi otomatik oku: Kapalı',test:'Sesi dene',voiceH:'Ses seçimi',vAuto:'Otomatik (kadın sesi)',vOnline:'çevrimiçi',noVoice:'Bu tarayıcıda Korece ses bulunamadı. Chrome\'da Google 한국의 sesini kullanabilirsin.',speedH:'Okuma hızı',rSlow2:'Çok yavaş',rSlow:'Yavaş',rNorm:'Normal',name:'Bitki arkadaşının adı',
  look:'Görünüm',stacheOn:'Bıyık: Var',stacheOff:'Bıyık: Yok',
  reset:'İlerlemeyi sıfırla',resetSure:'Emin misin? Tekrar dokun',msg:'Mesaj',settingsA:'Ayarlar',quit:'Çık',listen:'Dinle',
  lvUp:'Seviye atladın!',lvSub:n=>`Artık Lv.${n}`,great:'Harika!',
@@ -115,7 +115,7 @@ ko:{sub:'한국어 단어의 숲 · A1–B2',a2hsT:'📲 홈 화면에 추가하
  namePh:'식물 친구 이름 (선택)',chromeTxt:'앱 안의 브라우저에서는 음성이 안 나올 수 있어요. Chrome에서 여는 게 좋아요.',openChrome:'Chrome에서 열기',copy:'복사',copied:'복사됨 ✓',
  rights:'All rights reserved.',biz:'비즈니스 협업',
  credit:'단어 자료: Aslıhan Erdoğan · 캐릭터 그림: 덩어리숲',
- settings:'설정',lang:'언어',roundSize:'한 판 단어 수',sound:'소리',autoOn:'단어 자동 읽기: 켜짐',autoOff:'단어 자동 읽기: 꺼짐',test:'소리 들어 보기',name:'식물 친구 이름',
+ settings:'설정',lang:'언어',roundSize:'한 판 단어 수',sound:'소리',autoOn:'단어 자동 읽기: 켜짐',autoOff:'단어 자동 읽기: 꺼짐',test:'소리 들어 보기',voiceH:'목소리 선택',vAuto:'자동 (여성 목소리)',vOnline:'온라인',noVoice:'이 브라우저에는 한국어 음성이 없어요. Chrome의 Google 한국의 음성을 쓸 수 있어요.',speedH:'읽기 속도',rSlow2:'아주 느리게',rSlow:'느리게',rNorm:'보통',name:'식물 친구 이름',
  look:'꾸미기',stacheOn:'콧수염: 있음',stacheOff:'콧수염: 없음',
  reset:'기록 초기화',resetSure:'정말요? 한 번 더 누르세요',msg:'메시지',quit:'그만하기',listen:'듣기',
  lvUp:'레벨 업!',lvSub:n=>`이제 Lv.${n}`,great:'좋아요!',
@@ -129,7 +129,7 @@ ko:{sub:'한국어 단어의 숲 · A1–B2',a2hsT:'📲 홈 화면에 추가하
  way:'갈래'}
 };
 TX.ko.route=Object.fromEntries(Object.values(CH.GROWTH).flatMap(g=>g.routes.map(r=>[r.id,r.final])));
-let S={music:true,vol:45,lang:'tr',xp:0,level:1,name:'',pet:'',route:'',branch:'',mem:{},retry:[],lv:LEVELS[0].id,unit:'all',timer:true,size:10,auto:true,best:0,stache:true};
+let S={music:true,vol:45,lang:'tr',xp:0,level:1,name:'',pet:'',route:'',branch:'',mem:{},retry:[],lv:LEVELS[0].id,unit:'all',timer:true,size:10,auto:true,best:0,stache:true,voice:'',rate:.9};
 try{Object.assign(S,JSON.parse(localStorage.getItem('deongeoriForestTR2')||'{}'))}catch(e){}
 S.retry=S.retry.filter(id=>BYID.has(id));if(!LEVELS.some(L=>L.id===S.lv))S.lv=LEVELS[0].id;
 const save=()=>{try{localStorage.setItem('deongeoriForestTR2',JSON.stringify(S))}catch(e){}};
@@ -471,6 +471,8 @@ function renderSettings(){
  $('bAuto').textContent=S.auto?t('autoOn'):t('autoOff');$('bAuto').setAttribute('aria-pressed',S.auto);
  $('bMusic').textContent=S.music?t('musicOn'):t('musicOff');$('bMusic').setAttribute('aria-pressed',S.music);$('vol').value=S.vol;
  $('bStache').textContent=S.stache?t('stacheOn'):t('stacheOff');$('bStache').setAttribute('aria-pressed',S.stache);
+ renderVoices();
+ $('rateChips').innerHTML=RATES.map(([r,k])=>`<button class="chip" data-rate="${r}" aria-pressed="${S.rate==r}">${t(k)}</button>`).join('');
  $('nameSet').value=S.name;$('bReset').textContent=t('reset');
 }
 $('sizeChips').addEventListener('click',e=>{const b=e.target.closest('[data-size]');if(b){S.size=+b.dataset.size;save();renderSettings()}});
@@ -478,6 +480,8 @@ $('bTimer').onclick=()=>{S.timer=!S.timer;save();renderSettings()};
 $('bStache').onclick=()=>{S.stache=!S.stache;save();renderSettings();renderHome()};
 $('bAuto').onclick=()=>{S.auto=!S.auto;save();renderSettings()};
 $('bTest').onclick=()=>speak('안녕하세요. 토픽 합격을 응원해요!',true);
+$('voiceSel').onchange=e=>{S.voice=e.target.value;save();pickVoice();speak('안녕하세요. 반가워요!',true)};
+$('rateChips').addEventListener('click',e=>{const b=e.target.closest('[data-rate]');if(!b)return;S.rate=+b.dataset.rate;save();renderSettings();speak('천천히 따라 읽어 보세요.',true)});
 $('nameSet').addEventListener('input',e=>{S.name=e.target.value.trim();save();renderHome()});
 $('bSet').onclick=()=>{renderSettings();$('mSet').hidden=false};
 $('bSetOk').onclick=()=>{$('mSet').hidden=true};
@@ -606,6 +610,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
+ ['1.7','2026-11-25',{tr:['Ses seçimi: Chrome\'un Google 한국의 sesi dahil, cihazdaki tüm Korece sesler','Okuma hızı: Çok yavaş / Yavaş / Normal'],ko:['목소리 선택: Chrome의 Google 한국의 음성 포함, 기기의 모든 한국어 음성','읽기 속도: 아주 느리게 / 느리게 / 보통']}],
  ['1.6','2026-11-25',{tr:['Kelime kontrol modu (editör): anlamları ve eş kelimeleri düzelt, eski kelimeleri işaretle, dosyayı paylaş','Türkçe ek düzeltmesi: 덩어리숲\'a hoş geldin! (Aslı\'ya teşekkürler)'],ko:['단어 검수 모드(편집자): 뜻·짝꿍어휘 고치기, 오래된 단어 표시, 파일로 보내기','터키어 접미사 수정: 덩어리숲\'a hoş geldin! (아슬르 고마워요)']}],
  ['1.5','2026-11-24',{tr:['Giriş ekranı ve Türk halk müziği esintili dinlendirici fon müziği (Hicaz makamı, saz, ney, darbuka)','Deongi\'nin hikâyesi ve bitki rehberi (seviyelere göre büyüme)','Bağlantı paylaşınca önizleme görseli, uygulama içi tarayıcıdan otomatik Chrome\'a geçiş','Ana ekrana ekleme rehberi, güncelleme notları, Instagram ve KakaoTalk bağlantıları'],ko:['인트로 화면과 튀르키예 민속 음악 느낌의 힐링 배경 음악(히자즈 음계, 사즈, 네이, 다르부카)','덩이의 이야기와 식물 도감(레벨별 성장)','링크 미리보기 그림, 앱 안 브라우저에서 Chrome으로 자동 전환','홈 화면 추가 안내, 업데이트 노트, 인스타그램·카카오톡 바로가기']}],
  ['1.4','2026-11-24',{tr:['A1–B2 kelime listeleri (Aslıhan Erdoğan) ve 390 Hanca','Her kelimeye eş kelimeler, mantıklı yanlış seçenekler','Çevirmeli kartlar, ilerleme tablom, ana ekrana ekleme simgesi'],ko:['A1–B2 단어장(Aslıhan Erdoğan)과 한자 390자','단어마다 짝꿍어휘, 같은 단원·품사에서 나오는 오답','카드 뒤집기, 나의 진도표, 홈 화면 아이콘']}],
@@ -699,16 +704,28 @@ $('bWel').onclick=()=>{const n=$('nameIn').value.trim();if(n)S.name=n;save();$('
  $('mascot').className='mascot hop';setTimeout(()=>$('mascot').className='mascot',1200);speak('안녕하세요! 같이 공부해요.')};
 
 // ---------- ses (kadın sesi öncelikli) ----------
-let voice=null;
+let voice=null,KOV=[];
+const RATES=[[.55,'rSlow2'],[.7,'rSlow'],[.9,'rNorm']];
 const FEMALE=/yuna|sora|sunhi|heami|jimin|seoyeon|female|여성|google 한국의|standard-a|wavenet-a|neural2-a/i;
 const MALE=/injoon|minsu|hyunsu|bongjin|gookmin|\bmale\b|남성/i;
-function pickVoice(){try{const vs=speechSynthesis.getVoices().filter(v=>/^ko/i.test(v.lang));
- voice=vs.find(v=>FEMALE.test(v.name))||vs.find(v=>!MALE.test(v.name))||vs[0]||null}catch(e){}}
-try{pickVoice();speechSynthesis.onvoiceschanged=pickVoice}catch(e){}
+function pickVoice(){try{KOV=speechSynthesis.getVoices().filter(v=>/^ko/i.test(v.lang));
+ voice=(S.voice&&KOV.find(v=>v.voiceURI===S.voice||v.name===S.voice))||KOV.find(v=>FEMALE.test(v.name))||KOV.find(v=>!MALE.test(v.name))||KOV[0]||null}catch(e){}
+ if(!$('mSet').hidden)renderVoices()}
+function voiceLabel(v){let n=v.name.replace(/^Microsoft\s+/,'').replace(/\s*\(.*?\)\s*/g,' ').replace(/Online|Natural/g,'').replace(/\s*-\s*Korean.*$/i,'').replace(/\s+/g,' ').trim();
+ if(/google/i.test(v.name))n='Google 한국의 (Chrome)';
+ return n+(v.localService===false&&!/google/i.test(v.name)?' · '+t('vOnline'):'')}
+function renderVoices(){const sel=$('voiceSel');if(!sel)return;
+ if(!KOV.length){sel.innerHTML=`<option value="">${esc(t('noVoice'))}</option>`;sel.disabled=true;return}
+ sel.disabled=false;
+ const vs=[...KOV].sort((a,b)=>(/google/i.test(b.name)-/google/i.test(a.name)));
+ sel.innerHTML=`<option value="">${esc(t('vAuto'))}</option>`+vs.map(v=>`<option value="${esc(v.voiceURI)}">${esc(voiceLabel(v))}</option>`).join('');
+ sel.value=KOV.some(v=>v.voiceURI===S.voice)?S.voice:''}
+try{pickVoice();speechSynthesis.onvoiceschanged=pickVoice;setTimeout(pickVoice,800)}catch(e){}
 function speak(text,force){
  if(!S.auto&&!force)return;
  try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang='ko-KR';if(voice)u.voice=voice;
-  u.rate=.9;u.pitch=voice&&FEMALE.test(voice.name)?1:1.15;BGM.duck(true);u.onend=u.onerror=()=>BGM.duck(false);speechSynthesis.speak(u)}catch(e){}
+  const r=+S.rate||.9;u.rate=/google/i.test(voice&&voice.name||'')?r*1.05:r;
+  u.pitch=voice&&(FEMALE.test(voice.name)||S.voice)?1:1.15;BGM.duck(true);u.onend=u.onerror=()=>BGM.duck(false);speechSynthesis.speak(u)}catch(e){}
 }
 
 // ---------- uygulama içi tarayıcı → Chrome ----------
