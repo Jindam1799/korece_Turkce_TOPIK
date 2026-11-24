@@ -1,6 +1,6 @@
 # TOPIK Ⅱ listesi — dönüştürme raporu
 
-Oyuna alınan kelime: **2687** · tekrar edenler atlandı: 25
+Oyuna alınan kelime: **2689** · tekrar edenler atlandı: 23
 
 ## Düzeltmeler
 | Önce | Sonra | Tür |
@@ -16,7 +16,6 @@ Oyuna alınan kelime: **2687** · tekrar edenler atlandı: 25
 | 훽 | 홱 | yazım düzeltmesi |
 | 빠곡히 | 빼곡히 | yazım düzeltmesi |
 | 최대하다 | 최대한 | yazım düzeltmesi |
-| 최대한 | anlam: “olabildiğince, mümkün olduğunca” → “olabildiğince, mümkün olduğunca” | anlam düzeltmesi |
 | 재현한 | 재현하다 | yazım düzeltmesi |
 | 그렇저럭 | 그럭저럭 | yazım düzeltmesi |
 | 향신 | 향신료 | yazım düzeltmesi |
@@ -34,4 +33,4 @@ Oyuna alınan kelime: **2687** · tekrar edenler atlandı: 25
 | 주기하다 | zarar vermek, olumsuz etki yapmak (çoğunlukla 피해를 주다 yapısında) |
 
 ## Tekrar eden kelimeler (ilki tutuldu)
-가사, 애쓰다, 따지다, 안타깝다, 숨다, 꾸미다, 부피, 녹다, 급변하다, 애쓰다, 휴지, 북극곰, 담당하다, 확보하다, 펼치다, 합리적이다, 소화, 개입하다, 적, 차단하다, 향하다, 독창적, 막, 질, 권하다
+애쓰다, 따지다, 안타깝다, 숨다, 꾸미다, 부피, 녹다, 급변하다, 애쓰다, 휴지, 북극곰, 담당하다, 확보하다, 펼치다, 합리적이다, 소화, 개입하다, 적, 차단하다, 향하다, 독창적, 질, 권하다

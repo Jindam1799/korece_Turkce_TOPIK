@@ -13,7 +13,7 @@ Türk ve Azerbaycanlı arkadaşlar için Korece kelime oyunu.
 | B1.2 | 616 | `data/b12.js` |
 | B2.1 | 607 | `data/b21.js` |
 | B2.2 | 121 | `data/b22.js` |
-| TOPIK Ⅱ | 2687 | `data/topik2.js` (Aslı'nın TOPIK Ⅱ sınav kelimeleri, `tools/build_topik2.py` ile üretildi) |
+| TOPIK Ⅱ | 2689 | `data/topik2.js` (Aslı'nın TOPIK Ⅱ sınav kelimeleri, `tools/build_topik2.py` ile üretildi) |
 | 한자 (Hanca) | 390 | `data/hanja.js` |
 
 - 단어 자료: Aslıhan Erdoğan (KOREAN VOCAB, Asl_HANCA) — 오타 수정, 단어마다 짝꿍어휘 추가

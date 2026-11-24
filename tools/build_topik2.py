@@ -5,7 +5,7 @@ SRC=sys.argv[1]
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FIX={'익논하다':'의논하다','휘지르다':'휘젓다','사고팔':'사고팔다','회열을 느끼다':'희열을 느끼다','얇팍하다':'얄팍하다',
  '곁면':'겉면','빠곡히':'빼곡히','훽':'홱','그렇저럭':'그럭저럭','맥맥':'명맥','최대하다':'최대한','재현한':'재현하다','향신':'향신료','막이':'막'}
-TRFIX={'티끌 모아 태산':'damlaya damlaya göl olur','희열을 느끼다':'büyük bir sevinç duymak, coşmak','최대한':'olabildiğince, mümkün olduğunca'}
+TRFIX={'티끌 모아 태산':'damlaya damlaya göl olur','희열을 느끼다':'büyük bir sevinç duymak, coşmak'}
 SHORT={'자랑하다':'övünmek, gurur duymak','삭제':'silme','훨훨 날다':'özgürce uçmak','횡단하다':'baştan sona geçmek',
  '끼치다':'(etki, zarar) vermek, neden olmak','몸살 앓다':'yorgunluktan hasta olmak','한 술 더 뜨다':'işi daha da ileri götürmek',
  '발목을 잡다':'ayağına bağ olmak, engellemek','눈을 딱 감다':'görmezden gelmek','목에 힘을 주다':'kibirli davranmak',
@@ -18,7 +18,7 @@ def lower1(s):
     c=s[0];return ({'I':'ı','İ':'i'}.get(c,c.lower()))+s[1:]
 def short(t):
     if len(t)<=40:return t
-    s=re.split(r'\s*\(|;|\.\s|\s→|/\s*(?=['+UP+'])|'+r',\s*(?=['+UP+'])|\s{2,}',t)[0].strip(' ,.')
+    s=re.split(r'\s*\(|;|\.\s|\s→|/\s*(?=['+UP+'])|'+r',\s*(?=['+UP+r'])|\s{2,}',t)[0].strip(' ,.')
     if len(s)>40:
         parts=[p.strip() for p in s.split(',')];acc=parts[0]
         for p in parts[1:]:
@@ -27,7 +27,7 @@ def short(t):
         s=acc
     return s
 d=docx.Document(SRC)
-seen=set();out=[];rep=[];held=[];dups=[];n=0
+seen={};SAME={'애쓰다','따지다','안타깝다','숨다','꾸미다','부피','녹다','급변하다','휴지','북극곰','담당하다','확보하다','펼치다','합리적이다','소화','개입하다','적','차단하다','향하다','독창적','질','권하다'};out=[];rep=[];held=[];dups=[];n=0
 for ti,t in enumerate(d.tables):
     out.append(f'#{ti+1}')
     for r in t.rows:
@@ -39,8 +39,9 @@ for ti,t in enumerate(d.tables):
         if ko in FIX:rep.append(f'| {ko} | {FIX[ko]} | yazım düzeltmesi |');ko=FIX[ko]
         if ko in HOLD:held.append(f'| {ko} | {tr} |');continue
         if ko in TRFIX:rep.append(f'| {ko} | anlam: “{tr}” → “{TRFIX[ko]}” | anlam düzeltmesi |');tr=TRFIX[ko]
-        if ko in seen:dups.append(ko);continue
-        seen.add(ko)
+        k0=re.sub(r'[^a-zçğıöşü ]','',tr.lower()).split()
+        if ko in seen and (set(k0[:2])&seen[ko] or ko in SAME):dups.append(ko);continue
+        seen.setdefault(ko,set()).update(k0[:2])
         tr=lower1(tr.replace('|','/'));s=SHORT.get(ko) or short(tr)
         if ko=='석':tr=s
         if s!=tr:note=(note+' · ' if note else '')+tr

@@ -495,6 +495,7 @@
 받아들이다|kabul etmek / algılamak
 연인|sevgili / partner
 헤어지다|ayrılmak / ilişkiyi bitirmek
+가사|şarkı sözü / lirik
 어쩌다|arada bir / tesadüfen
 쳐다보다|bakmak / gözünü dikmek
 유난히|özellikle / alışılmadık şekilde
@@ -2708,6 +2709,7 @@
 대견하다|gurur duymak, övünmek
 못마땅하다|hoşnutsuz olmak, beğenmemek||hoşnutsuz olmak, beğenmemek, uygun görmemek
 이미|çoktan, önceden, artık
+막|hemen, az önce, rastgele
 미세|ince, küçük, çok ufak
 강우|yağış, yağmur||yağış, yağmur (özellikle bilimsel/teknik bağlamda)
 활발히|canlı bir şekilde, aktif olarak
