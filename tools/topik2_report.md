@@ -22,6 +22,7 @@ Oyuna alınan kelime: **2689** · tekrar edenler atlandı: 23
 | 회열을 느끼다 | 희열을 느끼다 | yazım düzeltmesi |
 | 희열을 느끼다 | anlam: “gurur duymak” → “büyük bir sevinç duymak, coşmak” | anlam düzeltmesi |
 | 어지간하다 | anlam: “çoğu, sıradan düzeyde olmak” → “epey, oldukça, makul düzeyde olmak” | anlam düzeltmesi |
+| 기부 | anlam: “bağış dediğimiz şey, bağış kavramı” → “bağış” | anlam düzeltmesi |
 | 티끌 모아 태산 | anlam: “deyim olarak sabit” → “damlaya damlaya göl olur” | anlam düzeltmesi |
 | 얇팍하다 | 얄팍하다 | yazım düzeltmesi |
 | 곁면 | 겉면 | yazım düzeltmesi |

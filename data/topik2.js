@@ -1074,155 +1074,155 @@
 뒤떨어지다|geri kalmak, geride olmak|유행에 뒤떨어지다=modanın gerisinde kalmak;실력이 뒤떨어지다=becerisi geride kalmak
 두려워하다|korkmak|실패를 두려워하다=başarısızlıktan korkmak;변화를 두려워하다=değişimden çekinmek
 #22
-불안해하다|kaygı duymak||kaygı duymak, kaygılı davranmak Başkasının kaygılı davranışını gözlemleyip anlatmak için kullanılır. Yani dışarıdan görülen bir eylem/tepkiyi ifade eder. 불안하다 ise kişinin kendisinin kaygılı olması
-성적|not, başarı puanı
-흐름|akış, trend, yönelim
-원활하다|sorunsuz, düzgün, akıcı
-진단하다|teşhis etmek, tanı koymak
-활쏘기|okçuluk
-활을 쏘다|ok atmak, yayı fırlatmak
-핵심|öz, esas, en önemli nokta
-참을성|sabır, tahammül gücü
-장학금|burs, eğitim desteği için verilen para
-동전|bozuk para, madeni para
-기부|bağış dediğimiz şey, bağış kavramı
-참되다|gerçek, samimi, içten
-싼 게 비지떡|ucuz şeyin kalitesi düşüktür
-티끌 모아 태산|damlaya damlaya göl olur
-엎질러진 물|geri alınamaz şey||geri alınamaz şey, olmuşla ölmüşe çare yok
-제 눈의 안경|güzellik bakanın gözündedir
-시골|kırsal bölge, köy
-발걸음|adım, yürüyüş
-급기야|sonunda, nihayetinde
-손자|torun (erkek)
-어쩔 수 없다|çaresiz olmak, yapılacak bir şey olmamak
-온갖|her türlü, çeşit çeşit
-들을 척|dinliyormuş gibi yapmak, kulak vermemek
-붕대|bandaj, sargı
-후련하다|rahatlamış, içi ferahlamış olmak
-민망하다|mahcup olmak, utanmak
-번거롭다|zahmetli, uğraştırıcı
-낮|gündüz, gündüz vakti
-화창|güneşli, açık hava
-빗방울|yağmur damlası
-뚝뚝|damla damla, şıp şıp||damla damla, şıp şıp (ses veya hareketi taklit eden onomatopoeik ifade)
-포도주|şarap
-불붙다|alev almak, kızışmak||alev almak, kızışmak (rekabet veya tartışma için mecaz)
-경쟁|rekabet
-과도하다|aşırı, fazla
-공급|arz, tedarik
-톡톡히|etkili şekilde, hakkıyla, tam anlamıyla
-동화|masal
-인식|algı, farkındalık, kavrayış
-지배적이다|baskın, egemen
-일깨우다|hatırlatmak, fark ettirmek, uyandırmak
-동심|çocuk kalbi, çocuk ruhu
-인도하다|yönlendirmek, rehberlik etmek, götürmek
-부유하다|zengin olmak
-부딪히다|çarpmak, karşılaşmak||çarpmak, karşılaşmak, engelle karşı karşıya kalmak
-돌파구|çıkış yolu, çözüm noktası
+불안해하다|kaygı duymak|시험을 불안해하다=sınav konusunda kaygılanmak;아이가 불안해하다=çocuk tedirgin olmak|kaygı duymak, kaygılı davranmak Başkasının kaygılı davranışını gözlemleyip anlatmak için kullanılır. Yani dışarıdan görülen bir eylem/tepkiyi ifade eder. 불안하다 ise kişinin kendisinin kaygılı olması
+성적|not, başarı puanı|성적이 오르다=notları yükselmek;성적표=karne
+흐름|akış, trend, yönelim|시대의 흐름=çağın akışı;흐름을 타다=akıma uymak
+원활하다|sorunsuz, düzgün, akıcı|교통이 원활하다=trafik akıcı olmak;원활한 소통=sorunsuz iletişim
+진단하다|teşhis etmek, tanı koymak|병을 진단하다=hastalığı teşhis etmek;문제를 진단하다=sorunu tespit etmek
+활쏘기|okçuluk|활쏘기 대회=okçuluk yarışması;전통 활쏘기=geleneksel okçuluk
+활을 쏘다|ok atmak, yayı fırlatmak|과녁에 활을 쏘다=hedefe ok atmak;활을 쏘는 법=ok atma yöntemi
+핵심|öz, esas, en önemli nokta|핵심 내용=ana fikir;핵심을 찌르다=tam can alıcı noktaya değinmek
+참을성|sabır, tahammül gücü|참을성이 많다=çok sabırlı olmak;참을성이 없다=sabırsız olmak
+장학금|burs, eğitim desteği için verilen para|장학금을 받다=burs almak;장학금을 신청하다=bursa başvurmak
+동전|bozuk para, madeni para|동전을 넣다=bozuk para atmak;동전 지갑=bozuk para cüzdanı
+기부|bağış|기부를 하다=bağış yapmak;재능 기부=gönüllü bilgi ve beceri paylaşımı
+참되다|gerçek, samimi, içten|참된 친구=gerçek dost;참된 의미=gerçek anlam
+싼 게 비지떡|ucuz şeyin kalitesi düşüktür|싼 게 비지떡이라더니=ucuz etin yahnisi yavan olur derler ya;싼 게 비지떡이다=ucuz mal kalitesiz olur
+티끌 모아 태산|damlaya damlaya göl olur|티끌 모아 태산이라고=damlaya damlaya göl olur derler;티끌 모아 태산이 되다=azar azar biriktirip büyük şey olmak
+엎질러진 물|geri alınamaz şey|이미 엎질러진 물이다=olan oldu, geri dönüşü yok;엎질러진 물을 다시 담을 수 없다=dökülen su geri toplanmaz|geri alınamaz şey, olmuşla ölmüşe çare yok
+제 눈의 안경|güzellik bakanın gözündedir|사랑은 제 눈의 안경이다=aşk gözü kördür;제 눈에 안경이라고=güzellik bakanın gözündedir derler
+시골|kırsal bölge, köy|시골에 살다=köyde yaşamak;시골 할머니 댁=köydeki büyükanne evi
+발걸음|adım, yürüyüş|발걸음이 가볍다=adımları hafif olmak;발걸음을 옮기다=adım atmak
+급기야|sonunda, nihayetinde|급기야 울음을 터뜨리다=sonunda ağlamaya başlamak;급기야 병이 나다=sonunda hastalanmak
+손자|torun (erkek)|손자를 돌보다=torununa bakmak;손자와 손녀=erkek ve kız torunlar
+어쩔 수 없다|çaresiz olmak, yapılacak bir şey olmamak|어쩔 수 없는 상황=elden bir şey gelmeyen durum;이제는 어쩔 수 없다=artık yapacak bir şey yok
+온갖|her türlü, çeşit çeşit|온갖 방법=her türlü yöntem;온갖 고생=türlü türlü zorluk
+들을 척|dinliyormuş gibi yapmak, kulak vermemek|들을 척도 안 하다=dinler gibi bile yapmamak;들을 척만 하다=sadece dinliyormuş gibi yapmak
+붕대|bandaj, sargı|붕대를 감다=sargı sarmak;붕대를 풀다=bandajı çözmek
+후련하다|rahatlamış, içi ferahlamış olmak|속이 후련하다=içi rahatlamak;말하고 나니 후련하다=söyleyince ferahlamak
+민망하다|mahcup olmak, utanmak|민망한 상황=utandırıcı durum;보기 민망하다=bakması bile utandırıcı olmak
+번거롭다|zahmetli, uğraştırıcı|절차가 번거롭다=işlemler zahmetli olmak;번거롭게 해서 죄송하다=zahmet verdiğim için özür dilerim
+낮|gündüz, gündüz vakti|낮과 밤=gündüz ve gece;낮잠=öğle uykusu
+화창|güneşli, açık hava|화창한 날씨=güneşli hava;화창한 봄날=açık bir bahar günü
+빗방울|yağmur damlası|빗방울이 떨어지다=yağmur damlaları düşmek;굵은 빗방울=iri yağmur damlaları
+뚝뚝|damla damla, şıp şıp|눈물이 뚝뚝 떨어지다=gözyaşları damla damla düşmek;물이 뚝뚝 떨어지다=su şıp şıp damlamak|damla damla, şıp şıp (ses veya hareketi taklit eden onomatopoeik ifade)
+포도주|şarap|포도주를 마시다=şarap içmek;포도주 한 잔=bir kadeh şarap
+불붙다|alev almak, kızışmak|경쟁에 불붙다=rekabet kızışmak;논쟁에 불붙다=tartışma alevlenmek|alev almak, kızışmak (rekabet veya tartışma için mecaz)
+경쟁|rekabet|경쟁이 치열하다=rekabet kızgın olmak;경쟁에서 이기다=rekabeti kazanmak
+과도하다|aşırı, fazla|과도한 업무=aşırı iş yükü;과도하게 사용하다=aşırı kullanmak
+공급|arz, tedarik|수요와 공급=arz ve talep;공급이 부족하다=arz yetersiz olmak
+톡톡히|etkili şekilde, hakkıyla, tam anlamıyla|효과를 톡톡히 보다=etkisini fazlasıyla görmek;톡톡히 망신을 당하다=rezil olmak
+동화|masal|동화책=masal kitabı;동화를 읽어 주다=masal okumak
+인식|algı, farkındalık, kavrayış|인식이 바뀌다=algı değişmek;인식을 개선하다=farkındalığı artırmak
+지배적이다|baskın, egemen|지배적인 의견=baskın görüş;지배적인 분위기=hâkim hava
+일깨우다|hatırlatmak, fark ettirmek, uyandırmak|중요성을 일깨우다=önemini hatırlatmak;잠든 감성을 일깨우다=uyuyan duyguları uyandırmak
+동심|çocuk kalbi, çocuk ruhu|동심으로 돌아가다=çocukluğa dönmek;동심을 지키다=çocuk ruhunu korumak
+인도하다|yönlendirmek, rehberlik etmek, götürmek|길을 인도하다=yol göstermek;성공으로 인도하다=başarıya götürmek
+부유하다|zengin olmak|부유한 집안=zengin aile;부유하게 살다=varlıklı yaşamak
+부딪히다|çarpmak, karşılaşmak|벽에 부딪히다=duvara çarpmak;현실에 부딪히다=gerçekle yüzleşmek|çarpmak, karşılaşmak, engelle karşı karşıya kalmak
+돌파구|çıkış yolu, çözüm noktası|돌파구를 찾다=çıkış yolu bulmak;돌파구를 마련하다=çözüm noktası yaratmak
 #23
-독|zehir||= 독성
-호기심|merak, ilgi
-빈곤|yoksulluk, fakirlik
-장애|engel, sakatlık
-열악하다|kötü, yetersiz, zayıf (koşullar için)
-고통|acı, ıstırap
-문구류|kırtasiye malzemeleri
-닿다|temas etmek, değmek
-성질|özellik, nitelik
-딱딱하다|sert olmak
-결합하다|birleşmek, bağlanmak
-달라붙다|yapışmak
-자아도취적이다|kendine hayran olma eğiliminde||kendine hayran olma eğiliminde, narsistik
-형식|biçim, form, dış görünüş
-형태|şekil, yapı, biçim
-사치|lüks, aşırı tüketim
-몸짓|beden hareketi, jest
-집단적이다|kolektif, toplu
-실용적이다|işlevsel, kullanışlı
-조각|parça, kırpıntı
-조화롭다|uyumlu olmak
-정성스럽다|özenli, içten
-바느질하다|dikiş dikmek
-사관|tarihçi||tarihçi, özellikle Joseon döneminde saray tarihçisi
-간섭하다|müdahale etmek, karışmak
-심지어|hatta, üstelik
-절대로|asla, kesinlikle
-정치적이다|siyasi
-언행|söz ve davranış
-권력|güç, iktidar
-마음대로|istediği gibi, keyfine göre
-북극곰|kutup ayısı
-고지방|yüksek yağ oranı
-적응하다|uyum sağlamak
-심혈관|kalp ve damar
-질환|hastalık
-성인병|yetişkin hastalığı||yetişkin hastalığı (örneğin diyabet, hipertansiyon)
-유전자|gen
-섭취하다|tüketmek, almak (besin)
-초창기|ilk dönem, başlangıç
-표정|yüz ifadesi
-만화|çizgi film, karikatür
-진화하다|evrim geçirmek, gelişmek
-퇴보시키다|geriletmek, geriye götürmek
-비판하다|eleştirmek
-불구하다|rağmen olmak, karşıtlık bildirmek
-자리매김하다|yer edinmek, konumlanmak
-아끼다|değer vermek, kıymet vermek, sakınmak
-우화|fabl, kıssadan hisse veren kısa hikâye
-진정하다|gerçek, samimi, içten
+독|zehir|독이 있다=zehirli olmak;독버섯=zehirli mantar|= 독성
+호기심|merak, ilgi|호기심이 많다=meraklı olmak;호기심을 자극하다=merak uyandırmak
+빈곤|yoksulluk, fakirlik|빈곤층=yoksul kesim;빈곤에서 벗어나다=yoksulluktan kurtulmak
+장애|engel, sakatlık|장애를 극복하다=engeli aşmak;시각 장애=görme engeli
+열악하다|kötü, yetersiz, zayıf (koşullar için)|열악한 환경=kötü koşullar;근무 조건이 열악하다=çalışma koşulları kötü olmak
+고통|acı, ıstırap|고통을 겪다=acı çekmek;고통을 덜다=acıyı hafifletmek
+문구류|kırtasiye malzemeleri|문구류를 사다=kırtasiye malzemesi almak;문구류 매장=kırtasiye dükkânı
+닿다|temas etmek, değmek|손이 닿다=eli yetişmek;연락이 닿다=iletişim kurulabilmek
+성질|özellik, nitelik|물질의 성질=maddenin özelliği;성질이 급하다=sabırsız olmak
+딱딱하다|sert olmak|딱딱한 빵=sert ekmek;분위기가 딱딱하다=ortam resmî ve gergin olmak
+결합하다|birleşmek, bağlanmak|두 원소가 결합하다=iki element birleşmek;기술과 예술이 결합하다=teknoloji ve sanat birleşmek
+달라붙다|yapışmak|옷에 달라붙다=kıyafete yapışmak;몸에 달라붙는 옷=vücuda yapışan kıyafet
+자아도취적이다|kendine hayran olma eğiliminde|자아도취적인 태도=kendini beğenmiş tavır;자아도취적인 사람=kendine hayran kişi|kendine hayran olma eğiliminde, narsistik
+형식|biçim, form, dış görünüş|형식을 갖추다=biçime uymak;형식적인 인사=formalite selamlaşma
+형태|şekil, yapı, biçim|다양한 형태=çeşitli biçimler;형태가 바뀌다=şekli değişmek
+사치|lüks, aşırı tüketim|사치를 부리다=lükse kaçmak;사치스럽다=müsrif olmak
+몸짓|beden hareketi, jest|몸짓으로 표현하다=beden diliyle ifade etmek;작은 몸짓=küçük bir jest
+집단적이다|kolektif, toplu|집단적인 행동=toplu hareket;집단적으로 반발하다=topluca tepki göstermek
+실용적이다|işlevsel, kullanışlı|실용적인 선물=kullanışlı hediye;실용적인 디자인=işlevsel tasarım
+조각|parça, kırpıntı|케이크 한 조각=bir dilim pasta;조각 작품=heykel eseri
+조화롭다|uyumlu olmak|색이 조화롭다=renkler uyumlu olmak;조화로운 삶=dengeli yaşam
+정성스럽다|özenli, içten|정성스러운 선물=özenle hazırlanmış hediye;정성스럽게 만들다=özenle yapmak
+바느질하다|dikiş dikmek|옷을 바느질하다=kıyafet dikmek;손으로 바느질하다=elle dikiş dikmek
+사관|tarihçi|사관이 기록하다=saray tarihçisi kaydetmek;조선의 사관=Joseon tarihçisi|tarihçi, özellikle Joseon döneminde saray tarihçisi
+간섭하다|müdahale etmek, karışmak|남의 일에 간섭하다=başkasının işine karışmak;사사건건 간섭하다=her şeye karışmak
+심지어|hatta, üstelik|심지어 밥도 안 먹다=hatta yemek bile yememek;심지어 아이들까지=çocuklar bile
+절대로|asla, kesinlikle|절대로 안 되다=kesinlikle olmaz;절대로 잊지 않다=asla unutmamak
+정치적이다|siyasi|정치적인 문제=siyasi sorun;정치적인 발언=siyasi açıklama
+언행|söz ve davranış|언행이 일치하다=sözü ve davranışı tutarlı olmak;언행을 조심하다=söz ve davranışlarına dikkat etmek
+권력|güç, iktidar|권력을 잡다=iktidarı ele geçirmek;권력을 남용하다=gücü kötüye kullanmak
+마음대로|istediği gibi, keyfine göre|마음대로 하다=istediği gibi yapmak;마음대로 되지 않다=istediği gibi gitmemek
+북극곰|kutup ayısı|북극곰이 사라지다=kutup ayıları yok olmak;북극곰의 서식지=kutup ayısının yaşam alanı
+고지방|yüksek yağ oranı|고지방 음식=yağlı yiyecek;고지방 식단=yüksek yağlı diyet
+적응하다|uyum sağlamak|환경에 적응하다=çevreye uyum sağlamak;새 학교에 적응하다=yeni okula alışmak
+심혈관|kalp ve damar|심혈관 질환=kalp-damar hastalığı;심혈관 건강=kalp-damar sağlığı
+질환|hastalık|피부 질환=cilt hastalığı;만성 질환=kronik hastalık
+성인병|yetişkin hastalığı|성인병을 예방하다=yetişkin hastalıklarını önlemek;성인병에 걸리다=kronik hastalığa yakalanmak|yetişkin hastalığı (örneğin diyabet, hipertansiyon)
+유전자|gen|유전자 검사=genetik test;유전자를 물려받다=genleri kalıtım yoluyla almak
+섭취하다|tüketmek, almak (besin)|영양을 섭취하다=besin almak;물을 충분히 섭취하다=yeterince su içmek
+초창기|ilk dönem, başlangıç|회사 초창기=şirketin ilk yılları;초창기 멤버=kurucu üye
+표정|yüz ifadesi|표정이 밝다=yüzü gülmek;표정을 짓다=yüz ifadesi takınmak
+만화|çizgi film, karikatür|만화책=çizgi roman;만화 영화=çizgi film
+진화하다|evrim geçirmek, gelişmek|생물이 진화하다=canlılar evrim geçirmek;기술이 진화하다=teknoloji gelişmek
+퇴보시키다|geriletmek, geriye götürmek|사회를 퇴보시키다=toplumu geriletmek;발전을 퇴보시키다=gelişmeyi geri götürmek
+비판하다|eleştirmek|정책을 비판하다=politikayı eleştirmek;날카롭게 비판하다=sert bir dille eleştirmek
+불구하다|rağmen olmak, karşıtlık bildirmek|노력에도 불구하고=çabaya rağmen;비가 오는데도 불구하고=yağmur yağmasına rağmen
+자리매김하다|yer edinmek, konumlanmak|명소로 자리매김하다=ünlü bir yer olarak yerleşmek;대표 브랜드로 자리매김하다=öncü marka konumuna gelmek
+아끼다|değer vermek, kıymet vermek, sakınmak|돈을 아끼다=para biriktirmek;아끼는 물건=çok değer verilen eşya
+우화|fabl, kıssadan hisse veren kısa hikâye|이솝 우화=Ezop masalları;우화 속 교훈=fabldaki ders
+진정하다|gerçek, samimi, içten|진정한 친구=gerçek dost;진정한 의미=gerçek anlam
 #24
-배려하다|düşünmek, gözetmek||düşünmek, gözetmek, karşı tarafı önemsemek
-완벽하다|kusursuz olmak, eksiksiz olmak
-깨닫다|farkına varmak, idrak etmek
-선행되다|önce gelmek, öncelikli olmak
-서투르다|beceriksiz, deneyimsiz, eksik
-당뇨병|diyabet, şeker hastalığı
-설탕|şeker
-비만|obezite
-일으키다|sebep olmak, ortaya çıkarmak
-영양소|besin maddesi, besleyici öğe
-장점|avantaj, olumlu yön
-규약문|sözleşme metni, düzenleyici belge
-규정|kural, düzenleme
-이해관계|çıkar ilişkisi
-다툼|kavga, anlaşmazlık
-소통하다|iletişim kurmak
-공정하다|adil olmak
-합리적이다|mantıklı, akla uygun
-부당하다|haksız olmak
-유의하다|dikkat etmek
-자율근무제|özerk çalışma sistemi||özerk çalışma sistemi, esnek çalışma düzeni
-시범|deneme, pilot uygulama
-본인|kişi kendisi, şahsen
-정식|resmi, tam anlamıyla
-도입하다|uygulamaya koymak, benimsemek
-개선|iyileştirme, geliştirme
-시도|deneme, girişim
-창출하다|yaratmak, üretmek||yaratmak, üretmek (özellikle soyut şeyler: fikir, değer, sonuç)
-당시|o zamanlar, o dönemde
-가문|soy, aile, hanedan
-후원하다|desteklemek, sponsor olmak
-한층|daha da, bir kat daha
-혁신적|yenilikçi, devrimci
-품격|zarafet, kalite, saygınlık
-최첨단|en ileri düzeyde, son teknoloji
-용어|terim, kavram
-탄생|doğuş, ortaya çıkış
-물리|fizik||fizik (doğa yasalarını inceleyen bilim dalı)
-흥미진진하다|çok ilgi çekici, heyecan verici
-들여다보다|içine bakmak, dikkatle incelemek||içine bakmak, dikkatle incelemek,gözlemlemek
-투명인간|görünmez insan
-인공지능|yapay zekâ
-다루다|ele almak, işlemek, konu edinmek
-원리|ilke, temel prensip
-신비롭다|gizemli, büyüleyici
-상상력|hayal gücü
-구체화하다|somutlaştırmak, görünür hâle getirmek
-삐딱하다|eğri, yamuk; (mecaz) aksi, ters, huysuz
-데|yer, mekân
-딴|başka, öteki
+배려하다|düşünmek, gözetmek|상대를 배려하다=karşısındakini düşünmek;노약자를 배려하다=yaşlı ve hastaları gözetmek|düşünmek, gözetmek, karşı tarafı önemsemek
+완벽하다|kusursuz olmak, eksiksiz olmak|완벽한 계획=kusursuz plan;완벽하게 해내다=eksiksiz başarmak
+깨닫다|farkına varmak, idrak etmek|잘못을 깨닫다=hatasının farkına varmak;소중함을 깨닫다=değerini anlamak
+선행되다|önce gelmek, öncelikli olmak|준비가 선행되다=önce hazırlık yapılması gerekmek;이해가 선행되어야 하다=önce anlamak gerekmek
+서투르다|beceriksiz, deneyimsiz, eksik|운전이 서투르다=araba kullanmakta acemi olmak;말이 서투르다=konuşması beceriksiz olmak
+당뇨병|diyabet, şeker hastalığı|당뇨병 환자=diyabet hastası;당뇨병을 예방하다=diyabeti önlemek
+설탕|şeker|설탕을 넣다=şeker koymak;설탕을 줄이다=şekeri azaltmak
+비만|obezite|소아 비만=çocukluk çağı obezitesi;비만을 예방하다=obeziteyi önlemek
+일으키다|sebep olmak, ortaya çıkarmak|문제를 일으키다=sorun çıkarmak;몸을 일으키다=doğrulmak
+영양소|besin maddesi, besleyici öğe|필수 영양소=temel besin öğesi;영양소가 풍부하다=besin değeri yüksek olmak
+장점|avantaj, olumlu yön|장점이 많다=çok avantajı olmak;장점과 단점=artı ve eksiler
+규약문|sözleşme metni, düzenleyici belge|규약문을 작성하다=sözleşme metni hazırlamak;규약문을 읽다=yönetmeliği okumak
+규정|kural, düzenleme|규정을 지키다=kurallara uymak;규정에 따라=yönetmeliğe göre
+이해관계|çıkar ilişkisi|이해관계가 얽히다=çıkarlar iç içe geçmek;이해관계를 따지다=çıkar hesabı yapmak
+다툼|kavga, anlaşmazlık|다툼이 생기다=anlaşmazlık çıkmak;사소한 다툼=küçük kavga
+소통하다|iletişim kurmak|자유롭게 소통하다=serbestçe iletişim kurmak;세대 간에 소통하다=kuşaklar arası iletişim kurmak
+공정하다|adil olmak|공정한 경쟁=adil rekabet;공정하게 판단하다=adil karar vermek
+합리적이다|mantıklı, akla uygun|합리적인 가격=makul fiyat;합리적인 선택=mantıklı seçim
+부당하다|haksız olmak|부당한 대우=haksız muamele;부당하게 해고되다=haksız yere işten çıkarılmak
+유의하다|dikkat etmek|건강에 유의하다=sağlığına dikkat etmek;다음 사항에 유의하다=aşağıdaki hususlara dikkat etmek
+자율근무제|özerk çalışma sistemi|자율근무제를 도입하다=esnek çalışma sistemini getirmek;자율근무제를 시행하다=esnek çalışma uygulamak|özerk çalışma sistemi, esnek çalışma düzeni
+시범|deneme, pilot uygulama|시범 운영=pilot uygulama;시범을 보이다=örnek olarak göstermek
+본인|kişi kendisi, şahsen|본인 확인=kimlik doğrulama;본인이 직접=bizzat kendisi
+정식|resmi, tam anlamıyla|정식 직원=kadrolu çalışan;정식으로 사과하다=resmî olarak özür dilemek
+도입하다|uygulamaya koymak, benimsemek|제도를 도입하다=sistemi uygulamaya koymak;신기술을 도입하다=yeni teknolojiyi benimsemek
+개선|iyileştirme, geliştirme|개선 방안=iyileştirme yolu;품질 개선=kalite iyileştirmesi
+시도|deneme, girişim|새로운 시도=yeni girişim;시도해 보다=denemek
+창출하다|yaratmak, üretmek|일자리를 창출하다=istihdam yaratmak;가치를 창출하다=değer üretmek|yaratmak, üretmek (özellikle soyut şeyler: fikir, değer, sonuç)
+당시|o zamanlar, o dönemde|그 당시=o zamanlar;당시 상황=o dönemki durum
+가문|soy, aile, hanedan|명문 가문=köklü aile;가문의 영광=ailenin onuru
+후원하다|desteklemek, sponsor olmak|행사를 후원하다=etkinliğe sponsor olmak;예술가를 후원하다=sanatçıyı desteklemek
+한층|daha da, bir kat daha|한층 더=bir kat daha;한층 밝아지다=daha da aydınlanmak
+혁신적|yenilikçi, devrimci|혁신적인 기술=yenilikçi teknoloji;혁신적인 아이디어=devrim niteliğinde fikir
+품격|zarafet, kalite, saygınlık|품격이 있다=saygın olmak;품격 높은 서비스=kaliteli hizmet
+최첨단|en ileri düzeyde, son teknoloji|최첨단 기술=son teknoloji;최첨단 장비=en ileri ekipman
+용어|terim, kavram|전문 용어=teknik terim;용어를 정리하다=terimleri düzenlemek
+탄생|doğuş, ortaya çıkış|생명의 탄생=yaşamın doğuşu;새로운 스타의 탄생=yeni bir yıldızın doğuşu
+물리|fizik|물리 법칙=fizik kanunu;물리 시험=fizik sınavı|fizik (doğa yasalarını inceleyen bilim dalı)
+흥미진진하다|çok ilgi çekici, heyecan verici|흥미진진한 이야기=heyecan verici hikâye;경기가 흥미진진하다=maç çok heyecanlı olmak
+들여다보다|içine bakmak, dikkatle incelemek|창문을 들여다보다=pencereden içeri bakmak;마음을 들여다보다=kalbinin içine bakmak|içine bakmak, dikkatle incelemek,gözlemlemek
+투명인간|görünmez insan|투명인간이 되다=görünmez insan olmak;투명인간 취급하다=yok saymak
+인공지능|yapay zekâ|인공지능 기술=yapay zekâ teknolojisi;인공지능 로봇=yapay zekâlı robot
+다루다|ele almak, işlemek, konu edinmek|기계를 다루다=makine kullanmak;주제를 다루다=konuyu ele almak
+원리|ilke, temel prensip|작동 원리=çalışma ilkesi;원리를 이해하다=temel prensibi anlamak
+신비롭다|gizemli, büyüleyici|신비로운 분위기=gizemli atmosfer;신비로운 자연=büyüleyici doğa
+상상력|hayal gücü|상상력이 풍부하다=hayal gücü geniş olmak;상상력을 키우다=hayal gücünü geliştirmek
+구체화하다|somutlaştırmak, görünür hâle getirmek|계획을 구체화하다=planı somutlaştırmak;아이디어를 구체화하다=fikri hayata geçirmek
+삐딱하다|eğri, yamuk; (mecaz) aksi, ters, huysuz|모자를 삐딱하게 쓰다=şapkayı yamuk takmak;삐딱하게 보다=ters açıdan bakmak
+데|yer, mekân|갈 데가 없다=gidecek yer yok;아픈 데=ağrıyan yer
+딴|başka, öteki|딴 사람=başka biri;딴 생각=başka düşünce
 #25
 나름대로|kendine göre, kendi tarzında
 동원하다|seferber etmek, kullanmak||seferber etmek, kullanmak (kaynak, ifade, araç vb.)
