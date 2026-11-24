@@ -69,7 +69,7 @@ tr:{sub:'Korece kelime ormanı · A1–B2',a2hsT:'📲 Ana ekrana ekle (uygulama
  namePh:'Bitki arkadaşının adı (isteğe bağlı)',chromeTxt:'Bir uygulamanın içindeki tarayıcıdasın. Sesli okuma için Chrome\'da açman daha iyi olur.',openChrome:'Chrome\'da aç',copy:'Kopyala',copied:'Kopyalandı ✓',
  rights:'Tüm hakları saklıdır.',biz:'İş birliği',
  credit:'Kelime listesi: Aslıhan Erdoğan · Karakter çizimleri: 덩어리숲',
- settings:'Ayarlar',lang:'Dil',roundSize:'Bir turdaki kelime',sizeAll:'Tümü',sound:'Ses',autoOn:'Kelimeyi otomatik oku: Açık',autoOff:'Kelimeyi otomatik oku: Kapalı',test:'Sesi dene',voiceH:'Ses seçimi',vAuto:'Otomatik (kadın sesi)',vGT:'Google Çeviri sesi (kadın · internet)',vMale:'Erkek sesi',vHQ:'gelişmiş',vHQ2:'premium',vOnline:'çevrimiçi',noVoice:'Bu tarayıcıda Korece ses bulunamadı. Chrome\'da Google 한국의 sesini kullanabilirsin.',speedH:'Okuma hızı',rSlow2:'Çok yavaş',rSlow:'Yavaş',rNorm:'Normal',name:'Bitki arkadaşının adı',
+ settings:'Ayarlar',lang:'Dil',roundSize:'Bir turdaki kelime',sizeAll:'Tümü',sound:'Ses',autoOn:'Kelimeyi otomatik oku: Açık',autoOff:'Kelimeyi otomatik oku: Kapalı',test:'Sesi dene',voiceH:'Ses seçimi',vAuto:'Otomatik (kadın sesi)',vGT:'Google Çeviri sesi (kadın · internet)',vMale:'Erkek sesi',vLow1:'Biraz kalın ses',vLow2:'Kalın ses',vHQ:'gelişmiş',vHQ2:'premium',vOnline:'çevrimiçi',noVoice:'Bu tarayıcıda Korece ses bulunamadı. Chrome\'da Google 한국의 sesini kullanabilirsin.',speedH:'Okuma hızı',rSlow2:'Çok yavaş',rSlow:'Yavaş',rNorm:'Normal',name:'Bitki arkadaşının adı',
  look:'Görünüm',stacheOn:'Bıyık: Var',stacheOff:'Bıyık: Yok',
  reset:'İlerlemeyi sıfırla',resetSure:'Emin misin? Tekrar dokun',msg:'Mesaj',settingsA:'Ayarlar',quit:'Çık',listen:'Dinle',
  lvUp:'Seviye atladın!',lvSub:n=>`Artık Lv.${n}`,great:'Harika!',
@@ -115,7 +115,7 @@ ko:{sub:'한국어 단어의 숲 · A1–B2',a2hsT:'📲 홈 화면에 추가하
  namePh:'식물 친구 이름 (선택)',chromeTxt:'앱 안의 브라우저에서는 음성이 안 나올 수 있어요. Chrome에서 여는 게 좋아요.',openChrome:'Chrome에서 열기',copy:'복사',copied:'복사됨 ✓',
  rights:'All rights reserved.',biz:'비즈니스 협업',
  credit:'단어 자료: Aslıhan Erdoğan · 캐릭터 그림: 덩어리숲',
- settings:'설정',lang:'언어',roundSize:'한 판 단어 수',sizeAll:'전체',sound:'소리',autoOn:'단어 자동 읽기: 켜짐',autoOff:'단어 자동 읽기: 꺼짐',test:'소리 들어 보기',voiceH:'목소리 선택',vAuto:'자동 (여성 목소리)',vGT:'구글 번역 목소리 (여성 · 인터넷)',vMale:'남자 목소리',vHQ:'고음질',vHQ2:'프리미엄',vOnline:'온라인',noVoice:'이 브라우저에는 한국어 음성이 없어요. Chrome의 Google 한국의 음성을 쓸 수 있어요.',speedH:'읽기 속도',rSlow2:'아주 느리게',rSlow:'느리게',rNorm:'보통',name:'식물 친구 이름',
+ settings:'설정',lang:'언어',roundSize:'한 판 단어 수',sizeAll:'전체',sound:'소리',autoOn:'단어 자동 읽기: 켜짐',autoOff:'단어 자동 읽기: 꺼짐',test:'소리 들어 보기',voiceH:'목소리 선택',vAuto:'자동 (여성 목소리)',vGT:'구글 번역 목소리 (여성 · 인터넷)',vMale:'남자 목소리',vLow1:'조금 낮은 목소리',vLow2:'낮은 목소리',vHQ:'고음질',vHQ2:'프리미엄',vOnline:'온라인',noVoice:'이 브라우저에는 한국어 음성이 없어요. Chrome의 Google 한국의 음성을 쓸 수 있어요.',speedH:'읽기 속도',rSlow2:'아주 느리게',rSlow:'느리게',rNorm:'보통',name:'식물 친구 이름',
  look:'꾸미기',stacheOn:'콧수염: 있음',stacheOff:'콧수염: 없음',
  reset:'기록 초기화',resetSure:'정말요? 한 번 더 누르세요',msg:'메시지',quit:'그만하기',listen:'듣기',
  lvUp:'레벨 업!',lvSub:n=>`이제 Lv.${n}`,great:'좋아요!',
@@ -611,7 +611,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
- ['1.10','2026-11-25',{tr:['Aynı sesin iki kez görünmesi düzeltildi','Okuma hızları arasındaki fark büyütüldü','Yeni fon müziği: daha aydınlık, Rast makamında ney, bağlama, kanun ve bendir'],ko:['같은 목소리가 두 번 보이던 문제 수정','읽기 속도 차이를 더 크게 조정','새 배경 음악: 더 밝은 라스트(Rast) 음계의 네이·바을라마·카눈·벤디르']}],
+ ['1.10','2026-11-25',{tr:['Yeni ses seçenekleri: Biraz kalın ses, Kalın ses (gerçek erkek sesi olan cihazlarda Erkek sesi)','Aynı sesin iki kez görünmesi düzeltildi','Okuma hızları arasındaki fark büyütüldü','Yeni fon müziği: daha aydınlık, Rast makamında ney, bağlama, kanun ve bendir'],ko:['새 목소리 선택: 조금 낮은 목소리, 낮은 목소리 (진짜 남자 음성이 있는 기기에선 남자 목소리)','같은 목소리가 두 번 보이던 문제 수정','읽기 속도 차이를 더 크게 조정','새 배경 음악: 더 밝은 라스트(Rast) 음계의 네이·바을라마·카눈·벤디르']}],
  ['1.9','2026-11-25',{tr:['Yeni sesler: Google Çeviri sesi (internet gerekir) ve Erkek sesi'],ko:['새 목소리: 구글 번역 목소리(인터넷 필요), 남자 목소리']}],
  ['1.8','2026-11-25',{tr:['Bir turdaki kelime: 10 ya da Tümü (seçili bölümün tüm kelimeleri)'],ko:['한 판 단어 수: 10개 또는 전체(고른 단원의 모든 단어)']}],
  ['1.7','2026-11-25',{tr:['Ses seçimi: Chrome\'un Google 한국의 sesi dahil, cihazdaki tüm Korece sesler','Okuma hızı: Çok yavaş / Yavaş / Normal'],ko:['목소리 선택: Chrome의 Google 한국의 음성 포함, 기기의 모든 한국어 음성','읽기 속도: 아주 느리게 / 느리게 / 보통']}],
@@ -742,9 +742,10 @@ function voiceLabel(v){let n=v.name.replace(/^Microsoft\s+/,'').replace(/\s*\(.*
  return n+(v.localService===false&&!/google/i.test(v.name)?' · '+t('vOnline'):'')}
 function renderVoices(){const sel=$('voiceSel');if(!sel)return;
  const seen=new Set(),vs=[...KOV].sort((a,b)=>(/google/i.test(b.name)-/google/i.test(a.name))).filter(v=>{const k=voiceLabel(v);if(seen.has(k))return false;seen.add(k);return true});
- sel.innerHTML=`<option value="">${esc(t('vAuto'))}</option><option value="gt">${esc(t('vGT'))}</option><option value="male">${esc(t('vMale'))}</option>`
+ sel.innerHTML=`<option value="">${esc(t('vAuto'))}</option><option value="low1">${esc(t('vLow1'))}</option><option value="low2">${esc(t('vLow2'))}</option>`+(maleReal?`<option value="male">${esc(t('vMale'))}</option>`:'')+`<option value="gt">${esc(t('vGT'))}</option>`
   +vs.map(v=>`<option value="${esc(v.voiceURI)}">${esc(voiceLabel(v))}</option>`).join('');
- sel.value=(S.voice==='gt'||S.voice==='male'||vs.some(v=>v.voiceURI===S.voice))?S.voice:''}
+ if(S.voice==='male'&&!maleReal)S.voice='low2';
+ sel.value=(['gt','low1','low2'].includes(S.voice)||(S.voice==='male'&&maleReal)||vs.some(v=>v.voiceURI===S.voice))?S.voice:''}
 try{pickVoice();speechSynthesis.onvoiceschanged=pickVoice;setTimeout(pickVoice,800)}catch(e){}
 // Google Çeviri sesi (internet gerekir; olmazsa cihaz sesine döner)
 const GTA=new Audio();GTA.preload='auto';try{GTA.referrerPolicy='no-referrer';GTA.crossOrigin=null}catch(e){}
@@ -758,7 +759,7 @@ function speakDevice(text,male){
  speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang='ko-KR';
  const v=male?(maleReal||voice):voice;if(v)u.voice=v;
  const r=+S.rate||1;u.rate=r;
- u.pitch=male?(maleReal?1:.55):(v&&FEMALE.test(v.name)||S.voice)?1:1.15;
+ u.pitch=male?(maleReal?1:.65):S.voice==='low1'?.8:S.voice==='low2'?.62:(v&&FEMALE.test(v.name)||S.voice)?1:1.15;
  BGM.duck(true);u.onend=u.onerror=()=>BGM.duck(false);speechSynthesis.speak(u)}
 function speakGT(text){
  try{speechSynthesis.cancel()}catch(e){}
