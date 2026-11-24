@@ -607,3 +607,157 @@
 불신|불신이 커지다=güvensizlik artmak;불신을 받다=güvenilmemek
 초래하다|혼란을 초래하다=kargaşaya yol açmak;결과를 초래하다=sonuç doğurmak
 신뢰|신뢰를 얻다=güven kazanmak;신뢰가 깨지다=güven sarsılmak
+# --- 13 ---
+계기|계기가 되다=vesile olmak;이를 계기로=bunu fırsat bilerek
+자성|자성의 목소리=özeleştiri sesleri;자성을 촉구하다=özeleştiri çağrısı yapmak
+황금|황금 시간=altın saatler;황금 같은 기회=altın değerinde fırsat
+응급|응급 처치=ilk yardım;응급 상황=acil durum
+환자|환자를 돌보다=hastaya bakmak;응급 환자=acil hasta
+생사가 갈리다|몇 분 차이로 생사가 갈리다=birkaç dakika fark ölüm kalım meselesi olmak;생사가 갈리는 순간=ölüm kalım anı
+구급차|구급차를 부르다=ambulans çağırmak;구급차에 실려 가다=ambulansla götürülmek
+주행|주행 중=sürüş sırasında;자율 주행=otonom sürüş
+협조|협조를 구하다=iş birliği istemek;적극 협조하다=aktif olarak yardım etmek
+배려|배려가 깊다=çok düşünceli olmak;배려심=başkasını gözetme duygusu
+시민|시민 의식=vatandaşlık bilinci;시민 단체=sivil toplum kuruluşu
+양보하다|길을 양보하다=yol vermek;자리를 양보하다=yer vermek
+배경|소설의 배경=romanın geçtiği yer ve zaman;사회적 배경=toplumsal arka plan
+기호|기호를 사용하다=sembol kullanmak;수학 기호=matematik işareti
+삭막하다|삭막한 도시=kasvetli şehir;분위기가 삭막하다=ortam soğuk olmak
+암울하다|암울한 미래=karanlık gelecek;암울한 시대=umutsuz dönem
+명예롭다|명예로운 죽음=onurlu ölüm;명예롭게 은퇴하다=şerefle emekli olmak
+목숨|목숨을 걸다=canını ortaya koymak;목숨을 구하다=hayat kurtarmak
+던지다|공을 던지다=top atmak;목숨을 던지다=canını feda etmek
+집단화되다|사회가 집단화되다=toplum kolektifleşmek;집단화된 행동=toplu davranış
+해소시키다|스트레스를 해소시키다=stresi gidermek;갈등을 해소시키다=çatışmayı çözmek
+독자|독자의 반응=okuyucunun tepkisi;독자 투고=okur mektubu
+제시하다|의견을 제시하다=görüş sunmak;해결책을 제시하다=çözüm önermek
+원칙|원칙을 지키다=ilkeye bağlı kalmak;원칙적으로=prensipte
+저자|책의 저자=kitabın yazarı;저자 서명=yazar imzası
+정상|산 정상=dağ zirvesi;정상 회담=zirve toplantısı
+이끌다|팀을 이끌다=takımı yönetmek;성공으로 이끌다=başarıya götürmek
+자유무역|자유무역 협정=serbest ticaret anlaşması;자유무역을 확대하다=serbest ticareti genişletmek
+내세우다|공약을 내세우다=vaatlerini öne sürmek;장점을 내세우다=güçlü yanını öne çıkarmak
+위대하다|위대한 업적=büyük başarı;위대한 인물=yüce kişilik
+차지하다|1위를 차지하다=birinciliği elde etmek;공간을 차지하다=yer kaplamak
+연속|3년 연속=üç yıl üst üste;연속으로 이기다=art arda kazanmak
+내놓다|신제품을 내놓다=yeni ürün piyasaya sürmek;의견을 내놓다=görüş ortaya koymak
+박사|박사 학위=doktora derecesi;박사 과정=doktora programı
+막무가내|막무가내로 우기다=inatla diretmek;막무가내인 아이=laf dinlemeyen çocuk
+따라다니다|엄마를 따라다니다=annesinin peşinden gitmek;소문이 따라다니다=söylenti peşini bırakmamak
+별의별|별의별 사람=her türlü insan;별의별 일=türlü türlü olay
+놀림|놀림을 받다=alay edilmek;놀림거리=alay konusu
+어김없이|어김없이 찾아오다=her zaman gelmek;어김없이 지키다=istisnasız uymak
+새침하다|새침한 표정=nazlı yüz ifadesi;새침하게 굴다=soğuk davranmak
+갈래 머리|갈래 머리를 땋다=saçını iki örgü yapmak;갈래 머리 소녀=örgülü saçlı kız
+넌지시|넌지시 묻다=belli etmeden sormak;넌지시 알려주다=ima ederek bildirmek
+잡아당기다|줄을 잡아당기다=ipi çekmek;머리를 잡아당기다=saçını çekmek
+변소|변소에 가다=tuvalete gitmek;공중 변소=umumi tuvalet
+장맛비|장맛비가 내리다=yaz yağmuru yağmak;장맛비가 그치다=yağmur dinmek
+추적추적|비가 추적추적 내리다=yağmur çisil çisil yağmak;추적추적 내리는 빗소리=hafif hafif yağan yağmur sesi
+나르다|짐을 나르다=yük taşımak;물을 나르다=su taşımak
+철렁하다|가슴이 철렁하다=yüreği hop etmek;마음이 철렁 내려앉다=içi cız etmek
+황급히|황급히 뛰어가다=telaşla koşmak;황급히 자리를 뜨다=aceleyle yerinden kalkmak
+빽빽하다|나무가 빽빽하다=ağaçlar sık olmak;일정이 빽빽하다=program dolu olmak
+# --- 14 ---
+허탈하다|허탈한 웃음=boş bir gülüş;허탈한 마음=içi boşalmış his
+괘씸하다|괘씸한 행동=küstahça davranış;괘씸하게 생각하다=hakaret sayıp kızmak
+안타깝다|안타까운 소식=üzücü haber;안타깝게도=ne yazık ki
+바로 거기에|바로 거기에 있다=tam orada olmak;문제는 바로 거기에 있다=sorun tam da orada
+심사하다|작품을 심사하다=eserleri değerlendirmek;서류를 심사하다=belgeleri incelemek
+민주주의|민주주의 국가=demokratik ülke;민주주의를 지키다=demokrasiyi korumak
+실험|실험을 하다=deney yapmak;실험 결과=deney sonucu
+각계각층|각계각층의 사람들=toplumun her kesiminden insanlar;각계각층의 의견=farklı kesimlerin görüşleri
+토론|토론을 벌이다=tartışma yapmak;토론 대회=münazara yarışması
+과제|과제를 제출하다=ödev teslim etmek;해결 과제=çözülmesi gereken sorun
+공모하다|아이디어를 공모하다=fikir yarışması açmak;작품을 공모하다=eser başvurusu toplamak
+거치다|여러 단계를 거치다=birçok aşamadan geçmek;서울을 거쳐 가다=Seul'den geçerek gitmek
+선정하다|대상을 선정하다=hedefi belirlemek;우수작을 선정하다=en iyi eseri seçmek
+지정되다|문화재로 지정되다=kültürel miras olarak tescil edilmek;지정된 장소=belirlenen yer
+즉시|즉시 연락하다=hemen haber vermek;즉시 출발하다=derhal yola çıkmak
+반영하다|의견을 반영하다=görüşleri dikkate almak;현실을 반영하다=gerçeği yansıtmak
+우선적|우선적으로 처리하다=öncelikli olarak halletmek;우선적인 과제=öncelikli görev
+추진되다|사업이 추진되다=proje yürütülmek;계획이 추진되다=plan hayata geçirilmek
+일회성|일회성 행사=tek seferlik etkinlik;일회성에 그치다=bir defayla sınırlı kalmak
+정책|정책을 세우다=politika belirlemek;교육 정책=eğitim politikası
+대피 공간|대피 공간을 마련하다=tahliye alanı hazırlamak;대피 공간으로 이동하다=kaçış bölgesine geçmek
+공급받다|전기를 공급받다=elektrik almak;물자를 공급받다=malzeme temin etmek
+환기 시설|환기 시설을 갖추다=havalandırma sistemi kurmak;환기 시설이 부족하다=havalandırma yetersiz olmak
+냉각되다|엔진이 냉각되다=motor soğumak;관계가 냉각되다=ilişki soğumak
+설비|설비를 갖추다=donanım kurmak;최신 설비=son teknoloji ekipman
+마련하다|자금을 마련하다=para bulmak;대책을 마련하다=önlem hazırlamak
+초고층|초고층 빌딩=gökdelen;초고층 아파트=çok katlı apartman
+구역|금연 구역=sigara içilmeyen alan;주차 구역=park alanı
+확보하다|자금을 확보하다=fon temin etmek;안전을 확보하다=güvenliği sağlamak
+대체하다|인력을 기계로 대체하다=insan gücünün yerine makine koymak;대체할 수 없다=yeri doldurulamaz
+공급하다|전기를 공급하다=elektrik sağlamak;물을 공급하다=su temin etmek
+보완하다|단점을 보완하다=eksiklerini gidermek;서로 보완하다=birbirini tamamlamak
+분배|소득 분배=gelir dağılımı;공평한 분배=adil paylaşım
+축|지구의 축=Dünya'nın ekseni;성장의 두 축=büyümenin iki temel dayanağı
+날개|날개를 펴다=kanatlarını açmak;새의 날개=kuşun kanadı
+굴러가다|공이 굴러가다=top yuvarlanmak;경제가 굴러가다=ekonomi dönmek
+불평등|사회적 불평등=toplumsal eşitsizlik;불평등을 해소하다=eşitsizliği gidermek
+낙수|낙수 효과=damlama etkisi;낙수 소리=damla sesi
+완화되다|규제가 완화되다=düzenlemeler gevşetilmek;통증이 완화되다=ağrı hafiflemek
+주도하다|변화를 주도하다=değişime öncülük etmek;시장을 주도하다=pazara yön vermek
+구조|사회 구조=toplumsal yapı;인명 구조=insan kurtarma
+성과|성과를 내다=sonuç almak;성과가 좋다=başarılı sonuç olmak
+편중되다|한쪽에 편중되다=bir tarafa yığılmak;부가 편중되다=servet dengesiz dağılmak
+소득|소득이 늘다=gelir artmak;소득 격차=gelir uçurumu
+현상|사회 현상=toplumsal olgu;자연 현상=doğa olayı
+심화|갈등 심화=çatışmanın derinleşmesi;양극화 심화=kutuplaşmanın artması
+획기적|획기적인 발명=çığır açan buluş;획기적으로 개선하다=köklü biçimde iyileştirmek
+적절하다|적절한 시기=uygun zaman;적절하게 대응하다=yerinde karşılık vermek
+요구하다|사과를 요구하다=özür istemek;임금 인상을 요구하다=maaş artışı talep etmek
+지지하다|후보를 지지하다=adayı desteklemek;의견을 지지하다=görüşe arka çıkmak
+# --- 15 ---
+서둘러|서둘러 나가다=aceleyle çıkmak;서둘러 끝내다=çabucak bitirmek
+싹싹|싹싹 닦다=pırıl pırıl silmek;싹싹 비우다=tertemiz bitirmek
+닦다|이를 닦다=diş fırçalamak;창문을 닦다=pencere silmek
+휴지|휴지로 닦다=peçeteyle silmek;휴지통=çöp kutusu
+소중하다|소중한 추억=değerli anı;소중하게 여기다=kıymetli bilmek
+기관|공공 기관=kamu kurumu;금융 기관=finans kuruluşu
+방송국|방송국에서 일하다=televizyon kanalında çalışmak;지역 방송국=yerel yayın kuruluşu
+이웃|이웃을 돕다=komşuya yardım etmek;이웃 나라=komşu ülke
+체육|체육 시간=beden eğitimi dersi;체육관=spor salonu
+보관하다|냉장고에 보관하다=buzdolabında saklamak;서류를 보관하다=belgeleri muhafaza etmek
+뚜껑|뚜껑을 열다=kapağı açmak;뚜껑을 닫다=kapağı kapatmak
+주의 사항|주의 사항을 읽다=uyarıları okumak;사용 시 주의 사항=kullanım uyarıları
+별자리|별자리를 찾다=takımyıldızı bulmak;별자리 관측=yıldız gözlemi
+일시|일시와 장소=tarih, saat ve yer;일시를 정하다=tarih belirlemek
+참가비|참가비를 내다=katılım ücreti ödemek;참가비 무료=katılım ücretsiz
+접수|접수 기간=başvuru süresi;접수를 받다=başvuru almak
+개최되다|대회가 개최되다=yarışma düzenlenmek;서울에서 개최되다=Seul'de gerçekleştirilmek
+검진|건강 검진=sağlık taraması;정기 검진=düzenli kontrol
+수면|수면 부족=uykusuzluk;수면을 취하다=uyumak
+원고지|원고지에 쓰다=kareli kâğıda yazmak;원고지 사용법=kareli kâğıt kullanımı
+대회|대회에 나가다=yarışmaya katılmak;말하기 대회=konuşma yarışması
+예선|예선을 통과하다=ön elemeyi geçmek;예선에서 떨어지다=elemede kalmak
+원고|원고를 쓰다=metin yazmak;원고를 제출하다=taslağı teslim etmek
+공지하다|일정을 공지하다=programı duyurmak;홈페이지에 공지하다=web sitesinde ilan etmek
+조리실|조리실 위생=mutfak hijyeni;조리실 직원=mutfak çalışanı
+주방|주방에서 요리하다=mutfakta yemek yapmak;주방 용품=mutfak eşyaları
+유리|유리가 깨지다=cam kırılmak;유리창=cam pencere
+신기하다|신기한 경험=ilginç deneyim;보기만 해도 신기하다=bakması bile şaşırtıcı
+공연|공연을 보다=gösteri izlemek;공연이 열리다=gösteri düzenlenmek
+광고|광고를 내다=reklam vermek;광고 모델=reklam yüzü
+기법|새로운 기법=yeni teknik;촬영 기법=çekim tekniği
+주목을 받다|세계의 주목을 받다=dünyanın ilgisini çekmek;크게 주목을 받다=büyük ilgi görmek
+동영상|동영상을 찍다=video çekmek;동영상을 올리다=video yüklemek
+자연스럽게|자연스럽게 말하다=doğal konuşmak;자연스럽게 친해지다=kendiliğinden yakınlaşmak
+생수병|빈 생수병=boş su şişesi;생수병을 재활용하다=pet şişeyi geri dönüştürmek
+산불|산불이 나다=orman yangını çıkmak;산불을 끄다=orman yangınını söndürmek
+투명하다|투명한 유리=şeffaf cam;투명하게 공개하다=şeffaf biçimde açıklamak
+불꽃|불꽃이 튀다=kıvılcım sıçramak;불꽃놀이=havai fişek gösterisi
+번지다|불이 번지다=yangın yayılmak;소문이 번지다=söylenti yayılmak
+폭넓다|폭넓은 지식=geniş bilgi;폭넓게 활용되다=geniş ölçüde kullanılmak
+지식|지식을 쌓다=bilgi birikimi edinmek;전문 지식=uzmanlık bilgisi
+명확히|명확히 설명하다=açıkça anlatmak;명확히 밝히다=net bir şekilde ortaya koymak
+기발하다|기발한 아이디어=parlak fikir;기발한 발상=yaratıcı düşünce
+연결되다|전화가 연결되다=telefon bağlanmak;서로 연결되다=birbirine bağlanmak
+창의적|창의적인 생각=yaratıcı düşünce;창의적으로 해결하다=yaratıcı biçimde çözmek
+주장하다|권리를 주장하다=hakkını savunmak;강하게 주장하다=ısrarla ileri sürmek
+비유하다|인생을 여행에 비유하다=hayatı yolculuğa benzetmek;비유해서 말하다=benzetme yaparak konuşmak
+물감|물감을 섞다=boyaları karıştırmak;수채화 물감=suluboya
+방울|물방울=su damlası;땀방울=ter damlası
+고민거리|고민거리가 생기다=bir derdi olmak;고민거리를 털어놓다=derdini açmak
+파악하다|상황을 파악하다=durumu kavramak;원인을 파악하다=nedeni tespit etmek
