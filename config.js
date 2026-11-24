@@ -4,7 +4,7 @@
  */
 window.SITE_CONFIG = {
   owner: 'Wonju (원주)',
-  contact: '',
+  contact: 'wkim5298@gmail.com',
   kakao: 'wj5298',
   instagram: 'wj_kimi'
 };
