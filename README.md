@@ -1,15 +1,27 @@
-# 덩어리숲 · TOPIK Kelime Ormanı
+# 덩어리숲 · Korece Kelime Ormanı
 
-TOPIK 5·6급을 공부하는 튀르키예·아제르바이잔 친구들을 위한 한국어 단어 게임.
-Türk ve Azerbaycanlı arkadaşlar için TOPIK 5-6 Korece kelime oyunu.
+튀르키예·아제르바이잔 친구들을 위한 한국어 단어 게임. © 2026 Wonju (원주)
+Türk ve Azerbaycanlı arkadaşlar için Korece kelime oyunu.
 
 ▶ https://jindam1799.github.io/korece_Turkce_TOPIK/
 
-- 한국어 단어 → 튀르키예어 뜻 4지선다 (12초 제한 / 시간제한 없음)
-- 맞히면 짝꿍어휘(함께 쓰는 표현) 보너스 문제
-- 틀린 단어·짝꿍어휘는 복습 목록에 저장
-- 양분이 쌓이면 식물 친구가 자라요 (Lv.3 계열 선택 · Lv.10 진화 · Lv.15 변신 · Lv.20 전설)
-- 튀르키예어 / 한국어 화면 전환, 한국어 여성 음성 TTS
-- 캐릭터 그림: 진담중국어 '중국어덩어리의 숲'에서 가져옴 (`char.js`)
+## 내용
+| 단계 | 단어 수 | 파일 |
+|---|---|---|
+| A1–A2 | 893 | `data/a12.js` |
+| B1.1 | 447 | `data/b11.js` |
+| B1.2 | 616 | `data/b12.js` |
+| B2.1 | 607 | `data/b21.js` |
+| B2.2 | 121 | `data/b22.js` |
+| 한자 (Hanca) | 390 | `data/hanja.js` |
 
-단어 추가·수정: `data.js`에 한 줄씩 붙이면 돼요.
+- 단어 자료: Aslıhan Erdoğan (KOREAN VOCAB, Asl_HANCA) — 오타 수정, 단어마다 짝꿍어휘 추가
+- 퀴즈: 한국어 → 튀르키예어 4지선다, 오답은 같은 단원·같은 품사에서
+- 짝꿍어휘 보너스, 카드 뒤집기, 나의 진도표, 복습 목록
+- 식물 친구 육성 (그림: 진담중국어 덩어리숲 `char.js`)
+- 튀르키예어 / 한국어 화면 전환, 한국어 여성 음성 TTS, 홈 화면 아이콘(PWA)
+
+## 고치는 법
+- 단어: `data/*.js` 한 줄 = `단어|뜻|짝꿍어휘=뜻;짝꿍어휘=뜻`, `#`으로 시작하는 줄은 단원 이름
+- 비즈니스 협업 이메일: `config.js`의 `contact: ''`에 넣기
+- 새 버전을 올릴 때 `sw.js`의 `VERSION`을 바꾸면 휴대폰에서 바로 새 버전이 보여요
