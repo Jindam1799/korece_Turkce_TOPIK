@@ -2,6 +2,13 @@
 <html lang="tr">
 <head>
 <meta charset="utf-8">
+<script>/* KakaoTalk: sayfa çizilmeden önce dış tarayıcıya geç ve KakaoTalk penceresini kapat */
+(function(){var u=navigator.userAgent||'';if(!/KAKAOTALK/i.test(u))return;
+try{if(sessionStorage.getItem('toChrome')==='1')return;sessionStorage.setItem('toChrome','1')}catch(e){}
+var d=document.documentElement;d.style.visibility='hidden';d.style.background='#2f5d46';
+location.href='kakaotalk://web/openExternal?url='+encodeURIComponent(location.href);
+setTimeout(function(){location.href=/iPhone|iPad|iPod/i.test(u)?'kakaoweb://closeBrowser':'kakaotalk://inappbrowser/close'},700);
+setTimeout(function(){d.style.visibility=''},2500)})();</script>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>덩어리숲 · Korece Kelime Ormanı</title>
 <meta name="description" content="덩어리숲 — A1'den B2'ye Korece kelime oyunu. Türk ve Azerbaycanlı arkadaşlar için. © 2026 Wonju">
@@ -296,6 +303,7 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid 
 .thanks small{font-size:12px;color:var(--muted);font-weight:700}
 .thanks b{color:var(--green);font-size:18px;line-height:1.3}
 .thanks span{font-size:14px}
+.thanks .what{font-size:11.5px;font-weight:600;margin-top:2px}
 .foot{font-size:12px;color:var(--muted);text-align:center;margin-top:10px;line-height:1.6}
 .foot a,.biz a{color:var(--green);font-weight:800;word-break:break-all}
 .biz{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:10px 12px;font-size:14px;margin-top:10px}
@@ -422,7 +430,7 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid 
  <div class="modal" id="mWel" hidden><div class="box">
   <div class="whead"><h2 data-t="welTitle"></h2><div class="lang"><button data-lang="tr">TR</button><button data-lang="ko">한</button></div></div>
   <div class="letter"><p data-t="letter"></p><p class="sig" data-t="sig"></p></div>
-  <div class="thanks"><small data-t="thanksPre"></small><b>Aslıhan Erdoğan</b><span data-t="thanksPost"></span></div>
+  <div class="thanks"><small data-t="thanksPre"></small><b>Aslıhan Erdoğan</b><span data-t="thanksPost"></span><small class="what" data-t="thanksWhat"></small></div>
   <ul class="how"><li data-t="how1"></li><li data-t="how2"></li><li data-t="how3"></li></ul>
   <div class="field"><input id="nameIn" maxlength="14" data-ph="namePh"></div>
   <details class="a2hs" id="a2hs"><summary data-t="a2hsT"></summary>
@@ -488,15 +496,15 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid 
  </div></div>
 </div>
 
-<script src="config.js?v=34"></script>
-<script src="char.js?v=34"></script>
-<script src="data/a12.js?v=34"></script>
-<script src="data/b11.js?v=34"></script>
-<script src="data/b12.js?v=34"></script>
-<script src="data/b21.js?v=34"></script>
-<script src="data/b22.js?v=34"></script>
-<script src="data/topik2.js?v=34"></script>
-<script src="data/hanja.js?v=34"></script>
-<script src="app.js?v=34"></script>
+<script src="config.js?v=35"></script>
+<script src="char.js?v=35"></script>
+<script src="data/a12.js?v=35"></script>
+<script src="data/b11.js?v=35"></script>
+<script src="data/b12.js?v=35"></script>
+<script src="data/b21.js?v=35"></script>
+<script src="data/b22.js?v=35"></script>
+<script src="data/topik2.js?v=35"></script>
+<script src="data/hanja.js?v=35"></script>
+<script src="app.js?v=35"></script>
 </body>
 </html>
