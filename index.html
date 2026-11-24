@@ -3,13 +3,21 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>덩어리숲 · TOPIK Kelime Ormanı</title>
-<meta name="description" content="덩어리숲 — TOPIK 5-6 Korece kelime oyunu. Türk ve Azerbaycanlı arkadaşlar için.">
-<meta property="og:title" content="덩어리숲 · TOPIK Kelime Ormanı">
-<meta property="og:description" content="Korece kelimeyi gör, Türkçe anlamını seç. Eş kelimelerle çalış, bitki arkadaşını büyüt!">
+<title>덩어리숲 · Korece Kelime Ormanı</title>
+<meta name="description" content="덩어리숲 — A1'den B2'ye Korece kelime oyunu. Türk ve Azerbaycanlı arkadaşlar için. © 2026 Wonju">
+<meta property="og:title" content="덩어리숲 · Korece Kelime Ormanı">
+<meta property="og:description" content="Korece kelimeyi gör, Türkçe anlamını seç. Eş kelimeler, kartlar, bitki arkadaşını büyüt!">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://jindam1799.github.io/korece_Turkce_TOPIK/">
+<meta property="og:image" content="https://jindam1799.github.io/korece_Turkce_TOPIK/icons/icon-512.png">
 <meta name="theme-color" content="#315e48">
+<meta name="author" content="Wonju (원주)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="덩어리숲">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700;800&display=swap" rel="stylesheet">
@@ -150,6 +158,34 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid 
 @keyframes up{from{transform:translateY(24px);opacity:0}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 @media(max-height:640px){.app{padding-top:calc(6px + env(safe-area-inset-top))}.screen{gap:7px}.stats strong{font-size:16px}.primary,.secondary{min-height:46px}.cinfo{padding:8px 14px 10px}.qins{margin:10px 0 2px}.brand small{display:none}}
+
+.sel2{display:grid;grid-template-columns:1fr 1fr;gap:8px;flex:none}
+.sel2 select{min-height:42px;border:1.5px solid var(--line);border-radius:12px;background:#fff;padding:6px 8px;font-size:14px;font-weight:700;width:100%}
+.btn3{display:grid;grid-template-columns:1.25fr 1fr 1fr;gap:8px;flex:none}
+.btn3 .primary,.btn3 .secondary{font-size:15px;padding:8px 6px;line-height:1.15}
+.cardzone{flex:1;min-height:0;perspective:1200px;display:flex}
+.flip{position:relative;flex:1;transform-style:preserve-3d;transition:transform .45s cubic-bezier(.3,.7,.3,1);cursor:pointer;border:0;background:none;padding:0;text-align:center}
+.flip.on{transform:rotateY(180deg)}
+.face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:24px;border:1px solid var(--line);background:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:18px;gap:8px;overflow:hidden}
+.face.back{transform:rotateY(180deg);background:var(--paper)}
+.face .lbl{position:absolute;top:12px;left:14px;font-size:12px;font-weight:800;color:var(--muted)}
+.face .tap{position:absolute;bottom:12px;font-size:12px;color:var(--muted)}
+.face .big{font:800 clamp(30px,10vw,48px)/1.25 "Noto Sans KR",sans-serif;letter-spacing:-1px;word-break:keep-all;margin:0}
+.face .big.long{font-size:clamp(24px,7.5vw,34px)}
+.face .mean{font-weight:800;font-size:clamp(20px,6vw,26px);color:var(--green);line-height:1.25}
+.face .bko{font:800 20px "Noto Sans KR",sans-serif;display:flex;align-items:center;gap:8px}
+.plist{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:6px;width:100%;max-width:340px;text-align:left}
+.plist li{background:#fff;border:1px solid var(--line);border-radius:12px;padding:7px 10px;display:flex;gap:8px;align-items:center}
+.plist li div{flex:1}.plist b{display:block;font:700 15px "Noto Sans KR",sans-serif}.plist span{font-size:13px;color:var(--muted)}
+.kbtns{display:grid;grid-template-columns:1fr 1fr;gap:9px;flex:none}
+.kbtns button{min-height:56px;border-radius:14px;font-weight:800;font-size:16px;border:1.5px solid var(--line);background:#fff}
+.kbtns .no{color:var(--red);border-color:#efc9c2;background:#fdf3f1}.kbtns .yes{color:#fff;background:var(--green);border-color:var(--green)}
+.thanks{background:var(--light);border-radius:14px;padding:10px 12px;font-size:14px;margin:8px 0}
+.thanks b{color:var(--green)}
+.foot{font-size:12px;color:var(--muted);text-align:center;margin-top:10px;line-height:1.6}
+.foot a,.biz a{color:var(--green);font-weight:800;word-break:break-all}
+.biz{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:10px 12px;font-size:14px;margin-top:10px}
+.biz button{border:1.5px solid var(--line);background:#fff;border-radius:10px;padding:4px 10px;font-size:13px;font-weight:700;margin-left:6px}
 </style>
 </head>
 <body>
@@ -161,7 +197,6 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid 
 </svg>
 
 <div class="app" id="app">
- <!-- ANA SAYFA -->
  <section class="screen" id="home">
   <div class="top">
    <div class="brand"><span class="brand-icon">숲</span><div><b>덩어리숲</b><small data-t="sub"></small></div></div>
@@ -170,8 +205,7 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid 
    <button class="icon" id="bSet" data-al="settings"><svg><use href="#i-set"/></svg></button>
   </div>
   <div class="companion">
-   <div class="habitat"><div class="scene" id="scene" aria-hidden="true"></div>
-    <div class="mascot" id="mascot"></div></div>
+   <div class="habitat"><div class="scene" id="scene" aria-hidden="true"></div><div class="mascot" id="mascot"></div></div>
    <div class="cinfo">
     <div class="crow"><span class="cname" id="cName"></span><span class="tag" id="cLv"></span></div>
     <div class="bar"><i id="xpBar"></i></div>
@@ -183,486 +217,96 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid 
    <div><strong id="stRev">0</strong><span data-t="toReview"></span></div>
    <div><strong id="stBest">0</strong><span data-t="bestStreak"></span></div>
   </div>
-  <div class="opts">
-   <select id="selCat" data-al="category"></select>
-   <button class="chip" id="bTimer"></button>
-  </div>
-  <div class="btns">
-   <button class="primary" id="bStart"></button>
-   <button class="secondary" id="bReview"></button>
-  </div>
+  <div class="sel2"><select id="selLv" data-al="level"></select><select id="selUnit" data-al="unit"></select></div>
+  <div class="btn3"><button class="primary" id="bStart"></button><button class="secondary" id="bCards"></button><button class="secondary" id="bReview"></button></div>
  </section>
 
- <!-- OYUN -->
  <section class="screen" id="game" hidden>
-  <div class="gtop">
-   <button class="icon" id="bQuit" data-al="quit"><svg><use href="#i-x"/></svg></button>
-   <span class="count" id="gCount"></span>
-   <span class="xp" id="gXp"></span>
-  </div>
+  <div class="gtop"><button class="icon" id="bQuit" data-al="quit"><svg><use href="#i-x"/></svg></button><span class="count" id="gCount"></span><span class="xp" id="gXp"></span></div>
   <div class="lines">
    <div class="line"><i id="gProg"></i></div>
    <div class="line timer" id="tLine"><i id="gTimer"></i></div>
    <div class="trow"><span id="gMode"></span><span id="gTime"></span></div>
   </div>
   <div class="qcard">
-   <span class="qkind" id="qKind"></span>
-   <div class="qmini" id="qMini"></div>
-   <p class="qins" id="qIns"></p>
-   <h1 class="qword ko" id="qWord" lang="ko"></h1>
+   <span class="qkind" id="qKind"></span><div class="qmini" id="qMini"></div>
+   <p class="qins" id="qIns"></p><h1 class="qword ko" id="qWord" lang="ko"></h1>
    <button class="say" id="qSay" data-al="listen"><svg><use href="#i-spk"/></svg></button>
   </div>
   <div class="answers" id="answers"></div>
   <p class="tiny hint" data-t="hint"></p>
   <div class="sheet-wrap" id="fb" hidden><div class="sheet" role="dialog" aria-modal="true">
-   <div class="ficon" id="fIcon">✓</div>
-   <h2 id="fTitle"></h2>
-   <div class="reward" id="fReward"></div>
+   <div class="ficon" id="fIcon">✓</div><h2 id="fTitle"></h2><div class="reward" id="fReward"></div>
    <div class="acard">
     <div class="w ko"><span id="fWord"></span><button class="say sm" id="fSay" data-al="listen"><svg><use href="#i-spk"/></svg></button></div>
-    <div class="m" id="fMean"></div>
-    <div class="ex ko" id="fExWrap"><span id="fEx"></span><button class="say sm" id="fSayEx" data-al="listen"><svg><use href="#i-spk"/></svg></button></div>
-    <div class="pairs ko" id="fPairs"></div>
-    <div class="mine" id="fMine" hidden></div>
+    <div class="m" id="fMean"></div><div class="pairs ko" id="fPairs"></div><div class="mine" id="fMine" hidden></div>
    </div>
    <p class="note" id="fNote"></p>
-   <button class="primary" id="fNext"></button>
-   <button class="secondary" id="fSkip" hidden></button>
+   <button class="primary" id="fNext"></button><button class="secondary" id="fSkip" hidden></button>
   </div></div>
  </section>
 
- <!-- SONUÇ -->
+ <section class="screen" id="cards" hidden>
+  <div class="gtop"><button class="icon" id="cQuit" data-al="quit"><svg><use href="#i-x"/></svg></button><span class="count" id="cCount"></span><span class="xp" id="cKnown"></span></div>
+  <div class="lines"><div class="line"><i id="cProg"></i></div></div>
+  <div class="cardzone">
+   <button class="flip" id="flip" aria-live="polite">
+    <div class="face front"><span class="lbl" id="cUnit"></span><p class="big ko" id="cFront" lang="ko"></p><span class="tap" data-t="tapFlip"></span></div>
+    <div class="face back"><div class="bko ko" id="cBackKo"></div><div class="mean" id="cBackTr"></div><ul class="plist" id="cPairs"></ul><span class="tap" data-t="tapBack"></span></div>
+   </button>
+  </div>
+  <div class="kbtns"><button class="no" id="kNo"></button><button class="yes" id="kYes"></button></div>
+  <p class="tiny hint" data-t="cardHint"></p>
+ </section>
+
  <section class="screen" id="result" hidden>
   <div class="rhead"><div class="rmini" id="rMini"></div><h2 id="rTitle"></h2><p class="tiny" id="rSub" style="margin:2px 0 0"></p></div>
   <div class="rstats">
-   <div><strong id="rCorrect"></strong><span data-t="correct"></span></div>
+   <div><strong id="rCorrect"></strong><span id="rL1"></span></div>
    <div><strong id="rXp"></strong><span data-t="nutrient"></span></div>
-   <div><strong id="rStreak"></strong><span data-t="streak"></span></div>
+   <div><strong id="rStreak"></strong><span id="rL3"></span></div>
   </div>
   <p class="tiny" style="margin:0;font-weight:800" data-t="mistakes"></p>
   <div class="rlist" id="rList"></div>
-  <div class="btns">
-   <button class="primary" id="rHome"></button>
-   <button class="secondary" id="rRetry"></button>
-  </div>
+  <div class="btns"><button class="primary" id="rHome"></button><button class="secondary" id="rRetry"></button></div>
  </section>
 
- <!-- HOŞ GELDİN -->
  <div class="modal" id="mWel" hidden><div class="box">
   <div class="whead"><h2 data-t="welTitle"></h2><div class="lang"><button data-lang="tr">TR</button><button data-lang="ko">한</button></div></div>
   <div class="letter"><p data-t="letter"></p><p class="sig" data-t="sig"></p></div>
+  <div class="thanks"><span data-t="thanksPre"></span> <b>Aslıhan Erdoğan</b> <span data-t="thanksPost"></span></div>
   <ul class="how"><li data-t="how1"></li><li data-t="how2"></li><li data-t="how3"></li></ul>
   <div class="field"><input id="nameIn" maxlength="14" data-ph="namePh"></div>
   <div class="chrome" id="chrome" hidden><span data-t="chromeTxt"></span><br><a id="openChrome" href="#" target="_blank" rel="noopener" data-t="openChrome"></a><button id="copyLink" data-t="copy"></button></div>
   <button class="primary" id="bWel" data-t="start"></button>
+  <p class="foot"><span class="copy"></span><span class="bizline"></span></p>
  </div></div>
 
- <!-- SEVİYE / EVRİM -->
- <div class="modal" id="mLv" hidden><div class="box lvbox">
-  <h2 id="lvTitle"></h2><p class="tiny" id="lvSub" style="margin:0"></p>
-  <div id="lvBody"></div>
- </div></div>
+ <div class="modal" id="mLv" hidden><div class="box lvbox"><h2 id="lvTitle"></h2><p class="tiny" id="lvSub" style="margin:0"></p><div id="lvBody"></div></div></div>
 
- <!-- AYARLAR -->
  <div class="modal" id="mSet" hidden><div class="box set">
   <h2 data-t="settings"></h2>
   <h3 data-t="lang"></h3><div class="lang" style="width:max-content"><button data-lang="tr">Türkçe</button><button data-lang="ko">한국어</button></div>
   <h3 data-t="roundSize"></h3><div class="chips" id="sizeChips"></div>
+  <h3 data-t="timeLimit"></h3><div class="chips"><button class="chip" id="bTimer"></button></div>
   <h3 data-t="sound"></h3><div class="chips"><button class="chip" id="bAuto"></button><button class="chip" id="bTest" data-t="test"></button></div>
   <h3 data-t="look"></h3><div class="chips"><button class="chip" id="bStache"></button></div>
   <h3 data-t="name"></h3><div class="field"><input id="nameSet" maxlength="14"></div>
-  <button class="secondary" id="bReset" style="margin-top:6px"></button>
+  <div class="biz" id="bizBox" hidden><b data-t="bizTitle"></b><br><span data-t="bizText"></span><br><a id="bizMail"></a><button id="copyMail" data-t="copy"></button></div>
+  <button class="secondary" id="bReset" style="margin-top:10px"></button>
   <button class="primary" id="bSetOk" style="margin-top:8px" data-t="ok"></button>
+  <p class="foot"><span class="copy"></span><br><span data-t="credit"></span></p>
  </div></div>
 </div>
 
+<script src="config.js"></script>
 <script src="char.js"></script>
-<script src="data.js"></script>
-<script>
-{
-const $=id=>document.getElementById(id);
-const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const shuffle=a=>{for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
-const SPK='<svg><use href="#i-spk"/></svg>';
-const CH=window.FOREST_CHAR;
-
-// ---------- kelimeler ----------
-const WORDS=window.TOPIK_WORDS.map(([c,ko,tr,ex,ps],i)=>({id:'w'+i,i,c,ko,tr,ex,pairs:ps.map(([pk,pt],j)=>({id:`p${i}-${j}`,ko:pk,tr:pt,parent:i}))}));
-const PHRASES=WORDS.flatMap(w=>w.pairs);
-const byId=id=>id.startsWith('w')?WORDS[+id.slice(1)]:PHRASES.find(p=>p.id===id);
-const CATS=['all',...new Set(WORDS.map(w=>w.c))];
-
-// ---------- dil ----------
-const TX={
-tr:{sub:'TOPIK 5-6 · Korece kelime ormanı',learned:'Öğrenilen',toReview:'Tekrar',bestStreak:'En iyi seri',
- start:'Başla',startN:n=>`Başla · ${n} kelime →`,review:n=>`Tekrar (${n})`,timerOn:'Süre: 12 sn',timerOff:'Süre yok',
- all:'Tüm kelimeler',cat:{"사회":"Toplum","경제":"Ekonomi","환경·과학":"Çevre · Bilim","문화·교육":"Kültür · Eğitim","서술어":"Yüklemler","관용 표현":"Deyimler"},
- hint:'Doğru anlama dokun · klavye 1–4',qWord:'Bu kelimenin anlamı nedir?',qPair:'Bu eş kelimenin anlamı nedir?',
- kNew:'✦ Yeni kelime',kBase:'Kelime',kRev:'↺ Tekrar',kBonus:'✦ Eş kelime bonusu',kPairRev:'↺ Eş kelime tekrarı',
- modeTimed:'Zamanlı',modeFree:'Süre yok',sec:s=>`${s} sn`,
- ok:'Tamam',right:'Doğru!',streakT:n=>`${n} doğru üst üste!`,wrong:'Olsun, tekrar öğrenelim',timeup:'Süre doldu',
- plus:(x,s)=>`+${x} besin`+(s?` (seri bonusu +${s})`:''),bonusFree:'Bonus yanlış olsa da sorun yok',willRepeat:'Bu kelime tekrar listesine eklendi',
- mine:'Senin seçimin: ',pairsLbl:'Eş kelimeler',
- askBonus:'Bu kelimeyle birlikte kullanılan ifadeyi de öğrenelim mi?',sayIt:'Dinle ve yüksek sesle tekrar et.',
- bonusBtn:'Eş kelime bonusu · +3 besin',skip:'Geç →',next:'Sonraki kelime →',seeRes:'Sonuçları gör',
- resTitle:'Tur bitti!',resSub:(a,b)=>`${b} sorudan ${a} doğru`,correct:'Doğru',nutrient:'Besin',streak:'En uzun seri',
- mistakes:'Tekrar edilecekler',noMistake:'Hepsi doğru! Harika iş çıkardın.',home:'Ana sayfa',retryWrong:'Yanlışlar',
- welTitle:'덩어리숲\'e hoş geldin!',
- letter:'Sevgili Türk ve Azerbaycanlı arkadaşlarım, Koreceyi çok çalışıp TOPIK\'i mutlaka geçmenizi ve istediğiniz her şeyi başarmanızı dilerim!',
- sig:'— Koreli arkadaşınız Wonju (원주)',
- how1:'Korece kelimeyi gör, dört seçenekten Türkçe anlamını seç.',how2:'Doğru cevaptan sonra eş kelime (birlikte kullanılan ifade) bonusuna katıl.',how3:'Her doğru cevap besin verir; bitki arkadaşın büyür.',
- namePh:'Bitki arkadaşının adı (isteğe bağlı)',chromeTxt:'Bir uygulamanın içindeki tarayıcıdasın. Sesli okuma için Chrome\'da açman daha iyi olur.',openChrome:'Chrome\'da aç',copy:'Bağlantıyı kopyala',copied:'Kopyalandı ✓',
- settings:'Ayarlar',lang:'Dil',roundSize:'Bir turdaki kelime',sound:'Ses',autoOn:'Kelimeyi otomatik oku: Açık',autoOff:'Kelimeyi otomatik oku: Kapalı',test:'Sesi dene',look:'Görünüm',stacheOn:'Bıyık: Var',stacheOff:'Bıyık: Yok',name:'Bitki arkadaşının adı',
- reset:'İlerlemeyi sıfırla',resetSure:'Emin misin? Tekrar dokun',msg:'Mesaj',quit:'Çık',listen:'Dinle',category:'Kategori',
- lvUp:'Seviye atladın!',lvSub:n=>`Artık Lv.${n}`,great:'Harika!',
- pickFam:'Lv.3 · Hangi bitki olsun?',pickFamSub:'Bitki arkadaşının ailesini seç. Sonra değiştirilemez.',
- pickRoute:'Lv.10 · Evrim zamanı!',pickRouteSub:'Hangi yolda büyüsün?',pickBranch:'Lv.15 · Gizemli bir dönüşüm!',pickBranchSub:'İki yoldan birini seç.',
- xpLeft:(a,b)=>`${a} / ${b} besin`,
- seed:'Gönül Tohumu',sprout:'Gönül Filizi',growing:x=>'Büyüyen '+x,magic:x=>'Gizemli '+x,legend:x=>'Efsanevi '+x,
- nextGoal:L=>L<3?'Lv.3\'te bitki aileni seçeceksin':L<10?'Lv.10\'da evrim geçirecek':L<15?'Lv.15\'te gizemli dönüşüm':L<20?'Lv.20\'de efsanevi form':'En yüksek forma ulaştın!',
- fam:{petal:'Gönül Çiçeği',mushroom:'Gönül Mantarı',succulent:'Gönül Sukulenti',clover:'Gönül Yaprağı',berry:'Gönül Meyvesi',tree:'Gönül Ağacı'},
- route:{sunflower:'Altın Ayçiçeği',rose:'Kraliçe Gül',hibiscus:'Cesur Hibiskus',matsutake:'Kral Matsutake',horn:'Şık Boynuzlu Mantar',reishi:'Parlak Reishi',undulata:'Dev Undulata',euphorbia:'Nazlı Sütleğen',cactus:'Azimli Kaktüs',lucky:'Şanslı Dört Yapraklı Yonca',silver:'Ay Işığı Yoncası',crimson:'Sevecen Kırmızı Yonca',strawberry:'Tatlı Dev Çilek',blueberry:'Yıldızlı Yaban Mersini',raspberry:'Canlı Ahududu',oak:'Sağlam Meşe',willow:'Rüzgârlı Söğüt',ginkgo:'Altın Ginkgo'},
- way:'Yol'},
-ko:{sub:'TOPIK 5·6급 · 한국어 단어의 숲',learned:'익힌 단어',toReview:'복습',bestStreak:'최고 연속',
- start:'시작하기',startN:n=>`시작 · ${n}단어 →`,review:n=>`복습 (${n})`,timerOn:'제한 시간: 12초',timerOff:'시간제한 없음',
- all:'전체 단어',cat:{"사회":"사회","경제":"경제","환경·과학":"환경·과학","문화·교육":"문화·교육","서술어":"서술어","관용 표현":"관용 표현"},
- hint:'알맞은 뜻을 누르세요 · 키보드 1–4',qWord:'이 단어의 뜻은 무엇일까요?',qPair:'이 짝꿍어휘의 뜻은 무엇일까요?',
- kNew:'✦ 새 단어',kBase:'기본 단어',kRev:'↺ 복습 단어',kBonus:'✦ 짝꿍어휘 보너스',kPairRev:'↺ 짝꿍어휘 복습',
- modeTimed:'시간제한',modeFree:'시간제한 없음',sec:s=>`${s}초`,
- ok:'확인',right:'정답이에요!',streakT:n=>`${n}개 연속 정답!`,wrong:'다시 익히면 괜찮아요',timeup:'시간이 다 됐어요',
- plus:(x,s)=>`+${x} 양분`+(s?` (연속 보너스 +${s})`:''),bonusFree:'보너스는 틀려도 괜찮아요',willRepeat:'복습 목록에 넣었어요',
- mine:'내가 고른 답: ',pairsLbl:'짝꿍어휘',
- askBonus:'이 단어와 함께 쓰는 표현도 익혀 볼까요?',sayIt:'발음을 듣고 한 번 따라 말해 보세요.',
- bonusBtn:'짝꿍어휘 도전 · +3 양분',skip:'건너뛰기 →',next:'다음 단어 →',seeRes:'학습 결과 보기',
- resTitle:'한 판 끝!',resSub:(a,b)=>`${b}문제 중 ${a}개 정답`,correct:'정답',nutrient:'양분',streak:'최고 연속',
- mistakes:'다시 익힐 단어',noMistake:'모두 맞혔어요! 정말 잘했어요.',home:'처음으로',retryWrong:'틀린 문제',
- welTitle:'덩어리숲에 오신 것을 환영해요!',
- letter:'튀르키예, 아제르바이잔 친구들, 한국어 열심히 공부해서 꼭 토픽을 합격하고 원하는 일 모두 이루기 바랍니다!',
- sig:'— 한국 친구 원주',
- how1:'한국어 단어를 보고 네 개의 보기에서 튀르키예어 뜻을 골라요.',how2:'맞히면 짝꿍어휘(함께 쓰는 표현) 보너스에 도전할 수 있어요.',how3:'맞힐 때마다 양분이 쌓여 식물 친구가 자라요.',
- namePh:'식물 친구 이름 (선택)',chromeTxt:'앱 안의 브라우저에서는 음성이 안 나올 수 있어요. Chrome에서 여는 게 좋아요.',openChrome:'Chrome에서 열기',copy:'링크 복사',copied:'복사됨 ✓',
- settings:'설정',lang:'언어',roundSize:'한 판 단어 수',sound:'소리',autoOn:'단어 자동 읽기: 켜짐',autoOff:'단어 자동 읽기: 꺼짐',test:'소리 들어 보기',look:'꾸미기',stacheOn:'콧수염: 있음',stacheOff:'콧수염: 없음',name:'식물 친구 이름',
- reset:'기록 초기화',resetSure:'정말요? 한 번 더 누르세요',msg:'메시지',quit:'그만하기',listen:'듣기',category:'분류',
- lvUp:'레벨 업!',lvSub:n=>`이제 Lv.${n}`,great:'좋아요!',
- pickFam:'Lv.3 · 어떤 식물로 자랄까요?',pickFamSub:'식물 친구의 계열을 골라요. 나중에 바꿀 수 없어요.',
- pickRoute:'Lv.10 · 진화할 시간!',pickRouteSub:'어떤 길로 자랄까요?',pickBranch:'Lv.15 · 신기한 변신!',pickBranchSub:'두 갈래 중 하나를 골라요.',
- xpLeft:(a,b)=>`${a} / ${b} 양분`,
- seed:'마음씨',sprout:'마음싹',growing:x=>'쑥쑥 자라는 '+x,magic:x=>'신비한 '+x,legend:x=>'전설의 '+x,
- nextGoal:L=>L<3?'Lv.3에 식물 계열을 골라요':L<10?'Lv.10에 진화해요':L<15?'Lv.15에 신기한 변신':L<20?'Lv.20에 전설의 모습':'가장 높은 모습이에요!',
- fam:{petal:'마음꽃',mushroom:'마음송이',succulent:'마음담이',clover:'마음잎',berry:'마음열매',tree:'마음나무'},
- route:Object.fromEntries(Object.values(CH.GROWTH).flatMap(g=>g.routes.map(r=>[r.id,r.final]))),
- way:'갈래'}
-};
-let S={lang:'tr',xp:0,level:1,name:'',pet:'',route:'',branch:'',mem:{},retry:[],cat:'all',timer:true,size:10,auto:true,best:0,welcomed:false,stache:true};
-try{Object.assign(S,JSON.parse(localStorage.getItem('deongeoriForestTR')||'{}'))}catch(e){}
-const save=()=>{try{localStorage.setItem('deongeoriForestTR',JSON.stringify(S))}catch(e){}};
-const t=(k,...a)=>{const v=TX[S.lang][k];return typeof v==='function'?v(...a):v};
-
-function applyLang(){
- document.documentElement.lang=S.lang;
- document.querySelectorAll('[data-t]').forEach(el=>el.textContent=t(el.dataset.t));
- document.querySelectorAll('[data-al]').forEach(el=>el.setAttribute('aria-label',t(el.dataset.al)));
- document.querySelectorAll('[data-ph]').forEach(el=>el.placeholder=t(el.dataset.ph));
- document.querySelectorAll('[data-lang]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.lang===S.lang));
- renderHome();
- if(state&&!$('game').hidden){renderQuestionText();if(!$('fb').hidden)renderFeedback()}
- if(!$('result').hidden)renderResult();
- renderSettings();
-}
-document.addEventListener('click',e=>{const b=e.target.closest('[data-lang]');if(b){S.lang=b.dataset.lang;save();applyLang()}});
-
-// ---------- seviye ----------
-const xpStart=L=>{const n=L-1;return Math.round(.4*(100*n+25*n*(n-1)+10*n*(n-1)*(2*n-1)/6))};
-const levelOf=xp=>{let L=1;while(xp>=xpStart(L+1))L++;return L};
-function growthName(L=S.level){
- if(L===1)return t('seed');if(L===2||!S.pet)return t('sprout');
- const fam=TX[S.lang].fam[S.pet];
- if(L>=10&&S.route){const r=TX[S.lang].route[S.route];return L>=20&&S.branch?t('legend',r):L>=15&&S.branch?t('magic',r):r}
- return L>=4?t('growing',fam):fam;
-}
-function art(L=S.level,pet=S.pet,route=S.route,branch=S.branch){
- const p=pet||'',r=L>=10?route||null:null,b=L>=15?branch||null:null;
- CH.setProfile({routes:p&&r?{[p]:r}:{},branches:p&&b?{[p]:b}:{}});
- const lv=!p&&L>=3?2:(L>=10&&!r?9:(L>=15&&!b?14:L));
- const svg=CH.creatureSVG(p||'tree',r,lv,undefined,false,b||null);
- if(!S.stache)return svg;
- const g=CH.plantGeometry(p||'tree',r,lv,b||null),[fx,fy]=g.face,k=g.form?(g.form.fs||1):1;
- return svg.replace('<g class="expression-normal">',stache(fx,fy,k)+'<g class="expression-normal">');
-}
-// büyük bıyık
-function stache(x,y,k){
- const m=(sx)=>{const X=d=>x+sx*d*1.15*k,Y=d=>y+(d+4)*k;
-  return `M${X(0)} ${Y(5)}C${X(5)} ${Y(1)} ${X(13)} ${Y(1)} ${X(19)} ${Y(5)}C${X(23)} ${Y(8)} ${X(27)} ${Y(8)} ${X(29)} ${Y(3)}C${X(31)} ${Y(9)} ${X(27)} ${Y(15)} ${X(19)} ${Y(14)}C${X(12)} ${Y(13)} ${X(5)} ${Y(11)} ${X(0)} ${Y(10)}Z`};
- return `<g class="stache"><path d="${m(-1)}${m(1)}" fill="#3a2a1f" stroke="#2a1d14" stroke-width="${.8*k}" stroke-linejoin="round"/><path d="M${x-17*k} ${y+9.5*k}Q${x-9*k} ${y+7.5*k} ${x-2*k} ${y+10*k}M${x+17*k} ${y+9.5*k}Q${x+9*k} ${y+7.5*k} ${x+2*k} ${y+10*k}" fill="none" stroke="#6b5140" stroke-width="${1.2*k}" stroke-linecap="round" opacity=".8"/></g>`;
-}
-const displayName=()=>S.name||growthName();
-
-// ---------- İstanbul manzarası ----------
-function sceneSVG(){
- const mina=(x,top,base=228,w=5)=>`<rect x="${x-w/2}" y="${top}" width="${w}" height="${base-top}"/><path d="M${x-w/2-1} ${top}L${x} ${top-16}L${x+w/2+1} ${top}Z"/><rect x="${x-w/2-2}" y="${top+14}" width="${w+4}" height="3"/><rect x="${x-w/2-2}" y="${top+34}" width="${w+4}" height="3"/>`;
- const dome=(cx,cy,rx,ry)=>`<path d="M${cx-rx} ${cy}A${rx} ${ry} 0 0 1 ${cx+rx} ${cy}Z"/><rect x="${cx-.8}" y="${cy-ry-9}" width="1.6" height="9"/>`;
- const bal=(x,y,s,a,b)=>`<g class="bal"><g transform="translate(${x} ${y}) scale(${s})"><path d="M0 -26C-17 -26 -21 -10 -15 0L-5 14H5L15 0C21 -10 17 -26 0 -26Z" fill="${a}"/><path d="M0 -26C-6 -26 -8 -10 -5 0L-2 14H2L5 0C8 -10 6 -26 0 -26Z" fill="${b}"/><path d="M-5 14L-4 20M5 14L4 20" stroke="#7a5a3a" stroke-width="1"/><rect x="-4" y="20" width="8" height="6" rx="1" fill="#8a6142"/></g></g>`;
- const tulip=(x,y,s,c)=>`<g transform="translate(${x} ${y}) scale(${s})"><path d="M0 0V-22" stroke="#4f7d3a" stroke-width="2.4"/><path d="M0 -6Q-9 -10 -10 -20Q-3 -16 0 -8Z" fill="#6f9e57"/><path d="M-7 -30Q-8 -20 0 -18Q8 -20 7 -30L3.5 -26L0 -32L-3.5 -26Z" fill="${c}"/></g>`;
- let houses='';for(let i=0;i<18;i++){const x=i*23-4,h=8+((i*37)%11);houses+=`<rect x="${x}" y="${228-h}" width="20" height="${h}"/>`}
- return `<svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
- <defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3c9a6"/><stop offset=".55" stop-color="#fbe3c4"/><stop offset="1" stop-color="#fdf0dc"/></linearGradient>
- <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9fc7cc"/><stop offset="1" stop-color="#7fb0b8"/></linearGradient></defs>
- <rect width="400" height="300" fill="url(#sky)"/>
- <circle cx="300" cy="150" r="34" fill="#fff4dc" opacity=".9"/><circle cx="300" cy="150" r="54" fill="#fff4dc" opacity=".35"/>
- ${bal(112,64,1,'#d7263d','#f2b134')}${bal(292,48,.8,'#2bb3a8','#f6e7c8')}${bal(244,96,.55,'#e07a3a','#f9d38a')}${bal(30,90,.7,'#7b4bb7','#f6e7c8')}${bal(372,96,.7,'#d7263d','#fff')}
- <g fill="#c7a99f" opacity=".75">${houses}</g>
- <g fill="#a98b8a">
-  <rect x="150" y="196" width="100" height="32"/>${dome(200,198,40,36)}${dome(160,206,16,12)}${dome(240,206,16,12)}${dome(140,214,10,8)}${dome(260,214,10,8)}
-  ${mina(126,132)}${mina(274,132)}${mina(110,150)}${mina(290,150)}
-  <rect x="26" y="206" width="70" height="22"/>${dome(61,208,26,24)}${dome(36,214,9,7)}${dome(86,214,9,7)}${mina(18,160)}${mina(104,160)}
-  <rect x="309" y="172" width="16" height="56"/><path d="M306 174L317 140L328 174Z"/><rect x="306" y="172" width="22" height="4"/><rect x="316.2" y="131" width="1.6" height="10"/>
- </g>
- <rect y="228" width="400" height="30" fill="url(#sea)"/>
- <path d="M20 236h40M120 242h60M240 236h30M300 246h70M60 250h40" stroke="#e6f2f0" stroke-width="2" stroke-linecap="round" opacity=".8"/>
- <g class="ferry"><path d="M0 238h34l-4 7H4Z" fill="#fff"/><rect x="8" y="231" width="18" height="7" fill="#fff"/><rect x="14" y="226" width="4" height="5" fill="#d7263d"/></g>
- <path d="M-10 300V262Q80 246 200 250Q320 246 410 262V300Z" fill="#b9cf98"/>
- <path d="M-10 300V276Q100 262 200 266Q300 262 410 276V300Z" fill="#a6c283"/>
- ${tulip(28,282,1,'#d7263d')}${tulip(372,284,1,'#d7263d')}${tulip(90,284,1,'#d7263d')}${tulip(106,291,.8,'#ef7aa0')}${tulip(80,294,.7,'#f2b134')}${tulip(310,284,1,'#ef7aa0')}${tulip(294,291,.8,'#d7263d')}${tulip(322,294,.7,'#f2b134')}
- </svg>`;
-}
-$('scene').innerHTML=sceneSVG();
-
-// ---------- ana sayfa ----------
-function renderHome(){
- const L=S.level,a=xpStart(L),b=xpStart(L+1);
- $('mascot').innerHTML=art();
- $('cName').textContent=displayName();
- $('cLv').textContent='Lv.'+L;
- $('cGrowth').textContent=(S.name?growthName()+' · ':'')+t('nextGoal',L);
- $('xpText').textContent=t('xpLeft',S.xp-a,b-a);
- $('xpBar').style.width=Math.min(100,(S.xp-a)/(b-a)*100)+'%';
- $('stLearn').textContent=`${Object.values(S.mem).filter(m=>m.c>0).length}/${WORDS.length}`;
- $('stRev').textContent=S.retry.length;$('stBest').textContent=S.best;
- $('selCat').innerHTML=CATS.map(c=>`<option value="${esc(c)}"${c===S.cat?' selected':''}>${esc(c==='all'?t('all'):TX[S.lang].cat[c])}</option>`).join('');
- $('bTimer').textContent=S.timer?t('timerOn'):t('timerOff');$('bTimer').setAttribute('aria-pressed',S.timer);
- $('bStart').textContent=t('startN',S.size);
- $('bReview').textContent=t('review',S.retry.length);$('bReview').disabled=!S.retry.length;
-}
-$('selCat').onchange=e=>{S.cat=e.target.value;save()};
-$('bTimer').onclick=()=>{S.timer=!S.timer;save();renderHome()};
-
-// ---------- oyun durumu ----------
-let state=null,timer=null;
-const SECONDS=12,BONUS_EXTRA=2,BASE=5,BONUS=3,STREAK_EVERY=5,STREAK_XP=3;
-function show(id){['home','game','result'].forEach(s=>$(s).hidden=s!==id)}
-function buildQueue(){
- const pool=WORDS.filter(w=>S.cat==='all'||w.c===S.cat);
- const score=w=>{const m=S.mem[w.id];return (m?m.c*2-m.w:-1)+Math.random()*1.5};
- return pool.slice().sort((x,y)=>score(x)-score(y)).slice(0,S.size);
-}
-function start(kind){
- const queue=kind==='review'?shuffle(S.retry.map(byId).filter(Boolean)).slice(0,20):buildQueue();
- if(!queue.length)return;
- state={kind,queue,index:0,phase:'q',bonus:false,entry:null,options:[],correct:0,answered:0,xp:0,streak:0,bestStreak:0,mistakes:new Map(),offerBonus:false,chosen:null};
- show('game');ask(false);
-}
-function optionsFor(e,isPhrase){
- const seen=new Set([e.tr]),wrong=[];
- let cand;
- if(isPhrase){const home=e.parent;cand=[...shuffle(PHRASES.filter(p=>p.parent===home&&p.id!==e.id)),...shuffle(PHRASES.filter(p=>p.parent!==home))]}
- else{const w=e;cand=[...shuffle(WORDS.filter(x=>x!==w&&x.c===w.c)),...shuffle(WORDS.filter(x=>x.c!==w.c))]}
- for(const c of cand){if(!seen.has(c.tr)){wrong.push(c);seen.add(c.tr)}if(wrong.length===3)break}
- return shuffle([e,...wrong]);
-}
-function ask(bonus){
- clearInterval(timer);
- const item=state.queue[state.index];
- state.bonus=bonus;state.phase='q';state.chosen=null;
- state.entry=bonus?shuffle(item.pairs.slice())[0]:item;
- const isPhrase=bonus||state.entry.id.startsWith('p');
- state.isPhrase=isPhrase;
- state.options=optionsFor(state.entry,isPhrase);
- $('fb').hidden=true;
- renderQuestionText();
- $('answers').innerHTML=state.options.map((o,i)=>`<button class="answer" data-o="${esc(o.id)}"><span class="n">${i+1}</span><span>${esc(o.tr)}</span></button>`).join('');
- $('qMini').innerHTML=art();
- const secs=SECONDS+(bonus?BONUS_EXTRA:0);
- $('tLine').hidden=!S.timer;
- if(S.timer){state.deadline=performance.now()+secs*1000;state.secs=secs;tick();timer=setInterval(tick,100)}else $('gTime').textContent='';
- if(S.auto)speak(state.entry.ko);
- $('answers').querySelector('button').focus({preventScroll:true});
-}
-function renderQuestionText(){
- const e=state.entry,item=state.queue[state.index],m=S.mem[item.id];
- $('gCount').textContent=`${state.index+1} / ${state.queue.length}`;
- $('gXp').textContent=`+${state.xp} ${t('nutrient').toLowerCase()}`;
- $('gProg').style.width=(state.index/state.queue.length*100)+'%';
- $('gMode').textContent=S.timer?t('modeTimed'):t('modeFree');
- const k=$('qKind');
- if(state.bonus){k.textContent=t('kBonus');k.className='qkind bonus'}
- else if(item.id.startsWith('p')){k.textContent=t('kPairRev');k.className='qkind rev'}
- else if(state.kind==='review'){k.textContent=t('kRev');k.className='qkind rev'}
- else{k.textContent=m?t('kBase'):t('kNew');k.className='qkind'}
- $('qIns').textContent=state.isPhrase?t('qPair'):t('qWord');
- $('qWord').textContent=e.ko;$('qWord').classList.toggle('long',e.ko.length>6);
-}
-function tick(){
- if(!state||state.phase!=='q')return;
- const left=Math.max(0,(state.deadline-performance.now())/1000);
- $('gTimer').style.width=(left/state.secs*100)+'%';
- $('gTime').textContent=t('sec',left.toFixed(1));
- $('tLine').classList.toggle('urgent',left<=3);$('gTime').classList.toggle('urgent',left<=3);
- if(left<=0)answer(null);
-}
-function answer(id){
- if(!state||state.phase!=='q')return;
- clearInterval(timer);state.phase='fb';
- const e=state.entry,item=state.queue[state.index],bonus=state.bonus,correct=id===e.id;
- state.chosen=id&&!correct?state.options.find(o=>o.id===id):null;state.timeout=id===null;
- document.querySelectorAll('.answer').forEach(b=>{b.disabled=true;const o=b.dataset.o;b.classList.add(o===e.id?'ok':o===id?'no':'dim')});
- // kayıt
- if(!bonus){
-  state.answered++;
-  const m=S.mem[item.id]||(S.mem[item.id]={c:0,w:0});
-  if(correct){m.c++;state.correct++}else m.w++;
-  if(state.kind==='review'&&correct)S.retry=S.retry.filter(x=>x!==item.id);
- }
- if(!correct){state.mistakes.set(e.id,e);if(!S.retry.includes(e.id))S.retry=[...S.retry,e.id].slice(-120)}
- else if(bonus)S.retry=S.retry.filter(x=>x!==e.id);
- let gain=0,sb=0;
- if(!bonus){state.streak=correct?state.streak+1:0;state.bestStreak=Math.max(state.bestStreak,state.streak);S.best=Math.max(S.best,state.streak);
-  if(correct&&state.streak%STREAK_EVERY===0)sb=STREAK_XP}
- if(correct)gain=(bonus?BONUS:BASE)+sb;
- state.gain=gain;state.sb=sb;state.correctNow=correct;
- state.offerBonus=!bonus&&correct&&!item.id.startsWith('p')&&item.pairs&&item.pairs.length>0;
- const before=S.level;S.xp+=gain;state.xp+=gain;S.level=Math.max(S.level,levelOf(S.xp));save();
- if(correct){$('qMini').classList.add('happy');setTimeout(()=>$('qMini').classList.remove('happy'),1500)}
- renderFeedback();$('fb').hidden=false;$('fNext').focus({preventScroll:true});
- if(S.level>before)setTimeout(()=>levelUp(before),350);
-}
-function renderFeedback(){
- const e=state.entry,correct=state.correctNow,item=state.queue[state.index];
- $('fIcon').textContent=correct?'✓':state.timeout?'◷':'↻';$('fIcon').className='ficon'+(correct?'':' no');
- $('fTitle').textContent=correct?(state.sb?t('streakT',state.streak):t('right')):state.timeout?t('timeup'):t('wrong');
- $('fReward').textContent=correct?t('plus',state.gain,state.sb):state.bonus?t('bonusFree'):t('willRepeat');
- $('fWord').textContent=e.ko;$('fMean').textContent=e.tr;
- const word=e.id.startsWith('p')?WORDS[e.parent]:e;
- $('fEx').textContent=word.ex;
- $('fPairs').innerHTML=e.id.startsWith('w')&&!state.offerBonus?word.pairs.map(p=>`<span>${esc(p.ko)} · ${esc(p.tr)}</span>`).join(''):'';
- $('fMine').hidden=!state.chosen;if(state.chosen)$('fMine').textContent=t('mine')+state.chosen.tr;
- $('fNote').textContent=state.offerBonus?t('askBonus'):correct?t('sayIt'):'';
- const last=state.index===state.queue.length-1;
- $('fNext').textContent=state.offerBonus?t('bonusBtn'):last?t('seeRes'):t('next');
- $('fSkip').hidden=!state.offerBonus;$('fSkip').textContent=last?t('seeRes'):t('skip');
-}
-function advance(){
- if(state.index>=state.queue.length-1){finish();return}
- state.index++;ask(false);
-}
-$('answers').addEventListener('click',e=>{const b=e.target.closest('.answer');if(b)answer(b.dataset.o)});
-$('fNext').onclick=()=>{if(state.offerBonus){state.offerBonus=false;ask(true)}else advance()};
-$('fSkip').onclick=()=>advance();
-$('qSay').onclick=()=>speak(state.entry.ko,true);
-$('fSay').onclick=()=>speak(state.entry.ko,true);
-$('fSayEx').onclick=()=>{const e=state.entry;speak((e.id.startsWith('p')?WORDS[e.parent]:e).ex,true)};
-$('bQuit').onclick=()=>{clearInterval(timer);state.answered?finish():(show('home'),renderHome())};
-document.addEventListener('keydown',e=>{
- if(!state||$('game').hidden||!$('mLv').hidden)return;
- if(state.phase==='q'&&/^[1-4]$/.test(e.key)){answer(state.options[+e.key-1].id)}
- else if(state.phase==='fb'&&e.key==='Enter'&&document.activeElement.tagName!=='BUTTON'){$('fNext').click()}
-});
-
-// ---------- sonuç ----------
-function finish(){clearInterval(timer);state.phase='done';save();show('result');renderResult()}
-function renderResult(){
- $('rMini').innerHTML=art();
- $('rTitle').textContent=t('resTitle');$('rSub').textContent=t('resSub',state.correct,state.answered);
- $('rCorrect').textContent=state.correct;$('rXp').textContent='+'+state.xp;$('rStreak').textContent=state.bestStreak;
- const list=[...state.mistakes.values()];
- $('rList').innerHTML=list.length?list.map(e=>`<div class="ritem"><div><strong>${esc(e.ko)}</strong><small>${esc(e.tr)}</small></div><button class="say sm" data-s="${esc(e.id)}" aria-label="${esc(t('listen'))}">${SPK}</button></div>`).join(''):`<div class="empty">${esc(t('noMistake'))}</div>`;
- $('rHome').textContent=t('home');$('rRetry').textContent=t('retryWrong');$('rRetry').disabled=!list.length;
-}
-$('rList').addEventListener('click',e=>{const b=e.target.closest('[data-s]');if(b)speak(byId(b.dataset.s).ko,true)});
-$('rHome').onclick=()=>{state=null;show('home');renderHome()};
-$('rRetry').onclick=()=>{const ids=[...state.mistakes.keys()];state=null;
- const q=ids.map(byId).filter(Boolean);state={kind:'review',queue:shuffle(q),index:0,phase:'q',correct:0,answered:0,xp:0,streak:0,bestStreak:0,mistakes:new Map()};show('game');ask(false)};
-$('bStart').onclick=()=>start('normal');
-$('bReview').onclick=()=>start('review');
-
-// ---------- seviye atlama / evrim ----------
-function levelUp(from){
- const L=S.level;const box=$('lvBody');$('mLv').hidden=false;clearInterval(timer);
- const need=L>=3&&!S.pet?'fam':L>=10&&!S.route?'route':L>=15&&!S.branch?'branch':null;
- if(need==='fam'){
-  $('lvTitle').textContent=t('pickFam');$('lvSub').textContent=t('pickFamSub');
-  box.innerHTML=`<div class="choice c3">${Object.keys(CH.GROWTH).map(p=>`<button class="pick" data-pet="${p}">${art(3,p,'','')}<span>${esc(TX[S.lang].fam[p])}</span></button>`).join('')}</div>`;
- }else if(need==='route'){
-  $('lvTitle').textContent=t('pickRoute');$('lvSub').textContent=t('pickRouteSub');
-  box.innerHTML=`<div class="choice c3">${CH.GROWTH[S.pet].routes.map(r=>`<button class="pick" data-route="${r.id}">${art(10,S.pet,r.id,'')}<span>${esc(TX[S.lang].route[r.id])}</span></button>`).join('')}</div>`;
- }else if(need==='branch'){
-  $('lvTitle').textContent=t('pickBranch');$('lvSub').textContent=t('pickBranchSub');
-  const r=CH.GROWTH[S.pet].routes.find(x=>x.id===S.route);
-  box.innerHTML=`<div class="choice c2">${r.branches.map((b,i)=>`<button class="pick" data-branch="${b.id}">${art(15,S.pet,S.route,b.id)}<span>${esc(t('way'))} ${i+1}</span></button>`).join('')}</div>`;
- }else{
-  $('lvTitle').textContent=t('lvUp');$('lvSub').textContent=t('lvSub',L);
-  box.innerHTML=`<div class="rmini">${art()}</div><p style="font-weight:800;margin:4px 0 0">${esc(growthName())}</p><button class="primary" id="lvOk" style="margin-top:12px">${esc(t('great'))}</button>`;
-  $('lvOk').onclick=closeLv;
- }
-}
-function closeLv(){$('mLv').hidden=true;renderHome();if(state&&state.phase==='fb')$('qMini').innerHTML=art()}
-$('lvBody').addEventListener('click',e=>{const b=e.target.closest('.pick');if(!b)return;
- if(b.dataset.pet)S.pet=b.dataset.pet;if(b.dataset.route)S.route=b.dataset.route;if(b.dataset.branch)S.branch=b.dataset.branch;save();
- const L=S.level;if((L>=3&&!S.pet)||(L>=10&&!S.route)||(L>=15&&!S.branch))levelUp(L);else closeLv();
-});
-
-// ---------- ayarlar ----------
-function renderSettings(){
- $('sizeChips').innerHTML=[10,20,30].map(n=>`<button class="chip" data-size="${n}" aria-pressed="${n===S.size}">${n}</button>`).join('');
- $('bAuto').textContent=S.auto?t('autoOn'):t('autoOff');$('bAuto').setAttribute('aria-pressed',S.auto);
- $('nameSet').value=S.name;$('bReset').textContent=t('reset');
- $('bStache').textContent=S.stache?t('stacheOn'):t('stacheOff');$('bStache').setAttribute('aria-pressed',S.stache);
-}
-$('sizeChips').addEventListener('click',e=>{const b=e.target.closest('[data-size]');if(b){S.size=+b.dataset.size;save();renderSettings();renderHome()}});
-$('bStache').onclick=()=>{S.stache=!S.stache;save();renderSettings();renderHome()};
-$('bAuto').onclick=()=>{S.auto=!S.auto;save();renderSettings()};
-$('bTest').onclick=()=>speak('안녕하세요. 토픽 합격을 응원해요!',true);
-$('nameSet').addEventListener('input',e=>{S.name=e.target.value.trim();save();renderHome()});
-$('bSet').onclick=()=>{renderSettings();$('mSet').hidden=false};
-$('bSetOk').onclick=()=>{$('mSet').hidden=true};
-let resetArm=false;
-$('bReset').onclick=()=>{if(!resetArm){resetArm=true;$('bReset').textContent=t('resetSure');setTimeout(()=>{resetArm=false;$('bReset').textContent=t('reset')},3000);return}
- Object.assign(S,{xp:0,level:1,pet:'',route:'',branch:'',mem:{},retry:[],best:0});save();resetArm=false;$('mSet').hidden=true;renderHome()};
-
-// ---------- hoş geldin ----------
-$('bMsg').onclick=()=>{$('nameIn').value=S.name;$('mWel').hidden=false};
-$('bWel').onclick=()=>{const n=$('nameIn').value.trim();if(n)S.name=n;S.welcomed=true;save();$('mWel').hidden=true;renderHome();
- $('mascot').className='mascot hop';setTimeout(()=>$('mascot').className='mascot',1200);speak('안녕하세요! 같이 공부해요.')};
-
-// ---------- ses (kadın sesi öncelikli) ----------
-let voice=null;
-const FEMALE=/yuna|sora|sunhi|heami|jimin|seoyeon|female|여성|google 한국의|standard-a|wavenet-a|neural2-a/i;
-const MALE=/injoon|minsu|hyunsu|bongjin|gookmin|\bmale\b|남성/i;
-function pickVoice(){try{const vs=speechSynthesis.getVoices().filter(v=>/^ko/i.test(v.lang));
- voice=vs.find(v=>FEMALE.test(v.name))||vs.find(v=>!MALE.test(v.name))||vs[0]||null}catch(e){}}
-try{pickVoice();speechSynthesis.onvoiceschanged=pickVoice}catch(e){}
-function speak(text,force){
- if(!S.auto&&!force)return;
- try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang='ko-KR';if(voice)u.voice=voice;
-  u.rate=.9;u.pitch=voice&&FEMALE.test(voice.name)?1:1.15;speechSynthesis.speak(u)}catch(e){}
-}
-
-// ---------- uygulama içi tarayıcı → Chrome ----------
-const URL0='https://jindam1799.github.io/korece_Turkce_TOPIK/';
-const ua=navigator.userAgent||'';
-const inApp=/KAKAOTALK|Instagram|FBAN|FBAV|FB_IAB|Line\/|NAVER|DaumApps|everytimeApp|Twitter|Snapchat|TikTok|musical_ly|WhatsApp|Telegram|; wv\)/i.test(ua);
-const isAndroid=/Android/i.test(ua),isIOS=/iPhone|iPad|iPod/i.test(ua);
-const bare=URL0.replace(/^https?:\/\//,'');
-$('openChrome').href=/KAKAOTALK/i.test(ua)?'kakaotalk://web/openExternal?url='+encodeURIComponent(URL0)
- :isAndroid?'intent://'+bare+'#Intent;scheme=https;package=com.android.chrome;end'
- :isIOS?'googlechromes://'+bare:URL0;
-$('chrome').hidden=!(inApp&&(isAndroid||isIOS));
-$('copyLink').onclick=async()=>{try{await navigator.clipboard.writeText(URL0);$('copyLink').textContent=t('copied')}catch(e){$('copyLink').textContent=URL0}};
-
-// ---------- başlat ----------
-S.level=Math.max(S.level,levelOf(S.xp));
-applyLang();
-$('mWel').hidden=false;$('nameIn').value=S.name;
-}
-</script>
+<script src="data/a12.js"></script>
+<script src="data/b11.js"></script>
+<script src="data/b12.js"></script>
+<script src="data/b21.js"></script>
+<script src="data/b22.js"></script>
+<script src="data/hanja.js"></script>
+<script src="app.js"></script>
 </body>
 </html>

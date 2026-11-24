@@ -1,0 +1,17 @@
+{
+  "name": "덩어리숲 · Korece Kelime Ormanı",
+  "short_name": "덩어리숲",
+  "description": "A1'den B2'ye Korece kelime oyunu · Türk ve Azerbaycanlı arkadaşlar için",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f7f7ef",
+  "theme_color": "#315e48",
+  "lang": "tr",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
