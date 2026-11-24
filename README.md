@@ -28,3 +28,9 @@ Türk ve Azerbaycanlı arkadaşlar için Korece kelime oyunu.
 - 연락처: `config.js` — `contact`(이메일), `kakao`(카카오톡 ID), `instagram`
 - 업데이트 노트: `app.js`의 `NOTES` 목록 맨 위에 추가
 - 새 버전을 올릴 때 `sw.js`의 `VERSION`을 바꾸면 휴대폰에서 바로 새 버전이 보여요
+
+## 단어 검수 (Aslı)
+1. 검수용 링크: https://jindam1799.github.io/korece_Turkce_TOPIK/#kontrol (또는 설정 → 단어 검수)
+2. 단어마다 ✓ 맞음 / 뜻·짝꿍어휘 고치고 ✓ 저장 / 🗑 빼기(오래되었거나 잘 안 쓰는 단어), 필요하면 메모
+3. 작업은 휴대폰에 자동 저장돼요. 다 하면 '보내기' → 파일을 카카오톡·이메일로 전달
+4. 반영: `python3 tools/merge_review.py 받은파일.json` → `tools/review_report.md`에 바뀐 내용 정리

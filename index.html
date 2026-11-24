@@ -223,6 +223,29 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid 
 .famgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
 .famgrid button{min-height:44px;border:1.5px solid var(--line);border-radius:14px;background:#fff;padding:4px 6px;font-size:13px;font-weight:800;line-height:1.2}
 .famgrid button[aria-pressed=true]{background:var(--green);border-color:var(--green);color:#fff}
+.rvsend{margin-left:auto;border:0;background:var(--orange);color:#fff;border-radius:12px;padding:8px 14px;font-weight:800;min-height:40px}
+.rvfil{display:flex;flex-wrap:wrap;gap:6px;flex:none}
+.rvfil button{min-height:34px;border:1.5px solid var(--line);border-radius:30px;background:#fff;padding:3px 11px;font-size:12px;font-weight:800}
+.rvfil button[aria-pressed=true]{background:var(--green);border-color:var(--green);color:#fff}
+.rvprog{flex:none}.rvprog .bar{margin:0 0 3px}.rvprog small{font-size:12px;color:var(--muted)}
+.rvcard{flex:1;min-height:0;overflow:auto;background:#fff;border:1px solid var(--line);border-radius:20px;padding:12px 14px}
+.rvhead{display:flex;align-items:center;gap:10px;margin-bottom:6px}.rvhead>div{flex:1;display:grid}
+.rvko{font:800 26px/1.2 "Noto Sans KR",sans-serif;word-break:keep-all}.rvhead small{font-size:12px;color:var(--muted)}
+.rvhead .say{margin:0}
+.rvst{font-size:12px;font-weight:800;border-radius:20px;padding:3px 9px;white-space:nowrap}
+.rvst.ok{background:#e5efdc;color:var(--green)}.rvst.edit{background:#fbe9df;color:var(--orange)}.rvst.del{background:#f8e4e0;color:var(--red)}
+.rvl{display:block;font-size:12px;font-weight:800;color:var(--muted);margin:10px 0 4px}
+.rvcard textarea,.rvcard input{width:100%;border:1.5px solid var(--line);border-radius:10px;padding:8px 10px;font:inherit;font-size:16px;background:#fff;resize:vertical}
+.rvcard textarea:focus,.rvcard input:focus{border-color:var(--green);outline:none}
+.rvpair{display:grid;grid-template-columns:1fr 40px;gap:4px 6px;margin-bottom:10px;padding-bottom:10px;border-bottom:1px dashed var(--line)}
+.rvpair input:nth-child(2){grid-column:1}.rvpair button{grid-column:2;grid-row:1/3}
+.rvpair input:first-child{font-family:"Noto Sans KR",sans-serif}
+.rvpair button{border:0;background:#f8e4e0;color:var(--red);border-radius:10px;font-weight:800}
+.rvadd{border:1.5px dashed var(--line);background:transparent;border-radius:10px;padding:8px;width:100%;font-weight:800;color:var(--green)}
+.rvacts{flex:none;display:grid;grid-template-columns:48px 1fr 1.4fr 48px;gap:8px}
+.rvacts button{min-height:52px;border-radius:14px;border:1.5px solid var(--line);background:#fff;font-weight:800;font-size:15px}
+.rvacts .ok{background:var(--green);border-color:var(--green);color:#fff}.rvacts .del{color:var(--red);border-color:#efc9c2;background:#fdf3f1}
+.rvacts button:first-child,.rvacts button:last-child{font-size:24px}
 .cgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:6px}
 .ccard{border:1.5px solid var(--line);border-radius:14px;background:var(--paper);padding:6px 4px 8px;display:grid;justify-items:center;text-align:center;gap:2px}
 .ccard svg{width:100%;max-width:92px;height:auto;aspect-ratio:180/210}
@@ -361,6 +384,25 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid 
   <div class="plistwrap" id="pList"></div>
  </section>
 
+ <section class="screen" id="review" hidden>
+  <div class="gtop"><button class="icon" id="rvQuit" data-al="quit"><svg><use href="#i-x"/></svg></button><span class="count" data-t="rvTitle"></span><button class="rvsend" id="rvSend" data-t="rvSend"></button></div>
+  <div class="sel2"><select id="rvLv"></select><select id="rvUnit"></select></div>
+  <div class="rvfil" id="rvFil"></div>
+  <div class="rvprog"><div class="bar"><i id="rvBar"></i></div><small id="rvStat"></small></div>
+  <div class="rvcard" id="rvCard">
+   <div class="rvhead"><div><span class="rvko ko" id="rvKo"></span><small id="rvWhere"></small></div><button class="say" id="rvSay" data-al="listen"><svg><use href="#i-spk"/></svg></button><span class="rvst" id="rvSt"></span></div>
+   <label class="rvl" for="rvTr" data-t="rvMean"></label>
+   <textarea id="rvTr" rows="2"></textarea>
+   <label class="rvl" data-t="rvPairs"></label>
+   <div id="rvPairs"></div>
+   <button class="rvadd" id="rvAdd" data-t="rvAdd"></button>
+   <label class="rvl" for="rvNote" data-t="rvNote"></label>
+   <textarea id="rvNote" rows="2" data-ph="rvNotePh"></textarea>
+   <p class="tiny" id="rvEmpty" hidden data-t="rvEmpty"></p>
+  </div>
+  <div class="rvacts"><button id="rvPrev" aria-label="‹">‹</button><button class="del" id="rvDel"></button><button class="ok" id="rvOk"></button><button id="rvNext" aria-label="›">›</button></div>
+ </section>
+
  <section class="screen" id="result" hidden>
   <div class="rhead"><div class="rmini" id="rMini"></div><h2 id="rTitle"></h2><p class="tiny" id="rSub" style="margin:2px 0 0"></p></div>
   <div class="rstats">
@@ -404,6 +446,16 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid 
   <div class="cgrid" id="bkGrid"></div>
  </div></div>
 
+ <div class="modal" id="mRvx" hidden><div class="box">
+  <h2 data-t="rvxTitle"></h2>
+  <p class="tiny" id="rvxStat" style="font-size:14px"></p>
+  <p style="font-size:14px;margin:6px 0 10px" data-t="rvxHow"></p>
+  <button class="primary" id="rvxShare" data-t="rvxShare"></button>
+  <button class="secondary" id="rvxDown" style="margin-top:8px" data-t="rvxDown"></button>
+  <button class="secondary" id="rvxCsv" style="margin-top:8px" data-t="rvxCsv"></button>
+  <button class="secondary" id="rvxClose" style="margin-top:8px" data-t="ok"></button>
+ </div></div>
+
  <div class="modal" id="mNotes" hidden><div class="box">
   <h2 data-t="notesH"></h2>
   <p class="fb-note" data-t="feedback"></p>
@@ -421,6 +473,7 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid 
   <h3 data-t="music"></h3><div class="chips"><button class="chip" id="bMusic"></button><input type="range" id="vol" min="0" max="100" aria-label="volume"></div>
   <h3 data-t="look"></h3><div class="chips"><button class="chip" id="bStache"></button></div>
   <h3 data-t="notesH"></h3><div class="chips"><button class="chip" id="bNotes" data-t="notesBtn"></button></div>
+  <h3 data-t="rvH"></h3><div class="chips"><button class="chip" id="bReview2" data-t="rvOpen"></button></div>
   <h3 data-t="name"></h3><div class="field"><input id="nameSet" maxlength="14"></div>
   <div class="biz" id="bizBox"><b data-t="bizTitle"></b><br><span data-t="bizText"></span><div class="links" id="links"></div></div>
   <button class="secondary" id="bReset" style="margin-top:10px"></button>
@@ -429,14 +482,14 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid 
  </div></div>
 </div>
 
-<script src="config.js?v=14"></script>
-<script src="char.js?v=14"></script>
-<script src="data/a12.js?v=14"></script>
-<script src="data/b11.js?v=14"></script>
-<script src="data/b12.js?v=14"></script>
-<script src="data/b21.js?v=14"></script>
-<script src="data/b22.js?v=14"></script>
-<script src="data/hanja.js?v=14"></script>
-<script src="app.js?v=14"></script>
+<script src="config.js?v=16"></script>
+<script src="char.js?v=16"></script>
+<script src="data/a12.js?v=16"></script>
+<script src="data/b11.js?v=16"></script>
+<script src="data/b12.js?v=16"></script>
+<script src="data/b21.js?v=16"></script>
+<script src="data/b22.js?v=16"></script>
+<script src="data/hanja.js?v=16"></script>
+<script src="app.js?v=16"></script>
 </body>
 </html>

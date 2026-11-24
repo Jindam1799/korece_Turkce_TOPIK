@@ -12,13 +12,13 @@ const CONTACT=(CFG.contact||'').trim(),KAKAO=(CFG.kakao||'').trim(),INSTA=(CFG.i
 // ---------- kelimeler ----------
 const isVerb=tr=>/m[ae]k(\b|\s|\)|,|$)/i.test(tr);
 const LEVELS=(window.LEVELS||[]).map(L=>{
- const units=[],words=[];let unit=null,n=0;
+ const units=[],words=[],seenKo={};let unit=null,n=0;
  for(const raw of L.text.split('\n')){
   const line=raw.trim();if(!line)continue;
   if(line.startsWith('#')){unit={key:line.slice(1).trim(),words:[]};units.push(unit);continue}
   const [ko,tr,ps='']=line.split('|').map(x=>x.trim());if(!ko||!tr)continue;
   if(!unit){unit={key:'1',words:[]};units.push(unit)}
-  const id=L.id+':'+(n++);
+  const base=L.id+':'+ko;seenKo[base]=(seenKo[base]||0)+1;const id=seenKo[base]>1?base+'#'+seenKo[base]:base;n++;
   const w={id,ko,tr,lv:L.id,unit:unit.key,ui:units.length-1,verb:isVerb(tr),hanja:!!L.hanja,pairs:[]};
   w.pairs=ps.split(';').map(x=>x.trim()).filter(Boolean).map((p,j)=>{const k=p.indexOf('=');const pt=p.slice(k+1).trim();return {id:id+'~'+j,ko:p.slice(0,k).trim(),tr:pt,parent:w,verb:isVerb(pt)}}).filter(p=>p.ko&&p.tr);
   unit.words.push(w);words.push(w);
@@ -37,7 +37,10 @@ const clash=(a,b)=>{const x=norm(a),y=norm(b);return !x||!y||x===y||x.includes(y
 const TX={
 tr:{sub:'Korece kelime ormanı · A1–B2',a2hsT:'📲 Ana ekrana ekle (uygulama gibi kullan)',installBtn:'Ana ekrana ekle',
  and1:'Bu sayfayı Chrome\'da aç.',and2:'Sağ üstteki ⋮ menüsüne dokun.',and3:'“Ana ekrana ekle” ya da “Uygulamayı yükle”yi seç.',
- ios1:'Bu sayfayı Safari\'de aç.',ios2:'Alttaki Paylaş düğmesine (□↑) dokun.',ios3:'“Ana Ekrana Ekle”yi seç ve “Ekle”ye dokun.',feedback:'💬 덩어리숲 düzenli olarak güncellenmeye devam edecek. Çalışırken zorlandığınız bir şey ya da ihtiyacınız olan bir özellik olursa lütfen bize yazın!',codex:'Bitki rehberi',storyTitle:'Deongi\'nin hikâyesi',
+ ios1:'Bu sayfayı Safari\'de aç.',ios2:'Alttaki Paylaş düğmesine (□↑) dokun.',ios3:'“Ana Ekrana Ekle”yi seç ve “Ekle”ye dokun.',feedback:'💬 덩어리숲 düzenli olarak güncellenmeye devam edecek. Çalışırken zorlandığınız bir şey ya da ihtiyacınız olan bir özellik olursa lütfen bize yazın!',rvH:'Kelime kontrolü (editör)',rvOpen:'Kontrol modunu aç',rvTitle:'Kelime kontrolü',rvSend:'Gönder',rvMean:'Türkçe anlam',rvPairs:'Eş kelimeler (Korece = Türkçe)',rvAdd:'+ Eş kelime ekle',rvNote:'Not (isteğe bağlı)',rvNotePh:'Örn. bu kelime eski, yerine … daha doğal',rvEmpty:'Bu filtrede kelime yok.',
+ rvAll:'Tümü',rvTodo:'Bakılmadı',rvOkF:'Doğru',rvEditF:'Düzeltildi',rvDelF:'Kaldırılacak',rvOkBtn:'✓ Doğru',rvSaveBtn:'✓ Kaydet',rvDelBtn:'🗑 Kaldır',rvUndel:'↺ Geri al',
+ rvStOk:'Doğru',rvStEdit:'Düzeltildi',rvStDel:'Kaldırılacak',rvStat:(d,n,e,x)=>`Kontrol: ${d} / ${n} · düzeltilen ${e} · kaldırılacak ${x}`,
+ rvxTitle:'Kontrolü gönder',rvxStat:(d,e,x)=>`Toplam ${d} kelimeye bakıldı · ${e} düzeltme · ${x} kaldırma`,rvxHow:'Dosyayı Wonju\'ya KakaoTalk ya da e-postayla gönder. Çalışmaların telefonda kayıtlı kalır, istediğin zaman devam edebilirsin.',rvxShare:'Paylaş (KakaoTalk, e-posta…)',rvxDown:'Dosyayı indir (.json)',rvxCsv:'Excel için indir (.csv)',rvxNoShare:'Bu tarayıcı paylaşmayı desteklemiyor; dosyayı indirip gönder.',codex:'Bitki rehberi',storyTitle:'Deongi\'nin hikâyesi',
  story1:'Deongi (덩이), Kore\'deki 덩어리숲 ormanından gelen küçük bir gönül tohumu. Bir bahar rüzgârı onu uçurup İstanbul\'a, Boğaz kıyısındaki lale bahçesine getirdi.',
  story2:'Deongi Korece kelimelerle beslenir: her doğru cevap bir damla besin. Kelime öğrendikçe filizlenir, çiçek açar ve sonunda efsanevi bir bitkiye dönüşür. Bıyığını İstanbul\'daki ilk arkadaşı Berk kardeş hediye etti!',
  pathH:'Büyüme yolu',famH:'Bitki aileleri',
@@ -58,7 +61,7 @@ tr:{sub:'Korece kelime ormanı · A1–B2',a2hsT:'📲 Ana ekrana ekle (uygulama
  mistakes:'Tekrar edilecekler',noMistake:'Hepsi doğru! Harika iş çıkardın.',home:'Ana sayfa',retryWrong:'Yanlışları çalış',
  tapFlip:'Çevirmek için dokun',tapBack:'Ön yüze dönmek için dokun',cardHint:'Kartı çevir · sola kaydır: bilmiyorum · sağa: biliyorum',
  kNoBtn:'↺ Bilmiyorum',kYesBtn:'✓ Biliyorum',knownN:n=>`✓ ${n}`,
- welTitle:'덩어리숲\'e hoş geldin!',
+ welTitle:'덩어리숲\'a hoş geldin!',
  letter:'Sevgili Türk ve Azerbaycanlı arkadaşlarım, Koreceyi çok çalışıp TOPIK\'i mutlaka geçmenizi ve istediğiniz her şeyi başarmanızı dilerim!',
  sig:'— Koreli arkadaşınız Wonju (원주)',
  thanksPre:'Bu oyunun hazırlanmasında emeği geçen',thanksPost:'Kelime listesi için çok teşekkürler!',
@@ -80,7 +83,10 @@ tr:{sub:'Korece kelime ormanı · A1–B2',a2hsT:'📲 Ana ekrana ekle (uygulama
  way:'Yol'},
 ko:{sub:'한국어 단어의 숲 · A1–B2',a2hsT:'📲 홈 화면에 추가하기 (앱처럼 쓰기)',installBtn:'홈 화면에 추가',
  and1:'이 페이지를 Chrome에서 열어요.',and2:'오른쪽 위 ⋮ 메뉴를 눌러요.',and3:'“홈 화면에 추가” 또는 “앱 설치”를 골라요.',
- ios1:'이 페이지를 Safari에서 열어요.',ios2:'아래쪽 공유 버튼(□↑)을 눌러요.',ios3:'“홈 화면에 추가”를 고르고 “추가”를 눌러요.',feedback:'💬 덩어리숲은 앞으로도 꾸준히 업데이트돼요. 공부하면서 어려운 점이나 필요한 게 있으면 언제든 건의해 주세요!',codex:'식물 도감',storyTitle:'덩이의 이야기',
+ ios1:'이 페이지를 Safari에서 열어요.',ios2:'아래쪽 공유 버튼(□↑)을 눌러요.',ios3:'“홈 화면에 추가”를 고르고 “추가”를 눌러요.',feedback:'💬 덩어리숲은 앞으로도 꾸준히 업데이트돼요. 공부하면서 어려운 점이나 필요한 게 있으면 언제든 건의해 주세요!',rvH:'단어 검수 (편집자)',rvOpen:'검수 모드 열기',rvTitle:'단어 검수',rvSend:'보내기',rvMean:'튀르키예어 뜻',rvPairs:'짝꿍어휘 (한국어 = 튀르키예어)',rvAdd:'+ 짝꿍어휘 추가',rvNote:'메모 (선택)',rvNotePh:'예: 이 단어는 오래된 말, … 가 더 자연스러움',rvEmpty:'이 필터에 해당하는 단어가 없어요.',
+ rvAll:'전체',rvTodo:'안 본 것',rvOkF:'맞음',rvEditF:'고침',rvDelF:'뺄 것',rvOkBtn:'✓ 맞아요',rvSaveBtn:'✓ 저장',rvDelBtn:'🗑 빼기',rvUndel:'↺ 되돌리기',
+ rvStOk:'맞음',rvStEdit:'고침',rvStDel:'뺄 것',rvStat:(d,n,e,x)=>`검수 ${d} / ${n} · 고침 ${e} · 뺄 것 ${x}`,
+ rvxTitle:'검수 결과 보내기',rvxStat:(d,e,x)=>`모두 ${d}개 확인 · 고침 ${e} · 뺄 것 ${x}`,rvxHow:'파일을 원주에게 카카오톡이나 이메일로 보내 주세요. 작업 내용은 휴대폰에 저장돼서 언제든 이어서 할 수 있어요.',rvxShare:'공유하기 (카카오톡, 이메일…)',rvxDown:'파일 내려받기 (.json)',rvxCsv:'엑셀용 내려받기 (.csv)',rvxNoShare:'이 브라우저는 공유를 지원하지 않아요. 파일을 내려받아 보내 주세요.',codex:'식물 도감',storyTitle:'덩이의 이야기',
  story1:'덩이는 한국의 덩어리숲에서 온 작은 마음씨예요. 어느 봄바람이 덩이를 이스탄불 보스포루스 해협 옆 튤립 정원까지 데려왔어요.',
  story2:'덩이는 한국어 단어를 먹고 자라요. 정답 하나가 양분 한 방울! 단어를 익힐수록 싹이 트고 꽃이 피고, 마침내 전설의 식물이 돼요. 콧수염은 이스탄불에서 처음 사귄 친구, Berk 동생의 선물이에요!',
  pathH:'성장 단계',famH:'식물 계열',
@@ -248,7 +254,7 @@ function optionsFor(e){
 // ---------- test ----------
 let state=null,deck=null,timer=null;
 const SECONDS=12,BONUS_EXTRA=2,BASE=5,BONUS=3,STREAK_EVERY=5,STREAK_XP=3;
-function show(id){['home','game','cards','prog','result'].forEach(s=>$(s).hidden=s!==id)}
+function show(id){['home','game','cards','prog','review','result'].forEach(s=>$(s).hidden=s!==id)}
 function buildQueue(){
  const score=w=>{const m=S.mem[w.id];return (m?m.c*2-m.w:-1)+Math.random()*1.5};
  return pool().slice().sort((x,y)=>score(x)-score(y)).slice(0,S.size);
@@ -422,7 +428,7 @@ $('bCards').onclick=()=>startCards();
 $('bReview').onclick=()=>start('review');
 
 document.addEventListener('keydown',e=>{
- if(!$('mLv').hidden||!$('mSet').hidden||!$('mWel').hidden||!$('mNotes').hidden||!$('mBook').hidden||!introDone)return;
+ if(!$('mLv').hidden||!$('mSet').hidden||!$('mWel').hidden||!$('mNotes').hidden||!$('mBook').hidden||!introDone||!$('review').hidden)return;
  if(state&&!$('game').hidden){
   if(state.phase==='q'&&/^[1-4]$/.test(e.key))answer(state.options[+e.key-1].id);
   else if(state.phase==='fb'&&e.key==='Enter'&&document.activeElement.tagName!=='BUTTON')$('fNext').click();
@@ -529,8 +535,78 @@ $('bBook').onclick=openBook;$('mascot').addEventListener('click',openBook);
 $('bBookX').onclick=()=>{$('mBook').hidden=true};
 $('bkFam').addEventListener('click',e=>{const b=e.target.closest('[data-bf]');if(b){bookFam=b.dataset.bf;renderBook()}});
 
+// ---------- kelime kontrolü (editör modu) ----------
+let RV={items:{}};try{RV=JSON.parse(localStorage.getItem('deongeoriReview')||'{"items":{}}')}catch(e){}
+const rvSave=()=>{try{localStorage.setItem('deongeoriReview',JSON.stringify(RV))}catch(e){}};
+let rvLv=null,rvUnit='all',rvFilter='all',rvList=[],rvI=0;
+const rvOrig=w=>({tr:w.tr,pairs:w.pairs.map(p=>[p.ko,p.tr])});
+function rvCur(w){const r=RV.items[w.id];return r&&r.st!=='del'&&r.tr!=null?{tr:r.tr,pairs:r.pairs}:rvOrig(w)}
+function rvBuild(){
+ const L=lvById(rvLv);let ws=rvUnit==='all'?L.words:(L.units.find(u=>u.key===rvUnit)||L).words;
+ if(rvFilter!=='all')ws=ws.filter(w=>{const st=(RV.items[w.id]||{}).st;return rvFilter==='todo'?!st:st===rvFilter});
+ rvList=ws;if(rvI>=rvList.length)rvI=Math.max(0,rvList.length-1);
+}
+function rvRender(){
+ const L=lvById(rvLv);
+ $('rvLv').innerHTML=LEVELS.map(x=>`<option value="${esc(x.id)}"${x.id===rvLv?' selected':''}>${esc(x.name)}</option>`).join('');
+ $('rvUnit').innerHTML=`<option value="all">${esc(t('allUnits'))}</option>`+L.units.map(u=>`<option value="${esc(u.key)}"${u.key===rvUnit?' selected':''}>${esc(t('unitN',u.key))}</option>`).join('');
+ $('rvFil').innerHTML=[['all','rvAll'],['todo','rvTodo'],['ok','rvOkF'],['edit','rvEditF'],['del','rvDelF']].map(([k,l])=>`<button data-rf="${k}" aria-pressed="${k===rvFilter}">${esc(t(l))}</button>`).join('');
+ const all=L.words,st=all.map(w=>(RV.items[w.id]||{}).st),d=st.filter(Boolean).length;
+ $('rvBar').style.width=(d/all.length*100)+'%';
+ $('rvStat').textContent=t('rvStat',d,all.length,st.filter(x=>x==='edit').length,st.filter(x=>x==='del').length);
+ const w=rvList[rvI];
+ ['rvTr','rvNote','rvAdd','rvPairs'].forEach(id=>$(id).hidden=!w);$('rvEmpty').hidden=!!w;
+ document.querySelectorAll('#rvCard .rvl,#rvCard .rvhead').forEach(el=>el.hidden=!w);
+ if(!w){$('rvOk').disabled=$('rvDel').disabled=true;return}
+ $('rvOk').disabled=$('rvDel').disabled=false;
+ const r=RV.items[w.id]||{},c=rvCur(w);
+ $('rvKo').textContent=w.ko;$('rvWhere').textContent=`${L.name} · ${t('unitN',w.unit)} · ${rvI+1}/${rvList.length}`;
+ $('rvSt').className='rvst '+(r.st||'');$('rvSt').textContent=r.st?t({ok:'rvStOk',edit:'rvStEdit',del:'rvStDel'}[r.st]):'';
+ $('rvTr').value=c.tr;$('rvNote').value=r.note||'';
+ $('rvPairs').innerHTML=c.pairs.map(([k,v],i)=>`<div class="rvpair" data-i="${i}"><input value="${esc(k)}" lang="ko"><input value="${esc(v)}"><button aria-label="sil">✕</button></div>`).join('');
+ $('rvDel').textContent=r.st==='del'?t('rvUndel'):t('rvDelBtn');
+ rvRefreshOk();
+}
+function rvRead(){return {tr:$('rvTr').value.trim(),pairs:[...document.querySelectorAll('#rvPairs .rvpair')].map(r=>{const [a,b]=r.querySelectorAll('input');return [a.value.trim(),b.value.trim()]}).filter(p=>p[0]&&p[1]),note:$('rvNote').value.trim()}}
+function rvChanged(w,v){const o=rvOrig(w);return v.tr!==o.tr||JSON.stringify(v.pairs)!==JSON.stringify(o.pairs)}
+function rvRefreshOk(){const w=rvList[rvI];if(!w)return;$('rvOk').textContent=rvChanged(w,rvRead())?t('rvSaveBtn'):t('rvOkBtn')}
+function rvStore(st){const w=rvList[rvI];if(!w)return;const v=rvRead();
+ const ch=rvChanged(w,v);const rec={st:st||(ch?'edit':'ok'),lv:w.lv,ko:w.ko,otr:w.tr,note:v.note||undefined};
+ if(rec.st==='edit'){rec.tr=v.tr;rec.pairs=v.pairs}
+ if(rec.st==='del'&&ch){rec.tr=v.tr;rec.pairs=v.pairs}
+ RV.items[w.id]=rec;RV.updated=new Date().toISOString();rvSave()}
+function rvGo(d){rvBuild();rvI=Math.max(0,Math.min(rvList.length-1,rvI+d));rvRender();$('rvCard').scrollTop=0}
+function openReview(){rvLv=rvLv||S.lv;rvBuild();show('review');rvRender()}
+$('bReview2').onclick=()=>{$('mSet').hidden=true;openReview()};
+$('rvQuit').onclick=()=>{show('home');renderHome()};
+$('rvLv').onchange=e=>{rvLv=e.target.value;rvUnit='all';rvI=0;rvBuild();rvRender()};
+$('rvUnit').onchange=e=>{rvUnit=e.target.value;rvI=0;rvBuild();rvRender()};
+$('rvFil').addEventListener('click',e=>{const b=e.target.closest('[data-rf]');if(b){rvFilter=b.dataset.rf;rvI=0;rvBuild();rvRender()}});
+$('rvPrev').onclick=()=>rvGo(-1);$('rvNext').onclick=()=>rvGo(1);
+$('rvOk').onclick=()=>{const w=rvList[rvI];rvStore();const keep=rvFilter!=='all';rvBuild();if(!keep||rvList[rvI]===w)rvGo(1);else rvRender()};
+$('rvDel').onclick=()=>{const w=rvList[rvI];if((RV.items[w.id]||{}).st==='del'){delete RV.items[w.id];rvSave();rvRender()}else{rvStore('del');rvBuild();if(rvList[rvI]===w)rvGo(1);else rvRender()}};
+$('rvAdd').onclick=()=>{const d=document.createElement('div');d.className='rvpair';d.innerHTML='<input lang="ko"><input><button aria-label="sil">✕</button>';$('rvPairs').append(d);d.querySelector('input').focus();rvRefreshOk()};
+$('rvPairs').addEventListener('click',e=>{const b=e.target.closest('button');if(b){b.parentElement.remove();rvRefreshOk()}});
+$('rvCard').addEventListener('input',rvRefreshOk);
+$('rvSay').onclick=()=>{const w=rvList[rvI];if(w)speak(sayText(w),true)};
+// gönderme
+function rvPayload(){const items=RV.items;return {app:'덩어리숲',kind:'review',reviewer:S.name||'',updated:RV.updated||new Date().toISOString(),count:Object.keys(items).length,items}}
+function rvFileName(ext){const d=new Date();return `deongeori-kontrol-${d.getFullYear()}${String(d.getMonth()+1).padStart(2,'0')}${String(d.getDate()).padStart(2,'0')}-${String(d.getHours()).padStart(2,'0')}${String(d.getMinutes()).padStart(2,'0')}.${ext}`}
+function rvCSV(){const q=x=>'"'+String(x??'').replace(/"/g,'""')+'"';const rows=[['seviye','korece','eski_anlam','durum','yeni_anlam','yeni_es_kelimeler','not']];
+ for(const [id,r] of Object.entries(RV.items))rows.push([r.lv,r.ko,r.otr,r.st,r.tr||'',(r.pairs||[]).map(p=>p.join('=')).join('; '),r.note||'']);
+ return '﻿'+rows.map(r=>r.map(q).join(',')).join('\r\n')}
+function rvDownload(text,name,type){const b=new Blob([text],{type});const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=name;document.body.append(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},1500)}
+$('rvSend').onclick=()=>{const its=Object.values(RV.items);$('rvxStat').textContent=t('rvxStat',its.length,its.filter(x=>x.st==='edit').length,its.filter(x=>x.st==='del').length);$('mRvx').hidden=false};
+$('rvxClose').onclick=()=>{$('mRvx').hidden=true};
+$('rvxDown').onclick=()=>rvDownload(JSON.stringify(rvPayload(),null,1),rvFileName('json'),'application/json');
+$('rvxCsv').onclick=()=>rvDownload(rvCSV(),rvFileName('csv'),'text/csv');
+$('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),null,1)],rvFileName('json'),{type:'application/json'});
+ if(navigator.canShare&&navigator.canShare({files:[f]})){try{await navigator.share({files:[f],title:'덩어리숲 kontrol'})}catch(e){}}
+ else{alert(t('rvxNoShare'));rvDownload(JSON.stringify(rvPayload(),null,1),rvFileName('json'),'application/json')}};
+
 // ---------- güncelleme notları ----------
 const NOTES=[
+ ['1.6','2026-11-25',{tr:['Kelime kontrol modu (editör): anlamları ve eş kelimeleri düzelt, eski kelimeleri işaretle, dosyayı paylaş','Türkçe ek düzeltmesi: 덩어리숲\'a hoş geldin! (Aslı\'ya teşekkürler)'],ko:['단어 검수 모드(편집자): 뜻·짝꿍어휘 고치기, 오래된 단어 표시, 파일로 보내기','터키어 접미사 수정: 덩어리숲\'a hoş geldin! (아슬르 고마워요)']}],
  ['1.5','2026-11-24',{tr:['Giriş ekranı ve Türk halk müziği esintili dinlendirici fon müziği (Hicaz makamı, saz, ney, darbuka)','Deongi\'nin hikâyesi ve bitki rehberi (seviyelere göre büyüme)','Bağlantı paylaşınca önizleme görseli, uygulama içi tarayıcıdan otomatik Chrome\'a geçiş','Ana ekrana ekleme rehberi, güncelleme notları, Instagram ve KakaoTalk bağlantıları'],ko:['인트로 화면과 튀르키예 민속 음악 느낌의 힐링 배경 음악(히자즈 음계, 사즈, 네이, 다르부카)','덩이의 이야기와 식물 도감(레벨별 성장)','링크 미리보기 그림, 앱 안 브라우저에서 Chrome으로 자동 전환','홈 화면 추가 안내, 업데이트 노트, 인스타그램·카카오톡 바로가기']}],
  ['1.4','2026-11-24',{tr:['A1–B2 kelime listeleri (Aslıhan Erdoğan) ve 390 Hanca','Her kelimeye eş kelimeler, mantıklı yanlış seçenekler','Çevirmeli kartlar, ilerleme tablom, ana ekrana ekleme simgesi'],ko:['A1–B2 단어장(Aslıhan Erdoğan)과 한자 390자','단어마다 짝꿍어휘, 같은 단원·품사에서 나오는 오답','카드 뒤집기, 나의 진도표, 홈 화면 아이콘']}],
  ['1.3','2026-11-24',{tr:['덩어리숲 bitki arkadaşları, büyüme ve evrim','Yüz ifadeleri düzeltildi, büyük bıyık eklendi'],ko:['덩어리숲 식물 친구, 성장과 진화','표정 겹침 수정, 큰 콧수염 추가']}],
@@ -662,7 +738,7 @@ applyLang();
 $('nameIn').value=S.name;
 $('iScene').innerHTML=sceneSVG();$('iMascot').innerHTML=art();
 let introDone=false;
-function closeIntro(){if(introDone)return;introDone=true;$('intro').classList.add('out');BGM.start();setTimeout(()=>{$('intro').remove();$('mWel').hidden=false},550)}
+function closeIntro(){if(introDone)return;introDone=true;$('intro').classList.add('out');BGM.start();setTimeout(()=>{$('intro').remove();if(location.hash==='#kontrol')openReview();else $('mWel').hidden=false},550)}
 $('intro').addEventListener('click',closeIntro);
 document.addEventListener('keydown',e=>{if(!introDone){e.preventDefault();closeIntro()}},{capture:true});
 $('intro').focus();
