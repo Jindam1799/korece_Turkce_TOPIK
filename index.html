@@ -48,6 +48,8 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid 
 @keyframes float{50%{transform:translateY(-8px)}}@keyframes sail{from{transform:translateX(-80px)}to{transform:translateX(480px)}}
 .mascot{position:relative;height:80%;max-height:280px;aspect-ratio:180/210;margin-bottom:3%;transform-origin:50% 90%;animation:breathe 3.5s ease-in-out infinite}
 .mascot svg{width:100%;height:100%;display:block;overflow:visible}
+.expression-happy,.expression-lift,.expression-land{display:none}
+.mascot.hop .expression-normal,.happy .expression-normal{display:none}.mascot.hop .expression-happy,.happy .expression-happy{display:inline}
 .mascot.hop{animation:hop .55s ease 2}.mascot.sad{animation:wob .4s ease 2}
 .cinfo{padding:10px 16px 14px;background:#fff;border-top:1px solid var(--line)}
 .crow{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
@@ -267,6 +269,7 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid 
   <h3 data-t="lang"></h3><div class="lang" style="width:max-content"><button data-lang="tr">Türkçe</button><button data-lang="ko">한국어</button></div>
   <h3 data-t="roundSize"></h3><div class="chips" id="sizeChips"></div>
   <h3 data-t="sound"></h3><div class="chips"><button class="chip" id="bAuto"></button><button class="chip" id="bTest" data-t="test"></button></div>
+  <h3 data-t="look"></h3><div class="chips"><button class="chip" id="bStache"></button></div>
   <h3 data-t="name"></h3><div class="field"><input id="nameSet" maxlength="14"></div>
   <button class="secondary" id="bReset" style="margin-top:6px"></button>
   <button class="primary" id="bSetOk" style="margin-top:8px" data-t="ok"></button>
@@ -309,7 +312,7 @@ tr:{sub:'TOPIK 5-6 · Korece kelime ormanı',learned:'Öğrenilen',toReview:'Tek
  sig:'— Koreli arkadaşınız Wonju (원주)',
  how1:'Korece kelimeyi gör, dört seçenekten Türkçe anlamını seç.',how2:'Doğru cevaptan sonra eş kelime (birlikte kullanılan ifade) bonusuna katıl.',how3:'Her doğru cevap besin verir; bitki arkadaşın büyür.',
  namePh:'Bitki arkadaşının adı (isteğe bağlı)',chromeTxt:'Bir uygulamanın içindeki tarayıcıdasın. Sesli okuma için Chrome\'da açman daha iyi olur.',openChrome:'Chrome\'da aç',copy:'Bağlantıyı kopyala',copied:'Kopyalandı ✓',
- settings:'Ayarlar',lang:'Dil',roundSize:'Bir turdaki kelime',sound:'Ses',autoOn:'Kelimeyi otomatik oku: Açık',autoOff:'Kelimeyi otomatik oku: Kapalı',test:'Sesi dene',name:'Bitki arkadaşının adı',
+ settings:'Ayarlar',lang:'Dil',roundSize:'Bir turdaki kelime',sound:'Ses',autoOn:'Kelimeyi otomatik oku: Açık',autoOff:'Kelimeyi otomatik oku: Kapalı',test:'Sesi dene',look:'Görünüm',stacheOn:'Bıyık: Var',stacheOff:'Bıyık: Yok',name:'Bitki arkadaşının adı',
  reset:'İlerlemeyi sıfırla',resetSure:'Emin misin? Tekrar dokun',msg:'Mesaj',quit:'Çık',listen:'Dinle',category:'Kategori',
  lvUp:'Seviye atladın!',lvSub:n=>`Artık Lv.${n}`,great:'Harika!',
  pickFam:'Lv.3 · Hangi bitki olsun?',pickFamSub:'Bitki arkadaşının ailesini seç. Sonra değiştirilemez.',
@@ -338,7 +341,7 @@ ko:{sub:'TOPIK 5·6급 · 한국어 단어의 숲',learned:'익힌 단어',toRev
  sig:'— 한국 친구 원주',
  how1:'한국어 단어를 보고 네 개의 보기에서 튀르키예어 뜻을 골라요.',how2:'맞히면 짝꿍어휘(함께 쓰는 표현) 보너스에 도전할 수 있어요.',how3:'맞힐 때마다 양분이 쌓여 식물 친구가 자라요.',
  namePh:'식물 친구 이름 (선택)',chromeTxt:'앱 안의 브라우저에서는 음성이 안 나올 수 있어요. Chrome에서 여는 게 좋아요.',openChrome:'Chrome에서 열기',copy:'링크 복사',copied:'복사됨 ✓',
- settings:'설정',lang:'언어',roundSize:'한 판 단어 수',sound:'소리',autoOn:'단어 자동 읽기: 켜짐',autoOff:'단어 자동 읽기: 꺼짐',test:'소리 들어 보기',name:'식물 친구 이름',
+ settings:'설정',lang:'언어',roundSize:'한 판 단어 수',sound:'소리',autoOn:'단어 자동 읽기: 켜짐',autoOff:'단어 자동 읽기: 꺼짐',test:'소리 들어 보기',look:'꾸미기',stacheOn:'콧수염: 있음',stacheOff:'콧수염: 없음',name:'식물 친구 이름',
  reset:'기록 초기화',resetSure:'정말요? 한 번 더 누르세요',msg:'메시지',quit:'그만하기',listen:'듣기',category:'분류',
  lvUp:'레벨 업!',lvSub:n=>`이제 Lv.${n}`,great:'좋아요!',
  pickFam:'Lv.3 · 어떤 식물로 자랄까요?',pickFamSub:'식물 친구의 계열을 골라요. 나중에 바꿀 수 없어요.',
@@ -350,7 +353,7 @@ ko:{sub:'TOPIK 5·6급 · 한국어 단어의 숲',learned:'익힌 단어',toRev
  route:Object.fromEntries(Object.values(CH.GROWTH).flatMap(g=>g.routes.map(r=>[r.id,r.final]))),
  way:'갈래'}
 };
-let S={lang:'tr',xp:0,level:1,name:'',pet:'',route:'',branch:'',mem:{},retry:[],cat:'all',timer:true,size:10,auto:true,best:0,welcomed:false};
+let S={lang:'tr',xp:0,level:1,name:'',pet:'',route:'',branch:'',mem:{},retry:[],cat:'all',timer:true,size:10,auto:true,best:0,welcomed:false,stache:true};
 try{Object.assign(S,JSON.parse(localStorage.getItem('deongeoriForestTR')||'{}'))}catch(e){}
 const save=()=>{try{localStorage.setItem('deongeoriForestTR',JSON.stringify(S))}catch(e){}};
 const t=(k,...a)=>{const v=TX[S.lang][k];return typeof v==='function'?v(...a):v};
@@ -381,7 +384,16 @@ function art(L=S.level,pet=S.pet,route=S.route,branch=S.branch){
  const p=pet||'',r=L>=10?route||null:null,b=L>=15?branch||null:null;
  CH.setProfile({routes:p&&r?{[p]:r}:{},branches:p&&b?{[p]:b}:{}});
  const lv=!p&&L>=3?2:(L>=10&&!r?9:(L>=15&&!b?14:L));
- return CH.creatureSVG(p||'tree',r,lv,undefined,false,b||null);
+ const svg=CH.creatureSVG(p||'tree',r,lv,undefined,false,b||null);
+ if(!S.stache)return svg;
+ const g=CH.plantGeometry(p||'tree',r,lv,b||null),[fx,fy]=g.face,k=g.form?(g.form.fs||1):1;
+ return svg.replace('<g class="expression-normal">',stache(fx,fy,k)+'<g class="expression-normal">');
+}
+// büyük bıyık
+function stache(x,y,k){
+ const m=(sx)=>{const X=d=>x+sx*d*1.15*k,Y=d=>y+(d+4)*k;
+  return `M${X(0)} ${Y(5)}C${X(5)} ${Y(1)} ${X(13)} ${Y(1)} ${X(19)} ${Y(5)}C${X(23)} ${Y(8)} ${X(27)} ${Y(8)} ${X(29)} ${Y(3)}C${X(31)} ${Y(9)} ${X(27)} ${Y(15)} ${X(19)} ${Y(14)}C${X(12)} ${Y(13)} ${X(5)} ${Y(11)} ${X(0)} ${Y(10)}Z`};
+ return `<g class="stache"><path d="${m(-1)}${m(1)}" fill="#3a2a1f" stroke="#2a1d14" stroke-width="${.8*k}" stroke-linejoin="round"/><path d="M${x-17*k} ${y+9.5*k}Q${x-9*k} ${y+7.5*k} ${x-2*k} ${y+10*k}M${x+17*k} ${y+9.5*k}Q${x+9*k} ${y+7.5*k} ${x+2*k} ${y+10*k}" fill="none" stroke="#6b5140" stroke-width="${1.2*k}" stroke-linecap="round" opacity=".8"/></g>`;
 }
 const displayName=()=>S.name||growthName();
 
@@ -519,6 +531,7 @@ function answer(id){
  state.gain=gain;state.sb=sb;state.correctNow=correct;
  state.offerBonus=!bonus&&correct&&!item.id.startsWith('p')&&item.pairs&&item.pairs.length>0;
  const before=S.level;S.xp+=gain;state.xp+=gain;S.level=Math.max(S.level,levelOf(S.xp));save();
+ if(correct){$('qMini').classList.add('happy');setTimeout(()=>$('qMini').classList.remove('happy'),1500)}
  renderFeedback();$('fb').hidden=false;$('fNext').focus({preventScroll:true});
  if(S.level>before)setTimeout(()=>levelUp(before),350);
 }
@@ -602,8 +615,10 @@ function renderSettings(){
  $('sizeChips').innerHTML=[10,20,30].map(n=>`<button class="chip" data-size="${n}" aria-pressed="${n===S.size}">${n}</button>`).join('');
  $('bAuto').textContent=S.auto?t('autoOn'):t('autoOff');$('bAuto').setAttribute('aria-pressed',S.auto);
  $('nameSet').value=S.name;$('bReset').textContent=t('reset');
+ $('bStache').textContent=S.stache?t('stacheOn'):t('stacheOff');$('bStache').setAttribute('aria-pressed',S.stache);
 }
 $('sizeChips').addEventListener('click',e=>{const b=e.target.closest('[data-size]');if(b){S.size=+b.dataset.size;save();renderSettings();renderHome()}});
+$('bStache').onclick=()=>{S.stache=!S.stache;save();renderSettings();renderHome()};
 $('bAuto').onclick=()=>{S.auto=!S.auto;save();renderSettings()};
 $('bTest').onclick=()=>speak('안녕하세요. 토픽 합격을 응원해요!',true);
 $('nameSet').addEventListener('input',e=>{S.name=e.target.value.trim();save();renderHome()});
