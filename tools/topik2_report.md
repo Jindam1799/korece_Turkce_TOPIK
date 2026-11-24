@@ -54,6 +54,8 @@ Oyuna alınan kelime: **2689** · tekrar edenler atlandı: 23
 | 극동 | anlam: “Uzak Doğu” → “Uzak Doğu” | anlam düzeltmesi |
 | 화성 | anlam: “Mars (gezegen)” → “Mars (gezegen)” | anlam düzeltmesi |
 | 막이 | 막 | yazım düzeltmesi |
+| 지중해 | anlam: “Akdeniz” → “Akdeniz” | anlam düzeltmesi |
+| 상해를 가하다 | anlam: “yaralama, zarar verme” → “yaralamak, bedensel zarar vermek” | anlam düzeltmesi |
 | 맥맥 | 명맥 | yazım düzeltmesi |
 
 ## Aslı'nın kontrolü bekleniyor (şimdilik oyunda yok)
