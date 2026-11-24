@@ -48,7 +48,11 @@ Oyuna alınan kelime: **2689** · tekrar edenler atlandı: 23
 | 최대하다 | 최대한 | yazım düzeltmesi |
 | 재현한 | 재현하다 | yazım düzeltmesi |
 | 그렇저럭 | 그럭저럭 | yazım düzeltmesi |
+| 서양 | anlam: “Batı, Batı dünyası” → “Batı, Batı dünyası” | anlam düzeltmesi |
 | 향신 | 향신료 | yazım düzeltmesi |
+| 인도양 | anlam: “Hint Okyanusu” → “Hint Okyanusu” | anlam düzeltmesi |
+| 극동 | anlam: “Uzak Doğu” → “Uzak Doğu” | anlam düzeltmesi |
+| 화성 | anlam: “Mars (gezegen)” → “Mars (gezegen)” | anlam düzeltmesi |
 | 막이 | 막 | yazım düzeltmesi |
 | 맥맥 | 명맥 | yazım düzeltmesi |
 
