@@ -13,8 +13,15 @@ Oyuna alınan kelime: **2689** · tekrar edenler atlandı: 23
 | 사고팔다 | anlam: “사다 + 팔다 birleşimi: Alıp satmak” → “alıp satmak” | anlam düzeltmesi |
 | 성장률 | anlam: “Büyüme oranını” → “büyüme oranı” | anlam düzeltmesi |
 | 동일하다 | anlam: “Eşitlemek/birbirine eşitlemek/eşit olmak” → “aynı olmak, eşit olmak” | anlam düzeltmesi |
+| 세균 | anlam: “Eller yıkanmazsa bakteriler çoğalır” → “bakteri, mikrop” | anlam düzeltmesi |
+| 감정하다 | anlam: “değerlendirmek” → “değerini belirlemek, ekspertiz yapmak” | anlam düzeltmesi |
+| 개인 | anlam: “köpek bireyi, köpek türü” → “birey, kişi” | anlam düzeltmesi |
+| 남극 | anlam: “Antarktika” → “Antarktika” | anlam düzeltmesi |
+| 밝혀지다 | anlam: “ortaya çıkarmak, açıklığa kavuşturmak” → “ortaya çıkmak, açığa kavuşmak” | anlam düzeltmesi |
+| 연단 | anlam: “basamak, platform” → “kürsü, platform” | anlam düzeltmesi |
 | 회열을 느끼다 | 희열을 느끼다 | yazım düzeltmesi |
 | 희열을 느끼다 | anlam: “gurur duymak” → “büyük bir sevinç duymak, coşmak” | anlam düzeltmesi |
+| 어지간하다 | anlam: “çoğu, sıradan düzeyde olmak” → “epey, oldukça, makul düzeyde olmak” | anlam düzeltmesi |
 | 티끌 모아 태산 | anlam: “deyim olarak sabit” → “damlaya damlaya göl olur” | anlam düzeltmesi |
 | 얇팍하다 | 얄팍하다 | yazım düzeltmesi |
 | 곁면 | 겉면 | yazım düzeltmesi |
