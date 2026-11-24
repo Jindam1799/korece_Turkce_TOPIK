@@ -69,7 +69,7 @@ tr:{sub:'Korece kelime ormanı · A1–B2',a2hsT:'📲 Ana ekrana ekle (uygulama
  namePh:'Bitki arkadaşının adı (isteğe bağlı)',chromeTxt:'Bir uygulamanın içindeki tarayıcıdasın. Sesli okuma için Chrome\'da açman daha iyi olur.',openChrome:'Chrome\'da aç',copy:'Kopyala',copied:'Kopyalandı ✓',
  rights:'Tüm hakları saklıdır.',biz:'İş birliği',
  credit:'Kelime listesi: Aslıhan Erdoğan · Karakter çizimleri: 덩어리숲',
- settings:'Ayarlar',lang:'Dil',roundSize:'Bir turdaki kelime',sound:'Ses',autoOn:'Kelimeyi otomatik oku: Açık',autoOff:'Kelimeyi otomatik oku: Kapalı',test:'Sesi dene',voiceH:'Ses seçimi',vAuto:'Otomatik (kadın sesi)',vOnline:'çevrimiçi',noVoice:'Bu tarayıcıda Korece ses bulunamadı. Chrome\'da Google 한국의 sesini kullanabilirsin.',speedH:'Okuma hızı',rSlow2:'Çok yavaş',rSlow:'Yavaş',rNorm:'Normal',name:'Bitki arkadaşının adı',
+ settings:'Ayarlar',lang:'Dil',roundSize:'Bir turdaki kelime',sizeAll:'Tümü',sound:'Ses',autoOn:'Kelimeyi otomatik oku: Açık',autoOff:'Kelimeyi otomatik oku: Kapalı',test:'Sesi dene',voiceH:'Ses seçimi',vAuto:'Otomatik (kadın sesi)',vOnline:'çevrimiçi',noVoice:'Bu tarayıcıda Korece ses bulunamadı. Chrome\'da Google 한국의 sesini kullanabilirsin.',speedH:'Okuma hızı',rSlow2:'Çok yavaş',rSlow:'Yavaş',rNorm:'Normal',name:'Bitki arkadaşının adı',
  look:'Görünüm',stacheOn:'Bıyık: Var',stacheOff:'Bıyık: Yok',
  reset:'İlerlemeyi sıfırla',resetSure:'Emin misin? Tekrar dokun',msg:'Mesaj',settingsA:'Ayarlar',quit:'Çık',listen:'Dinle',
  lvUp:'Seviye atladın!',lvSub:n=>`Artık Lv.${n}`,great:'Harika!',
@@ -115,7 +115,7 @@ ko:{sub:'한국어 단어의 숲 · A1–B2',a2hsT:'📲 홈 화면에 추가하
  namePh:'식물 친구 이름 (선택)',chromeTxt:'앱 안의 브라우저에서는 음성이 안 나올 수 있어요. Chrome에서 여는 게 좋아요.',openChrome:'Chrome에서 열기',copy:'복사',copied:'복사됨 ✓',
  rights:'All rights reserved.',biz:'비즈니스 협업',
  credit:'단어 자료: Aslıhan Erdoğan · 캐릭터 그림: 덩어리숲',
- settings:'설정',lang:'언어',roundSize:'한 판 단어 수',sound:'소리',autoOn:'단어 자동 읽기: 켜짐',autoOff:'단어 자동 읽기: 꺼짐',test:'소리 들어 보기',voiceH:'목소리 선택',vAuto:'자동 (여성 목소리)',vOnline:'온라인',noVoice:'이 브라우저에는 한국어 음성이 없어요. Chrome의 Google 한국의 음성을 쓸 수 있어요.',speedH:'읽기 속도',rSlow2:'아주 느리게',rSlow:'느리게',rNorm:'보통',name:'식물 친구 이름',
+ settings:'설정',lang:'언어',roundSize:'한 판 단어 수',sizeAll:'전체',sound:'소리',autoOn:'단어 자동 읽기: 켜짐',autoOff:'단어 자동 읽기: 꺼짐',test:'소리 들어 보기',voiceH:'목소리 선택',vAuto:'자동 (여성 목소리)',vOnline:'온라인',noVoice:'이 브라우저에는 한국어 음성이 없어요. Chrome의 Google 한국의 음성을 쓸 수 있어요.',speedH:'읽기 속도',rSlow2:'아주 느리게',rSlow:'느리게',rNorm:'보통',name:'식물 친구 이름',
  look:'꾸미기',stacheOn:'콧수염: 있음',stacheOff:'콧수염: 없음',
  reset:'기록 초기화',resetSure:'정말요? 한 번 더 누르세요',msg:'메시지',quit:'그만하기',listen:'듣기',
  lvUp:'레벨 업!',lvSub:n=>`이제 Lv.${n}`,great:'좋아요!',
@@ -131,6 +131,7 @@ ko:{sub:'한국어 단어의 숲 · A1–B2',a2hsT:'📲 홈 화면에 추가하
 TX.ko.route=Object.fromEntries(Object.values(CH.GROWTH).flatMap(g=>g.routes.map(r=>[r.id,r.final])));
 let S={music:true,vol:45,lang:'tr',xp:0,level:1,name:'',pet:'',route:'',branch:'',mem:{},retry:[],lv:LEVELS[0].id,unit:'all',timer:true,size:10,auto:true,best:0,stache:true,voice:'',rate:.9};
 try{Object.assign(S,JSON.parse(localStorage.getItem('deongeoriForestTR2')||'{}'))}catch(e){}
+if(S.size!==0&&S.size!==10)S.size=10;
 S.retry=S.retry.filter(id=>BYID.has(id));if(!LEVELS.some(L=>L.id===S.lv))S.lv=LEVELS[0].id;
 const save=()=>{try{localStorage.setItem('deongeoriForestTR2',JSON.stringify(S))}catch(e){}};
 const t=(k,...a)=>{const v=TX[S.lang][k];return typeof v==='function'?v(...a):v};
@@ -257,7 +258,7 @@ const SECONDS=12,BONUS_EXTRA=2,BASE=5,BONUS=3,STREAK_EVERY=5,STREAK_XP=3;
 function show(id){['home','game','cards','prog','review','result'].forEach(s=>$(s).hidden=s!==id)}
 function buildQueue(){
  const score=w=>{const m=S.mem[w.id];return (m?m.c*2-m.w:-1)+Math.random()*1.5};
- return pool().slice().sort((x,y)=>score(x)-score(y)).slice(0,S.size);
+ return pool().slice().sort((x,y)=>score(x)-score(y)).slice(0,S.size||Infinity);
 }
 function start(kind,items){
  const queue=items||(kind==='review'?shuffle(S.retry.map(id=>BYID.get(id)).filter(Boolean)).slice(0,20):buildQueue());
@@ -466,7 +467,7 @@ $('lvBody').addEventListener('click',e=>{const b=e.target.closest('.pick');if(!b
 
 // ---------- ayarlar ----------
 function renderSettings(){
- $('sizeChips').innerHTML=[10,20,30].map(n=>`<button class="chip" data-size="${n}" aria-pressed="${n===S.size}">${n}</button>`).join('');
+ $('sizeChips').innerHTML=[10,0].map(n=>`<button class="chip" data-size="${n}" aria-pressed="${n===S.size}">${n?n:t('sizeAll')+' · '+pool().length}</button>`).join('');
  $('bTimer').textContent=S.timer?t('timerOn'):t('timerOff');$('bTimer').setAttribute('aria-pressed',S.timer);
  $('bAuto').textContent=S.auto?t('autoOn'):t('autoOff');$('bAuto').setAttribute('aria-pressed',S.auto);
  $('bMusic').textContent=S.music?t('musicOn'):t('musicOff');$('bMusic').setAttribute('aria-pressed',S.music);$('vol').value=S.vol;
@@ -610,6 +611,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
+ ['1.8','2026-11-25',{tr:['Bir turdaki kelime: 10 ya da Tümü (seçili bölümün tüm kelimeleri)'],ko:['한 판 단어 수: 10개 또는 전체(고른 단원의 모든 단어)']}],
  ['1.7','2026-11-25',{tr:['Ses seçimi: Chrome\'un Google 한국의 sesi dahil, cihazdaki tüm Korece sesler','Okuma hızı: Çok yavaş / Yavaş / Normal'],ko:['목소리 선택: Chrome의 Google 한국의 음성 포함, 기기의 모든 한국어 음성','읽기 속도: 아주 느리게 / 느리게 / 보통']}],
  ['1.6','2026-11-25',{tr:['Kelime kontrol modu (editör): anlamları ve eş kelimeleri düzelt, eski kelimeleri işaretle, dosyayı paylaş','Türkçe ek düzeltmesi: 덩어리숲\'a hoş geldin! (Aslı\'ya teşekkürler)'],ko:['단어 검수 모드(편집자): 뜻·짝꿍어휘 고치기, 오래된 단어 표시, 파일로 보내기','터키어 접미사 수정: 덩어리숲\'a hoş geldin! (아슬르 고마워요)']}],
  ['1.5','2026-11-24',{tr:['Giriş ekranı ve Türk halk müziği esintili dinlendirici fon müziği (Hicaz makamı, saz, ney, darbuka)','Deongi\'nin hikâyesi ve bitki rehberi (seviyelere göre büyüme)','Bağlantı paylaşınca önizleme görseli, uygulama içi tarayıcıdan otomatik Chrome\'a geçiş','Ana ekrana ekleme rehberi, güncelleme notları, Instagram ve KakaoTalk bağlantıları'],ko:['인트로 화면과 튀르키예 민속 음악 느낌의 힐링 배경 음악(히자즈 음계, 사즈, 네이, 다르부카)','덩이의 이야기와 식물 도감(레벨별 성장)','링크 미리보기 그림, 앱 안 브라우저에서 Chrome으로 자동 전환','홈 화면 추가 안내, 업데이트 노트, 인스타그램·카카오톡 바로가기']}],
