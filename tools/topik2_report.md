@@ -38,6 +38,10 @@ Oyuna alınan kelime: **2689** · tekrar edenler atlandı: 23
 | 간담회 | anlam: “Basın toplantısı, görüşme” → “samimi görüşme toplantısı” | anlam düzeltmesi |
 | 수납 | anlam: “Kabul etme, içine alma” → “tahsilat; eşya saklama” | anlam düzeltmesi |
 | 본격화되다 | anlam: “am anlamıyla başlamak, ciddileşmek” → “tam anlamıyla başlamak, hız kazanmak” | anlam düzeltmesi |
+| 주지를 않다 | anlam: “vermemek, eşlik etmeme” → “(birine) vermemek” | anlam düzeltmesi |
+| 비비다 | anlam: “kıpırdanmak, ovuşturmak” → “ovuşturmak, ovmak” | anlam düzeltmesi |
+| 중세 | anlam: “Orta Çağ” → “Orta Çağ” | anlam düzeltmesi |
+| 비록 | anlam: “Her ne kadar, -se de, öte yandan” → “her ne kadar, -se de” | anlam düzeltmesi |
 | 훽 | 홱 | yazım düzeltmesi |
 | 빠곡히 | 빼곡히 | yazım düzeltmesi |
 | 최대하다 | 최대한 | yazım düzeltmesi |
