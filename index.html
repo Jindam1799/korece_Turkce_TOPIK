@@ -194,7 +194,7 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid 
 .progbtn .pt b{display:block;font-size:15px}.progbtn .pt small{font-size:12px;color:var(--muted)}
 .pbar{height:9px;border-radius:9px;background:#e6eadd;overflow:hidden}.pbar i{display:block;height:100%;background:var(--green);border-radius:9px}
 .progbtn .arr{font-size:22px;color:var(--muted)}
-.ptabs{display:flex;gap:6px;overflow-x:auto;flex:none;scrollbar-width:none;padding-bottom:2px}
+.ptabs{display:flex;flex-wrap:wrap;gap:6px;flex:none}
 .ptabs button{flex:none;min-height:38px;border:1.5px solid var(--line);border-radius:30px;background:#fff;padding:4px 12px;font-size:13px;font-weight:800}
 .ptabs button[aria-pressed=true]{background:var(--green);border-color:var(--green);color:#fff}
 .legend{display:flex;gap:12px;flex:none}.legend>span{display:flex;align-items:center;gap:5px}
@@ -220,6 +220,9 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid 
 .path li.on{border-color:var(--green);background:#f3f6ee}.path li.now{box-shadow:0 0 0 2px var(--orange)}
 .path .lv{font-weight:800;font-size:13px;color:var(--green);text-align:center;background:var(--light);border-radius:10px;padding:6px 0}
 .path b{display:block;font-size:14px}.path small{font-size:12px;color:var(--muted)}
+.famgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+.famgrid button{min-height:44px;border:1.5px solid var(--line);border-radius:14px;background:#fff;padding:4px 6px;font-size:13px;font-weight:800;line-height:1.2}
+.famgrid button[aria-pressed=true]{background:var(--green);border-color:var(--green);color:#fff}
 .cgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:6px}
 .ccard{border:1.5px solid var(--line);border-radius:14px;background:var(--paper);padding:6px 4px 8px;display:grid;justify-items:center;text-align:center;gap:2px}
 .ccard svg{width:100%;max-width:92px;height:auto;aspect-ratio:180/210}
@@ -396,7 +399,7 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid 
   <h3 class="bh" data-t="pathH"></h3>
   <ol class="path" id="bkPath"></ol>
   <h3 class="bh" data-t="famH"></h3>
-  <div class="ptabs" id="bkFam"></div>
+  <div class="famgrid" id="bkFam"></div>
   <p class="tiny" id="bkFamTxt"></p>
   <div class="cgrid" id="bkGrid"></div>
  </div></div>
@@ -426,14 +429,14 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid 
  </div></div>
 </div>
 
-<script src="config.js?v=12"></script>
-<script src="char.js?v=12"></script>
-<script src="data/a12.js?v=12"></script>
-<script src="data/b11.js?v=12"></script>
-<script src="data/b12.js?v=12"></script>
-<script src="data/b21.js?v=12"></script>
-<script src="data/b22.js?v=12"></script>
-<script src="data/hanja.js?v=12"></script>
-<script src="app.js?v=12"></script>
+<script src="config.js?v=13"></script>
+<script src="char.js?v=13"></script>
+<script src="data/a12.js?v=13"></script>
+<script src="data/b11.js?v=13"></script>
+<script src="data/b12.js?v=13"></script>
+<script src="data/b21.js?v=13"></script>
+<script src="data/b22.js?v=13"></script>
+<script src="data/hanja.js?v=13"></script>
+<script src="app.js?v=13"></script>
 </body>
 </html>
