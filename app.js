@@ -35,7 +35,7 @@ const clash=(a,b)=>{const x=norm(a),y=norm(b);return !x||!y||x===y||x.includes(y
 
 // ---------- dil ----------
 const TX={
-tr:{sub:'Korece kelime ormanı · A1–B2',learned:'Öğrenilen',toReview:'Tekrar',bestStreak:'En iyi seri',
+tr:{sub:'Korece kelime ormanı · A1–B2',myProg:'İlerleme tablom',stLearned:'Öğrenildi',stReview:'Tekrar edilecek',stNew:'Henüz çalışılmadı',learned:'Öğrenilen',toReview:'Tekrar',bestStreak:'En iyi seri',
  start:'Başla',quiz:'Test',cards:'Kartlar',review:n=>`Tekrar ${n}`,allUnits:'Tüm bölümler',unitN:k=>/^\d+$/.test(k)?`Bölüm ${k}`:k,
  level:'Seviye',unit:'Bölüm',timerOn:'12 saniye',timerOff:'Süre yok',timeLimit:'Süre sınırı (test)',
  hint:'Doğru anlama dokun · klavye 1–4',qWord:'Bu kelimenin anlamı nedir?',qPair:'Bu eş kelimenin anlamı nedir?',qHanja:'Bu Çince karakterin anlamı nedir?',
@@ -71,7 +71,7 @@ tr:{sub:'Korece kelime ormanı · A1–B2',learned:'Öğrenilen',toReview:'Tekra
  fam:{petal:'Gönül Çiçeği',mushroom:'Gönül Mantarı',succulent:'Gönül Sukulenti',clover:'Gönül Yaprağı',berry:'Gönül Meyvesi',tree:'Gönül Ağacı'},
  route:{sunflower:'Altın Ayçiçeği',rose:'Kraliçe Gül',hibiscus:'Cesur Hibiskus',matsutake:'Kral Matsutake',horn:'Şık Boynuzlu Mantar',reishi:'Parlak Reishi',undulata:'Dev Undulata',euphorbia:'Nazlı Sütleğen',cactus:'Azimli Kaktüs',lucky:'Şanslı Dört Yapraklı Yonca',silver:'Ay Işığı Yoncası',crimson:'Sevecen Kırmızı Yonca',strawberry:'Tatlı Dev Çilek',blueberry:'Yıldızlı Yaban Mersini',raspberry:'Canlı Ahududu',oak:'Sağlam Meşe',willow:'Rüzgârlı Söğüt',ginkgo:'Altın Ginkgo'},
  way:'Yol'},
-ko:{sub:'한국어 단어의 숲 · A1–B2',learned:'익힌 단어',toReview:'복습',bestStreak:'최고 연속',
+ko:{sub:'한국어 단어의 숲 · A1–B2',myProg:'나의 진도표',stLearned:'익힘',stReview:'다시 볼 단어',stNew:'아직 안 함',learned:'익힌 단어',toReview:'복습',bestStreak:'최고 연속',
  start:'시작하기',quiz:'퀴즈',cards:'카드',review:n=>`복습 ${n}`,allUnits:'전체 단원',unitN:k=>/^\d+$/.test(k)?`${k}단원`:k,
  level:'단계',unit:'단원',timerOn:'12초',timerOff:'시간제한 없음',timeLimit:'제한 시간 (퀴즈)',
  hint:'알맞은 뜻을 누르세요 · 키보드 1–4',qWord:'이 단어의 뜻은 무엇일까요?',qPair:'이 짝꿍어휘의 뜻은 무엇일까요?',qHanja:'이 한자의 뜻은 무엇일까요?',
@@ -128,6 +128,7 @@ function applyLang(){
  if(state&&!$('game').hidden){renderQuestionText();if(!$('fb').hidden)renderFeedback()}
  if(deck&&!$('cards').hidden)renderCard();
  if(!$('result').hidden)renderResult();
+ if(!$('prog').hidden)renderProg();
 }
 document.addEventListener('click',e=>{const b=e.target.closest('[data-lang]');if(b){S.lang=b.dataset.lang;save();applyLang()}});
 
@@ -200,9 +201,9 @@ function renderHome(){
  $('cGrowth').textContent=(S.name?growthName()+' · ':'')+t('nextGoal',L);
  $('xpText').textContent=t('xpLeft',S.xp-a,b-a);
  $('xpBar').style.width=Math.min(100,(S.xp-a)/(b-a)*100)+'%';
- const lw=curLevel().words;
- $('stLearn').textContent=`${lw.filter(w=>(S.mem[w.id]||{}).c>0).length}/${lw.length}`;
- $('stRev').textContent=S.retry.length;$('stBest').textContent=S.best;
+ const lw=curLevel().words,ln=lw.filter(w=>status(w)==='ok').length;
+ $('progSmall').textContent=`${S.lang==='ko'&&curLevel().nameKo?curLevel().nameKo:curLevel().name} · ${ln} / ${lw.length}`;
+ $('progBar').style.width=(ln/lw.length*100)+'%';
  $('selLv').innerHTML=LEVELS.map(L=>`<option value="${esc(L.id)}"${L.id===S.lv?' selected':''}>${esc(S.lang==='ko'&&L.nameKo?L.nameKo:L.name)} · ${L.words.length}</option>`).join('');
  const units=curLevel().units;if(S.unit!=='all'&&!units.some(u=>u.key===S.unit))S.unit='all';
  $('selUnit').innerHTML=`<option value="all">${esc(t('allUnits'))}</option>`+units.map(u=>`<option value="${esc(u.key)}"${u.key===S.unit?' selected':''}>${esc(t('unitN',u.key))} · ${u.words.length}</option>`).join('');
@@ -233,7 +234,7 @@ function optionsFor(e){
 // ---------- test ----------
 let state=null,deck=null,timer=null;
 const SECONDS=12,BONUS_EXTRA=2,BASE=5,BONUS=3,STREAK_EVERY=5,STREAK_XP=3;
-function show(id){['home','game','cards','result'].forEach(s=>$(s).hidden=s!==id)}
+function show(id){['home','game','cards','prog','result'].forEach(s=>$(s).hidden=s!==id)}
 function buildQueue(){
  const score=w=>{const m=S.mem[w.id];return (m?m.c*2-m.w:-1)+Math.random()*1.5};
  return pool().slice().sort((x,y)=>score(x)-score(y)).slice(0,S.size);
@@ -364,6 +365,28 @@ $('cQuit').onclick=()=>{if(deck.i)finishCards();else{deck=null;show('home');rend
 function finishCards(){save();show('result');renderResult()}
 {let sx=null;$('flip').addEventListener('touchstart',e=>{sx=e.touches[0].clientX},{passive:true});
  $('flip').addEventListener('touchend',e=>{if(sx==null)return;const dx=e.changedTouches[0].clientX-sx;sx=null;if(Math.abs(dx)>70){e.preventDefault();cardAnswer(dx>0)}})}
+
+// ---------- ilerleme tablosu ----------
+function status(w){if(S.retry.includes(w.id))return 'rv';const m=S.mem[w.id];return m&&m.c>0?'ok':m?'rv':'no'}
+let progLv=null,openUnits=new Set();
+function renderProg(){
+ progLv=progLv||S.lv;
+ const all=ALL.filter(w=>status(w)==='ok').length;
+ $('pTotal').textContent=`${all} / ${ALL.length}`;
+ $('pTabs').innerHTML=LEVELS.map(L=>{const n=L.words.filter(w=>status(w)==='ok').length;return `<button data-pl="${esc(L.id)}" aria-pressed="${L.id===progLv}">${esc(S.lang==='ko'&&L.nameKo?L.nameKo:L.name)} · ${Math.round(n/L.words.length*100)}%</button>`}).join('');
+ const L=lvById(progLv);
+ $('pList').innerHTML=L.units.map(u=>{
+  const st=u.words.map(status),ok=st.filter(x=>x==='ok').length,rv=st.filter(x=>x==='rv').length,k=L.id+'|'+u.key,open=openUnits.has(k);
+  return `<div class="unit${open?' open':''}" data-u="${esc(k)}"><button><b>${esc(t('unitN',u.key))}</b><small>✓ ${ok}${rv?` · ↺ ${rv}`:''} / ${u.words.length}</small><span class="pbar"><i style="width:${ok/u.words.length*100}%"></i></span></button>
+  <div class="ws">${open?u.words.map((w,i)=>{const m=S.mem[w.id];return `<div class="wrow" data-w="${esc(w.id)}"><i class="st ${st[i]}"></i><b>${esc(w.ko)}</b><span>${esc(w.tr)}</span>${m?`<small>${m.c}✓ ${m.w}✗</small>`:''}</div>`}).join(''):''}</div></div>`}).join('');
+}
+$('bProg').onclick=()=>{progLv=S.lv;show('prog');renderProg()};
+$('pQuit').onclick=()=>{show('home');renderHome()};
+$('pTabs').addEventListener('click',e=>{const b=e.target.closest('[data-pl]');if(b){progLv=b.dataset.pl;renderProg();$('pList').scrollTop=0}});
+$('pList').addEventListener('click',e=>{
+ const r=e.target.closest('.wrow');if(r){speak(sayText(BYID.get(r.dataset.w)),true);return}
+ const u=e.target.closest('.unit>button');if(u){const k=u.parentElement.dataset.u;openUnits.has(k)?openUnits.delete(k):openUnits.add(k);const y=$('pList').scrollTop;renderProg();$('pList').scrollTop=y}
+});
 
 // ---------- sonuç ----------
 function finish(){clearInterval(timer);state.phase='done';save();show('result');renderResult()}

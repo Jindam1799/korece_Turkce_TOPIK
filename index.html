@@ -180,6 +180,26 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid 
 .kbtns{display:grid;grid-template-columns:1fr 1fr;gap:9px;flex:none}
 .kbtns button{min-height:56px;border-radius:14px;font-weight:800;font-size:16px;border:1.5px solid var(--line);background:#fff}
 .kbtns .no{color:var(--red);border-color:#efc9c2;background:#fdf3f1}.kbtns .yes{color:#fff;background:var(--green);border-color:var(--green)}
+.progbtn{flex:none;display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:12px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:9px 14px;text-align:left;min-height:52px}
+.progbtn .pt b{display:block;font-size:15px}.progbtn .pt small{font-size:12px;color:var(--muted)}
+.pbar{height:9px;border-radius:9px;background:#e6eadd;overflow:hidden}.pbar i{display:block;height:100%;background:var(--green);border-radius:9px}
+.progbtn .arr{font-size:22px;color:var(--muted)}
+.ptabs{display:flex;gap:6px;overflow-x:auto;flex:none;scrollbar-width:none;padding-bottom:2px}
+.ptabs button{flex:none;min-height:38px;border:1.5px solid var(--line);border-radius:30px;background:#fff;padding:4px 12px;font-size:13px;font-weight:800}
+.ptabs button[aria-pressed=true]{background:var(--green);border-color:var(--green);color:#fff}
+.legend{display:flex;gap:12px;flex:none}.legend>span{display:flex;align-items:center;gap:5px}
+.st{display:inline-block;width:10px;height:10px;border-radius:50%;flex:none}.st.ok{background:var(--green)}.st.rv{background:var(--orange)}.st.no{background:#d3d8cc}
+.plistwrap{flex:1;min-height:0;overflow:auto;display:flex;flex-direction:column;gap:8px;padding-bottom:6px}.plistwrap>*{flex:none}
+.unit{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.unit>button{width:100%;border:0;background:none;padding:10px 14px;display:grid;grid-template-columns:1fr auto;gap:4px 10px;text-align:left}
+.unit>button b{font-size:15px}.unit>button small{font-size:12px;color:var(--muted);text-align:right}
+.unit .pbar{grid-column:1/-1;height:7px}
+.unit .ws{display:none;border-top:1px solid var(--line);padding:4px 10px 8px}
+.unit.open .ws{display:block}
+.wrow{display:flex;align-items:center;gap:8px;padding:6px 2px;border-bottom:1px dashed var(--line)}
+.wrow:last-child{border:0}
+.wrow b{font:700 15px "Noto Sans KR",sans-serif;white-space:nowrap}.wrow span{flex:1;font-size:13px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.wrow small{font-size:11px;color:var(--muted);white-space:nowrap}
 .thanks{background:var(--light);border-radius:14px;padding:10px 12px;font-size:14px;margin:8px 0}
 .thanks b{color:var(--green)}
 .foot{font-size:12px;color:var(--muted);text-align:center;margin-top:10px;line-height:1.6}
@@ -212,11 +232,7 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid 
     <div class="crow tiny"><span id="cGrowth"></span><span id="xpText"></span></div>
    </div>
   </div>
-  <div class="stats">
-   <div><strong id="stLearn">0</strong><span data-t="learned"></span></div>
-   <div><strong id="stRev">0</strong><span data-t="toReview"></span></div>
-   <div><strong id="stBest">0</strong><span data-t="bestStreak"></span></div>
-  </div>
+  <button class="progbtn" id="bProg"><span class="pt"><b data-t="myProg"></b><small id="progSmall"></small></span><span class="pbar"><i id="progBar"></i></span><span class="arr">›</span></button>
   <div class="sel2"><select id="selLv" data-al="level"></select><select id="selUnit" data-al="unit"></select></div>
   <div class="btn3"><button class="primary" id="bStart"></button><button class="secondary" id="bCards"></button><button class="secondary" id="bReview"></button></div>
  </section>
@@ -257,6 +273,13 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid 
   </div>
   <div class="kbtns"><button class="no" id="kNo"></button><button class="yes" id="kYes"></button></div>
   <p class="tiny hint" data-t="cardHint"></p>
+ </section>
+
+ <section class="screen" id="prog" hidden>
+  <div class="gtop"><button class="icon" id="pQuit" data-al="quit"><svg><use href="#i-x"/></svg></button><span class="count" data-t="myProg"></span><span class="xp" id="pTotal"></span></div>
+  <div class="ptabs" id="pTabs"></div>
+  <div class="legend tiny"><span><i class="st ok"></i><span data-t="stLearned"></span></span><span><i class="st rv"></i><span data-t="stReview"></span></span><span><i class="st no"></i><span data-t="stNew"></span></span></div>
+  <div class="plistwrap" id="pList"></div>
  </section>
 
  <section class="screen" id="result" hidden>
