@@ -497,7 +497,7 @@ document.querySelectorAll('.logo-seed').forEach(el=>el.innerHTML=logoSVG());
 
 // ---------- güncelleme notları ----------
 const NOTES=[
- ['1.5','2026-11-24',{tr:['Giriş ekranı ve dinlendirici arka plan müziği','Deongi\'nin hikâyesi ve bitki rehberi (seviyelere göre büyüme)','Bağlantı paylaşınca önizleme görseli, uygulama içi tarayıcıdan otomatik Chrome\'a geçiş','Ana ekrana ekleme rehberi, güncelleme notları, Instagram ve KakaoTalk bağlantıları'],ko:['인트로 화면과 힐링 배경 음악','덩이의 이야기와 식물 도감(레벨별 성장)','링크 미리보기 그림, 앱 안 브라우저에서 Chrome으로 자동 전환','홈 화면 추가 안내, 업데이트 노트, 인스타그램·카카오톡 바로가기']}],
+ ['1.5','2026-11-24',{tr:['Giriş ekranı ve Türk halk müziği esintili dinlendirici fon müziği (Hicaz makamı, saz, ney, darbuka)','Deongi\'nin hikâyesi ve bitki rehberi (seviyelere göre büyüme)','Bağlantı paylaşınca önizleme görseli, uygulama içi tarayıcıdan otomatik Chrome\'a geçiş','Ana ekrana ekleme rehberi, güncelleme notları, Instagram ve KakaoTalk bağlantıları'],ko:['인트로 화면과 튀르키예 민속 음악 느낌의 힐링 배경 음악(히자즈 음계, 사즈, 네이, 다르부카)','덩이의 이야기와 식물 도감(레벨별 성장)','링크 미리보기 그림, 앱 안 브라우저에서 Chrome으로 자동 전환','홈 화면 추가 안내, 업데이트 노트, 인스타그램·카카오톡 바로가기']}],
  ['1.4','2026-11-24',{tr:['A1–B2 kelime listeleri (Aslıhan Erdoğan) ve 390 Hanca','Her kelimeye eş kelimeler, mantıklı yanlış seçenekler','Çevirmeli kartlar, ilerleme tablom, ana ekrana ekleme simgesi'],ko:['A1–B2 단어장(Aslıhan Erdoğan)과 한자 390자','단어마다 짝꿍어휘, 같은 단원·품사에서 나오는 오답','카드 뒤집기, 나의 진도표, 홈 화면 아이콘']}],
  ['1.3','2026-11-24',{tr:['덩어리숲 bitki arkadaşları, büyüme ve evrim','Yüz ifadeleri düzeltildi, büyük bıyık eklendi'],ko:['덩어리숲 식물 친구, 성장과 진화','표정 겹침 수정, 큰 콧수염 추가']}],
  ['1.2','2026-11-24',{tr:['İstanbul manzaralı arka plan'],ko:['이스탄불 풍경 배경']}],
@@ -511,43 +511,65 @@ $('bNotesOk').onclick=()=>{$('mNotes').hidden=true};
 
 // ---------- arka plan müziği (WebAudio ile üretilir) ----------
 const BGM=(()=>{
- let ctx=null,master=null,duckG=null,timer=null,step=0,next=0,on=false;
- const BPM=68,BEAT=60/BPM;
+ // Türk halk müziği esintili, dinlendirici fon müziği: Hicaz makamı, saz, ney ve hafif darbuka (9/8 aksak)
+ let ctx=null,master=null,duckG=null,bus=null,timer=null,step=0,next=0,on=false,noise=null;
+ const E=0.3;// sekizlik süresi (sn)
  const N=m=>440*Math.pow(2,(m-69)/12);
- const CH=[[48,55,64,71],[45,52,60,67],[41,48,57,64],[43,50,59,62]];// Cmaj7 Am7 Fmaj7 G6
- const PENTA=[72,74,76,79,81,84,86,88];
- let mel=3;
- function reverb(){const len=ctx.sampleRate*2.6,b=ctx.createBuffer(2,len,ctx.sampleRate);for(let c=0;c<2;c++){const d=b.getChannelData(c);for(let i=0;i<len;i++)d[i]=(Math.random()*2-1)*Math.pow(1-i/len,3)}const r=ctx.createConvolver();r.buffer=b;return r}
+ const HICAZ=[62,63,66,67,69,70,72,74,75,78,79];// Re Mi♭ Fa# Sol La Si♭ Do Re …
+ let idx=4,phrase=0;
+ function reverb(){const len=ctx.sampleRate*3,b=ctx.createBuffer(2,len,ctx.sampleRate);for(let c=0;c<2;c++){const d=b.getChannelData(c);for(let i=0;i<len;i++)d[i]=(Math.random()*2-1)*Math.pow(1-i/len,2.6)}const r=ctx.createConvolver();r.buffer=b;return r}
  function init(){
   ctx=new (window.AudioContext||window.webkitAudioContext)();
-  master=ctx.createGain();duckG=ctx.createGain();master.gain.value=0;
-  const rv=reverb(),wet=ctx.createGain();wet.gain.value=.55;
-  duckG.connect(master);duckG.connect(rv);rv.connect(wet);wet.connect(master);master.connect(ctx.destination);
+  master=ctx.createGain();master.gain.value=0;duckG=ctx.createGain();bus=ctx.createGain();bus.connect(duckG);
+  const rv=reverb(),wet=ctx.createGain();wet.gain.value=.5;duckG.connect(master);duckG.connect(rv);rv.connect(wet);wet.connect(master);master.connect(ctx.destination);
+  const len=ctx.sampleRate;noise=ctx.createBuffer(1,len,ctx.sampleRate);const d=noise.getChannelData(0);for(let i=0;i<len;i++)d[i]=Math.random()*2-1;
  }
- function pad(notes,t,dur){
-  const f=ctx.createBiquadFilter();f.type='lowpass';f.frequency.value=900;f.connect(duckG);
-  notes.forEach(m=>{[-6,6].forEach(det=>{const o=ctx.createOscillator(),g=ctx.createGain();o.type='triangle';o.frequency.value=N(m);o.detune.value=det;
-   g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(.035,t+1.6);g.gain.setValueAtTime(.035,t+dur-1.2);g.gain.linearRampToValueAtTime(0,t+dur+.4);
-   o.connect(g);g.connect(f);o.start(t);o.stop(t+dur+.5)})});
+ // Re ve La üzerinde yumuşak dem (drone)
+ function drone(t,dur){
+  [[38,.05],[45,.035],[50,.025]].forEach(([m,v])=>{const o=ctx.createOscillator(),g=ctx.createGain(),f=ctx.createBiquadFilter();
+   o.type='sawtooth';o.frequency.value=N(m);f.type='lowpass';f.frequency.value=420;
+   g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(v,t+1.5);g.gain.setValueAtTime(v,t+dur-1);g.gain.linearRampToValueAtTime(0,t+dur+.6);
+   o.connect(f);f.connect(g);g.connect(bus);o.start(t);o.stop(t+dur+.7)});
  }
- function bell(m,t,v=.12){
-  const o=ctx.createOscillator(),o2=ctx.createOscillator(),g=ctx.createGain();o.type='sine';o2.type='sine';o.frequency.value=N(m);o2.frequency.value=N(m)*2.01;
+ // Saz (bağlama) gibi tellerin çekilmesi
+ function saz(m,t,v=.09){
+  const f=ctx.createBiquadFilter();f.type='lowpass';f.Q.value=4;f.frequency.setValueAtTime(3200,t);f.frequency.exponentialRampToValueAtTime(700,t+.6);
+  const g=ctx.createGain();g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(v,t+.004);g.gain.exponentialRampToValueAtTime(.0008,t+1.4);
+  [0,7,-5].forEach((det,i)=>{const o=ctx.createOscillator();o.type=i?'triangle':'sawtooth';o.frequency.value=N(m)*(i===2?2:1);o.detune.setValueAtTime(det+(Math.random()<.25?-60:0),t);o.detune.linearRampToValueAtTime(det,t+.06);
+   const og=ctx.createGain();og.gain.value=i===2?.25:.6;o.connect(og);og.connect(f);o.start(t);o.stop(t+1.5)});
+  f.connect(g);g.connect(bus);
+ }
+ // Ney gibi nefesli uzun ses
+ function ney(m,t,dur){
+  const o=ctx.createOscillator(),o2=ctx.createOscillator(),g=ctx.createGain(),lfo=ctx.createOscillator(),lg=ctx.createGain();
+  o.type='sine';o2.type='triangle';o.frequency.value=N(m);o2.frequency.value=N(m);lfo.frequency.value=5;lg.gain.value=6;lfo.connect(lg);lg.connect(o.detune);lg.connect(o2.detune);
   const g2=ctx.createGain();g2.gain.value=.25;
-  g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(v,t+.015);g.gain.exponentialRampToValueAtTime(.001,t+2.4);
-  o.connect(g);o2.connect(g2);g2.connect(g);g.connect(duckG);o.start(t);o2.start(t);o.stop(t+2.5);o2.stop(t+2.5);
+  g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(.06,t+.35);g.gain.setValueAtTime(.06,t+dur-.4);g.gain.linearRampToValueAtTime(0,t+dur+.2);
+  const n=ctx.createBufferSource(),bp=ctx.createBiquadFilter(),ng=ctx.createGain();n.buffer=noise;n.loop=true;bp.type='bandpass';bp.frequency.value=N(m)*2;bp.Q.value=2;ng.gain.value=.012;
+  o.connect(g);o2.connect(g2);g2.connect(g);n.connect(bp);bp.connect(ng);ng.connect(g);g.connect(bus);
+  [o,o2,lfo,n].forEach(x=>{x.start(t);x.stop(t+dur+.3)});
  }
- function bass(m,t,dur){const o=ctx.createOscillator(),g=ctx.createGain();o.type='sine';o.frequency.value=N(m-12);
-  g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(.09,t+.3);g.gain.exponentialRampToValueAtTime(.001,t+dur);o.connect(g);g.connect(duckG);o.start(t);o.stop(t+dur+.1)}
+ // Darbuka: düm (pes) ve tek (tiz), çok hafif
+ function dum(t,v=.16){const o=ctx.createOscillator(),g=ctx.createGain();o.type='sine';o.frequency.setValueAtTime(110,t);o.frequency.exponentialRampToValueAtTime(52,t+.18);
+  g.gain.setValueAtTime(v,t);g.gain.exponentialRampToValueAtTime(.001,t+.35);o.connect(g);g.connect(bus);o.start(t);o.stop(t+.4)}
+ function tek(t,v=.05){const n=ctx.createBufferSource(),f=ctx.createBiquadFilter(),g=ctx.createGain();n.buffer=noise;f.type='bandpass';f.frequency.value=3400;f.Q.value=1.4;
+  g.gain.setValueAtTime(v,t);g.gain.exponentialRampToValueAtTime(.001,t+.06);n.connect(f);f.connect(g);g.connect(bus);n.start(t);n.stop(t+.08)}
+ const RHY={0:'D',2:'T',4:'T',6:'D',7:'t'};// 9/8: 2+2+2+3
+ function walk(){const r=Math.random();idx+=r<.35?-1:r<.7?1:r<.82?-2:r<.94?2:0;idx=Math.max(0,Math.min(HICAZ.length-1,idx));return HICAZ[idx]}
  function schedule(){
   while(next<ctx.currentTime+1.2){
-   const bar=Math.floor(step/8),pos=step%8,chord=CH[bar%4],t=next;
-   if(pos===0){pad(chord.slice(1),t,BEAT*4);bass(chord[0],t,BEAT*4)}
-   if(pos===0||Math.random()<(pos%2?0.18:0.42)){mel=Math.max(0,Math.min(PENTA.length-1,mel+[-2,-1,-1,0,1,1,2][Math.random()*7|0]));bell(PENTA[mel],t,pos===0?.11:.07)}
-   if(pos===4&&Math.random()<.5)bell(chord[2]+12,t,.05);
-   step++;next+=BEAT/2;
+   const pos=step%9,bar=Math.floor(step/9),t=next;
+   if(pos===0&&bar%2===0)drone(t,E*18);
+   const r=RHY[pos];if(r==='D')dum(t,pos===0?.15:.1);else if(r==='T')tek(t,.04);else if(r==='t')tek(t,.025);
+   const phraseEnd=bar%4===3&&pos>=6;
+   if(phraseEnd){if(pos===6){idx=Math.random()<.6?0:4;saz(HICAZ[idx],t,.1)}}
+   else if(pos===0||pos===2||pos===4||pos===6){if(Math.random()<.78)saz(walk(),t,pos===0?.1:.075)}
+   else if(Math.random()<.22)saz(walk(),t,.05);
+   if(pos===0&&bar%4===1&&Math.random()<.85){const m=HICAZ[[4,5,7,6][Math.random()*4|0]]+12;ney(m,t+E,E*6)}
+   step++;next+=E;
   }
  }
- function vol(){return (S.vol/100)*.6}
+ function vol(){return (S.vol/100)*.75}
  return{
   start(){if(!S.music)return;try{if(!ctx)init();ctx.resume();if(on)return;on=true;next=ctx.currentTime+.1;schedule();timer=setInterval(schedule,300);
    master.gain.cancelScheduledValues(ctx.currentTime);master.gain.setValueAtTime(master.gain.value,ctx.currentTime);master.gain.linearRampToValueAtTime(vol(),ctx.currentTime+3)}catch(e){}},
