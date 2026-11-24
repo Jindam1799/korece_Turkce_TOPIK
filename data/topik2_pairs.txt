@@ -2075,3 +2075,151 @@
 저축하다|돈을 저축하다=para biriktirmek;매달 저축하다=her ay tasarruf etmek
 가로|가로로 놓다=yatay koymak;가로 길이=genişlik
 세로|세로로 쓰다=dikey yazmak;세로 길이=yükseklik
+# --- 40 ---
+차량|차량 통행=araç trafiği;차량을 운전하다=araç kullanmak
+주택|주택 가격=konut fiyatları;단독 주택=müstakil ev
+통장|통장을 만들다=banka hesabı açmak;통장 잔고=hesap bakiyesi
+장기적|장기적인 계획=uzun vadeli plan;장기적으로 보다=uzun vadede bakmak
+분산하다|위험을 분산하다=riski dağıtmak;인구를 분산하다=nüfusu yaymak
+단기적|단기적인 목표=kısa vadeli hedef;단기적으로=kısa vadede
+은퇴|은퇴 후=emeklilikten sonra;은퇴를 준비하다=emekliliğe hazırlanmak
+목돈|목돈을 모으다=toplu para biriktirmek;목돈이 들다=yüklü para gerekmek
+각종|각종 행사=çeşitli etkinlikler;각종 질병=türlü hastalıklar
+문방구|문방구에 가다=kırtasiyeye gitmek;문방구 주인=kırtasiyeci
+학문|학문을 닦다=ilim tahsil etmek;학문의 자유=akademik özgürlük
+출세|출세를 하다=hayatta yükselmek;출세의 길=başarıya giden yol
+양반|양반 가문=soylu aile;양반 계층=aristokrat sınıf
+사대부|사대부 계층=bilgin aristokrat sınıfı;조선의 사대부=Joseon'un yönetici bilginleri
+상인|상인 계층=tüccar sınıfı;시장 상인=pazar esnafı
+탁자|탁자 위=masanın üstü;둥근 탁자=yuvarlak masa
+일상 용품|일상 용품을 사다=günlük eşyalar almak;일상 용품 가게=züccaciye dükkânı
+문화재|문화재를 보호하다=kültürel mirası korumak;문화재로 지정되다=tarihî eser olarak tescil edilmek
+복원 작업|문화재 복원 작업=tarihî eser restorasyonu;복원 작업이 끝나다=restorasyon tamamlanmak
+손상되다|건물이 손상되다=bina hasar görmek;피부가 손상되다=cilt yıpranmak
+요건|자격 요건=nitelik koşulları;요건을 갖추다=şartları taşımak
+충족하다|조건을 충족하다=koşulları karşılamak;기대를 충족하다=beklentiyi karşılamak
+정밀하다|정밀한 검사=detaylı muayene;정밀한 기계=hassas makine
+수월하다|일이 수월하다=iş kolay olmak;수월하게 끝내다=zahmetsizce bitirmek
+만지다|손으로 만지다=elle dokunmak;작품을 만지지 마세요=eserlere dokunmayın
+지각|감각 지각=duyusal algı;지각 능력=algılama yeteneği
+능동적|능동적인 태도=etkin tutum;능동적으로 참여하다=aktif katılmak
+햇빛|햇빛이 비치다=güneş ışığı vurmak;햇빛을 쬐다=güneşlenmek
+접촉|신체 접촉=fiziksel temas;접촉을 피하다=temastan kaçınmak
+유대감|유대감을 형성하다=bağ kurmak;가족 간의 유대감=aile bağı
+유아|유아 교육=okul öncesi eğitim;유아용 의자=bebek sandalyesi
+지능|지능이 높다=zekâsı yüksek olmak;인공 지능=yapay zekâ
+상관관계|상관관계가 있다=ilişki olmak;밀접한 상관관계=güçlü korelasyon
+버섯|버섯을 따다=mantar toplamak;독버섯=zehirli mantar
+양분|양분을 흡수하다=besin emmek;양분이 풍부하다=besin açısından zengin olmak
+뿌리|뿌리를 내리다=kök salmak;뿌리가 깊다=kökleri derin olmak
+실|실을 꿰다=iplik geçirmek;바늘과 실=iğne iplik
+뻗다|팔을 뻗다=kolunu uzatmak;뿌리가 뻗다=kökler yayılmak
+처벌|처벌을 받다=cezalandırılmak;처벌을 강화하다=cezaları ağırlaştırmak
+법안|법안을 발의하다=yasa teklifi vermek;법안이 통과되다=yasa tasarısı kabul edilmek
+국회|국회에서 논의하다=mecliste görüşmek;국회 의사당=meclis binası
+안건|안건을 상정하다=gündeme almak;안건을 처리하다=gündem maddesini görüşmek
+반쪽짜리|반쪽짜리 대책=yarım yamalak önlem;반쪽짜리 성공=eksik bir başarı
+가해자|가해자를 처벌하다=faili cezalandırmak;가해자와 피해자=fail ve mağdur
+효력|효력이 발생하다=yürürlüğe girmek;효력을 잃다=geçerliliğini yitirmek
+경각심|경각심을 일깨우다=farkındalık uyandırmak;경각심을 갖다=tetikte olmak
+왕관|왕관을 쓰다=taç giymek;금 왕관=altın taç
+지배 계층|지배 계층의 문화=yönetici sınıfın kültürü;지배 계층에 속하다=yönetici sınıfa ait olmak
+장신구|장신구를 하다=takı takmak;금 장신구=altın aksesuar
+화려하다|화려한 옷=gösterişli kıyafet;화려한 무대=görkemli sahne
+# --- 41 ---
+더욱|더욱 노력하다=daha çok çabalamak;더욱 중요하다=daha da önemli olmak
+고귀하다|고귀한 희생=yüce fedakârlık;고귀한 신분=soylu statü
+구하다|일자리를 구하다=iş aramak;사람을 구하다=birini kurtarmak
+몇몇|몇몇 사람=bazı insanlar;몇몇 지역=birkaç bölge
+기금|기금을 마련하다=fon oluşturmak;장학 기금=burs fonu
+액수|큰 액수=büyük meblağ;액수가 적다=tutar az olmak
+편견|편견을 갖다=önyargılı olmak;편견을 버리다=önyargıdan kurtulmak
+외면하다|현실을 외면하다=gerçeklerden yüz çevirmek;도움을 외면하다=yardımı görmezden gelmek
+무해하다|인체에 무해하다=insan sağlığına zararsız olmak;무해한 성분=zararsız içerik
+지면|지면을 통해=gazete sayfaları aracılığıyla;지면에 싣다=sayfada yayımlamak
+배반|배반을 당하다=ihanete uğramak;친구의 배반=arkadaşın ihaneti
+이별|이별을 하다=ayrılmak;슬픈 이별=hüzünlü ayrılık
+매듭짓다|협상을 매듭짓다=müzakereleri sonuçlandırmak;일을 매듭짓다=işi bağlamak
+괴롭다|마음이 괴롭다=yüreği sızlamak;괴로운 기억=acı veren anı
+단편|단편 소설=kısa öykü;단편 영화=kısa film
+작별 인사|작별 인사를 하다=veda etmek;마지막 작별 인사=son veda
+신호|신호를 보내다=işaret vermek;신호등=trafik ışığı
+홱|홱 돌아서다=birden arkasını dönmek;고개를 홱 돌리다=başını aniden çevirmek
+현관|현관문=dış kapı;현관에서 신발을 벗다=girişte ayakkabıları çıkarmak
+벌떡|벌떡 일어나다=birden ayağa fırlamak;벌떡 일어서다=hemen kalkmak
+맨발|맨발로 걷다=yalınayak yürümek;맨발로 뛰어나가다=yalınayak dışarı koşmak
+불안하다|마음이 불안하다=içi huzursuz olmak;불안한 미래=belirsiz gelecek
+흡족하다|결과에 흡족하다=sonuçtan memnun olmak;흡족한 미소=hoşnut gülümseme
+까다롭다|입맛이 까다롭다=yemek konusunda seçici olmak;조건이 까다롭다=koşullar zor olmak
+제사|제사를 지내다=atalara anma töreni yapmak;제사 음식=anma töreni yemekleri
+예법|예법을 지키다=adaba uymak;전통 예법=geleneksel görgü kuralları
+공경하다|어른을 공경하다=büyüklere saygı göstermek;부모를 공경하다=anne babaya hürmet etmek
+화목|가정의 화목=aile huzuru;화목하게 지내다=uyum içinde yaşamak
+정성|정성을 다하다=tüm özenini göstermek;정성이 담기다=emek ve içtenlik taşımak
+상차림|명절 상차림=bayram sofrası;간소한 상차림=sade sofra
+간소하다|간소한 결혼식=sade düğün;절차를 간소하게 하다=işlemleri basitleştirmek
+운영자|사이트 운영자=site yöneticisi;가게 운영자=dükkân işletmecisi
+계정|계정을 만들다=hesap açmak;계정에 로그인하다=hesaba giriş yapmak
+개별|개별 상담=bireysel görüşme;개별적으로=tek tek
+무한하다|무한한 가능성=sınırsız olasılık;무한한 사랑=sonsuz sevgi
+지방자치단체|지방자치단체장=yerel yönetim başkanı;지방자치단체의 지원=belediye desteği
+경찰|경찰에 신고하다=polise bildirmek;경찰서=karakol
+밀착되다|몸에 밀착되다=vücuda sıkıca oturmak;생활에 밀착되다=gündelik hayata sıkı bağlı olmak
+취약점|취약점을 보완하다=zayıf noktayı gidermek;보안 취약점=güvenlik açığı
+혼선|혼선을 빚다=karışıklığa yol açmak;혼선이 생기다=karmaşa çıkmak
+가정 폭력|가정 폭력을 신고하다=aile içi şiddeti ihbar etmek;가정 폭력 피해자=aile içi şiddet mağduru
+대응|대응 방안=müdahale yöntemi;신속한 대응=hızlı müdahale
+애매하다|태도가 애매하다=tavrı belirsiz olmak;애매한 대답=muğlak cevap
+충돌|차량 충돌=araç çarpışması;의견 충돌=görüş çatışması
+단계적|단계적으로 추진하다=aşamalı olarak yürütmek;단계적 접근=kademeli yaklaşım
+숨소리|숨소리가 거칠다=nefesi hızlı olmak;고른 숨소리=düzenli nefes sesi
+제출하다|서류를 제출하다=belge teslim etmek;과제를 제출하다=ödev teslim etmek
+식비|식비를 줄이다=yemek masrafını azaltmak;한 달 식비=aylık yemek gideri
+# --- 42 ---
+상상하다|미래를 상상하다=geleceği hayal etmek;상상할 수 없다=hayal bile edilemez
+지진|지진이 일어나다=deprem olmak;지진에 대비하다=depreme hazırlıklı olmak
+상황실|재난 상황실=afet koordinasyon merkezi;상황실을 운영하다=kriz masası işletmek
+신고|분실 신고=kayıp bildirimi;신고를 받다=ihbar almak
+기상청|기상청 예보=meteoroloji tahmini;기상청이 발표하다=meteoroloji açıklamak
+이를 닦다|자기 전에 이를 닦다=yatmadan önce dişlerini fırçalamak;식사 후 이를 닦다=yemekten sonra diş fırçalamak
+별로|별로 좋지 않다=pek iyi değil;별로 없다=pek yok
+상하다|음식이 상하다=yemek bozulmak;마음이 상하다=gönlü kırılmak
+꼼꼼하다|성격이 꼼꼼하다=titiz biri olmak;꼼꼼하게 확인하다=özenle kontrol etmek
+그만두다|회사를 그만두다=işten ayrılmak;공부를 그만두다=okumayı bırakmak
+퇴사|퇴사를 하다=işten ayrılmak;퇴사 이유=istifa nedeni
+모래시계|모래시계를 뒤집다=kum saatini ters çevirmek;모래시계 모양=kum saati şekli
+모래|모래성=kumdan kale;모래사장=kumsal
+기구|운동 기구=spor aleti;실험 기구=deney aracı
+구멍|구멍이 나다=delik açılmak;구멍을 뚫다=delik delmek
+액자|액자에 넣다=çerçeveye koymak;사진 액자=fotoğraf çerçevesi
+천장|천장이 높다=tavan yüksek olmak;천장에 매달다=tavana asmak
+단독|단독 주택=müstakil ev;단독으로 결정하다=tek başına karar vermek
+여권|여권을 발급받다=pasaport çıkarmak;여권을 잃어버리다=pasaportu kaybetmek
+신분증|신분증을 보여 주다=kimlik göstermek;신분증을 지참하다=kimliğini yanında taşımak
+표지|책 표지=kitap kapağı;표지를 넘기다=kapağı çevirmek
+상징하다|평화를 상징하다=barışı simgelemek;국가를 상징하다=ülkeyi temsil etmek
+주요|주요 내용=ana içerik;주요 도시=başlıca şehirler
+문양|전통 문양=geleneksel motif;꽃 문양=çiçek deseni
+장거리|장거리 여행=uzun yolculuk;장거리 연애=uzak mesafe ilişkisi
+태풍|태풍이 오다=tayfun gelmek;태풍 피해=tayfun hasarı
+휩쓸다|태풍이 마을을 휩쓸다=tayfun köyü silip süpürmek;상을 휩쓸다=ödülleri toplamak
+드물다|드문 일=nadir olay;사람이 드물다=insan seyrek olmak
+부상당하다|사고로 부상당하다=kazada yaralanmak;크게 부상당하다=ağır yaralanmak
+오히려|오히려 좋다=aksine iyi olmak;오히려 더 나빠지다=tersine daha da kötüleşmek
+전략|전략을 세우다=strateji belirlemek;마케팅 전략=pazarlama stratejisi
+미치다|영향을 미치다=etki etmek;기준에 못 미치다=ölçüte ulaşamamak
+재난|재난 대비=afete hazırlık;재난 문자=afet uyarı mesajı
+끔찍하다|끔찍한 사고=korkunç kaza;생각만 해도 끔찍하다=düşünmesi bile korkunç
+접하다|소식을 접하다=haberi almak;문화를 접하다=bir kültürle tanışmak
+정신 건강|정신 건강을 지키다=ruh sağlığını korumak;정신 건강 상담=ruh sağlığı danışmanlığı
+해결하다|문제를 해결하다=sorunu çözmek;갈등을 해결하다=anlaşmazlığı halletmek
+시일|시일이 걸리다=zaman almak;빠른 시일 내에=en kısa sürede
+상담사|상담사와 이야기하다=danışmanla konuşmak;심리 상담사=psikolojik danışman
+더불다|이웃과 더불어 살다=komşularla birlikte yaşamak;자연과 더불어=doğayla beraber
+등 떠밀다|등 떠밀려 결혼하다=istemeden zorla evlenmek;등 떠밀려 나가다=itilip kakılarak çıkmak
+발 벗고 나서다|이웃을 돕기 위해 발 벗고 나서다=komşuya yardım için kolları sıvamak;문제 해결에 발 벗고 나서다=sorunu çözmek için seferber olmak
+손에 땀을 쥐다|손에 땀을 쥐는 경기=nefes kesen maç;손에 땀을 쥐고 보다=heyecanla izlemek
+창고|창고에 보관하다=depoda saklamak;물류 창고=lojistik deposu
+왈칵|눈물이 왈칵 쏟아지다=gözyaşları birden boşalmak;화가 왈칵 나다=birden öfkelenmek
+일기장|일기장에 쓰다=günlüğe yazmak;일기장을 펼치다=günlüğü açmak
+혼나다|선생님께 혼나다=öğretmenden azar işitmek;크게 혼나다=fena fırça yemek

@@ -42,6 +42,7 @@ Oyuna alınan kelime: **2689** · tekrar edenler atlandı: 23
 | 비비다 | anlam: “kıpırdanmak, ovuşturmak” → “ovuşturmak, ovmak” | anlam düzeltmesi |
 | 중세 | anlam: “Orta Çağ” → “Orta Çağ” | anlam düzeltmesi |
 | 비록 | anlam: “Her ne kadar, -se de, öte yandan” → “her ne kadar, -se de” | anlam düzeltmesi |
+| 외면하다 | anlam: “görmezden gelinmiş, dışlanmış” → “görmezden gelmek, yüz çevirmek” | anlam düzeltmesi |
 | 훽 | 홱 | yazım düzeltmesi |
 | 빠곡히 | 빼곡히 | yazım düzeltmesi |
 | 최대하다 | 최대한 | yazım düzeltmesi |

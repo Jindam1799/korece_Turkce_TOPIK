@@ -2077,153 +2077,153 @@
 가로|yatay|가로로 놓다=yatay koymak;가로 길이=genişlik
 세로|dikey|세로로 쓰다=dikey yazmak;세로 길이=yükseklik
 #40
-차량|araç, taşıt
-주택|ev, konut
-통장|banka hesabı defteri, hesap
-장기적|uzun vadeli
-분산하다|dağıtmak, yaymak
-단기적|kısa vadeli
-은퇴|emeklilik
-목돈|yüklü miktar para, toplu para
-각종|çeşitli, türlü
-문방구|kırtasiye eşyaları
-학문|bilim, öğrenim, akademik bilgi
-출세|yükselme, kariyer başarısı||yükselme, kariyer başarısı, mevki kazanma
-양반|soylu sınıf, aristokrat
-사대부|aristokrat, üst sınıf bilginler
-상인|tüccar
-탁자|masa, küçük masa
-일상 용품|gündelik eşyalar
-문화재|kültürel miras, tarihi eser
-복원 작업|restorasyon çalışması, onarım işi
-손상되다|zarar görmek, hasar almak
-요건|koşul, gereklilik, şart
-충족하다|karşılamak, yerine getirmek
-정밀하다|hassas, ince, detaylı
-수월하다|kolay, zahmetsiz
-만지다|dokunmak, ellemek
-지각|algı, duyum
-능동적|aktif, etkin
-햇빛|güneş ışığı
-접촉|temas, dokunma
-유대감|bağlılık, bağ kurma hissi
-유아|küçük çocuk, bebek
-지능|zekâ, akıl yeteneği
-상관관계|ilişki, bağlantı, korelasyon
-버섯|mantar
-양분|besin, gıda maddesi
-뿌리|kök
-실|ip, tel, ince lif
-뻗다|uzanmak, yayılmak, uzatmak
-처벌|ceza, cezalandırma
-법안|yasa tasarısı, kanun teklifi
-국회|meclis, parlamento
-안건|gündem maddesi, öneri, tasarı
-반쪽짜리|yarım yamalak, eksik, tam olmayan
-가해자|suçlu, zarar veren kişi, fail
-효력|geçerlilik, yürürlük, etki
-경각심|farkındalık, uyarı bilinci, dikkat
-왕관|taç
-지배 계층|yönetici sınıf
-장신구|süs eşyası, aksesuar
-화려하다|gösterişli, ihtişamlı
+차량|araç, taşıt|차량 통행=araç trafiği;차량을 운전하다=araç kullanmak
+주택|ev, konut|주택 가격=konut fiyatları;단독 주택=müstakil ev
+통장|banka hesabı defteri, hesap|통장을 만들다=banka hesabı açmak;통장 잔고=hesap bakiyesi
+장기적|uzun vadeli|장기적인 계획=uzun vadeli plan;장기적으로 보다=uzun vadede bakmak
+분산하다|dağıtmak, yaymak|위험을 분산하다=riski dağıtmak;인구를 분산하다=nüfusu yaymak
+단기적|kısa vadeli|단기적인 목표=kısa vadeli hedef;단기적으로=kısa vadede
+은퇴|emeklilik|은퇴 후=emeklilikten sonra;은퇴를 준비하다=emekliliğe hazırlanmak
+목돈|yüklü miktar para, toplu para|목돈을 모으다=toplu para biriktirmek;목돈이 들다=yüklü para gerekmek
+각종|çeşitli, türlü|각종 행사=çeşitli etkinlikler;각종 질병=türlü hastalıklar
+문방구|kırtasiye eşyaları|문방구에 가다=kırtasiyeye gitmek;문방구 주인=kırtasiyeci
+학문|bilim, öğrenim, akademik bilgi|학문을 닦다=ilim tahsil etmek;학문의 자유=akademik özgürlük
+출세|yükselme, kariyer başarısı|출세를 하다=hayatta yükselmek;출세의 길=başarıya giden yol|yükselme, kariyer başarısı, mevki kazanma
+양반|soylu sınıf, aristokrat|양반 가문=soylu aile;양반 계층=aristokrat sınıf
+사대부|aristokrat, üst sınıf bilginler|사대부 계층=bilgin aristokrat sınıfı;조선의 사대부=Joseon'un yönetici bilginleri
+상인|tüccar|상인 계층=tüccar sınıfı;시장 상인=pazar esnafı
+탁자|masa, küçük masa|탁자 위=masanın üstü;둥근 탁자=yuvarlak masa
+일상 용품|gündelik eşyalar|일상 용품을 사다=günlük eşyalar almak;일상 용품 가게=züccaciye dükkânı
+문화재|kültürel miras, tarihi eser|문화재를 보호하다=kültürel mirası korumak;문화재로 지정되다=tarihî eser olarak tescil edilmek
+복원 작업|restorasyon çalışması, onarım işi|문화재 복원 작업=tarihî eser restorasyonu;복원 작업이 끝나다=restorasyon tamamlanmak
+손상되다|zarar görmek, hasar almak|건물이 손상되다=bina hasar görmek;피부가 손상되다=cilt yıpranmak
+요건|koşul, gereklilik, şart|자격 요건=nitelik koşulları;요건을 갖추다=şartları taşımak
+충족하다|karşılamak, yerine getirmek|조건을 충족하다=koşulları karşılamak;기대를 충족하다=beklentiyi karşılamak
+정밀하다|hassas, ince, detaylı|정밀한 검사=detaylı muayene;정밀한 기계=hassas makine
+수월하다|kolay, zahmetsiz|일이 수월하다=iş kolay olmak;수월하게 끝내다=zahmetsizce bitirmek
+만지다|dokunmak, ellemek|손으로 만지다=elle dokunmak;작품을 만지지 마세요=eserlere dokunmayın
+지각|algı, duyum|감각 지각=duyusal algı;지각 능력=algılama yeteneği
+능동적|aktif, etkin|능동적인 태도=etkin tutum;능동적으로 참여하다=aktif katılmak
+햇빛|güneş ışığı|햇빛이 비치다=güneş ışığı vurmak;햇빛을 쬐다=güneşlenmek
+접촉|temas, dokunma|신체 접촉=fiziksel temas;접촉을 피하다=temastan kaçınmak
+유대감|bağlılık, bağ kurma hissi|유대감을 형성하다=bağ kurmak;가족 간의 유대감=aile bağı
+유아|küçük çocuk, bebek|유아 교육=okul öncesi eğitim;유아용 의자=bebek sandalyesi
+지능|zekâ, akıl yeteneği|지능이 높다=zekâsı yüksek olmak;인공 지능=yapay zekâ
+상관관계|ilişki, bağlantı, korelasyon|상관관계가 있다=ilişki olmak;밀접한 상관관계=güçlü korelasyon
+버섯|mantar|버섯을 따다=mantar toplamak;독버섯=zehirli mantar
+양분|besin, gıda maddesi|양분을 흡수하다=besin emmek;양분이 풍부하다=besin açısından zengin olmak
+뿌리|kök|뿌리를 내리다=kök salmak;뿌리가 깊다=kökleri derin olmak
+실|ip, tel, ince lif|실을 꿰다=iplik geçirmek;바늘과 실=iğne iplik
+뻗다|uzanmak, yayılmak, uzatmak|팔을 뻗다=kolunu uzatmak;뿌리가 뻗다=kökler yayılmak
+처벌|ceza, cezalandırma|처벌을 받다=cezalandırılmak;처벌을 강화하다=cezaları ağırlaştırmak
+법안|yasa tasarısı, kanun teklifi|법안을 발의하다=yasa teklifi vermek;법안이 통과되다=yasa tasarısı kabul edilmek
+국회|meclis, parlamento|국회에서 논의하다=mecliste görüşmek;국회 의사당=meclis binası
+안건|gündem maddesi, öneri, tasarı|안건을 상정하다=gündeme almak;안건을 처리하다=gündem maddesini görüşmek
+반쪽짜리|yarım yamalak, eksik, tam olmayan|반쪽짜리 대책=yarım yamalak önlem;반쪽짜리 성공=eksik bir başarı
+가해자|suçlu, zarar veren kişi, fail|가해자를 처벌하다=faili cezalandırmak;가해자와 피해자=fail ve mağdur
+효력|geçerlilik, yürürlük, etki|효력이 발생하다=yürürlüğe girmek;효력을 잃다=geçerliliğini yitirmek
+경각심|farkındalık, uyarı bilinci, dikkat|경각심을 일깨우다=farkındalık uyandırmak;경각심을 갖다=tetikte olmak
+왕관|taç|왕관을 쓰다=taç giymek;금 왕관=altın taç
+지배 계층|yönetici sınıf|지배 계층의 문화=yönetici sınıfın kültürü;지배 계층에 속하다=yönetici sınıfa ait olmak
+장신구|süs eşyası, aksesuar|장신구를 하다=takı takmak;금 장신구=altın aksesuar
+화려하다|gösterişli, ihtişamlı|화려한 옷=gösterişli kıyafet;화려한 무대=görkemli sahne
 #41
-더욱|daha çok, daha da
-고귀하다|soylu, yüce
-구하다|elde etmek, aramak, kurtarmak||elde etmek, aramak, kurtarmak (bağlama göre)
-몇몇|birkaç, bazı
-기금|fon, kaynak (özellikle bağış fonu)
-액수|miktar, tutar
-편견|önyargı
-외면하다|görmezden gelinmiş, dışlanmış
-무해하다|zararsız
-지면|basılı sayfa, yayın alanı||basılı sayfa, yayın alanı (gazete/dergi sayfası)
-배반|ihanet
-이별|ayrılık, vedalaşma
-매듭짓다|bağlamak, sonlandırmak, çözmek||bağlamak, sonlandırmak, çözmek (bir işi bitirmek)
-괴롭다|acı verici, üzücü
-단편|kısa hikâye, öykü
-작별 인사|veda selamı, vedalaşma sözü
-신호|işaret, sinyal
-홱|hızla, aniden||hızla, aniden (birden bire yapılan hareketi anlatan ses taklidi)
-현관|giriş, kapı önü (evin dış kapı bölümü)
-벌떡|hızla, aniden ayağa kalkmak||hızla, aniden ayağa kalkmak (birden doğrulmak)
-맨발|yalınayak
-불안하다|endişeli olmak, kaygılı olmak
-흡족하다|memnun olmak, tatmin olmak
-까다롭다|zor, titiz, zahmetli
-제사|atalara sunulan ayin, anma töreni
-예법|tören kuralları||tören kuralları, geleneksel ritüel düzeni
-공경하다|saygı göstermek
-화목|uyum, huzurlu birliktelik
-정성|içtenlik, samimiyet, özen
-상차림|sofra düzeni, yemek hazırlığı
-간소하다|sade, basit
-운영자|işletmeci, yönetici||işletmeci, yönetici (bir sistemi veya kanalı yöneten kişi)
-계정|hesap||hesap (özellikle SNS veya internet hesabı)
-개별|bireysel, tek tek
-무한하다|sonsuz, sınırsız
-지방자치단체|yerel yönetim
-경찰|polis
-밀착되다|yakın olmak, sıkı bağ kurmak
-취약점|zayıf nokta, kırılganlık
-혼선|karışıklık, karmaşa
-가정 폭력|aile içi şiddet
-대응|müdahale, karşılık verme
-애매하다|belirsiz, muğlak
-충돌|çarpışma, çatışma, çakışma
-단계적|aşamalı, kademeli
-숨소리|nefes sesi
-제출하다|sunmak, teslim etmek, göndermek
-식비|yemek masrafları, yiyecek giderleri
+더욱|daha çok, daha da|더욱 노력하다=daha çok çabalamak;더욱 중요하다=daha da önemli olmak
+고귀하다|soylu, yüce|고귀한 희생=yüce fedakârlık;고귀한 신분=soylu statü
+구하다|elde etmek, aramak, kurtarmak|일자리를 구하다=iş aramak;사람을 구하다=birini kurtarmak|elde etmek, aramak, kurtarmak (bağlama göre)
+몇몇|birkaç, bazı|몇몇 사람=bazı insanlar;몇몇 지역=birkaç bölge
+기금|fon, kaynak (özellikle bağış fonu)|기금을 마련하다=fon oluşturmak;장학 기금=burs fonu
+액수|miktar, tutar|큰 액수=büyük meblağ;액수가 적다=tutar az olmak
+편견|önyargı|편견을 갖다=önyargılı olmak;편견을 버리다=önyargıdan kurtulmak
+외면하다|görmezden gelmek, yüz çevirmek|현실을 외면하다=gerçeklerden yüz çevirmek;도움을 외면하다=yardımı görmezden gelmek
+무해하다|zararsız|인체에 무해하다=insan sağlığına zararsız olmak;무해한 성분=zararsız içerik
+지면|basılı sayfa, yayın alanı|지면을 통해=gazete sayfaları aracılığıyla;지면에 싣다=sayfada yayımlamak|basılı sayfa, yayın alanı (gazete/dergi sayfası)
+배반|ihanet|배반을 당하다=ihanete uğramak;친구의 배반=arkadaşın ihaneti
+이별|ayrılık, vedalaşma|이별을 하다=ayrılmak;슬픈 이별=hüzünlü ayrılık
+매듭짓다|bağlamak, sonlandırmak, çözmek|협상을 매듭짓다=müzakereleri sonuçlandırmak;일을 매듭짓다=işi bağlamak|bağlamak, sonlandırmak, çözmek (bir işi bitirmek)
+괴롭다|acı verici, üzücü|마음이 괴롭다=yüreği sızlamak;괴로운 기억=acı veren anı
+단편|kısa hikâye, öykü|단편 소설=kısa öykü;단편 영화=kısa film
+작별 인사|veda selamı, vedalaşma sözü|작별 인사를 하다=veda etmek;마지막 작별 인사=son veda
+신호|işaret, sinyal|신호를 보내다=işaret vermek;신호등=trafik ışığı
+홱|hızla, aniden|홱 돌아서다=birden arkasını dönmek;고개를 홱 돌리다=başını aniden çevirmek|hızla, aniden (birden bire yapılan hareketi anlatan ses taklidi)
+현관|giriş, kapı önü (evin dış kapı bölümü)|현관문=dış kapı;현관에서 신발을 벗다=girişte ayakkabıları çıkarmak
+벌떡|hızla, aniden ayağa kalkmak|벌떡 일어나다=birden ayağa fırlamak;벌떡 일어서다=hemen kalkmak|hızla, aniden ayağa kalkmak (birden doğrulmak)
+맨발|yalınayak|맨발로 걷다=yalınayak yürümek;맨발로 뛰어나가다=yalınayak dışarı koşmak
+불안하다|endişeli olmak, kaygılı olmak|마음이 불안하다=içi huzursuz olmak;불안한 미래=belirsiz gelecek
+흡족하다|memnun olmak, tatmin olmak|결과에 흡족하다=sonuçtan memnun olmak;흡족한 미소=hoşnut gülümseme
+까다롭다|zor, titiz, zahmetli|입맛이 까다롭다=yemek konusunda seçici olmak;조건이 까다롭다=koşullar zor olmak
+제사|atalara sunulan ayin, anma töreni|제사를 지내다=atalara anma töreni yapmak;제사 음식=anma töreni yemekleri
+예법|tören kuralları|예법을 지키다=adaba uymak;전통 예법=geleneksel görgü kuralları|tören kuralları, geleneksel ritüel düzeni
+공경하다|saygı göstermek|어른을 공경하다=büyüklere saygı göstermek;부모를 공경하다=anne babaya hürmet etmek
+화목|uyum, huzurlu birliktelik|가정의 화목=aile huzuru;화목하게 지내다=uyum içinde yaşamak
+정성|içtenlik, samimiyet, özen|정성을 다하다=tüm özenini göstermek;정성이 담기다=emek ve içtenlik taşımak
+상차림|sofra düzeni, yemek hazırlığı|명절 상차림=bayram sofrası;간소한 상차림=sade sofra
+간소하다|sade, basit|간소한 결혼식=sade düğün;절차를 간소하게 하다=işlemleri basitleştirmek
+운영자|işletmeci, yönetici|사이트 운영자=site yöneticisi;가게 운영자=dükkân işletmecisi|işletmeci, yönetici (bir sistemi veya kanalı yöneten kişi)
+계정|hesap|계정을 만들다=hesap açmak;계정에 로그인하다=hesaba giriş yapmak|hesap (özellikle SNS veya internet hesabı)
+개별|bireysel, tek tek|개별 상담=bireysel görüşme;개별적으로=tek tek
+무한하다|sonsuz, sınırsız|무한한 가능성=sınırsız olasılık;무한한 사랑=sonsuz sevgi
+지방자치단체|yerel yönetim|지방자치단체장=yerel yönetim başkanı;지방자치단체의 지원=belediye desteği
+경찰|polis|경찰에 신고하다=polise bildirmek;경찰서=karakol
+밀착되다|yakın olmak, sıkı bağ kurmak|몸에 밀착되다=vücuda sıkıca oturmak;생활에 밀착되다=gündelik hayata sıkı bağlı olmak
+취약점|zayıf nokta, kırılganlık|취약점을 보완하다=zayıf noktayı gidermek;보안 취약점=güvenlik açığı
+혼선|karışıklık, karmaşa|혼선을 빚다=karışıklığa yol açmak;혼선이 생기다=karmaşa çıkmak
+가정 폭력|aile içi şiddet|가정 폭력을 신고하다=aile içi şiddeti ihbar etmek;가정 폭력 피해자=aile içi şiddet mağduru
+대응|müdahale, karşılık verme|대응 방안=müdahale yöntemi;신속한 대응=hızlı müdahale
+애매하다|belirsiz, muğlak|태도가 애매하다=tavrı belirsiz olmak;애매한 대답=muğlak cevap
+충돌|çarpışma, çatışma, çakışma|차량 충돌=araç çarpışması;의견 충돌=görüş çatışması
+단계적|aşamalı, kademeli|단계적으로 추진하다=aşamalı olarak yürütmek;단계적 접근=kademeli yaklaşım
+숨소리|nefes sesi|숨소리가 거칠다=nefesi hızlı olmak;고른 숨소리=düzenli nefes sesi
+제출하다|sunmak, teslim etmek, göndermek|서류를 제출하다=belge teslim etmek;과제를 제출하다=ödev teslim etmek
+식비|yemek masrafları, yiyecek giderleri|식비를 줄이다=yemek masrafını azaltmak;한 달 식비=aylık yemek gideri
 #42
-상상하다|hayal etmek, tasavvur etmek
-지진|deprem
-상황실|acil durum merkezi, kontrol odası
-신고|bildirim, ihbar, şikâyet
-기상청|meteoroloji kurumu
-이를 닦다|diş fırçalamak
-별로|pek, fazla||pek, fazla (çoğunlukla olumsuz cümlede kullanılır)
-상하다|zarar görmek, bozulmak
-꼼꼼하다|dikkatli, titiz, özenli
-그만두다|bırakmak, vazgeçmek, istifa etmek
-퇴사|işten ayrılma, istifa
-모래시계|kum saati
-모래|kum
-기구|araç, alet, cihaz
-구멍|delik, boşluk
-액자|çerçeve
-천장|tavan
-단독|tek başına, bağımsız
-여권|pasaport
-신분증|kimlik kartı
-표지|kapak, dış yüz
-상징하다|simgesel olarak göstermek, temsil etmek
-주요|önemli, başlıca
-문양|desen, motif
-장거리|uzun mesafe
-태풍|tayfun
-휩쓸다|sürüklemek, kapılmak
-드물다|nadir, seyrek
-부상당하다|yaralanmak
-오히려|aksine, tersine
-전략|strateji
-미치다|ulaşmak, erişmek
-재난|felaket, afet
-끔찍하다|korkunç, dehşet verici
-접하다|karşılaşmak, temas etmek
-정신 건강|ruh sağlığı
-해결하다|çözmek, halletmek
-시일|süre, zaman
-상담사|danışman, terapist
-더불다|birlikte yapmak, beraber olmak
-등 떠밀다|zorla itmek, istemeden yaptırmak
-발 벗고 나서다|kolları sıvamak||kolları sıvamak, aktif olarak işe girişmek
-손에 땀을 쥐다|avuçları terlemek, çok heyecanlanmak||avuçları terlemek, çok heyecanlanmak, gerilmek
-창고|depo
-왈칵|birdenbire, taşarcasına||birdenbire, taşarcasına (özellikle gözyaşı)
-일기장|günlük defteri
-혼나다|azar işitmek, fırça yemek
+상상하다|hayal etmek, tasavvur etmek|미래를 상상하다=geleceği hayal etmek;상상할 수 없다=hayal bile edilemez
+지진|deprem|지진이 일어나다=deprem olmak;지진에 대비하다=depreme hazırlıklı olmak
+상황실|acil durum merkezi, kontrol odası|재난 상황실=afet koordinasyon merkezi;상황실을 운영하다=kriz masası işletmek
+신고|bildirim, ihbar, şikâyet|분실 신고=kayıp bildirimi;신고를 받다=ihbar almak
+기상청|meteoroloji kurumu|기상청 예보=meteoroloji tahmini;기상청이 발표하다=meteoroloji açıklamak
+이를 닦다|diş fırçalamak|자기 전에 이를 닦다=yatmadan önce dişlerini fırçalamak;식사 후 이를 닦다=yemekten sonra diş fırçalamak
+별로|pek, fazla|별로 좋지 않다=pek iyi değil;별로 없다=pek yok|pek, fazla (çoğunlukla olumsuz cümlede kullanılır)
+상하다|zarar görmek, bozulmak|음식이 상하다=yemek bozulmak;마음이 상하다=gönlü kırılmak
+꼼꼼하다|dikkatli, titiz, özenli|성격이 꼼꼼하다=titiz biri olmak;꼼꼼하게 확인하다=özenle kontrol etmek
+그만두다|bırakmak, vazgeçmek, istifa etmek|회사를 그만두다=işten ayrılmak;공부를 그만두다=okumayı bırakmak
+퇴사|işten ayrılma, istifa|퇴사를 하다=işten ayrılmak;퇴사 이유=istifa nedeni
+모래시계|kum saati|모래시계를 뒤집다=kum saatini ters çevirmek;모래시계 모양=kum saati şekli
+모래|kum|모래성=kumdan kale;모래사장=kumsal
+기구|araç, alet, cihaz|운동 기구=spor aleti;실험 기구=deney aracı
+구멍|delik, boşluk|구멍이 나다=delik açılmak;구멍을 뚫다=delik delmek
+액자|çerçeve|액자에 넣다=çerçeveye koymak;사진 액자=fotoğraf çerçevesi
+천장|tavan|천장이 높다=tavan yüksek olmak;천장에 매달다=tavana asmak
+단독|tek başına, bağımsız|단독 주택=müstakil ev;단독으로 결정하다=tek başına karar vermek
+여권|pasaport|여권을 발급받다=pasaport çıkarmak;여권을 잃어버리다=pasaportu kaybetmek
+신분증|kimlik kartı|신분증을 보여 주다=kimlik göstermek;신분증을 지참하다=kimliğini yanında taşımak
+표지|kapak, dış yüz|책 표지=kitap kapağı;표지를 넘기다=kapağı çevirmek
+상징하다|simgesel olarak göstermek, temsil etmek|평화를 상징하다=barışı simgelemek;국가를 상징하다=ülkeyi temsil etmek
+주요|önemli, başlıca|주요 내용=ana içerik;주요 도시=başlıca şehirler
+문양|desen, motif|전통 문양=geleneksel motif;꽃 문양=çiçek deseni
+장거리|uzun mesafe|장거리 여행=uzun yolculuk;장거리 연애=uzak mesafe ilişkisi
+태풍|tayfun|태풍이 오다=tayfun gelmek;태풍 피해=tayfun hasarı
+휩쓸다|sürüklemek, kapılmak|태풍이 마을을 휩쓸다=tayfun köyü silip süpürmek;상을 휩쓸다=ödülleri toplamak
+드물다|nadir, seyrek|드문 일=nadir olay;사람이 드물다=insan seyrek olmak
+부상당하다|yaralanmak|사고로 부상당하다=kazada yaralanmak;크게 부상당하다=ağır yaralanmak
+오히려|aksine, tersine|오히려 좋다=aksine iyi olmak;오히려 더 나빠지다=tersine daha da kötüleşmek
+전략|strateji|전략을 세우다=strateji belirlemek;마케팅 전략=pazarlama stratejisi
+미치다|ulaşmak, erişmek|영향을 미치다=etki etmek;기준에 못 미치다=ölçüte ulaşamamak
+재난|felaket, afet|재난 대비=afete hazırlık;재난 문자=afet uyarı mesajı
+끔찍하다|korkunç, dehşet verici|끔찍한 사고=korkunç kaza;생각만 해도 끔찍하다=düşünmesi bile korkunç
+접하다|karşılaşmak, temas etmek|소식을 접하다=haberi almak;문화를 접하다=bir kültürle tanışmak
+정신 건강|ruh sağlığı|정신 건강을 지키다=ruh sağlığını korumak;정신 건강 상담=ruh sağlığı danışmanlığı
+해결하다|çözmek, halletmek|문제를 해결하다=sorunu çözmek;갈등을 해결하다=anlaşmazlığı halletmek
+시일|süre, zaman|시일이 걸리다=zaman almak;빠른 시일 내에=en kısa sürede
+상담사|danışman, terapist|상담사와 이야기하다=danışmanla konuşmak;심리 상담사=psikolojik danışman
+더불다|birlikte yapmak, beraber olmak|이웃과 더불어 살다=komşularla birlikte yaşamak;자연과 더불어=doğayla beraber
+등 떠밀다|zorla itmek, istemeden yaptırmak|등 떠밀려 결혼하다=istemeden zorla evlenmek;등 떠밀려 나가다=itilip kakılarak çıkmak
+발 벗고 나서다|kolları sıvamak|이웃을 돕기 위해 발 벗고 나서다=komşuya yardım için kolları sıvamak;문제 해결에 발 벗고 나서다=sorunu çözmek için seferber olmak|kolları sıvamak, aktif olarak işe girişmek
+손에 땀을 쥐다|avuçları terlemek, çok heyecanlanmak|손에 땀을 쥐는 경기=nefes kesen maç;손에 땀을 쥐고 보다=heyecanla izlemek|avuçları terlemek, çok heyecanlanmak, gerilmek
+창고|depo|창고에 보관하다=depoda saklamak;물류 창고=lojistik deposu
+왈칵|birdenbire, taşarcasına|눈물이 왈칵 쏟아지다=gözyaşları birden boşalmak;화가 왈칵 나다=birden öfkelenmek|birdenbire, taşarcasına (özellikle gözyaşı)
+일기장|günlük defteri|일기장에 쓰다=günlüğe yazmak;일기장을 펼치다=günlüğü açmak
+혼나다|azar işitmek, fırça yemek|선생님께 혼나다=öğretmenden azar işitmek;크게 혼나다=fena fırça yemek
 #43
 빼곡히|sıkıca, eksiksiz, dolu dolu||sıkıca, eksiksiz, dolu dolu, ayrıntılı şekilde
 적다|yazmak, kaydetmek
