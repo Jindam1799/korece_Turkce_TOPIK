@@ -7,7 +7,7 @@ const SPK='<svg><use href="#i-spk"/></svg>';
 const CH=window.FOREST_CHAR;
 const CFG=window.SITE_CONFIG||{};
 const OWNER=CFG.owner||'Wonju (원주)';
-const CONTACT=(CFG.contact||'').trim();
+const CONTACT=(CFG.contact||'').trim(),KAKAO=(CFG.kakao||'').trim(),INSTA=(CFG.instagram||'').trim().replace(/^@/,'');
 
 // ---------- kelimeler ----------
 const isVerb=tr=>/m[ae]k(\b|\s|\)|,|$)/i.test(tr);
@@ -35,7 +35,14 @@ const clash=(a,b)=>{const x=norm(a),y=norm(b);return !x||!y||x===y||x.includes(y
 
 // ---------- dil ----------
 const TX={
-tr:{sub:'Korece kelime ormanı · A1–B2',myProg:'İlerleme tablom',stLearned:'Öğrenildi',stReview:'Tekrar edilecek',stNew:'Henüz çalışılmadı',learned:'Öğrenilen',toReview:'Tekrar',bestStreak:'En iyi seri',
+tr:{sub:'Korece kelime ormanı · A1–B2',a2hsT:'📲 Ana ekrana ekle (uygulama gibi kullan)',installBtn:'Ana ekrana ekle',
+ and1:'Bu sayfayı Chrome\'da aç.',and2:'Sağ üstteki ⋮ menüsüne dokun.',and3:'“Ana ekrana ekle” ya da “Uygulamayı yükle”yi seç.',
+ ios1:'Bu sayfayı Safari\'de aç.',ios2:'Alttaki Paylaş düğmesine (□↑) dokun.',ios3:'“Ana Ekrana Ekle”yi seç ve “Ekle”ye dokun.',feedback:'💬 덩어리숲 düzenli olarak güncellenmeye devam edecek. Çalışırken zorlandığınız bir şey ya da ihtiyacınız olan bir özellik olursa lütfen bize yazın!',codex:'Bitki rehberi',storyTitle:'Deongi\'nin hikâyesi',
+ story1:'Deongi (덩이), Kore\'deki 덩어리숲 ormanından gelen küçük bir gönül tohumu. Bir bahar rüzgârı onu uçurup İstanbul\'a, Boğaz kıyısındaki lale bahçesine getirdi.',
+ story2:'Deongi Korece kelimelerle beslenir: her doğru cevap bir damla besin. Kelime öğrendikçe filizlenir, çiçek açar ve sonunda efsanevi bir bitkiye dönüşür. Bıyığını İstanbul\'daki ilk dostu simitçi amca hediye etti!',
+ pathH:'Büyüme yolu',famH:'Bitki aileleri',
+ path:[['Lv.1','Gönül Tohumu','Yolculuk başlıyor. Deongi toprağa düştü.'],['Lv.2','Gönül Filizi','İlk iki yaprak çıktı!'],['Lv.3','Aile seçimi','6 bitki ailesinden birini seçersin.'],['Lv.4–9','Büyüme','Her seviyede biraz daha büyür.'],['Lv.10','Evrim','Ailenin 3 yolundan birini seçersin.'],['Lv.15','Gizemli dönüşüm','İki gizemli formdan birini seçersin.'],['Lv.20','Efsanevi form','Antik ve efsanevi bitkiye dönüşür.']],
+ famTxt:(f,mine)=>mine?`Senin ailen: ${f}`:'Başka bir aile — gölge olarak görünür.',locked:'Kilitli',lvReq:n=>`Lv.${n}\'da`,cur:'Şu an',music:'Müzik',musicOn:'Arka plan müziği: Açık',musicOff:'Arka plan müziği: Kapalı',notesH:'Güncelleme notları',notesBtn:'Neler yeni?',kakaoCopied:'KakaoTalk ID kopyalandı ✓',bizTitle:'İş birliği ve iletişim',bizText:'Kurumsal iş birliği, eğitim ve içerik ortaklığı için ulaşabilirsiniz.',myProg:'İlerleme tablom',stLearned:'Öğrenildi',stReview:'Tekrar edilecek',stNew:'Henüz çalışılmadı',learned:'Öğrenilen',toReview:'Tekrar',bestStreak:'En iyi seri',
  start:'Başla',quiz:'Test',cards:'Kartlar',review:n=>`Tekrar ${n}`,allUnits:'Tüm bölümler',unitN:k=>/^\d+$/.test(k)?`Bölüm ${k}`:k,
  level:'Seviye',unit:'Bölüm',timerOn:'12 saniye',timerOff:'Süre yok',timeLimit:'Süre sınırı (test)',
  hint:'Doğru anlama dokun · klavye 1–4',qWord:'Bu kelimenin anlamı nedir?',qPair:'Bu eş kelimenin anlamı nedir?',qHanja:'Bu Çince karakterin anlamı nedir?',
@@ -54,10 +61,10 @@ tr:{sub:'Korece kelime ormanı · A1–B2',myProg:'İlerleme tablom',stLearned:'
  welTitle:'덩어리숲\'e hoş geldin!',
  letter:'Sevgili Türk ve Azerbaycanlı arkadaşlarım, Koreceyi çok çalışıp TOPIK\'i mutlaka geçmenizi ve istediğiniz her şeyi başarmanızı dilerim!',
  sig:'— Koreli arkadaşınız Wonju (원주)',
- thanksPre:'Bu oyunun hazırlanmasında emeği geçen:',thanksPost:'— kelime listesi için çok teşekkürler!',
+ thanksPre:'Bu oyunun hazırlanmasında emeği geçen',thanksPost:'Kelime listesi için çok teşekkürler!',
  how1:'Korece kelimeyi gör, dört seçenekten Türkçe anlamını seç.',how2:'Doğru cevaptan sonra eş kelime bonusuna katıl. Çevirmeli kartlarla da çalışabilirsin.',how3:'Her doğru cevap besin verir; bitki arkadaşın büyür.',
  namePh:'Bitki arkadaşının adı (isteğe bağlı)',chromeTxt:'Bir uygulamanın içindeki tarayıcıdasın. Sesli okuma için Chrome\'da açman daha iyi olur.',openChrome:'Chrome\'da aç',copy:'Kopyala',copied:'Kopyalandı ✓',
- rights:'Tüm hakları saklıdır.',biz:'İş birliği',bizTitle:'İş birliği ve iletişim',bizText:'Kurumsal iş birliği, eğitim ve içerik ortaklığı için e-posta gönderebilirsiniz.',
+ rights:'Tüm hakları saklıdır.',biz:'İş birliği',
  credit:'Kelime listesi: Aslıhan Erdoğan · Karakter çizimleri: 덩어리숲',
  settings:'Ayarlar',lang:'Dil',roundSize:'Bir turdaki kelime',sound:'Ses',autoOn:'Kelimeyi otomatik oku: Açık',autoOff:'Kelimeyi otomatik oku: Kapalı',test:'Sesi dene',name:'Bitki arkadaşının adı',
  look:'Görünüm',stacheOn:'Bıyık: Var',stacheOff:'Bıyık: Yok',
@@ -71,7 +78,14 @@ tr:{sub:'Korece kelime ormanı · A1–B2',myProg:'İlerleme tablom',stLearned:'
  fam:{petal:'Gönül Çiçeği',mushroom:'Gönül Mantarı',succulent:'Gönül Sukulenti',clover:'Gönül Yaprağı',berry:'Gönül Meyvesi',tree:'Gönül Ağacı'},
  route:{sunflower:'Altın Ayçiçeği',rose:'Kraliçe Gül',hibiscus:'Cesur Hibiskus',matsutake:'Kral Matsutake',horn:'Şık Boynuzlu Mantar',reishi:'Parlak Reishi',undulata:'Dev Undulata',euphorbia:'Nazlı Sütleğen',cactus:'Azimli Kaktüs',lucky:'Şanslı Dört Yapraklı Yonca',silver:'Ay Işığı Yoncası',crimson:'Sevecen Kırmızı Yonca',strawberry:'Tatlı Dev Çilek',blueberry:'Yıldızlı Yaban Mersini',raspberry:'Canlı Ahududu',oak:'Sağlam Meşe',willow:'Rüzgârlı Söğüt',ginkgo:'Altın Ginkgo'},
  way:'Yol'},
-ko:{sub:'한국어 단어의 숲 · A1–B2',myProg:'나의 진도표',stLearned:'익힘',stReview:'다시 볼 단어',stNew:'아직 안 함',learned:'익힌 단어',toReview:'복습',bestStreak:'최고 연속',
+ko:{sub:'한국어 단어의 숲 · A1–B2',a2hsT:'📲 홈 화면에 추가하기 (앱처럼 쓰기)',installBtn:'홈 화면에 추가',
+ and1:'이 페이지를 Chrome에서 열어요.',and2:'오른쪽 위 ⋮ 메뉴를 눌러요.',and3:'“홈 화면에 추가” 또는 “앱 설치”를 골라요.',
+ ios1:'이 페이지를 Safari에서 열어요.',ios2:'아래쪽 공유 버튼(□↑)을 눌러요.',ios3:'“홈 화면에 추가”를 고르고 “추가”를 눌러요.',feedback:'💬 덩어리숲은 앞으로도 꾸준히 업데이트돼요. 공부하면서 어려운 점이나 필요한 게 있으면 언제든 건의해 주세요!',codex:'식물 도감',storyTitle:'덩이의 이야기',
+ story1:'덩이는 한국의 덩어리숲에서 온 작은 마음씨예요. 어느 봄바람이 덩이를 이스탄불 보스포루스 해협 옆 튤립 정원까지 데려왔어요.',
+ story2:'덩이는 한국어 단어를 먹고 자라요. 정답 하나가 양분 한 방울! 단어를 익힐수록 싹이 트고 꽃이 피고, 마침내 전설의 식물이 돼요. 콧수염은 이스탄불에서 처음 사귄 친구, 시미트 아저씨의 선물이에요!',
+ pathH:'성장 단계',famH:'식물 계열',
+ path:[['Lv.1','마음씨','여행이 시작돼요. 덩이가 땅에 떨어졌어요.'],['Lv.2','마음싹','첫 떡잎 두 장이 나왔어요!'],['Lv.3','계열 선택','6가지 식물 계열 중 하나를 골라요.'],['Lv.4–9','쑥쑥 성장','레벨마다 조금씩 커져요.'],['Lv.10','진화','계열마다 3가지 길 중 하나를 골라요.'],['Lv.15','신기한 변신','두 갈래 중 하나를 골라요.'],['Lv.20','전설의 모습','고대·전설의 식물로 변신해요.']],
+ famTxt:(f,mine)=>mine?`나의 계열: ${f}`:'다른 계열이에요 — 그림자로 보여요.',locked:'잠김',lvReq:n=>`Lv.${n}`,cur:'지금',music:'음악',musicOn:'배경 음악: 켜짐',musicOff:'배경 음악: 꺼짐',notesH:'업데이트 노트',notesBtn:'새로운 내용 보기',kakaoCopied:'카카오톡 ID 복사됨 ✓',bizTitle:'비즈니스 협업 · 문의',bizText:'기관·기업 협업, 교육·콘텐츠 제휴는 아래로 연락 주세요.',myProg:'나의 진도표',stLearned:'익힘',stReview:'다시 볼 단어',stNew:'아직 안 함',learned:'익힌 단어',toReview:'복습',bestStreak:'최고 연속',
  start:'시작하기',quiz:'퀴즈',cards:'카드',review:n=>`복습 ${n}`,allUnits:'전체 단원',unitN:k=>/^\d+$/.test(k)?`${k}단원`:k,
  level:'단계',unit:'단원',timerOn:'12초',timerOff:'시간제한 없음',timeLimit:'제한 시간 (퀴즈)',
  hint:'알맞은 뜻을 누르세요 · 키보드 1–4',qWord:'이 단어의 뜻은 무엇일까요?',qPair:'이 짝꿍어휘의 뜻은 무엇일까요?',qHanja:'이 한자의 뜻은 무엇일까요?',
@@ -90,10 +104,10 @@ ko:{sub:'한국어 단어의 숲 · A1–B2',myProg:'나의 진도표',stLearned
  welTitle:'덩어리숲에 오신 것을 환영해요!',
  letter:'튀르키예, 아제르바이잔 친구들, 한국어 열심히 공부해서 꼭 토픽을 합격하고 원하는 일 모두 이루기 바랍니다!',
  sig:'— 한국 친구 원주',
- thanksPre:'이 게임을 만드는 데 도움을 준 사람:',thanksPost:'— 단어 자료를 만들어 줘서 정말 고마워요!',
+ thanksPre:'이 게임을 만드는 데 도움을 준 사람',thanksPost:'단어 자료를 만들어 줘서 정말 고마워요!',
  how1:'한국어 단어를 보고 네 개의 보기에서 튀르키예어 뜻을 골라요.',how2:'맞히면 짝꿍어휘 보너스에 도전해요. 카드 뒤집기로도 공부할 수 있어요.',how3:'맞힐 때마다 양분이 쌓여 식물 친구가 자라요.',
  namePh:'식물 친구 이름 (선택)',chromeTxt:'앱 안의 브라우저에서는 음성이 안 나올 수 있어요. Chrome에서 여는 게 좋아요.',openChrome:'Chrome에서 열기',copy:'복사',copied:'복사됨 ✓',
- rights:'All rights reserved.',biz:'비즈니스 협업',bizTitle:'비즈니스 협업 · 문의',bizText:'기관·기업 협업, 교육·콘텐츠 제휴는 이메일로 연락 주세요.',
+ rights:'All rights reserved.',biz:'비즈니스 협업',
  credit:'단어 자료: Aslıhan Erdoğan · 캐릭터 그림: 덩어리숲',
  settings:'설정',lang:'언어',roundSize:'한 판 단어 수',sound:'소리',autoOn:'단어 자동 읽기: 켜짐',autoOff:'단어 자동 읽기: 꺼짐',test:'소리 들어 보기',name:'식물 친구 이름',
  look:'꾸미기',stacheOn:'콧수염: 있음',stacheOff:'콧수염: 없음',
@@ -109,7 +123,7 @@ ko:{sub:'한국어 단어의 숲 · A1–B2',myProg:'나의 진도표',stLearned
  way:'갈래'}
 };
 TX.ko.route=Object.fromEntries(Object.values(CH.GROWTH).flatMap(g=>g.routes.map(r=>[r.id,r.final])));
-let S={lang:'tr',xp:0,level:1,name:'',pet:'',route:'',branch:'',mem:{},retry:[],lv:LEVELS[0].id,unit:'all',timer:true,size:10,auto:true,best:0,stache:true};
+let S={music:true,vol:45,lang:'tr',xp:0,level:1,name:'',pet:'',route:'',branch:'',mem:{},retry:[],lv:LEVELS[0].id,unit:'all',timer:true,size:10,auto:true,best:0,stache:true};
 try{Object.assign(S,JSON.parse(localStorage.getItem('deongeoriForestTR2')||'{}'))}catch(e){}
 S.retry=S.retry.filter(id=>BYID.has(id));if(!LEVELS.some(L=>L.id===S.lv))S.lv=LEVELS[0].id;
 const save=()=>{try{localStorage.setItem('deongeoriForestTR2',JSON.stringify(S))}catch(e){}};
@@ -122,13 +136,13 @@ function applyLang(){
  document.querySelectorAll('[data-ph]').forEach(el=>el.placeholder=t(el.dataset.ph));
  document.querySelectorAll('[data-lang]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.lang===S.lang));
  document.querySelectorAll('.copy').forEach(el=>el.textContent=`© 2026 ${OWNER} · ${t('rights')}`);
- document.querySelectorAll('.bizline').forEach(el=>{el.innerHTML='';if(CONTACT){el.append(document.createElement('br'),`${t('biz')}: `);const a=document.createElement('a');a.href='mailto:'+CONTACT;a.textContent=CONTACT;el.append(a)}});
- $('bizBox').hidden=!CONTACT;if(CONTACT){$('bizMail').href='mailto:'+CONTACT;$('bizMail').textContent=CONTACT}
+ renderLinks();
  renderHome();renderSettings();
  if(state&&!$('game').hidden){renderQuestionText();if(!$('fb').hidden)renderFeedback()}
  if(deck&&!$('cards').hidden)renderCard();
  if(!$('result').hidden)renderResult();
  if(!$('prog').hidden)renderProg();
+ if(!$('mBook').hidden)renderBook();
 }
 document.addEventListener('click',e=>{const b=e.target.closest('[data-lang]');if(b){S.lang=b.dataset.lang;save();applyLang()}});
 
@@ -408,7 +422,7 @@ $('bCards').onclick=()=>startCards();
 $('bReview').onclick=()=>start('review');
 
 document.addEventListener('keydown',e=>{
- if(!$('mLv').hidden||!$('mSet').hidden||!$('mWel').hidden)return;
+ if(!$('mLv').hidden||!$('mSet').hidden||!$('mWel').hidden||!$('mNotes').hidden||!$('mBook').hidden||!introDone)return;
  if(state&&!$('game').hidden){
   if(state.phase==='q'&&/^[1-4]$/.test(e.key))answer(state.options[+e.key-1].id);
   else if(state.phase==='fb'&&e.key==='Enter'&&document.activeElement.tagName!=='BUTTON')$('fNext').click();
@@ -449,6 +463,7 @@ function renderSettings(){
  $('sizeChips').innerHTML=[10,20,30].map(n=>`<button class="chip" data-size="${n}" aria-pressed="${n===S.size}">${n}</button>`).join('');
  $('bTimer').textContent=S.timer?t('timerOn'):t('timerOff');$('bTimer').setAttribute('aria-pressed',S.timer);
  $('bAuto').textContent=S.auto?t('autoOn'):t('autoOff');$('bAuto').setAttribute('aria-pressed',S.auto);
+ $('bMusic').textContent=S.music?t('musicOn'):t('musicOff');$('bMusic').setAttribute('aria-pressed',S.music);$('vol').value=S.vol;
  $('bStache').textContent=S.stache?t('stacheOn'):t('stacheOff');$('bStache').setAttribute('aria-pressed',S.stache);
  $('nameSet').value=S.name;$('bReset').textContent=t('reset');
 }
@@ -460,10 +475,120 @@ $('bTest').onclick=()=>speak('안녕하세요. 토픽 합격을 응원해요!',t
 $('nameSet').addEventListener('input',e=>{S.name=e.target.value.trim();save();renderHome()});
 $('bSet').onclick=()=>{renderSettings();$('mSet').hidden=false};
 $('bSetOk').onclick=()=>{$('mSet').hidden=true};
-$('copyMail').onclick=async()=>{try{await navigator.clipboard.writeText(CONTACT);$('copyMail').textContent=t('copied')}catch(e){}};
 let resetArm=false;
 $('bReset').onclick=()=>{if(!resetArm){resetArm=true;$('bReset').textContent=t('resetSure');setTimeout(()=>{resetArm=false;$('bReset').textContent=t('reset')},3000);return}
  Object.assign(S,{xp:0,level:1,pet:'',route:'',branch:'',mem:{},retry:[],best:0});save();resetArm=false;$('mSet').hidden=true;renderHome()};
+
+// ---------- iletişim bağlantıları ----------
+function renderLinks(){
+ const h=[];
+ if(INSTA)h.push(`<a class="ig" href="https://www.instagram.com/${encodeURIComponent(INSTA)}/" target="_blank" rel="noopener">Instagram @${esc(INSTA)}</a>`);
+ if(KAKAO)h.push(`<button class="kk" data-copy="${esc(KAKAO)}">KakaoTalk ID: ${esc(KAKAO)} · ${esc(t('copy'))}</button>`);
+ if(CONTACT)h.push(`<a class="ml" href="mailto:${esc(CONTACT)}">✉ ${esc(CONTACT)}</a>`);
+ ['links','linksW','linksN'].forEach(id=>{$(id).innerHTML=h.join('')});
+}
+document.addEventListener('click',async e=>{const b=e.target.closest('[data-copy]');if(!b)return;
+ try{await navigator.clipboard.writeText(b.dataset.copy);b.textContent=t('kakaoCopied')}catch(err){b.textContent='KakaoTalk ID: '+b.dataset.copy}});
+
+// ---------- bitki rehberi (도감) ----------
+let bookFam=null;
+function svgAt(pet,lv,route,branch,lock){CH.setProfile({routes:route?{[pet]:route}:{},branches:branch?{[pet]:branch}:{}});return CH.creatureSVG(pet,route||null,lv,undefined,lock,branch||null)}
+function renderBook(){
+ $('bkMascot').innerHTML=art();
+ const L=S.level,stageIdx=L>=20?6:L>=15?5:L>=10?4:L>=4?3:L>=3?2:L>=2?1:0,mins=[1,2,3,4,10,15,20];
+ $('bkPath').innerHTML=t('path').map(([lv,n,d],i)=>`<li class="${L>=mins[i]?'on':''}${i===stageIdx?' now':''}"><span class="lv">${esc(lv)}</span><div><b>${esc(n)}${i===stageIdx?` · ${esc(t('cur'))}`:''}</b><small>${esc(d)}</small></div></li>`).join('');
+ const fams=Object.keys(CH.GROWTH);bookFam=bookFam||S.pet||fams[0];
+ $('bkFam').innerHTML=fams.map(f=>`<button data-bf="${f}" aria-pressed="${f===bookFam}">${esc(TX[S.lang].fam[f])}${f===S.pet?' ★':''}</button>`).join('');
+ const mine=bookFam===S.pet;
+ $('bkFamTxt').textContent=t('famTxt',TX[S.lang].fam[bookFam],mine);
+ const card=(svg,name,sub,cls)=>`<div class="ccard ${cls}">${svg}<b>${esc(name)}</b><small>${esc(sub)}</small></div>`;
+ const reach=(lv,route,branch)=>mine&&L>=lv&&(!route||S.route===route)&&(!branch||S.branch===branch);
+ let h=`<div class="sep">Lv.3 · Lv.6</div>`;
+ h+=card(svgAt(bookFam,3,null,null,!reach(3)),TX[S.lang].fam[bookFam],t('lvReq',3),reach(3)?'mine':'lock');
+ h+=card(svgAt(bookFam,6,null,null,!reach(6)),t('growing',TX[S.lang].fam[bookFam]),t('lvReq',6),reach(6)?'mine':'lock');
+ h+=`<div class="sep">Lv.10</div>`;
+ const routes=CH.GROWTH[bookFam].routes;
+ routes.forEach(r=>{const ok=reach(10,r.id);h+=card(svgAt(bookFam,10,r.id,null,!ok),TX[S.lang].route[r.id],t('lvReq',10),ok?'mine':'lock')});
+ routes.forEach(r=>{h+=`<div class="sep">${esc(TX[S.lang].route[r.id])} · Lv.15 / Lv.20</div>`;
+  r.branches.forEach((b,i)=>{
+   const n15=S.lang==='ko'?b.name:t('magic',TX.tr.route[r.id])+' '+(i+1),n20=S.lang==='ko'?b.final:t('legend',TX.tr.route[r.id])+' '+(i+1);
+   const o15=reach(15,r.id,b.id),o20=reach(20,r.id,b.id);
+   h+=card(svgAt(bookFam,15,r.id,b.id,!o15),o15?n15:'?',t('lvReq',15),o15?'mine':'lock');
+   if(i===0)h+=card(svgAt(bookFam,20,r.id,b.id,!o20),o20?n20:'?',t('lvReq',20),o20?'mine':'lock');
+   else h+=card(svgAt(bookFam,20,r.id,b.id,!o20),o20?n20:'?',t('lvReq',20),o20?'mine':'lock');
+  });h+='<div></div><div></div>'.slice(0,0)});
+ $('bkGrid').innerHTML=h;
+}
+function openBook(){bookFam=S.pet||null;renderBook();$('mBook').hidden=false}
+$('bBook').onclick=openBook;$('mascot').addEventListener('click',openBook);
+$('bBookX').onclick=()=>{$('mBook').hidden=true};
+$('bkFam').addEventListener('click',e=>{const b=e.target.closest('[data-bf]');if(b){bookFam=b.dataset.bf;renderBook()}});
+
+// ---------- güncelleme notları ----------
+const NOTES=[
+ ['1.5','2026-11-24',{tr:['Giriş ekranı ve dinlendirici arka plan müziği','Deongi\'nin hikâyesi ve bitki rehberi (seviyelere göre büyüme)','Bağlantı paylaşınca önizleme görseli, uygulama içi tarayıcıdan otomatik Chrome\'a geçiş','Ana ekrana ekleme rehberi, güncelleme notları, Instagram ve KakaoTalk bağlantıları'],ko:['인트로 화면과 힐링 배경 음악','덩이의 이야기와 식물 도감(레벨별 성장)','링크 미리보기 그림, 앱 안 브라우저에서 Chrome으로 자동 전환','홈 화면 추가 안내, 업데이트 노트, 인스타그램·카카오톡 바로가기']}],
+ ['1.4','2026-11-24',{tr:['A1–B2 kelime listeleri (Aslıhan Erdoğan) ve 390 Hanca','Her kelimeye eş kelimeler, mantıklı yanlış seçenekler','Çevirmeli kartlar, ilerleme tablom, ana ekrana ekleme simgesi'],ko:['A1–B2 단어장(Aslıhan Erdoğan)과 한자 390자','단어마다 짝꿍어휘, 같은 단원·품사에서 나오는 오답','카드 뒤집기, 나의 진도표, 홈 화면 아이콘']}],
+ ['1.3','2026-11-24',{tr:['덩어리숲 bitki arkadaşları, büyüme ve evrim','Yüz ifadeleri düzeltildi, büyük bıyık eklendi'],ko:['덩어리숲 식물 친구, 성장과 진화','표정 겹침 수정, 큰 콧수염 추가']}],
+ ['1.2','2026-11-24',{tr:['İstanbul manzaralı arka plan'],ko:['이스탄불 풍경 배경']}],
+ ['1.1','2026-11-24',{tr:['Dört seçenekli test ve eş kelime bonusu','Türkçe / Korece arayüz, kadın sesiyle okuma'],ko:['4지선다 퀴즈와 짝꿍어휘 보너스','튀르키예어·한국어 화면, 여성 목소리 읽기']}],
+ ['1.0','2026-11-24',{tr:['İlk sürüm'],ko:['첫 버전']}]
+];
+function renderNotes(){$('notesBody').innerHTML=NOTES.map(([v,d,n])=>`<div class="nver"><b>v${v}</b><small>${d}</small><ul>${n[S.lang].map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`).join('')}
+$('mBook').addEventListener('click',e=>{if(e.target.id==='mBook')$('mBook').hidden=true});
+$('bNotes').onclick=()=>{renderNotes();$('mSet').hidden=true;$('mNotes').hidden=false;$('mNotes').querySelector('.box').scrollTop=0};
+$('bNotesOk').onclick=()=>{$('mNotes').hidden=true};
+
+// ---------- arka plan müziği (WebAudio ile üretilir) ----------
+const BGM=(()=>{
+ let ctx=null,master=null,duckG=null,timer=null,step=0,next=0,on=false;
+ const BPM=68,BEAT=60/BPM;
+ const N=m=>440*Math.pow(2,(m-69)/12);
+ const CH=[[48,55,64,71],[45,52,60,67],[41,48,57,64],[43,50,59,62]];// Cmaj7 Am7 Fmaj7 G6
+ const PENTA=[72,74,76,79,81,84,86,88];
+ let mel=3;
+ function reverb(){const len=ctx.sampleRate*2.6,b=ctx.createBuffer(2,len,ctx.sampleRate);for(let c=0;c<2;c++){const d=b.getChannelData(c);for(let i=0;i<len;i++)d[i]=(Math.random()*2-1)*Math.pow(1-i/len,3)}const r=ctx.createConvolver();r.buffer=b;return r}
+ function init(){
+  ctx=new (window.AudioContext||window.webkitAudioContext)();
+  master=ctx.createGain();duckG=ctx.createGain();master.gain.value=0;
+  const rv=reverb(),wet=ctx.createGain();wet.gain.value=.55;
+  duckG.connect(master);duckG.connect(rv);rv.connect(wet);wet.connect(master);master.connect(ctx.destination);
+ }
+ function pad(notes,t,dur){
+  const f=ctx.createBiquadFilter();f.type='lowpass';f.frequency.value=900;f.connect(duckG);
+  notes.forEach(m=>{[-6,6].forEach(det=>{const o=ctx.createOscillator(),g=ctx.createGain();o.type='triangle';o.frequency.value=N(m);o.detune.value=det;
+   g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(.035,t+1.6);g.gain.setValueAtTime(.035,t+dur-1.2);g.gain.linearRampToValueAtTime(0,t+dur+.4);
+   o.connect(g);g.connect(f);o.start(t);o.stop(t+dur+.5)})});
+ }
+ function bell(m,t,v=.12){
+  const o=ctx.createOscillator(),o2=ctx.createOscillator(),g=ctx.createGain();o.type='sine';o2.type='sine';o.frequency.value=N(m);o2.frequency.value=N(m)*2.01;
+  const g2=ctx.createGain();g2.gain.value=.25;
+  g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(v,t+.015);g.gain.exponentialRampToValueAtTime(.001,t+2.4);
+  o.connect(g);o2.connect(g2);g2.connect(g);g.connect(duckG);o.start(t);o2.start(t);o.stop(t+2.5);o2.stop(t+2.5);
+ }
+ function bass(m,t,dur){const o=ctx.createOscillator(),g=ctx.createGain();o.type='sine';o.frequency.value=N(m-12);
+  g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(.09,t+.3);g.gain.exponentialRampToValueAtTime(.001,t+dur);o.connect(g);g.connect(duckG);o.start(t);o.stop(t+dur+.1)}
+ function schedule(){
+  while(next<ctx.currentTime+1.2){
+   const bar=Math.floor(step/8),pos=step%8,chord=CH[bar%4],t=next;
+   if(pos===0){pad(chord.slice(1),t,BEAT*4);bass(chord[0],t,BEAT*4)}
+   if(pos===0||Math.random()<(pos%2?0.18:0.42)){mel=Math.max(0,Math.min(PENTA.length-1,mel+[-2,-1,-1,0,1,1,2][Math.random()*7|0]));bell(PENTA[mel],t,pos===0?.11:.07)}
+   if(pos===4&&Math.random()<.5)bell(chord[2]+12,t,.05);
+   step++;next+=BEAT/2;
+  }
+ }
+ function vol(){return (S.vol/100)*.6}
+ return{
+  start(){if(!S.music)return;try{if(!ctx)init();ctx.resume();if(on)return;on=true;next=ctx.currentTime+.1;schedule();timer=setInterval(schedule,300);
+   master.gain.cancelScheduledValues(ctx.currentTime);master.gain.setValueAtTime(master.gain.value,ctx.currentTime);master.gain.linearRampToValueAtTime(vol(),ctx.currentTime+3)}catch(e){}},
+  stop(){if(!ctx||!on)return;on=false;clearInterval(timer);master.gain.cancelScheduledValues(ctx.currentTime);master.gain.setValueAtTime(master.gain.value,ctx.currentTime);master.gain.linearRampToValueAtTime(0,ctx.currentTime+.8)},
+  setVol(){if(ctx&&on){master.gain.cancelScheduledValues(ctx.currentTime);master.gain.setTargetAtTime(vol(),ctx.currentTime,.1)}},
+  duck(d){if(ctx&&duckG)duckG.gain.setTargetAtTime(d?.25:1,ctx.currentTime,.15)},
+  pause(){if(ctx)ctx.suspend()},resume(){if(ctx&&on)ctx.resume()}
+ };
+})();
+$('bMusic').onclick=()=>{S.music=!S.music;save();renderSettings();S.music?BGM.start():BGM.stop()};
+$('vol').addEventListener('input',e=>{S.vol=+e.target.value;save();BGM.setVol()});
+document.addEventListener('visibilitychange',()=>{document.hidden?BGM.pause():BGM.resume()});
 
 // ---------- hoş geldin ----------
 $('bMsg').onclick=()=>{$('nameIn').value=S.name;$('mWel').hidden=false};
@@ -480,7 +605,7 @@ try{pickVoice();speechSynthesis.onvoiceschanged=pickVoice}catch(e){}
 function speak(text,force){
  if(!S.auto&&!force)return;
  try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang='ko-KR';if(voice)u.voice=voice;
-  u.rate=.9;u.pitch=voice&&FEMALE.test(voice.name)?1:1.15;speechSynthesis.speak(u)}catch(e){}
+  u.rate=.9;u.pitch=voice&&FEMALE.test(voice.name)?1:1.15;BGM.duck(true);u.onend=u.onerror=()=>BGM.duck(false);speechSynthesis.speak(u)}catch(e){}
 }
 
 // ---------- uygulama içi tarayıcı → Chrome ----------
@@ -492,12 +617,27 @@ const bare=URL0.replace(/^https?:\/\//,'');
 $('openChrome').href=/KAKAOTALK/i.test(ua)?'kakaotalk://web/openExternal?url='+encodeURIComponent(URL0)
  :isAndroid?'intent://'+bare+'#Intent;scheme=https;package=com.android.chrome;end'
  :isIOS?'googlechromes://'+bare:URL0;
-$('chrome').hidden=!(inApp&&(isAndroid||isIOS));
-$('copyLink').onclick=async()=>{try{await navigator.clipboard.writeText(URL0);$('copyLink').textContent=t('copied')}catch(e){$('copyLink').textContent=URL0}};
+// Uygulama içi tarayıcıdan (KakaoTalk, Instagram…) otomatik olarak Chrome'a geç (bir kez)
+const standalone=matchMedia('(display-mode: standalone)').matches||navigator.standalone;
+if(inApp&&!standalone&&(isAndroid||/KAKAOTALK/i.test(ua))){
+ let tried=false;try{tried=sessionStorage.getItem('toChrome')==='1';sessionStorage.setItem('toChrome','1')}catch(e){}
+ if(!tried)setTimeout(()=>{location.href=$('openChrome').href},300);
+}
+// Ana ekrana ekleme
+let deferredPrompt=null;
+window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredPrompt=e;$('bInstall').hidden=false});
+$('bInstall').onclick=async()=>{if(!deferredPrompt)return;deferredPrompt.prompt();await deferredPrompt.userChoice.catch(()=>{});deferredPrompt=null;$('bInstall').hidden=true};
+if(standalone)$('a2hs').hidden=true;
 
 // ---------- başlat ----------
 S.level=Math.max(S.level,levelOf(S.xp));
 applyLang();
-$('mWel').hidden=false;$('nameIn').value=S.name;
+$('nameIn').value=S.name;
+$('iScene').innerHTML=sceneSVG();$('iMascot').innerHTML=art();
+let introDone=false;
+function closeIntro(){if(introDone)return;introDone=true;$('intro').classList.add('out');BGM.start();setTimeout(()=>{$('intro').remove();$('mWel').hidden=false},550)}
+$('intro').addEventListener('click',closeIntro);
+document.addEventListener('keydown',e=>{if(!introDone){e.preventDefault();closeIntro()}},{capture:true});
+$('intro').focus();
 if('serviceWorker' in navigator&&location.protocol==='https:')navigator.serviceWorker.register('sw.js').catch(()=>{});
 }

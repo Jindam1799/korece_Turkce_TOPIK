@@ -1,8 +1,10 @@
 /* 사이트 설정 · Site ayarları
- * 비즈니스 협업 이메일을 아래 따옴표 안에 넣으면 시작 팝업과 설정 화면에 표시돼요.
- * İş birliği e-postasını tırnak içine yazın; karşılama penceresinde ve ayarlarda görünür.
+ * contact: 비즈니스 협업 이메일 (따옴표 안에 직접 넣어 주세요)
+ * kakao: 카카오톡 ID · instagram: 인스타그램 아이디 (@ 없이)
  */
 window.SITE_CONFIG = {
   owner: 'Wonju (원주)',
-  contact: ''
+  contact: '',
+  kakao: 'wj5298',
+  instagram: 'wj_kimi'
 };
