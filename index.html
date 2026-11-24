@@ -41,10 +41,12 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid 
 .icon svg{width:20px;height:20px}
 /* ana sayfa */
 .companion{flex:1;min-height:0;background:var(--light);border-radius:24px;position:relative;overflow:hidden;display:flex;flex-direction:column}
-.habitat{flex:1;min-height:0;position:relative;display:grid;place-items:end center;
- background:radial-gradient(120% 60% at 50% 115%,#c9d8b0 0 55%,transparent 56%),radial-gradient(80% 40% at 15% 100%,#d7e3c2 0 60%,transparent 61%),linear-gradient(180deg,#f3f1dc,#eef2e7)}
-.habitat .cloud{position:absolute;background:#ffffffb0;border-radius:40px;height:16px}
-.mascot{height:92%;max-height:300px;aspect-ratio:180/210;margin-bottom:4%;transform-origin:50% 90%;animation:breathe 3.5s ease-in-out infinite}
+.habitat{flex:1;min-height:0;position:relative;display:grid;place-items:end center;background:#f8dfc0;overflow:hidden}
+.scene{position:absolute;inset:0}.scene svg{width:100%;height:100%;display:block}
+.scene .bal{animation:float 7s ease-in-out infinite}.scene .bal:nth-of-type(2){animation-duration:9s;animation-delay:-3s}.scene .bal:nth-of-type(3){animation-duration:8s;animation-delay:-5s}
+.scene .ferry{animation:sail 40s linear infinite}
+@keyframes float{50%{transform:translateY(-8px)}}@keyframes sail{from{transform:translateX(-80px)}to{transform:translateX(480px)}}
+.mascot{position:relative;height:80%;max-height:280px;aspect-ratio:180/210;margin-bottom:3%;transform-origin:50% 90%;animation:breathe 3.5s ease-in-out infinite}
 .mascot svg{width:100%;height:100%;display:block;overflow:visible}
 .mascot.hop{animation:hop .55s ease 2}.mascot.sad{animation:wob .4s ease 2}
 .cinfo{padding:10px 16px 14px;background:#fff;border-top:1px solid var(--line)}
@@ -166,7 +168,7 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid 
    <button class="icon" id="bSet" data-al="settings"><svg><use href="#i-set"/></svg></button>
   </div>
   <div class="companion">
-   <div class="habitat"><span class="cloud" style="width:70px;top:16%;left:10%"></span><span class="cloud" style="width:44px;top:28%;right:12%"></span>
+   <div class="habitat"><div class="scene" id="scene" aria-hidden="true"></div>
     <div class="mascot" id="mascot"></div></div>
    <div class="cinfo">
     <div class="crow"><span class="cname" id="cName"></span><span class="tag" id="cLv"></span></div>
@@ -382,6 +384,36 @@ function art(L=S.level,pet=S.pet,route=S.route,branch=S.branch){
  return CH.creatureSVG(p||'tree',r,lv,undefined,false,b||null);
 }
 const displayName=()=>S.name||growthName();
+
+// ---------- İstanbul manzarası ----------
+function sceneSVG(){
+ const mina=(x,top,base=228,w=5)=>`<rect x="${x-w/2}" y="${top}" width="${w}" height="${base-top}"/><path d="M${x-w/2-1} ${top}L${x} ${top-16}L${x+w/2+1} ${top}Z"/><rect x="${x-w/2-2}" y="${top+14}" width="${w+4}" height="3"/><rect x="${x-w/2-2}" y="${top+34}" width="${w+4}" height="3"/>`;
+ const dome=(cx,cy,rx,ry)=>`<path d="M${cx-rx} ${cy}A${rx} ${ry} 0 0 1 ${cx+rx} ${cy}Z"/><rect x="${cx-.8}" y="${cy-ry-9}" width="1.6" height="9"/>`;
+ const bal=(x,y,s,a,b)=>`<g class="bal"><g transform="translate(${x} ${y}) scale(${s})"><path d="M0 -26C-17 -26 -21 -10 -15 0L-5 14H5L15 0C21 -10 17 -26 0 -26Z" fill="${a}"/><path d="M0 -26C-6 -26 -8 -10 -5 0L-2 14H2L5 0C8 -10 6 -26 0 -26Z" fill="${b}"/><path d="M-5 14L-4 20M5 14L4 20" stroke="#7a5a3a" stroke-width="1"/><rect x="-4" y="20" width="8" height="6" rx="1" fill="#8a6142"/></g></g>`;
+ const tulip=(x,y,s,c)=>`<g transform="translate(${x} ${y}) scale(${s})"><path d="M0 0V-22" stroke="#4f7d3a" stroke-width="2.4"/><path d="M0 -6Q-9 -10 -10 -20Q-3 -16 0 -8Z" fill="#6f9e57"/><path d="M-7 -30Q-8 -20 0 -18Q8 -20 7 -30L3.5 -26L0 -32L-3.5 -26Z" fill="${c}"/></g>`;
+ let houses='';for(let i=0;i<18;i++){const x=i*23-4,h=8+((i*37)%11);houses+=`<rect x="${x}" y="${228-h}" width="20" height="${h}"/>`}
+ return `<svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
+ <defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3c9a6"/><stop offset=".55" stop-color="#fbe3c4"/><stop offset="1" stop-color="#fdf0dc"/></linearGradient>
+ <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9fc7cc"/><stop offset="1" stop-color="#7fb0b8"/></linearGradient></defs>
+ <rect width="400" height="300" fill="url(#sky)"/>
+ <circle cx="300" cy="150" r="34" fill="#fff4dc" opacity=".9"/><circle cx="300" cy="150" r="54" fill="#fff4dc" opacity=".35"/>
+ ${bal(112,64,1,'#d7263d','#f2b134')}${bal(292,48,.8,'#2bb3a8','#f6e7c8')}${bal(244,96,.55,'#e07a3a','#f9d38a')}${bal(30,90,.7,'#7b4bb7','#f6e7c8')}${bal(372,96,.7,'#d7263d','#fff')}
+ <g fill="#c7a99f" opacity=".75">${houses}</g>
+ <g fill="#a98b8a">
+  <rect x="150" y="196" width="100" height="32"/>${dome(200,198,40,36)}${dome(160,206,16,12)}${dome(240,206,16,12)}${dome(140,214,10,8)}${dome(260,214,10,8)}
+  ${mina(126,132)}${mina(274,132)}${mina(110,150)}${mina(290,150)}
+  <rect x="26" y="206" width="70" height="22"/>${dome(61,208,26,24)}${dome(36,214,9,7)}${dome(86,214,9,7)}${mina(18,160)}${mina(104,160)}
+  <rect x="309" y="172" width="16" height="56"/><path d="M306 174L317 140L328 174Z"/><rect x="306" y="172" width="22" height="4"/><rect x="316.2" y="131" width="1.6" height="10"/>
+ </g>
+ <rect y="228" width="400" height="30" fill="url(#sea)"/>
+ <path d="M20 236h40M120 242h60M240 236h30M300 246h70M60 250h40" stroke="#e6f2f0" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+ <g class="ferry"><path d="M0 238h34l-4 7H4Z" fill="#fff"/><rect x="8" y="231" width="18" height="7" fill="#fff"/><rect x="14" y="226" width="4" height="5" fill="#d7263d"/></g>
+ <path d="M-10 300V262Q80 246 200 250Q320 246 410 262V300Z" fill="#b9cf98"/>
+ <path d="M-10 300V276Q100 262 200 266Q300 262 410 276V300Z" fill="#a6c283"/>
+ ${tulip(28,282,1,'#d7263d')}${tulip(372,284,1,'#d7263d')}${tulip(90,284,1,'#d7263d')}${tulip(106,291,.8,'#ef7aa0')}${tulip(80,294,.7,'#f2b134')}${tulip(310,284,1,'#ef7aa0')}${tulip(294,291,.8,'#d7263d')}${tulip(322,294,.7,'#f2b134')}
+ </svg>`;
+}
+$('scene').innerHTML=sceneSVG();
 
 // ---------- ana sayfa ----------
 function renderHome(){
