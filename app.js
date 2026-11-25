@@ -33,7 +33,7 @@ for(const G of GROUPS){const parts=G.parts.map(id=>LEVELS.find(L=>L.id===id)).fi
  parts.forEach(P=>P.units.forEach(u=>{const nu={key:P.name+' · '+u.key,words:u.words};units.push(nu);u.words.forEach(w=>{w.unit=nu.key;w.ui=units.length-1;w.grp=G.id;words.push(w)})}));
  parts.forEach(P=>LEVELS.splice(LEVELS.indexOf(P),1));LEVELS.push({id:G.id,name:G.name,units,words})}
 LEVELS.forEach(L=>L.words.forEach(w=>{if(!w.grp)w.grp=L.id}));
-const ORDER=['A1-A2','B1-B2','TOPIK2','HANJA'];
+const ORDER=['A1-A2','B1-B2','TOPIK1','TOPIK2','HANJA'];
 LEVELS.sort((a,b)=>ORDER.indexOf(a.id)-ORDER.indexOf(b.id));
 const ALL=LEVELS.flatMap(L=>L.words);
 const lvOf=w=>(w.parent||w).grp;
@@ -44,7 +44,7 @@ const clash=(a,b)=>{const x=norm(a),y=norm(b);return !x||!y||x===y||x.includes(y
 
 // ---------- dil ----------
 const TX={
-tr:{sub:'Korece kelime ormanı · A1–B2 · TOPIK Ⅱ',a2hsT:'📲 Ana ekrana ekle (uygulama gibi kullan)',installBtn:'Ana ekrana ekle',
+tr:{sub:'Korece kelime ormanı · A1–B2 · TOPIK Ⅰ·Ⅱ',a2hsT:'📲 Ana ekrana ekle (uygulama gibi kullan)',installBtn:'Ana ekrana ekle',
  and1:'Bu sayfayı Chrome\'da aç.',and2:'Sağ üstteki ⋮ menüsüne dokun.',and3:'“Ana ekrana ekle” ya da “Uygulamayı yükle”yi seç.',
  ios1:'Bu sayfayı Safari\'de aç.',ios2:'Alttaki Paylaş düğmesine (□↑) dokun.',ios3:'“Ana Ekrana Ekle”yi seç ve “Ekle”ye dokun.',feedback:'💬 덩어리숲 düzenli olarak güncellenmeye devam edecek. Çalışırken zorlandığınız bir şey ya da ihtiyacınız olan bir özellik olursa lütfen bize yazın!',rvH:'Kelime kontrolü (editör)',rvOpen:'Kontrol modunu aç',rvTitle:'Kelime kontrolü',rvSend:'Gönder',rvMean:'Türkçe anlam',rvPairs:'Eş kelimeler (Korece = Türkçe)',rvAdd:'+ Eş kelime ekle',rvNote:'Not (isteğe bağlı)',rvNotePh:'Örn. bu kelime eski, yerine … daha doğal',rvEmpty:'Bu filtrede kelime yok.',
  rvAll:'Tümü',rvTodo:'Bakılmadı',rvOkF:'Doğru',rvEditF:'Düzeltildi',rvDelF:'Kaldırılacak',rvOkBtn:'✓ Doğru',rvSaveBtn:'✓ Kaydet',rvDelBtn:'🗑 Kaldır',rvUndel:'↺ Geri al',
@@ -90,7 +90,7 @@ tr:{sub:'Korece kelime ormanı · A1–B2 · TOPIK Ⅱ',a2hsT:'📲 Ana ekrana e
  fam:{petal:'Gönül Çiçeği',mushroom:'Gönül Mantarı',succulent:'Gönül Sukulenti',clover:'Gönül Yaprağı',berry:'Gönül Meyvesi',tree:'Gönül Ağacı'},
  route:{sunflower:'Altın Ayçiçeği',rose:'Kraliçe Gül',hibiscus:'Cesur Hibiskus',matsutake:'Kral Matsutake',horn:'Şık Boynuzlu Mantar',reishi:'Parlak Reishi',undulata:'Dev Undulata',euphorbia:'Nazlı Sütleğen',cactus:'Azimli Kaktüs',lucky:'Şanslı Dört Yapraklı Yonca',silver:'Ay Işığı Yoncası',crimson:'Sevecen Kırmızı Yonca',strawberry:'Tatlı Dev Çilek',blueberry:'Yıldızlı Yaban Mersini',raspberry:'Canlı Ahududu',oak:'Sağlam Meşe',willow:'Rüzgârlı Söğüt',ginkgo:'Altın Ginkgo'},
  way:'Yol'},
-ko:{sub:'한국어 단어의 숲 · A1–B2 · TOPIK Ⅱ',a2hsT:'📲 홈 화면에 추가하기 (앱처럼 쓰기)',installBtn:'홈 화면에 추가',
+ko:{sub:'한국어 단어의 숲 · A1–B2 · TOPIK Ⅰ·Ⅱ',a2hsT:'📲 홈 화면에 추가하기 (앱처럼 쓰기)',installBtn:'홈 화면에 추가',
  and1:'이 페이지를 Chrome에서 열어요.',and2:'오른쪽 위 ⋮ 메뉴를 눌러요.',and3:'“홈 화면에 추가” 또는 “앱 설치”를 골라요.',
  ios1:'이 페이지를 Safari에서 열어요.',ios2:'아래쪽 공유 버튼(□↑)을 눌러요.',ios3:'“홈 화면에 추가”를 고르고 “추가”를 눌러요.',feedback:'💬 덩어리숲은 앞으로도 꾸준히 업데이트돼요. 공부하면서 어려운 점이나 필요한 게 있으면 언제든 건의해 주세요!',rvH:'단어 검수 (편집자)',rvOpen:'검수 모드 열기',rvTitle:'단어 검수',rvSend:'보내기',rvMean:'튀르키예어 뜻',rvPairs:'짝꿍어휘 (한국어 = 튀르키예어)',rvAdd:'+ 짝꿍어휘 추가',rvNote:'메모 (선택)',rvNotePh:'예: 이 단어는 오래된 말, … 가 더 자연스러움',rvEmpty:'이 필터에 해당하는 단어가 없어요.',
  rvAll:'전체',rvTodo:'안 본 것',rvOkF:'맞음',rvEditF:'고침',rvDelF:'뺄 것',rvOkBtn:'✓ 맞아요',rvSaveBtn:'✓ 저장',rvDelBtn:'🗑 빼기',rvUndel:'↺ 되돌리기',
@@ -634,6 +634,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
+ ['2.7','2026-11-25',{tr:['Yeni seviye: TOPIK Ⅰ — 1.671 başlangıç kelimesi (843\'ü kontrol edilmiş seviyelerden, eş kelimeleriyle)'],ko:['새 레벨: TOPIK Ⅰ — 초급 단어 1,671개 (843개는 검수된 레벨의 뜻·짝꿍어휘 사용)']}],
  ['2.6','2026-11-25',{tr:['A1–A2 kelime kontrolü tamamlandı (Aslı) · B1.1 kontrolü başladı'],ko:['A1–A2 단어 검수 완료 (아슬르) · B1.1 검수 시작']}],
  ['2.5','2026-11-25',{tr:['Kelime kontrolü: yazdıkların anında saklanır, uygulamayı kapatsan bile kaybolmaz; açınca kaldığın kelimeden devam edersin'],ko:['단어 검수: 입력하는 즉시 임시 저장, 앱을 꺼도 그대로 남고 다시 열면 보던 단어부터 이어서']}],
  ['2.4','2026-11-25',{tr:['KakaoTalk düğmesi artık açık sohbet odasına bağlanıyor','Aslı\'nın YouTube kanalı: @gumguri_korean'],ko:['카카오톡 버튼을 오픈채팅방으로 연결','아슬르 유튜브 채널 바로가기: @gumguri_korean']}],
