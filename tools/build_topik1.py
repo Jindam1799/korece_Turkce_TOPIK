@@ -21,10 +21,27 @@ for f in ['a12','b11','b12','b21','b22','topik2']:
         if '|' in l and not l.startswith('#'):
             p=[x.strip() for x in l.split('|')];k=re.sub(r'#\d+$','',p[0])
             known.setdefault(k,[]).append((p[1],p[2] if len(p)>2 else ''))
-out=[];n_known=0
-for i,w in enumerate(words):
-    if i%50==0:
-        chunk=words[i:i+50];out.append(f'#{i//50+1} · {chunk[0]} – {chunk[-1]}')
+# Konu (bölüm) ataması: tools/topik1_topics.txt önce, yoksa A1–A2'deki konusu
+T=[];assign={}
+for l in open(P('tools/topik1_topics.txt'),encoding='utf-8'):
+    l=l.rstrip('\n')
+    if not l or '|' not in l:continue
+    n,ws=l.split('|');T.append(n)
+    for w in ws.split():assign.setdefault(w.replace('_',' '),n)
+A12MAP={'여행 (seyahat)':'여행과 나라 (seyahat ve ülkeler)','동물과 식물 (hayvan ve bitki)':'동물·식물·자연 (hayvan, bitki ve doğa)','부사와 표현 (zarflar ve ifadeler)':'부사와 연결어 (zarflar ve bağlaçlar)'}
+a=open(P('data','a12.js'),encoding='utf-8').read();a=a[a.index('text:`')+6:];u=None
+for l in a.split('\n'):
+    if l.startswith('#'):u=l[1:];continue
+    if '|' in l:
+        k=re.sub(r'#\d+$','',l.split('|')[0]);assign.setdefault(k,A12MAP.get(u,u))
+        if A12MAP.get(u,u) not in T:T.append(A12MAP.get(u,u))
+miss=[w for w in words if w not in assign]
+if miss:raise SystemExit('konusu yok: '+' '.join(miss))
+order=[w for t in T for w in words if assign[w]==t]
+out=[];n_known=0;cur=None
+for w in order:
+    if assign[w]!=cur:
+        cur=assign[w];out.append('#'+cur)
     if w in TR and w not in known: tr=TR[w];pr=''
     elif w in known:
         n_known+=1;ms=[];pr=''
