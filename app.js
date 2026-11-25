@@ -16,9 +16,10 @@ const LEVELS=(window.LEVELS||[]).map(L=>{
  for(const raw of L.text.split('\n')){
   const line=raw.trim();if(!line)continue;
   if(line.startsWith('#')){unit={key:line.slice(1).trim(),words:[]};units.push(unit);continue}
-  const [ko,tr,ps='',note='']=line.split('|').map(x=>x.trim());if(!ko||!tr)continue;
+  let [ko,tr,ps='',note='']=line.split('|').map(x=>x.trim());if(!ko||!tr)continue;
   if(!unit){unit={key:'1',words:[]};units.push(unit)}
-  const base=L.id+':'+ko;seenKo[base]=(seenKo[base]||0)+1;const id=seenKo[base]>1?base+'#'+seenKo[base]:base;n++;
+  let id;const mx=ko.match(/^(.+)#(\d+)$/);
+  if(mx){ko=mx[1];id=L.id+':'+ko+'#'+mx[2]}else{const base=L.id+':'+ko;seenKo[base]=(seenKo[base]||0)+1;id=seenKo[base]>1?base+'#'+seenKo[base]:base}n++;
   const w={id,ko,tr,lv:L.id,unit:unit.key,ui:units.length-1,verb:isVerb(tr),hanja:!!L.hanja,note,pairs:[]};
   w.pairs=ps.split(';').map(x=>x.trim()).filter(Boolean).map((p,j)=>{const k=p.indexOf('=');const pt=p.slice(k+1).trim();return {id:id+'~'+j,ko:p.slice(0,k).trim(),tr:pt,parent:w,verb:isVerb(pt)}}).filter(p=>p.ko&&p.tr);
   unit.words.push(w);words.push(w);
@@ -620,6 +621,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
+ ['2.3','2026-11-25',{tr:['A1–A2 kelimeleri konulara göre yeniden düzenlendi (23 konu: meslekler, okul, zaman, hava, yemek, alışveriş, vücut…)'],ko:['A1–A2 단어를 주제별로 새로 정리 (23개 주제: 직업, 학교, 시간, 날씨, 음식, 쇼핑, 몸…)']}],
  ['2.2','2026-11-25',{tr:['A1–A2 bölümlerine konu adları eklendi (B1–B2 gibi)'],ko:['A1–A2 단원에도 주제 이름 추가 (B1–B2처럼)']}],
  ['2.1','2026-11-25',{tr:['Hazırlayanlar: Oyun yapımı ve tasarımı Wonju Kim · Kontrol ve düzeltme Aslıhan Erdoğan','KakaoTalk\'ta bağlantıya dokununca doğrudan tarayıcıda açılır'],ko:['만든 사람들: 게임 제작 및 기획 Wonju Kim · 검수 및 교정 Aslıhan Erdoğan','카카오톡에서 링크를 누르면 바로 외부 브라우저로 열림']}],
  ['2.0','2026-11-25',{tr:['B1.1–B2.2 tek seviyede birleşti: B1–B2 (ilerlemen korunur)','TOPIK Ⅱ: 2.689 kelimenin hepsine eş kelimeler eklendi','A1–A2: Aslı\'nın kontrolü uygulandı (893 kelime, 122 düzeltme)','Yeni seviye: TOPIK Ⅱ — gerçek TOPIK Ⅱ sınavlarından 2.689 kelime ve deyim (listeyi derleyen: Aslıhan Erdoğan)','Uzun anlamlarda açıklama: cevaptan sonra ve kartın arkasında görünür'],ko:['B1.1–B2.2를 B1–B2 한 레벨로 합침 (진도는 그대로)','TOPIK Ⅱ 2,689단어 전체에 짝꿍어휘 완성','A1–A2: 아슬르 검수 반영 (893단어 중 122개 수정)','새 레벨: TOPIK Ⅱ — 실제 TOPIK Ⅱ 기출에서 모은 단어·관용 표현 2,689개 (정리: Aslıhan Erdoğan)','긴 뜻은 설명으로: 정답 뒤와 카드 뒷면에 보여요']}],

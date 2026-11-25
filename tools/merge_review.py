@@ -55,10 +55,14 @@ def main():
             s = line.strip()
             if not s or s.startswith('#'):
                 out.append(line); continue
-            ko = s.split('|')[0].strip()
-            base = f'{lv}:{ko}'
-            seen[base] = seen.get(base, 0) + 1
-            wid = base if seen[base] == 1 else f'{base}#{seen[base]}'
+            rawko = s.split('|')[0].strip()
+            mx = re.match(r'^(.+)#(\d+)$', rawko)
+            if mx:  # açık işaret: aynı kelimenin 2. anlamı (ör. 배#2)
+                ko = mx.group(1); wid = f'{lv}:{ko}#{mx.group(2)}'
+            else:
+                ko = rawko; base = f'{lv}:{ko}'
+                seen[base] = seen.get(base, 0) + 1
+                wid = base if seen[base] == 1 else f'{base}#{seen[base]}'
             r = items.get(wid)
             if not r:
                 out.append(line); continue
@@ -75,7 +79,7 @@ def main():
                 old_tr = s.split('|')[1]
                 parts = s.split('|')
                 extra = '|' + parts[3] if len(parts) > 3 and parts[3].strip() else ''
-                out.append(f'{ko}|{tr}|{pairs}{extra}')
+                out.append(f'{rawko}|{tr}|{pairs}{extra}')
                 section.append(f'- ✏️ **{ko}**: {old_tr} → {tr}{note}')
                 continue
             out.append(line)

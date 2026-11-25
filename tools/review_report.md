@@ -6,10 +6,19 @@
 
 ## A1-A2
 
-- ✏️ **전화번호**: telefon numarası → telefon numarası — 메모: Ne 대신에 nedir? 터키어로 이렇게 물어보다는 더 자연스러운 표현이에요
-- ✏️ **과자**: atıştırmalık, bisküvi → atıştırmalık, bisküvi — 메모: 과자는 atıştırmalık이에요. Bisküvi 쓰면 이거 과자중에 한아에요. 그러니까 bisküvi 쓰면 안좋을 것같아요
-- ✏️ **편의점**: market (7/24 açık) → market (7/24 açık) — 메모: 사다: satın almak. 말할 때 almak을 사용할수 있는데 여기서 satın almak 더 좋은 표현
-- ✏️ **치약**: diş macunu → diş macunu — 메모: Diş macununu (을= nu)
+- ✏️ **손님**: müşteri, misafir → müşteri, misafir
+- ✏️ **제빵사**: fırıncı → fırıncı
+- ✏️ **아이**: çocuk → çocuk
+- ✏️ **학기**: dönem (okul) → dönem (okul)
+- ✏️ **이따가**: birazdan, sonra → birazdan, sonra
+- ✏️ **예정**: plan, program (beklenen) → plan, program (beklenen)
+- ✏️ **하루 종일**: bütün gün → bütün gün
+- ✏️ **알람 시계**: çalar saat → çalar saat
+- ✏️ **미래**: gelecek → gelecek
+- ✏️ **삼월**: mart → mart
+- ✏️ **사월**: nisan → nisan
+- ✏️ **구월**: eylül → eylül
+- ✓ **시월** — 메모: 시월의 하늘 터키어로 의미가 없어요
 - ✏️ **계절**: mevsim → mevsim
 - ✏️ **흐리다**: bulutlu olmak → bulutlu olmak
 - ✏️ **불다**: esmek, üflemek → esmek, üflemek
@@ -20,56 +29,43 @@
 - ✏️ **가을**: sonbahar → sonbahar — 메모: I canceled other word because there is no meaning in turkish.
 - ✏️ **겨울**: kış → kış
 - ✏️ **단풍**: sonbahar yaprakları → sonbahar yaprakları
-- ✏️ **옷장**: elbise dolabı → elbise dolabı
-- ✏️ **독서**: kitap okuma → kitap okuma — 메모: If we say hobisi kitap okumak the sentence will be sentence fragment. We need to transform okumak to a verb.
-- ✏️ **이따가**: birazdan, sonra → birazdan, sonra
-- ✏️ **이유**: sebep → sebep
-- ✏️ **손님**: müşteri, misafir → müşteri, misafir
+- ✏️ **해**: güneş → güneş
+- ✏️ **서쪽**: batı → batı
+- ✏️ **동쪽**: doğu → doğu
+- ✏️ **편의점**: market (7/24 açık) → market (7/24 açık) — 메모: 사다: satın almak. 말할 때 almak을 사용할수 있는데 여기서 satın almak 더 좋은 표현
 - ✏️ **화장실**: tuvalet → tuvalet
-- ✏️ **배가 고프다**: aç olmak → aç olmak
+- ✏️ **출발하다**: yola çıkmak → yola çıkmak
 - ✏️ **수영복**: mayo → mayo — 메모: Mayoyu (yu=을)
+- ✏️ **구경거리**: görülecek şey → görülecek şey
+- ✏️ **방문하다**: ziyaret etmek → ziyaret etmek
+- ✏️ **세계 여행**: dünya turu → dünya turu
+- ✏️ **과자**: atıştırmalık → atıştırmalık, bisküvi — 메모: 과자는 atıştırmalık이에요. Bisküvi 쓰면 이거 과자중에 한아에요. 그러니까 bisküvi 쓰면 안좋을 것같아요
+- ✏️ **배가 고프다**: aç olmak → aç olmak
+- ✏️ **설거지**: bulaşık yıkama → bulaşık yıkama
+- ✏️ **국수**: erişte, noodle → erişte, noodle
+- ✏️ **입에 맞다**: damak tadına uymak → damak tadına uymak
+- ✏️ **치약**: diş macunu → diş macunu — 메모: Diş macununu (을= nu)
+- ✏️ **옷장**: elbise dolabı → elbise dolabı
+- ✏️ **어울리다**: yakışmak → yakışmak
+- ✏️ **모습**: görünüş, hâl → görünüş, hâl
+- ✏️ **증상**: belirti → belirti
+- ✏️ **심장**: kalp → kalp
+- ✏️ **폐**: akciğer → akciğer
+- ✏️ **독서**: kitap okuma → kitap okuma — 메모: If we say hobisi kitap okumak the sentence will be sentence fragment. We need to transform okumak to a verb.
+- ✏️ **연주하다**: çalmak (müzik) → çalmak (müzik)
 - ✏️ **공연**: gösteri, konser → gösteri, konser
 - ✏️ **끝나다**: bitmek → bitmek
-- ✏️ **설거지**: bulaşık yıkama → bulaşık yıkama
-- ✏️ **증상**: belirti → belirti
+- ✏️ **울다**: ağlamak → ağlamak
+- ✏️ **기분이 나쁘다**: keyfi kaçmak → keyfi kaçmak
+- ✏️ **부끄럽다**: utanmak → utanmak
+- ✏️ **전화번호**: telefon numarası → telefon numarası — 메모: Ne 대신에 nedir? 터키어로 이렇게 물어보다는 더 자연스러운 표현이에요
 - ✏️ **모임**: toplantı, buluşma → toplantı, buluşma
 - ✏️ **연락**: iletişim, haber → iletişim, haber
 - ✏️ **모이다**: toplanmak, bir araya gelmek → toplanmak, bir araya gelmek
-- ✏️ **제빵사**: fırıncı → fırıncı
-- ✏️ **연주하다**: çalmak (müzik) → çalmak (müzik)
-- ✏️ **출발하다**: yola çıkmak → yola çıkmak
-- ✏️ **놓여 있다**: konmuş olmak → konmuş olmak
-- ✏️ **울다**: ağlamak → ağlamak
-- ✏️ **안 그래도**: zaten, ben de tam → zaten, ben de tam
-- ✏️ **국수**: erişte, noodle → erişte, noodle
-- ✏️ **단순하다**: sade, basit olmak → sade, basit olmak
-- ✏️ **적당하다**: uygun olmak → uygun olmak
-- ✏️ **어울리다**: yakışmak → yakışmak
-- ✏️ **벌써**: şimdiden, çoktan → şimdiden, çoktan
-- ✏️ **입에 맞다**: damak tadına uymak → damak tadına uymak
-- ✏️ **구경거리**: görülecek şey → görülecek şey
-- ✏️ **찾아보다**: araştırıp bakmak → araştırıp bakmak
-- ✏️ **예정**: plan, program (beklenen) → plan, program (beklenen)
-- ✏️ **기분이 나쁘다**: keyfi kaçmak → keyfi kaçmak
-- ✏️ **아이**: çocuk → çocuk
-- ✏️ **뛰어다니다**: koşturup durmak → koşturup durmak
 - ✏️ **활발하다**: hareketli, neşeli olmak → hareketli, neşeli olmak
-- ✏️ **이미**: çoktan, zaten → çoktan, zaten
-- ✏️ **해**: güneş → güneş
-- ✏️ **남다**: artmak, kalmak → artmak, kalmak
-- ✏️ **모습**: görünüş, hâl → görünüş, hâl
-- ✏️ **하루 종일**: bütün gün → bütün gün
 - ✏️ **생각이 깊다**: düşünceli, derin düşünen → düşünceli, derin düşünen
 - ✏️ **말이 잘 통하다**: iyi anlaşmak → iyi anlaşmak
 - ✏️ **마음이 넓다**: hoşgörülü olmak → hoşgörülü olmak
-- ✏️ **알람 시계**: çalar saat → çalar saat
-- ✏️ **방문하다**: ziyaret etmek → ziyaret etmek
-- ✏️ **부끄럽다**: utanmak → utanmak
-- ✏️ **좋아지다**: iyileşmek, düzelmek → iyileşmek, düzelmek
-- ✏️ **학기**: dönem (okul) → dönem (okul)
-- ✏️ **세계 여행**: dünya turu → dünya turu
-- ✏️ **달라지다**: farklılaşmak, değişmek → farklılaşmak, değişmek
-- ✏️ **미래**: gelecek → gelecek
 - ✏️ **편찮으시다**: rahatsız olmak (saygı · 아프다) → rahatsız olmak (saygı · 아프다)
 - ✏️ **주무시다**: uyumak (saygı · 자다) → uyumak (saygı · 자다)
 - ✏️ **돌아가시다**: vefat etmek (saygı · 죽다) → vefat etmek (saygı · 죽다)
@@ -79,8 +75,6 @@
 - ✏️ **분**: kişi (saygı · 사람) → kişi (saygı · 사람)
 - ✏️ **말씀**: söz (saygı · 말) → söz (saygı · 말)
 - ✏️ **색깔**: renk → renk
-- ✏️ **심장**: kalp → kalp
-- ✏️ **폐**: akciğer → akciğer
 - ✏️ **사자**: aslan → aslan
 - ✏️ **까치**: saksağan → saksağan
 - ✏️ **호랑이**: kaplan → kaplan
@@ -122,10 +116,16 @@
 - ✏️ **독수리**: kartal → kartal
 - ✏️ **나뭇가지**: ağaç dalı → ağaç dalı
 - ✏️ **나뭇잎**: ağaç yaprağı → ağaç yaprağı
-- ✏️ **서쪽**: batı → batı
-- ✏️ **동쪽**: doğu → doğu
-- ✏️ **삼월**: mart → mart
-- ✏️ **사월**: nisan → nisan
-- ✏️ **구월**: eylül → eylül
-- ✓ **시월** — 메모: 시월의 하늘 터키어로 의미가 없어요
+- ✏️ **놓여 있다**: konmuş olmak → konmuş olmak
+- ✏️ **찾아보다**: araştırıp bakmak → araştırıp bakmak
+- ✏️ **뛰어다니다**: koşturup durmak → koşturup durmak
+- ✏️ **남다**: artmak, kalmak → artmak, kalmak
+- ✏️ **좋아지다**: iyileşmek, düzelmek → iyileşmek, düzelmek
+- ✏️ **달라지다**: farklılaşmak, değişmek → farklılaşmak, değişmek
+- ✏️ **단순하다**: sade, basit olmak → sade, basit olmak
+- ✏️ **적당하다**: uygun olmak → uygun olmak
+- ✏️ **이유**: sebep → sebep
+- ✏️ **안 그래도**: zaten, ben de tam → zaten, ben de tam
+- ✏️ **벌써**: şimdiden, çoktan → şimdiden, çoktan
+- ✏️ **이미**: çoktan, zaten → çoktan, zaten
 - ✏️ **처음**: ilk, ilk kez → ilk, ilk kez
