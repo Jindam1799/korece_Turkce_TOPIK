@@ -485,3 +485,124 @@
 한식|한식 식당=Kore lokantası;한식을 좋아하다=Kore yemeklerini sevmek
 햄버거|햄버거를 먹다=hamburger yemek;햄버거 가게=hamburgerci
 홍차|홍차를 마시다=siyah çay içmek;홍차 한 잔=bir fincan siyah çay
+# --- 쇼핑과 물건 ---
+가방|가방을 메다=çantayı omuza takmak;가방을 들다=çanta taşımak
+가위|가위로 자르다=makasla kesmek;가위바위보=taş kâğıt makas
+값|값이 싸다=fiyatı ucuz olmak;값을 깎다=pazarlık yapmak
+거울|거울을 보다=aynaya bakmak;거울에 비치다=aynaya yansımak
+깎다|사과를 깎다=elma soymak;값을 깎다=fiyattan indirim yapmak
+돈|돈을 벌다=para kazanmak;돈을 쓰다=para harcamak
+디브이디|디브이디를 보다=DVD izlemek;영화 디브이디=film DVD'si
+라디오|라디오를 듣다=radyo dinlemek;라디오를 켜다=radyoyu açmak
+로션|로션을 바르다=losyon sürmek;얼굴 로션=yüz losyonu
+봉지|봉지에 담다=poşete koymak;과자 한 봉지=bir paket cips
+비디오|비디오를 보다=video izlemek;비디오를 찍다=video çekmek
+비싸다|값이 비싸다=fiyatı pahalı olmak;너무 비싸다=çok pahalı olmak
+사다|옷을 사다=kıyafet almak;선물을 사다=hediye almak
+사이즈|사이즈가 맞다=bedeni uymak;큰 사이즈=büyük beden
+상관|상관이 없다=fark etmez;상관하지 마=karışma
+샴푸|샴푸로 머리를 감다=şampuanla saç yıkamak;샴푸를 사다=şampuan almak
+서류|서류를 내다=belge teslim etmek;서류를 준비하다=belgeleri hazırlamak
+서비스|서비스가 좋다=hizmeti iyi olmak;이건 서비스예요=bu ikramımız
+세일하다|50% 세일하다=yüzde elli indirim yapmak;백화점에서 세일하다=alışveriş merkezinde indirim olmak
+쇼핑|쇼핑을 하다=alışveriş yapmak;인터넷 쇼핑=internetten alışveriş
+시디|시디를 듣다=CD dinlemek;음악 시디=müzik CD'si
+안경|안경을 쓰다=gözlük takmak;안경을 벗다=gözlüğü çıkarmak
+액세서리|액세서리를 하다=aksesuar takmak;액세서리 가게=aksesuar dükkânı
+에어컨|에어컨을 켜다=klimayı açmak;에어컨을 끄다=klimayı kapatmak
+우산|우산을 쓰다=şemsiye açmak;우산을 가져가다=şemsiye götürmek
+원하다|원하는 것=istediği şey;성공을 원하다=başarı istemek
+이메일|이메일을 보내다=e-posta göndermek;이메일 주소=e-posta adresi
+인터넷|인터넷을 하다=internette gezinmek;인터넷으로 사다=internetten almak
+자료|자료를 찾다=kaynak aramak;발표 자료=sunum malzemesi
+전화|전화를 하다=telefon etmek;전화를 받다=telefona cevap vermek
+전화기|전화기가 울리다=telefon çalmak;전화기를 들다=telefonu açmak
+카드|카드로 계산하다=kartla ödemek;생일 카드=doğum günü kartı
+컴퓨터|컴퓨터를 켜다=bilgisayarı açmak;컴퓨터 게임=bilgisayar oyunu
+컵|컵에 따르다=bardağa doldurmak;종이컵=karton bardak
+타월|타월로 닦다=havluyla kurulamak;비치 타월=plaj havlusu
+텔레비전|텔레비전을 보다=televizyon izlemek;텔레비전을 켜다=televizyonu açmak
+팔다|물건을 팔다=mal satmak;싸게 팔다=ucuza satmak
+팔리다|잘 팔리다=çok satılmak;다 팔리다=hepsi satılmak
+펜|펜으로 쓰다=kalemle yazmak;펜을 빌리다=kalem ödünç almak
+프린트|프린트를 하다=çıktı almak;프린트를 나눠 주다=çıktıları dağıtmak
+필름|필름 카메라=filmli fotoğraf makinesi;필름을 현상하다=filmi banyo etmek
+할인|할인을 받다=indirim almak;학생 할인=öğrenci indirimi
+핸드폰|핸드폰을 충전하다=cep telefonunu şarj etmek;핸드폰 번호=cep telefonu numarası
+현금|현금으로 내다=nakit ödemek;현금이 없다=nakit parası yok
+휴대전화|휴대전화를 끄다=cep telefonunu kapatmak;휴대전화로 전화하다=cep telefonundan aramak
+# --- 옷과 외모 ---
+곱다|마음이 곱다=kalbi güzel olmak;고운 손=narin eller
+구두|구두를 신다=ayakkabı giymek;구두를 닦다=ayakkabı boyamak
+닮다|엄마를 닮다=annesine benzemek;많이 닮다=çok benzemek
+등산복|등산복을 입다=dağcılık kıyafeti giymek;등산복 매장=dağcılık kıyafeti mağazası
+디자인|디자인이 예쁘다=tasarımı güzel olmak;옷 디자인=kıyafet tasarımı
+면도|면도를 하다=tıraş olmak;면도기=tıraş makinesi
+모자|모자를 쓰다=şapka takmak;모자를 벗다=şapkayı çıkarmak
+목욕|목욕을 하다=banyo yapmak;목욕탕=hamam
+목욕하다|따뜻한 물에 목욕하다=ılık suda banyo yapmak;아기를 목욕시키다=bebeği yıkamak
+바지|바지를 입다=pantolon giymek;청바지=kot pantolon
+반지|반지를 끼다=yüzük takmak;결혼반지=alyans
+벗다|옷을 벗다=kıyafeti çıkarmak;신발을 벗다=ayakkabıyı çıkarmak
+블라우스|하얀 블라우스=beyaz bluz;블라우스를 입다=bluz giymek
+샤워하다|아침에 샤워하다=sabah duş almak;찬물로 샤워하다=soğuk suyla duş almak
+세수하다|아침에 세수하다=sabah yüzünü yıkamak;찬물로 세수하다=soğuk suyla yüz yıkamak
+스웨터|스웨터를 입다=kazak giymek;두꺼운 스웨터=kalın kazak
+스타킹|스타킹을 신다=külotlu çorap giymek;검은 스타킹=siyah külotlu çorap
+신발|신발을 신다=ayakkabı giymek;신발 가게=ayakkabıcı
+양복|양복을 입다=takım elbise giymek;양복을 맞추다=takım elbise diktirmek
+예쁘다|옷이 예쁘다=kıyafet güzel olmak;예쁜 꽃=güzel çiçek
+옷|옷을 입다=kıyafet giymek;옷을 갈아입다=üstünü değiştirmek
+와이셔츠|와이셔츠를 다리다=gömlek ütülemek;흰 와이셔츠=beyaz gömlek
+원피스|원피스를 입다=elbise giymek;꽃무늬 원피스=çiçekli elbise
+재킷|재킷을 걸치다=ceketi omzuna almak;가죽 재킷=deri ceket
+점퍼|점퍼를 입다=mont giymek;두꺼운 점퍼=kalın mont
+주머니|주머니에 넣다=cebe koymak;바지 주머니=pantolon cebi
+치마|치마를 입다=etek giymek;짧은 치마=kısa etek
+코트|코트를 입다=palto giymek;겨울 코트=kış paltosu
+패션|패션 잡지=moda dergisi;패션 감각=moda zevki
+한복|한복을 입다=hanbok giymek;설날에 한복을 입다=yeni yılda hanbok giymek
+화장하다|진하게 화장하다=yoğun makyaj yapmak;화장하고 나가다=makyaj yapıp çıkmak
+# --- 집과 생활 ---
+고장|고장이 나다=bozulmak;고장을 고치다=arızayı tamir etmek
+교체|부품 교체=parça değişimi;교체를 하다=değiştirmek
+끄다|불을 끄다=ışığı kapatmak;텔레비전을 끄다=televizyonu kapatmak
+닫다|문을 닫다=kapıyı kapatmak;창문을 닫다=pencereyi kapatmak
+방|방을 청소하다=odayı temizlemek;방이 넓다=oda geniş olmak
+불|불을 켜다=ışığı açmak;불이 나다=yangın çıkmak
+빨다|옷을 빨다=kıyafet yıkamak;손으로 빨다=elde yıkamak
+빨래|빨래를 하다=çamaşır yıkamak;빨래를 널다=çamaşır asmak
+살다|서울에 살다=Seul'de yaşamak;혼자 살다=yalnız yaşamak
+쉬다|집에서 쉬다=evde dinlenmek;잠깐 쉬다=biraz dinlenmek
+쓰레기|쓰레기를 버리다=çöp atmak;쓰레기통=çöp kutusu
+의자|의자에 앉다=sandalyeye oturmak;편한 의자=rahat sandalye
+이사|이사를 하다=taşınmak;이사 가다=taşınıp gitmek
+자다|잠을 자다=uyumak;일찍 자다=erken yatmak
+잠자다|잠자는 아기=uyuyan bebek;잠자기 전에=uyumadan önce
+준비|준비를 하다=hazırlanmak;시험 준비=sınav hazırlığı
+지내다|잘 지내다=iyi olmak;어떻게 지내요?=nasılsın?
+집|집에 가다=eve gitmek;우리 집=bizim ev
+책장|책장에 꽂다=kitaplığa dizmek;큰 책장=büyük kitaplık
+청소하다|방을 청소하다=odayı temizlemek;깨끗이 청소하다=tertemiz temizlemek
+침대|침대에 눕다=yatağa uzanmak;침대에서 자다=yatakta uyumak
+테이블|테이블에 놓다=masaya koymak;테이블을 닦다=masayı silmek
+틀다|음악을 틀다=müzik açmak;에어컨을 틀다=klimayı açmak
+# --- 몸과 건강 ---
+가슴|가슴이 아프다=göğsü ağrımak;가슴이 뛰다=kalbi hızlı atmak
+감기약|감기약을 먹다=soğuk algınlığı ilacı içmek;감기약을 사다=soğuk algınlığı ilacı almak
+건강|건강이 좋다=sağlığı iyi olmak;건강을 지키다=sağlığını korumak
+건강하다|몸이 건강하다=vücudu sağlıklı olmak;건강하게 지내다=sağlıkla yaşamak
+금연|금연 구역=sigara içilmeyen alan;금연을 하다=sigarayı bırakmak
+금주|금주를 하다=içkiyi bırakmak;금주 기간=içkisiz dönem
+눈|눈이 크다=gözleri büyük olmak;눈이 오다=kar yağmak
+눈물|눈물이 나다=gözleri yaşarmak;눈물을 흘리다=gözyaşı dökmek
+몸살|몸살이 나다=halsiz düşmek;몸살감기=halsizlikli grip
+소화제|소화제를 먹다=hazım ilacı içmek;소화제를 사다=hazım ilacı almak
+수술하다|다리를 수술하다=bacağından ameliyat olmak;수술한 후=ameliyattan sonra
+아프다|머리가 아프다=başı ağrımak;많이 아프다=çok hasta olmak
+주사|주사를 맞다=iğne olmak;주사를 놓다=iğne yapmak
+죽다|사고로 죽다=kazada ölmek;꽃이 죽다=çiçek ölmek
+증세|감기 증세=soğuk algınlığı belirtisi;증세가 나타나다=belirti ortaya çıkmak
+치료하다|병을 치료하다=hastalığı tedavi etmek;이를 치료하다=diş tedavisi yapmak
+코피|코피가 나다=burnu kanamak;코피를 흘리다=burnundan kan akmak
+피곤하다|너무 피곤하다=çok yorgun olmak;피곤해 보이다=yorgun görünmek
