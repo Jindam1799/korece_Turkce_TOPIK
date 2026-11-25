@@ -129,3 +129,140 @@
 직장|직장에 다니다=bir işte çalışmak;직장 동료=iş arkadaşı
 탤런트|유명한 탤런트=ünlü dizi oyuncusu;탤런트가 되다=dizi oyuncusu olmak
 회사|회사에 다니다=şirkette çalışmak;회사를 그만두다=işten ayrılmak
+# --- 학교와 공부 ---
+고등학생|고등학생이 되다=lise öğrencisi olmak;고등학생 아들=lise öğrencisi oğlu
+공부|공부를 하다=ders çalışmak;한국어 공부=Korece çalışması
+공부하다|열심히 공부하다=çok çalışmak;도서관에서 공부하다=kütüphanede ders çalışmak
+과|국문과=Kore dili ve edebiyatı bölümü;무슨 과예요?=hangi bölümdesin?
+과학|과학 시간=fen dersi;과학 기술=bilim ve teknoloji
+교과서|교과서를 펴다=ders kitabını açmak;한국어 교과서=Korece ders kitabı
+국어|국어 시간=Korece dersi (ana dil dersi);국어 선생님=Korece öğretmeni
+글|글을 쓰다=yazı yazmak;글을 읽다=yazı okumak
+급|한국어 3급=Korece 3. seviye;급이 올라가다=seviye yükselmek
+남학생|남학생과 여학생=erkek ve kız öğrenciler;남학생이 많다=erkek öğrenci çok olmak
+노트|노트에 쓰다=deftere yazmak;노트 필기=not tutma
+대답|대답을 하다=cevap vermek;대답이 없다=cevap gelmemek
+대답하다|질문에 대답하다=soruya cevap vermek;크게 대답하다=yüksek sesle cevap vermek
+대학|대학에 들어가다=üniversiteye girmek;대학을 졸업하다=üniversiteden mezun olmak
+대학교|대학교에 다니다=üniversiteye gitmek;서울대학교=Seul Üniversitesi
+대학생|대학생이 되다=üniversite öğrencisi olmak;대학생 때=üniversite yıllarında
+대학원생|대학원생이 되다=lisansüstü öğrencisi olmak;박사 과정 대학원생=doktora öğrencisi
+독서실|독서실에서 공부하다=okuma salonunda ders çalışmak;독서실에 다니다=okuma salonuna gitmek
+동아리|동아리에 가입하다=kulübe katılmak;동아리 활동=kulüp faaliyeti
+듣기|듣기 시험=dinleme sınavı;듣기 연습=dinleme alıştırması
+말하기|말하기 대회=konuşma yarışması;말하기 연습=konuşma alıştırması
+메모|메모를 하다=not almak;메모를 남기다=not bırakmak
+배우다|한국어를 배우다=Korece öğrenmek;수영을 배우다=yüzme öğrenmek
+설명|설명을 듣다=açıklamayı dinlemek;자세한 설명=ayrıntılı açıklama
+설명하다|쉽게 설명하다=kolayca açıklamak;문법을 설명하다=dilbilgisini açıklamak
+수업|수업을 듣다=derse katılmak;수업이 끝나다=ders bitmek
+스페인어|스페인어를 배우다=İspanyolca öğrenmek;스페인어로 말하다=İspanyolca konuşmak
+시간표|시간표를 짜다=ders programı yapmak;수업 시간표=ders çizelgesi
+시험|시험을 보다=sınava girmek;시험에 합격하다=sınavı geçmek
+쓰기|쓰기 시험=yazma sınavı;쓰기 연습=yazma alıştırması
+아랍어|아랍어를 배우다=Arapça öğrenmek;아랍어 글자=Arap harfleri
+여학생|여학생 기숙사=kız öğrenci yurdu;여학생이 많다=kız öğrenci çok olmak
+연습|연습을 하다=alıştırma yapmak;발음 연습=telaffuz alıştırması
+영어|영어를 잘하다=İngilizceyi iyi konuşmak;영어 선생님=İngilizce öğretmeni
+영어회화|영어회화 학원=İngilizce konuşma kursu;영어회화를 배우다=İngilizce konuşma öğrenmek
+예문|예문을 만들다=örnek cümle kurmak;예문을 읽다=örnek cümleyi okumak
+유학|유학을 가다=yurt dışına okumaya gitmek;한국 유학=Kore'de eğitim
+이해|이해가 되다=anlaşılmak;이해를 돕다=anlamaya yardımcı olmak
+일본말|일본말을 하다=Japonca konuşmak;일본말을 배우다=Japonca öğrenmek
+일본어|일본어 수업=Japonca dersi;일본어로 쓰다=Japonca yazmak
+읽기|읽기 시험=okuma sınavı;읽기 연습=okuma alıştırması
+읽다|책을 읽다=kitap okumak;소리 내어 읽다=sesli okumak
+입학|대학교 입학=üniversiteye giriş;입학 시험=giriş sınavı
+조선말|조선말을 하다=Korece konuşmak (eski deyiş);조선말 사전=Korece sözlük (eski deyiş)
+조선어|조선어 수업=Korece dersi (eski deyiş);조선어로 된 책=Korece yazılmış kitap
+중국어|중국어를 배우다=Çince öğrenmek;중국어 발음=Çince telaffuz
+중학생|중학생 딸=ortaokul öğrencisi kızı;중학생이 되다=ortaokul öğrencisi olmak
+질문|질문이 있다=sorusu olmak;질문을 받다=soru almak
+질문하다|선생님께 질문하다=öğretmene soru sormak;자주 질문하다=sık sık soru sormak
+책|책을 읽다=kitap okumak;책을 빌리다=kitap ödünç almak
+초등학생|초등학생 아이=ilkokul öğrencisi çocuk;초등학생 때=ilkokuldayken
+학교|학교에 가다=okula gitmek;학교가 끝나다=okul bitmek
+학년|몇 학년이에요?=kaçıncı sınıftasın?;3학년=üçüncü sınıf
+학생|학생 식당=öğrenci yemekhanesi;학생 할인=öğrenci indirimi
+학생증|학생증을 보여 주다=öğrenci kimliğini göstermek;학생증을 만들다=öğrenci kimliği çıkarmak
+학원|영어 학원=İngilizce kursu;학원에 다니다=kursa gitmek
+한국말|한국말을 잘하다=Koreceyi iyi konuşmak;한국말로 하다=Korece söylemek
+한국어|한국어를 배우다=Korece öğrenmek;한국어 능력 시험=Korece yeterlilik sınavı (TOPIK)
+한글|한글을 읽다=Hangıl okumak;한글날=Hangıl günü
+한자|한자를 쓰다=Çince karakter yazmak;한자 공부=Çince karakter çalışması
+합격|시험 합격=sınavı kazanma;합격 소식=sınavı kazanma haberi
+# --- 숫자와 단위 ---
+구십|구십 점=doksan puan;구십 퍼센트=yüzde doksan
+그램|백 그램=yüz gram;몇 그램=kaç gram
+넷째|넷째 날=dördüncü gün;넷째 주=dördüncü hafta
+다|다 먹다=hepsini yemek;다 같이=hep birlikte
+두|두 사람=iki kişi;두 개=iki tane
+둘째|둘째 딸=ikinci kız;둘째 날=ikinci gün
+몇|몇 개=kaç tane;몇 시=saat kaç
+미터|백 미터=yüz metre;몇 미터=kaç metre
+반년|반년 동안=yarım yıl boyunca;반년 전=yarım yıl önce
+번호|전화번호=telefon numarası;번호를 누르다=numarayı tuşlamak
+사십|사십 분=kırk dakika;사십 대=kırklı yaşlar
+삼십|삼십 분=otuz dakika;삼십 대=otuzlu yaşlar
+센티미터|키가 170센티미터=boyu 170 santimetre;몇 센티미터=kaç santimetre
+셋째|셋째 아들=üçüncü oğul;셋째 주=üçüncü hafta
+씩|하나씩=birer birer;조금씩=azar azar
+엔|천 엔=bin yen;엔으로 바꾸다=yene çevirmek
+여러가지|여러가지 음식=çeşitli yemekler;여러가지 이유=çeşitli sebepler
+오십|오십 원=elli won;오십 대=elli yaşlar
+원|만 원=on bin won;천 원짜리=bin wonluk
+육십|육십 세=altmış yaş;육십 분=altmış dakika
+이십|이십 대=yirmili yaşlar;이십 분=yirmi dakika
+인|2인분=iki kişilik;4인 가족=dört kişilik aile
+짜리|만 원짜리=on bin wonluk;세 살짜리 아이=üç yaşında çocuk
+쯤|세 시쯤=saat üç civarı;일주일쯤=bir hafta kadar
+첫째|첫째 날=ilk gün;첫째 아들=büyük oğul
+초|10초=on saniye;몇 초=kaç saniye
+칠십|칠십 세=yetmiş yaş;칠십 퍼센트=yüzde yetmiş
+킬로그램|5킬로그램=beş kilogram;몸무게가 60킬로그램=kilosu altmış
+킬로미터|10킬로미터=on kilometre;시속 100킬로미터=saatte yüz kilometre
+팔십|팔십 점=seksen puan;팔십 세=seksen yaş
+퍼센트|50퍼센트 할인=yüzde elli indirim;몇 퍼센트=yüzde kaç
+페이지|10페이지를 펴다=onuncu sayfayı açmak;다음 페이지=sonraki sayfa
+한|한 사람=bir kişi;한 번=bir kez
+# --- 시간과 날짜 ---
+겨울방학|겨울방학이 시작되다=kış tatili başlamak;겨울방학 동안=kış tatili boyunca
+공휴일|공휴일에 쉬다=resmî tatilde dinlenmek;오늘은 공휴일이다=bugün resmî tatil
+그날|그날 밤=o gece;그날 이후=o günden sonra
+기간|시험 기간=sınav dönemi;휴가 기간=tatil süresi
+끝내다|일을 끝내다=işi bitirmek;숙제를 끝내다=ödevi bitirmek
+날|좋은 날=güzel bir gün;어느 날=bir gün
+늘|늘 바쁘다=her zaman meşgul olmak;늘 웃다=hep gülümsemek
+늦잠|늦잠을 자다=geç uyanmak;늦잠 때문에 늦다=geç uyandığı için geç kalmak
+다음달|다음달에 만나다=gelecek ay buluşmak;다음달 초=gelecek ayın başı
+다음주|다음주 월요일=gelecek pazartesi;다음주에 시험이 있다=gelecek hafta sınav var
+다음해|다음해 봄=ertesi yılın baharı;다음해에 졸업하다=ertesi yıl mezun olmak
+동안|방학 동안=tatil boyunca;오랫동안=uzun süre
+때|어릴 때=küçükken;밥 먹을 때=yemek yerken
+마지막|마지막 날=son gün;마지막으로=son olarak
+마치다|수업을 마치다=dersi bitirmek;일을 마치다=işi bitirmek
+방학|방학이 시작되다=tatil başlamak;여름방학=yaz tatili
+생일|생일 파티=doğum günü partisi;생일 선물=doğum günü hediyesi
+시계|시계를 보다=saate bakmak;손목시계=kol saati
+시작|새로운 시작=yeni başlangıç;시작 시간=başlama saati
+시작되다|수업이 시작되다=ders başlamak;영화가 시작되다=film başlamak
+시작하다|일을 시작하다=işe başlamak;운동을 시작하다=spora başlamak
+아침|아침에 일어나다=sabah kalkmak;아침을 먹다=kahvaltı yapmak
+아침밥|아침밥을 먹다=kahvaltı yapmak;아침밥을 거르다=kahvaltıyı atlamak
+아침식사|아침식사를 하다=kahvaltı etmek;호텔 아침식사=otel kahvaltısı
+어저께|어저께 만난 사람=dün tanıştığım kişi;어저께 밤=dün gece
+오랫동안|오랫동안 기다리다=uzun süre beklemek;오랫동안 살다=uzun süre yaşamak
+요일|무슨 요일이에요?=bugün günlerden ne?;요일마다=her gün (haftanın her günü)
+우선|우선 밥부터 먹자=önce yemek yiyelim;우선 순위=öncelik sırası
+월|1월=ocak;몇 월=hangi ay
+이번|이번 주=bu hafta;이번에는=bu sefer
+일기|일기를 쓰다=günlük yazmak;일기장=günlük defteri
+저녁식사|저녁식사를 하다=akşam yemeği yemek;저녁식사에 초대하다=akşam yemeğine davet etmek
+점심시간|점심시간이 되다=öğle arası gelmek;점심시간에 만나다=öğle arasında buluşmak
+점심식사|점심식사를 하다=öğle yemeği yemek;점심식사 후=öğle yemeğinden sonra
+지난달|지난달에 이사하다=geçen ay taşınmak;지난달 말=geçen ayın sonu
+지난주|지난주 금요일=geçen cuma;지난주에 만나다=geçen hafta buluşmak
+크리스마스|크리스마스 선물=Noel hediyesi;크리스마스 트리=Noel ağacı
+한번|한번 해 보다=bir kez denemek;한번 더=bir kez daha
+현재|현재 시간=şu anki saat;현재까지=şu ana kadar
+후|식사 후=yemekten sonra;일주일 후=bir hafta sonra

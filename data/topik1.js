@@ -178,94 +178,94 @@
 가르치다|öğretmek|한국어를 가르치다=Korece öğretmek;학생을 가르치다=öğrenci okutmak
 강좌|ders / kurs|강좌를 듣다=kursa katılmak;요리 강좌=yemek kursu
 고등학교|lise|고등학교에 다니다=liseye gitmek;고등학교 때=lisedeyken
-고등학생|lise öğrencisi
-공부|ders çalışma
-공부하다|ders çalışmak
+고등학생|lise öğrencisi|고등학생이 되다=lise öğrencisi olmak;고등학생 아들=lise öğrencisi oğlu
+공부|ders çalışma|공부를 하다=ders çalışmak;한국어 공부=Korece çalışması
+공부하다|ders çalışmak|열심히 공부하다=çok çalışmak;도서관에서 공부하다=kütüphanede ders çalışmak
 공책|defter|공책에 쓰다=deftere yazmak;공책을 펴다=defteri açmak
-과|bölüm (üniversite)
-과학|bilim, fen
-교과서|ders kitabı
+과|bölüm (üniversite)|국문과=Kore dili ve edebiyatı bölümü;무슨 과예요?=hangi bölümdesin?
+과학|bilim, fen|과학 시간=fen dersi;과학 기술=bilim ve teknoloji
+교과서|ders kitabı|교과서를 펴다=ders kitabını açmak;한국어 교과서=Korece ders kitabı
 교실|sınıf (derslik)|교실에 들어가다=sınıfa girmek;교실이 넓다=sınıf geniş
-국어|ana dil (Korece dersi)
-글|yazı
-급|seviye, sınıf
+국어|ana dil (Korece dersi)|국어 시간=Korece dersi (ana dil dersi);국어 선생님=Korece öğretmeni
+글|yazı|글을 쓰다=yazı yazmak;글을 읽다=yazı okumak
+급|seviye, sınıf|한국어 3급=Korece 3. seviye;급이 올라가다=seviye yükselmek
 기숙사|yurt|기숙사에 살다=yurtta kalmak;학교 기숙사=okul yurdu
-남학생|erkek öğrenci
+남학생|erkek öğrenci|남학생과 여학생=erkek ve kız öğrenciler;남학생이 많다=erkek öğrenci çok olmak
 내용|içerik|책 내용=kitabın içeriği;내용을 이해하다=içeriği anlamak
-노트|defter
+노트|defter|노트에 쓰다=deftere yazmak;노트 필기=not tutma
 능력|yetenek, kabiliyet|능력이 뛰어나다=yeteneği üstün;능력을 키우다=yeteneğini geliştirmek
 단어|kelime|단어를 외우다=kelime ezberlemek;새 단어=yeni kelime
 단점|dezavantaj|단점을 고치다=eksikliğini düzeltmek;장단점=artılar ve eksiler
-대답|cevap
-대답하다|cevap vermek
-대학|üniversite
-대학교|üniversite
-대학생|üniversite öğrencisi
+대답|cevap|대답을 하다=cevap vermek;대답이 없다=cevap gelmemek
+대답하다|cevap vermek|질문에 대답하다=soruya cevap vermek;크게 대답하다=yüksek sesle cevap vermek
+대학|üniversite|대학에 들어가다=üniversiteye girmek;대학을 졸업하다=üniversiteden mezun olmak
+대학교|üniversite|대학교에 다니다=üniversiteye gitmek;서울대학교=Seul Üniversitesi
+대학생|üniversite öğrencisi|대학생이 되다=üniversite öğrencisi olmak;대학생 때=üniversite yıllarında
 대학원|lisansüstü okul|대학원에 가다=lisansüstüne başlamak;대학원생=lisansüstü öğrencisi
-대학원생|lisansüstü öğrenci
-독서실|okuma salonu
-동아리|kulüp
-듣기|dinleme
+대학원생|lisansüstü öğrenci|대학원생이 되다=lisansüstü öğrencisi olmak;박사 과정 대학원생=doktora öğrencisi
+독서실|okuma salonu|독서실에서 공부하다=okuma salonunda ders çalışmak;독서실에 다니다=okuma salonuna gitmek
+동아리|kulüp|동아리에 가입하다=kulübe katılmak;동아리 활동=kulüp faaliyeti
+듣기|dinleme|듣기 시험=dinleme sınavı;듣기 연습=dinleme alıştırması
 뜻|anlam, niyet|단어의 뜻=kelimenin anlamı;뜻을 이루다=amacına ulaşmak
-말하기|konuşma
-메모|not
+말하기|konuşma|말하기 대회=konuşma yarışması;말하기 연습=konuşma alıştırması
+메모|not|메모를 하다=not almak;메모를 남기다=not bırakmak
 문장|cümle|문장을 만들다=cümle kurmak;긴 문장=uzun cümle
 문제|soru, sorun|문제를 풀다=soru çözmek;문제가 생기다=sorun çıkmak
 반|sınıf (öğrenci grubu); buçuk, yarım|같은 반=aynı sınıf;반 친구=sınıf arkadaşı
 발음|telaffuz|발음이 좋다=telaffuzu iyi;발음을 연습하다=telaffuz çalışmak
 발표|sunum|발표를 하다=sunum yapmak;발표 준비=sunum hazırlığı
-배우다|öğrenmek
+배우다|öğrenmek|한국어를 배우다=Korece öğrenmek;수영을 배우다=yüzme öğrenmek
 볼펜|tükenmez kalem|볼펜으로 쓰다=tükenmezle yazmak;볼펜을 빌리다=tükenmez kalem ödünç almak
 사전|sözlük; önceden, önleyici|사전을 찾다=sözlüğe bakmak;한국어 사전=Korece sözlük
-설명|açıklama
-설명하다|açıklamak
-수업|ders
+설명|açıklama|설명을 듣다=açıklamayı dinlemek;자세한 설명=ayrıntılı açıklama
+설명하다|açıklamak|쉽게 설명하다=kolayca açıklamak;문법을 설명하다=dilbilgisini açıklamak
+수업|ders|수업을 듣다=derse katılmak;수업이 끝나다=ders bitmek
 수학|matematik|수학 문제=matematik sorusu;수학을 잘하다=matematikte iyi olmak
 숙제|ödev|숙제를 하다=ödev yapmak;숙제를 내다=ödev vermek
 순서|sıra; sıra / düzen|순서를 지키다=sıraya uymak;순서대로=sırayla
-스페인어|İspanyolca
-시간표|ders programı
-시험|sınav
-쓰기|yazma
-아랍어|Arapça
-여학생|kız öğrenci
-연습|alıştırma
+스페인어|İspanyolca|스페인어를 배우다=İspanyolca öğrenmek;스페인어로 말하다=İspanyolca konuşmak
+시간표|ders programı|시간표를 짜다=ders programı yapmak;수업 시간표=ders çizelgesi
+시험|sınav|시험을 보다=sınava girmek;시험에 합격하다=sınavı geçmek
+쓰기|yazma|쓰기 시험=yazma sınavı;쓰기 연습=yazma alıştırması
+아랍어|Arapça|아랍어를 배우다=Arapça öğrenmek;아랍어 글자=Arap harfleri
+여학생|kız öğrenci|여학생 기숙사=kız öğrenci yurdu;여학생이 많다=kız öğrenci çok olmak
+연습|alıştırma|연습을 하다=alıştırma yapmak;발음 연습=telaffuz alıştırması
 연습하다|pratik yapmak|발음을 연습하다=telaffuz çalışmak;피아노를 연습하다=piyano çalışmak
 연필|kurşun kalem|연필로 쓰다=kurşun kalemle yazmak;연필을 깎다=kalem açmak
-영어|İngilizce
-영어회화|İngilizce konuşma
-예문|örnek cümle
+영어|İngilizce|영어를 잘하다=İngilizceyi iyi konuşmak;영어 선생님=İngilizce öğretmeni
+영어회화|İngilizce konuşma|영어회화 학원=İngilizce konuşma kursu;영어회화를 배우다=İngilizce konuşma öğrenmek
+예문|örnek cümle|예문을 만들다=örnek cümle kurmak;예문을 읽다=örnek cümleyi okumak
 외국어|yabancı dil|외국어를 배우다=yabancı dil öğrenmek;외국어를 잘하다=yabancı dili iyi konuşmak
-유학|yurt dışında eğitim
+유학|yurt dışında eğitim|유학을 가다=yurt dışına okumaya gitmek;한국 유학=Kore'de eğitim
 의미|anlam|단어의 의미=kelimenin anlamı;의미가 있다=anlamlı olmak
-이해|anlayış
+이해|anlayış|이해가 되다=anlaşılmak;이해를 돕다=anlamaya yardımcı olmak
 이해하다|anlamak; anlamak, kavramak|내용을 이해하다=içeriği anlamak;서로 이해하다=birbirini anlamak
-일본말|Japonca
-일본어|Japonca
-읽기|okuma
-읽다|okumak
-입학|okula giriş
+일본말|Japonca|일본말을 하다=Japonca konuşmak;일본말을 배우다=Japonca öğrenmek
+일본어|Japonca|일본어 수업=Japonca dersi;일본어로 쓰다=Japonca yazmak
+읽기|okuma|읽기 시험=okuma sınavı;읽기 연습=okuma alıştırması
+읽다|okumak|책을 읽다=kitap okumak;소리 내어 읽다=sesli okumak
+입학|okula giriş|대학교 입학=üniversiteye giriş;입학 시험=giriş sınavı
 장점|avantaj, güçlü yan; avantaj, olumlu yön|장점이 많다=avantajı çok;장점과 단점=artı ve eksiler
 전공|ana dal|전공이 뭐예요?=Bölümünüz ne?;전공을 살리다=bölümüyle ilgili iş yapmak
 전자사전|elektronik sözlük|전자사전을 찾다=elektronik sözlüğe bakmak;전자사전을 사다=elektronik sözlük almak
 점수|puan, not|점수를 받다=puan almak;점수가 오르다=puanı yükselmek
 제목|başlık|영화 제목=filmin adı;제목을 붙이다=başlık koymak
-조선말|Kore dili (eski/Kuzey)
-조선어|Kore dili (eski/Kuzey)
+조선말|Kore dili (eski/Kuzey)|조선말을 하다=Korece konuşmak (eski deyiş);조선말 사전=Korece sözlük (eski deyiş)
+조선어|Kore dili (eski/Kuzey)|조선어 수업=Korece dersi (eski deyiş);조선어로 된 책=Korece yazılmış kitap
 졸업|mezuniyet|졸업을 하다=mezun olmak;졸업 후=mezuniyetten sonra
 졸업하다|mezun olmak|대학교를 졸업하다=üniversiteden mezun olmak;고등학교를 졸업하다=liseden mezun olmak
 종이|kâğıt; kağıt|종이에 쓰다=kâğıda yazmak;종이 한 장=bir yaprak kâğıt
-중국어|Çince
+중국어|Çince|중국어를 배우다=Çince öğrenmek;중국어 발음=Çince telaffuz
 중학교|ortaokul|중학교에 다니다=ortaokula gitmek;중학교 친구=ortaokul arkadaşı
-중학생|ortaokul öğrencisi
+중학생|ortaokul öğrencisi|중학생 딸=ortaokul öğrencisi kızı;중학생이 되다=ortaokul öğrencisi olmak
 지각|algı, duyum|감각 지각=duyusal algı;지각 능력=algılama yeteneği
 지우개|silgi|지우개로 지우다=silgiyle silmek;지우개를 빌리다=silgi ödünç almak
-질문|soru
-질문하다|soru sormak
-책|kitap
+질문|soru|질문이 있다=sorusu olmak;질문을 받다=soru almak
+질문하다|soru sormak|선생님께 질문하다=öğretmene soru sormak;자주 질문하다=sık sık soru sormak
+책|kitap|책을 읽다=kitap okumak;책을 빌리다=kitap ödünç almak
 책상|masa (çalışma masası)|책상 위=masanın üstü;책상에 앉다=masaya oturmak
 초등학교|ilkokul|초등학교에 입학하다=ilkokula başlamak;초등학교 선생님=ilkokul öğretmeni
-초등학생|ilkokul öğrencisi
+초등학생|ilkokul öğrencisi|초등학생 아이=ilkokul öğrencisi çocuk;초등학생 때=ilkokuldayken
 칠판|kara tahta|칠판에 쓰다=tahtaya yazmak;칠판을 지우다=tahtayı silmek
 특징|özellik|특징이 있다=özelliği olmak;한국 음식의 특징=Kore yemeklerinin özelliği
 틀리다|yanlış olmak|답이 틀리다=cevap yanlış;한 문제 틀리다=bir soruyu yanlış yapmak
@@ -273,142 +273,142 @@
 표현|ifade|감정 표현=duygu ifadesi;표현이 다양하다=ifadeler çeşitli
 프로그램|program|프로그램을 보다=program izlemek;텔레비전 프로그램=televizyon programı
 필통|kalem kutusu|필통을 열다=kalem kutusunu açmak;필통에 넣다=kalem kutusuna koymak
-학교|okul
+학교|okul|학교에 가다=okula gitmek;학교가 끝나다=okul bitmek
 학기|dönem (okul)|새 학기=yeni dönem;학기가 시작되다=dönemin başlaması
-학년|sınıf (yıl)
-학생|öğrenci
-학생증|öğrenci kimliği
-학원|kurs, dershane
-한국말|Korece
-한국어|Korece
-한글|Hangıl (Kore alfabesi)
-한자|Çince karakter
-합격|(sınavı) geçme
+학년|sınıf (yıl)|몇 학년이에요?=kaçıncı sınıftasın?;3학년=üçüncü sınıf
+학생|öğrenci|학생 식당=öğrenci yemekhanesi;학생 할인=öğrenci indirimi
+학생증|öğrenci kimliği|학생증을 보여 주다=öğrenci kimliğini göstermek;학생증을 만들다=öğrenci kimliği çıkarmak
+학원|kurs, dershane|영어 학원=İngilizce kursu;학원에 다니다=kursa gitmek
+한국말|Korece|한국말을 잘하다=Koreceyi iyi konuşmak;한국말로 하다=Korece söylemek
+한국어|Korece|한국어를 배우다=Korece öğrenmek;한국어 능력 시험=Korece yeterlilik sınavı (TOPIK)
+한글|Hangıl (Kore alfabesi)|한글을 읽다=Hangıl okumak;한글날=Hangıl günü
+한자|Çince karakter|한자를 쓰다=Çince karakter yazmak;한자 공부=Çince karakter çalışması
+합격|(sınavı) geçme|시험 합격=sınavı kazanma;합격 소식=sınavı kazanma haberi
 #숫자와 단위 (sayılar ve birimler)
 가지|patlıcan; çeşit, tür|가지를 볶다=patlıcan kavurmak;가지 요리=patlıcan yemeği
 개|tane; köpek|사과 세 개=üç tane elma;몇 개예요?=Kaç tane?
 공기|kâse (pilav); hava|밥 한 공기=bir kâse pilav;밥 한 공기 더=bir kâse pilav daha
 구|dokuz (Çince kökenli)|구월=eylül;구 번=dokuz numara
-구십|doksan (Çince kökenli)
+구십|doksan (Çince kökenli)|구십 점=doksan puan;구십 퍼센트=yüzde doksan
 권|cilt (kitap sayacı)|책 한 권=bir kitap;공책 세 권=üç defter
-그램|gram
+그램|gram|백 그램=yüz gram;몇 그램=kaç gram
 그릇|kap, kâse|밥 한 그릇=bir kâse pilav;국 한 그릇=bir kâse çorba
 넷|dört (öz Korece)|넷이서=dördümüz;네 명=dört kişi
-넷째|dördüncü
-다|hepsi
+넷째|dördüncü|넷째 날=dördüncü gün;넷째 주=dördüncü hafta
+다|hepsi|다 먹다=hepsini yemek;다 같이=hep birlikte
 다섯|beş (öz Korece)|다섯 개=beş tane;다섯 시=saat beş
 달러|dolar|달러로 바꾸다=dolara çevirmek;100달러=yüz dolar
 대|adet (araç, makine)|자동차 한 대=bir araba;컴퓨터 두 대=iki bilgisayar
 대부분|çoğu; çoğunluk, büyük kısmı|대부분의 사람=insanların çoğu;대부분 끝나다=çoğu bitmek
-두|iki (sayı önünde)
+두|iki (sayı önünde)|두 사람=iki kişi;두 개=iki tane
 둘|iki (öz Korece)|둘이서=ikimiz;둘 다=ikisi de
-둘째|ikinci
+둘째|ikinci|둘째 딸=ikinci kız;둘째 날=ikinci gün
 마리|baş, tane (hayvan)|고양이 두 마리=iki kedi;물고기 한 마리=bir balık
 마흔|kırk|마흔 살=kırk yaş;마흔이 넘다=kırkı geçmek
 만|on bin|만 원=on bin won;만 명=on bin kişi
 명|kişi|학생 다섯 명=beş öğrenci;몇 명이에요?=Kaç kişi?
-몇|kaç
+몇|kaç|몇 개=kaç tane;몇 시=saat kaç
 모두|hepsi|모두 모이다=hep birlikte toplanmak;모두 함께=hep beraber
-미터|metre
-반년|yarım yıl
+미터|metre|백 미터=yüz metre;몇 미터=kaç metre
+반년|yarım yıl|반년 동안=yarım yıl boyunca;반년 전=yarım yıl önce
 백|yüz|백 원=yüz won;백 명=yüz kişi
 번|numara, kez|몇 번이에요?=Numarası kaç?;한 번 더=bir kez daha
-번호|numara
+번호|numara|전화번호=telefon numarası;번호를 누르다=numarayı tuşlamak
 병|şişe (sayaç)|물 한 병=bir şişe su;맥주 두 병=iki şişe bira
 사|dört (Çince kökenli)|사월=nisan;사 층=dördüncü kat
-사십|kırk (Çince kökenli)
+사십|kırk (Çince kökenli)|사십 분=kırk dakika;사십 대=kırklı yaşlar
 삼|üç (Çince kökenli)|삼월=mart;삼 년=üç yıl
-삼십|otuz (Çince kökenli)
+삼십|otuz (Çince kökenli)|삼십 분=otuz dakika;삼십 대=otuzlu yaşlar
 서른|otuz|서른 살=otuz yaş;서른 개=otuz tane
-센티미터|santimetre
+센티미터|santimetre|키가 170센티미터=boyu 170 santimetre;몇 센티미터=kaç santimetre
 셋|üç (öz Korece)|셋이서 가다=üçümüz gitmek;셋을 세다=üçe kadar saymak
-셋째|üçüncü
+셋째|üçüncü|셋째 아들=üçüncü oğul;셋째 주=üçüncü hafta
 송이|salkım, dal (çiçek)|포도 한 송이=bir salkım üzüm;장미 한 송이=bir dal gül
 쉰|elli|쉰 살=elli yaş;쉰 명=elli kişi
 스물|yirmi|스무 살=yirmi yaş;스물두 명=yirmi iki kişi
 십|on (Çince kökenli)|십 분=on dakika;십 년=on yıl
-씩|-er, -şer (her biri)
+씩|-er, -şer (her biri)|하나씩=birer birer;조금씩=azar azar
 아홉|dokuz (öz Korece)|아홉 시=saat dokuz;아홉 살=dokuz yaş
 아흔|doksan|아흔 살=doksan yaş;아흔이 넘다=doksanı geçmek
-엔|yen
+엔|yen|천 엔=bin yen;엔으로 바꾸다=yene çevirmek
 여덟|sekiz (öz Korece)|여덟 시=saat sekiz;여덟 개=sekiz tane
 여든|seksen|여든 살=seksen yaş;여든 개=seksen tane
 여러|birçok|여러 가지=çeşitli;여러 사람=birçok kişi
-여러가지|çeşitli
+여러가지|çeşitli|여러가지 음식=çeşitli yemekler;여러가지 이유=çeşitli sebepler
 여섯|altı (öz Korece)|여섯 살=altı yaş;여섯 시=saat altı
 열|on (öz Korece); ısı/vücut ateşi|열 시=saat on;열 개=on tane
 영|sıfır|영점=sıfır puan;영하=sıfırın altı
 예순|altmış|예순 살=altmış yaş;예순이 되다=altmış olmak
 오|beş (Çince kökenli)|오월=mayıs;오 분=beş dakika
-오십|elli (Çince kökenli)
-원|won (Kore parası)
+오십|elli (Çince kökenli)|오십 원=elli won;오십 대=elli yaşlar
+원|won (Kore parası)|만 원=on bin won;천 원짜리=bin wonluk
 육|altı (Çince kökenli)|유월=haziran;육 개월=altı ay
-육십|altmış (Çince kökenli)
+육십|altmış (Çince kökenli)|육십 세=altmış yaş;육십 분=altmış dakika
 이|iki (Çince kökenli); diş|이월=şubat;이 층=ikinci kat
-이십|yirmi (Çince kökenli)
-인|kişi
+이십|yirmi (Çince kökenli)|이십 대=yirmili yaşlar;이십 분=yirmi dakika
+인|kişi|2인분=iki kişilik;4인 가족=dört kişilik aile
 일|bir (Çince kökenli)|일월=ocak;일 층=birinci kat
 일곱|yedi (öz Korece)|일곱 시=saat yedi;일곱 명=yedi kişi
 일흔|yetmiş|일흔 살=yetmiş yaş;일흔이 넘다=yetmişi geçmek
 잔|bardak (sayaç)|커피 한 잔=bir fincan kahve;물 두 잔=iki bardak su
 장|yaprak, adet (kâğıt sayacı); bağırsak|종이 한 장=bir yaprak kâğıt;표 두 장=iki bilet
 정도|derece, yaklaşık|한 시간 정도=yaklaşık bir saat;어느 정도=bir dereceye kadar
-짜리|değerinde (para, miktar)
+짜리|değerinde (para, miktar)|만 원짜리=on bin wonluk;세 살짜리 아이=üç yaşında çocuk
 쪽|sayfa|10쪽을 펴세요=10. sayfayı açın;몇 쪽이에요?=Kaçıncı sayfa?
-쯤|civarında, kadar
+쯤|civarında, kadar|세 시쯤=saat üç civarı;일주일쯤=bir hafta kadar
 천|bin|천 원=bin won;천 명=bin kişi
 첫|ilk|첫 만남=ilk tanışma;첫 월급=ilk maaş
-첫째|birinci
-초|saniye
+첫째|birinci|첫째 날=ilk gün;첫째 아들=büyük oğul
+초|saniye|10초=on saniye;몇 초=kaç saniye
 층|kat|몇 층이에요?=Kaçıncı kat?;3층에 살다=üçüncü katta oturmak
 칠|yedi (Çince kökenli)|칠월=temmuz;칠 일=yedi gün
-칠십|yetmiş (Çince kökenli)
-킬로그램|kilogram
-킬로미터|kilometre
+칠십|yetmiş (Çince kökenli)|칠십 세=yetmiş yaş;칠십 퍼센트=yüzde yetmiş
+킬로그램|kilogram|5킬로그램=beş kilogram;몸무게가 60킬로그램=kilosu altmış
+킬로미터|kilometre|10킬로미터=on kilometre;시속 100킬로미터=saatte yüz kilometre
 통|bütün (karpuz vb.), kutu|수박 한 통=bir bütün karpuz;우유 한 통=bir kutu süt
 팔|sekiz (Çince kökenli); kol|팔월=ağustos;팔 층=sekizinci kat
-팔십|seksen (Çince kökenli)
-퍼센트|yüzde
-페이지|sayfa
+팔십|seksen (Çince kökenli)|팔십 점=seksen puan;팔십 세=seksen yaş
+퍼센트|yüzde|50퍼센트 할인=yüzde elli indirim;몇 퍼센트=yüzde kaç
+페이지|sayfa|10페이지를 펴다=onuncu sayfayı açmak;다음 페이지=sonraki sayfa
 하나|bir (öz Korece)|하나, 둘, 셋=bir, iki, üç;하나 더 주세요=bir tane daha verin
-한|bir (sayı önünde)
+한|bir (sayı önünde)|한 사람=bir kişi;한 번=bir kez
 호|numara (oda, daire)|302호=302 numara;몇 호예요?=Kaç numara?
 #시간과 날짜 (zaman ve tarih)
-겨울방학|kış tatili
+겨울방학|kış tatili|겨울방학이 시작되다=kış tatili başlamak;겨울방학 동안=kış tatili boyunca
 계획|plan|계획을 세우다=plan yapmak;여행 계획=seyahat planı
 곧|yakında, birazdan|곧 도착하다=birazdan varmak;곧 시작하다=yakında başlamak
-공휴일|resmî tatil
+공휴일|resmî tatil|공휴일에 쉬다=resmî tatilde dinlenmek;오늘은 공휴일이다=bugün resmî tatil
 과거|geçmiş|과거를 돌아보다=geçmişe bakmak;과거와 현재=geçmiş ve şimdi
 구월|eylül|구월에 학기가 시작되다=eylülde dönemin başlaması (okul);구월 초=eylül başı
-그날|o gün
+그날|o gün|그날 밤=o gece;그날 이후=o günden sonra
 그동안|bu süre zarfında|그동안 잘 지냈어요?=Bu süre zarfında iyi miydin?;그동안 고마웠어요=bu süre boyunca teşekkürler
 그때|o zaman|그때 만나요=o zaman görüşelim;그때부터=o zamandan beri
 그저께|evvelsi gün|그저께 밤=evvelsi gece;그저께 만났다=evvelsi gün buluştuk
 금방|hemen, az önce|금방 올게요=hemen geliyorum;금방 끝나다=çabucak bitmek
 금요일|cuma|금요일 밤=cuma gecesi;불금 (불타는 금요일)=coşkulu cuma gecesi
-기간|süre, dönem
-끝내다|bitirmek
+기간|süre, dönem|시험 기간=sınav dönemi;휴가 기간=tatil süresi
+끝내다|bitirmek|일을 끝내다=işi bitirmek;숙제를 끝내다=ödevi bitirmek
 나중|sonra|나중에 연락하다=sonra haber vermek;나중에 봐요=sonra görüşürüz
 나흘|dört gün|나흘 동안=dört gün boyunca;나흘째=dördüncü gün
-날|gün
+날|gün|좋은 날=güzel bir gün;어느 날=bir gün
 날짜|tarih (gün)|날짜를 정하다=tarihi belirlemek;오늘 날짜=bugünün tarihi
 낮|gündüz; gündüz, gündüz vakti|낮에 자다=gündüz uyumak;낮과 밤=gündüz ve gece
 내년|gelecek yıl|내년 봄=gelecek bahar;내년에 졸업하다=gelecek yıl mezun olmak
 내일|yarın|내일 만나요=yarın görüşürüz;내일 아침=yarın sabah
 년|yıl|일 년=bir yıl;몇 년=kaç yıl
-늘|her zaman
+늘|her zaman|늘 바쁘다=her zaman meşgul olmak;늘 웃다=hep gülümsemek
 늦다|geç kalmak, geç olmak|약속에 늦다=randevuya geç kalmak;시간이 늦다=vakit geç
-늦잠|geç uyanma
+늦잠|geç uyanma|늦잠을 자다=geç uyanmak;늦잠 때문에 늦다=geç uyandığı için geç kalmak
 다음|sonraki|다음 주=gelecek hafta;다음 사람=sıradaki kişi
-다음달|gelecek ay
-다음주|gelecek hafta
-다음해|ertesi yıl
+다음달|gelecek ay|다음달에 만나다=gelecek ay buluşmak;다음달 초=gelecek ayın başı
+다음주|gelecek hafta|다음주 월요일=gelecek pazartesi;다음주에 시험이 있다=gelecek hafta sınav var
+다음해|ertesi yıl|다음해 봄=ertesi yılın baharı;다음해에 졸업하다=ertesi yıl mezun olmak
 달|ay (zaman)|이번 달=bu ay;한 달 동안=bir ay boyunca
 달력|takvim|달력을 보다=takvime bakmak;달력에 표시하다=takvime işaretlemek
-동안|süresince
-때|zaman, an
-마지막|son
-마치다|bitirmek
+동안|süresince|방학 동안=tatil boyunca;오랫동안=uzun süre
+때|zaman, an|어릴 때=küçükken;밥 먹을 때=yemek yerken
+마지막|son|마지막 날=son gün;마지막으로=son olarak
+마치다|bitirmek|수업을 마치다=dersi bitirmek;일을 마치다=işi bitirmek
 매일|her gün|매일 운동하다=her gün spor yapmak;매일 아침=her sabah
 매주|her hafta|매주 월요일=her pazartesi;매주 만나다=her hafta buluşmak
 먼저|önce|먼저 가세요=önce siz gidin;먼저 시작하다=önce başlamak
@@ -418,30 +418,30 @@
 목요일|perşembe|목요일 저녁=perşembe akşamı;목요일까지=perşembeye kadar
 미래|gelecek|미래의 꿈=gelecek hayali;밝은 미래=parlak gelecek
 밤|kestane|군밤=kestane kebap;밤을 까다=kestane soymak
-방학|okul tatili
+방학|okul tatili|방학이 시작되다=tatil başlamak;여름방학=yaz tatili
 분|dakika; kişi (saygı · 사람)|십 분=on dakika;몇 분 걸려요?=Kaç dakika sürer?
 사월|nisan|사월에 꽃이 피다=nisanda çiçek açması;사월 중순=nisan ortası
 사흘|üç gün|사흘 동안=üç gün boyunca;사흘 만에=üç gün sonra (nihayet)
 삼월|mart|삼월에 개학하다=martta okulların açılması;삼월 초=mart başı
 새벽|şafak|새벽에 일어나다=şafakta kalkmak;새벽 3시=gece saat üç
-생일|doğum günü
+생일|doğum günü|생일 파티=doğum günü partisi;생일 선물=doğum günü hediyesi
 설날|Ay Yeni Yılı (Seollal)|설날에 고향에 가다=Yeni Yıl'da memlekete gitmek;설날 아침=Yeni Yıl sabahı
 수요일|çarşamba|수요일 오후=çarşamba öğleden sonra;이번 수요일=bu çarşamba
 시|saat (saat kaç)|몇 시예요?=Saat kaç?;한 시=saat bir
 시간|zaman, saat (süre)|시간이 없다=zaman yok;두 시간=iki saat
-시계|saat (alet)
+시계|saat (alet)|시계를 보다=saate bakmak;손목시계=kol saati
 시월|ekim|시월 마지막 날=ekimin son günü;시월 초=ekim başı
-시작|başlangıç
-시작되다|başlamak
-시작하다|başlamak, başlatmak
+시작|başlangıç|새로운 시작=yeni başlangıç;시작 시간=başlama saati
+시작되다|başlamak|수업이 시작되다=ders başlamak;영화가 시작되다=film başlamak
+시작하다|başlamak, başlatmak|일을 시작하다=işe başlamak;운동을 시작하다=spora başlamak
 십이월|aralık|십이월 이십오일=yirmi beş aralık;십이월 말=aralık sonu
 십일월|kasım|십일월 날씨=kasım havası;십일월 말=kasım sonu
 아까|az önce|아까 전화했어요=az önce aradım;아까부터=az önceden beri
 아직|henüz|아직 안 왔다=henüz gelmedi;아직도=hâlâ
-아침|sabah; kahvaltı
-아침밥|kahvaltı
-아침식사|kahvaltı
-어저께|dün
+아침|sabah; kahvaltı|아침에 일어나다=sabah kalkmak;아침을 먹다=kahvaltı yapmak
+아침밥|kahvaltı|아침밥을 먹다=kahvaltı yapmak;아침밥을 거르다=kahvaltıyı atlamak
+아침식사|kahvaltı|아침식사를 하다=kahvaltı etmek;호텔 아침식사=otel kahvaltısı
+어저께|dün|어저께 만난 사람=dün tanıştığım kişi;어저께 밤=dün gece
 어제|dün|어제 밤=dün gece;어제 만난 사람=dün tanıştığım kişi
 어젯밤|dün gece|어젯밤에 잠을 못 자다=dün gece uyuyamamak;어젯밤 꿈=dün geceki rüya
 언제|ne zaman|언제 와요?=Ne zaman geliyorsun?;언제든지=her zaman
@@ -449,22 +449,22 @@
 연휴|uzun tatil; tatil dönemi, ardışık tatil günleri|명절 연휴=bayram tatili;연휴를 보내다=tatili geçirmek
 옛날|eski zaman|옛날에=eskiden;옛날 이야기=eski hikâye
 오늘|bugün|오늘 날씨=bugünkü hava;오늘 저녁=bu akşam
-오랫동안|uzun süre boyunca
+오랫동안|uzun süre boyunca|오랫동안 기다리다=uzun süre beklemek;오랫동안 살다=uzun süre yaşamak
 오월|mayıs|오월 오일=beş mayıs;오월의 날씨=mayıs havası
 오전|öğleden önce|오전 9시=sabah dokuz;오전 수업=sabah dersi
 오후|öğleden sonra|오후 3시=öğleden sonra üç;오후에 만나다=öğleden sonra buluşmak
 올해|bu yıl|올해 계획=bu yılın planı;올해는 꼭=bu yıl mutlaka
-요일|haftanın günü
+요일|haftanın günü|무슨 요일이에요?=bugün günlerden ne?;요일마다=her gün (haftanın her günü)
 요즘|bugünlerde|요즘 바빠요=bugünlerde meşgulüm;요즘 유행=bugünlerin modası
-우선|önce
-월|ay
+우선|önce|우선 밥부터 먹자=önce yemek yiyelim;우선 순위=öncelik sırası
+월|ay|1월=ocak;몇 월=hangi ay
 월요일|pazartesi|월요일 아침=pazartesi sabahı;다음 주 월요일=gelecek pazartesi
 유월|haziran|유월부터=hazirandan itibaren;유월 말=haziran sonu
 이따가|birazdan, sonra|이따가 봐요=sonra görüşürüz;이따가 전화할게요=birazdan arayacağım
-이번|bu sefer
+이번|bu sefer|이번 주=bu hafta;이번에는=bu sefer
 이월|şubat|이월 십사일=on dört şubat;이월 말=şubat sonu
 이틀|iki gün|이틀 동안=iki gün boyunca;이틀 후=iki gün sonra
-일기|günlük
+일기|günlük|일기를 쓰다=günlük yazmak;일기장=günlük defteri
 일상생활|gündelik hayat|일상생활에서 쓰다=günlük hayatta kullanmak;일상생활 속 과학=günlük hayattaki bilim
 일요일|pazar|일요일 아침=pazar sabahı;일요일마다=her pazar
 일월|ocak|일월 일일=bir ocak;일월에 태어나다=ocakta doğmak
@@ -473,28 +473,28 @@
 작년|geçen yıl|작년 여름=geçen yaz;작년에 비해=geçen yıla göre
 잠깐|bir an, kısa süre|잠깐만요=bir saniye;잠깐 쉬다=kısa bir mola vermek
 잠시|kısa bir süre|잠시만 기다리세요=bir dakika bekleyin;잠시 쉬다=biraz dinlenmek
-저녁식사|akşam yemeği
-점심시간|öğle arası
-점심식사|öğle yemeği
+저녁식사|akşam yemeği|저녁식사를 하다=akşam yemeği yemek;저녁식사에 초대하다=akşam yemeğine davet etmek
+점심시간|öğle arası|점심시간이 되다=öğle arası gelmek;점심시간에 만나다=öğle arasında buluşmak
+점심식사|öğle yemeği|점심식사를 하다=öğle yemeği yemek;점심식사 후=öğle yemeğinden sonra
 종일|tüm gün, gün boyunca|하루 종일=bütün gün;종일 비가 오다=gün boyu yağmur yağmak
 주|hafta|이번 주=bu hafta;일 주일=bir hafta
 주말|hafta sonu|주말에 쉬다=hafta sonu dinlenmek;주말 잘 보내세요=iyi hafta sonları
 지금|şimdi|지금 몇 시예요?=Saat kaç?;지금 바로=hemen şimdi
-지난달|geçen ay
+지난달|geçen ay|지난달에 이사하다=geçen ay taşınmak;지난달 말=geçen ayın sonu
 지난번|geçen sefer|지난번에 만났을 때=geçen sefer buluştuğumuzda;지난번처럼=geçen seferki gibi
-지난주|geçen hafta
+지난주|geçen hafta|지난주 금요일=geçen cuma;지난주에 만나다=geçen hafta buluşmak
 처음|ilk, ilk kez|처음 만나다=ilk kez tanışmak;처음부터=en baştan
 추석|Chuseok (hasat bayramı)|추석 연휴=Chuseok tatili;추석에 송편을 먹다=Chuseok'ta songpyeon yemek
 칠월|temmuz|칠월 휴가=temmuz tatili;칠월에 덥다=temmuzda sıcak
-크리스마스|Noel
+크리스마스|Noel|크리스마스 선물=Noel hediyesi;크리스마스 트리=Noel ağacı
 토요일|cumartesi|토요일에 쉬다=cumartesi dinlenmek;토요일 오전=cumartesi öğleden önce
 팔월|ağustos|팔월 십오일=on beş ağustos;팔월 여름 방학=ağustos yaz tatili
 평일|hafta içi|평일 오후=hafta içi öğleden sonra;평일에는 바쁘다=hafta içi yoğun olmak
 하루|bir gün|하루 종일=bütün gün;하루에 세 번=günde üç kez
-한번|bir kez
-현재|şimdi, şu an
+한번|bir kez|한번 해 보다=bir kez denemek;한번 더=bir kez daha
+현재|şimdi, şu an|현재 시간=şu anki saat;현재까지=şu ana kadar
 화요일|salı|화요일에 만나다=salı günü buluşmak;매주 화요일=her salı
-후|sonra
+후|sonra|식사 후=yemekten sonra;일주일 후=bir hafta sonra
 휴일|tatil günü|휴일에 쉬다=tatil günü dinlenmek;공휴일=resmî tatil
 #날씨와 계절 (hava ve mevsimler)
 가을|sonbahar|가을이 되다=sonbaharın gelmesi;가을바람이 불다=sonbahar rüzgârı esmek
