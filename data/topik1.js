@@ -502,26 +502,26 @@
 계절|mevsim|계절이 바뀌다=mevsimin değişmesi;좋아하는 계절=sevdiğim mevsim
 구름|bulut|구름이 끼다=bulutlanmak;먹구름=kara bulut
 그치다|dinmek, kesilmek; durmak/kesilmek|비가 그치다=yağmur dinmek;울음을 그치다=ağlamayı kesmek
-기온|hava sıcaklığı
+기온|hava sıcaklığı|기온이 높다=hava sıcaklığı yüksek olmak;기온이 떨어지다=hava sıcaklığı düşmek
 날씨|hava (durumu)|날씨가 좋다=hava güzel;날씨가 흐리다=hava kapalı
-눈사람|kardan adam
-눈싸움|kar topu savaşı
+눈사람|kardan adam|눈사람을 만들다=kardan adam yapmak;큰 눈사람=büyük kardan adam
+눈싸움|kar topu savaşı|눈싸움을 하다=kar topu oynamak;친구들과 눈싸움=arkadaşlarla kar topu savaşı
 덥다|sıcak olmak (hava)|날씨가 덥다=hava sıcak;너무 더워요=çok sıcak
-따뜻하다|ılık, sıcak olmak
+따뜻하다|ılık, sıcak olmak|날씨가 따뜻하다=hava ılık olmak;따뜻한 물=ılık su
 뜨겁다|sıcak, ateşli olmak|국이 뜨겁다=çorba sıcak;뜨거운 반응=ateşli tepki
 맑다|açık olmak (hava)|날씨가 맑다=hava açık;하늘이 맑다=gökyüzü açık
-바람|rüzgâr
+바람|rüzgâr|바람이 불다=rüzgâr esmek;바람이 세다=rüzgâr sert olmak
 봄|ilkbahar|봄이 오다=baharın gelmesi;봄 날씨=bahar havası
 불다|esmek, üflemek|바람이 불다=rüzgârın esmesi;촛불을 불다=mumu üflemek
-비|yağmur
+비|yağmur|비가 오다=yağmur yağmak;비를 맞다=yağmura yakalanmak
 사계절|dört mevsim|사계절이 뚜렷하다=dört mevsim belirgin;사계절 내내=dört mevsim boyunca
 시원하다|serin olmak|바람이 시원하다=Rüzgar serin;시원한 물=serin su
 얼음|buz|얼음이 얼다=buz tutmak;얼음물=buzlu su
 여름|yaz|여름 방학=yaz tatili;여름이 덥다=yaz sıcak
-영하|sıfırın altı
-일기예보|hava durumu
+영하|sıfırın altı|영하 10도=eksi on derece;영하로 떨어지다=sıfırın altına düşmek
+일기예보|hava durumu|일기예보를 보다=hava durumuna bakmak;일기예보에 따르면=hava durumuna göre
 장마|yağmur mevsimi|장마가 시작되다=yağmur mevsimi başlamak;장마철=muson dönemi
-장마철|yağmur mevsimi
+장마철|yağmur mevsimi|장마철이 시작되다=yağmur mevsimi başlamak;장마철에는 우산이 필요하다=yağmur mevsiminde şemsiye gerekir
 차갑다|soğuk olmak (tavır)|차가운 태도=soğuk tavır;말투가 차갑다=konuşması soğuk
 춥다|soğuk olmak (hava)|날씨가 춥다=hava soğuk;손이 춥다=elleri üşümek
 태풍|tayfun|태풍이 오다=tayfun gelmek;태풍 피해=tayfun hasarı
@@ -531,19 +531,19 @@
 흐리다|bulutlu olmak|날씨가 흐리다=hava bulutlu;하늘이 흐리다=gökyüzü bulutlu
 #위치와 방향 (konum ve yön)
 가운데|orta|가운데에 서다=ortada durmak;방 가운데=odanın ortası
-거기|orası
+거기|orası|거기에 가다=oraya gitmek;거기서 만나요=orada buluşalım
 건너편|karşı taraf|길 건너편=yolun karşı tarafı;건너편 건물=karşıdaki bina
-그곳|orası
-그쪽|o taraf
+그곳|orası|그곳에 살다=orada yaşamak;그곳까지=oraya kadar
+그쪽|o taraf|그쪽으로 가다=o tarafa gitmek;그쪽 사람=o taraftaki kişi
 근처|civar, yakın|집 근처=evin yakını;근처에 있다=yakında olmak
-남북|kuzey ve güney
+남북|kuzey ve güney|남북으로 길다=kuzeyden güneye uzun olmak;남북 관계=iki Kore arasındaki ilişkiler
 남쪽|güney|남쪽 지방=güney bölgesi;남쪽으로 내려가다=güneye inmek
-동양|Doğu (Asya)
+동양|Doğu (Asya)|동양 문화=Doğu kültürü;동양과 서양=Doğu ve Batı
 동쪽|doğu|동쪽 하늘=doğu gökyüzü;해가 동쪽에서 뜨다=güneşin doğudan doğması
 뒤|arka|문 뒤=kapının arkası;뒤를 보다=arkaya bakmak
-뒤쪽|arka taraf
-맞은편|karşı taraf
-밑|alt
+뒤쪽|arka taraf|건물 뒤쪽=binanın arka tarafı;뒤쪽에 앉다=arka tarafa oturmak
+맞은편|karşı taraf|길 맞은편=yolun karşı tarafı;은행 맞은편=bankanın karşısı
+밑|alt|책상 밑=masanın altı;다리 밑=köprünün altı
 밖|dış|밖에 나가다=dışarı çıkmak;창문 밖=pencerenin dışı
 북쪽|kuzey|북쪽 지방=kuzey bölgesi;북쪽으로 가다=kuzeye gitmek
 사이|ara|두 건물 사이=iki binanın arası;사이가 좋다=arası iyi olmak
@@ -553,73 +553,73 @@
 아래|alt|의자 아래=sandalyenin altı;아래로 내려가다=aşağı inmek
 안|iç|가방 안=çantanın içi;안으로 들어가다=içeri girmek
 앞|ön|학교 앞=okulun önü;앞에 서다=önde durmak
-여기|burası
-여기저기|orada burada
+여기|burası|여기에 앉으세요=buraya oturun;여기 있어요=burada
+여기저기|orada burada|여기저기 다니다=oraya buraya gezmek;여기저기 찾다=her yerde aramak
 옆|yan|제 옆=benim yanım;옆에 앉다=yanına oturmak
 오른쪽|sağ taraf|오른쪽으로 가다=sağa gitmek;오른쪽에 있다=sağda olmak
 왼쪽|sol taraf|왼쪽으로 돌다=sola dönmek;왼쪽 손=sol el
 위|üst; mide|책상 위=masanın üstü;위로 올라가다=yukarı çıkmak
 위치|konum|위치를 확인하다=konumu kontrol etmek;위치가 좋다=konumu iyi
-이곳|burası
+이곳|burası|이곳에서 일하다=burada çalışmak;이곳은 처음이다=burası ilk kez
 이쪽|bu taraf|이쪽으로 오세요=bu tarafa geliniz;이쪽이 제 친구예요=bu benim arkadaşım
-저곳|şurası
-저기|şurası
+저곳|şurası|저곳으로 가다=şuraya gitmek;저곳에 보이는 건물=şurada görünen bina
+저기|şurası|저기 있다=şurada olmak;저기요=bakar mısınız
 저쪽|şu taraf|저쪽으로 가세요=şu tarafa gidin;저쪽에 있다=şu tarafta olmak
 주변|çevre, etraf|집 주변=evin çevresi;주변 사람=etraftaki insanlar
 주위|çevre, etraf|주위를 둘러보다=etrafına bakınmak;주위 사람들=çevredeki insanlar
-중|orta; sırasında
-중심|merkez
+중|orta; sırasında|수업 중=ders sırasında;이 중에서=bunların arasından
+중심|merkez|도시의 중심=şehir merkezi;중심가=şehrin merkez caddesi
 #장소와 건물 (yerler ve binalar)
 가게|dükkân|가게에 가다=dükkâna gitmek;가게 문을 닫다=dükkânı kapatmak
 거리|cadde, sokak|거리를 걷다=caddede yürümek;번화한 거리=kalabalık cadde
 건물|bina|높은 건물=yüksek bina;건물 안=binanın içi
-경기장|stadyum
-경복궁|Gyeongbokgung Sarayı
-경찰서|karakol
+경기장|stadyum|축구 경기장=futbol stadyumu;경기장에 가다=stadyuma gitmek
+경복궁|Gyeongbokgung Sarayı|경복궁을 구경하다=Gyeongbokgung Sarayı'nı gezmek;경복궁 앞=Gyeongbokgung Sarayı'nın önü
+경찰서|karakol|경찰서에 신고하다=karakola bildirmek;경찰서에 가다=karakola gitmek
 계단|merdiven|계단을 오르다=merdiven çıkmak;계단에서 넘어지다=merdivenden düşmek
 골목|sokak arası|좁은 골목=dar sokak;골목을 걷다=ara sokakta yürümek
-곳|yer
+곳|yer|좋은 곳=güzel bir yer;사는 곳=yaşadığı yer
 공간|mekân/alan/boşluk|공간이 넓다=alan geniş olmak;휴식 공간=dinlenme alanı
 공원|park|공원에서 산책하다=parkta yürüyüş yapmak;공원에 가다=parka gitmek
-공중전화|ankesörlü telefon
+공중전화|ankesörlü telefon|공중전화로 전화하다=ankesörlü telefondan aramak;공중전화를 찾다=ankesörlü telefon aramak
 교회|kilise|교회에 다니다=kiliseye gitmek;교회 예배=kilise ayini
-국립|devlete ait, ulusal
+국립|devlete ait, ulusal|국립 박물관=ulusal müze;국립 대학교=devlet üniversitesi
 극장|sinema, tiyatro salonu; tiyatro/sinema salonu|극장에 가다=sinemaya gitmek;극장에서 영화를 보다=sinemada film izlemek
-꽃집|çiçekçi
-남대문시장|Namdaemun Pazarı
-내과|dahiliye
-노래방|karaoke
+꽃집|çiçekçi|꽃집에서 꽃을 사다=çiçekçiden çiçek almak;꽃집 주인=çiçekçi
+남대문시장|Namdaemun Pazarı|남대문시장에서 쇼핑하다=Namdaemun Pazarı'nda alışveriş yapmak;남대문시장 구경=Namdaemun Pazarı'nı gezme
+내과|dahiliye|내과 의사=dahiliye doktoru;내과에 가다=dahiliyeye gitmek
+노래방|karaoke|노래방에 가다=karaokeye gitmek;노래방에서 노래하다=karaokede şarkı söylemek
 대사관|büyükelçilik|대사관에 연락하다=büyükelçilikle iletişime geçmek;한국 대사관=Kore Büyükelçiliği
-도서관|kütüphane
+도서관|kütüphane|도서관에서 책을 빌리다=kütüphaneden kitap ödünç almak;도서관에서 공부하다=kütüphanede ders çalışmak
 도시|şehir|큰 도시=büyük şehir;도시 생활=şehir hayatı
 동네|mahalle|우리 동네=bizim mahalle;동네 친구=mahalle arkadaşı
-동대문시장|Dongdaemun Pazarı
-문|kapı
-문구점|kırtasiye
+동대문시장|Dongdaemun Pazarı|동대문시장에서 옷을 사다=Dongdaemun Pazarı'ndan kıyafet almak;동대문시장 근처=Dongdaemun Pazarı yakını
+문|kapı|문을 열다=kapıyı açmak;문을 닫다=kapıyı kapatmak
+문구점|kırtasiye|문구점에서 공책을 사다=kırtasiyeden defter almak;학교 앞 문구점=okulun önündeki kırtasiye
 미술관|sanat müzesi|미술관에 가다=sanat müzesine gitmek;미술관 전시=sanat müzesi sergisi
 미용실|kuaför|미용실에 가다=kuaföre gitmek;미용실에서 머리를 자르다=kuaförde saç kestirmek
-민속촌|halk köyü
+민속촌|halk köyü|민속촌에 가다=halk köyüne gitmek;한국 민속촌=Kore Halk Köyü
 박물관|müze|박물관을 구경하다=müzeyi gezmek;국립 박물관=ulusal müze
 방송국|yayın kuruluşu; yayın merkezi|방송국에서 일하다=televizyon kanalında çalışmak;방송국 견학=yayın kuruluşu gezisi
-백화점|alışveriş merkezi
+백화점|alışveriş merkezi|백화점에서 쇼핑하다=alışveriş merkezinde alışveriş yapmak;백화점 세일=alışveriş merkezi indirimi
 병원|hastane|병원에 가다=hastaneye gitmek;병원에 입원하다=hastaneye yatmak
-빌딩|bina
-빵집|fırın
+빌딩|bina|높은 빌딩=yüksek bina;빌딩 숲=gökdelenler
+빵집|fırın|빵집에서 빵을 사다=fırından ekmek almak;동네 빵집=mahalle fırını
 서점|kitabevi|서점에서 책을 사다=kitapçıdan kitap almak;온라인 서점=çevrimiçi kitapçı
-세탁소|kuru temizleme
-센터|merkez
+세탁소|kuru temizleme|세탁소에 맡기다=kuru temizlemeciye vermek;세탁소에서 찾다=kuru temizlemeciden almak
+센터|merkez|문화 센터=kültür merkezi;서비스 센터=servis merkezi
 수영장|yüzme havuzu|수영장에 가다=havuza gitmek;실내 수영장=kapalı havuz
-슈퍼마켓|süpermarket
+슈퍼마켓|süpermarket|슈퍼마켓에서 장을 보다=süpermarketten alışveriş yapmak;집 근처 슈퍼마켓=evin yakınındaki süpermarket
 시골|kırsal kesim, köy; kırsal bölge, köy|시골에 살다=köyde yaşamak;시골 마을=köy
 시내|şehir merkezi|시내에 나가다=şehir merkezine çıkmak;시내 구경=şehir gezisi
 시설|tesis, imkânlar|시설이 좋다=imkânları iyi;편의 시설=sosyal tesisler
 시장|pazar, çarşı|시장에서 사다=pazardan almak;전통 시장=geleneksel pazar
 시청|belediye binası|시청 앞=belediye binasının önü;시청역=belediye istasyonu
-식당|lokanta
+식당|lokanta|식당에서 밥을 먹다=lokantada yemek yemek;학생 식당=öğrenci yemekhanesi
 아파트|apartman dairesi|아파트에 살다=apartmanda oturmak;고층 아파트=yüksek katlı apartman
 약국|eczane|약국에서 약을 사다=eczaneden ilaç almak;약국에 가다=eczaneye gitmek
 엘리베이터|asansör|엘리베이터를 타다=asansöre binmek;엘리베이터가 고장 나다=asansör bozulmak
-옷가게|giyim mağazası
+옷가게|giyim mağazası|옷가게에서 옷을 사다=giyim mağazasından kıyafet almak;옷가게 점원=giyim mağazası çalışanı
 우체국|postane|우체국에서 소포를 보내다=postaneden koli göndermek;우체국에 가다=postaneye gitmek
 운동장|okul bahçesi, spor alanı|운동장에서 뛰다=sahada koşmak;학교 운동장=okul bahçesi
 은행|banka|은행에 가다=bankaya gitmek;은행 계좌=banka hesabı
@@ -628,91 +628,91 @@
 장소|yer, mekân|약속 장소=buluşma yeri;장소를 정하다=yeri belirlemek
 절|Budist tapınağı|절에 가다=tapınağa gitmek;오래된 절=eski tapınak
 정문|ana giriş|학교 정문=okulun ana girişi;정문에서 만나다=ana girişte buluşmak
-종로|Jongno (Seul)
+종로|Jongno (Seul)|종로에서 만나다=Jongno'da buluşmak;종로 거리=Jongno caddesi
 주소|adres|주소를 쓰다=adres yazmak;주소가 어떻게 되세요?=Adresiniz nedir?
 주차장|otopark|주차장에 세우다=otoparka park etmek;지하 주차장=kapalı otopark
-중국집|Çin lokantası
+중국집|Çin lokantası|중국집에 전화하다=Çin lokantasını aramak;중국집 짜장면=Çin lokantasının jajangmyeonu
 지방|taşra / bölge|지방 도시=taşra şehri;지방으로 이사하다=taşraya taşınmak
 지하|bodrum kat|지하 1층=eksi birinci kat;지하에 있다=bodrum katta olmak
 지하철역|metro istasyonu|지하철역에서 만나다=metro istasyonunda buluşmak;가까운 지하철역=yakındaki metro istasyonu
-책방|kitapçı
+책방|kitapçı|책방에 들르다=kitapçıya uğramak;헌 책방=sahaf
 치과|diş kliniği|치과에 가다=dişçiye gitmek;치과 치료=diş tedavisi
-카페|kafe
-커피숍|kahve dükkânı
+카페|kafe|카페에서 만나다=kafede buluşmak;카페에 가다=kafeye gitmek
+커피숍|kahve dükkânı|커피숍에서 커피를 마시다=kahve dükkânında kahve içmek;커피숍 아르바이트=kahve dükkânında yarı zamanlı iş
 터미널|terminal|버스 터미널=otobüs terminali;터미널에서 만나다=terminalde buluşmak
-하숙|pansiyon
-하숙집|pansiyon evi
-학|turna kuşu
+하숙|pansiyon|하숙을 하다=pansiyonda kalmak;하숙 생활=pansiyon hayatı
+하숙집|pansiyon evi|하숙집 아주머니=pansiyon sahibesi;하숙집을 구하다=pansiyon aramak
+학|turna kuşu|학이 날다=turna kuşu uçmak;하얀 학=beyaz turna
 화장실|tuvalet|화장실에 가다=tuvalete gitmek;화장실이 어디예요?=Tuvalet nerededir?
 #교통과 길 찾기 (ulaşım ve yol tarifi)
-가깝다|yakın olmak
+가깝다|yakın olmak|집이 가깝다=evi yakın olmak;역에서 가깝다=istasyona yakın olmak
 갈아타다|aktarma yapmak|버스로 갈아타다=otobüse aktarma yapmak;지하철을 갈아타다=metro aktarması yapmak
 건너가다|karşıya geçmek|길을 건너가다=yolun karşısına geçmek;다리를 건너가다=köprüden geçmek
-건너다|karşıya geçmek
+건너다|karşıya geçmek|길을 건너다=yolun karşısına geçmek;다리를 건너다=köprüden geçmek
 걸리다|sürmek (zaman); (hastalığa) yakalanmak|시간이 걸리다=zaman almak;30분 걸리다=30 dakika sürmek
-걸어가다|yürüyerek gitmek
+걸어가다|yürüyerek gitmek|학교에 걸어가다=okula yürüyerek gitmek;천천히 걸어가다=yavaşça yürüyüp gitmek
 걸어오다|yürüyerek gelmek|집까지 걸어오다=eve kadar yürüyerek gelmek;여기까지 걸어오다=buraya kadar yürüyerek gelmek
-고속버스|şehirlerarası otobüs
+고속버스|şehirlerarası otobüs|고속버스를 타다=şehirlerarası otobüse binmek;고속버스 터미널=şehirlerarası otobüs terminali
 공항|havalimanı|공항에 도착하다=havalimanına varmak;인천 공항=İncheon Havalimanı
-교통|trafik, ulaşım
-교통사고|trafik kazası
+교통|trafik, ulaşım|교통이 편리하다=ulaşım rahat olmak;대중교통=toplu taşıma
+교통사고|trafik kazası|교통사고가 나다=trafik kazası olmak;교통사고를 당하다=trafik kazası geçirmek
 기차|tren|기차를 타다=trene binmek;기차표=tren bileti
 길|yol|길을 건너다=yolun karşısına geçmek;길을 잃다=yolunu kaybetmek
-김포공항|Gimpo Havalimanı
-나가다|dışarı çıkmak
+김포공항|Gimpo Havalimanı|김포공항에 도착하다=Gimpo Havalimanı'na varmak;김포공항에서 출발하다=Gimpo Havalimanı'ndan kalkmak
+나가다|dışarı çıkmak|밖에 나가다=dışarı çıkmak;회사에 나가다=işe gitmek
 나오다|çıkmak, gelmek|밖으로 나오다=dışarı çıkmak;결과가 나오다=sonuç çıkmak
 내려가다|aşağı inmek|계단을 내려가다=merdiven inmek;1층으로 내려가다=birinci kata inmek
-내려오다|aşağı inmek (gelmek)
-내리다|inmek; (yağmur) yağmak
+내려오다|aşağı inmek (gelmek)|산에서 내려오다=dağdan inmek;계단을 내려오다=merdivenlerden inmek
+내리다|inmek; (yağmur) yağmak|버스에서 내리다=otobüsten inmek;비가 내리다=yağmur yağmak
 느리다|yavaş olmak|걸음이 느리다=adımları yavaş;인터넷이 느리다=internet yavaş
 다녀오다|gidip gelmek|학교에 다녀오다=okula gidip gelmek;다녀오겠습니다=gidip geleceğim
 달리다|asılı olmak, takılı olmak|열매가 달리다=meyve vermek;단추가 달리다=düğme takılı olmak
 도로|yol (cadde); yol, cadde|도로가 미끄럽다=yol kaygan;고속 도로=otoyol
-도착|varış
+도착|varış|도착 시간=varış saati;도착하자마자=varır varmaz
 도착하다|varmak; varmak, ulaşmak|공항에 도착하다=havalimanına varmak;제시간에 도착하다=zamanında varmak
 돌아가다|dönmek, geri dönmek|집에 돌아가다=eve dönmek;고향에 돌아가다=memleketine dönmek
 돌아오다|geri dönmek|집에 돌아오다=eve dönmek;제자리로 돌아오다=yerine dönmek
 들어가다|içeri girmek|방에 들어가다=odaya girmek;안으로 들어가다=içeri girmek
-들어오다|içeri girmek (gelmek)
-따라가다|peşinden gitmek
-따라오다|peşinden gelmek
+들어오다|içeri girmek (gelmek)|안으로 들어오다=içeri girmek;집에 들어오다=eve gelmek
+따라가다|peşinden gitmek|친구를 따라가다=arkadaşının peşinden gitmek;길을 따라가다=yolu takip etmek
+따라오다|peşinden gelmek|저를 따라오세요=beni takip edin;강아지가 따라오다=köpek peşinden gelmek
 떠나다|ayrılmak, yola çıkmak|여행을 떠나다=seyahate çıkmak;고향을 떠나다=memleketten ayrılmak
 똑바로|dümdüz|똑바로 가다=dümdüz gitmek;똑바로 앉다=dik oturmak
-막히다|tıkanmak
+막히다|tıkanmak|길이 막히다=yol tıkanmak;코가 막히다=burnu tıkanmak
 멀다|uzak olmak|집이 멀다=ev uzak;먼 곳=uzak yer
-밀리다|birikmek; itilmek
+밀리다|birikmek; itilmek|차가 밀리다=trafik sıkışmak;일이 밀리다=işler birikmek
 배|gemi; karın|배를 타다=gemiye binmek;배 멀미=deniz tutması
-버스|otobüs
+버스|otobüs|버스를 타다=otobüse binmek;버스 정류장=otobüs durağı
 비행기|uçak|비행기를 타다=uçağa binmek;비행기 표=uçak bileti
-비행장|havaalanı
+비행장|havaalanı|비행장에 내리다=havaalanına inmek;작은 비행장=küçük havaalanı
 빠르다|hızlı olmak|속도가 빠르다=hızı yüksek;빠른 시간 안에=kısa sürede
 사거리|dört yol ağzı|사거리에서 돌다=kavşaktan dönmek;다음 사거리=bir sonraki kavşak
-사고|kaza
-삼거리|üç yol ağzı
-서울역|Seul İstasyonu
-시외|şehir dışı
+사고|kaza|사고가 나다=kaza olmak;사고를 당하다=kaza geçirmek
+삼거리|üç yol ağzı|삼거리에서 왼쪽으로 가다=üç yol ağzından sola gitmek;삼거리 앞=üç yol ağzının önü
+서울역|Seul İstasyonu|서울역에서 기차를 타다=Seul İstasyonu'ndan trene binmek;서울역 앞=Seul İstasyonu'nun önü
+시외|şehir dışı|시외버스=şehirlerarası otobüs;시외로 나가다=şehir dışına çıkmak
 역|durak, istasyon|역에 내리다=istasyonda inmek;서울역=Seul İstasyonu
-열차|tren
+열차|tren|열차를 타다=trene binmek;열차 시간표=tren tarifesi
 올라가다|yukarı çıkmak|계단을 올라가다=merdiven çıkmak;산에 올라가다=dağa çıkmak
-올라오다|yukarı çıkmak (gelmek)
+올라오다|yukarı çıkmak (gelmek)|계단을 올라오다=merdivenlerden çıkıp gelmek;서울로 올라오다=Seul'e gelmek
 요금|ücret|택시 요금=taksi ücreti;요금을 내다=ücret ödemek
-운전하다|araba kullanmak
-자동차|otomobil
+운전하다|araba kullanmak|차를 운전하다=araba kullanmak;조심해서 운전하다=dikkatli araba kullanmak
+자동차|otomobil|자동차를 사다=otomobil almak;자동차 회사=otomobil şirketi
 자전거|bisiklet|자전거를 타다=bisiklete binmek;자전거 도로=bisiklet yolu
-전기자동차|elektrikli araba
-정거장|durak
+전기자동차|elektrikli araba|전기자동차를 충전하다=elektrikli arabayı şarj etmek;전기자동차를 타다=elektrikli araba kullanmak
+정거장|durak|버스 정거장=otobüs durağı;다음 정거장=sonraki durak
 정류장|durak|버스 정류장=otobüs durağı;정류장에서 기다리다=durakta beklemek
 주차하다|park etmek|차를 주차하다=arabayı park etmek;주차 금지=park yasak
 지도|harita|지도를 보다=haritaya bakmak;지도 앱=harita uygulaması
 지하도|alt geçit|지하도로 건너다=alt geçitten geçmek;지하도 입구=alt geçit girişi
 지하철|metro|지하철을 타다=metroya binmek;지하철 2호선=2 numaralı metro hattı
-차|araba; çay
+차|araba; çay|차를 타다=arabaya binmek;차를 마시다=çay içmek
 찾아가다|ziyarete gitmek; gidip bulmak, ziyaret etmek|선생님을 찾아가다=öğretmeni ziyarete gitmek;직접 찾아가다=bizzat gitmek
-출구|çıkış
-출발|kalkış, hareket
+출구|çıkış|3번 출구=3 numaralı çıkış;출구로 나가다=çıkıştan çıkmak
+출발|kalkış, hareket|출발 시간=kalkış saati;출발하기 전에=yola çıkmadan önce
 출발하다|yola çıkmak; yola çıkmak, başlamak|일찍 출발하다=erken yola çıkmak;기차가 출발하다=trenin hareket etmesi
-타다|binmek
-택시|taksi
+타다|binmek|버스를 타다=otobüse binmek;자전거를 타다=bisiklete binmek
+택시|taksi|택시를 타다=taksiye binmek;택시를 잡다=taksi çevirmek
 횡단보도|yaya geçidi|횡단보도를 건너다=yaya geçidinden geçmek;횡단보도 앞=yaya geçidinin önü
 #여행과 나라 (seyahat ve ülkeler)
 강|nehir
