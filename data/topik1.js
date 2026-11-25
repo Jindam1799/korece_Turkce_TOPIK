@@ -2,175 +2,175 @@
    tools/build_topik1.py ile üretilir — elle düzenlemeyin. */
 (window.LEVELS=window.LEVELS||[]).push({id:'TOPIK1',name:'TOPIK Ⅰ',nameKo:'TOPIK Ⅰ',text:`
 #인사와 대답 (selamlaşma ve cevaplar)
-감사|teşekkür
-감사드립니다|teşekkür ederim (çok saygılı)
-감사하다|teşekkür etmek
-감사합니다|teşekkür ederim
-건배|şerefe
-고마웠습니다|teşekkür ederim (geçmiş için)
-고맙다|minnettar olmak
-고맙습니다|teşekkür ederim
-괜찮다|iyi olmak, sorun olmamak
-괜찮습니다|sorun değil, iyiyim
-그래|evet, tamam (samimi)
-그렇구나|anlıyorum, demek öyle
-그렇습니다|evet, öyle
-네|evet; dört
-맞습니다|doğru
-맞아요|doğru, evet
-모르겠습니다|bilmiyorum
-미안합니다|özür dilerim
-반갑다|memnun olmak
-반갑습니다|memnun oldum
-부탁|rica
+감사|teşekkür|감사 인사=teşekkür;감사의 마음=minnet duygusu
+감사드립니다|teşekkür ederim (çok saygılı)|도와주셔서 감사드립니다=yardımınız için teşekkür ederim;초대해 주셔서 감사드립니다=davetiniz için teşekkür ederim
+감사하다|teşekkür etmek|진심으로 감사하다=içtenlikle teşekkür etmek;도움에 감사하다=yardım için teşekkür etmek
+감사합니다|teşekkür ederim|정말 감사합니다=çok teşekkür ederim;선물 감사합니다=hediye için teşekkürler
+건배|şerefe|건배하다=kadeh kaldırmak;우리의 우정을 위해 건배=dostluğumuza şerefe
+고마웠습니다|teşekkür ederim (geçmiş için)|그동안 고마웠습니다=bugüne kadar her şey için teşekkürler;어제 고마웠습니다=dün için teşekkürler
+고맙다|minnettar olmak|정말 고맙다=gerçekten minnettar olmak;마음이 고맙다=düşüncesi için minnettar olmak
+고맙습니다|teşekkür ederim|도와줘서 고맙습니다=yardım ettiğiniz için teşekkürler;와 줘서 고맙습니다=geldiğiniz için teşekkürler
+괜찮다|iyi olmak, sorun olmamak|몸이 괜찮다=iyi hissetmek;가격이 괜찮다=fiyatı makul olmak
+괜찮습니다|sorun değil, iyiyim|저는 괜찮습니다=ben iyiyim;안 주셔도 괜찮습니다=vermeseniz de olur
+그래|evet, tamam (samimi)|그래, 알았어=tamam, anladım;그래, 같이 가자=tamam, beraber gidelim
+그렇구나|anlıyorum, demek öyle|아, 그렇구나=ha, demek öyle;정말 그렇구나=gerçekten öyleymiş
+그렇습니다|evet, öyle|네, 그렇습니다=evet, öyle;제 생각도 그렇습니다=ben de öyle düşünüyorum
+네|evet; dört|네, 알겠습니다=evet, anladım;네, 맞아요=evet, doğru
+맞습니다|doğru|네, 맞습니다=evet, doğru;그 말이 맞습니다=o söz doğru
+맞아요|doğru, evet|맞아요, 저도 그래요=doğru, ben de öyleyim;답이 맞아요=cevap doğru
+모르겠습니다|bilmiyorum|잘 모르겠습니다=pek bilmiyorum;길을 모르겠습니다=yolu bilmiyorum
+미안합니다|özür dilerim|늦어서 미안합니다=geç kaldığım için özür dilerim;정말 미안합니다=gerçekten özür dilerim
+반갑다|memnun olmak|만나서 반갑다=tanıştığına memnun olmak;친구를 보니 반갑다=arkadaşını görünce sevinmek
+반갑습니다|memnun oldum|만나서 반갑습니다=tanıştığıma memnun oldum;다시 만나서 반갑습니다=tekrar görüştüğümüze sevindim
+부탁|rica|부탁을 하다=rica etmek;부탁을 들어주다=ricayı yerine getirmek
 부탁하다|rica etmek|도움을 부탁하다=yardım rica etmek;부탁 하나 해도 돼요?=Bir ricada bulunabilir miyim?
-실례|kabalık, rahatsızlık
-실례하다|rahatsız etmek
-아뇨|hayır
-아니다|değil
-아니오|hayır
-아니요|hayır
-안녕하세요|merhaba
-안녕하십니까|merhaba (resmî)
-알았습니다|anladım
-어떻습니까?|nasıl?
+실례|kabalık, rahatsızlık|실례가 되다=kabalık olmak;실례지만=affedersiniz ama
+실례하다|rahatsız etmek|잠깐 실례하다=bir dakika rahatsız etmek;실례합니다=affedersiniz
+아뇨|hayır|아뇨, 괜찮아요=hayır, gerek yok;아뇨, 아니에요=hayır, öyle değil
+아니다|değil|학생이 아니다=öğrenci değil;그게 아니다=öyle değil
+아니오|hayır|아니오, 모릅니다=hayır, bilmiyorum;아니오, 안 갑니다=hayır, gitmiyorum
+아니요|hayır|아니요, 괜찮아요=hayır, sağ olun;아니요, 처음이에요=hayır, ilk kez
+안녕하세요|merhaba|여러분, 안녕하세요=herkese merhaba;선생님, 안녕하세요=merhaba öğretmenim
+안녕하십니까|merhaba (resmî)|여러분, 안녕하십니까=herkese merhaba (resmî);사장님, 안녕하십니까=merhaba efendim
+알았습니다|anladım|네, 알았습니다=evet, anladım;잘 알았습니다=çok iyi anladım
+어떻습니까?|nasıl?|날씨가 어떻습니까?=hava nasıl?;이 옷은 어떻습니까?=bu kıyafet nasıl?
 어머|aman!, ay!|어머, 깜짝이야!=ay, korktum!;어머, 정말요?=aa, gerçekten mi?
 어서|çabuk, buyurun|어서 오세요=hoş geldiniz;어서 먹어=hadi ye
-여보세요|alo
-예|evet
-오래간만|uzun zaman sonra
-오래간만입니다|uzun zamandır görüşemedik
-오랜만|uzun zaman sonra
-오랜만에|uzun zaman sonra
-웬일|ne oldu, hayırdır
-응|evet (samimi)
-이름|isim
-인사|selam, selamlaşma
-인사하다|selam vermek
-죄송하다|özür dilemek
-처음 뵙겠습니다|tanıştığımıza memnun oldum
-축하|kutlama
-축하하다|kutlamak
-축하합니다|tebrikler
+여보세요|alo|여보세요, 누구세요?=alo, kim o?;여보세요, 저 민수예요=alo, ben Minsu
+예|evet|예, 그렇습니다=evet, öyle;예, 알겠습니다=evet, anlaşıldı
+오래간만|uzun zaman sonra|오래간만에 만나다=uzun zaman sonra buluşmak;오래간만의 휴가=uzun zaman sonra gelen tatil
+오래간만입니다|uzun zamandır görüşemedik|선생님, 오래간만입니다=hocam, uzun zamandır görüşemedik;정말 오래간만입니다=gerçekten çok uzun zaman oldu
+오랜만|uzun zaman sonra|오랜만에 보다=uzun zaman sonra görmek;오랜만이야=uzun zaman oldu
+오랜만에|uzun zaman sonra|오랜만에 고향에 가다=uzun zaman sonra memlekete gitmek;오랜만에 연락하다=uzun zaman sonra haber vermek
+웬일|ne oldu, hayırdır|웬일이야?=hayırdır?;웬일로 일찍 왔어?=hayırdır, erken geldin?
+응|evet (samimi)|응, 좋아=evet, olur;응, 알았어=tamam, anladım
+이름|isim|이름을 쓰다=adını yazmak;이름이 뭐예요?=adın ne?
+인사|selam, selamlaşma|인사를 하다=selam vermek;인사를 나누다=selamlaşmak
+인사하다|selam vermek|선생님께 인사하다=öğretmene selam vermek;고개 숙여 인사하다=eğilerek selam vermek
+죄송하다|özür dilemek|늦어서 죄송하다=geç kaldığı için özür dilemek;정말 죄송하다=gerçekten çok üzgün olmak
+처음 뵙겠습니다|tanıştığımıza memnun oldum|처음 뵙겠습니다, 김민수입니다=tanıştığımıza memnun oldum, ben Kim Minsu;안녕하세요, 처음 뵙겠습니다=merhaba, tanıştığımıza memnun oldum
+축하|kutlama|축하를 받다=tebrik almak;생일 축하=doğum günü kutlaması
+축하하다|kutlamak|생일을 축하하다=doğum gününü kutlamak;합격을 축하하다=sınavı kazanmasını kutlamak
+축하합니다|tebrikler|생일 축하합니다=doğum günün kutlu olsun;결혼 축하합니다=evliliğiniz kutlu olsun
 환영하다|hoş karşılamak, memnuniyetle kabul etmek|손님을 환영하다=misafiri hoş karşılamak;두 팔 벌려 환영하다=kollarını açarak karşılamak
 #가족과 친척 (aile ve akrabalar)
-가족|aile
-결혼|evlilik
+가족|aile|가족 사진=aile fotoğrafı;가족이 많다=kalabalık bir aile olmak
+결혼|evlilik|결혼을 하다=evlenmek;결혼 기념일=evlilik yıldönümü
 결혼하다|evlenmek|내년에 결혼하다=gelecek yıl evlenmek;결혼한 사람=evli kişi
-고모|hala
-고모부|enişte (halanın eşi)
-나이|yaş
-남녀|kadın ve erkek
-남동생|erkek kardeş (küçük)
-남자|erkek
-남편|koca, eş
-누나|abla (erkeğin ablası)
-데이트|randevu, buluşma
-동생|küçük kardeş
-딸|kız evlat
-부모|anne baba
+고모|hala|고모 댁=halanın evi;고모를 뵙다=halayı ziyaret etmek
+고모부|enişte (halanın eşi)|고모와 고모부=hala ve enişte;고모부께 인사하다=enişteye selam vermek
+나이|yaş|나이가 많다=yaşlı olmak;나이가 어리다=genç olmak
+남녀|kadın ve erkek|남녀 모두=kadın erkek herkes;남녀 학생=kız ve erkek öğrenciler
+남동생|erkek kardeş (küçük)|남동생이 있다=erkek kardeşi olmak;남동생과 싸우다=erkek kardeşiyle kavga etmek
+남자|erkek|남자 친구=erkek arkadaş;남자 화장실=erkekler tuvaleti
+남편|koca, eş|남편과 아내=karı koca;남편이 요리하다=kocası yemek yapmak
+누나|abla (erkeğin ablası)|누나가 둘 있다=iki ablası olmak;누나와 같이 살다=ablasıyla birlikte yaşamak
+데이트|randevu, buluşma|데이트를 하다=randevuya çıkmak;데이트 신청=çıkma teklifi
+동생|küçük kardeş|동생이 있다=küçük kardeşi olmak;동생을 돌보다=küçük kardeşine bakmak
+딸|kız evlat|딸을 낳다=kız çocuğu doğurmak;딸이 하나 있다=bir kızı olmak
+부모|anne baba|부모님=anne baba (saygılı);부모와 자식=anne baba ve çocuk
 부부|karı koca, çift|신혼 부부=yeni evli çift;부부 싸움=karı koca kavgası
-부인|eş (hanım)
-사랑|aşk, sevgi
-사랑하다|sevmek
+부인|eş (hanım)|부인과 함께=eşiyle birlikte;사장님 부인=patronun eşi
+사랑|aşk, sevgi|사랑에 빠지다=aşık olmak;첫사랑=ilk aşk
+사랑하다|sevmek|가족을 사랑하다=ailesini sevmek;진심으로 사랑하다=içtenlikle sevmek
 사촌|kuzen|사촌 동생=küçük kuzen;사촌 형=büyük kuzen
-살|yaş (öz Korece sayılarla)
-삼촌|amca
-아가씨|genç hanım
-아기|bebek
-아내|karı, eş
-아들|oğul
-아버님|baba (saygılı)
-아버지|baba
-아빠|babacığım
-아저씨|amca, bey
-아주머니|teyze, hanımefendi
-아줌마|teyze (samimi)
-애|çocuk (samimi)
+살|yaş (öz Korece sayılarla)|스무 살=yirmi yaş;몇 살이에요?=kaç yaşındasın?
+삼촌|amca|삼촌 댁=amcanın evi;삼촌이 오시다=amca gelmek
+아가씨|genç hanım|예쁜 아가씨=güzel genç hanım;아가씨, 여기요=hanımefendi, bakar mısınız
+아기|bebek|아기가 울다=bebek ağlamak;아기를 안다=bebeği kucağına almak
+아내|karı, eş|아내와 남편=karı koca;아내를 사랑하다=karısını sevmek
+아들|oğul|아들을 낳다=erkek çocuk doğurmak;아들이 둘 있다=iki oğlu olmak
+아버님|baba (saygılı)|아버님께 인사드리다=babanıza selam vermek;아버님은 건강하세요?=babanız iyi mi?
+아버지|baba|아버지와 어머니=baba ve anne;아버지를 닮다=babasına benzemek
+아빠|babacığım|아빠와 딸=baba ve kızı;아빠가 최고야=babam bir numara
+아저씨|amca, bey|옆집 아저씨=komşu amca;택시 기사 아저씨=taksici amca
+아주머니|teyze, hanımefendi|가게 아주머니=dükkândaki teyze;옆집 아주머니=komşu teyze
+아줌마|teyze (samimi)|아줌마, 이거 얼마예요?=teyzeciğim, bu ne kadar?;식당 아줌마=lokantadaki teyze
+애|çocuk (samimi)|애를 키우다=çocuk büyütmek;애가 울다=çocuk ağlamak
 어른|yetişkin, büyük|어른이 되다=büyümek;어른을 공경하다=büyüklere saygı göstermek
 어린이|çocuk|어린이 요금=çocuk bileti;어린이 공원=çocuk parkı
-어머니|anne
-어머님|anne (saygılı)
-언니|abla (kızın ablası)
-엄마|anneciğim
-여동생|kız kardeş (küçük)
-여자|kadın
-오빠|ağabey (kızın ağabeyi)
-외삼촌|dayı
-외숙모|yenge (dayının eşi)
-외할머니|anneanne
-외할아버지|dedem (annenin babası)
-이모|teyze
-이모부|enişte (teyzenin eşi)
-작은아버지|amca (babanın küçük kardeşi)
-작은어머니|yenge (küçük amcanın eşi)
+어머니|anne|어머니의 사랑=annenin sevgisi;어머니를 닮다=annesine benzemek
+어머님|anne (saygılı)|어머님께 전화드리다=annenizi aramak;어머님은 잘 지내세요?=anneniz iyi mi?
+언니|abla (kızın ablası)|언니와 동생=abla ve kardeş;친언니=öz abla
+엄마|anneciğim|엄마가 보고 싶다=annesini özlemek;엄마와 같이=annemle birlikte
+여동생|kız kardeş (küçük)|여동생이 있다=kız kardeşi olmak;여동생과 놀다=kız kardeşiyle oynamak
+여자|kadın|여자 친구=kız arkadaş;여자 화장실=kadınlar tuvaleti
+오빠|ağabey (kızın ağabeyi)|오빠가 한 명 있다=bir ağabeyi olmak;오빠와 같이 가다=ağabeyiyle gitmek
+외삼촌|dayı|외삼촌 댁=dayının evi;외삼촌을 만나다=dayısıyla görüşmek
+외숙모|yenge (dayının eşi)|외삼촌과 외숙모=dayı ve yenge;외숙모가 요리하다=yenge yemek yapmak
+외할머니|anneanne|외할머니 댁=anneannenin evi;외할머니가 보고 싶다=anneannesini özlemek
+외할아버지|dedem (annenin babası)|외할아버지 댁=dedenin evi (annenin babası);외할아버지께 편지를 쓰다=dedesine mektup yazmak
+이모|teyze|이모 댁=teyzenin evi;이모가 오시다=teyze gelmek
+이모부|enişte (teyzenin eşi)|이모와 이모부=teyze ve enişte;이모부께 인사하다=enişteye selam vermek
+작은아버지|amca (babanın küçük kardeşi)|작은아버지 댁=amcanın evi;작은아버지를 뵙다=amcayı ziyaret etmek
+작은어머니|yenge (küçük amcanın eşi)|작은아버지와 작은어머니=amca ve yenge;작은어머니께 전화하다=yengeyi aramak
 젊다|genç olmak|젊은 사람=genç insan;마음이 젊다=gönlü genç
-조카|yeğen
+조카|yeğen|조카가 태어나다=yeğen doğmak;조카와 놀다=yeğeniyle oynamak
 주부|ev hanımı|가정 주부=ev hanımı;주부의 지혜=ev hanımlarının pratik bilgisi
 주인|sahip|가게 주인=dükkân sahibi;강아지 주인=köpeğin sahibi
-친척|akraba
-큰아버지|amca (babanın ağabeyi)
-큰어머니|yenge (büyük amcanın eşi)
+친척|akraba|친척 집=akraba evi;친척을 방문하다=akrabaları ziyaret etmek
+큰아버지|amca (babanın ağabeyi)|큰아버지 댁=büyük amcanın evi;큰아버지께 세배하다=amcaya bayram selamı vermek
+큰어머니|yenge (büyük amcanın eşi)|큰아버지와 큰어머니=amca ve yenge;큰어머니가 음식을 만들다=yenge yemek yapmak
 태어나다|doğmak|서울에서 태어나다=Seul'de doğmak;다시 태어나다=yeniden doğmak
-할머니|büyükanne
-할아버지|büyükbaba
-형|ağabey (erkeğin ağabeyi)
-형님|ağabey (saygılı)
+할머니|büyükanne|할머니 댁=büyükannenin evi;할머니께 전화하다=büyükanneyi aramak
+할아버지|büyükbaba|할아버지와 할머니=büyükbaba ve büyükanne;할아버지를 모시다=büyükbabaya bakmak
+형|ağabey (erkeğin ağabeyi)|형이 있다=ağabeyi olmak;형과 동생=ağabey ve küçük kardeş
+형님|ağabey (saygılı)|형님, 안녕하세요=ağabey, merhaba;형님께 부탁하다=ağabeyden rica etmek
 형제|erkek kardeşler (öz veya üvey)|형제가 많다=çok kardeşi olmak;형제 사이=kardeşler arası
 #사람과 직업 (insanlar ve meslekler)
-가수|şarkıcı
+가수|şarkıcı|가수가 되다=şarkıcı olmak;유명한 가수=ünlü şarkıcı
 간호사|hemşire|간호사로 일하다=hemşire olarak çalışmak;간호사를 부르다=hemşireyi çağırmak
 개인|birey; birey, kişi|개인 정보=kişisel bilgi;개인적으로=şahsen
 경찰|polis|경찰을 부르다=polis çağırmak;경찰서=karakol
-경찰관|polis memuru
+경찰관|polis memuru|경찰관에게 묻다=polise sormak;경찰관이 되다=polis olmak
 공무원|memur, kamu görevlisi|공무원 시험=memurluk sınavı;공무원이 되다=memur olmak
-교수|profesör
+교수|profesör|대학 교수=üniversite profesörü;교수님 연구실=profesörün odası
 군인|asker|군인이 되다=asker olmak;직업 군인=profesyonel asker
 기자|gazeteci, muhabir|신문 기자=gazete muhabiri;기자 회견=basın toplantısı
-님|Bay/Bayan (saygı eki)
+님|Bay/Bayan (saygı eki)|선생님=öğretmenim;고객님=değerli müşterimiz
 배우|oyuncu|영화배우=sinema oyuncusu;유명한 배우=ünlü oyuncu
-변호사|avukat
-부업|ek iş
-부장|müdür
-사람|insan
+변호사|avukat|변호사가 되다=avukat olmak;변호사와 상담하다=avukata danışmak
+부업|ek iş|부업을 하다=ek iş yapmak;부업으로 돈을 벌다=ek işle para kazanmak
+부장|müdür|부장님=müdür bey/hanım;영업부 부장=satış müdürü
+사람|insan|좋은 사람=iyi insan;한국 사람=Koreli
 사무실|ofis|사무실에서 일하다=ofiste çalışmak;사무실에 출근하다=ofise gitmek
-사업가|iş insanı
-사원|çalışan
-사장|şirket sahibi, patron
+사업가|iş insanı|성공한 사업가=başarılı iş insanı;젊은 사업가=genç iş insanı
+사원|çalışan|신입 사원=yeni çalışan;회사 사원=şirket çalışanı
+사장|şirket sahibi, patron|사장님=patron bey/hanım;회사 사장=şirket sahibi
 선배|kıdemli (okulda, işte)|대학 선배=üniversiteden üst sınıf;선배에게 조언을 구하다=kıdemliden tavsiye istemek
-선생님|öğretmen
+선생님|öğretmen|한국어 선생님=Korece öğretmeni;선생님께 묻다=öğretmene sormak
 선수|oyuncu, sporcu|축구 선수=futbolcu;국가대표 선수=milli sporcu
 소설가|romancı|유명한 소설가=ünlü romancı;소설가가 되다=romancı olmak
 손님|müşteri, misafir|손님이 오다=misafirin gelmesi;손님이 많다=müşteri çok
-스타|ünlü, yıldız
+스타|ünlü, yıldız|영화 스타=film yıldızı;스타가 되다=yıldız olmak
 시민|vatandaş, şehir halkı; vatandaş|서울 시민=Seul halkı;시민 의식=vatandaşlık bilinci
 아이|çocuk|아이를 키우다=çocuk büyütmek;아이가 울다=çocuk ağlaması
-약사|eczacı
+약사|eczacı|약사에게 묻다=eczacıya sormak;약국 약사=eczanedeki eczacı
 연예인|ünlü (eğlence sektörü); ünlü kişi, sanatçı|좋아하는 연예인=sevdiği ünlü;연예인을 만나다=ünlüyle tanışmak
-영화배우|sinema oyuncusu
-운동선수|sporcu
-월급|aylık maaş
+영화배우|sinema oyuncusu|유명한 영화배우=ünlü sinema oyuncusu;영화배우가 되다=sinema oyuncusu olmak
+운동선수|sporcu|운동선수가 되다=sporcu olmak;유명한 운동선수=ünlü sporcu
+월급|aylık maaş|월급을 받다=maaş almak;월급이 오르다=maaş artmak
 유학생|yabancı öğrenci|외국인 유학생=yabancı uyruklu öğrenci;유학생 기숙사=yabancı öğrenci yurdu
-은행원|banka memuru
-음악가|müzisyen
+은행원|banka memuru|은행원으로 일하다=banka memuru olarak çalışmak;은행원에게 묻다=banka memuruna sormak
+음악가|müzisyen|유명한 음악가=ünlü müzisyen;음악가가 되다=müzisyen olmak
 의사|irade, düşünce (karar bağlamında)|의사를 밝히다=niyetini açıklamak;의사 결정=karar verme
-인기스타|popüler yıldız
-일하다|çalışmak
-자동차회사|otomobil şirketi
+인기스타|popüler yıldız|인기스타가 되다=popüler yıldız olmak;인기스타의 사인=popüler yıldızın imzası
+일하다|çalışmak|회사에서 일하다=şirkette çalışmak;열심히 일하다=çok çalışmak
+자동차회사|otomobil şirketi|자동차회사에 다니다=otomobil şirketinde çalışmak;큰 자동차회사=büyük otomobil şirketi
 저희|biz (alçakgönüllü)|저희 집=bizim ev;저희 회사=bizim şirket
 점원|tezgâhtar|점원에게 묻다=tezgâhtara sormak;친절한 점원=nazik tezgâhtar
-종업원|çalışan, garson
+종업원|çalışan, garson|식당 종업원=lokanta garsonu;종업원을 부르다=garsonu çağırmak
 직업|meslek|직업이 뭐예요?=Mesleğiniz ne?;직업을 구하다=iş aramak
 직원|çalışan; çalışan, personel|직원을 뽑다=çalışan almak;직원 교육=personel eğitimi
-직장|iş yeri
+직장|iş yeri|직장에 다니다=bir işte çalışmak;직장 동료=iş arkadaşı
 출근하다|işe gitmek|회사에 출근하다=işe gitmek;일찍 출근하다=işe erken gitmek
 출장|iş seyahati|출장을 가다=iş seyahatine gitmek;해외 출장=yurt dışı iş seyahati
 취직하다|işe girmek|회사에 취직하다=bir şirkete girmek;취직 준비=iş arama hazırlığı
-탤런트|dizi oyuncusu
+탤런트|dizi oyuncusu|유명한 탤런트=ünlü dizi oyuncusu;탤런트가 되다=dizi oyuncusu olmak
 퇴근하다|işten çıkmak|6시에 퇴근하다=altıda işten çıkmak;늦게 퇴근하다=işten geç çıkmak
 화가|ressam|유명한 화가=ünlü ressam;화가가 되다=ressam olmak
 환자|hasta|환자를 돌보다=hastaya bakmak;응급 환자=acil hasta
-회사|şirket
+회사|şirket|회사에 다니다=şirkette çalışmak;회사를 그만두다=işten ayrılmak
 회사원|ofis çalışanı|회사원이 되다=ofis çalışanı olmak;평범한 회사원=sıradan bir ofis çalışanı
 회의|toplantı|회의를 하다=toplantı yapmak;회의에 참석하다=toplantıya katılmak
 후배|alt sınıf, yeni gelen|회사 후배=işyerindeki yeni arkadaş;후배를 챙기다=yeni gelenlere sahip çıkmak
