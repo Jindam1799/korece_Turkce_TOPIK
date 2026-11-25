@@ -634,6 +634,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
+ ['2.8','2026-11-25',{tr:['TOPIK Ⅰ: 1.671 kelimenin hepsine eş kelimeler (짝꿍어휘) eklendi'],ko:['TOPIK Ⅰ: 1,671개 모든 단어에 짝꿍어휘 추가']}],
  ['2.7','2026-11-25',{tr:['Yeni seviye: TOPIK Ⅰ — 1.671 başlangıç kelimesi, 27 konuya ayrıldı (843\'ü kontrol edilmiş seviyelerden, eş kelimeleriyle)'],ko:['새 레벨: TOPIK Ⅰ — 초급 단어 1,671개, 27개 주제별 단원 (843개는 검수된 레벨의 뜻·짝꿍어휘 사용)']}],
  ['2.6','2026-11-25',{tr:['A1–A2 kelime kontrolü tamamlandı (Aslı) · B1.1 kontrolü başladı'],ko:['A1–A2 단어 검수 완료 (아슬르) · B1.1 검수 시작']}],
  ['2.5','2026-11-25',{tr:['Kelime kontrolü: yazdıkların anında saklanır, uygulamayı kapatsan bile kaybolmaz; açınca kaldığın kelimeden devam edersin'],ko:['단어 검수: 입력하는 즉시 임시 저장, 앱을 꺼도 그대로 남고 다시 열면 보던 단어부터 이어서']}],

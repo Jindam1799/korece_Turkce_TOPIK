@@ -693,3 +693,165 @@
 찾아오다|친구가 찾아오다=arkadaşı ziyarete gelmek;집으로 찾아오다=eve gelmek
 책임|책임을 지다=sorumluluk almak;책임이 크다=sorumluluğu büyük olmak
 친구|친구를 사귀다=arkadaş edinmek;친한 친구=yakın arkadaş
+# --- 대명사와 질문 ---
+것|먹을 것=yiyecek şey;좋은 것=iyi şey
+그|그 사람=o kişi;그 다음=ondan sonra
+그거|그거 주세요=onu verin;그거 뭐예요?=o ne?
+그것|그것 때문에=o yüzden;그것은 제 책이에요=o benim kitabım
+그들|그들의 이야기=onların hikâyesi;그들과 함께=onlarla birlikte
+그런|그런 사람=öyle biri;그런 일=öyle bir şey
+그렇게|그렇게 하세요=öyle yapın;그렇게 많이=o kadar çok
+그렇다|정말 그렇다=gerçekten öyle;그렇지 않다=öyle değil
+그분|그분은 누구세요?=o kişi kim?;그분께 여쭤보다=o kişiye sormak
+그중|그중에서=onların arasından;그중 하나=onlardan biri
+나|나와 너=ben ve sen;나도=ben de
+내|내 친구=benim arkadaşım;내 이름=benim adım
+내가|내가 할게=ben yaparım;내가 먼저=önce ben
+너|너와 나=sen ve ben;너도=sen de
+누가|누가 왔어요?=kim geldi?;누가 했어요?=kim yaptı?
+누구|누구예요?=kim?;누구하고=kiminle
+당신|당신의 이름=sizin adınız;당신을 사랑해요=seni seviyorum
+무슨|무슨 일이에요?=ne oldu?;무슨 요일=hangi gün
+무엇|무엇을 먹어요?=ne yiyorsunuz?;무엇이든=ne olursa
+무엇이|무엇이 필요해요?=neye ihtiyacınız var?;무엇이 문제예요?=sorun ne?
+뭐|뭐 해요?=ne yapıyorsun?;뭐 먹을까?=ne yesek?
+아무|아무도 없다=kimse yok;아무거나=herhangi biri
+어느|어느 나라=hangi ülke;어느 쪽=hangi taraf
+어디|어디에 가요?=nereye gidiyorsun?;어디에서 왔어요?=nerelisin?
+어떤|어떤 사람=nasıl biri;어떤 음식=ne tür yemek
+어떻게|어떻게 가요?=nasıl gidilir?;어떻게 지내요?=nasılsın?
+어떻다|기분이 어때요?=nasıl hissediyorsun?;맛이 어때요?=tadı nasıl?
+여러분|여러분, 안녕하세요=herkese merhaba;학생 여러분=sevgili öğrenciler
+왜|왜 늦었어요?=neden geç kaldın?;왜냐하면=çünkü
+이거|이거 얼마예요?=bu ne kadar?;이거 주세요=bunu verin
+이것|이것은 책이에요=bu bir kitap;이것저것=şu bu, çeşitli şeyler
+이런|이런 날=böyle bir gün;이런 일=böyle bir şey
+이렇게|이렇게 하세요=böyle yapın;이렇게 많이=bu kadar çok
+이렇다|이렇지 않다=böyle değil;사정이 이렇다=durum böyle
+이분|이분은 제 선생님이세요=bu benim öğretmenim;이분을 소개합니다=bu kişiyi tanıtıyorum
+저|저는 학생이에요=ben öğrenciyim;저 사람=şu kişi
+저거|저거 뭐예요?=şu ne?;저거 주세요=şunu verin
+저것|저것은 무엇입니까?=şu nedir?;저것보다=şundan daha
+저렇게|저렇게 하다=şöyle yapmak;저렇게 크다=o kadar büyük
+저분|저분은 누구세요?=şu kişi kim?;저분께 물어보세요=şu kişiye sorun
+제가|제가 하겠습니다=ben yaparım;제가 먼저 갈게요=önce ben gideyim
+# --- 높임말 ---
+잡수시다|진지를 잡수시다=yemek buyurmak;할아버지께서 잡수시다=büyükbaba yemek yemek (saygılı)
+# --- 색깔 ---
+까만색|까만색 옷=siyah kıyafet;까만색 구두=siyah ayakkabı
+까맣다|까만 머리=siyah saç;얼굴이 까맣다=yüzü esmer olmak
+노랗다|노란 꽃=sarı çiçek;단풍이 노랗다=yapraklar sarı olmak
+녹색|녹색 신호=yeşil ışık;녹색 차=yeşil çay
+빨갛다|빨간 사과=kırmızı elma;얼굴이 빨개지다=yüzü kızarmak
+색|색이 예쁘다=rengi güzel olmak;무슨 색=hangi renk
+파랗다|파란 하늘=mavi gökyüzü;바다가 파랗다=deniz mavi olmak
+하늘색|하늘색 셔츠=açık mavi gömlek;하늘색 원피스=açık mavi elbise
+하얀색|하얀색 차=beyaz araba;하얀색 운동화=beyaz spor ayakkabı
+하얗다|하얀 눈=beyaz kar;하얀 얼굴=beyaz yüz
+# --- 동물·식물·자연 ---
+별|별이 빛나다=yıldız parlamak;별을 보다=yıldızlara bakmak
+# --- 자주 쓰는 동사 ---
+가다|학교에 가다=okula gitmek;집에 가다=eve gitmek
+걸다|전화를 걸다=telefon etmek;벽에 걸다=duvara asmak
+계산하다|카드로 계산하다=kartla ödemek;돈을 계산하다=parayı hesaplamak
+기다리다|버스를 기다리다=otobüs beklemek;오래 기다리다=uzun süre beklemek
+기억하다|이름을 기억하다=adını hatırlamak;오래 기억하다=uzun süre hatırlamak
+깨다|잠을 깨다=uykudan uyanmak;그릇을 깨다=tabağı kırmak
+깨지다|유리가 깨지다=cam kırılmak;컵이 깨지다=bardak kırılmak
+꾸다|꿈을 꾸다=rüya görmek;좋은 꿈을 꾸다=güzel rüya görmek
+나다|열이 나다=ateşi çıkmak;소리가 나다=ses çıkmak
+내다|돈을 내다=para ödemek;숙제를 내다=ödevi teslim etmek
+놓다|책상 위에 놓다=masanın üstüne koymak;내려놓다=yere bırakmak
+누르다|버튼을 누르다=düğmeye basmak;초인종을 누르다=zile basmak
+다니다|회사에 다니다=işe gidip gelmek;학교에 다니다=okula gitmek
+되다|의사가 되다=doktor olmak;봄이 되다=bahar gelmek
+두다|책상에 두다=masaya bırakmak;집에 두고 오다=evde unutup gelmek
+듣다|음악을 듣다=müzik dinlemek;말을 잘 듣다=söz dinlemek
+따르다|규칙을 따르다=kurallara uymak;물을 따르다=su doldurmak
+뜨다|눈을 뜨다=gözlerini açmak;해가 뜨다=güneş doğmak
+만들다|음식을 만들다=yemek yapmak;친구를 만들다=arkadaş edinmek
+말하다|천천히 말하다=yavaşça konuşmak;사실대로 말하다=doğruyu söylemek
+맞다|답이 맞다=cevap doğru olmak;사이즈가 맞다=beden uymak
+모으다|돈을 모으다=para biriktirmek;우표를 모으다=pul biriktirmek
+못하다|노래를 못하다=şarkı söyleyememek;수영을 못하다=yüzme bilmemek
+바르다|약을 바르다=merhem sürmek;잼을 바르다=reçel sürmek
+받다|선물을 받다=hediye almak;전화를 받다=telefona cevap vermek
+발전|경제 발전=ekonomik gelişme;발전을 하다=gelişmek
+버리다|쓰레기를 버리다=çöp atmak;나쁜 습관을 버리다=kötü alışkanlığı bırakmak
+벌다|돈을 벌다=para kazanmak;많이 벌다=çok kazanmak
+보다|영화를 보다=film izlemek;시험을 보다=sınava girmek
+부치다|편지를 부치다=mektup göndermek;소포를 부치다=koli göndermek
+붓다|물을 붓다=su dökmek;얼굴이 붓다=yüzü şişmek
+빼다|살을 빼다=kilo vermek;이름을 빼다=adını çıkarmak
+사인하다|서류에 사인하다=belgeyi imzalamak;여기에 사인하세요=buraya imza atın
+생각되다|좋다고 생각되다=iyi gibi gelmek;중요하다고 생각되다=önemli görünmek
+생각하다|깊이 생각하다=derin düşünmek;다시 생각하다=yeniden düşünmek
+서다|줄을 서다=sıraya girmek;버스가 서다=otobüs durmak
+싶다|먹고 싶다=yemek istemek;보고 싶다=özlemek
+쓰이다|칠판에 쓰이다=tahtaya yazılmak;요리에 쓰이다=yemekte kullanılmak
+안내하다|길을 안내하다=yolu göstermek;손님을 안내하다=misafire rehberlik etmek
+앉다|의자에 앉다=sandalyeye oturmak;자리에 앉다=yerine oturmak
+없다|시간이 없다=vakti yok;돈이 없다=parası yok
+오다|비가 오다=yağmur yağmak;집에 오다=eve gelmek
+오르다|산에 오르다=dağa tırmanmak;물가가 오르다=fiyatlar artmak
+올려놓다|책상 위에 올려놓다=masanın üstüne koymak;선반에 올려놓다=rafa koymak
+옮기다|짐을 옮기다=eşya taşımak;자리를 옮기다=yer değiştirmek
+외출하다|잠깐 외출하다=kısa süreliğine dışarı çıkmak;외출하고 돌아오다=dışarıdan dönmek
+이용|이용 시간=kullanım saati;대중교통 이용=toplu taşıma kullanımı
+일어서다|자리에서 일어서다=yerinden kalkmak;천천히 일어서다=yavaşça ayağa kalkmak
+잃다|지갑을 잃다=cüzdanını kaybetmek;길을 잃다=yolunu kaybetmek
+있다|시간이 있다=vakti var;집에 있다=evde olmak
+잊다|약속을 잊다=randevuyu unutmak;이름을 잊다=adını unutmak
+주다|선물을 주다=hediye vermek;물을 주다=sulamak
+줄|줄을 서다=sıraya girmek;줄이 길다=sıra uzun olmak
+줄다|체중이 줄다=kilo azalmak;사람이 줄다=insan sayısı azalmak
+지나다|시간이 지나다=zaman geçmek;역을 지나다=istasyonu geçmek
+찍다|사진을 찍다=fotoğraf çekmek;영화를 찍다=film çekmek
+취소하다|예약을 취소하다=rezervasyonu iptal etmek;약속을 취소하다=randevuyu iptal etmek
+풀다|문제를 풀다=soruyu çözmek;스트레스를 풀다=stres atmak
+필요|필요가 없다=gerek yok;필요한 물건=gereken eşya
+필요하다|도움이 필요하다=yardıma ihtiyacı olmak;돈이 필요하다=paraya ihtiyacı olmak
+# --- 자주 쓰는 형용사 ---
+나빠지다|건강이 나빠지다=sağlığı bozulmak;날씨가 나빠지다=hava bozulmak
+나쁘다|기분이 나쁘다=canı sıkılmak;눈이 나쁘다=gözleri bozuk olmak
+다른|다른 사람=başka biri;다른 방법=başka bir yol
+더럽다|방이 더럽다=oda kirli olmak;더러운 옷=kirli kıyafet
+두껍다|두꺼운 책=kalın kitap;옷이 두껍다=kıyafet kalın olmak
+많다|사람이 많다=insan çok olmak;일이 많다=işi çok olmak
+바쁘다|요즘 바쁘다=bu aralar meşgul olmak;일이 바쁘다=işi yoğun olmak
+쉽다|문제가 쉽다=soru kolay olmak;쉬운 한국어=kolay Korece
+알맞다|알맞은 답=uygun cevap;알맞게 익다=tam kıvamında pişmek
+얇다|얇은 옷=ince kıyafet;종이가 얇다=kâğıt ince olmak
+어렵다|시험이 어렵다=sınav zor olmak;어려운 문제=zor soru
+이상하다|맛이 이상하다=tadı tuhaf olmak;이상한 사람=tuhaf biri
+좋다|날씨가 좋다=hava güzel olmak;기분이 좋다=keyfi yerinde olmak
+중요|중요한 일=önemli iş;중요성=önem
+# --- 부사와 연결어 ---
+각|각 나라=her ülke;각자=her biri
+간단히|간단히 말하다=kısaca söylemek;간단히 먹다=hafif bir şeyler yemek
+결정|결정을 내리다=karar vermek;중요한 결정=önemli karar
+그럼|그럼 내일 봐요=o zaman yarın görüşürüz;그럼요=elbette
+그렇지만|그렇지만 괜찮아요=ama sorun değil;그렇지만 어렵다=ama zor
+그만|그만 먹다=yemeyi bırakmak;이제 그만=artık yeter
+너무|너무 비싸다=çok pahalı;너무 많이=çok fazla
+때문|비 때문에=yağmur yüzünden;그것 때문에=o yüzden
+또|또 오세요=yine gelin;또 만나요=tekrar görüşürüz
+많이|많이 먹다=çok yemek;많이 드세요=afiyet olsun
+매우|매우 좋다=çok iyi;매우 중요하다=son derece önemli
+방법|좋은 방법=iyi bir yöntem;사용 방법=kullanım şekli
+빨리|빨리 오세요=çabuk gelin;빨리 먹다=hızlı yemek
+뿐|하나뿐=sadece bir tane;너뿐이야=sadece sensin
+새로|새로 사다=yenisini almak;새로 시작하다=yeniden başlamak
+성|성이 뭐예요?=soyadın ne?;김씨 성=Kim soyadı
+신|신을 믿다=Tanrı'ya inanmak;신제품=yeni ürün
+약간|약간 맵다=biraz acı;약간의 돈=biraz para
+없이|돈 없이=parasız;말없이=sessizce
+왜냐하면|왜냐하면 바빴기 때문이에요=çünkü meşguldüm;왜냐하면 아팠기 때문이에요=çünkü hastaydım
+자|자, 시작합시다=haydi, başlayalım;자로 재다=cetvelle ölçmek
+잘|잘 먹겠습니다=afiyet olsun (yemeğe başlarken);잘 지내다=iyi olmak
+전|식사 전=yemekten önce;전 세계=bütün dünya
+점|점을 찍다=nokta koymak;100점=yüz puan
+좀더|좀더 크게=biraz daha yüksek sesle;좀더 기다리다=biraz daha beklemek
+철|철이 들다=akıllanmak, olgunlaşmak;철로 만들다=demirden yapmak
+특별히|특별히 좋아하다=özellikle sevmek;특별히 준비하다=özel olarak hazırlamak
+하지만|하지만 괜찮아요=ama sorun değil;하지만 어려워요=ama zor
