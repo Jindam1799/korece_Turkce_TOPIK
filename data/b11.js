@@ -1,16 +1,16 @@
 /* B1.1 · Kaynak: Aslıhan Erdoğan, KOREAN VOCAB (Sejong) · 짝꿍어휘: Wonju */
 (window.LEVELS=window.LEVELS||[]).push({id:'B1.1',name:'B1.1',text:`
 #1 · 안부 인사 (hal hatır)
-오랜만이야|uzun zaman oldu|정말 오랜만이야=gerçekten uzun zaman oldu;오랜만에 만나다=uzun zaman sonra buluşmak
-이곳저곳 다니다|oraya buraya gidip gelmek|이곳저곳 구경하다=oraları buraları gezmek;이곳저곳 여행하다=oraya buraya seyahat etmek
+오랜만이야|uzun zaman oldu (samimi)|정말 오랜만이야=gerçekten uzun zaman oldu;오랜만에 만나다=uzun zaman sonra buluşmak
+이곳저곳 다니다|oraya buraya gidip gelmek|이곳저곳 구경하다=orayı burayı gezmek;이곳저곳 여행하다=oraya buraya seyahat etmek
 한가하게 지내다|boş, rahat vakit geçirmek|요즘 한가하게 지내요=bugünlerde rahatım;주말을 한가하게 보내다=hafta sonunu rahat geçirmek
-특별한 일 없이 지내다|özel bir şey olmadan yaşamak|특별한 일 없이 잘 지내요=özel bir şey yok, iyiyim;특별한 일이 있다=özel bir durum olmak
+특별한 일 없이 지내다|sıradan/olağan bir şekilde vakit geçirmek|특별한 일 없이 잘 지내요=özel bir şey yok, iyiyim;특별한 일이 있다=özel bir durum olmak
 웬일이야|ne oldu, hayırdır|여기 웬일이야?=Hayırdır, burada ne işin var?;웬일로 전화했어?=Hayırdır, neden aradın?
 여기저기 다니다|orada burada dolaşmak|여기저기 돌아다니다=orada burada dolaşıp durmak;여기저기 알아보다=her yeri araştırmak
-정신없이 지내다|çok yoğun, telaşlı yaşamak|요즘 정신없이 바빠요=bugünlerde çok yoğunum;정신없이 일하다=durmadan çalışmak
-이게 얼마 만이야|ne kadar oldu görüşmeyeli|이게 몇 년 만이야?=Kaç yıl oldu görüşmeyeli?;10년 만에 만나다=on yıl sonra buluşmak
+정신없이 지내다|çok yoğun, telaşlı vakit geçirmek|요즘 정신없이 바빠요=bugünlerde çok yoğunum;정신없이 일하다=durmadan çalışmak
+이게 얼마 만이야|görüşmeyeli ne kadar oldu, bu ne sürpriz|이게 몇 년 만이야?=Kaç yıl oldu görüşmeyeli?;10년 만에 만나다=on yıl sonra buluşmak
 이런저런 이야기를 하다|şundan bundan konuşmak|친구와 이런저런 이야기를 하다=arkadaşla şundan bundan konuşmak;이런저런 생각을 하다=şunu bunu düşünmek
-그저 그렇게 지내다|şöyle böyle yaşamak|그냥 그저 그렇게 지내요=şöyle böyle işte;그저 그렇다=idare eder
+그저 그렇게 지내다|şöyle böyle idare etmek (ne iyi ne kötü)|그냥 그저 그렇게 지내요=şöyle böyle işte;그저 그렇다=idare eder
 #2 · 근황과 소식 (son durum)
 입학하다|okula başlamak (kayıt)|대학교에 입학하다=üniversiteye başlamak;입학 시험=giriş sınavı
 일자리를 구하다|iş aramak|일자리를 찾다=iş aramak;아르바이트 자리를 구하다=yarı zamanlı iş aramak
@@ -19,7 +19,7 @@
 장학금을 받다|burs almak|장학금을 신청하다=bursa başvurmak;전액 장학금=tam burs
 회사에 지원하다|şirkete başvurmak|지원서를 내다=başvuru formu vermek;여러 회사에 지원하다=birçok şirkete başvurmak
 승진하다|terfi etmek|과장으로 승진하다=müdürlüğe terfi etmek;승진 축하해요=terfin kutlu olsun
-청혼하다|evlenme teklif etmek|청혼을 받다=evlenme teklifi almak;반지를 주며 청혼하다=yüzük vererek evlenme teklif etmek
+청혼하다|evlenme teklif etmek|청혼을 받다=evlenme teklifi almak;반지를 주며 청혼하다=yüzük vererek evlenme teklifi etmek
 휴학하다|okula ara vermek (dondurmak)|1년 동안 휴학하다=bir yıl okulu dondurmak;휴학 신청=kayıt dondurma başvurusu
 근무하다|çalışmak (görev yapmak)|회사에서 근무하다=şirkette çalışmak;야간 근무=gece mesaisi
 일을 그만두다|işi bırakmak|회사를 그만두다=şirketten ayrılmak;갑자기 일을 그만두다=birden işi bırakmak
@@ -28,7 +28,7 @@
 휴식|dinlenme, mola|휴식을 취하다=dinlenmek;휴식 시간=mola zamanı
 출장|iş seyahati|출장을 가다=iş seyahatine gitmek;해외 출장=yurt dışı iş seyahati
 구하다|aramak, bulmak, elde etmek|방을 구하다=oda aramak;도움을 구하다=yardım istemek
-취업 준비|iş arama hazırlığı|취업 준비를 하다=işe hazırlanmak;취업 준비생=iş arayan mezun
+취업 준비|iş arama hazırlığı|취업 준비를 하다=işe hazırlığı yapmak;취업 준비생=iş arayan mezun
 업무|iş, görev|업무 시간=mesai saati;업무가 많다=iş yükü fazla
 #3 · 이사 (taşınma)
 부동산|emlakçı|부동산에 가다=emlakçıya gitmek;부동산 가격=emlak fiyatı
@@ -38,18 +38,18 @@
 계약|sözleşme|계약을 맺다=sözleşme yapmak;계약 기간=sözleşme süresi
 이삿날|taşınma günü|이삿날을 정하다=taşınma gününü belirlemek;이삿날 비가 오다=taşınma günü yağmur yağmak
 이삿짐을 싸다|taşınma eşyalarını toplamak|이삿짐을 미리 싸다=eşyaları önceden toplamak;상자에 이삿짐을 싸다=eşyaları kutulara koymak
-이삿짐을 정리하다|taşınma eşyalarını yerleştirmek|새 집에서 이삿짐을 정리하다=yeni evde eşyaları yerleştirmek;이삿짐 정리가 끝나다=eşya yerleştirme bitmek
+이삿짐을 정리하다|taşınma eşyalarını yerleştirmek|새 집에서 이삿짐을 정리하다=yeni evde eşyaları yerleştirmek;이삿짐 정리가 끝나다=eşya yerleştirmeyi bitirmek
 시장이 가깝다|pazara yakın olmak|집에서 시장이 가깝다=ev pazara yakın;학교가 가깝다=okul yakın
 이삿짐을 옮기다|eşyaları taşımak|무거운 이삿짐을 옮기다=ağır eşyaları taşımak;이삿짐을 나르다=eşya taşımak
-교통이 편리하다|ulaşım rahat olmak|교통이 편리한 곳=ulaşımı rahat yer;교통이 불편하다=ulaşım zahmetli
+교통이 편리하다|ulaşımı rahat olmak|교통이 편리한 곳=ulaşımı rahat yer;교통이 불편하다=ulaşım zahmetli
 이삿짐을 풀다|taşınma kolilerini açmak|짐을 풀다=bavulu açmak;이삿짐을 다 풀다=tüm kolileri açmak
 집들이를 하다|yeni ev partisi vermek|집들이에 초대하다=yeni ev partisine davet etmek;집들이 선물=yeni ev hediyesi
 주변 환경이 조용하다|çevresi sessiz olmak|주변 환경이 좋다=çevresi güzel;조용한 동네=sessiz mahalle
-주변|çevre, etraf|집 주변=evin çevresi;주변 사람=etrafındaki insanlar
+주변|çevre, etraf|집 주변=evin çevresi;주변 사람=etraftaki insanlar
 수도|su tesisatı, musluk|수도를 잠그다=musluğu kapatmak;수도 요금=su faturası
-보일러|kombi|보일러를 켜다=kombiyi açmak;보일러가 고장 나다=kombi bozulmak
+보일러|kombi|보일러를 켜다=kombiyi açmak;보일러가 고장 나다=kombinin bozulması
 시설|tesis, imkânlar|시설이 좋다=imkânları iyi;편의 시설=sosyal tesisler
-가전제품|ev aletleri|가전제품을 사다=ev aletleri almak;가전제품 매장=beyaz eşya mağazası
+가전제품|ev aletleri|가전제품을 사다=ev aletleri satın almak;가전제품 매장=beyaz eşya mağazası
 전기|elektrik|전기를 아끼다=elektrik tasarrufu yapmak;전기 요금=elektrik faturası
 살펴보다|incelemek|꼼꼼히 살펴보다=dikkatle incelemek;집을 살펴보다=evi incelemek
 싸다|ucuz olmak|값이 싸다=fiyatı ucuz;싼 물건=ucuz eşya
@@ -78,7 +78,7 @@
 설거지를 하다|bulaşık yıkamak|식사 후에 설거지를 하다=yemekten sonra bulaşık yıkamak;설거지를 돕다=bulaşığa yardım etmek
 빨래를 널다|çamaşır asmak|베란다에 빨래를 널다=balkona çamaşır asmak;빨래를 개다=çamaşır katlamak
 쓰레기통을 비우다|çöp kutusunu boşaltmak|쓰레기통을 자주 비우다=çöp kutusunu sık boşaltmak;쓰레기통을 깨끗이 비우다=çöp kutusunu tamamen boşaltmak
-손빨래를 하다|elde çamaşır yıkamak|속옷을 손빨래하다=iç çamaşırını elde yıkamak;니트는 손빨래하다=triko elde yıkanır
+손빨래를 하다|elde çamaşır yıkamak|속옷을 손빨래하다=iç çamaşırını elde yıkamak;니트는 손빨래하다=triko/kazağı elde yıkamak
 걸레질을 하다|bezle silmek, paspaslamak|방에 걸레질을 하다=odayı paspaslamak;걸레질을 꼼꼼히 하다=dikkatle silmek
 먼지를 털다|toz almak|책장 먼지를 털다=kitaplığın tozunu almak;옷의 먼지를 털다=kıyafetin tozunu silkelemek
 바닥|zemin, yer|바닥에 앉다=yere oturmak;바닥이 미끄럽다=zemin kaygan
@@ -92,9 +92,9 @@
 구입하다|satın almak|물건을 구입하다=eşya satın almak;인터넷으로 구입하다=internetten satın almak
 가격이 저렴하다|fiyatı uygun olmak|가격이 저렴한 상품=fiyatı uygun ürün;생각보다 가격이 저렴하다=fiyatı düşündüğümden ucuz
 구매하다|satın almak (resmî)|온라인으로 구매하다=online satın almak;구매 내역=satın alma geçmişi
-사이즈가 딱 맞다|bedeni tam olmak|신발 사이즈가 딱 맞다=ayakkabı numarası tam;옷이 몸에 딱 맞다=kıyafet tam oturmak
+사이즈가 딱 맞다|bedeni tam olmak|신발 사이즈가 딱 맞다=ayakkabı numarası tam;옷이 몸에 딱 맞다=kıyafeti tam uymak
 사이즈가 안 맞다|bedeni uymamak|사이즈가 안 맞아서 교환하다=beden uymadığı için değiştirmek;사이즈가 작다=bedeni küçük
-망가지다|bozulmak, hasar görmek|우산이 망가지다=şemsiye bozulmak;물건이 망가지다=eşya bozulmak
+망가지다|bozulmak, hasar görmek|우산이 망가지다=şemsiyenin bozulması;물건이 망가지다=eşyanın bozulması
 결제하다|ödeme yapmak|카드로 결제하다=kartla ödemek;결제 방법=ödeme yöntemi
 디자인이 마음에 들다|tasarımı beğenmek|디자인이 마음에 들어서 사다=tasarımını beğendiği için almak;디자인이 마음에 안 들다=tasarımı beğenmemek
 얼룩이 있다|leke olmak|옷에 얼룩이 있다=kıyafette leke var;얼룩을 지우다=lekeyi çıkarmak
@@ -103,7 +103,7 @@
 할인하다|indirim yapmak|30% 할인하다=yüzde otuz indirim yapmak;할인 행사=indirim kampanyası
 카드로 계산하다|kartla ödemek|카드로 계산할게요=kartla ödeyeceğim;할부로 계산하다=taksitle ödemek
 현금으로 계산하다|nakit ödemek|현금으로 계산하면 할인되다=nakit ödenirse indirim olur;현금 영수증=nakit fişi
-안 어울리다|yakışmamak|색깔이 안 어울리다=renk yakışmamak;나한테 안 어울리다=bana yakışmamak
+안 어울리다|yakışmamak|색깔이 안 어울리다=rengi uymamak (yakışmamak);나한테 안 어울리다=bana uymamak (yakışmamak)
 끈이 떨어지다|askısı kopmak|가방 끈이 떨어지다=çantanın askısı kopmak;신발 끈이 풀리다=ayakkabı bağcığı çözülmek
 장식이 떨어지다|süsü düşmek|단추 장식이 떨어지다=düğme süsü düşmek;장식이 많다=süsü çok
 환불하다|para iadesi yapmak|전액 환불하다=tam iade yapmak;환불을 받다=parasını geri almak
@@ -122,41 +122,41 @@
 태그|etiket|태그를 떼다=etiketi koparmak;가격 태그=fiyat etiketi
 바가지를 쓰다|kazıklanmak|관광지에서 바가지를 쓰다=turistik yerde kazıklanmak;바가지 요금=fahiş fiyat
 달러|dolar|달러로 바꾸다=dolara çevirmek;100달러=yüz dolar
-더러워지다|kirlenmek|옷이 더러워지다=kıyafet kirlenmek;손이 더러워지다=eller kirlenmek
+더러워지다|kirlenmek|옷이 더러워지다=kıyafeti kirlenmek;손이 더러워지다=eli kirlenmek
 기간이 지나다|süresi geçmek|교환 기간이 지나다=değişim süresi geçmek;유효 기간이 지나다=son kullanma tarihi geçmek
 #6 · 고장과 수리 (arıza ve tamir)
-고장이 나다|bozulmak (alet)|컴퓨터가 고장이 나다=bilgisayar bozulmak;자주 고장이 나다=sık sık bozulmak
+고장이 나다|bozulmak (alet)|컴퓨터가 고장이 나다=bilgisayarın bozulması;자주 고장이 나다=sık sık bozulmak
 화면이 안 나오다|ekran görüntü vermemek|텔레비전 화면이 안 나오다=televizyonda görüntü yok;화면이 깨지다=ekran kırılmak
 바람이 안 나오다|hava (rüzgâr) gelmemek|에어컨에서 바람이 안 나오다=klimadan hava gelmiyor;선풍기 바람=vantilatör rüzgârı
 인터넷 연결이 안 되다|internete bağlanamamak|와이파이 연결이 안 되다=Wi-Fi'ye bağlanamamak;인터넷이 끊기다=internet kesilmek
-버튼이 안 눌리다|düğmeye basılamamak|리모컨 버튼이 안 눌리다=kumanda tuşu basmıyor;버튼을 누르다=düğmeye basmak
+버튼이 안 눌리다|düğmeye basılamamak|리모컨 버튼이 안 눌리다=kumanda tuşuna basılamamak;버튼을 누르다=düğmeye basmak
 수리를 맡기다|tamire bırakmak|휴대폰 수리를 맡기다=telefonu tamire vermek;서비스 센터에 맡기다=servise bırakmak
-이상한 소리가 나다|garip ses gelmek|세탁기에서 이상한 소리가 나다=çamaşır makinesinden garip ses geliyor;소리가 크게 나다=yüksek ses çıkmak
+이상한 소리가 나다|garip ses gelmek|세탁기에서 이상한 소리가 나다=çamaşır makinesinden garip ses gelmesi;소리가 크게 나다=yüksek ses çıkmak
 액정이 깨지다|ekran camı kırılmak|휴대폰 액정이 깨지다=telefon ekranı kırılmak;액정을 교체하다=ekranı değiştirmek
 전원을 켜다|cihazı açmak|컴퓨터 전원을 켜다=bilgisayarı açmak;전원 버튼=güç düğmesi
 전원을 끄다|cihazı kapatmak|전원을 끄고 나가다=cihazı kapatıp çıkmak;휴대폰 전원을 끄다=telefonu kapatmak
 고치다|tamir etmek, düzeltmek|자전거를 고치다=bisikleti tamir etmek;습관을 고치다=alışkanlığı düzeltmek
 수리하다|onarmak|집을 수리하다=evi onarmak;무료로 수리하다=ücretsiz onarmak
 서비스 센터|servis merkezi|서비스 센터에 가다=servis merkezine gitmek;서비스 센터에 전화하다=servisi aramak
-소리가 안 나오다|ses gelmemek|스피커에서 소리가 안 나오다=hoparlörden ses gelmiyor;소리를 키우다=sesi açmak
-전원이 안 켜지다|cihaz açılmamak|노트북 전원이 안 켜지다=dizüstü açılmıyor;갑자기 전원이 꺼지다=birden kapanmak
+소리가 안 나오다|ses gelmemek|스피커에서 소리가 안 나오다=hoparlörden ses gelmemek;소리를 키우다=sesi açmak
+전원이 안 켜지다|cihazın açılmaması (güç gelmemek)|노트북 전원이 안 켜지다=dizüstü bilgisayarın açılmaması;갑자기 전원이 꺼지다=birden kapanmak
 플러그를 꽂다|fişi takmak|콘센트에 플러그를 꽂다=fişi prize takmak;충전기를 꽂다=şarj aletini takmak
 플러그를 빼다|fişi çekmek|사용 후 플러그를 빼다=kullandıktan sonra fişi çekmek;충전기를 빼다=şarj aletini çıkarmak
 꾹 누르다|sıkıca basmak|버튼을 꾹 누르다=düğmeye sıkıca basmak;3초 동안 꾹 누르다=üç saniye basılı tutmak
 교체하다|yenisiyle değiştirmek|부품을 교체하다=parçayı değiştirmek;배터리를 교체하다=pili değiştirmek
 떨어뜨리다|düşürmek|휴대폰을 떨어뜨리다=telefonu düşürmek;컵을 떨어뜨리다=bardağı düşürmek
 껐다 켜다|kapatıp açmak|컴퓨터를 껐다 켜다=bilgisayarı kapatıp açmak;휴대폰을 껐다 켜 보세요=telefonu kapatıp açmayı deneyin
-수리 기사|tamirci|수리 기사를 부르다=tamirci çağırmak;수리 기사가 방문하다=tamirci gelmek
+수리 기사|tamirci|수리 기사를 부르다=tamirci çağırmak;수리 기사가 방문하다=tamircinin gelmesi
 수리비|tamir ücreti|수리비가 많이 나오다=tamir ücreti yüksek çıkmak;수리비를 내다=tamir ücreti ödemek
 부탁하다|rica etmek|도움을 부탁하다=yardım rica etmek;부탁 하나 해도 돼요?=Bir ricada bulunabilir miyim?
 배터리가 나가다|şarjı bitmek|휴대폰 배터리가 나가다=telefonun şarjı bitmek;배터리가 빨리 닳다=şarj çabuk bitmek
 리모컨이 고장 나다|kumanda bozulmak|에어컨 리모컨이 고장 나다=klima kumandası bozulmak;리모컨을 찾다=kumandayı aramak
-화면이 꺼지다|ekran kararmak|갑자기 화면이 꺼지다=ekran aniden kararmak;화면이 자꾸 꺼지다=ekran sürekli kapanmak
+화면이 꺼지다|ekran kararmak|갑자기 화면이 꺼지다=ekranın aniden kararması;화면이 자꾸 꺼지다=ekranın sürekli kapanması
 품질보증서|garanti belgesi|품질보증서를 보관하다=garanti belgesini saklamak;품질보증서를 보여 주다=garanti belgesini göstermek
 보증 기간|garanti süresi|보증 기간이 끝나다=garanti süresi bitmek;보증 기간 1년=bir yıl garanti
-꺼지다|sönmek, kapanmak|불이 꺼지다=ışık sönmek;컴퓨터가 꺼지다=bilgisayar kapanmak
+꺼지다|sönmek, kapanmak|불이 꺼지다=ışığın sönmesi;컴퓨터가 꺼지다=bilgisayar kapanmak
 연락처|iletişim bilgisi|연락처를 남기다=iletişim bilgisi bırakmak;연락처를 교환하다=numara alışverişi yapmak
-급하다|acil olmak|급한 일=acil iş;성격이 급하다=aceleci olmak
+급하다|acil olmak|급한 일=acil iş;성격이 급하다=aceleci kişiliği olmak
 신청|başvuru|신청을 받다=başvuru almak;신청 기간=başvuru süresi
 신청하다|başvurmak|수업을 신청하다=derse kayıt olmak;비자를 신청하다=vizeye başvurmak
 제출하다|teslim etmek|서류를 제출하다=belge teslim etmek;숙제를 제출하다=ödev teslim etmek
