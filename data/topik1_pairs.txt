@@ -209,7 +209,7 @@
 씩|하나씩=birer birer;조금씩=azar azar
 엔|천 엔=bin yen;엔으로 바꾸다=yene çevirmek
 여러가지|여러가지 음식=çeşitli yemekler;여러가지 이유=çeşitli sebepler
-오십|오십 원=elli won;오십 대=elli yaşlar
+오십|오십 원=elli won;오십 대=ellili yaşlar
 원|만 원=on bin won;천 원짜리=bin wonluk
 육십|육십 세=altmış yaş;육십 분=altmış dakika
 이십|이십 대=yirmili yaşlar;이십 분=yirmi dakika
@@ -252,7 +252,7 @@
 아침식사|아침식사를 하다=kahvaltı etmek;호텔 아침식사=otel kahvaltısı
 어저께|어저께 만난 사람=dün tanıştığım kişi;어저께 밤=dün gece
 오랫동안|오랫동안 기다리다=uzun süre beklemek;오랫동안 살다=uzun süre yaşamak
-요일|무슨 요일이에요?=bugün günlerden ne?;요일마다=her gün (haftanın her günü)
+요일|무슨 요일이에요?=bugün günlerden ne?;요일마다 다르다=güne göre değişmek
 우선|우선 밥부터 먹자=önce yemek yiyelim;우선 순위=öncelik sırası
 월|1월=ocak;몇 월=hangi ay
 이번|이번 주=bu hafta;이번에는=bu sefer

@@ -340,7 +340,7 @@
 영|sıfır|영점=sıfır puan;영하=sıfırın altı
 예순|altmış|예순 살=altmış yaş;예순이 되다=altmış olmak
 오|beş (Çince kökenli)|오월=mayıs;오 분=beş dakika
-오십|elli (Çince kökenli)|오십 원=elli won;오십 대=elli yaşlar
+오십|elli (Çince kökenli)|오십 원=elli won;오십 대=ellili yaşlar
 원|won (Kore parası)|만 원=on bin won;천 원짜리=bin wonluk
 육|altı (Çince kökenli)|유월=haziran;육 개월=altı ay
 육십|altmış (Çince kökenli)|육십 세=altmış yaş;육십 분=altmış dakika
@@ -454,7 +454,7 @@
 오전|öğleden önce|오전 9시=sabah dokuz;오전 수업=sabah dersi
 오후|öğleden sonra|오후 3시=öğleden sonra üç;오후에 만나다=öğleden sonra buluşmak
 올해|bu yıl|올해 계획=bu yılın planı;올해는 꼭=bu yıl mutlaka
-요일|haftanın günü|무슨 요일이에요?=bugün günlerden ne?;요일마다=her gün (haftanın her günü)
+요일|haftanın günü|무슨 요일이에요?=bugün günlerden ne?;요일마다 다르다=güne göre değişmek
 요즘|bugünlerde|요즘 바빠요=bugünlerde meşgulüm;요즘 유행=bugünlerin modası
 우선|önce|우선 밥부터 먹자=önce yemek yiyelim;우선 순위=öncelik sırası
 월|ay|1월=ocak;몇 월=hangi ay
