@@ -7,7 +7,7 @@ const SPK='<svg><use href="#i-spk"/></svg>';
 const CH=window.FOREST_CHAR;
 const CFG=window.SITE_CONFIG||{};
 const OWNER=CFG.owner||'Wonju Kim (원주)';
-const CONTACT=(CFG.contact||'').trim(),KAKAO=(CFG.kakao||'').trim(),KAKAO_OPEN=(CFG.kakaoOpen||'').trim(),INSTA=(CFG.instagram||'').trim().replace(/^@/,'');
+const CONTACT=(CFG.contact||'').trim(),KAKAO=(CFG.kakao||'').trim(),KAKAO_OPEN=(CFG.kakaoOpen||'').trim(),ASLI_YT=(CFG.asliYoutube||'').trim(),INSTA=(CFG.instagram||'').trim().replace(/^@/,'');
 
 // ---------- kelimeler ----------
 const isVerb=tr=>/m[ae]k(\b|\s|\)|,|$)/i.test(tr);
@@ -509,6 +509,7 @@ function renderLinks(){
  else if(KAKAO)h.push(`<button class="lk kk" data-copy="${esc(KAKAO)}"><span class="ic"><svg><use href="#i-kk"/></svg></span><span class="tx"><b>KakaoTalk</b><small>ID · ${esc(KAKAO)}</small></span></button>`);
  if(CONTACT)h.push(`<a class="lk ml" href="${esc(chromeURL('https://mail.google.com/mail/?view=cm&fs=1&to='+encodeURIComponent(CONTACT)+'&su='+encodeURIComponent('덩어리숲')))}" target="_blank" rel="noopener"><span class="ic"><svg><use href="#i-mail"/></svg></span><span class="tx"><b>E-mail</b><small>${esc(CONTACT)}</small></span></a>`);
  ['links','linksW','linksN'].forEach(id=>{$(id).innerHTML=h.join('')});
+ if(ASLI_YT&&$('asliYt')){const a=$('asliYt');a.href=chromeURL(ASLI_YT);a.hidden=false;const m=ASLI_YT.match(/@[\w.-]+/);if(m)a.querySelector('span').textContent='YouTube · '+m[0]}
 }
 document.addEventListener('click',async e=>{const b=e.target.closest('[data-copy]');if(!b)return;const sm=b.querySelector('small');
  try{await navigator.clipboard.writeText(b.dataset.copy);sm.textContent=t('kakaoCopied');sm.classList.add('ok')}catch(err){}
@@ -622,7 +623,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
- ['2.4','2026-11-25',{tr:['KakaoTalk düğmesi artık açık sohbet odasına bağlanıyor'],ko:['카카오톡 버튼을 오픈채팅방으로 연결']}],
+ ['2.4','2026-11-25',{tr:['KakaoTalk düğmesi artık açık sohbet odasına bağlanıyor','Aslı\'nın YouTube kanalı: @gumguri_korean'],ko:['카카오톡 버튼을 오픈채팅방으로 연결','아슬르 유튜브 채널 바로가기: @gumguri_korean']}],
  ['2.3','2026-11-25',{tr:['A1–A2 kelimeleri konulara göre yeniden düzenlendi (23 konu: meslekler, okul, zaman, hava, yemek, alışveriş, vücut…)'],ko:['A1–A2 단어를 주제별로 새로 정리 (23개 주제: 직업, 학교, 시간, 날씨, 음식, 쇼핑, 몸…)']}],
  ['2.2','2026-11-25',{tr:['A1–A2 bölümlerine konu adları eklendi (B1–B2 gibi)'],ko:['A1–A2 단원에도 주제 이름 추가 (B1–B2처럼)']}],
  ['2.1','2026-11-25',{tr:['Hazırlayanlar: Oyun yapımı ve tasarımı Wonju Kim · Kontrol ve düzeltme Aslıhan Erdoğan','KakaoTalk\'ta bağlantıya dokununca doğrudan tarayıcıda açılır'],ko:['만든 사람들: 게임 제작 및 기획 Wonju Kim · 검수 및 교정 Aslıhan Erdoğan','카카오톡에서 링크를 누르면 바로 외부 브라우저로 열림']}],
