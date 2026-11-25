@@ -1,7 +1,7 @@
 # 덩어리숲 · Korece Kelime Ormanı
 
-튀르키예·아제르바이잔 친구들을 위한 한국어 단어 게임. © 2026 Wonju (원주)
-Türk ve Azerbaycanlı arkadaşlar için Korece kelime oyunu.
+튀르키예 친구들을 위한 한국어 단어 게임. © 2026 Wonju (원주)
+Türk arkadaşlar için Korece kelime oyunu.
 
 ▶ https://jindam1799.github.io/korece_Turkce_TOPIK/
 

@@ -1,7 +1,7 @@
 {
   "name": "덩어리숲 · Korece Kelime Ormanı",
   "short_name": "덩어리숲",
-  "description": "A1'den B2'ye Korece kelime oyunu · Türk ve Azerbaycanlı arkadaşlar için",
+  "description": "A1'den B2'ye Korece kelime oyunu · Türk arkadaşlar için",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
