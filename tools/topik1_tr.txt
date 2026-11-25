@@ -827,3 +827,52 @@
 회사|şirket
 후|sonra
 휴대전화|cep telefonu
+# Düzeltmeler (TOPIK Ⅰ bağlamına göre)
+의사|doktor
+지각|geç kalma (derse, işe)
+가지|çeşit, tür; patlıcan
+밤|gece
+달리다|koşmak, hızla gitmek
+차갑다|soğuk olmak (dokununca)
+들|-ler/-lar (çoğul eki)
+적|deneyim (-ㄴ 적이 있다)
+무리|aşırıya kaçma, zorlama
+신|ayakkabı; tanrı
+편|taraf; -e eğilimli
+기사|haber, makale; şoför
+일어나다|kalkmak (uyanmak); meydana gelmek
+개인|birey, kişi
+시민|vatandaş, şehir halkı
+연예인|ünlü, sanatçı
+직원|çalışan, personel
+순서|sıra, düzen
+장점|avantaj, olumlu yön
+대부분|çoğu, büyük kısmı
+봉투|zarf, poşet
+신청하다|başvurmak
+청소기|elektrikli süpürge
+칼|bıçak
+고치다|tamir etmek, düzeltmek
+눕다|uzanmak, yatmak
+부동산|emlak, emlakçı
+수도|su tesisatı, musluk; başkent
+목소리|ses (insan)
+상처|yara
+심하다|şiddetli olmak
+대회|yarışma, müsabaka
+영상|video, görüntü
+연락처|iletişim bilgisi
+구하다|aramak, bulmak; kurtarmak
+적다|yazmak, not almak
+전하다|iletmek, aktarmak
+똑같다|tıpatıp aynı olmak
+부드럽다|yumuşak olmak
+물론|elbette
+바로|hemen; tam
+종류|tür, çeşit
+주로|genellikle, çoğunlukla
+도로|yol, cadde
+해외|yurt dışı
+연휴|ardışık tatil günleri
+그치다|dinmek, kesilmek
+묻다|sormak; bulaşmak

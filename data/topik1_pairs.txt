@@ -855,3 +855,17 @@
 철|철이 들다=akıllanmak, olgunlaşmak;철로 만들다=demirden yapmak
 특별히|특별히 좋아하다=özellikle sevmek;특별히 준비하다=özel olarak hazırlamak
 하지만|하지만 괜찮아요=ama sorun değil;하지만 어려워요=ama zor
+# --- düzeltmeler ---
+의사|의사가 되다=doktor olmak;의사에게 진찰을 받다=doktora muayene olmak
+지각|지각을 하다=geç kalmak;지각하지 마세요=geç kalmayın
+가지|여러 가지=çeşitli;가지 요리=patlıcan yemeği
+밤|밤에 자다=gece uyumak;밤늦게=gece geç saatte
+달리다|빨리 달리다=hızlı koşmak;차가 달리다=araba hızla gidiyor
+차갑다|차가운 물=soğuk su;바람이 차갑다=rüzgâr soğuk
+들|학생들=öğrenciler;친구들=arkadaşlar
+적|간 적이 있다=gitmişliğim var;본 적이 없다=hiç görmedim
+무리|무리하지 마세요=kendinizi fazla yormayın;무리한 부탁=ağır bir rica
+신|신을 신다=ayakkabı giymek;신을 믿다=tanrıya inanmak
+편|우리 편=bizim taraf;키가 큰 편이다=uzun boylu sayılır
+기사|신문 기사=gazete haberi;택시 기사=taksi şoförü
+일어나다|아침에 일어나다=sabah kalkmak;사고가 일어나다=kaza meydana gelmek
