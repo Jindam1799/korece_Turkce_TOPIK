@@ -1,105 +1,397 @@
-# 검수 반영 보고서 (2026-11-25)
+# 검수 반영 보고서 (2026-11-26)
 
-파일: /tmp/rv2/r.json
-맞음 987 · 고침 89 · 뺌 0
+파일: /tmp/rev_b.json
+맞음 1411 · 고침 380 · 뺌 0
 
-
-## A1-A2
-
-- ✏️ **구월**: eylül → eylül
-- ✓ **시월** — 메모: 시월의 하늘 터키어로 의미가 없어요
-- ✏️ **가을**: sonbahar → sonbahar — 메모: I canceled other word because there is no meaning in turkish.
-- ✏️ **단풍**: sonbahar yaprakları → sonbahar yaprakları
-- ✏️ **방향**: yön → yön
-- ✏️ **이쪽**: bu taraf → bu taraf
-- ✏️ **편의점**: market (7/24 açık) → market (7/24 açık) — 메모: 사다: satın almak. 말할 때 almak을 사용할수 있는데 여기서 satın almak 더 좋은 표현
-- ✏️ **계단**: merdiven → merdiven
-- ✏️ **다녀오다**: gidip gelmek → gidip gelmek
-- ✏️ **사거리**: dört yol ağzı → dört yol ağzı
-- ✏️ **앞으로 쭉 가다**: dümdüz ileri gitmek → dümdüz ileri gitmek
-- ✏️ **좌회전하다**: sola dönmek → sola dönmek
-- ✏️ **걸어오다**: yürüyerek gelmek → yürüyerek gelmek
-- ✓ **수영복** — 메모: Mayoyu (yu=을)
-- ✏️ **구경거리**: görülecek şey → görülecek şey
-- ✏️ **과자**: atıştırmalık → atıştırmalık, bisküvi — 메모: 과자는 atıştırmalık이에요. Bisküvi 쓰면 이거 과자중에 한아에요. 그러니까 bisküvi 쓰면 안좋을 것같아요
-- ✏️ **설거지**: bulaşık yıkama → bulaşık yıkama
-- ✓ **치약** — 메모: Diş macununu (을= nu)
-- ✏️ **피우다**: (sigara) içmek → (sigara) içmek
-- ✏️ **날씬하다**: ince, zarif olmak → ince, zarif olmak
-- ✏️ **통통하다**: tombul olmak → tombul olmak
-- ✏️ **쌍꺼풀**: çift göz kapağı → çift göz kapağı
-- ✏️ **이**: diş → diş
-- ✏️ **신체**: vücut, beden → vücut, beden
-- ✏️ **힘들다**: zor olmak, yorucu olmak → zor olmak, yorucu olmak
-- ✏️ **감기**: soğuk algınlığı → soğuk algınlığı
-- ✏️ **걸리다**: (hastalığa) yakalanmak → (hastalığa) yakalanmak
-- ✏️ **기침**: öksürük → öksürük
-- ✏️ **속이 안 좋다**: midesi bozuk olmak → midesi bozuk olmak
-- ✏️ **낫다**: iyileşmek → iyileşmek
-- ✏️ **넘어지다**: düşmek, yere kapaklanmak → düşmek, yere kapaklanmak
-- ✏️ **눈썹**: kaş → kaş
-- ✏️ **심장**: kalp → kalp
-- ✏️ **위**: mide → mide
-- ✓ **독서** — 메모: If we say hobisi kitap okumak the sentence will be sentence fragment. We need to transform okumak to a verb.
-- ✏️ **떠들다**: gürültü yapmak → gürültü yapmak
-- ✏️ **분위기**: atmosfer, hava → atmosfer, hava
-- ✏️ **가슴이 답답하다**: içi sıkılmak, göğsü daralmak → içi sıkılmak, göğsü daralmak
-- ✏️ **머리가 복잡하다**: kafası karışık olmak → kafası karışık olmak
-- ✏️ **지루하다**: sıkıcı olmak → sıkıcı olmak
-- ✏️ **답답하다**: bunaltıcı olmak → bunaltıcı olmak
-- ✓ **전화번호** — 메모: Ne 대신에 nedir? 터키어로 이렇게 물어보다는 더 자연스러운 표현이에요
-- ✏️ **생각**: düşünce, fikir → düşünce, fikir
-- ✏️ **취향**: zevk, tercih → zevk, tercih
-- ✏️ **생각나다**: aklına gelmek → aklına gelmek
-- ✏️ **싸우다**: kavga etmek → kavga etmek
-- ✏️ **어둡다**: karanlık olmak → karanlık olmak
-- ✏️ **새**: kuş → kuş
-- ✏️ **오리**: ördek → ördek
-- ✏️ **쥐**: fare → fare
-- ✏️ **물고기**: balık (canlı) → balık (canlı)
-- ✏️ **놓여 있다**: konmuş olmak → konmuş olmak
-- ✏️ **짓다**: inşa etmek, yapmak → inşa etmek, yapmak
-- ✏️ **남다**: artmak, kalmak → artmak, kalmak
-- ✏️ **불편하다**: rahatsız, rahatsız edici olmak → rahatsız, rahatsız edici olmak
-- ✏️ **복잡하다**: kalabalık, karışık olmak → kalabalık, karışık olmak
-- ✏️ **단순하다**: sade, basit olmak → sade, basit olmak
-- ✏️ **적당하다**: uygun olmak → uygun olmak
-- ✏️ **비슷하다**: benzer olmak → benzer olmak
-- ✏️ **최고**: en iyi → en iyi
-- ✏️ **부족하다**: yetersiz olmak → yetersiz olmak
-- ✏️ **더**: daha → daha
-- ✏️ **참**: gerçekten, çok → gerçekten, çok
-- ✏️ **꼭**: mutlaka → mutlaka
-- ✏️ **별로**: pek (değil) → pek (değil)
-- ✏️ **항상**: her zaman → her zaman
-- ✏️ **조금**: biraz → biraz
 
 ## B1.1
 
-- ✏️ **오랜만이야**: uzun zaman oldu → uzun zaman oldu (samimi)
-- ✏️ **이곳저곳 다니다**: oraya buraya gidip gelmek → oraya buraya gidip gelmek
-- ✏️ **특별한 일 없이 지내다**: özel bir şey olmadan yaşamak → Sıradan/olağan bir şekilde vakit geçirmek
-- ✏️ **정신없이 지내다**: çok yoğun, telaşlı yaşamak → çok yoğun, telaşlı vakit geçirmek
-- ✏️ **이게 얼마 만이야**: ne kadar oldu görüşmeyeli → Görüşmeyeli ne kadar oldu, bu ne sürpriz
-- ✏️ **그저 그렇게 지내다**: şöyle böyle yaşamak → şöyle böyle idare etmek (ne iyi ne kötü)
-- ✏️ **청혼하다**: evlenme teklif etmek → evlenme teklif etmek
-- ✏️ **취업 준비**: iş arama hazırlığı → iş arama hazırlığı
-- ✏️ **이삿짐을 정리하다**: taşınma eşyalarını yerleştirmek → taşınma eşyalarını yerleştirmek
-- ✏️ **교통이 편리하다**: ulaşım rahat olmak → ulaşımı rahat olmak
-- ✏️ **주변**: çevre, etraf → çevre, etraf
-- ✏️ **보일러**: kombi → kombi
-- ✏️ **가전제품**: ev aletleri → ev aletleri
-- ✏️ **손빨래를 하다**: elde çamaşır yıkamak → elde çamaşır yıkamak
+- ✏️ **한가하게 지내다**: boş, rahat vakit geçirmek → boş, rahat vakit geçirmek
+- ✏️ **특별한 일 없이 지내다**: sıradan/olağan bir şekilde vakit geçirmek → sıradan/olağan bir şekilde vakit geçirmek
+- ✏️ **이게 얼마 만이야**: görüşmeyeli ne kadar oldu, bu ne sürpriz → görüşmeyeli ne kadar oldu, bu ne sürpriz
+- ✏️ **그저 그렇게 지내다**: şöyle böyle idare etmek (ne iyi ne kötü) → şöyle böyle idare etmek (ne iyi ne kötü)
+- ✏️ **이삿짐 센터**: nakliye şirketi → nakliye şirketi
+- ✏️ **주변 환경이 조용하다**: çevresi sessiz olmak → çevresi sessiz olmak
+- ✏️ **시설**: tesis, imkânlar → tesis, imkânlar
+- ✏️ **싸다**: ucuz olmak → ucuz olmak
+- ✏️ **집을 구하다**: ev aramak → ev aramak
+- ✏️ **빗자루**: süpürge (çalı) → süpürge (çalı)
+- ✏️ **쓰레받기**: faraş → faraş
+- ✏️ **청소기를 돌리다**: süpürge çalıştırmak → süpürge çalıştırmak
+- ✏️ **바닥**: zemin, yer → zemin, yer
+- ✏️ **가격이 저렴하다**: fiyatı uygun olmak → fiyatı uygun olmak
 - ✏️ **사이즈가 딱 맞다**: bedeni tam olmak → bedeni tam olmak
-- ✏️ **망가지다**: bozulmak, hasar görmek → bozulmak, hasar görmek
+- ✏️ **사이즈가 안 맞다**: bedeni uymamak → bedeni uymamak
+- ✏️ **디자인이 마음에 들다**: tasarımı beğenmek → tasarımı beğenmek
 - ✏️ **안 어울리다**: yakışmamak → yakışmamak
-- ✏️ **더러워지다**: kirlenmek → kirlenmek
-- ✏️ **고장이 나다**: bozulmak (alet) → bozulmak (alet)
+- ✏️ **장식이 떨어지다**: süsü düşmek → süsü düşmek
+- ✏️ **사항**: husus, konu → husus, konu
+- ✏️ **상태**: durum → durum
+- ✏️ **가능하다**: mümkün olmak → mümkün olmak
+- ✏️ **불가능하다**: imkânsız olmak → imkânsız olmak
+- ✏️ **화면이 안 나오다**: ekran görüntü vermemek → ekran görüntü vermemek
+- ✏️ **바람이 안 나오다**: hava (rüzgâr) gelmemek → hava (rüzgâr) gelmemek
+- ✏️ **인터넷 연결이 안 되다**: internete bağlanamamak → internete bağlanamamak
 - ✏️ **버튼이 안 눌리다**: düğmeye basılamamak → düğmeye basılamamak
-- ✏️ **이상한 소리가 나다**: garip ses gelmek → garip ses gelmek
-- ✏️ **소리가 안 나오다**: ses gelmemek → ses gelmemek
-- ✏️ **전원이 안 켜지다**: cihaz açılmamak → Cihazın açılmaması (güç gelmemek)
-- ✏️ **수리 기사**: tamirci → tamirci
-- ✏️ **화면이 꺼지다**: ekran kararmak → ekran kararmak
-- ✏️ **꺼지다**: sönmek, kapanmak → sönmek, kapanmak
-- ✏️ **급하다**: acil olmak → acil olmak
+- ✏️ **전원이 안 켜지다**: cihazın açılmaması (güç gelmemek) → cihazın açılmaması (güç gelmemek)
+- ✏️ **배터리가 나가다**: şarjı bitmek → şarjı bitmek
+- ✏️ **외식을 하다**: dışarıda yemek yemek → dışarıda yemek yemek
+- ✏️ **장바구니**: alışveriş filesi → alışveriş çantası
+- ✏️ **예선을 통과하다**: ön elemeyi geçmek → ön elemeyi geçmek
+- ✏️ **동상**: bronz ödül → bronz ödül (madalya)
+- ✏️ **허락을 받다**: izin almak → izin almak
+- ✏️ **화창하다**: güneşli ve açık olmak → güneşli ve açık olmak
+- ✏️ **푹푹 찌다**: bunaltıcı sıcak olmak → bunaltıcı sıcak olmak
+- ✏️ **선선하다**: serin olmak → serin olmak
+- ✏️ **포근하다**: ılık olmak → ılık olmak
+- ✏️ **우중충하다**: kasvetli olmak (hava) → kasvetli olmak (hava)
+- ✏️ **우울하다**: depresif, hüzünlü olmak → depresif, hüzünlü olmak
+- ✏️ **짜증 나다**: sinir bozucu olmak → sinir bozucu olmak
+- ✏️ **답답하다**: bunaltıcı, sıkıntılı olmak → bunaltıcı, sıkıntılı olmak
+- ✏️ **마음이 가볍다**: içi hafiflemek → içi hafiflemek (rahatlamak)
+- ✏️ **기분이 가라앉다**: morali bozulmak → morali bozulmak
+- ✏️ **더위에 약하다**: sıcağa dayanıksız olmak → sıcağa dayanıksız olmak
+- ✏️ **기분이 꿀꿀하다**: morali bozuk olmak (günlük dil) → canı sıkkın olmak (günlük dil)
+- ✏️ **꽃샘추위**: bahar ayazı → bahar ayazı
+- ✏️ **폭설**: yoğun kar → yoğun kar
+- ✏️ **마그네슘**: magnezyum → magnezyum
+- ✏️ **풀리다**: çözülmek, açılmak → çözülmek, açılmak
+- ✏️ **상쾌하다**: ferah, canlandırıcı olmak → ferah, canlandırıcı olmak
+- ✏️ **사라지다**: kaybolmak → kaybolmak, ortadan kalkmak
+- ✏️ **열이 심하다**: ateşi çok yüksek olmak → ateşi çok yüksek olmak
+- ✏️ **재채기를 하다**: hapşırmak → hapşırmak
+- ✏️ **두통이 생기다**: baş ağrısı başlamak → baş ağrısı başlamak
+- ✏️ **연고를 바르다**: merhem sürmek → merhem sürmek
+- ✏️ **불면증**: uykusuzluk → uykusuzluk
+- ✏️ **눈병**: göz hastalığı → göz hastalığı
+- ✏️ **보약**: kuvvet ilacı (bitkisel) → takviye ilacı (bitkisel)
+- ✏️ **망치다**: mahvetmek → mahvetmek
+- ✏️ **아름답다**: güzel olmak → güzel olmak
+- ✏️ **경치**: manzara → manzara
+- ✏️ **피로**: yorgunluk → yorgunluk
+- ✏️ **면역력**: bağışıklık → bağışıklık
+- ✏️ **스트레스가 풀리다**: stres atılmak → stres atılmak
+- ✏️ **생활에 활기가 생기다**: hayata canlılık gelmek → hayata canlılık gelmek
+- ✏️ **성취감을 느끼다**: başarı duygusu hissetmek → başarı duygusu hissetmek
+- ✏️ **인기**: popülerlik → popülerlik
+- ✏️ **자진하다**: gönüllü olmak → gönüllü olmak
+- ✏️ **지루하다**: sıkıcı olmak → sıkıcı olmak
+- ✏️ **연기가 뛰어나다**: oyunculuğu mükemmel olmak → oyunculuğu mükemmel olmak
+- ✏️ **인상적이다**: etkileyici olmak → etkileyici olmak
+- ✏️ **뻔하다**: belli, tahmin edilebilir olmak → belli, tahmin edilebilir olmak
+- ✏️ **기대에 못 미치다**: beklentiyi karşılamamak → beklentiyi karşılamamak
+- ✏️ **공감하다**: empati kurmak, katılmak → empati kurmak, katılmak
+- ✏️ **말투**: konuşma tarzı → konuşma tarzı
+- ✏️ **조건**: koşul → koşul
+- ✏️ **다르다**: farklı olmak → farklı olmak
+- ✏️ **어휘**: kelime hazinesi → kelime bilgisi
+- ✏️ **장점**: avantaj, güçlü yan → avantaj, güçlü yan
+- ✏️ **가까이**: yakına, yakında → yakın, yakında
+- ✏️ **거의**: neredeyse → neredeyse
+- ✏️ **어서**: çabuk, buyurun → çabuk, buyurun
+- ✏️ **언제나**: her zaman → her zaman
+- ✏️ **아마**: muhtemelen → muhtemelen, belki de
+- ✏️ **또한**: ayrıca → ayrıca
+- ✏️ **각각**: her biri → her biri
+
+## B1.2
+
+- ✏️ **어학연수를 하다**: yurt dışında dil eğitimi almak → yurt dışında dil eğitimi almak
+- ✏️ **보람을 느끼다**: tatmin olmak, emeğinin karşılığını hissetmek → tatmin olmak, emeğinin karşılığını hissetmek
+- ✏️ **기념품을 구입하다**: hatıra eşyası almak → hatıra eşyası almak
+- ✏️ **관객**: seyirci → seyirci
+- ✏️ **시다**: ekşi olmak → ekşi olmak
+- ✏️ **쓰다**: acı olmak (tat) → acı olmak (tat)
+- ✏️ **맵다**: acı olmak (baharatlı) → acı olmak (baharatlı)
+- ✏️ **부드럽다**: yumuşak olmak → yumuşak olmak
+- ✏️ **얼큰하다**: acılı ve sıcak (çorba) → acılı ve sıcak (çorba)
+- ✏️ **싱겁다**: tuzsuz, yavan olmak → tuzsuz, yavan olmak
+- ✏️ **담백하다**: hafif ve sade olmak (tat) → hafif ve sade olmak (tat)
+- ✏️ **속이 편안하다**: midesi rahat olmak → midesi rahat olmak
+- ✏️ **바삭하다**: çıtır olmak → çıtır olmak
+- ✏️ **개운하다**: ferahlatıcı olmak → ferahlatıcı olmak
+- ✏️ **산뜻하다**: ferah, taze olmak → ferah, taze olmak
+- ✏️ **한눈팔다**: dikkati dağılmak → dikkati dağılmak
+- ✏️ **심하다**: şiddetli olmak → şiddetli olmak
+- ✏️ **장난을 치다**: şaka yapmak, yaramazlık yapmak → şaka yapmak, yaramazlık yapmak
+- ✏️ **변명하다**: bahane uydurmak → bahane uydurmak
+- ✏️ **오해를 풀다**: yanlış anlaşılmayı gidermek → yanlış anlaşılmayı gidermek
+- ✏️ **입이 가볍다**: ağzı gevşek olmak → ağzı gevşek olmak
+- ✏️ **회비를 내다**: aidat ödemek → aidat ödemek
+- ✏️ **인맥을 쌓다**: çevre edinmek → çevre edinmek
+- ✏️ **여유를 즐기다**: rahatın tadını çıkarmak → rahatın tadını çıkarmak (serbest zaman)
+- ✏️ **볼거리가 많다**: görülecek çok şey olmak → görülecek çok şey olmak
+- ✏️ **물가가 저렴하다**: fiyatlar ucuz olmak → fiyatlar ucuz olmak
+- ✏️ **대중교통**: toplu taşıma → toplu taşıma
+- ✏️ **길이 막히다**: yol tıkanmak, trafik olmak → yol tıkanmak, trafik olmak
+- ✏️ **연결되다**: bağlanmak → bağlanmak
+- ✏️ **기대**: beklenti → beklenti
+- ✏️ **따님**: kızınız (saygı) → kızınız (saygı)
+- ✏️ **낯설다**: yabancı, alışılmadık gelmek → yabancı, alışılmadık gelmek
+- ✏️ **하객**: düğün misafiri → düğün misafiri
+- ✏️ **예산**: bütçe → bütçe
+- ✏️ **상견례를 하다**: ailelerin tanışma görüşmesini yapmak → ailelerin tanışma görüşmesini yapmak
+- ✏️ **외모**: dış görünüş → dış görünüş
+- ✏️ **덕담을 하다**: iyi dileklerde bulunmak → iyi dileklerde bulunmak
+- ✏️ **달맞이를 하다**: dolunayı karşılamak → dolunayı karşılamak
+- ✏️ **소원을 빌다**: dilek tutmak → dilek tutmak
+- ✏️ **두통약**: baş ağrısı ilacı → baş ağrısı ilacı
+- ✏️ **솜씨**: ustalık, maharet → ustalık, maharet
+- ✏️ **대표적이다**: temsilî, tipik olmak → temsilî, tipik olmak
+- ✏️ **널뛰기**: tahterevalli zıplama oyunu → tahterevalli zıplama oyunu
+- ✏️ **밤**: kestane → kestane
+- ✏️ **둥글다**: yuvarlak olmak → yuvarlak olmak
+- ✏️ **풍년**: bereketli yıl → bereketli yıl
+- ✏️ **풍성하다**: bol, bereketli olmak → bol, bereketli olmak
+- ✏️ **직장 상사**: iş yerindeki üst → iş yerindeki üst, amir
+- ✏️ **적성에 맞다**: yeteneğine uygun olmak → yeteneğine uygun olmak
+- ✏️ **자기소개서를 쓰다**: ön yazı yazmak → özgeçmiş/tanıtma yazısı yazmak
+- ✏️ **경력을 쌓다**: deneyim kazanmak → deneyim kazanmak
+- ✏️ **유학을 계획하다**: yurt dışında okumayı planlamak → yurt dışında okumayı planlamak
+- ✏️ **등록금을 내다**: okul harcı ödemek → okul harcı ödemek
+- ✏️ **학비를 지원받다**: eğitim desteği almak → eğitim desteği almak
+- ✏️ **뿌듯하다**: gurur ve tatmin duymak → gurur ve tatmin duymak
+- ✏️ **반대되다**: zıt olmak → zıt olmak
+- ✏️ **다양하다**: çeşitli olmak → çeşitli olmak
+- ✏️ **능력**: yetenek, kabiliyet → yetenek, kabiliyet
+- ✏️ **목소리**: ses (insan) → ses (insan)
+- ✏️ **무엇이든**: her ne olursa → her ne olursa
+- ✏️ **느낌**: his, izlenim → his, izlenim
+- ✏️ **상황**: durum → durum
+- ✏️ **입장권**: giriş bileti → giriş bileti
+- ✏️ **구경시키다**: gezdirmek → gezdirmek
+- ✏️ **경제적이다**: ekonomik olmak → ekonomik olmak
+- ✏️ **예를 들어**: örneğin → örneğin
+- ✏️ **대단하다**: harika, olağanüstü olmak → harika, olağanüstü olmak
+- ✏️ **수익금**: gelir (kazanç) → gelir (kazanç)
+- ✏️ **부식**: yan yemek, katık → yan yemek, meze vb
+- ✏️ **뚜렷하다**: belirgin olmak → belirgin olmak
+- ✏️ **형태**: biçim → biçim
+- ✏️ **표현**: ifade → ifade
+- ✏️ **유행하다**: moda olmak → moda olmak
+- ✏️ **통하다**: anlaşmak, geçmek → anlaşmak, geçmek
+- ✏️ **반드시**: mutlaka → mutlaka
+- ✏️ **교회**: kilise → kilise
+- ✏️ **키위**: kivi → kivi
+- ✏️ **오이**: salatalık → salatalık
+- ✏️ **자몽**: greyfurt → greyfurt
+- ✏️ **고추**: biber (acı) → biber (acı)
+- ✏️ **고추장**: acı biber salçası → acı biber salçası
+- ✏️ **소금**: tuz → tuz
+- ✏️ **조개**: midye, istiridye türü kabuklu → midye, istiridye türü kabuklu
+- ✏️ **식수**: içme suyu → içme suyu
+- ✏️ **반찬**: yan yemek (banchan) → yan yemek (banchan)
+- ✏️ **담다**: koymak (kaba) → koymak (kase)
+- ✏️ **물론**: elbette → elbette
+- ✏️ **오히려**: aksine → aksine
+- ✏️ **주례를 서다**: nikâh konuşmasını yapmak → nikâh konuşmasını yapmak
+- ✏️ **준비되다**: hazır olmak → hazır olmak
+- ✏️ **단점**: dezavantaj → dezavantaj
+- ✏️ **선호도**: tercih oranı → tercih oranı
+- ✏️ **추세**: eğilim → eğilim
+- ✏️ **전망되다**: beklenmek, öngörülmek → beklenmek, öngörülmek
+- ✏️ **빠르다**: hızlı olmak → hızlı olmak
+- ✏️ **달빛**: ay ışığı → ay ışığı
+- ✏️ **젓가락**: yemek çubuğu → yemek çubuğu
+- ✏️ **똑같다**: tıpatıp aynı olmak → tıpatıp aynı olmak
+- ✏️ **영양분**: besin değeri → besin değeri
+- ✏️ **달리다**: asılı olmak, takılı olmak → asılı olmak, takılı olmak
+- ✏️ **떠오르다**: akla gelmek, doğmak → akla gelmek, doğmak
+- ✏️ **문법**: dilbilgisi → dilbilgisi
+- ✏️ **어느새**: farkına varmadan → farkına varmadan
+- ✏️ **대부분**: çoğu → çoğu, büyük çoğunluğu
+- ✏️ **애인**: sevgili → sevgili
+- ✏️ **아쉽다**: yazık olmak, içi burulmak → yazık olmak, içi burulmak
+- ✏️ **자세**: duruş, tutum → duruş, tutum
+- ✏️ **귀찮다**: üşenmek, zahmetli gelmek → üşenmek, zahmetli gelmek
+- ✏️ **만족스럽다**: tatmin edici olmak → tatmin edici olmak
+- ✏️ **집중력**: konsantrasyon gücü → konsantrasyon gücü
+- ✏️ **높아지다**: yükselmek → yükselmek
+- ✏️ **과연**: acaba, gerçekten de → acaba, gerçekten de
+- ✏️ **면접**: mülakat → mülakat
+- ✏️ **언제든지**: ne zaman olursa → ne zaman olursa
+
+## B2.1
+
+- ✏️ **집을 짓다**: ev inşa etmek → ev inşa etmek
+- ✏️ **완주하다**: sonuna kadar tamamlamak → sonuna kadar tamamlamak
+- ✏️ **정성을 다하다**: tüm özeniyle yapmak → tüm özeni göstermek
+- ✏️ **버킷 리스트**: ölmeden yapılacaklar listesi → ölmeden yapılacaklar listesi
+- ✏️ **복권에 당첨되다**: piyangoyu kazanmak → piyango kazanmak
+- ✏️ **활기가 넘치다**: canlılık dolu olmak → canlılık dolu olmak
+- ✏️ **촬영지로 유명하다**: çekim yeri olarak ünlü olmak → çekim yeri olarak ünlü olmak
+- ✏️ **야경이 아름답다**: gece manzarası güzel olmak → gece manzarası güzel olmak
+- ✏️ **간직하다**: saklamak, korumak → saklamak, korumak
+- ✏️ **입장료**: giriş ücreti → giriş ücreti
+- ✏️ **앨범이 나오다**: albüm çıkmak → albüm çıkmak
+- ✏️ **영화가 개봉하다**: film vizyona girmek → film vizyona girmek
+- ✏️ **실종되다**: kaybolmak (kayıp) → kaybolmak (kayıp)
+- ✏️ **부상자**: yaralı → yaralı
+- ✏️ **대기 오염**: hava kirliliği → hava kirliliği
+- ✏️ **강이 넘치다**: nehir taşmak → nehir taşmak
+- ✏️ **집이 물에 잠기다**: ev sular altında kalmak → ev sular altında kalmak
+- ✏️ **앞바다**: açık deniz (kıyı açığı) → açık deniz (kıyı açığı)
+- ✏️ **현장에 출동하다**: olay yerine gitmek → olay yerine gitmek
+- ✏️ **흔들리다**: sallanmak → sallanmak
+- ✏️ **따라서**: bu nedenle → bu nedenle
+- ✏️ **전기가 중단되다**: elektrik kesilmek → elektrik kesilmek
+- ✏️ **황사**: sarı toz (Asya tozu) → sarı toz (Asya tozu)
+- ✏️ **소화가 잘되다**: sindirimi kolay olmak → sindirimi kolay olmak
+- ✏️ **시력을 보호하다**: görme gücünü korumak → görme gücünü korumak
+- ✏️ **기억력을 향상시키다**: hafızayı güçlendirmek → hafızayı güçlendirmek
+- ✏️ **면역력을 높이다**: bağışıklığı güçlendirmek → bağışıklığı güçlendirmek
+- ✏️ **탄수화물**: karbonhidrat → karbonhidrat
+- ✏️ **풍부하다**: bol, zengin olmak → bol, zengin olmak
+- ✏️ **선명하다**: net, canlı (renk) olmak → net, canlı (renk) olmak
+- ✏️ **단단하다**: sert, sağlam olmak → sert, sağlam olmak
+- ✏️ **진하다**: koyu, yoğun olmak → koyu, yoğun olmak
+- ✏️ **단백질**: protein → protein
+- ✏️ **칼륨**: potasyum → potasyum
+- ✏️ **땀을 흘리다**: terlemek → terlemek
+- ✏️ **얼굴을 들 수가 없다**: yüzü kızarmak (utançtan başını kaldıramamak) → yüzü kızarmak (utançtan başını kaldıramamak)
+- ✏️ **당황스럽다**: şaşkına dönmek → şaşkına dönmek
+- ✏️ **얼굴이 하얘지다**: yüzü bembeyaz olmak → yüzü bembeyaz olmak
+- ✏️ **고개를 들고 다니다**: başı dik gezmek → başı dik gezmek
+- ✏️ **배가 떠 있다**: tekne suda durmak → tekne suda durmak
+- ✏️ **산으로 둘러싸여 있다**: dağlarla çevrili olmak → dağlarla çevrili olmak
+- ✏️ **고층 빌딩이 늘어서 있다**: gökdelenler sıralanmak → gökdelenler sıralanmak
+- ✏️ **골목이 이어져 있다**: sokaklar birbirine bağlanmak → sokak araları birbirine bağlanmış olmak
+- ✏️ **들이 펼쳐져 있다**: ova uzanmak → ova uzanmak
+- ✏️ **늘어서다**: sıralanmak → sıralanmak
+- ✏️ **이어지다**: devam etmek, birbirine bağlanmak → devam etmek, birbirine bağlanmak
+- ✏️ **펼쳐지다**: uzanmak, gözler önüne serilmek → uzanmak, gözler önüne serilmek
+- ✏️ **주렁주렁**: salkım salkım → salkım salkım
+- ✏️ **굴뚝**: baca → baca
+- ✏️ **울퉁불퉁하다**: engebeli olmak → engebeli olmak
+- ✏️ **흐르다**: akmak → akmak
+- ✏️ **강물**: nehir suyu → nehir suyu
+- ✏️ **젖다**: ıslanmak → ıslanmak
+- ✏️ **사회를 반영하다**: toplumu yansıtmak → toplumu yansıtmak
+- ✏️ **식상하다**: bayık, klişe olmak → sıkıcı, klişe olmak — 메모: Bayık (argo)
+- ✏️ **상식을 쌓다**: genel kültür edinmek → genel kültür edinmek
+- ✏️ **위로를 주다**: teselli vermek → teselli vermek
+- ✏️ **먹을 만하다**: yenecek kadar iyi olmak → yenecek kadar iyi olmak
+- ✏️ **중독적이다**: bağımlılık yapıcı olmak → bağımlılık yapıcı olmak
+- ✏️ **작품성**: sanatsal değer → sanatsal değer
+- ✏️ **인생 수업**: hayat dersi → hayat dersi
+- ✏️ **굉장히**: son derece → son derece
+- ✏️ **상식**: genel bilgi → genel bilgi
+- ✏️ **딱딱하다**: sert, katı (resmî) olmak → sert, katı (resmî) olmak
+- ✏️ **덜**: daha az → daha az
+- ✏️ **갈등을 겪다**: çatışma yaşamak → çatışma yaşamak
+- ✏️ **범인을 쫓다**: suçluyu kovalamak → suçluyu kovalamak
+- ✏️ **감쪽같이 사라지다**: iz bırakmadan kaybolmak → iz bırakmadan kaybolmak
+- ✏️ **반전이 있다**: sürpriz bir dönüş olmak → sürpriz bir dönüş olmak
+- ✏️ **도망치다**: kaçmak → kaçmak
+- ✏️ **가슴이 조마조마하다**: yüreği ağzına gelmek → yüreği ağzına gelmek
+- ✏️ **개봉**: vizyona girme → vizyona girme
+- ✏️ **전반부**: ilk yarı → ilk yarı
+- ✏️ **후반부**: ikinci yarı → ikinci yarı
+- ✏️ **밝혀지다**: ortaya çıkmak → ortaya çıkmak
+- ✏️ **연기력**: oyunculuk becerisi → oyunculuk becerisi
+- ✏️ **의심하다**: şüphelenmek → şüphelenmek
+- ✏️ **등장인물**: karakter (eserde) → karakter (eserde)
+- ✏️ **공장이 모여 있다**: fabrikalar toplanmak → fabrikalar toplanmak
+- ✏️ **자원이 풍부하다**: kaynakları zengin olmak → kaynakları zengin olmak
+- ✏️ **일자리가 부족하다**: iş imkânı az olmak → iş imkânı az olmak
+- ✏️ **환경이 쾌적하다**: ortam ferah ve hoş olmak → ortam ferah ve hoş olmak
+- ✏️ **범인을 잡다**: suçluyu yakalamak → suçluyu yakalamak
+- ✏️ **책임감**: sorumluluk duygusu → sorumluluk duygusu
+- ✏️ **인프라**: altyapı → altyapı
+- ✏️ **매력적이다**: çekici olmak → çekici olmak, cazip olmak
+- ✏️ **기후**: iklim → iklim
+- ✏️ **주요 산업**: başlıca sanayi → başlıca sanayi
+- ✏️ **면적**: yüz ölçümü → yüz ölçümü
+- ✏️ **효과가 있다**: etkili olmak → etkili olmak
+- ✏️ **정부**: hükümet → hükümet
+- ✏️ **일자리를 늘리다**: istihdamı artırmak → istihdamı artırmak
+- ✏️ **농업**: tarım → tarım
+- ✏️ **천연가스**: doğal gaz → doğal gaz
+- ✏️ **오염되다**: kirlenmek → kirlenmek
+- ✏️ **이루어지다**: oluşmak, gerçekleşmek → oluşmak, gerçekleşmek
+- ✏️ **문명**: medeniyet → medeniyet
+- ✏️ **산업**: sanayi, endüstri → sanayi, endüstri
+- ✏️ **통행**: geçiş → geçiş
+- ✏️ **해운업**: denizcilik sektörü → denizcilik sektörü
+- ✏️ **차이**: fark → fark
+- ✏️ **돌탑**: taş kule (dilek taşları) → taş yığını (dilek taşları)
+- ✏️ **지나가다**: geçip gitmek → geçip gitmek
+- ✏️ **관계가 있다**: ilgisi olmak → ilgisi olmak
+- ✏️ **간단히 말하면**: kısacası → kısacası
+- ✏️ **허락하다**: izin vermek → izin vermek
+- ✏️ **글자**: harf, yazı → harf, yazı
+- ✏️ **훨씬**: çok daha → çok daha
+- ✏️ **편리하다**: kullanışlı olmak → kullanışlı olmak
+- ✏️ **익숙하다**: alışkın olmak → alışkın olmak
+- ✏️ **무료하다**: sıkıcı, can sıkıcı olmak → sıkıcı, can sıkıcı olmak
+- ✏️ **과정**: süreç → süreç
+- ✏️ **완성되다**: tamamlanmak → tamamlanmak
+- ✏️ **반응**: tepki → tepki
+- ✏️ **간편하다**: pratik olmak → pratik olmak
+- ✏️ **사회생활**: iş/toplum hayatı → iş/toplum hayatı
+- ✏️ **발표되다**: açıklanmak → açıklanmak
+- ✏️ **돈을 내다**: para ödemek → para ödemek
+- ✏️ **절대**: asla, kesinlikle → asla, kesinlikle
+- ✏️ **약하다**: zayıf olmak → zayıf olmak
+- ✏️ **참가자**: katılımcı → katılımcı
+- ✏️ **촌스럽다**: demode, köylü işi olmak → demode, köylü işi olmak
+- ✏️ **장난**: şaka, yaramazlık → şaka, yaramazlık
+- ✏️ **자라다**: büyümek → büyümek
+- ✏️ **기대되다**: merakla beklenmek → merakla beklenmek
+- ✏️ **강하다**: güçlü olmak → güçlü olmak
+- ✏️ **운항**: sefer (uçak, gemi) → sefer (uçak, gemi)
+- ✏️ **취소되다**: iptal edilmek → iptal edilmek
+- ✏️ **도로**: yol (cadde) → yol (cadde)
+- ✏️ **반드시**: mutlaka → mutlaka
+- ✏️ **보관하다**: saklamak, muhafaza etmek → saklamak, muhafaza etmek
+- ✏️ **교통약자석**: öncelikli koltuk → öncelikli koltuk
+- ✏️ **공사하다**: inşaat yapmak → inşaat yapmak
+- ✏️ **그나저나**: neyse, bu arada → neyse, bu arada
+- ✏️ **머릿속**: kafasının içi → kafasının içi
+- ✏️ **막**: tam, yeni → tam, yeni
+- ✏️ **무척**: çok, son derece → çok, son derece
+- ✏️ **느리다**: yavaş olmak → yavaş olmak
+- ✏️ **유물**: tarihî eser → tarihî eser
+- ✏️ **장식**: süs, dekorasyon → süs, dekorasyon
+- ✏️ **깔끔하다**: temiz, derli toplu olmak → temiz, derli toplu olmak
+- ✏️ **어린 시절로 돌아가다**: çocukluğa dönmek → çocukluğa dönmek
+- ✏️ **몸동작**: beden hareketi → beden hareketi, beden dili
+- ✏️ **다리를 떨다**: bacağını sallamak → bacağını sallamak
+- ✏️ **어부**: balıkçı → balıkçı
+
+## B2.2
+
+- ✏️ **적극적이다**: aktif, girişken olmak → aktif, girişken olmak
+- ✏️ **책임감이 있다**: sorumluluk sahibi olmak → sorumluluk sahibi olmak
+- ✏️ **급하다**: aceleci olmak → aceleci/sabırsız olmak
+- ✏️ **느긋하다**: rahat, telaşsız olmak → rahat, ağırkanlı, telaşsız olmak
+- ✏️ **유머 감각이 있다**: espri anlayışı olmak → espri anlayışı olmak
+- ✏️ **유머 감각이 없다**: espri anlayışı olmamak → espri anlayışı olmamak
+- ✏️ **디자인이 세련되다**: tasarımı şık olmak → tasarımı şık olmak
+- ✏️ **집값이 저렴하다**: ev fiyatları ucuz olmak → ev fiyatları ucuz olmak
+- ✏️ **편리한 기능이 많다**: kullanışlı özelliği çok olmak → kullanışlı özelliği çok olmak
+- ✏️ **밝다**: neşeli olmak (kişilik) → neşeli olmak (kişilik)
+- ✏️ **어둡다**: kasvetli olmak (kişilik) → kasvetli olmak (kişilik)
+- ✏️ **날카롭다**: keskin, sert olmak → keskin, sert olmak
+- ✏️ **낯을 가리다**: yabancılardan çekinmek → yabancılardan çekinmek
+- ✏️ **차갑다**: soğuk olmak (tavır) → soğuk olmak (tavır)
+- ✏️ **표정이 어둡다**: yüzü asık olmak → yüzü asık olmak
+- ✏️ **인간관계가 어렵다**: insan ilişkileri zor gelmek → insan ilişkileri zor gelmek
+- ✏️ **미래가 불안하다**: gelecek belirsiz ve kaygı verici olmak → gelecek belirsiz ve kaygı verici olmak
+- ✏️ **경제적인 상황이 좋지 않다**: maddi durumu iyi olmamak → maddi durumu iyi olmamak
+- ✏️ **실력이 늘지 않다**: ilerleme kaydedememek → ilerleme kaydedememek
+- ✏️ **어른을 존경하다**: büyüklere saygı duymak → büyüklere saygı duymak
+- ✏️ **정이 많다**: sıcakkanlı olmak → sıcakkanlı olmak
+- ✏️ **의성어와 의태어**: yansıma ve tasvir sözcükleri → yansıma ve tasvir sözcükleri
+- ✏️ **일생을 바치다**: ömrünü adamak → ömrünü adamak
+- ✏️ **증가하다**: artmak → artmak
+- ✏️ **변화하다**: değişmek → değişmek
+- ✏️ **찬성하다**: lehinde olmak → desteklemek, onaylamak
+- ✏️ **장점이 있다**: avantajı olmak → avantajı olmak
+- ✏️ **단점이 있다**: dezavantajı olmak → dezavantajı olmak
+- ✏️ **믿기지 않다**: inanılmaz gelmek → inanılmaz gelmek
+- ✏️ **홀가분하다**: ferahlamak, yükten kurtulmak → ferahlamak, yükten kurtulmak
+- ✏️ **시원섭섭하다**: hem rahatlamış hem hüzünlü olmak → hem rahatlamış hem hüzünlü olmak
+- ✏️ **꿈만 같다**: rüya gibi olmak → rüya gibi olmak
+- ✏️ **걱정이 앞서다**: önce endişe gelmek → endişeye kapılmak
+- ✏️ **부담스럽다**: yük gibi gelmek → yük gibi gelmek, rahatsızlık vermek

@@ -635,6 +635,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
+ ['3.0','2026-11-26',{tr:['B1–B2 kelimeleri Aslı tarafından kontrol edildi: 380 kelimenin anlamı ve eş kelimeleri düzeltildi','Giriş ekranında TOPIK Ⅰ · TOPIK Ⅱ rozetleri'],ko:['B1–B2 아슬르 검수 반영: 380개 단어 뜻·짝꿍어휘 수정','첫 화면에 TOPIK Ⅰ · TOPIK Ⅱ 배지']}],
  ['2.9','2026-11-25',{tr:['Yeni fon müziği: anonim İstanbul türküsü “Üsküdar\'a Gider İken” (Kâtibim), ney, bağlama, kanun ve bendirle yavaş ve dinlendirici düzenleme','Kelime kontrol modu artık yalnızca editör bağlantısıyla açılır'],ko:['새 배경 음악: 튀르키예 전통 민요 “Üsküdar\'a Gider İken(카티빔)”을 네이·바을라마·카눈·벤디르로 느리고 편안하게 편곡','단어 검수 모드는 이제 검수자 링크로만 열려요']}],
  ['2.8','2026-11-25',{tr:['TOPIK Ⅰ: 1.671 kelimenin hepsine eş kelimeler (짝꿍어휘) eklendi'],ko:['TOPIK Ⅰ: 1,671개 모든 단어에 짝꿍어휘 추가']}],
  ['2.7','2026-11-25',{tr:['Yeni seviye: TOPIK Ⅰ — 1.671 başlangıç kelimesi, 27 konuya ayrıldı (843\'ü kontrol edilmiş seviyelerden, eş kelimeleriyle)'],ko:['새 레벨: TOPIK Ⅰ — 초급 단어 1,671개, 27개 주제별 단원 (843개는 검수된 레벨의 뜻·짝꿍어휘 사용)']}],
