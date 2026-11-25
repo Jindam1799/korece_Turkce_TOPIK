@@ -191,7 +191,7 @@ function stache(x,y,k){
 const displayName=()=>S.name||growthName();
 
 // ---------- İstanbul manzarası ----------
-function sceneSVG(){
+function sceneSVG(intro){
  const mina=(x,top,base=228,w=5)=>`<rect x="${x-w/2}" y="${top}" width="${w}" height="${base-top}"/><path d="M${x-w/2-1} ${top}L${x} ${top-16}L${x+w/2+1} ${top}Z"/><rect x="${x-w/2-2}" y="${top+14}" width="${w+4}" height="3"/><rect x="${x-w/2-2}" y="${top+34}" width="${w+4}" height="3"/>`;
  const dome=(cx,cy,rx,ry)=>`<path d="M${cx-rx} ${cy}A${rx} ${ry} 0 0 1 ${cx+rx} ${cy}Z"/><rect x="${cx-.8}" y="${cy-ry-9}" width="1.6" height="9"/>`;
  const bal=(x,y,s,a,b)=>`<g class="bal"><g transform="translate(${x} ${y}) scale(${s})"><path d="M0 -26C-17 -26 -21 -10 -15 0L-5 14H5L15 0C21 -10 17 -26 0 -26Z" fill="${a}"/><path d="M0 -26C-6 -26 -8 -10 -5 0L-2 14H2L5 0C8 -10 6 -26 0 -26Z" fill="${b}"/><path d="M-5 14L-4 20M5 14L4 20" stroke="#7a5a3a" stroke-width="1"/><rect x="-4" y="20" width="8" height="6" rx="1" fill="#8a6142"/></g></g>`;
@@ -202,7 +202,7 @@ function sceneSVG(){
  <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9fc7cc"/><stop offset="1" stop-color="#7fb0b8"/></linearGradient></defs>
  <rect width="400" height="300" fill="url(#sky)"/>
  <circle cx="300" cy="150" r="34" fill="#fff4dc" opacity=".9"/><circle cx="300" cy="150" r="54" fill="#fff4dc" opacity=".35"/>
- ${bal(112,64,1,'#d7263d','#f2b134')}${bal(292,48,.8,'#2bb3a8','#f6e7c8')}${bal(244,96,.55,'#e07a3a','#f9d38a')}${bal(30,90,.7,'#7b4bb7','#f6e7c8')}${bal(372,96,.7,'#d7263d','#fff')}
+ ${intro?bal(84,118,.8,'#d7263d','#f2b134')+bal(312,104,.7,'#2bb3a8','#f6e7c8')+bal(250,140,.5,'#e07a3a','#f9d38a')+bal(30,130,.6,'#7b4bb7','#f6e7c8')+bal(372,132,.6,'#d7263d','#fff'):bal(112,64,1,'#d7263d','#f2b134')+bal(292,48,.8,'#2bb3a8','#f6e7c8')+bal(244,96,.55,'#e07a3a','#f9d38a')+bal(30,90,.7,'#7b4bb7','#f6e7c8')+bal(372,96,.7,'#d7263d','#fff')}
  <g fill="#c7a99f" opacity=".75">${houses}</g>
  <g fill="#a98b8a">
   <rect x="150" y="196" width="100" height="32"/>${dome(200,198,40,36)}${dome(160,206,16,12)}${dome(240,206,16,12)}${dome(140,214,10,8)}${dome(260,214,10,8)}
@@ -847,7 +847,7 @@ if(standalone)$('a2hs').hidden=true;
 S.level=Math.max(S.level,levelOf(S.xp));
 applyLang();
 $('nameIn').value=S.name;
-$('iScene').innerHTML=sceneSVG();$('iMascot').innerHTML=art();
+$('iScene').innerHTML=sceneSVG(1);$('iMascot').innerHTML=art();
 let introDone=false;
 function closeIntro(){if(introDone)return;introDone=true;$('intro').classList.add('out');BGM.start();setTimeout(()=>{$('intro').remove();if(location.hash==='#kontrol')openReview();else $('mWel').hidden=false},550)}
 $('intro').addEventListener('click',closeIntro);
