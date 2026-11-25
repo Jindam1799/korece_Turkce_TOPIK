@@ -48,7 +48,7 @@ tr:{sub:'Korece kelime ormanı · A1–B2 · TOPIK Ⅱ',a2hsT:'📲 Ana ekrana e
  and1:'Bu sayfayı Chrome\'da aç.',and2:'Sağ üstteki ⋮ menüsüne dokun.',and3:'“Ana ekrana ekle” ya da “Uygulamayı yükle”yi seç.',
  ios1:'Bu sayfayı Safari\'de aç.',ios2:'Alttaki Paylaş düğmesine (□↑) dokun.',ios3:'“Ana Ekrana Ekle”yi seç ve “Ekle”ye dokun.',feedback:'💬 덩어리숲 düzenli olarak güncellenmeye devam edecek. Çalışırken zorlandığınız bir şey ya da ihtiyacınız olan bir özellik olursa lütfen bize yazın!',rvH:'Kelime kontrolü (editör)',rvOpen:'Kontrol modunu aç',rvTitle:'Kelime kontrolü',rvSend:'Gönder',rvMean:'Türkçe anlam',rvPairs:'Eş kelimeler (Korece = Türkçe)',rvAdd:'+ Eş kelime ekle',rvNote:'Not (isteğe bağlı)',rvNotePh:'Örn. bu kelime eski, yerine … daha doğal',rvEmpty:'Bu filtrede kelime yok.',
  rvAll:'Tümü',rvTodo:'Bakılmadı',rvOkF:'Doğru',rvEditF:'Düzeltildi',rvDelF:'Kaldırılacak',rvOkBtn:'✓ Doğru',rvSaveBtn:'✓ Kaydet',rvDelBtn:'🗑 Kaldır',rvUndel:'↺ Geri al',
- rvStOk:'Doğru',rvStEdit:'Düzeltildi',rvStDel:'Kaldırılacak',rvStat:(d,n,e,x)=>`Kontrol: ${d} / ${n} · düzeltilen ${e} · kaldırılacak ${x}`,
+ rvStOk:'Doğru',rvDraft:'✎ Kaydedilmedi (taslak)',rvStEdit:'Düzeltildi',rvStDel:'Kaldırılacak',rvStat:(d,n,e,x)=>`Kontrol: ${d} / ${n} · düzeltilen ${e} · kaldırılacak ${x}`,
  rvxTitle:'Kontrolü gönder',rvxStat:(d,e,x)=>`Toplam ${d} kelimeye bakıldı · ${e} düzeltme · ${x} kaldırma`,rvxHow:'Dosyayı Wonju\'ya KakaoTalk ya da e-postayla gönder. Çalışmaların telefonda kayıtlı kalır, istediğin zaman devam edebilirsin.',rvxShare:'Paylaş (KakaoTalk, e-posta…)',rvxDown:'Dosyayı indir (.json)',rvxCsv:'Excel için indir (.csv)',rvxNoShare:'Bu tarayıcı paylaşmayı desteklemiyor; dosyayı indirip gönder.',codex:'Bitki rehberi',storyTitle:'Deongi\'nin hikâyesi',
  story1:'Deongi (덩이), Kore\'deki 덩어리숲 ormanından gelen küçük bir gönül tohumu. Bir bahar rüzgârı onu uçurup İstanbul\'a, Boğaz kıyısındaki lale bahçesine getirdi.',
  story2:'Deongi Korece kelimelerle beslenir: her doğru cevap bir damla besin. Kelime öğrendikçe filizlenir, çiçek açar ve sonunda efsanevi bir bitkiye dönüşür. Bıyığını İstanbul\'daki ilk arkadaşı Berk kardeş hediye etti!',
@@ -94,7 +94,7 @@ ko:{sub:'한국어 단어의 숲 · A1–B2 · TOPIK Ⅱ',a2hsT:'📲 홈 화면
  and1:'이 페이지를 Chrome에서 열어요.',and2:'오른쪽 위 ⋮ 메뉴를 눌러요.',and3:'“홈 화면에 추가” 또는 “앱 설치”를 골라요.',
  ios1:'이 페이지를 Safari에서 열어요.',ios2:'아래쪽 공유 버튼(□↑)을 눌러요.',ios3:'“홈 화면에 추가”를 고르고 “추가”를 눌러요.',feedback:'💬 덩어리숲은 앞으로도 꾸준히 업데이트돼요. 공부하면서 어려운 점이나 필요한 게 있으면 언제든 건의해 주세요!',rvH:'단어 검수 (편집자)',rvOpen:'검수 모드 열기',rvTitle:'단어 검수',rvSend:'보내기',rvMean:'튀르키예어 뜻',rvPairs:'짝꿍어휘 (한국어 = 튀르키예어)',rvAdd:'+ 짝꿍어휘 추가',rvNote:'메모 (선택)',rvNotePh:'예: 이 단어는 오래된 말, … 가 더 자연스러움',rvEmpty:'이 필터에 해당하는 단어가 없어요.',
  rvAll:'전체',rvTodo:'안 본 것',rvOkF:'맞음',rvEditF:'고침',rvDelF:'뺄 것',rvOkBtn:'✓ 맞아요',rvSaveBtn:'✓ 저장',rvDelBtn:'🗑 빼기',rvUndel:'↺ 되돌리기',
- rvStOk:'맞음',rvStEdit:'고침',rvStDel:'뺄 것',rvStat:(d,n,e,x)=>`검수 ${d} / ${n} · 고침 ${e} · 뺄 것 ${x}`,
+ rvStOk:'맞음',rvDraft:'✎ 아직 저장 안 됨 (임시)',rvStEdit:'고침',rvStDel:'뺄 것',rvStat:(d,n,e,x)=>`검수 ${d} / ${n} · 고침 ${e} · 뺄 것 ${x}`,
  rvxTitle:'검수 결과 보내기',rvxStat:(d,e,x)=>`모두 ${d}개 확인 · 고침 ${e} · 뺄 것 ${x}`,rvxHow:'파일을 원주에게 카카오톡이나 이메일로 보내 주세요. 작업 내용은 휴대폰에 저장돼서 언제든 이어서 할 수 있어요.',rvxShare:'공유하기 (카카오톡, 이메일…)',rvxDown:'파일 내려받기 (.json)',rvxCsv:'엑셀용 내려받기 (.csv)',rvxNoShare:'이 브라우저는 공유를 지원하지 않아요. 파일을 내려받아 보내 주세요.',codex:'식물 도감',storyTitle:'덩이의 이야기',
  story1:'덩이는 한국의 덩어리숲에서 온 작은 마음씨예요. 어느 봄바람이 덩이를 이스탄불 보스포루스 해협 옆 튤립 정원까지 데려왔어요.',
  story2:'덩이는 한국어 단어를 먹고 자라요. 정답 하나가 양분 한 방울! 단어를 익힐수록 싹이 트고 꽃이 피고, 마침내 전설의 식물이 돼요. 콧수염은 이스탄불에서 처음 사귄 친구, Berk 동생의 선물이에요!',
@@ -554,8 +554,14 @@ $('bkFam').addEventListener('click',e=>{const b=e.target.closest('[data-bf]');if
 
 // ---------- kelime kontrolü (editör modu) ----------
 let RV={items:{}};try{RV=JSON.parse(localStorage.getItem('deongeoriReview')||'{"items":{}}')}catch(e){}
+RV.drafts=RV.drafts||{};
 const rvSave=()=>{try{localStorage.setItem('deongeoriReview',JSON.stringify(RV))}catch(e){}};
 let rvLv=null,rvUnit='all',rvFilter='all',rvList=[],rvI=0;
+// nerede kaldığını hatırla
+function rvSavePos(){const w=rvList[rvI];RV.pos={lv:rvLv,unit:rvUnit,filter:rvFilter,id:w?w.id:null};rvSave()}
+// yazılan ama kaydedilmeyen değişiklikler (taslak)
+function rvDraft(){const w=rvList[rvI];if(!w)return;const v=rvRead(),r=RV.items[w.id]||{},c=rvCur(w);
+ if(v.tr===c.tr&&JSON.stringify(v.pairs)===JSON.stringify(c.pairs)&&(v.note||'')===(r.note||''))delete RV.drafts[w.id];else RV.drafts[w.id]=v;rvSave()}
 const rvOrig=w=>({tr:w.tr,pairs:w.pairs.map(p=>[p.ko,p.tr])});
 function rvCur(w){const r=RV.items[w.id];return r&&r.st!=='del'&&r.tr!=null?{tr:r.tr,pairs:r.pairs}:rvOrig(w)}
 function rvBuild(){
@@ -576,13 +582,14 @@ function rvRender(){
  document.querySelectorAll('#rvCard .rvl,#rvCard .rvhead').forEach(el=>el.hidden=!w);
  if(!w){$('rvOk').disabled=$('rvDel').disabled=true;return}
  $('rvOk').disabled=$('rvDel').disabled=false;
- const r=RV.items[w.id]||{},c=rvCur(w);
+ const r=RV.items[w.id]||{},dr=RV.drafts[w.id],c=dr?{tr:dr.tr,pairs:dr.pairs}:rvCur(w);
  $('rvKo').textContent=w.ko;$('rvWhere').textContent=`${L.name} · ${t('unitN',w.unit)} · ${rvI+1}/${rvList.length}`;
  $('rvSt').className='rvst '+(r.st||'');$('rvSt').textContent=r.st?t({ok:'rvStOk',edit:'rvStEdit',del:'rvStDel'}[r.st]):'';
- $('rvTr').value=c.tr;$('rvNote').value=r.note||'';
+ $('rvTr').value=c.tr;$('rvNote').value=dr?(dr.note||''):(r.note||'');
+ $('rvSt').hidden=false;if(dr){$('rvSt').className='rvst edit';$('rvSt').textContent=t('rvDraft')}
  $('rvPairs').innerHTML=c.pairs.map(([k,v],i)=>`<div class="rvpair" data-i="${i}"><input value="${esc(k)}" lang="ko"><input value="${esc(v)}"><button aria-label="sil">✕</button></div>`).join('');
  $('rvDel').textContent=r.st==='del'?t('rvUndel'):t('rvDelBtn');
- rvRefreshOk();
+ rvRefreshOk();rvSavePos();
 }
 function rvRead(){return {tr:$('rvTr').value.trim(),pairs:[...document.querySelectorAll('#rvPairs .rvpair')].map(r=>{const [a,b]=r.querySelectorAll('input');return [a.value.trim(),b.value.trim()]}).filter(p=>p[0]&&p[1]),note:$('rvNote').value.trim()}}
 function rvChanged(w,v){const o=rvOrig(w);return v.tr!==o.tr||JSON.stringify(v.pairs)!==JSON.stringify(o.pairs)}
@@ -591,9 +598,11 @@ function rvStore(st){const w=rvList[rvI];if(!w)return;const v=rvRead();
  const ch=rvChanged(w,v);const rec={st:st||(ch?'edit':'ok'),lv:w.lv,ko:w.ko,otr:w.tr,note:v.note||undefined};
  if(rec.st==='edit'){rec.tr=v.tr;rec.pairs=v.pairs}
  if(rec.st==='del'&&ch){rec.tr=v.tr;rec.pairs=v.pairs}
- RV.items[w.id]=rec;RV.updated=new Date().toISOString();rvSave()}
+ RV.items[w.id]=rec;delete RV.drafts[w.id];RV.updated=new Date().toISOString();rvSave()}
 function rvGo(d){rvBuild();rvI=Math.max(0,Math.min(rvList.length-1,rvI+d));rvRender();$('rvCard').scrollTop=0}
-function openReview(){rvLv=rvLv||S.lv;rvBuild();show('review');rvRender()}
+function openReview(){
+ if(!rvLv&&RV.pos&&LEVELS.some(L=>L.id===RV.pos.lv)){const P=RV.pos;rvLv=P.lv;rvUnit=P.unit||'all';rvFilter=P.filter||'all';rvBuild();const i=rvList.findIndex(w=>w.id===P.id);rvI=i>=0?i:0}
+ rvLv=rvLv||S.lv;rvBuild();show('review');rvRender()}
 $('bReview2').onclick=()=>{$('mSet').hidden=true;openReview()};
 $('rvQuit').onclick=()=>{show('home');renderHome()};
 $('rvLv').onchange=e=>{rvLv=e.target.value;rvUnit='all';rvI=0;rvBuild();rvRender()};
@@ -601,10 +610,12 @@ $('rvUnit').onchange=e=>{rvUnit=e.target.value;rvI=0;rvBuild();rvRender()};
 $('rvFil').addEventListener('click',e=>{const b=e.target.closest('[data-rf]');if(b){rvFilter=b.dataset.rf;rvI=0;rvBuild();rvRender()}});
 $('rvPrev').onclick=()=>rvGo(-1);$('rvNext').onclick=()=>rvGo(1);
 $('rvOk').onclick=()=>{const w=rvList[rvI];rvStore();const keep=rvFilter!=='all';rvBuild();if(!keep||rvList[rvI]===w)rvGo(1);else rvRender()};
-$('rvDel').onclick=()=>{const w=rvList[rvI];if((RV.items[w.id]||{}).st==='del'){delete RV.items[w.id];rvSave();rvRender()}else{rvStore('del');rvBuild();if(rvList[rvI]===w)rvGo(1);else rvRender()}};
+$('rvDel').onclick=()=>{const w=rvList[rvI];if((RV.items[w.id]||{}).st==='del'){delete RV.items[w.id];delete RV.drafts[w.id];rvSave();rvRender()}else{rvStore('del');rvBuild();if(rvList[rvI]===w)rvGo(1);else rvRender()}};
 $('rvAdd').onclick=()=>{const d=document.createElement('div');d.className='rvpair';d.innerHTML='<input lang="ko"><input><button aria-label="sil">✕</button>';$('rvPairs').append(d);d.querySelector('input').focus();rvRefreshOk()};
-$('rvPairs').addEventListener('click',e=>{const b=e.target.closest('button');if(b){b.parentElement.remove();rvRefreshOk()}});
-$('rvCard').addEventListener('input',rvRefreshOk);
+$('rvPairs').addEventListener('click',e=>{const b=e.target.closest('button');if(b){b.parentElement.remove();rvRefreshOk();rvDraft()}});
+$('rvCard').addEventListener('input',()=>{rvRefreshOk();rvDraft()});
+addEventListener('pagehide',()=>{if(!$('review').hidden)rvDraft()});
+document.addEventListener('visibilitychange',()=>{if(document.hidden&&!$('review').hidden)rvDraft()});
 $('rvSay').onclick=()=>{const w=rvList[rvI];if(w)speak(sayText(w),true)};
 // gönderme
 function rvPayload(){const items=RV.items;return {app:'덩어리숲',kind:'review',reviewer:S.name||'',updated:RV.updated||new Date().toISOString(),count:Object.keys(items).length,items}}
@@ -623,6 +634,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
+ ['2.5','2026-11-25',{tr:['Kelime kontrolü: yazdıkların anında saklanır, uygulamayı kapatsan bile kaybolmaz; açınca kaldığın kelimeden devam edersin'],ko:['단어 검수: 입력하는 즉시 임시 저장, 앱을 꺼도 그대로 남고 다시 열면 보던 단어부터 이어서']}],
  ['2.4','2026-11-25',{tr:['KakaoTalk düğmesi artık açık sohbet odasına bağlanıyor','Aslı\'nın YouTube kanalı: @gumguri_korean'],ko:['카카오톡 버튼을 오픈채팅방으로 연결','아슬르 유튜브 채널 바로가기: @gumguri_korean']}],
  ['2.3','2026-11-25',{tr:['A1–A2 kelimeleri konulara göre yeniden düzenlendi (23 konu: meslekler, okul, zaman, hava, yemek, alışveriş, vücut…)'],ko:['A1–A2 단어를 주제별로 새로 정리 (23개 주제: 직업, 학교, 시간, 날씨, 음식, 쇼핑, 몸…)']}],
  ['2.2','2026-11-25',{tr:['A1–A2 bölümlerine konu adları eklendi (B1–B2 gibi)'],ko:['A1–A2 단원에도 주제 이름 추가 (B1–B2처럼)']}],
