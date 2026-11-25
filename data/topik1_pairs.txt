@@ -358,3 +358,130 @@
 출발|출발 시간=kalkış saati;출발하기 전에=yola çıkmadan önce
 타다|버스를 타다=otobüse binmek;자전거를 타다=bisiklete binmek
 택시|택시를 타다=taksiye binmek;택시를 잡다=taksi çevirmek
+# --- 여행과 나라 ---
+강|강을 건너다=nehri geçmek;강가=nehir kıyısı
+경주|경주로 여행 가다=Gyeongju'ya seyahate gitmek;경주 불국사=Gyeongju'daki Bulguksa Tapınağı
+고향|고향에 가다=memlekete gitmek;고향이 그립다=memleketini özlemek
+관광하다|시내를 관광하다=şehri gezmek;서울을 관광하다=Seul'ü gezmek
+국적|국적이 어디예요?=uyruğunuz ne?;한국 국적=Kore vatandaşlığı
+국제|국제 전화=uluslararası telefon görüşmesi;국제 공항=uluslararası havalimanı
+나라|우리 나라=bizim ülkemiz;여러 나라=birçok ülke
+남미|남미 여행=Güney Amerika seyahati;남미 나라들=Güney Amerika ülkeleri
+뉴욕|뉴욕에 살다=New York'ta yaşamak;뉴욕 여행=New York seyahati
+대한민국|대한민국 국민=Kore Cumhuriyeti vatandaşı;대한민국의 수도=Kore'nin başkenti
+도쿄|도쿄에 가다=Tokyo'ya gitmek;도쿄 타워=Tokyo Kulesi
+러시아|러시아 사람=Rus;러시아어=Rusça
+멕시코|멕시코 음식=Meksika yemeği;멕시코 사람=Meksikalı
+몽골|몽골 사람=Moğol;몽골 초원=Moğol bozkırı
+미국|미국 사람=Amerikalı;미국에 유학 가다=Amerika'ya okumaya gitmek
+바다|바다에서 수영하다=denizde yüzmek;바다가 보이다=deniz görünmek
+베이징|베이징에 가다=Pekin'e gitmek;베이징 올림픽=Pekin Olimpiyatları
+베트남|베트남 쌀국수=Vietnam pirinç eriştesi;베트남 사람=Vietnamlı
+부산|부산 바다=Busan denizi;부산에 가다=Busan'a gitmek
+브라질|브라질 축구=Brezilya futbolu;브라질 사람=Brezilyalı
+사진|사진을 찍다=fotoğraf çekmek;가족 사진=aile fotoğrafı
+사진기|사진기로 찍다=fotoğraf makinesiyle çekmek;사진기를 사다=fotoğraf makinesi almak
+산책|산책을 하다=yürüyüş yapmak;공원 산책=parkta yürüyüş
+서울|서울에 살다=Seul'de yaşamak;서울 시내=Seul şehir merkezi
+설악산|설악산에 오르다=Seorak Dağı'na tırmanmak;설악산 단풍=Seorak Dağı'nın sonbahar yaprakları
+세계|세계 여행=dünya turu;세계 지도=dünya haritası
+소포|소포를 보내다=koli göndermek;소포를 받다=koli almak
+소풍|소풍을 가다=pikniğe gitmek;봄 소풍=bahar gezisi
+아시아|아시아 나라=Asya ülkesi;동아시아=Doğu Asya
+아프리카|아프리카 여행=Afrika seyahati;아프리카 동물=Afrika hayvanları
+여행|여행을 가다=seyahate gitmek;해외 여행=yurt dışı seyahati
+여행사|여행사에 예약하다=seyahat acentesinden rezervasyon yapmak;여행사 직원=seyahat acentesi çalışanı
+영국|영국 사람=İngiliz;영국 런던=İngiltere'nin Londra şehri
+예약|예약을 하다=rezervasyon yapmak;예약을 취소하다=rezervasyonu iptal etmek
+외국|외국에 가다=yurt dışına gitmek;외국 생활=yurt dışında yaşam
+외국인|외국인 친구=yabancı arkadaş;외국인 등록증=yabancı kayıt kartı
+요르단|요르단 사람=Ürdünlü;요르단 여행=Ürdün seyahati
+우리나라|우리나라 음식=ülkemizin yemekleri;우리나라 사람=bizim ülkenin insanı
+우표|우표를 붙이다=pul yapıştırmak;우표를 모으다=pul biriktirmek
+유럽|유럽 여행=Avrupa seyahati;유럽 나라들=Avrupa ülkeleri
+이집트|이집트 피라미드=Mısır piramitleri;이집트 사람=Mısırlı
+인도|인도 음식=Hint yemeği;인도 사람=Hintli
+인천|인천 공항=Incheon Havalimanı;인천에 도착하다=Incheon'a varmak
+일본|일본 여행=Japonya seyahati;일본 음식=Japon yemeği
+일본사람|일본사람 친구=Japon arkadaş;일본사람처럼=Japonlar gibi
+제주도|제주도 여행=Jeju Adası seyahati;제주도에 가다=Jeju Adası'na gitmek
+조선|조선 시대=Joseon dönemi;조선의 왕=Joseon kralı
+중국|중국 음식=Çin yemeği;중국 사람=Çinli
+카메라|카메라로 찍다=kamerayla çekmek;디지털 카메라=dijital fotoğraf makinesi
+캐나다|캐나다 사람=Kanadalı;캐나다에 이민 가다=Kanada'ya göç etmek
+태국|태국 음식=Tayland yemeği;태국 여행=Tayland seyahati
+평양|평양 냉면=Pyongyang usulü soğuk erişte;평양에서 태어나다=Pyongyang'da doğmak
+프랑스|프랑스 파리=Fransa'nın Paris şehri;프랑스 요리=Fransız mutfağı
+한강|한강 공원=Han Nehri Parkı;한강을 따라 걷다=Han Nehri boyunca yürümek
+한국|한국 음식=Kore yemeği;한국에 오다=Kore'ye gelmek
+한국사람|한국사람 친구=Koreli arkadaş;한국사람처럼 말하다=Koreli gibi konuşmak
+호주|호주 시드니=Avustralya'nın Sidney şehri;호주에 워킹홀리데이를 가다=Avustralya'ya çalışma tatiline gitmek
+# --- 음식과 요리 ---
+갈비|갈비를 굽다=kaburga ızgara yapmak;돼지갈비=domuz kaburga
+갈비탕|갈비탕을 먹다=kaburga çorbası içmek;뜨거운 갈비탕=sıcak kaburga çorbası
+감|감이 익다=hurma olgunlaşmak;곶감=kurutulmuş hurma
+감자탕|감자탕을 시키다=patatesli kemik çorbası sipariş etmek;감자탕 집=kemik çorbası lokantası
+고프다|배가 고프다=karnı acıkmak;너무 고프다=çok aç olmak
+김밥|김밥을 싸다=kimbap sarmak;김밥 한 줄=bir rulo kimbap
+김치|김치를 담그다=kimçi kurmak;배추김치=lahana kimçisi
+김치찌개|김치찌개를 끓이다=kimçi güveci pişirmek;매운 김치찌개=acılı kimçi güveci
+껌|껌을 씹다=sakız çiğnemek;껌 한 통=bir paket sakız
+냉면|물냉면=soğuk suyla erişte;냉면 한 그릇=bir kâse soğuk erişte
+담그다|김치를 담그다=kimçi kurmak;장을 담그다=soya sosu kurmak
+더운물|더운물로 씻다=sıcak suyla yıkamak;더운물이 나오다=sıcak su akmak
+된장|된장을 넣다=soya ezmesi koymak;된장 냄새=soya ezmesi kokusu
+된장국|된장국을 끓이다=soya ezmesi çorbası pişirmek;시원한 된장국=ferahlatıcı soya ezmesi çorbası
+된장찌개|된장찌개를 끓이다=soya ezmesi güveci pişirmek;엄마의 된장찌개=annemin soya ezmesi güveci
+두부찌개|두부찌개를 먹다=tofu güveci yemek;매운 두부찌개=acılı tofu güveci
+떡|떡을 먹다=pirinç keki yemek;떡을 만들다=pirinç keki yapmak
+떡국|떡국을 먹다=pirinç keki çorbası içmek;설날 떡국=yeni yıl pirinç keki çorbası
+떡볶이|떡볶이를 먹다=tteokbokki yemek;매운 떡볶이=acılı tteokbokki
+라면|라면을 끓이다=ramen pişirmek;컵라면=bardak ramen
+마시다|물을 마시다=su içmek;술을 마시다=içki içmek
+만두|만두를 빚다=mantı yapmak;군만두=kızarmış mantı
+맛없다|음식이 맛없다=yemek lezzetsiz olmak;맛없는 커피=tatsız kahve
+맛있다|정말 맛있다=çok lezzetli olmak;맛있는 음식=lezzetli yemek
+먹다|밥을 먹다=yemek yemek;약을 먹다=ilaç içmek
+메뉴|메뉴를 고르다=menüden seçmek;오늘의 메뉴=günün menüsü
+물|물을 마시다=su içmek;찬물=soğuk su
+밥|밥을 먹다=yemek yemek;밥을 짓다=pilav pişirmek
+배고프다|너무 배고프다=çok acıkmak;배고플 때=acıktığında
+배부르다|배부르게 먹다=doyasıya yemek;너무 배부르다=çok tok olmak
+볶다|야채를 볶다=sebzeleri kavurmak;기름에 볶다=yağda kavurmak
+볶음밥|김치볶음밥=kimçili kavrulmuş pilav;볶음밥을 만들다=kavrulmuş pilav yapmak
+불고기|불고기를 굽다=bulgogi pişirmek;소불고기=dana bulgogi
+비빔밥|비빔밥을 비비다=bibimbapı karıştırmak;전주 비빔밥=Jeonju usulü bibimbap
+빵|빵을 굽다=ekmek pişirmek;빵 한 조각=bir dilim ekmek
+사이다|사이다를 마시다=gazoz içmek;시원한 사이다=soğuk gazoz
+사탕|사탕을 먹다=şeker yemek;사탕 한 개=bir şeker
+삼계탕|삼계탕을 먹다=tavuk ginseng çorbası içmek;여름에 삼계탕=yazın tavuk ginseng çorbası
+샌드위치|샌드위치를 만들다=sandviç yapmak;햄 샌드위치=jambonlu sandviç
+설렁탕|설렁탕 한 그릇=bir kâse öküz kemiği çorbası;설렁탕에 밥을 말다=çorbaya pilav katmak
+식탁|식탁에 앉다=yemek masasına oturmak;식탁을 차리다=sofrayı kurmak
+쌀밥|하얀 쌀밥=bembeyaz pilav;쌀밥을 짓다=pirinç pilavı pişirmek
+썰다|양파를 썰다=soğan doğramak;고기를 썰다=et doğramak
+씹다|껌을 씹다=sakız çiğnemek;꼭꼭 씹다=iyice çiğnemek
+아이스크림|아이스크림을 먹다=dondurma yemek;초콜릿 아이스크림=çikolatalı dondurma
+야채|야채를 씻다=sebzeleri yıkamak;야채 가게=manav
+양식|양식 레스토랑=Batı mutfağı restoranı;신청 양식=başvuru formu
+오렌지|오렌지 주스=portakal suyu;오렌지를 까다=portakal soymak
+오징어|오징어를 굽다=kalamar ızgara yapmak;마른오징어=kurutulmuş kalamar
+요리|요리를 하다=yemek yapmak;요리를 잘하다=iyi yemek yapmak
+우유|우유를 마시다=süt içmek;우유 한 잔=bir bardak süt
+일본요리|일본요리를 좋아하다=Japon mutfağını sevmek;일본요리 식당=Japon lokantası
+일식|일식 식당=Japon lokantası;일식을 먹다=Japon yemeği yemek
+자장면|자장면을 시키다=jajangmyeon sipariş etmek;자장면 한 그릇=bir kâse jajangmyeon
+주스|주스를 마시다=meyve suyu içmek;사과 주스=elma suyu
+죽|죽을 먹다=lapa yemek;호박죽=balkabağı lapası
+중식|중식 요리사=Çin mutfağı aşçısı;중식을 먹다=Çin yemeği yemek
+찌개|찌개를 끓이다=güveç pişirmek;찌개가 짜다=güveç tuzlu olmak
+카레|카레를 만들다=köri yapmak;카레라이스=köri soslu pilav
+커피|커피를 마시다=kahve içmek;커피 한 잔=bir fincan kahve
+케이크|생일 케이크=doğum günü pastası;케이크를 자르다=pastayı kesmek
+콜라|콜라를 마시다=kola içmek;콜라 한 병=bir şişe kola
+콩|콩을 심다=fasulye ekmek;콩밥=fasulyeli pilav
+피자|피자를 시키다=pizza sipariş etmek;피자 한 조각=bir dilim pizza
+한국요리|한국요리를 배우다=Kore mutfağını öğrenmek;한국요리 식당=Kore lokantası
+한식|한식 식당=Kore lokantası;한식을 좋아하다=Kore yemeklerini sevmek
+햄버거|햄버거를 먹다=hamburger yemek;햄버거 가게=hamburgerci
+홍차|홍차를 마시다=siyah çay içmek;홍차 한 잔=bir fincan siyah çay
