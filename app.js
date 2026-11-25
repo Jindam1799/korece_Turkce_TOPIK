@@ -7,7 +7,7 @@ const SPK='<svg><use href="#i-spk"/></svg>';
 const CH=window.FOREST_CHAR;
 const CFG=window.SITE_CONFIG||{};
 const OWNER=CFG.owner||'Wonju Kim (원주)';
-const CONTACT=(CFG.contact||'').trim(),KAKAO=(CFG.kakao||'').trim(),INSTA=(CFG.instagram||'').trim().replace(/^@/,'');
+const CONTACT=(CFG.contact||'').trim(),KAKAO=(CFG.kakao||'').trim(),KAKAO_OPEN=(CFG.kakaoOpen||'').trim(),INSTA=(CFG.instagram||'').trim().replace(/^@/,'');
 
 // ---------- kelimeler ----------
 const isVerb=tr=>/m[ae]k(\b|\s|\)|,|$)/i.test(tr);
@@ -54,7 +54,7 @@ tr:{sub:'Korece kelime ormanı · A1–B2 · TOPIK Ⅱ',a2hsT:'📲 Ana ekrana e
  story2:'Deongi Korece kelimelerle beslenir: her doğru cevap bir damla besin. Kelime öğrendikçe filizlenir, çiçek açar ve sonunda efsanevi bir bitkiye dönüşür. Bıyığını İstanbul\'daki ilk arkadaşı Berk kardeş hediye etti!',
  pathH:'Büyüme yolu',famH:'Bitki aileleri',
  path:[['Lv.1','Gönül Tohumu','Yolculuk başlıyor. Deongi toprağa düştü.'],['Lv.2','Gönül Filizi','İlk iki yaprak çıktı!'],['Lv.3','Aile seçimi','6 bitki ailesinden birini seçersin.'],['Lv.4–9','Büyüme','Her seviyede biraz daha büyür.'],['Lv.10','Evrim','Ailenin 3 yolundan birini seçersin.'],['Lv.15','Gizemli dönüşüm','İki gizemli formdan birini seçersin.'],['Lv.20','Efsanevi form','Antik ve efsanevi bitkiye dönüşür.']],
- famTxt:(f,mine)=>mine?`Senin ailen: ${f}`:'Başka bir aile — gölge olarak görünür.',locked:'Kilitli',lvReq:n=>`Lv.${n}\'da`,cur:'Şu an',music:'Müzik',musicOn:'Arka plan müziği: Açık',musicOff:'Arka plan müziği: Kapalı',notesH:'Güncelleme notları',notesBtn:'Neler yeni?',kakaoCopied:'Kopyalandı ✓',bizTitle:'İş birliği ve iletişim',bizText:'Kurumsal iş birliği, eğitim ve içerik ortaklığı için ulaşabilirsiniz.',myProg:'İlerleme tablom',stLearned:'Öğrenildi',stReview:'Tekrar edilecek',stNew:'Henüz çalışılmadı',learned:'Öğrenilen',toReview:'Tekrar',bestStreak:'En iyi seri',
+ kakaoOpen:'Açık sohbet · 덩어리숲',famTxt:(f,mine)=>mine?`Senin ailen: ${f}`:'Başka bir aile — gölge olarak görünür.',locked:'Kilitli',lvReq:n=>`Lv.${n}\'da`,cur:'Şu an',music:'Müzik',musicOn:'Arka plan müziği: Açık',musicOff:'Arka plan müziği: Kapalı',notesH:'Güncelleme notları',notesBtn:'Neler yeni?',kakaoCopied:'Kopyalandı ✓',bizTitle:'İş birliği ve iletişim',bizText:'Kurumsal iş birliği, eğitim ve içerik ortaklığı için ulaşabilirsiniz.',myProg:'İlerleme tablom',stLearned:'Öğrenildi',stReview:'Tekrar edilecek',stNew:'Henüz çalışılmadı',learned:'Öğrenilen',toReview:'Tekrar',bestStreak:'En iyi seri',
  start:'Başla',quiz:'Test',cards:'Kartlar',review:n=>`Tekrar ${n}`,allUnits:'Tüm bölümler',unitN:k=>{const m=k.match(/^(.+) · (\d+)$/);return m?`${m[1]} · Bölüm ${m[2]}`:/^\d+$/.test(k)?`Bölüm ${k}`:k},
  level:'Seviye',unit:'Bölüm',timerOn:'12 saniye',timerOff:'Süre yok',timeLimit:'Süre sınırı (test)',
  hint:'Doğru anlama dokun · klavye 1–4',qWord:'Bu kelimenin anlamı nedir?',qPair:'Bu eş kelimenin anlamı nedir?',qHanja:'Bu Çince karakterin anlamı nedir?',
@@ -100,7 +100,7 @@ ko:{sub:'한국어 단어의 숲 · A1–B2 · TOPIK Ⅱ',a2hsT:'📲 홈 화면
  story2:'덩이는 한국어 단어를 먹고 자라요. 정답 하나가 양분 한 방울! 단어를 익힐수록 싹이 트고 꽃이 피고, 마침내 전설의 식물이 돼요. 콧수염은 이스탄불에서 처음 사귄 친구, Berk 동생의 선물이에요!',
  pathH:'성장 단계',famH:'식물 계열',
  path:[['Lv.1','마음씨','여행이 시작돼요. 덩이가 땅에 떨어졌어요.'],['Lv.2','마음싹','첫 떡잎 두 장이 나왔어요!'],['Lv.3','계열 선택','6가지 식물 계열 중 하나를 골라요.'],['Lv.4–9','쑥쑥 성장','레벨마다 조금씩 커져요.'],['Lv.10','진화','계열마다 3가지 길 중 하나를 골라요.'],['Lv.15','신기한 변신','두 갈래 중 하나를 골라요.'],['Lv.20','전설의 모습','고대·전설의 식물로 변신해요.']],
- famTxt:(f,mine)=>mine?`나의 계열: ${f}`:'다른 계열이에요 — 그림자로 보여요.',locked:'잠김',lvReq:n=>`Lv.${n}`,cur:'지금',music:'음악',musicOn:'배경 음악: 켜짐',musicOff:'배경 음악: 꺼짐',notesH:'업데이트 노트',notesBtn:'새로운 내용 보기',kakaoCopied:'복사됨 ✓',bizTitle:'비즈니스 협업 · 문의',bizText:'기관·기업 협업, 교육·콘텐츠 제휴는 아래로 연락 주세요.',myProg:'나의 진도표',stLearned:'익힘',stReview:'다시 볼 단어',stNew:'아직 안 함',learned:'익힌 단어',toReview:'복습',bestStreak:'최고 연속',
+ kakaoOpen:'오픈채팅 · 덩어리숲',famTxt:(f,mine)=>mine?`나의 계열: ${f}`:'다른 계열이에요 — 그림자로 보여요.',locked:'잠김',lvReq:n=>`Lv.${n}`,cur:'지금',music:'음악',musicOn:'배경 음악: 켜짐',musicOff:'배경 음악: 꺼짐',notesH:'업데이트 노트',notesBtn:'새로운 내용 보기',kakaoCopied:'복사됨 ✓',bizTitle:'비즈니스 협업 · 문의',bizText:'기관·기업 협업, 교육·콘텐츠 제휴는 아래로 연락 주세요.',myProg:'나의 진도표',stLearned:'익힘',stReview:'다시 볼 단어',stNew:'아직 안 함',learned:'익힌 단어',toReview:'복습',bestStreak:'최고 연속',
  start:'시작하기',quiz:'퀴즈',cards:'카드',review:n=>`복습 ${n}`,allUnits:'전체 단원',unitN:k=>{const m=k.match(/^(.+) · (\d+)$/);return m?`${m[1]} · ${m[2]}단원`:/^\d+$/.test(k)?`${k}단원`:k},
  level:'단계',unit:'단원',timerOn:'12초',timerOff:'시간제한 없음',timeLimit:'제한 시간 (퀴즈)',
  hint:'알맞은 뜻을 누르세요 · 키보드 1–4',qWord:'이 단어의 뜻은 무엇일까요?',qPair:'이 짝꿍어휘의 뜻은 무엇일까요?',qHanja:'이 한자의 뜻은 무엇일까요?',
@@ -505,7 +505,8 @@ function chromeURL(u){return /Android/i.test(navigator.userAgent)?'intent://'+u.
 function renderLinks(){
  const h=[];
  if(INSTA)h.push(`<a class="lk ig" href="${esc(chromeURL('https://www.instagram.com/'+encodeURIComponent(INSTA)+'/'))}" target="_blank" rel="noopener"><span class="ic"><svg><use href="#i-ig"/></svg></span><span class="tx"><b>Instagram</b><small>@${esc(INSTA)}</small></span></a>`);
- if(KAKAO)h.push(`<button class="lk kk" data-copy="${esc(KAKAO)}"><span class="ic"><svg><use href="#i-kk"/></svg></span><span class="tx"><b>KakaoTalk</b><small>ID · ${esc(KAKAO)}</small></span></button>`);
+ if(KAKAO_OPEN)h.push(`<a class="lk kk" href="${esc(KAKAO_OPEN)}" target="_blank" rel="noopener"><span class="ic"><svg><use href="#i-kk"/></svg></span><span class="tx"><b>KakaoTalk</b><small>${esc(t('kakaoOpen'))}</small></span></a>`);
+ else if(KAKAO)h.push(`<button class="lk kk" data-copy="${esc(KAKAO)}"><span class="ic"><svg><use href="#i-kk"/></svg></span><span class="tx"><b>KakaoTalk</b><small>ID · ${esc(KAKAO)}</small></span></button>`);
  if(CONTACT)h.push(`<a class="lk ml" href="${esc(chromeURL('https://mail.google.com/mail/?view=cm&fs=1&to='+encodeURIComponent(CONTACT)+'&su='+encodeURIComponent('덩어리숲')))}" target="_blank" rel="noopener"><span class="ic"><svg><use href="#i-mail"/></svg></span><span class="tx"><b>E-mail</b><small>${esc(CONTACT)}</small></span></a>`);
  ['links','linksW','linksN'].forEach(id=>{$(id).innerHTML=h.join('')});
 }
@@ -621,6 +622,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
+ ['2.4','2026-11-25',{tr:['KakaoTalk düğmesi artık açık sohbet odasına bağlanıyor'],ko:['카카오톡 버튼을 오픈채팅방으로 연결']}],
  ['2.3','2026-11-25',{tr:['A1–A2 kelimeleri konulara göre yeniden düzenlendi (23 konu: meslekler, okul, zaman, hava, yemek, alışveriş, vücut…)'],ko:['A1–A2 단어를 주제별로 새로 정리 (23개 주제: 직업, 학교, 시간, 날씨, 음식, 쇼핑, 몸…)']}],
  ['2.2','2026-11-25',{tr:['A1–A2 bölümlerine konu adları eklendi (B1–B2 gibi)'],ko:['A1–A2 단원에도 주제 이름 추가 (B1–B2처럼)']}],
  ['2.1','2026-11-25',{tr:['Hazırlayanlar: Oyun yapımı ve tasarımı Wonju Kim · Kontrol ve düzeltme Aslıhan Erdoğan','KakaoTalk\'ta bağlantıya dokununca doğrudan tarayıcıda açılır'],ko:['만든 사람들: 게임 제작 및 기획 Wonju Kim · 검수 및 교정 Aslıhan Erdoğan','카카오톡에서 링크를 누르면 바로 외부 브라우저로 열림']}],
