@@ -606,3 +606,90 @@
 치료하다|병을 치료하다=hastalığı tedavi etmek;이를 치료하다=diş tedavisi yapmak
 코피|코피가 나다=burnu kanamak;코피를 흘리다=burnundan kan akmak
 피곤하다|너무 피곤하다=çok yorgun olmak;피곤해 보이다=yorgun görünmek
+# --- 취미와 여가 ---
+게임|게임을 하다=oyun oynamak;컴퓨터 게임=bilgisayar oyunu
+골프|골프를 치다=golf oynamak;골프장=golf sahası
+기타|기타를 치다=gitar çalmak;기타 등등=ve benzerleri
+노래|노래를 부르다=şarkı söylemek;노래를 듣다=şarkı dinlemek
+노래하다|큰 소리로 노래하다=yüksek sesle şarkı söylemek;같이 노래하다=birlikte şarkı söylemek
+놀다|친구와 놀다=arkadaşla oynamak;놀러 가다=gezmeye gitmek
+독서하다|조용히 독서하다=sessizce kitap okumak;주말에 독서하다=hafta sonu kitap okumak
+미술|미술 시간=resim dersi;미술관=sanat galerisi
+바이올린|바이올린을 켜다=keman çalmak;바이올린 연주=keman dinletisi
+수영|수영을 하다=yüzmek;수영장=yüzme havuzu
+스케이트|스케이트를 타다=paten kaymak;스케이트장=buz pateni pisti
+스키장|스키장에 가다=kayak merkezine gitmek;스키장에서 스키를 타다=kayak merkezinde kayak yapmak
+스포츠|스포츠를 좋아하다=sporu sevmek;스포츠 뉴스=spor haberleri
+올림픽|올림픽 경기=olimpiyat yarışması;올림픽에 나가다=olimpiyatlara katılmak
+운동|운동을 하다=spor yapmak;운동 부족=hareketsizlik
+운동하다|매일 운동하다=her gün spor yapmak;헬스장에서 운동하다=spor salonunda çalışmak
+운동화|운동화를 신다=spor ayakkabı giymek;새 운동화=yeni spor ayakkabı
+월드컵|월드컵 경기=Dünya Kupası maçı;월드컵을 보다=Dünya Kupası'nı izlemek
+즐거워하다|아이들이 즐거워하다=çocuklar keyiflenmek;선물을 받고 즐거워하다=hediye alıp sevinmek
+추다|춤을 추다=dans etmek;탈춤을 추다=maskeli dans yapmak
+춤추다|같이 춤추다=birlikte dans etmek;음악에 맞춰 춤추다=müziğe uyarak dans etmek
+콧노래|콧노래를 부르다=mırıldanarak şarkı söylemek;기분이 좋아서 콧노래가 나오다=keyfi yerinde olunca mırıldanmak
+태권도|태권도를 배우다=tekvando öğrenmek;태권도 학원=tekvando kursu
+테니스|테니스를 치다=tenis oynamak;테니스장=tenis kortu
+팀|우리 팀=bizim takım;팀을 나누다=takımlara ayırmak
+피아노|피아노를 치다=piyano çalmak;피아노 학원=piyano kursu
+# --- 문화와 공연 ---
+가요|가요를 부르다=popüler şarkı söylemek;한국 가요=Kore pop şarkıları
+감동하다|영화를 보고 감동하다=filmi izleyip duygulanmak;크게 감동하다=çok etkilenmek
+개나리|개나리가 피다=forsitya çiçek açmak;노란 개나리=sarı forsitya
+뉴스|뉴스를 보다=haberleri izlemek;뉴스에 나오다=haberlerde çıkmak
+드라마|드라마를 보다=dizi izlemek;드라마 주인공=dizinin baş karakteri
+무궁화|무궁화가 피다=Kore gülü açmak;무궁화 꽃=Kore gülü çiçeği
+박수|박수를 치다=alkışlamak;큰 박수=büyük alkış
+방송|방송에 나오다=yayına çıkmak;생방송=canlı yayın
+소리|소리가 나다=ses çıkmak;소리를 지르다=bağırmak
+영화|영화를 보다=film izlemek;영화를 찍다=film çekmek
+영화관|영화관에 가다=sinemaya gitmek;영화관 앞=sinemanın önü
+영화표|영화표를 사다=sinema bileti almak;영화표 두 장=iki sinema bileti
+음반|음반을 내다=albüm çıkarmak;새 음반=yeni albüm
+음악|음악을 듣다=müzik dinlemek;음악 수업=müzik dersi
+인터뷰하다|가수를 인터뷰하다=şarkıcıyla röportaj yapmak;방송국에서 인터뷰하다=televizyonda röportaj yapmak
+일본드라마|일본드라마를 보다=Japon dizisi izlemek;재미있는 일본드라마=eğlenceli Japon dizisi
+잡지|잡지를 읽다=dergi okumak;패션 잡지=moda dergisi
+진달래|진달래가 피다=açelya açmak;진달래 꽃=açelya çiçeği
+파티|파티를 열다=parti vermek;생일 파티=doğum günü partisi
+한국드라마|한국드라마를 보다=Kore dizisi izlemek;한국드라마 배우=Kore dizisi oyuncusu
+# --- 감정과 기분 ---
+걱정하다|많이 걱정하다=çok endişelenmek;걱정하지 마세요=endişelenmeyin
+기분|기분이 좋다=keyfi yerinde olmak;기분이 나쁘다=canı sıkılmak
+기뻐하다|소식을 듣고 기뻐하다=haberi duyunca sevinmek;크게 기뻐하다=çok sevinmek
+놀라다|깜짝 놀라다=çok şaşırmak;소리에 놀라다=sesten irkilmek
+느끼다|행복을 느끼다=mutluluk hissetmek;추위를 느끼다=soğuk hissetmek
+마음|마음이 넓다=gönlü geniş olmak;마음에 들다=beğenmek
+스트레스|스트레스를 받다=stres olmak;스트레스를 풀다=stres atmak
+슬퍼하다|이별을 슬퍼하다=ayrılığa üzülmek;너무 슬퍼하지 마=çok üzülme
+슬프다|슬픈 영화=hüzünlü film;마음이 슬프다=içi hüzünlü olmak
+싫다|가기 싫다=gitmek istememek;싫은 음식=sevmediği yemek
+울리다|아이를 울리다=çocuğu ağlatmak;전화가 울리다=telefon çalmak
+웃기다|사람들을 웃기다=insanları güldürmek;웃긴 이야기=komik hikâye
+재미없다|영화가 재미없다=film sıkıcı olmak;재미없는 수업=sıkıcı ders
+재미있다|재미있는 책=eğlenceli kitap;정말 재미있다=gerçekten eğlenceli olmak
+좋아하다|음악을 좋아하다=müziği sevmek;제일 좋아하다=en çok sevmek
+편하다|마음이 편하다=içi rahat olmak;신발이 편하다=ayakkabı rahat olmak
+행복|행복을 느끼다=mutluluk hissetmek;행복한 시간=mutlu zaman
+화|화가 나다=sinirlenmek;화를 참다=öfkesini tutmak
+화내다|친구에게 화내다=arkadaşına kızmak;화내지 마세요=kızmayın
+# --- 성격과 관계 ---
+거짓말|거짓말을 하다=yalan söylemek;거짓말쟁이=yalancı
+덕분|선생님 덕분에=öğretmen sayesinde;덕분에 잘 지내요=sayenizde iyiyim
+데리다|아이를 데리고 가다=çocuğu yanına alıp gitmek;친구를 데리고 오다=arkadaşını getirmek
+도움|도움을 받다=yardım almak;도움이 되다=yardımı olmak
+돕다|친구를 돕다=arkadaşına yardım etmek;일을 돕다=işe yardım etmek
+만나다|친구를 만나다=arkadaşla buluşmak;처음 만나다=ilk kez tanışmak
+소개|자기소개=kendini tanıtma;소개를 받다=biriyle tanıştırılmak
+실수|실수를 하다=hata yapmak;작은 실수=küçük hata
+약속|약속을 지키다=sözünü tutmak;약속 시간=buluşma saati
+얘기하다|친구와 얘기하다=arkadaşla konuşmak;솔직하게 얘기하다=açıkça konuşmak
+우리|우리 집=bizim ev;우리 가족=ailemiz
+이야기|이야기를 나누다=sohbet etmek;재미있는 이야기=ilginç hikâye
+이야기하다|부모님께 이야기하다=anne babasına anlatmak;오래 이야기하다=uzun uzun konuşmak
+자기|자기 방=kendi odası;자기 생각=kendi düşüncesi
+잘못|잘못을 하다=hata yapmak;제 잘못이에요=benim hatam
+찾아오다|친구가 찾아오다=arkadaşı ziyarete gelmek;집으로 찾아오다=eve gelmek
+책임|책임을 지다=sorumluluk almak;책임이 크다=sorumluluğu büyük olmak
+친구|친구를 사귀다=arkadaş edinmek;친한 친구=yakın arkadaş
