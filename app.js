@@ -265,7 +265,7 @@ function optionsFor(e){
 // ---------- test ----------
 let state=null,deck=null,timer=null;
 const SECONDS=12,BONUS_EXTRA=2,BASE=5,BONUS=3,STREAK_EVERY=5,STREAK_XP=3;
-function show(id){['home','game','cards','prog','review','result'].forEach(s=>$(s).hidden=s!==id)}
+function show(id){['home','game','cards','prog','review','result'].forEach(s=>$(s).hidden=s!==id);try{BGM.study(['game','cards','review'].includes(id))}catch(e){}}
 function buildQueue(){
  const score=w=>{const m=S.mem[w.id];return (m?m.c*2-m.w:-1)+Math.random()*1.5};
  return pool().slice().sort((x,y)=>score(x)-score(y)).slice(0,S.size||Infinity);
@@ -637,6 +637,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
+ ['3.8','2026-11-27',{tr:["Çalışırken fon müziği hep kısık çalıyor, kelime sesi hemen ve net çıkıyor; efekt sesleri okumayla çakışmıyor"],ko:['공부 화면에서는 배경 음악을 계속 작게 틀고, 단어 음성은 크게 바로 나와요. 효과음이 음성과 부딪히지 않아요']}],
  ['3.7','2026-11-27',{tr:["Lobide 덩이 artık konuşuyor: 20 farklı sınav ve çalışma motivasyon cümlesi, zıplama, takla, gülme gibi hareketlerle; 덩이'ya dokununca cevap veriyor (Bitki rehberi: üstteki kitap düğmesi)"],ko:['로비의 덩이가 말풍선으로 응원해요: 시험·공부 응원 20문장, 점프·구르기·웃음 등 랜덤 동작, 덩이를 누르면 대답해요 (식물 도감은 위쪽 책 버튼)']}],
  ['3.6','2026-11-27',{tr:["Fon müziği, kelime okunduktan sonra yavaşça geri geliyor ve iPhone'da kesilirse kendiliğinden devam ediyor"],ko:['단어를 읽은 뒤 배경 음악이 부드럽게 다시 커지고, 아이폰에서 끊겨도 스스로 다시 나와요']}],
  ['3.5','2026-11-27',{tr:["Doğru cevapta kanun sesiyle ışıltılı efekt ve kalın çerçeve, yanlışta bağlama sesi ve ekran sallanması (Ayarlar → Efekt sesleri)"],ko:['정답이면 카눈 소리 띠리링과 굵은 테두리, 오답이면 바을라마 소리 또롱과 화면 흔들림 (설정 → 효과음)']}],
@@ -673,10 +674,11 @@ $('bNotes').onclick=()=>{renderNotes();$('mSet').hidden=true;$('mNotes').hidden=
 $('bNotesOk').onclick=()=>{$('mNotes').hidden=true};
 
 // ---------- arka plan müziği (WebAudio ile üretilir) ----------
+let lastSpeak=-1e9;
 const BGM=(()=>{
  // Anonim İstanbul türküsü "Üsküdar'a Gider İken" (Kâtibim), Bûselik — yavaş ve dinlendirici düzenleme
  // ney, bağlama, kanun ve yumuşak bendir. (Notalar: neyzenim.com bûselik versiyonu, La üzerinde)
- let duckWatch=null,ctx=null,master=null,duckG=null,bus=null,timer=null,step=0,next=0,on=false,noise=null,pass=0;
+ let studyOn=false,duckWatch=null,ctx=null,master=null,duckG=null,bus=null,timer=null,step=0,next=0,on=false,noise=null,pass=0;
  const S16=0.25,E=S16*2;// onaltılık 0,25 sn → dörtlük ≈ 60/dk
  const N=m=>440*Math.pow(2,(m-69)/12);
  const A4=69,B4=71,C5=72,D5=74,Ee=76,F5=77,G5=79,Gs=68,R=null;
@@ -708,7 +710,7 @@ const BGM=(()=>{
  function init(){
   ctx=new (window.AudioContext||window.webkitAudioContext)();
   ctx.onstatechange=()=>{if(on&&ctx.state!=='running'&&!document.hidden)setTimeout(()=>BGM.wake(),300)};
-  master=ctx.createGain();master.gain.value=0;duckG=ctx.createGain();bus=ctx.createGain();bus.connect(duckG);
+  master=ctx.createGain();master.gain.value=0;duckG=ctx.createGain();duckG.gain.value=studyOn?.32:1;bus=ctx.createGain();bus.connect(duckG);
   const rv=reverb(),wet=ctx.createGain();wet.gain.value=.55;duckG.connect(master);duckG.connect(rv);rv.connect(wet);wet.connect(master);master.connect(ctx.destination);
   const len=ctx.sampleRate;noise=ctx.createBuffer(1,len,ctx.sampleRate);const d=noise.getChannelData(0);for(let i=0;i<len;i++)d[i]=Math.random()*2-1;
  }
@@ -772,11 +774,13 @@ const BGM=(()=>{
   stop(){if(!ctx||!on)return;on=false;clearInterval(timer);master.gain.cancelScheduledValues(ctx.currentTime);master.gain.setValueAtTime(master.gain.value,ctx.currentTime);master.gain.linearRampToValueAtTime(0,ctx.currentTime+.8)},
   setVol(){if(ctx&&on){master.gain.cancelScheduledValues(ctx.currentTime);master.gain.setTargetAtTime(vol(),ctx.currentTime,.1)}},
   // ses/okuma sırasında müziği yumuşakça kıs, bitince yavaşça geri aç; iOS'ta bitiş olayı gelmezse kendisi fark eder
-  duck(d){if(!ctx||!duckG)return;const g=duckG.gain,t=ctx.currentTime;g.cancelScheduledValues(t);g.setValueAtTime(g.value,t);g.setTargetAtTime(d?.3:1,t,d?.12:.5);
+  // çalışma ekranlarında müzik hep kısık kalır, okuma için açılıp kapanmaz (iOS'ta gecikme olmasın)
+  study(v){studyOn=v;clearInterval(duckWatch);if(ctx&&duckG){const g=duckG.gain,t=ctx.currentTime;g.cancelScheduledValues(t);g.setValueAtTime(g.value,t);g.setTargetAtTime(v?.32:1,t,.6)}},
+  duck(d){if(!ctx||!duckG||studyOn)return;const g=duckG.gain,t=ctx.currentTime;g.cancelScheduledValues(t);g.setValueAtTime(g.value,t);g.setTargetAtTime(d?.3:1,t,d?.12:.5);
    clearInterval(duckWatch);if(d){let n=0;duckWatch=setInterval(()=>{n++;if(n>2&&!voiceBusy()||n>40)BGM.duck(false)},400)}else this.wake()},
-  wake(){if(ctx&&on&&!document.hidden&&ctx.state!=='running'&&!voiceBusy())try{ctx.resume().catch(()=>{})}catch(e){}},
+  wake(){if(ctx&&on&&!document.hidden&&ctx.state!=='running'&&!voiceBusy()&&performance.now()-lastSpeak>2500)try{ctx.resume().catch(()=>{})}catch(e){}},
   // efekt sesleri: doğru = kanun ile Hicaz'da parlak çıkış (띠리링), yanlış = bağlamada inen iki tel (또롱)
-  sfx(kind){if(S.sfx===false)return;try{if(!ctx)init();ctx.resume();
+  sfx(kind){if(S.sfx===false)return;try{if(!ctx)init();if(ctx.state!=='running'){if(voiceBusy())return;ctx.resume()}
    const t0=ctx.currentTime+.02,out=ctx.createGain();out.gain.value=.9;out.connect(ctx.destination);
    const pl=(m,t,v,len,bright,tri)=>{const f=ctx.createBiquadFilter();f.type='lowpass';f.Q.value=2;f.frequency.setValueAtTime(bright,t);f.frequency.exponentialRampToValueAtTime(bright*.25,t+len*.6);
     const g=ctx.createGain();g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(v,t+.004);g.gain.exponentialRampToValueAtTime(.0005,t+len);
@@ -873,7 +877,7 @@ function speakGT(text){
  const r=+S.rate||1;try{GTA.preservesPitch=true;GTA.playbackRate=Math.max(.35,r)}catch(e){}
  BGM.duck(true);const p=GTA.play();if(p&&p.catch)p.catch(fail)}
 function speak(text,force){
- if(!S.auto&&!force)return;
+ if(!S.auto&&!force)return;lastSpeak=performance.now();
  try{try{GTA.pause()}catch(e){}
   if(S.voice==='gt'&&navigator.onLine!==false)speakGT(text);else speakDevice(text,S.voice==='male')}catch(e){}
 }
