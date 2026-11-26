@@ -414,7 +414,7 @@
 대중문화|popüler kültür|한국 대중문화=Kore popüler kültürü;대중문화의 영향=popüler kültürün etkisi
 강추|kesinlikle tavsiye (argo)|이 영화 강추!=bu filmi kesinlikle öneririm!;강추 맛집=kesinlikle önerilen restoran
 #Zarflar · Bağlaçlar
-가까이|yakına, yakında (zarf)|가까이 오다=yakına gelmek;가까이 살다=yakında oturmak
+가까이|yakında olmak, yakınında olmak|가까이 오다=yakına gelmek;가까이 살다=yakında oturmak
 그냥|sadece, öylesine|그냥 집에 있다=sadece evde kalmak;그냥 물어봤어요=öylesine sordum
 가장|en|가장 좋아하다=en çok sevmek;가장 중요한 것=en önemli şey
 곧|yakında, birazdan|곧 도착하다=birazdan varmak;곧 시작하다=yakında başlamak
