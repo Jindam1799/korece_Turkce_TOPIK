@@ -116,7 +116,7 @@ ko:{sub:'한국어 단어의 숲 · A1–B2 · TOPIK Ⅰ·Ⅱ',a2hsT:'📲 홈 �
  mistakes:'다시 익힐 단어',noMistake:'모두 맞혔어요! 정말 잘했어요.',home:'처음으로',retryWrong:'틀린 것 다시',
  tapFlip:'눌러서 뒤집기',tapBack:'다시 누르면 앞면',cardHint:'카드를 뒤집어요 · 왼쪽으로 밀면 몰라요 · 오른쪽은 알아요',
  kNoBtn:'↺ 몰라요',kYesBtn:'✓ 알아요',knownN:n=>`✓ ${n}`,
- welTitle:'덩어리숲에 오신 것을 환영해요!',
+ welTitle:'덩어리숲에 어서 오세요!',
  letter:'튀르키예 친구들, 한국어 열심히 공부해서 꼭 토픽을 합격하고 원하는 일 모두 이루기 바랍니다!',
  sig:'— 한국 친구 원주',
  thanksPre:'만든 사람들',roleMake:'게임 제작 및 기획',roleCheck:'단어 자료 · 검수 및 교정',thanksPost:'도와준 아슬르에게 정말 고마워요! 💚',
@@ -495,9 +495,9 @@ $('bSfx').onclick=()=>{S.sfx=S.sfx===false;save();renderSettings();if(S.sfx)BGM.
 $('bTest').onclick=()=>speak('안녕하세요. 토픽 합격을 응원해요!',true);
 $('voiceSel').onchange=e=>{S.voice=e.target.value;save();pickVoice();speak('안녕하세요. 반가워요!',true)};
 $('rateChips').addEventListener('click',e=>{const b=e.target.closest('[data-rate]');if(!b)return;S.rate=+b.dataset.rate;save();renderSettings();speak('천천히 따라 읽어 보세요.',true)});
-$('nameSet').addEventListener('input',e=>{S.name=e.target.value.trim();save();renderHome()});
+$('nameSet').addEventListener('input',e=>{S.name=e.target.value.trim();save();renderHome();nameIntro=!!S.name});
 $('bSet').onclick=()=>{renderSettings();$('mSet').hidden=false};
-$('bSetOk').onclick=()=>{$('mSet').hidden=true};
+$('bSetOk').onclick=()=>{$('mSet').hidden=true;if(nameIntro)setTimeout(()=>cheer(),350)};
 let resetArm=false;
 $('bReset').onclick=()=>{if(!resetArm){resetArm=true;$('bReset').textContent=t('resetSure');setTimeout(()=>{resetArm=false;$('bReset').textContent=t('reset')},3000);return}
  Object.assign(S,{xp:0,level:1,pet:'',route:'',branch:'',mem:{},retry:[],best:0});save();resetArm=false;$('mSet').hidden=true;renderHome()};
@@ -637,6 +637,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
+ ['3.9','2026-11-27',{tr:["Bitki arkadaşına isim verince kendini tanıtıyor ve dokununca adını söylüyor; hoş geldin başlığı tek satır"],ko:['식물 친구에게 이름을 지어 주면 그 이름으로 자기소개를 하고, 누르면 이름을 말해요. 환영 인사 한 줄로']}],
  ['3.8','2026-11-27',{tr:["Çalışırken fon müziği hep kısık çalıyor, kelime sesi hemen ve net çıkıyor; efekt sesleri okumayla çakışmıyor"],ko:['공부 화면에서는 배경 음악을 계속 작게 틀고, 단어 음성은 크게 바로 나와요. 효과음이 음성과 부딪히지 않아요']}],
  ['3.7','2026-11-27',{tr:["Lobide 덩이 artık konuşuyor: 20 farklı sınav ve çalışma motivasyon cümlesi, zıplama, takla, gülme gibi hareketlerle; 덩이'ya dokununca cevap veriyor (Bitki rehberi: üstteki kitap düğmesi)"],ko:['로비의 덩이가 말풍선으로 응원해요: 시험·공부 응원 20문장, 점프·구르기·웃음 등 랜덤 동작, 덩이를 누르면 대답해요 (식물 도감은 위쪽 책 버튼)']}],
  ['3.6','2026-11-27',{tr:["Fon müziği, kelime okunduktan sonra yavaşça geri geliyor ve iPhone'da kesilirse kendiliğinden devam ediyor"],ko:['단어를 읽은 뒤 배경 음악이 부드럽게 다시 커지고, 아이폰에서 끊겨도 스스로 다시 나와요']}],
@@ -812,12 +813,16 @@ function cheerY(){const m=$('mascot'),hab=m.parentElement,hr=hab.getBoundingClie
  try{const sv=m.querySelector('svg'),bb=sv.getBBox(),vb=sv.viewBox.baseVal,r=sv.getBoundingClientRect();
   if(vb&&vb.height){const k=Math.min(r.width/vb.width,r.height/vb.height),oy=(r.height-vb.height*k)/2;return Math.max(40,Math.round(hr.bottom-(r.top+oy+(bb.y-vb.y)*k)+18))}}catch(e){}
  return hab.clientHeight-m.offsetTop+4}
+const NM_INTRO=[["안녕! 내 이름은 {N}! 앞으로 잘 부탁해요!", "Merhaba! Benim adım {N}. Tanıştığıma çok sevindim!", "excited"], ["새 이름 {N}, 정말 마음에 들어요!", "Yeni adım {N}, çok beğendim!", "spin"], ["저는 {N}! 같이 쑥쑥 자라요!", "Ben {N}! Birlikte büyüyelim!", "jump"]],NM_TAP=[["저 {N} 여기 있어요!", "Ben {N}, buradayım!", "wiggle"], ["제 이름 기억하죠? {N}!", "Adımı hatırlıyor musun? {N}!", "bounce"], ["{N}도 오늘 열심히 자랄게요!", "{N} de bugün çok çalışıp büyüyecek!", "excited"]];
+let nameIntro=false;
 function cheer(tap){
  const b=$('cheer'),h=$('home'),m=$('mascot');if(!b||h.hidden||document.querySelector('.modal:not([hidden])')||!$('guide').hidden)return;
  let ko,tr,act;
  if(tap){let i;do i=Math.floor(Math.random()*TAPS.length);while(i===tpLast&&TAPS.length>1);tpLast=i;[ko,tr,act]=TAPS[i]}
  else{let i;do i=Math.floor(Math.random()*CHEERS.length);while(i===chLast&&CHEERS.length>1);chLast=i;[ko,tr]=CHEERS[i];act=M_ACTS[Math.floor(Math.random()*M_ACTS.length)]}
- if(tap&&S.name&&Math.random()<.3)ko=S.name+', '+ko;
+ if(nameIntro&&S.name){nameIntro=false;[ko,tr,act]=NM_INTRO[Math.floor(Math.random()*NM_INTRO.length)]}
+ else if(tap&&S.name&&Math.random()<.35)[ko,tr,act]=NM_TAP[Math.floor(Math.random()*NM_TAP.length)];
+ if(S.name){ko=ko.split('{N}').join(S.name);tr=tr.split('{N}').join(S.name)}
  b.innerHTML=`<b>${esc(ko)}</b>`+(S.lang==='ko'?'':`<small>${esc(tr)}</small>`);
  b.style.bottom=cheerY()+'px';
  b.classList.remove('show');void b.offsetWidth;b.classList.add('show');mAct(act);
@@ -828,8 +833,8 @@ setInterval(()=>{if(!document.hidden&&!$('cheer').classList.contains('show'))che
 
 // ---------- hoş geldin ----------
 $('bMsg').onclick=()=>{$('nameIn').value=S.name;$('mWel').hidden=false};
-$('bWel').onclick=()=>{const n=$('nameIn').value.trim();if(n)S.name=n;save();$('mWel').hidden=true;renderHome();
- $('mascot').className='mascot hop';setTimeout(()=>$('mascot').className='mascot',1200);setTimeout(()=>cheer(),500)};
+$('bWel').onclick=()=>{const n=$('nameIn').value.trim();if(n&&n!==S.name)nameIntro=true;if(n)S.name=n;save();$('mWel').hidden=true;renderHome();
+ setTimeout(()=>cheer(),400)};
 
 // ---------- ses (kadın sesi öncelikli) ----------
 let voice=null,KOV=[],maleReal=null;
