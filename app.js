@@ -635,6 +635,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
+ ['3.2','2026-11-26',{tr:['TOPIK Ⅱ\'ye Aslı\'nın konu listesinden 143 yeni kelime: 경제 (ekonomi), 감정 (duygular), 의성어·의태어 (yansıma sözcükler), 건강 (sağlık), 과학 기술 (bilim ve teknoloji) bölümleri','TOPIK Ⅱ artık 3.459 kelime'],ko:['TOPIK Ⅱ에 아슬르 주제별 단어 143개 추가: 경제·감정·의성어·의태어·건강·과학 기술 단원','TOPIK Ⅱ 총 3,459단어']}],
  ['3.1','2026-11-26',{tr:['TOPIK Ⅱ\'ye Aslı\'nın 3–4. seviye listesinden 627 yeni kelime eklendi (bölüm 54–66), her kelimeye eş kelimeler','TOPIK Ⅱ artık 3.316 kelime'],ko:['TOPIK Ⅱ에 아슬르의 3–4급 단어 627개 추가 (54–66단원), 모든 단어에 짝꿍어휘','TOPIK Ⅱ 총 3,316단어']}],
  ['3.0','2026-11-26',{tr:['B1–B2 kelimeleri Aslı tarafından kontrol edildi: 380 kelimenin anlamı ve eş kelimeleri düzeltildi (자기소개서, 담다, 돌탑, 가까이 dahil)','Giriş ekranında TOPIK Ⅰ · TOPIK Ⅱ rozetleri'],ko:['B1–B2 아슬르 검수 반영: 380개 단어 뜻·짝꿍어휘 수정','첫 화면에 TOPIK Ⅰ · TOPIK Ⅱ 배지']}],
  ['2.9','2026-11-25',{tr:['Yeni fon müziği: anonim İstanbul türküsü “Üsküdar\'a Gider İken” (Kâtibim), ney, bağlama, kanun ve bendirle yavaş ve dinlendirici düzenleme','Kelime kontrol modu artık yalnızca editör bağlantısıyla açılır'],ko:['새 배경 음악: 튀르키예 전통 민요 “Üsküdar\'a Gider İken(카티빔)”을 네이·바을라마·카눈·벤디르로 느리고 편안하게 편곡','단어 검수 모드는 이제 검수자 링크로만 열려요']}],

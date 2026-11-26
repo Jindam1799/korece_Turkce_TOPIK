@@ -14,7 +14,7 @@ Türk arkadaşlar için Korece kelime oyunu.
 | B2.1 | 607 | `data/b21.js` |
 | B2.2 | 121 | `data/b22.js` |
 | TOPIK Ⅰ | 1671 | `data/topik1.js` (`tools/build_topik1.py`) |
-| TOPIK Ⅱ | 3316 | `data/topik2.js` (Aslı'nın TOPIK Ⅱ sınav kelimeleri + 3–4. seviye ek listesi `tools/topik2_34.txt`, bölüm 54–66) |
+| TOPIK Ⅱ | 3459 | `data/topik2.js` (Aslı'nın TOPIK Ⅱ sınav kelimeleri + 3–4. seviye ek listesi `tools/topik2_34.txt`, bölüm 54–66, konu bölümleri `tools/topik2_topics.txt`) |
 | 한자 (Hanca) | 390 | `data/hanja.js` |
 
 - 단어 자료: Aslıhan Erdoğan (KOREAN VOCAB, Asl_HANCA) — 오타 수정, 단어마다 짝꿍어휘 추가

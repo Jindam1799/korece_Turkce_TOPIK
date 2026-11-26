@@ -1,0 +1,150 @@
+# TOPIK Ⅱ konu listesi — Aslıhan Erdoğan (TOP_K_2_new_vocab_2.docx), 2026-11-26
+# TOPIK Ⅱ'de zaten olan 87 kelime atlandı. Biçim: #bölüm sonra kelime|anlam|eş kelimeler|not
+#경제 (ekonomi)
+가계|hane halkı|가계 부채=hane halkı borcu;가계를 꾸리다=ev ekonomisini yürütmek
+감축|azaltma / kısıtlama|인원 감축=personel azaltma;예산 감축=bütçe kısıntısı
+경공업|hafif sanayi|경공업 제품=hafif sanayi ürünü;경공업이 발달하다=hafif sanayi gelişmek|tekstil, gıda, elektronik gibi ürünlerin üretildiği; genellikle hammaddeden çok işçiliğe dayalı ve ağır makineler gerektirmeyen sanayi türüdür
+경기 부양|ekonomiyi canlandırma|경기 부양책=ekonomiyi canlandırma politikası;경기 부양을 위해=ekonomiyi canlandırmak için|durgun ekonomiyi canlandırmak için uygulanan politikalar
+경기가 침체되다|ekonomik durgunluk|경기가 침체되어 실업이 늘다=durgunluk yüzünden işsizlik artmak;오랫동안 경기가 침체되다=uzun süre ekonomi durgun kalmak
+경제 성장|ekonomik büyüme|경제 성장률=ekonomik büyüme oranı;빠른 경제 성장=hızlı ekonomik büyüme
+공익|kamu yararı|공익 광고=kamu spotu;공익을 위하다=kamu yararını gözetmek
+단가|birim fiyat|단가를 낮추다=birim fiyatı düşürmek;생산 단가=üretim birim maliyeti
+담보|teminat / rehin|담보 대출=teminatlı kredi;집을 담보로 하다=evi teminat göstermek
+독점|tekel|시장 독점=pazar tekeli;독점 판매=tekel satış|bir kişi ya da kurumun üretim ve pazarı kontrol ederek tüm kazancı elde etmesi
+무역|ticaret|무역 회사=dış ticaret şirketi;무역을 하다=ticaret yapmak
+무역 적자|ticaret açığı|무역 적자가 커지다=ticaret açığı büyümek;무역 적자를 줄이다=ticaret açığını azaltmak|ithalatın ihracattan fazla olması durumu
+무역 흑자|ticaret fazlası|무역 흑자를 내다=ticaret fazlası vermek;무역 흑자가 늘다=ticaret fazlası artmak|ihracatın ithalattan fazla olması durumu
+부도|iflas|회사가 부도가 나다=şirket iflas etmek;부도 위기=iflas tehlikesi
+사회에 공헌하다|topluma katkı sağlamak|기업이 사회에 공헌하다=şirket topluma katkı sağlamak;재능으로 사회에 공헌하다=yeteneğiyle topluma katkıda bulunmak
+사회적 기업|sosyal girişim|사회적 기업을 세우다=sosyal girişim kurmak;사회적 기업의 역할=sosyal girişimin rolü
+생산성|verimlilik|생산성을 높이다=verimliliği artırmak;생산성이 떨어지다=verimlilik düşmek
+성수기|yoğun sezon / zirve dönem|여름 성수기=yaz sezonu;성수기에는 비싸다=yoğun sezonda pahalı olmak
+소매|perakende satış|소매 가격=perakende fiyat;소매점=perakende mağaza
+소비량|tüketim miktarı|에너지 소비량=enerji tüketimi;소비량이 늘다=tüketim miktarı artmak
+수익금|kazanç / gelir|수익금을 기부하다=geliri bağışlamak;판매 수익금=satış geliri
+수지|gelir-gider dengesi / bilanço|무역 수지=dış ticaret dengesi;수지가 맞다=kâr etmek, kârlı olmak
+실업|işsizlik|실업 문제=işsizlik sorunu;실업률=işsizlik oranı
+어부지리|üçüncü tarafın kazancı|어부지리를 얻다=iki taraf çekişirken kazanan olmak;어부지리로 이기다=başkalarının kavgasından yararlanıp kazanmak|iki tarafın çekişmesinden üçüncü kişinin zahmetsizce kazanç elde etmesi
+웃돌다|aşmak / üstüne çıkmak|예상을 웃돌다=beklentiyi aşmak;평균을 웃돌다=ortalamanın üstüne çıkmak|belirli bir düzeyi veya tahmini geçmek
+원조|yardım / destek|해외 원조=dış yardım;원조를 받다=yardım almak
+이유|sebep / gerekçe|이유를 묻다=sebebini sormak;특별한 이유=özel bir sebep
+인건비|işçilik maliyeti|인건비가 오르다=işçilik maliyeti artmak;인건비를 줄이다=işçilik giderini azaltmak
+인하|indirim / düşüş|가격 인하=fiyat indirimi;금리 인하=faiz indirimi
+임금|ücret / maaş|임금을 올리다=ücretleri artırmak;임금 인상=maaş zammı
+자급자족|kendi kendine yetme|식량을 자급자족하다=gıdada kendi kendine yetmek;자급자족 생활=kendi kendine yeten yaşam|ihtiyaç duyulan şeyleri kendi üretip karşılamak
+잔고|bakiye / kalan para|통장 잔고=hesap bakiyesi;잔고가 부족하다=bakiye yetersiz olmak
+재무|mali işler / finans durumu|재무 상태=mali durum;재무 관리=mali yönetim
+재테크|finansal yönetim|재테크를 하다=birikimini değerlendirmek;재테크 방법=yatırım yöntemi
+창업|girişim / iş kurma|창업을 하다=iş kurmak;창업 지원=girişimcilik desteği
+청구|talep / fatura çıkarma|요금을 청구하다=ücret talep etmek;청구서=fatura
+청년 실업|genç işsizliği|청년 실업 문제=genç işsizliği sorunu;청년 실업률=genç işsizlik oranı
+최저 임금제|asgari ücret sistemi|최저 임금제를 도입하다=asgari ücret sistemini getirmek;최저 임금제 시행=asgari ücret uygulaması
+침체|durgunluk / gerileme|경기 침체=ekonomik durgunluk;침체에 빠지다=durgunluğa girmek|ekonomik veya sektörel canlılığın kaybolması
+헐값|çok düşük fiyat|헐값에 팔다=yok pahasına satmak;헐값으로 사다=çok ucuza almak
+호황|ekonomik canlılık / refah|호황을 누리다=refah dönemi yaşamak;경기 호황=ekonomik canlılık
+화폐 가치|para değeri / alım gücü|화폐 가치가 떨어지다=paranın değeri düşmek;화폐 가치 상승=paranın değerlenmesi
+환율|döviz kuru / kur oranı|환율이 오르다=döviz kuru yükselmek;환율 변동=kur dalgalanması
+흑자|fazla / kâr durumu|흑자를 내다=kâr etmek;흑자로 돌아서다=kâra geçmek
+이자|faiz|이자를 받다=faiz almak;이자가 높다=faizi yüksek olmak
+도매|toptan satış|도매 시장=toptancı hali;도매로 사다=toptan almak
+#감정 (duygular)
+만족스럽다|tatmin edici olmak|결과가 만족스럽다=sonuç tatmin edici olmak;만족스러운 서비스=memnun edici hizmet
+걱정스럽다|endişelenmek, tasalanmak|건강이 걱정스럽다=sağlığından endişelenmek;걱정스러운 표정=endişeli ifade
+답답하다|bunalmak, içi sıkışmak|가슴이 답답하다=göğsü sıkışmak;답답한 마음=bunalmış yürek
+아쉽다|eksik kalmak, yetersiz hissetmek|헤어지기 아쉽다=ayrılmak hüzünlü gelmek;아쉬운 결과=üzücü sonuç|eksik kalmak, yetersiz hissetmek, yokluğuna hayıflanmak
+지겹다|bıkmak, bıkkınlık duymak, usanmak|공부가 지겹다=ders çalışmaktan bıkmak;지겨운 일=bıktırıcı iş
+#의성어·의태어 (yansıma sözcükler)
+고래고래|bağıra çağıra|고래고래 소리를 지르다=avazı çıktığı kadar bağırmak;고래고래 노래하다=bağıra bağıra şarkı söylemek|bağıra çağıra, avazı çıktığı kadar yüksek sesle
+글썽글썽|gözleri yaşla dolmak, gözleri dolu dolu|눈물이 글썽글썽하다=gözleri yaşla dolmak;눈이 글썽글썽해지다=gözleri dolu dolu olmak
+꼬박꼬박|hiç aksatmadan, düzenli olarak|꼬박꼬박 저축하다=hiç aksatmadan birikim yapmak;꼬박꼬박 출석하다=düzenli olarak derse gelmek
+꾸벅꾸벅|başı düşerek uyuklamak|꾸벅꾸벅 졸다=başı düşerek uyuklamak;꾸벅꾸벅 인사하다=tekrar tekrar eğilerek selam vermek|başı düşerek uyuklamak (ayrıca: tekrar tekrar eğilerek selam vermek)
+두근두근|küt küt|가슴이 두근두근하다=kalbi küt küt atmak;두근두근 설레다=heyecandan kalbi çarpmak|heyecan, korku veya sevinçten kalbin hızlı atması
+또박또박|tane tane|또박또박 말하다=tane tane konuşmak;또박또박 쓰다=net ve düzgün yazmak|tane tane, net ve açık şekilde konuşmak veya yazmak
+바짝바짝|kupkuru, iyice kurumuş|입술이 바짝바짝 마르다=dudakları kupkuru olmak;속이 바짝바짝 타다=içi içini yemek
+부글부글|fokur fokur kaynamak|물이 부글부글 끓다=su fokur fokur kaynamak;속이 부글부글 끓다=öfkeden içi kaynamak|öfkeden içten içe kaynamak
+싱숭생숭|içi tedirgin, kafası dağınık, huzursuz|마음이 싱숭생숭하다=içi huzursuz olmak;봄이라 싱숭생숭하다=bahar olduğu için içi kıpır kıpır olmak
+빈둥빈둥|iş yapmadan boş boş vakit geçirmek|빈둥빈둥 놀다=aylak aylak oyalanmak;집에서 빈둥빈둥하다=evde boş boş vakit geçirmek|iş yapmadan boş boş vakit geçirmek, aylak aylak oyalanmak
+우물쭈물|kararsızca, tereddüt ederek|우물쭈물 대답하다=tereddüt ederek cevap vermek;우물쭈물하다가 놓치다=kararsız kalıp kaçırmak|kararsızca, tereddüt ederek, net karar veremeden
+우왕좌왕|ne yapacağını bilmeden sağa sola savrulmak|우왕좌왕하다=şaşkına dönüp sağa sola koşmak;사람들이 우왕좌왕하다=insanlar ne yapacağını bilemeyip dağılmak|ne yapacağını bilmeden sağa sola savrulmak, kargaşa içinde şaşkına dönmek
+웅성웅성|kalabalıkta insanların uğultusu|사람들이 웅성웅성하다=insanlar uğuldaşmak;웅성웅성 소리=uğultu sesi|kalabalıkta insanların uğultusu, mırıltısı
+조마조마|yüreği ağzında olmak|가슴이 조마조마하다=yüreği ağzına gelmek;조마조마하게 기다리다=endişeyle beklemek|yüreği ağzında olmak, sonuç beklerken duyulan endişeli gerginlik
+중얼중얼|düşük sesle anlaşılmaz şekilde konuşmak|혼자 중얼중얼하다=kendi kendine mırıldanmak;중얼중얼 말하다=mırıl mırıl konuşmak|düşük sesle anlaşılmaz şekilde konuşmak, mırıldanmak
+차근차근|adım adım, sırayla|차근차근 설명하다=adım adım açıklamak;차근차근 준비하다=sırayla hazırlanmak|sistemli ve düzenli şekilde anlatmak veya yapmak, adım adım, sırayla
+터벅터벅|ağır adımlarla|터벅터벅 걷다=ağır ağır yürümek;터벅터벅 집에 돌아오다=yorgun adımlarla eve dönmek|ağır adımlarla, yorgun veya üzgün şekilde yürümek
+흥청망청|savurganca, ölçüsüzce para harcamak|돈을 흥청망청 쓰다=parayı savurganca harcamak;흥청망청 놀다=ölçüsüzce eğlenmek
+힐끔힐끔|merakla veya çekinerek kısa kısa bakmak|힐끔힐끔 쳐다보다=göz ucuyla bakıp durmak;옆 사람을 힐끔힐끔 보다=yanındakine kaçamak bakışlar atmak|merakla veya çekinerek kısa kısa bakmak, göz ucuyla bakmak
+#건강 (sağlık)
+가공식품|işlenmiş gıda|가공식품을 줄이다=işlenmiş gıdayı azaltmak;가공식품 첨가물=işlenmiş gıda katkı maddesi
+건강 관리|sağlık yönetimi|건강 관리를 하다=sağlığına bakmak;꾸준한 건강 관리=düzenli sağlık bakımı
+건강 보험|sağlık sigortası|건강 보험에 가입하다=sağlık sigortası yaptırmak;건강 보험료=sağlık sigortası primi
+건강식|sağlıklı yiyecek|건강식을 먹다=sağlıklı beslenmek;건강식 식단=sağlıklı menü
+건강을 유지하다|sağlığı korumak|운동으로 건강을 유지하다=sporla sağlığını korumak;건강을 유지하는 비결=sağlıklı kalmanın sırrı
+건강을 챙기다|sağlığına dikkat etmek|바빠도 건강을 챙기다=meşgul olsa da sağlığına dikkat etmek;부모님의 건강을 챙기다=anne babasının sağlığıyla ilgilenmek
+건강을 해치다|sağlığa zarar vermek|과로로 건강을 해치다=aşırı çalışmaktan sağlığını bozmak;흡연이 건강을 해치다=sigara sağlığa zarar vermek
+고혈압|yüksek tansiyon|고혈압 환자=yüksek tansiyon hastası;고혈압을 예방하다=yüksek tansiyonu önlemek
+규칙적인 생활|düzenli yaşam|규칙적인 생활을 하다=düzenli yaşamak;규칙적인 생활 습관=düzenli yaşam alışkanlığı
+균형 잡힌 식단|dengeli beslenme düzeni, dengeli menü|균형 잡힌 식단을 짜다=dengeli menü hazırlamak;균형 잡힌 식단이 중요하다=dengeli beslenme önemli olmak
+금연|sigara bırakma, sigara içmeme|금연 구역=sigara içilmeyen alan;금연에 성공하다=sigarayı bırakmayı başarmak
+당뇨|diyabet|당뇨 환자=diyabet hastası;당뇨에 걸리다=şeker hastalığına yakalanmak
+만성 질환|kronik hastalık|만성 질환을 앓다=kronik hastalığı olmak;만성 질환 관리=kronik hastalık takibi
+면역력|bağışıklık gücü|면역력이 강하다=bağışıklığı güçlü olmak;면역력을 키우다=bağışıklığı geliştirmek
+면역력을 높이다|bağışıklığı güçlendirmek|운동으로 면역력을 높이다=sporla bağışıklığı güçlendirmek;면역력을 높이는 음식=bağışıklığı güçlendiren yiyecek
+면역력이 떨어지다|bağışıklığın düşmesi|피곤하면 면역력이 떨어지다=yorulunca bağışıklık düşmek;면역력이 떨어져 감기에 걸리다=bağışıklık düşüp soğuk algınlığına yakalanmak
+병|hastalık|병에 걸리다=hastalanmak;병이 낫다=hastalık iyileşmek
+불면증|uykusuzluk|불면증 치료=uykusuzluk tedavisi;불면증이 생기다=uykusuzluk başlamak
+불면증에 시달리다|uykusuzluktan muzdarip olmak|스트레스로 불면증에 시달리다=stresten uykusuzluk çekmek;몇 달째 불면증에 시달리다=aylardır uykusuzluk çekmek
+섭취|alım, besin veya ilaç alma|영양 섭취=besin alımı;섭취량=alım miktarı
+성인 비만|yetişkin obezitesi|성인 비만이 늘다=yetişkin obezitesi artmak;성인 비만의 원인=yetişkin obezitesinin nedeni
+성인병을 예방하다|yetişkin hastalıklarını önlemek|운동으로 성인병을 예방하다=sporla kronik hastalıkları önlemek;식습관으로 성인병을 예방하다=beslenme alışkanlığıyla kronik hastalıkları önlemek
+소아 비만|çocukluk obezitesi|소아 비만 문제=çocukluk obezitesi sorunu;소아 비만을 예방하다=çocukluk obezitesini önlemek
+소화 기관|sindirim sistemi|소화 기관이 약하다=sindirim sistemi zayıf olmak;소화 기관 질환=sindirim sistemi hastalığı
+수면 장애|uyku bozukluğu|수면 장애 치료=uyku bozukluğu tedavisi;수면 장애의 원인=uyku bozukluğunun nedeni
+수면 장애를 겪다|uyku bozukluğu yaşamak|스트레스로 수면 장애를 겪다=stres yüzünden uyku bozukluğu yaşamak;수면 장애를 겪는 사람=uyku bozukluğu yaşayan kişi
+수술|ameliyat|수술을 받다=ameliyat olmak;수술이 성공하다=ameliyat başarılı geçmek
+스트레스|stres|스트레스를 받다=strese girmek;스트레스가 쌓이다=stres birikmek
+스트레스를 줄이다|stresi azaltmak|운동으로 스트레스를 줄이다=sporla stresi azaltmak;스트레스를 줄이는 방법=stresi azaltmanın yolu
+식생활 개선|beslenme alışkanlıklarını düzeltme|식생활 개선이 필요하다=beslenme alışkanlıklarını düzeltmek gerekmek;식생활 개선 운동=beslenmeyi iyileştirme kampanyası
+식중독|gıda zehirlenmesi|식중독이 발생하다=gıda zehirlenmesi yaşanmak;식중독 증상=gıda zehirlenmesi belirtisi
+식중독 예방|gıda zehirlenmesini önleme|식중독 예방 수칙=gıda zehirlenmesini önleme kuralları;여름철 식중독 예방=yaz aylarında gıda zehirlenmesini önleme
+식중독에 걸리다|gıda zehirlenmesine yakalanmak|상한 음식을 먹고 식중독에 걸리다=bozuk yemek yiyip zehirlenmek;여름에 식중독에 걸리다=yazın gıda zehirlenmesi geçirmek
+식중독의 위험|gıda zehirlenmesi riski|식중독의 위험이 높다=gıda zehirlenmesi riski yüksek olmak;식중독의 위험을 줄이다=gıda zehirlenmesi riskini azaltmak
+알레르기|alerji|알레르기가 있다=alerjisi olmak;꽃가루 알레르기=polen alerjisi
+열량이 높다|kalorisi yüksek olmak|열량이 높은 음식=kalorisi yüksek yiyecek;튀김은 열량이 높다=kızartmaların kalorisi yüksektir
+예방 접종|aşılama, koruyucu aşı|예방 접종을 받다=aşı olmak;독감 예방 접종=grip aşısı
+올바른 습관|doğru alışkanlık|올바른 습관을 기르다=doğru alışkanlık edinmek;올바른 식습관=doğru beslenme alışkanlığı
+우울증을 앓다|depresyon geçirmek|오랫동안 우울증을 앓다=uzun süre depresyon geçirmek;우울증을 앓는 사람=depresyondaki kişi
+운동|egzersiz / spor|운동을 하다=spor yapmak;규칙적인 운동=düzenli egzersiz
+유전자 변형 식품|genetiği değiştirilmiş gıda|유전자 변형 식품의 안전성=GDO'lu gıdanın güvenliği;유전자 변형 식품 표시=GDO etiketi
+음식물을 섭취하다|yiyecek veya içecek tüketmek|충분한 음식물을 섭취하다=yeterince besin almak;음식물을 골고루 섭취하다=dengeli beslenmek
+음식물|yiyecek ve içecek|음식물 쓰레기=yemek atığı;음식물을 남기다=yemek artırmak
+의료 기술|tıbbi teknoloji|의료 기술이 발달하다=tıbbi teknoloji gelişmek;첨단 의료 기술=ileri tıbbi teknoloji
+의료 서비스|sağlık hizmeti|의료 서비스를 받다=sağlık hizmeti almak;의료 서비스 개선=sağlık hizmetlerinin iyileştirilmesi
+의학이 발달하다|tıbbın gelişmesi|의학이 발달하여 수명이 늘다=tıp geliştikçe ömür uzamak;의학이 발달한 나라=tıbbı gelişmiş ülke
+인스턴트 음식|hazır gıda|인스턴트 음식을 자주 먹다=sık sık hazır gıda yemek;인스턴트 음식을 줄이다=hazır gıdayı azaltmak
+전염|bulaşma|전염이 되다=bulaşmak;전염을 막다=bulaşmayı önlemek
+절식|yemeği kesme, perhiz|절식을 하다=yemeği kısmak;무리한 절식=aşırı perhiz|yemeği kesme, perhiz, yemek miktarını kısıtlama
+절주|alkolü azaltma / bırakma|절주를 하다=alkolü azaltmak;금연과 절주=sigarayı bırakma ve alkolü azaltma
+증상이 나타나다|belirtiler ortaya çıkmak|감기 증상이 나타나다=soğuk algınlığı belirtileri görülmek;갑자기 증상이 나타나다=belirtiler aniden ortaya çıkmak
+진단|teşhis|진단을 받다=teşhis konmak;정확한 진단=doğru teşhis
+질병에 걸리다|hastalığa yakalanmak|쉽게 질병에 걸리다=kolayca hastalanmak;심각한 질병에 걸리다=ciddi bir hastalığa yakalanmak
+체중|vücut ağırlığı|체중이 늘다=kilo almak;체중을 재다=tartılmak
+체중을 조절하다|kilo kontrolü yapmak|운동으로 체중을 조절하다=sporla kilosunu kontrol etmek;식단으로 체중을 조절하다=beslenmeyle kilo kontrolü yapmak
+체중조절|kilo kontrolü|체중조절에 성공하다=kilo kontrolünü başarmak;체중조절 식단=kilo kontrolü menüsü
+폭식|aşırı yeme / tıka basa yeme|폭식을 하다=tıka basa yemek;스트레스성 폭식=stres kaynaklı aşırı yeme
+혈액|kan|혈액 검사=kan testi;혈액 순환=kan dolaşımı
+#과학 기술 (bilim ve teknoloji)
+빅데이터|büyük veri|빅데이터를 분석하다=büyük veriyi analiz etmek;빅데이터 시대=büyük veri çağı
+사물인터넷|nesnelerin interneti|사물인터넷 기술=nesnelerin interneti teknolojisi;사물인터넷 가전=akıllı ev aletleri|nesnelerin interneti (nesnelerin birbirine bağlanarak bilgi alışverişi yaptığı teknoloji)
+가상 현실|sanal gerçeklik|가상 현실 게임=sanal gerçeklik oyunu;가상 현실을 체험하다=sanal gerçekliği deneyimlemek
+개인 정보|kişisel bilgiler|개인 정보 보호=kişisel verilerin korunması;개인 정보가 유출되다=kişisel bilgiler sızmak
+게시물|gönderi / paylaşım|게시물을 올리다=gönderi paylaşmak;게시물을 삭제하다=gönderiyi silmek
+정보를 공유하다|bilgi paylaşmak|친구와 정보를 공유하다=arkadaşla bilgi paylaşmak;인터넷으로 정보를 공유하다=internet üzerinden bilgi paylaşmak
+기술이 융합되다|teknolojilerin kaynaşması, birleşmesi|여러 기술이 융합되다=birçok teknoloji birleşmek;기술이 융합된 제품=teknolojilerin birleştiği ürün
+댓글|yorum|댓글을 달다=yorum yazmak;악성 댓글=kötü niyetli yorum
+미래 사회|geleceğin toplumu|미래 사회의 모습=geleceğin toplumunun görünümü;미래 사회를 준비하다=geleceğin toplumuna hazırlanmak
+인터넷|internet|인터넷을 하다=internette gezinmek;인터넷 쇼핑=internetten alışveriş
+자율주행차|otonom araç, sürücüsüz araç|자율주행차를 개발하다=otonom araç geliştirmek;자율주행차 시대=sürücüsüz araç çağı
+데이터를 공유하다|veri paylaşmak|기업 간에 데이터를 공유하다=şirketler arasında veri paylaşmak;안전하게 데이터를 공유하다=verileri güvenle paylaşmak
+첨단 과학|ileri teknoloji bilimi|첨단 과학 기술=ileri bilim ve teknoloji;첨단 과학 연구=ileri bilim araştırması
+표현의 자유|ifade özgürlüğü|표현의 자유를 보장하다=ifade özgürlüğünü güvence altına almak;표현의 자유를 침해하다=ifade özgürlüğünü ihlal etmek
+질량|kütle|질량을 재다=kütleyi ölçmek;질량과 무게=kütle ve ağırlık
