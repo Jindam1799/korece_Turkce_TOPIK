@@ -280,7 +280,7 @@
 직장 동료|iş arkadaşı|직장 동료와 친하다=iş arkadaşıyla yakın olmak;직장 동료들과 회식하다=iş arkadaşlarıyla yemeğe çıkmak
 적성에 맞다|yeteneğine uygun olmak|일이 적성에 맞다=işin yeteneğe uygun olması;적성 검사=yetenek testi
 이력서를 쓰다|özgeçmiş yazmak|이력서를 꼼꼼히 쓰다=özgeçmişi dikkatle yazmak;이력서 사진=özgeçmiş fotoğrafı
-자기소개서를 쓰다|özgeçmiş/tanıtma yazısı yazmak|자기소개서를 제출하다=özgeçmişi teslim etmek;자기소개서 내용=özgeçmiş içeriği
+자기소개서를 쓰다|kendini tanıtma yazısı yazmak|자기소개서를 제출하다=kendini tanıtma yazısını teslim etmek;자기소개서 내용=kendini tanıtma yazısının içeriği
 입사 지원서를 내다|iş başvurusu yapmak|여러 회사에 지원서를 내다=birçok şirkete başvuru yapmak;지원 마감=başvuru son tarihi
 면접을 보다|mülakata girmek|회사에서 면접을 보다=şirkette mülakata girmek;면접 준비=mülakat hazırlığı
 입사하다|şirkete girmek|대기업에 입사하다=büyük şirkete girmek;입사 첫날=işe giriş ilk günü
@@ -493,7 +493,7 @@
 포도주|şarap|포도주를 마시다=şarap içmek;포도주 한 병=bir şişe şarap
 반찬|yan yemek (banchan)|반찬을 만들다=yan yemek (meze) yapmak;반찬이 많다=yan yemek (meze) çok olmak
 술|içki|술을 마시다=içki içmek;술에 취하다=sarhoş olmak
-담다|koymak (kase)|그릇에 담다=kaseye koymak;봉투에 담다=poşete koymak
+담다|(içine) koymak (kap/kase/çanak)|그릇에 담다=kaseye/çanağa koymak;봉투에 담다=poşete koymak
 달걀|yumurta|달걀을 깨다=yumurta kırmak;달걀 프라이=sahanda yumurta
 비비다|karıştırmak, ovmak|밥을 비비다=pilavı karıştırmak;눈을 비비다=gözlerini ovmak
 물론|elbette|물론이죠=elbette;물론 가능하다=tabii ki mümkün olmak

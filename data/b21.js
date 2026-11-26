@@ -384,7 +384,7 @@ SNS에 사진을 올리다|sosyal medyaya fotoğraf yüklemek|여행 사진을 S
 되새기다|yeniden düşünmek, hatırlamak|의미를 되새기다=anlamını yeniden düşünmek;추억을 되새기다=anıları hatırlamak
 적다|yazmak (not almak)|종이에 적다=kâğıda yazmak;이름을 적다=adını yazmak
 매달다|asmak|나무에 매달다=ağaca asmak;풍선을 매달다=balon asmak
-돌탑|taş yığını (dilek taşları)|돌탑을 쌓다=taş kule dikmek;돌탑에 소원을 빌다=taş kuleye dilek dilemek
+돌탑|taş yığını (dilek taşları)|돌탑을 쌓다=taş yığını yapmak;돌탑에 소원을 빌다=taş yığınına dilek dilemek
 시골|kırsal kesim, köy|시골에 살다=köyde yaşamak;시골 마을=köy
 지나가다|geçip gitmek|길을 지나가다=yoldan geçmek;시간이 지나가다=zamanın geçip gitmesi
 쌓다|yığmak, biriktirmek|돌을 쌓다=taş yığmak;경험을 쌓다=deneyim biriktirmek
