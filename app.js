@@ -820,7 +820,7 @@ function cheer(tap){
  clearTimeout(chHide);chHide=setTimeout(()=>b.classList.remove('show'),6000);
 }
 $('cheer').addEventListener('click',e=>{e.stopPropagation();cheer(true)});
-setInterval(()=>{if(!document.hidden&&!$('cheer').classList.contains('show')&&Math.random()<.7)cheer()},16000);
+setInterval(()=>{if(!document.hidden&&!$('cheer').classList.contains('show'))cheer()},10000);
 
 // ---------- hoş geldin ----------
 $('bMsg').onclick=()=>{$('nameIn').value=S.name;$('mWel').hidden=false};
