@@ -78,7 +78,7 @@ tr:{sub:'Korece kelime ormanı · A1–B2 · TOPIK Ⅰ·Ⅱ',a2hsT:'📲 Ana ekr
  namePh:'Bitki arkadaşının adı (isteğe bağlı)',chromeTxt:'Bir uygulamanın içindeki tarayıcıdasın. Sesli okuma için Chrome\'da açman daha iyi olur.',openChrome:'Chrome\'da aç',copy:'Kopyala',copied:'Kopyalandı ✓',
  rights:'Tüm hakları saklıdır.',biz:'İş birliği',
  credit:'Oyun yapımı ve tasarımı: Wonju Kim · Kontrol ve düzeltme: Aslıhan Erdoğan',
- settings:'Ayarlar',lang:'Dil',roundSize:'Bir turdaki kelime',sizeAll:'Tümü',sound:'Ses',autoOn:'Kelimeyi otomatik oku: Açık',autoOff:'Kelimeyi otomatik oku: Kapalı',test:'Sesi dene',voiceH:'Ses seçimi',vAuto:'Otomatik (kadın sesi)',vGT:'Google Çeviri sesi (kadın · internet)',vMale:'Erkek sesi',vLow1:'Biraz kalın ses',vLow2:'Kalın ses',vHQ:'gelişmiş',vHQ2:'premium',vOnline:'çevrimiçi',noVoice:'Bu tarayıcıda Korece ses bulunamadı. Chrome\'da Google 한국의 sesini kullanabilirsin.',speedH:'Okuma hızı',rSlow2:'Çok yavaş',rSlow:'Yavaş',rNorm:'Normal',name:'Bitki arkadaşının adı',
+ settings:'Ayarlar',lang:'Dil',roundSize:'Bir turdaki kelime',sizeAll:'Tümü',sound:'Ses',sfxOn:'Efekt sesleri: Açık',sfxOff:'Efekt sesleri: Kapalı',autoOn:'Kelimeyi otomatik oku: Açık',autoOff:'Kelimeyi otomatik oku: Kapalı',test:'Sesi dene',voiceH:'Ses seçimi',vAuto:'Otomatik (kadın sesi)',vGT:'Google Çeviri sesi (kadın · internet)',vMale:'Erkek sesi',vLow1:'Biraz kalın ses',vLow2:'Kalın ses',vHQ:'gelişmiş',vHQ2:'premium',vOnline:'çevrimiçi',noVoice:'Bu tarayıcıda Korece ses bulunamadı. Chrome\'da Google 한국의 sesini kullanabilirsin.',speedH:'Okuma hızı',rSlow2:'Çok yavaş',rSlow:'Yavaş',rNorm:'Normal',name:'Bitki arkadaşının adı',
  look:'Görünüm',guideH:'Tanıtım',guideBtn:'Tanıtımı tekrar izle',stacheOn:'Bıyık: Var',stacheOff:'Bıyık: Yok',
  reset:'İlerlemeyi sıfırla',resetSure:'Emin misin? Tekrar dokun',msg:'Mesaj',settingsA:'Ayarlar',quit:'Çık',listen:'Dinle',
  lvUp:'Seviye atladın!',lvSub:n=>`Artık Lv.${n}`,great:'Harika!',
@@ -124,7 +124,7 @@ ko:{sub:'한국어 단어의 숲 · A1–B2 · TOPIK Ⅰ·Ⅱ',a2hsT:'📲 홈 �
  namePh:'식물 친구 이름 (선택)',chromeTxt:'앱 안의 브라우저에서는 음성이 안 나올 수 있어요. Chrome에서 여는 게 좋아요.',openChrome:'Chrome에서 열기',copy:'복사',copied:'복사됨 ✓',
  rights:'All rights reserved.',biz:'비즈니스 협업',
  credit:'게임 제작 및 기획: Wonju Kim · 검수 및 교정: Aslıhan Erdoğan',
- settings:'설정',lang:'언어',roundSize:'한 판 단어 수',sizeAll:'전체',sound:'소리',autoOn:'단어 자동 읽기: 켜짐',autoOff:'단어 자동 읽기: 꺼짐',test:'소리 들어 보기',voiceH:'목소리 선택',vAuto:'자동 (여성 목소리)',vGT:'구글 번역 목소리 (여성 · 인터넷)',vMale:'남자 목소리',vLow1:'조금 낮은 목소리',vLow2:'낮은 목소리',vHQ:'고음질',vHQ2:'프리미엄',vOnline:'온라인',noVoice:'이 브라우저에는 한국어 음성이 없어요. Chrome의 Google 한국의 음성을 쓸 수 있어요.',speedH:'읽기 속도',rSlow2:'아주 느리게',rSlow:'느리게',rNorm:'보통',name:'식물 친구 이름',
+ settings:'설정',lang:'언어',roundSize:'한 판 단어 수',sizeAll:'전체',sound:'소리',sfxOn:'효과음: 켜짐',sfxOff:'효과음: 꺼짐',autoOn:'단어 자동 읽기: 켜짐',autoOff:'단어 자동 읽기: 꺼짐',test:'소리 들어 보기',voiceH:'목소리 선택',vAuto:'자동 (여성 목소리)',vGT:'구글 번역 목소리 (여성 · 인터넷)',vMale:'남자 목소리',vLow1:'조금 낮은 목소리',vLow2:'낮은 목소리',vHQ:'고음질',vHQ2:'프리미엄',vOnline:'온라인',noVoice:'이 브라우저에는 한국어 음성이 없어요. Chrome의 Google 한국의 음성을 쓸 수 있어요.',speedH:'읽기 속도',rSlow2:'아주 느리게',rSlow:'느리게',rNorm:'보통',name:'식물 친구 이름',
  look:'꾸미기',guideH:'소개',guideBtn:'소개 다시 보기',stacheOn:'콧수염: 있음',stacheOff:'콧수염: 없음',
  reset:'기록 초기화',resetSure:'정말요? 한 번 더 누르세요',msg:'메시지',quit:'그만하기',listen:'듣기',
  lvUp:'레벨 업!',lvSub:n=>`이제 Lv.${n}`,great:'좋아요!',
@@ -338,7 +338,8 @@ function answer(id){
  state.gain=g;state.sb=sb;state.correctNow=correct;state.xp+=g;
  state.offerBonus=!bonus&&correct&&!item.parent&&item.pairs.length>0;
  if(correct){$('qMini').classList.add('happy');setTimeout(()=>$('qMini').classList.remove('happy'),1500)}
- renderFeedback();$('fb').hidden=false;$('fNext').focus({preventScroll:true});
+ BGM.sfx(correct?'ok':'no');if(!correct&&!matchMedia('(prefers-reduced-motion: reduce)').matches){const gm=$('game');gm.classList.remove('shake');void gm.offsetWidth;gm.classList.add('shake');setTimeout(()=>gm.classList.remove('shake'),600)}
+ renderFeedback();const fbAt=state;setTimeout(()=>{if(state!==fbAt||state.phase!=='fb')return;$('fb').hidden=false;$('fNext').focus({preventScroll:true})},correct?750:650);
  gain(g);
 }
 function renderFeedback(){
@@ -479,7 +480,7 @@ $('lvBody').addEventListener('click',e=>{const b=e.target.closest('.pick');if(!b
 function renderSettings(){try{$('rvSet').hidden=!(RV.unlocked||Object.keys(RV.items||{}).length)}catch(e){}
  $('sizeChips').innerHTML=[10,0].map(n=>`<button class="chip" data-size="${n}" aria-pressed="${n===S.size}">${n?n:t('sizeAll')+' · '+pool().length}</button>`).join('');
  $('bTimer').textContent=S.timer?t('timerOn'):t('timerOff');$('bTimer').setAttribute('aria-pressed',S.timer);
- $('bAuto').textContent=S.auto?t('autoOn'):t('autoOff');$('bAuto').setAttribute('aria-pressed',S.auto);
+ $('bAuto').textContent=S.auto?t('autoOn'):t('autoOff');$('bSfx').textContent=S.sfx===false?t('sfxOff'):t('sfxOn');$('bAuto').setAttribute('aria-pressed',S.auto);
  $('bMusic').textContent=S.music?t('musicOn'):t('musicOff');$('bMusic').setAttribute('aria-pressed',S.music);$('vol').value=S.vol;
  $('bStache').textContent=S.stache?t('stacheOn'):t('stacheOff');$('bStache').setAttribute('aria-pressed',S.stache);
  renderVoices();
@@ -490,6 +491,7 @@ $('sizeChips').addEventListener('click',e=>{const b=e.target.closest('[data-size
 $('bTimer').onclick=()=>{S.timer=!S.timer;save();renderSettings()};
 $('bStache').onclick=()=>{S.stache=!S.stache;save();renderSettings();renderHome()};
 $('bAuto').onclick=()=>{S.auto=!S.auto;save();renderSettings()};
+$('bSfx').onclick=()=>{S.sfx=S.sfx===false;save();renderSettings();if(S.sfx)BGM.sfx('ok')};
 $('bTest').onclick=()=>speak('안녕하세요. 토픽 합격을 응원해요!',true);
 $('voiceSel').onchange=e=>{S.voice=e.target.value;save();pickVoice();speak('안녕하세요. 반가워요!',true)};
 $('rateChips').addEventListener('click',e=>{const b=e.target.closest('[data-rate]');if(!b)return;S.rate=+b.dataset.rate;save();renderSettings();speak('천천히 따라 읽어 보세요.',true)});
@@ -635,6 +637,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
+ ['3.5','2026-11-27',{tr:["Doğru cevapta kanun sesiyle ışıltılı efekt ve kalın çerçeve, yanlışta bağlama sesi ve ekran sallanması (Ayarlar → Efekt sesleri)"],ko:['정답이면 카눈 소리 띠리링과 굵은 테두리, 오답이면 바을라마 소리 또롱과 화면 흔들림 (설정 → 효과음)']}],
  ['3.4','2026-11-26',{tr:["A1–A2'ye 45 yeni kelime: yönler (동·서·남·북…), vücut, renkler, hayvanlar, zaman (Aslı'nın listesi)"],ko:['A1–A2 초급 어휘 45개 추가: 방향(동·서·남·북…), 몸, 색깔, 동물, 시간']}],
  ['3.3','2026-11-26',{tr:['Yeni açılış rehberi: 덩이 zıplayarak, dönerek 덩어리숲\'u tanıtıyor (Ayarlar → Tanıtımı tekrar izle)','Karşılama penceresi sadeleştirildi','Rehberde altyazı seçimi: TR · 한'],ko:['새 오프닝 안내: 덩이가 점프·회전하며 덩어리숲을 소개해요 (설정 → 소개 다시 보기)','환영 창 간소화 (사용법 부분 삭제)','오프닝 자막 선택: TR · 한']}],
  ['3.2','2026-11-26',{tr:['TOPIK Ⅱ\'ye Aslı\'nın konu listesinden 143 yeni kelime: 경제 (ekonomi), 감정 (duygular), 의성어·의태어 (yansıma sözcükler), 건강 (sağlık), 과학 기술 (bilim ve teknoloji) bölümleri','TOPIK Ⅱ artık 3.459 kelime'],ko:['TOPIK Ⅱ에 아슬르 주제별 단어 143개 추가: 경제·감정·의성어·의태어·건강·과학 기술 단원','TOPIK Ⅱ 총 3,459단어']}],
@@ -766,6 +769,19 @@ const BGM=(()=>{
   stop(){if(!ctx||!on)return;on=false;clearInterval(timer);master.gain.cancelScheduledValues(ctx.currentTime);master.gain.setValueAtTime(master.gain.value,ctx.currentTime);master.gain.linearRampToValueAtTime(0,ctx.currentTime+.8)},
   setVol(){if(ctx&&on){master.gain.cancelScheduledValues(ctx.currentTime);master.gain.setTargetAtTime(vol(),ctx.currentTime,.1)}},
   duck(d){if(ctx&&duckG)duckG.gain.setTargetAtTime(d?.25:1,ctx.currentTime,.15)},
+  // efekt sesleri: doğru = kanun ile Hicaz'da parlak çıkış (띠리링), yanlış = bağlamada inen iki tel (또롱)
+  sfx(kind){if(S.sfx===false)return;try{if(!ctx)init();ctx.resume();
+   const t0=ctx.currentTime+.02,out=ctx.createGain();out.gain.value=.9;out.connect(ctx.destination);
+   const pl=(m,t,v,len,bright,tri)=>{const f=ctx.createBiquadFilter();f.type='lowpass';f.Q.value=2;f.frequency.setValueAtTime(bright,t);f.frequency.exponentialRampToValueAtTime(bright*.25,t+len*.6);
+    const g=ctx.createGain();g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(v,t+.004);g.gain.exponentialRampToValueAtTime(.0005,t+len);
+    [[0,tri?'triangle':'sawtooth',.6,1],[5,'triangle',.5,1],[-3,'sine',.25,2]].forEach(([dt,ty,gv,mul])=>{const o=ctx.createOscillator();o.type=ty;o.frequency.value=N(m)*mul;o.detune.value=dt;const og=ctx.createGain();og.gain.value=gv;o.connect(og);og.connect(f);o.start(t);o.stop(t+len+.05)});
+    f.connect(g);g.connect(out)};
+   if(kind==='ok'){[74,75,78,79,81,86].forEach((m,i)=>pl(m,t0+i*.055,i===5?.16:.11,i===5?1.4:.7,6500,true));
+    // zil (parmak zili) ışıltısı
+    [2637,3520].forEach((fq,i)=>{const o=ctx.createOscillator(),g=ctx.createGain();o.type='sine';o.frequency.value=fq;const tt=t0+.3+i*.02;g.gain.setValueAtTime(0,tt);g.gain.linearRampToValueAtTime(.035,tt+.005);g.gain.exponentialRampToValueAtTime(.0004,tt+1.1);o.connect(g);g.connect(out);o.start(tt);o.stop(tt+1.2)})}
+   else{pl(69,t0,.16,.5,2600,false);pl(64,t0+.17,.17,.9,1800,false);
+    const o=ctx.createOscillator(),g=ctx.createGain();o.type='sine';o.frequency.setValueAtTime(110,t0+.17);o.frequency.exponentialRampToValueAtTime(55,t0+.4);g.gain.setValueAtTime(.18,t0+.17);g.gain.exponentialRampToValueAtTime(.001,t0+.45);o.connect(g);g.connect(out);o.start(t0+.17);o.stop(t0+.5)}
+  }catch(e){}},
   pause(){if(ctx)ctx.suspend()},resume(){if(ctx&&on)ctx.resume()}
  };
 })();
