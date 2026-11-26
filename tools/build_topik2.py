@@ -57,6 +57,14 @@ for ti,t in enumerate(d.tables):
         occ[ko]=occ.get(ko,0)+1
         pr=PAIRS.get(f'{ko}#{occ[ko]}') or (PAIRS.get(ko,'') if occ[ko]==1 else '')
         out.append(f'{ko}|{s}|{pr}|{note}' if note else (f'{ko}|{s}|{pr}' if pr else f'{ko}|{s}'));n+=1
+# Aslı'nın 3–4. seviye ek listesi: #54'ten itibaren 13 bölüm
+_ex=os.path.join(ROOT,'tools/topik2_34.txt')
+if os.path.exists(_ex):
+    _l=[x for x in open(_ex,encoding='utf-8').read().split('\n') if x and not x.startswith('#')]
+    _per=-(-len(_l)//13)
+    for _i in range(13):
+        _c=_l[_i*_per:(_i+1)*_per]
+        if _c: out.append(f'#{len([o for o in out if o.startswith("#")])+1}');out.extend(_c);n+=len(_c)
 js="/* TOPIK Ⅱ sınav kelimeleri — Aslıhan Erdoğan'ın derlediği liste (yaklaşık 15 TOPIK Ⅱ sınavının okuma bölümlerinden).\n   Biçim: korece|türkçe|eş kelimeler|açıklama */\n(window.LEVELS=window.LEVELS||[]).push({id:'TOPIK2',name:'TOPIK Ⅱ',nameKo:'TOPIK Ⅱ',text:`\n"+'\n'.join(out)+"\n`});\n"
 open(os.path.join(ROOT,'data/topik2.js'),'w').write(js)
 md=f"# TOPIK Ⅱ listesi — dönüştürme raporu\n\nOyuna alınan kelime: **{n}** · tekrar edenler atlandı: {len(dups)}\n\n## Düzeltmeler\n| Önce | Sonra | Tür |\n|---|---|---|\n"+'\n'.join(rep)+"\n\n## Aslı'nın kontrolü bekleniyor (şimdilik oyunda yok)\n| Kelime | Anlam |\n|---|---|\n"+'\n'.join(held)+"\n\n## Tekrar eden kelimeler (ilki tutuldu)\n"+', '.join(dups)+"\n"
