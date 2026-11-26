@@ -635,6 +635,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
+ ['3.4','2026-11-26',{tr:["A1–A2'ye 45 yeni kelime: yönler (동·서·남·북…), vücut, renkler, hayvanlar, zaman (Aslı'nın listesi)"],ko:['A1–A2 초급 어휘 45개 추가: 방향(동·서·남·북…), 몸, 색깔, 동물, 시간']}],
  ['3.3','2026-11-26',{tr:['Yeni açılış rehberi: 덩이 zıplayarak, dönerek 덩어리숲\'u tanıtıyor (Ayarlar → Tanıtımı tekrar izle)','Karşılama penceresi sadeleştirildi','Rehberde altyazı seçimi: TR · 한'],ko:['새 오프닝 안내: 덩이가 점프·회전하며 덩어리숲을 소개해요 (설정 → 소개 다시 보기)','환영 창 간소화 (사용법 부분 삭제)','오프닝 자막 선택: TR · 한']}],
  ['3.2','2026-11-26',{tr:['TOPIK Ⅱ\'ye Aslı\'nın konu listesinden 143 yeni kelime: 경제 (ekonomi), 감정 (duygular), 의성어·의태어 (yansıma sözcükler), 건강 (sağlık), 과학 기술 (bilim ve teknoloji) bölümleri','TOPIK Ⅱ artık 3.459 kelime'],ko:['TOPIK Ⅱ에 아슬르 주제별 단어 143개 추가: 경제·감정·의성어·의태어·건강·과학 기술 단원','TOPIK Ⅱ 총 3,459단어']}],
  ['3.1','2026-11-26',{tr:['TOPIK Ⅱ\'ye Aslı\'nın 3–4. seviye listesinden 627 yeni kelime eklendi (bölüm 54–66), her kelimeye eş kelimeler','TOPIK Ⅱ artık 3.316 kelime'],ko:['TOPIK Ⅱ에 아슬르의 3–4급 단어 627개 추가 (54–66단원), 모든 단어에 짝꿍어휘','TOPIK Ⅱ 총 3,316단어']}],

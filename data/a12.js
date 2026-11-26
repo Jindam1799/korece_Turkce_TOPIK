@@ -215,6 +215,17 @@
 시간|zaman, saat (süre)|시간이 없다=zaman yok;두 시간=iki saat
 시|saat (saat kaç)|몇 시예요?=Saat kaç?;한 시=saat bir
 분#2|dakika|십 분=on dakika;몇 분 걸려요?=Kaç dakika sürer?
+날|gün|좋은 날=güzel bir gün;날을 잡다=gün belirlemek
+일#2|gün (sayıyla)|삼 일=üç gün;며칠=kaç gün
+월|ay (sayıyla)|삼월=mart;몇 월=hangi ay
+주중|hafta içi|주중에 일하다=hafta içi çalışmak;주중 할인=hafta içi indirimi
+이번 주|bu hafta|이번 주 금요일=bu cuma;이번 주에 바쁘다=bu hafta meşgul olmak
+이번 달|bu ay|이번 달 월급=bu ayın maaşı;이번 달 말=bu ayın sonu
+다음 주|gelecek hafta|다음 주에 만나요=gelecek hafta görüşelim;다음 주 월요일=gelecek pazartesi
+다음 달|gelecek ay|다음 달에 이사하다=gelecek ay taşınmak;다음 달 초=gelecek ayın başı
+그제|evvelsi gün|그제 만났다=evvelsi gün buluştuk;그제 밤=evvelsi gece
+늘|her zaman|늘 고맙다=her zaman minnettar olmak;늘 바쁘다=hep meşgul olmak
+주로|genellikle, çoğunlukla|주로 집에서 쉬다=genellikle evde dinlenmek;주로 먹는 음식=en çok yenen yemek
 #날씨와 계절 (hava ve mevsimler)
 계절|mevsim|계절이 바뀌다=mevsimin değişmesi;좋아하는 계절=sevdiğim mevsim
 맑다|açık olmak (hava)|날씨가 맑다=hava açık;하늘이 맑다=gökyüzü açık
@@ -237,6 +248,7 @@
 날씨|hava (durumu)|날씨가 좋다=hava güzel;날씨가 흐리다=hava kapalı
 눈이 내리다|kar yağmak|눈이 많이 내리다=çok kar yağmak;밤새 눈이 내리다=bütün gece kar yağmak
 비가 오다|yağmur yağmak|비가 많이 오다=çok yağmur yağmak;비가 와서 우산을 쓰다=yağmur yağdığı için şemsiye açmak
+눈#2|kar|눈이 오다=kar yağmak;눈사람=kardan adam
 #위치와 방향 (konum ve yön)
 앞|ön|학교 앞=okulun önü;앞에 서다=önde durmak
 뒤|arka|문 뒤=kapının arkası;뒤를 보다=arkaya bakmak
@@ -262,6 +274,14 @@
 동쪽|doğu|동쪽 하늘=doğu gökyüzü;해가 동쪽에서 뜨다=güneşin doğudan doğması
 남쪽|güney|남쪽 지방=güney bölgesi;남쪽으로 내려가다=güneye inmek
 북쪽|kuzey|북쪽 지방=kuzey bölgesi;북쪽으로 가다=kuzeye gitmek
+동|doğu|동해=Doğu Denizi;동아시아=Doğu Asya
+서|batı|서해=Sarı Deniz (Batı Denizi);서울 서부=Seul'ün batısı
+남|güney|남한=Güney Kore;남부 지방=güney bölgesi
+북|kuzey|북한=Kuzey Kore;북극=Kuzey Kutbu
+남동|güneydoğu|남동쪽=güneydoğu yönü;남동부=güneydoğu bölgesi
+남서|güneybatı|남서쪽=güneybatı yönü;남서풍=güneybatı rüzgârı
+북동|kuzeydoğu|북동쪽=kuzeydoğu yönü;북동부=kuzeydoğu bölgesi
+북서|kuzeybatı|북서쪽=kuzeybatı yönü;북서풍=kuzeybatı rüzgârı
 #장소와 건물 (yerler ve binalar)
 지하|bodrum kat|지하 1층=eksi birinci kat;지하에 있다=bodrum katta olmak
 주소|adres|주소를 쓰다=adres yazmak;주소가 어떻게 되세요?=Adresiniz nedir?
@@ -554,6 +574,22 @@
 폐|akciğer|폐가 건강하다=akciğeri sağlıklı;폐에 나쁘다=akciğere zararlı
 간|karaciğer|간이 나쁘다=karaciğeri kötü;간 건강=karaciğer sağlığı
 신장|böbrek|신장이 약하다=böbrekleri zayıf;신장 기능=böbrek fonksiyonu
+눈|göz|눈이 크다=gözleri büyük olmak;눈을 감다=gözlerini kapamak
+가슴|göğüs|가슴이 아프다=göğsü ağrımak;가슴이 뛰다=kalbi hızlı çarpmak
+살|et, ten|살이 찌다=kilo almak;살을 빼다=kilo vermek
+속눈썹|kirpik|긴 속눈썹=uzun kirpikler;속눈썹이 빠지다=kirpiği düşmek
+콧대|burun kemeri|콧대가 높다=burnu havada olmak (kibirli);콧대가 서다=burun kemeri belirgin olmak
+귓구멍|kulak deliği|귓구멍을 막다=kulağını tıkamak;귓구멍이 가렵다=kulak deliği kaşınmak
+목구멍|boğaz (iç)|목구멍이 따갑다=boğazı yanmak;목구멍에 걸리다=boğazına takılmak
+윗몸|üst vücut|윗몸 일으키기=mekik;윗몸을 숙이다=öne eğilmek
+히프|kalça|히프가 크다=kalçası geniş olmak;히프 라인=kalça hattı
+둔부|kalça (resmî)|둔부 근육=kalça kası;둔부 통증=kalça ağrısı
+무릎뼈|diz kapağı|무릎뼈를 다치다=diz kapağını incitmek;무릎뼈가 아프다=diz kapağı ağrımak
+위장|mide (ve bağırsaklar)|위장이 약하다=midesi hassas olmak;위장병=mide rahatsızlığı
+창자|bağırsak|창자가 꼬이다=bağırsakları düğümlenmek;작은창자=ince bağırsak
+장기|organ (iç)|장기 기증=organ bağışı;장기 이식=organ nakli
+방광|mesane|방광염=mesane iltihabı;방광이 차다=mesanesi dolmak
+허리띠|kemer|허리띠를 매다=kemer takmak;허리띠를 졸라매다=kemerleri sıkmak (tasarruf etmek)
 #취미와 여가 (hobi ve boş zaman)
 활동|etkinlik, aktivite|야외 활동=açık hava etkinliği;활동을 하다=etkinlik yapmak
 경기|maç, müsabaka|축구 경기=futbol maçı;경기를 보다=maç izlemek
@@ -711,6 +747,9 @@
 초록색|yeşil|초록색 잎=yeşil yaprak;초록색 신호=yeşil ışık
 남색|lacivert|남색 바지=lacivert pantolon;남색 교복=lacivert okul forması
 색깔|renk|좋아하는 색깔=sevdiğim renk;색깔이 예쁘다=rengi güzel olmak
+하얀색|beyaz|하얀색 셔츠=beyaz gömlek;하얀색 눈=bembeyaz kar
+까만색|siyah|까만색 구두=siyah ayakkabı;까만색 머리=siyah saç
+녹색|yeşil|녹색 신호=yeşil ışık;녹색 채소=yeşil sebze
 #동물과 식물 (hayvan ve bitki)
 동물|hayvan|동물을 키우다=hayvan beslemek;동물원=hayvanat bahçesi
 강아지|köpek yavrusu|강아지를 키우다=köpek yavrusu beslemek;강아지와 산책하다=köpekle yürüyüş yapmak
@@ -804,6 +843,12 @@
 꽃|çiçek|꽃이 피다=çiçek açmak;꽃을 선물하다=çiçek hediye etmek
 나뭇가지|ağaç dalı|나뭇가지가 부러지다=dalın kırılması;나뭇가지에 앉다=dala konmak
 나뭇잎|ağaç yaprağı|나뭇잎이 떨어지다=yaprak dökülmesi;노란 나뭇잎=sarı yaprak
+생쥐|fare (küçük)|생쥐 한 마리=bir fare;생쥐처럼 작다=fare gibi küçük
+새끼|yavru|새끼를 낳다=yavrulamak;새끼 고양이=kedi yavrusu
+새끼 고양이|kedi yavrusu|새끼 고양이를 키우다=kedi yavrusu beslemek;귀여운 새끼 고양이=sevimli kedi yavrusu
+침팬지|şempanze|침팬지가 똑똑하다=şempanze zekidir;침팬지 무리=şempanze sürüsü
+오랑우탄|orangutan|오랑우탄을 보다=orangutan görmek;오랑우탄 보호=orangutanları korumak
+치타|çita|치타처럼 빠르다=çita gibi hızlı;치타가 달리다=çitanın koşması
 #자주 쓰는 동사 (sık kullanılan fiiller)
 찾다|aramak, bulmak|길을 찾다=yolu aramak;열쇠를 찾다=anahtarı bulmak
 보이다|görünmek, göstermek|잘 보이다=iyi görünmek;신분증을 보이다=kimliğini göstermek
