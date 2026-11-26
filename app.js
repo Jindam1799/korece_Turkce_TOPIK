@@ -635,7 +635,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
- ['3.3','2026-11-26',{tr:['Yeni açılış rehberi: 덩이 zıplayarak, dönerek 덩어리숲\'u tanıtıyor (Ayarlar → Tanıtımı tekrar izle)','Karşılama penceresi sadeleştirildi'],ko:['새 오프닝 안내: 덩이가 점프·회전하며 덩어리숲을 소개해요 (설정 → 소개 다시 보기)','환영 창 간소화 (사용법 부분 삭제)']}],
+ ['3.3','2026-11-26',{tr:['Yeni açılış rehberi: 덩이 zıplayarak, dönerek 덩어리숲\'u tanıtıyor (Ayarlar → Tanıtımı tekrar izle)','Karşılama penceresi sadeleştirildi','Rehberde altyazı seçimi: TR · 한'],ko:['새 오프닝 안내: 덩이가 점프·회전하며 덩어리숲을 소개해요 (설정 → 소개 다시 보기)','환영 창 간소화 (사용법 부분 삭제)','오프닝 자막 선택: TR · 한']}],
  ['3.2','2026-11-26',{tr:['TOPIK Ⅱ\'ye Aslı\'nın konu listesinden 143 yeni kelime: 경제 (ekonomi), 감정 (duygular), 의성어·의태어 (yansıma sözcükler), 건강 (sağlık), 과학 기술 (bilim ve teknoloji) bölümleri','TOPIK Ⅱ artık 3.459 kelime'],ko:['TOPIK Ⅱ에 아슬르 주제별 단어 143개 추가: 경제·감정·의성어·의태어·건강·과학 기술 단원','TOPIK Ⅱ 총 3,459단어']}],
  ['3.1','2026-11-26',{tr:['TOPIK Ⅱ\'ye Aslı\'nın 3–4. seviye listesinden 627 yeni kelime eklendi (bölüm 54–66), her kelimeye eş kelimeler','TOPIK Ⅱ artık 3.316 kelime'],ko:['TOPIK Ⅱ에 아슬르의 3–4급 단어 627개 추가 (54–66단원), 모든 단어에 짝꿍어휘','TOPIK Ⅱ 총 3,316단어']}],
  ['3.0','2026-11-26',{tr:['B1–B2 kelimeleri Aslı tarafından kontrol edildi: 380 kelimenin anlamı ve eş kelimeleri düzeltildi (자기소개서, 담다, 돌탑, 가까이 dahil)','Giriş ekranında TOPIK Ⅰ · TOPIK Ⅱ rozetleri'],ko:['B1–B2 아슬르 검수 반영: 380개 단어 뜻·짝꿍어휘 수정','첫 화면에 TOPIK Ⅰ · TOPIK Ⅱ 배지']}],
@@ -854,7 +854,22 @@ $('nameIn').value=S.name;
 $('iScene').innerHTML=sceneSVG(1);$('iMascot').innerHTML=art();
 /* ── 오프닝 안내 (덩이의 소개) ── */
 const GD={"tr": {"ui": {"skip": "Geç ›", "tap": "dokun ›", "start": "Başla! 🌱", "l1": "başlangıç", "l2": "orta", "l3": "ileri", "soon": "yakında!", "sun": "gün · güneş"}, "s": [["hello", "Herkese merhaba! <b>덩어리숲</b>'a hoş geldiniz!", "jump"], ["wonju", "<b>덩어리숲</b>, Türkiye'de yaşayan ve Korece öğrenmeye gönül vermiş herkes için <b>Wonju</b> tarafından oluşturulmuş bir Korece öğrenme uygulamasıdır.", "wave"], ["roof", "<b>“Korece öğrenme yolculuğunuzda ihtiyaç duyabileceğiniz her şey, tek bir çatı altında!”</b> Bu mottoyla yola çıkarak uygulamamızdaki içerikleri farklı öğrenme amaçlarına göre kategorilere ayırdık.", "squish"], ["levels", "Koreceye yeni başlayanlar ve hobi olarak öğrenenler için <b>A1-A2, B1-B2</b> ve <b>C1-C2</b> seviyelerinde kelime çalışmaları hazırladık. (C1-C2 çok yakında!)", "bounce"], ["topik", "TOPIK sınavına hazırlananlar, Kore'de eğitim almak veya iş hayatında Koreceyi kullanmak isteyenler için ise <b>TOPIK I (1-2급)</b> ve <b>TOPIK II (3-6급)</b> kelime kategorilerini oluşturduk.", "jump"], ["hanja", "Ayrıca, ileri seviyede Korece öğrenmek ve TOPIK II'de 5. ve 6. seviyelere ulaşmak isteyenler için <b>Hanja (한자)</b> çalışmalarına da yer verdik.", "wiggle"], ["grow", "Üstelik içeriklerimiz <b>sürekli güncelleniyor</b> ve her geçen gün geliştiriliyor.", "spin"], ["all", "Korece öğrenmek için ihtiyaç duyabileceğiniz bu kadar kapsamlı içeriği daha önce bir arada görmüş müydünüz?", "wave"], ["end", "Şimdi keşfetme sırası sizde! Korece öğrenme yolculuğunuzda yeni yol arkadaşınız: <b>덩어리숲</b>!", "spin"]]}, "ko": {"ui": {"skip": "건너뛰기 ›", "tap": "터치 ›", "start": "시작! 🌱", "l1": "입문", "l2": "중급", "l3": "고급", "soon": "곧 출시!", "sun": "날 · 해"}, "s": [["hello", "여러분 안녕하세요! <b>덩어리숲</b>에 오신 것을 환영해요!", "jump"], ["wonju", "<b>덩어리숲</b>은 튀르키예에 살면서 한국어 공부에 마음을 쏟는 모든 분을 위해 <b>원주</b>가 만든 한국어 학습 앱이에요.", "wave"], ["roof", "<b>“한국어 공부 여정에 필요한 모든 것을 한곳에!”</b> 이 모토로 출발해서 앱의 내용을 학습 목적에 따라 나눴어요.", "squish"], ["levels", "한국어를 처음 시작하거나 취미로 배우는 분들을 위해 <b>A1-A2, B1-B2</b>, <b>C1-C2</b> 단계 단어를 준비했어요. (C1-C2는 곧 업데이트돼요!)", "bounce"], ["topik", "TOPIK을 준비하거나 한국에서 공부하고 일하고 싶은 분들을 위해 <b>TOPIK Ⅰ(1-2급)</b>과 <b>TOPIK Ⅱ(3-6급)</b> 단어를 만들었어요.", "jump"], ["hanja", "고급 한국어를 배우고 TOPIK Ⅱ 5–6급을 목표로 하는 분들을 위해 <b>한자</b> 공부도 넣었어요.", "wiggle"], ["grow", "게다가 내용은 <b>계속 업데이트</b>되고 날마다 발전하고 있어요.", "spin"], ["all", "한국어 공부에 필요한 이렇게 풍부한 내용을 한곳에서 본 적 있나요?", "wave"], ["end", "이제 여러분이 탐험할 차례예요! 한국어 여정의 새 길동무, <b>덩어리숲</b>!", "spin"]]}};
-const gdT=()=>GD[S.lang]||GD[Object.keys(GD)[0]];
+let gdLang=null;
+const gdT=()=>GD[gdLang]||GD[S.lang]||GD[Object.keys(GD)[0]];
+/* 음성 나레이션: audio/guide/<언어>/01.mp3 … 09.mp3 를 올린 뒤 해당 언어를 true 로 바꾸세요. */
+const GD_VOICE=Object.fromEntries(Object.keys(GD).map(k=>[k,false]));
+const GDA=new Audio();GDA.preload='auto';let gdAuto=null;
+function gdStopVoice(){clearTimeout(gdAuto);try{GDA.pause()}catch(e){}GDA.onended=GDA.onerror=GDA.onloadedmetadata=null;BGM.duck(false)}
+function gdVoice(n,len){
+ gdStopVoice();if(!GD_VOICE[gdLang]||S.gdMute)return 26;
+ GDA.src=`audio/guide/${gdLang}/${String(n+1).padStart(2,'0')}.mp3`;
+ GDA.onended=()=>{BGM.duck(false);const g=gdT();if(gdI===n&&n<g.s.length-1)gdAuto=setTimeout(()=>{if(gdI===n&&!$('guide').hidden){gdFinishType();gdShow(n+1)}},1400)};
+ GDA.onerror=()=>BGM.duck(false);
+ GDA.onloadedmetadata=()=>{if(isFinite(GDA.duration)&&gdI===n)gdSpeed=Math.max(18,Math.min(90,GDA.duration*1000*.85/Math.max(1,len)))};
+ BGM.duck(true);const pr=GDA.play();if(pr&&pr.catch)pr.catch(()=>BGM.duck(false));
+ return 40;
+}
+let gdSpeed=26;
 let gdI=0,gdTy=null,gdFull='',gdDone=null,gdBusy=false;
 function gdAct(kind){
  const m=$('gdM');if(!m)return;const acts=['jump','spin','wiggle','squish','bounce','wave'];
@@ -887,26 +902,29 @@ function gdType(h){
   if(pi>=parts.length){clearInterval(gdTy);gdTy=null;t.innerHTML=gdFull;b.classList.add('done');m.classList.remove('talk');return}
   out+=parts[pi][ci++];if(ci>=parts[pi].length){pi++;ci=0}
   t.innerHTML=out+'<span class="gcur">▍</span>';
- },26);
+ },gdSpeed);
 }
+function gdFinishType(){if(gdTy){clearInterval(gdTy);gdTy=null;$('gdTxt').innerHTML=gdFull;$('gdBub').classList.add('done');$('gdM').classList.remove('talk')}}
 function gdShow(n){
  const g=gdT();gdI=n;[...$('gdDots').children].forEach((d,k)=>d.classList.toggle('on',k===gdI));
- const [v,txt,act]=g.s[gdI];gdVis(v);gdType(txt);setTimeout(()=>gdAct(act),120);
+ const [v,txt,act]=g.s[gdI];gdVis(v);gdSpeed=gdVoice(gdI,txt.replace(/<[^>]+>/g,'').length);gdType(txt);setTimeout(()=>gdAct(act),120);
 }
-function gdApplyLang(){const g=gdT();$('gdSkip').textContent=g.ui.skip;$('gdNext').textContent=g.ui.tap;$('gdGoB').textContent=g.ui.start;$('gdDots').innerHTML=g.s.map(()=>'<i></i>').join('')}
+function gdApplyLang(){const g=gdT();$('gdLang').innerHTML=Object.keys(GD).map(k=>`<button data-gl="${k}" class="${k===gdLang?'on':''}">${k==='ko'?'한':k.toUpperCase()}</button>`).join('');$('gdMute').textContent=S.gdMute?'🔇':'🔊';$('gdMute').hidden=!GD_VOICE[gdLang];$('gdSkip').textContent=g.ui.skip;$('gdNext').textContent=g.ui.tap;$('gdGoB').textContent=g.ui.start;$('gdDots').innerHTML=g.s.map(()=>'<i></i>').join('')}
 function openGuide(done){
- gdDone=done||null;$('gdScene').innerHTML=sceneSVG(1);$('gdM').innerHTML=art();gdApplyLang();$('guide').hidden=false;requestAnimationFrame(()=>$('guide').classList.add('in'));gdShow(0);
+ gdDone=done||null;gdLang=GD[S.lang]?S.lang:Object.keys(GD)[0];$('gdScene').innerHTML=sceneSVG(1);$('gdM').innerHTML=art();gdApplyLang();$('guide').hidden=false;requestAnimationFrame(()=>$('guide').classList.add('in'));gdShow(0);
 }
 function closeGuide(){
- if($('guide').hidden)return;clearInterval(gdTy);gdTy=null;S.guideSeen=true;save();
+ if($('guide').hidden)return;clearInterval(gdTy);gdTy=null;gdStopVoice();S.guideSeen=true;save();
  $('guide').classList.remove('in');setTimeout(()=>{$('guide').hidden=true;$('gdStage').innerHTML='';const f=gdDone;gdDone=null;if(f)f()},350);
 }
 $('guide').addEventListener('click',e=>{
  if(e.target.closest('#gdSkip'))return closeGuide();
+ const gl=e.target.closest('[data-gl]');if(gl){gdLang=gl.dataset.gl;gdApplyLang();gdShow(gdI);return}
+ if(e.target.closest('#gdMute')){S.gdMute=!S.gdMute;save();gdApplyLang();if(S.gdMute)gdStopVoice();else gdShow(gdI);return}
  if(e.target.closest('#gdGo'))return closeGuide();
  if(e.target.closest('#gdMw')){gdAct();return}
  if(gdTy){clearInterval(gdTy);gdTy=null;$('gdTxt').innerHTML=gdFull;$('gdBub').classList.add('done');$('gdM').classList.remove('talk');return}
- const g=gdT();if(gdI<g.s.length-1)gdShow(gdI+1);
+ clearTimeout(gdAuto);const g=gdT();if(gdI<g.s.length-1)gdShow(gdI+1);
 });
 document.addEventListener('keydown',e=>{if($('guide').hidden)return;if(e.key==='Escape')closeGuide();else if(e.key==='Enter'||e.key===' '||e.key==='ArrowRight'){e.preventDefault();$('guide').click()}});
 $('bGuide').onclick=()=>{$('mSet').hidden=true;openGuide(()=>{})};
