@@ -652,6 +652,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
+ ['4.9','2026-11-27',{tr:["Açılış rehberindeki Korece anlatım artık Wonju'nun kendi sesiyle"],ko:['오프닝 한국어 내레이션을 원주의 실제 목소리로 교체']}],
  ['4.8','2026-11-27',{tr:["Aslı'nın kontrolü uygulandı: abi, temel sıfat ve fiil örnekleri (-mak/-mek biçimi), özel adlar (Kore, Seul, Noel, Wi-Fi)"],ko:['아슬르 검수 반영: 형·오빠 → abi, 기본 형용사·동사 예문 -mak 형태 통일, 고유명사 대문자']}],
  ['4.7','2026-11-27',{tr:["Açılış rehberindeki Türkçe anlatım artık Aslı'nın kendi sesiyle 💚"],ko:['오프닝 튀르키예어 내레이션을 아슬르의 실제 목소리로 교체 💚']}],
  ['4.6','2026-11-27',{tr:["B1–B2 de artık konulara göre: 19 konu, 51 bölüm (kelime ilerlemen korunuyor)"],ko:['B1–B2도 주제별로 정리: 19개 주제, 51단원 (단어 학습 기록은 그대로)']}],
@@ -951,13 +952,13 @@ const GD={"tr": {"ui": {"skip": "Geç ›", "tap": "dokun ›", "start": "Başla
 let gdLang=null;
 const gdT=()=>GD[gdLang]||GD[S.lang]||GD[Object.keys(GD)[0]];
 /* 음성 나레이션: audio/guide/<언어>/01.mp3 … 09.mp3 를 올린 뒤 해당 언어를 true 로 바꾸세요. */
-const GD_VOICE={tr:true,ko:true}; // tr: Aslı'nın sesi (a=2)
+const GD_VOICE={tr:true,ko:true}; // tr: Aslı'nın sesi, ko: Wonju'nun sesi (a=3)
 const GDA=new Audio();GDA.preload='auto';let gdAuto=null;
 function gdStopVoice(){clearTimeout(gdAuto);try{GDA.pause()}catch(e){}GDA.onended=GDA.onerror=GDA.onloadedmetadata=null;BGM.duck(false)}
-const GDPRE={};function gdPre(i){const g=gdT();if(i>=g.s.length)return;const src=`audio/guide/${gdLang}/${String(i+1).padStart(2,'0')}.mp3?a=2`;if(!GDPRE[src]){const a=new Audio();a.preload='auto';a.src=src;GDPRE[src]=a}}
+const GDPRE={};function gdPre(i){const g=gdT();if(i>=g.s.length)return;const src=`audio/guide/${gdLang}/${String(i+1).padStart(2,'0')}.mp3?a=3`;if(!GDPRE[src]){const a=new Audio();a.preload='auto';a.src=src;GDPRE[src]=a}}
 function gdVoice(n,len){
  gdStopVoice();if(!GD_VOICE[gdLang]||S.gdMute)return 26;
- GDA.src=`audio/guide/${gdLang}/${String(n+1).padStart(2,'0')}.mp3?a=2`;
+ GDA.src=`audio/guide/${gdLang}/${String(n+1).padStart(2,'0')}.mp3?a=3`;
  GDA.onended=()=>{BGM.duck(false);const g=gdT();if(gdI===n&&n<g.s.length-1)gdAuto=setTimeout(()=>{if(gdI===n&&!$('guide').hidden){gdFinishType();gdShow(n+1)}},1400)};
  GDA.onerror=()=>BGM.duck(false);
  GDA.onloadedmetadata=()=>{if(isFinite(GDA.duration)&&gdI===n)gdSpeed=Math.max(18,Math.min(90,GDA.duration*1000*.85/Math.max(1,len)))};
