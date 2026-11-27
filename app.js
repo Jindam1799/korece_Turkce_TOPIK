@@ -644,6 +644,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
+ ['4.4','2026-11-27',{tr:["TOPIK II artık konulara göre: 20 konu (duygular, sağlık, ekonomi, toplum, kültür, bilim, sık fiiller…), 82 bölüm"],ko:['TOPIK Ⅱ를 주제별로 정리: 감정·건강·경제·사회·문화·과학·자주 쓰는 동사 등 20개 주제, 82단원']}],
  ['4.3','2026-11-27',{tr:["Kelime sayıları yuvarlandı: A1–A2 1000 (aile ve temel fiiller dahil 62 yeni), B1–B2 2000, TOPIK I 2000, TOPIK II 3500, Hanca 400"],ko:['단어 수 정리: A1–A2 1000 (가족·기본 동사 등 62개 새로), B1–B2 2000, TOPIK Ⅰ 2000, TOPIK Ⅱ 3500, 한자 400']}],
  ['4.2','2026-11-27',{tr:["Yeni yazı tipi: Nunito — ş, ğ, ı, İ gibi Türkçe harfler artık düzgün ve uyumlu görünüyor"],ko:['새 글꼴 Nunito 적용: 튀르키예어·아제르바이잔어 특수 글자(ş, ğ, ı, ə 등)가 깔끔하게 보여요']}],
  ['4.1','2026-11-27',{tr:["Açılış rehberine Türkçe sesli anlatım eklendi (TR altyazıda Türkçe, 한 altyazıda Korece); geçince sıradaki ses hemen başlıyor, bitince otomatik ilerliyor (🔊/🔇 ile kapatılabilir)"],ko:['오프닝 안내에 음성 내레이션 추가 (TR 자막은 튀르키예어, 한 자막은 한국어). 넘기면 다음 음성이 바로 나오고, 끝나면 자동으로 넘어가요 (🔊/🔇로 끄기)']}],
