@@ -952,13 +952,13 @@ const GD={"tr": {"ui": {"skip": "Geç ›", "tap": "dokun ›", "start": "Başla
 let gdLang=null;
 const gdT=()=>GD[gdLang]||GD[S.lang]||GD[Object.keys(GD)[0]];
 /* 음성 나레이션: audio/guide/<언어>/01.mp3 … 09.mp3 를 올린 뒤 해당 언어를 true 로 바꾸세요. */
-const GD_VOICE={tr:true,ko:true}; // tr: Aslı'nın sesi, ko: Wonju'nun sesi (a=4)
+const GD_VOICE={tr:true,ko:true}; // tr: Aslı'nın sesi, ko: Wonju'nun sesi (a=5)
 const GDA=new Audio();GDA.preload='auto';let gdAuto=null;
 function gdStopVoice(){clearTimeout(gdAuto);try{GDA.pause()}catch(e){}GDA.onended=GDA.onerror=GDA.onloadedmetadata=null;BGM.duck(false)}
-const GDPRE={};function gdPre(i){const g=gdT();if(i>=g.s.length)return;const src=`audio/guide/${gdLang}/${String(i+1).padStart(2,'0')}.mp3?a=4`;if(!GDPRE[src]){const a=new Audio();a.preload='auto';a.src=src;GDPRE[src]=a}}
+const GDPRE={};function gdPre(i){const g=gdT();if(i>=g.s.length)return;const src=`audio/guide/${gdLang}/${String(i+1).padStart(2,'0')}.mp3?a=5`;if(!GDPRE[src]){const a=new Audio();a.preload='auto';a.src=src;GDPRE[src]=a}}
 function gdVoice(n,len){
  gdStopVoice();if(!GD_VOICE[gdLang]||S.gdMute)return 26;
- GDA.src=`audio/guide/${gdLang}/${String(n+1).padStart(2,'0')}.mp3?a=4`;
+ GDA.src=`audio/guide/${gdLang}/${String(n+1).padStart(2,'0')}.mp3?a=5`;
  GDA.onended=()=>{BGM.duck(false);const g=gdT();if(gdI===n&&n<g.s.length-1)gdAuto=setTimeout(()=>{if(gdI===n&&!$('guide').hidden){gdFinishType();gdShow(n+1)}},1400)};
  GDA.onerror=()=>BGM.duck(false);
  GDA.onloadedmetadata=()=>{if(isFinite(GDA.duration)&&gdI===n)gdSpeed=Math.max(18,Math.min(90,GDA.duration*1000*.85/Math.max(1,len)))};
