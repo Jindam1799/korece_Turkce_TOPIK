@@ -3533,4 +3533,46 @@
 첨단 과학|ileri teknoloji bilimi|첨단 과학 기술=ileri bilim ve teknoloji;첨단 과학 연구=ileri bilim araştırması
 표현의 자유|ifade özgürlüğü|표현의 자유를 보장하다=ifade özgürlüğünü güvence altına almak;표현의 자유를 침해하다=ifade özgürlüğünü ihlal etmek
 질량|kütle|질량을 재다=kütleyi ölçmek;질량과 무게=kütle ve ağırlık
+#67
+세계 일주|dünya turu|세계 일주를 하다=dünya turu yapmak;배로 세계 일주=gemiyle dünya turu
+해외 봉사 활동|yurt dışında gönüllülük|해외 봉사 활동에 참여하다=yurt dışı gönüllülüğe katılmak;해외 봉사단=yurt dışı gönüllü ekibi
+캠핑카 여행|karavan gezisi|캠핑카 여행을 떠나다=karavan gezisine çıkmak;캠핑카를 빌리다=karavan kiralamak
+패러글라이딩|yamaç paraşütü|패러글라이딩을 하다=yamaç paraşütü yapmak;패러글라이딩 체험=yamaç paraşütü deneyimi
+개인 방송 채널|kişisel yayın kanalı|개인 방송 채널을 만들다=kişisel kanal açmak;채널을 구독하다=kanala abone olmak
+집을 짓다|ev inşa etmek|내가 살 집을 짓다=kendi evini yapmak;시골에 집을 짓다=köyde ev yapmak
+마라톤을 완주하다|maratonu bitirmek|풀코스 마라톤을 완주하다=tam maratonu bitirmek;끝까지 달리다=sonuna kadar koşmak
+한 달 살기|bir ay yaşama (başka yerde)|외국에서 한 달 살기=yurt dışında bir ay yaşamak;제주도 한 달 살기=Jeju'da bir ay yaşamak
+비밀을 지켜 주다|sırrı saklamak|영원히 비밀을 지켜 주다=sırrı sonsuza dek saklamak;비밀을 털어놓다=sırrını açmak
+은혜를 잊지 않다|iyiliği unutmamak|그 은혜를 절대 잊지 않다=o iyiliği asla unutmamak;은혜를 갚다=iyiliğin karşılığını vermek
+채널|kanal|채널을 돌리다=kanal değiştirmek;유튜브 채널=YouTube kanalı
+완주하다|sonuna kadar tamamlamak|코스를 완주하다=parkuru tamamlamak;끝까지 완주하다=sonuna kadar tamamlamak
+소원을 빌다|dilek tutmak|보름달에 소원을 빌다=dolunayda dilek tutmak;소원이 이루어지다=dileği gerçekleşmek
+정성을 다하다|tüm özeni göstermek|정성을 다해 만들다=büyük bir özenle yapmak;정성이 담기다=emek ve özen katılmış olmak
+간절하다|içten, yakıcı (istek)|간절한 소원=yürekten dilek;간절히 바라다=yürekten istemek
+보편적이다|evrensel olmak|보편적인 생각=evrensel düşünce;보편적으로=genel olarak
+버킷 리스트|ölmeden yapılacaklar listesi|버킷 리스트를 만들다=yapılacaklar listesi hazırlamak;버킷 리스트를 실천하다=yapılacaklar listesini gerçekleştirmek
+최선을 다하다|elinden geleni yapmak|시험에 최선을 다하다=sınavda elinden geleni yapmak;최선을 다해 돕다=elinden geldiğince yardım etmek
+내 집을 마련하다|ev sahibi olmak|서울에 내 집을 마련하다=Seul'de ev sahibi olmak;집 마련=ev edinme
+안정된 삶|istikrarlı hayat|안정된 삶을 원하다=istikrarlı bir hayat istemek;경제적 안정=ekonomik istikrar
+초능력이 생기다|süper güç kazanmak|갑자기 초능력이 생기다=aniden süper güç kazanmak;초능력을 가지다=süper gücü olmak
+복권에 당첨되다|piyango kazanmak|로또 복권에 당첨되다=lotoyu kazanmak;복권을 사다=piyango bileti almak
+투명 인간|görünmez adam|투명 인간이 되다=görünmez olmak;투명 인간처럼=görünmez biri gibi
+낭만적이다|romantik olmak|낭만적인 분위기=romantik atmosfer;낭만적인 밤=romantik gece
+현대적이다|modern olmak|현대적인 건물=modern bina;현대적인 디자인=modern tasarım
+활기가 넘치다|canlılık dolu olmak|활기가 넘치는 시장=canlı/hareketli pazar;활기가 넘치는 도시=hareketli şehir
+역사가 깊다|köklü bir tarihi olmak|역사가 깊은 도시=köklü bir tarihi olan şehir;역사가 깊은 절=tarihi derin tapınak
+전망이 좋다|manzarası güzel olmak|전망이 좋은 방=manzaralı oda;전망대=seyir terası
+촬영지로 유명하다|çekim yeri olarak ünlü olmak|드라마 촬영지로 유명하다=dizi çekim yeri olarak ünlü olmak;촬영지를 방문하다=çekim yerini ziyaret etmek
+분위기를 풍기다|atmosfer yaymak|이국적인 분위기를 풍기다=egzotik bir hava yaymak;따뜻한 분위기를 풍기다=sıcak bir hava yaymak
+야경이 아름답다|gece manzarası güzel olmak|서울의 야경이 아름답다=seul'ün gece manzarası güzel olmak;야경을 구경하다=gece manzarasını seyretmek
+역사를 느낄 수 있다|tarihi hissedebilmek|골목에서 역사를 느낄 수 있다=sokaklarda tarihi hissedebilmek;과거를 느끼다=geçmişi hissetmek
+수상 스포츠|su sporları|수상 스포츠를 즐기다=su sporlarının tadını çıkarmak;수상 스키=su kayağı
+촬영장|çekim seti|드라마 촬영장=dizi seti;촬영장을 구경하다=çekim setini gezmek
+위치하다|konumlanmak|도시 중심에 위치하다=şehir merkezinde yer almak;바닷가에 위치하다=sahilde bulunmak
+잔디밭|çimenlik|잔디밭에 앉다=çimenlere oturmak;잔디밭을 걷다=çimenlerde yürümek
+숨이 차다|nefes nefese kalmak|계단을 올라서 숨이 차다=merdiven çıkınca nefes nefese kalmak;숨이 차게 뛰다=nefes nefese koşmak
+케이블카|teleferik|케이블카를 타다=teleferiğe binmek;케이블카에서 보는 경치=teleferikten görülen manzara
+기억에 남다|akılda kalmak|가장 기억에 남는 여행=en akılda kalan seyahat;오래 기억에 남다=uzun süre akılda kalmak
+관람 시간|ziyaret saatleri|관람 시간을 확인하다=ziyaret saatlerini kontrol etmek;관람 시간이 끝나다=ziyaret saati bitmek
+휴무일|kapalı olduğu gün|매주 월요일 휴무일=her pazartesi kapalı;휴무일을 확인하다=kapalı günleri kontrol etmek
 `});

@@ -403,4 +403,15 @@
 妻 (처)|eş / karı / zevce (아내)|처자=karı ve çocuklar / aile;처남=kayınbirader / eşin erkek kardeşi;처제=baldız / eşin kız kardeşi;조강지처=zor günleri birlikte aşmış eş
 熱 (열)|sıcak / ateş / ısı / tutku (뜨겁다)|열정=tutku / coşku;열기=ısı / sıcaklık;발열=ateşlenme / ısı üretimi;과열=aşırı ısınma;열대=tropikal bölge
 哭 (곡)|ağlamak / ağıt yakmak (울다)|통곡=hıçkırarak ağlama / feryat;곡성=ağlama sesi / ağıt;애곡=acı içinde ağlama;호곡=yüksek sesle ağlama;조곡=taziye ağıtı
+#14 · 王–空
+王 (왕)|kral (임금)|왕자=prens;여왕=kraliçe;왕국=krallık
+正 (정)|doğru, düzgün (바를)|정답=doğru cevap;정직=dürüstlük;정확=kesinlik
+平 (평)|düz, barış (평평할)|평일=hafta içi;평화=barış;평가=değerlendirme
+和 (화)|uyum, barış (화할)|평화=barış;조화=uyum;화해=barışma
+光 (광)|ışık (빛)|관광=turizm;광고=reklam;월광=ay ışığı
+半 (반)|yarım (반)|반값=yarı fiyat;반년=yarım yıl;절반=yarısı
+百 (백)|yüz (일백)|백화점=alışveriş merkezi;백과사전=ansiklopedi;백 년=yüz yıl
+千 (천)|bin (일천)|천 원=bin won;천만=on milyon;천년=bin yıl
+萬 (만)|on bin (일만)|만 원=on bin won;만일=eğer, şayet;만세=yaşasın
+空 (공)|boş, gök (빌)|공항=havalimanı;공기=hava;공간=alan, mekân
 `});

@@ -8,14 +8,14 @@ Türk arkadaşlar için Korece kelime oyunu.
 ## 내용
 | 단계 | 단어 수 | 파일 |
 |---|---|---|
-| A1–A2 | 893 | `data/a12.js` |
+| A1–A2 | 1000 | `data/a12.js` |
 | B1–B2 (B1.1) | 447 | `data/b11.js` |
 | B1.2 | 616 | `data/b12.js` |
 | B2.1 | 607 | `data/b21.js` |
-| B2.2 | 121 | `data/b22.js` |
-| TOPIK Ⅰ | 1671 | `data/topik1.js` (`tools/build_topik1.py`) |
-| TOPIK Ⅱ | 3459 | `data/topik2.js` (Aslı'nın TOPIK Ⅱ sınav kelimeleri + 3–4. seviye ek listesi `tools/topik2_34.txt`, bölüm 54–66, konu bölümleri `tools/topik2_topics.txt`) |
-| 한자 (Hanca) | 390 | `data/hanja.js` |
+| B2.2 | 330 (Ek 1–4 dahil) | `data/b22.js` |
+| TOPIK Ⅰ | 2000 | `data/topik1.js` (`tools/build_topik1.py`) |
+| TOPIK Ⅱ | 3500 | `data/topik2.js` (Aslı'nın TOPIK Ⅱ sınav kelimeleri + 3–4. seviye ek listesi `tools/topik2_34.txt`, bölüm 54–66, konu bölümleri `tools/topik2_topics.txt`) |
+| 한자 (Hanca) | 400 | `data/hanja.js` |
 
 - 단어 자료: Aslıhan Erdoğan (KOREAN VOCAB, Asl_HANCA) — 오타 수정, 단어마다 짝꿍어휘 추가
 - 퀴즈: 한국어 → 튀르키예어 4지선다, 오답은 같은 단원·같은 품사에서

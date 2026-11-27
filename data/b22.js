@@ -133,4 +133,217 @@
 걱정이 앞서다|endişeye kapılmak|새 일을 시작하니 걱정이 앞서다=yeni bir işe başlarken endişeye kapılmak;기대보다 걱정이 앞서다=heyecandan çok endişe duymak
 부담스럽다|yük gibi gelmek, rahatsızlık vermek|기대가 부담스럽다=beklentilerin baskı yapması
 마음이 따뜻해지다|içi ısınmak|이야기를 듣고 마음이 따뜻해지다=hikâyeyi dinleyince içi ısınmak;따뜻한 위로=sıcak teselli
+#Ek 1 · Orta seviye kelimeler
+출퇴근|işe gidip gelme|출퇴근 시간=işe gidiş-dönüş saati;지하철로 출퇴근하다=metroyla işe gidip gelmek
+남다|kalmak|음식이 남다=yemek artmak;기억에 남다=akılda kalmak
+매장|mağaza|매장에 들르다=mağazaya uğramak;매장 직원=mağaza çalışanı
+가볍다|hafif olmak|가방이 가볍다=çanta hafif olmak;가벼운 운동=hafif egzersiz
+쉽다|kolay olmak|문제가 쉽다=soru kolay olmak;쉽게 생각하다=kolay düşünmek
+심심하다|sıkılmak|혼자 있어서 심심하다=yalnız olduğu için sıkılmak;심심할 때=canı sıkıldığında
+좁다|dar olmak|방이 좁다=oda dar olmak;길이 좁다=yol dar olmak
+모이다|toplanmak|사람들이 모이다=insanlar toplanmak;돈이 모이다=para birikmek
+유명|ünlü|유명한 가수=ünlü şarkıcı;유명해지다=ünlü olmak
+조심|dikkat, özen|감기 조심하세요=soğuk algınlığına dikkat edin;조심해서 가세요=dikkatli gidin
+거울|ayna|거울을 보다=aynaya bakmak;거울에 비치다=aynaya yansımak
+먹이다|yedirmek|아이에게 밥을 먹이다=çocuğa yemek yedirmek;약을 먹이다=ilaç içirmek
+잃다|kaybetmek|지갑을 잃다=cüzdanı kaybetmek;희망을 잃다=umudunu kaybetmek
+결심|karar, azim|결심을 하다=karar vermek;굳은 결심=kesin karar
+슬프다|üzgün olmak|마음이 슬프다=içi hüzünlü olmak;슬픈 영화=hüzünlü film
+긴장|gerginlik|긴장을 풀다=rahatlamak;긴장이 되다=gerilmek
+늦잠|geç uyanma|늦잠을 자다=geç uyanmak;주말에 늦잠을 자다=hafta sonu geç kalkmak
+열차|tren|열차를 타다=trene binmek;열차 시간표=tren tarifesi
+짜다|tuzlu olmak|국이 짜다=çorba tuzlu olmak;짠 음식=tuzlu yemek
+부치다|göndermek|편지를 부치다=mektup göndermek;소포를 부치다=koli göndermek
+웃기다|güldürmek|친구를 웃기다=arkadaşını güldürmek;웃기는 이야기=komik hikâye
+물어보다|sormak|길을 물어보다=yol sormak;선생님께 물어보다=öğretmene sormak
+안내문|bilgilendirme yazısı|안내문을 읽다=bilgilendirme yazısını okumak;안내문을 붙이다=duyuru asmak
+사귀다|arkadaşlık kurmak, çıkmak|친구를 사귀다=arkadaş edinmek;두 사람이 사귀다=ikisi çıkmak
+가입|üyelik, katılım|회원 가입=üye kaydı;보험에 가입하다=sigorta yaptırmak
+본문|metin|본문을 읽다=metni okumak;본문 내용=metnin içeriği
+월급|maaş|월급을 받다=maaş almak;월급이 오르다=maaşı artmak
+짐|yük, eşya|짐을 싸다=bavul hazırlamak;짐이 무겁다=yük ağır olmak
+복잡하다|karışık olmak|길이 복잡하다=yollar karışık olmak;복잡한 문제=karmaşık sorun
+치다|vurmak, çalmak|피아노를 치다=piyano çalmak;공을 치다=topa vurmak
+그다지|pek, çok değil|그다지 어렵지 않다=pek zor değil;그다지 좋아하지 않다=pek sevmemek
+통통하다|tombul olmak|볼이 통통하다=yanakları tombul olmak;통통한 아기=tombul bebek
+닮다|benzemek|엄마를 닮다=annesine benzemek;많이 닮다=çok benzemek
+버릇|alışkanlık, huy|나쁜 버릇=kötü huy;버릇을 고치다=huyunu düzeltmek|alışkanlık, huy (özellikle sürekli tekrarlanan davranış)
+습관|alışkanlık, adet|좋은 습관=iyi alışkanlık;습관이 되다=alışkanlık hâline gelmek
+제품|ürün|신제품=yeni ürün;제품을 판매하다=ürün satmak
+국적|uyruk, milliyet|국적이 다르다=uyrukları farklı olmak;한국 국적=Kore vatandaşlığı
+늘리다|artırmak, çoğaltmak, genişletmek|시간을 늘리다=süreyi uzatmak;인원을 늘리다=kişi sayısını artırmak|artırmak, çoğaltmak, genişletmek, uzatmak
+썩다|çürümek|과일이 썩다=meyve çürümek;이가 썩다=diş çürümek
+외우다|ezberlemek|단어를 외우다=kelime ezberlemek;전화번호를 외우다=telefon numarasını ezberlemek
+거짓말|yalan|거짓말을 하다=yalan söylemek;거짓말쟁이=yalancı
+결석하다|devamsızlık yapmak|수업에 결석하다=derse gelmemek;아파서 결석하다=hastalandığı için devamsızlık yapmak
+합격하다|başarılı olmak, geçmek|시험에 합격하다=sınavı geçmek;대학에 합격하다=üniversiteyi kazanmak
+다니다|gitmek (düzenli)|학교에 다니다=okula gitmek;회사에 다니다=bir şirkette çalışmak
+이후|sonra|졸업 이후=mezuniyetten sonra;그 이후로=o zamandan beri
+불편하다|rahatsız / elverişsiz olmak|교통이 불편하다=ulaşım zahmetli olmak;몸이 불편하다=rahatsız olmak
+참고하다|başvurmak|자료를 참고하다=kaynaklara başvurmak;의견을 참고하다=görüşü dikkate almak|başvurmak (kaynak olarak), referans almak
+서로|birbirine|서로 돕다=birbirine yardım etmek;서로 다르다=birbirinden farklı olmak
+어깨|omuz|어깨가 아프다=omzu ağrımak;어깨를 펴다=omuzlarını dikleştirmek
+우정|dostluk|우정을 나누다=dostluğu paylaşmak;변함없는 우정=değişmeyen dostluk
+어리다|genç, küçük yaşta olmak|나이가 어리다=yaşı küçük olmak;어린 아이=küçük çocuk
+불다|esmek|바람이 불다=rüzgâr esmek;풍선을 불다=balon şişirmek
+빼다|çıkarmak, eksiltmek|살을 빼다=kilo vermek;이름을 빼다=adını çıkarmak
+#Ek 2 · Orta seviye kelimeler
+식다|soğumak|국이 식다=çorba soğumak;열정이 식다=heyecanı sönmek
+저절로|kendiliğinden, doğal olarak, istem dışı|문이 저절로 열리다=kapı kendiliğinden açılmak;저절로 웃음이 나다=istemsizce gülmek
+식습관|beslenme alışkanlığı|식습관을 바꾸다=beslenme alışkanlığını değiştirmek;좋은 식습관=sağlıklı beslenme alışkanlığı
+아까|az önce|아까 말했다=az önce söyledim;아까부터=demin beri
+추가하다|eklemek|메뉴를 추가하다=menüye eklemek;내용을 추가하다=içerik eklemek
+희다|beyaz olmak|피부가 희다=teni beyaz olmak;흰 눈=beyaz kar
+버리다|atmak|쓰레기를 버리다=çöp atmak;나쁜 습관을 버리다=kötü alışkanlığı bırakmak
+걸다|asmak, aramak|벽에 그림을 걸다=duvara resim asmak;전화를 걸다=telefon etmek
+경제|ekonomi|경제가 어렵다=ekonomi zor durumda olmak;경제 성장=ekonomik büyüme
+변함없이|değişmeden, hep aynı şekilde|변함없이 사랑하다=hiç değişmeden sevmek;변함없이 건강하다=hep aynı şekilde sağlıklı olmak
+고백하다|itiraf etmek|사랑을 고백하다=aşkını itiraf etmek;잘못을 고백하다=hatasını itiraf etmek
+일상|günlük yaşam|일상생활=günlük yaşam;일상으로 돌아가다=günlük hayata dönmek
+늘|her zaman, sürekli|늘 웃다=her zaman gülümsemek;늘 바쁘다=hep meşgul olmak
+전자|elektronik|전자 제품=elektronik ürün;전자 사전=elektronik sözlük
+중간|orta, ara|중간 시험=ara sınav;중간에 쉬다=arada dinlenmek
+불친절하다|nezaketsiz olmak|직원이 불친절하다=çalışan kaba olmak;불친절한 서비스=kaba hizmet
+수리|tamir, onarım|수리를 맡기다=tamire vermek;수리 비용=tamir masrafı
+찾아보다|araştırmak, bakmak|사전을 찾아보다=sözlüğe bakmak;인터넷에서 찾아보다=internette araştırmak
+긍정적|olumlu|긍정적인 생각=olumlu düşünce;긍정적으로 보다=olumlu bakmak
+모양|şekil, biçim|모양이 예쁘다=şekli güzel olmak;하트 모양=kalp şekli
+예상|tahmin, öngörü, beklenti|예상이 맞다=tahmin tutmak;예상 밖의 결과=beklenmedik sonuç
+깎다|kesmek, indirim yapmak|값을 깎다=pazarlık yapıp indirmek;사과를 깎다=elma soymak
+입히다|giydirmek|아이에게 옷을 입히다=çocuğu giydirmek;피해를 입히다=zarar vermek
+사이|ara, aralık / ilişki|두 사람 사이=iki kişi arası;사이가 좋다=araları iyi olmak|= 틈
+올라가다|yukarı çıkmak|산에 올라가다=dağa çıkmak;계단을 올라가다=merdivenden çıkmak
+다녀오다|gidip gelmek|학교에 다녀오다=okula gidip gelmek;다녀오겠습니다=gidip geliyorum
+한가하다|boş olmak, meşgul olmamak|오늘은 한가하다=bugün boş olmak;한가한 시간=boş vakit
+추천|tavsiye|추천을 받다=tavsiye almak;추천 메뉴=önerilen menü
+전부|hepsi, tamamı|전부 먹다=hepsini yemek;전부 다=tamamı
+기쁨|sevinç|기쁨을 나누다=sevinci paylaşmak;큰 기쁨=büyük sevinç
+맞벌이|çift gelirli aile|맞벌이 부부=çift gelirli karı koca;맞벌이를 하다=ikisi de çalışmak
+수집|koleksiyon, toplama|우표 수집=pul koleksiyonu;정보 수집=bilgi toplama
+엊그제|geçen gün, birkaç gün önce|엊그제 만났다=birkaç gün önce görüştük;엊그제 같다=dün gibi olmak
+조사|araştırma, inceleme|설문 조사=anket;조사를 하다=araştırma yapmak
+어색하다|garip, tuhaf olmak|분위기가 어색하다=ortam garip olmak;어색한 사이=tuhaf bir ilişki
+훌륭하다|mükemmel, harika olmak|훌륭한 사람=harika insan;실력이 훌륭하다=becerisi mükemmel olmak
+끓이다|kaynatmak|물을 끓이다=su kaynatmak;라면을 끓이다=ramen pişirmek
+담그다|salamura yapmak, batırmak|김치를 담그다=kimçi yapmak;물에 발을 담그다=ayaklarını suya sokmak
+마치다|bitirmek|수업을 마치다=dersi bitirmek;일을 마치다=işi bitirmek
+알리다|bildirmek, haber vermek|소식을 알리다=haber vermek;이름을 알리다=adını duyurmak
+부탁|rica, istek|부탁을 하다=rica etmek;부탁을 들어주다=ricayı kabul etmek
+낫다|iyileşmek / daha iyi olmak|감기가 낫다=soğuk algınlığı iyileşmek;이게 더 낫다=bu daha iyi
+변하다|değişmek, farklılaşmak|날씨가 변하다=hava değişmek;마음이 변하다=fikri değişmek
+바뀌다|değişmek, değiştirilmek|계획이 바뀌다=plan değişmek;신호가 바뀌다=ışık değişmek|değişmek, değiştirilmek, başka bir şeyle değiştirilmek
+규칙적|düzenli|규칙적인 생활=düzenli yaşam;규칙적으로 운동하다=düzenli spor yapmak
+더위|sıcaklık, yaz sıcağı|더위를 먹다=sıcak çarpmak;더위를 피하다=sıcaktan kaçmak
+사원|çalışan, personel|신입 사원=yeni çalışan;회사 사원=şirket çalışanı
+수준|seviye, düzey|수준이 높다=seviyesi yüksek olmak;생활 수준=yaşam standardı
+실망|hayal kırıklığı|실망을 하다=hayal kırıklığına uğramak;실망을 주다=hayal kırıklığı yaratmak
+왕복|gidiş-dönüş|왕복 표=gidiş-dönüş bileti;왕복 두 시간=gidiş-dönüş iki saat
+존경|saygı|존경을 받다=saygı görmek;존경하는 사람=saygı duyduğu kişi
+깨다|kırmak, uyanmak|컵을 깨다=bardak kırmak;잠에서 깨다=uykudan uyanmak
+#Ek 3 · Orta seviye kelimeler
+두다|koymak, bırakmak, yerleştirmek|책상 위에 두다=masanın üstüne koymak;그대로 두다=olduğu gibi bırakmak|koymak, bırakmak, yerleştirmek; bulundurmak
+놓다|koymak, bırakmak, bir yere yerleştirmek|가방을 놓다=çantayı bırakmak;마음을 놓다=içi rahatlamak
+말리다|kurutmak|빨래를 말리다=çamaşır kurutmak;머리를 말리다=saç kurutmak
+묶다|bağlamak, düğümlemek, demet yapmak|머리를 묶다=saçını bağlamak;끈으로 묶다=iple bağlamak
+매다|bağlamak, bağlayıp tutturmak|넥타이를 매다=kravat bağlamak;신발 끈을 매다=ayakkabı bağcığını bağlamak|bağlamak, bağlayıp tutturmak (ayakkabı bağcığı, kravat vb.)
+수출|ihracat|수출이 늘다=ihracat artmak;수출 기업=ihracatçı şirket
+웃어른|büyük, yaşça üstün kişi|웃어른을 공경하다=büyüklere saygı göstermek;웃어른께 인사하다=büyükleri selamlamak
+적응|uyum sağlama|적응이 빠르다=çabuk uyum sağlamak;새 환경에 적응하다=yeni ortama alışmak
+포함|içermek, kapsamak|세금 포함=vergi dahil;포함되다=dahil olmak
+따로|ayrı ayrı, ayrı olarak|따로 살다=ayrı yaşamak;따로 계산하다=ayrı ayrı ödemek
+글쓰기|yazı yazma|글쓰기 연습=yazma alıştırması;글쓰기 대회=yazı yarışması
+연주|müzik icrası|피아노 연주=piyano icrası;연주를 하다=çalmak (müzik)
+국민|halk, vatandaş|국민의 권리=vatandaşın hakları;국민 가수=ulusal şarkıcı
+대표|temsilci|학생 대표=öğrenci temsilcisi;대표 음식=en bilinen yemek
+손잡이|tutacak, kulp|문 손잡이=kapı kolu;손잡이를 잡다=tutacağa tutunmak
+신입|yeni başlayan|신입 사원=yeni çalışan;신입생=yeni öğrenci
+철|demir|철로 만들다=demirden yapmak;철이 들다=akıllanmak, olgunlaşmak
+촬영|çekim (foto / video)|영화 촬영=film çekimi;촬영 금지=çekim yasak
+당황하다|afallamak, şaşırmak|질문에 당황하다=sorudan afallamak;당황한 표정=şaşkın ifade
+유창하다|akıcı olmak|한국어가 유창하다=Korecesi akıcı olmak;유창하게 말하다=akıcı konuşmak
+우선|öncelikle|우선 쉬다=önce dinlenmek;우선순위=öncelik sırası|= 먼저
+거절|reddetme|거절을 당하다=reddedilmek;부탁을 거절하다=ricayı geri çevirmek
+연말|yıl sonu|연말 파티=yıl sonu partisi;연말이 다가오다=yıl sonu yaklaşmak
+전날|bir önceki gün|시험 전날=sınavdan önceki gün;전날 밤=önceki gece
+따라가다|takip etmek|친구를 따라가다=arkadaşının peşinden gitmek;수업을 따라가다=derse yetişmek
+감정|duygu|감정을 표현하다=duygularını ifade etmek;감정이 풍부하다=duygusal olmak
+판매|satış|판매가 늘다=satışlar artmak;온라인 판매=çevrimiçi satış
+환불|iade, geri ödeme|환불을 받다=parayı geri almak;환불이 안 되다=iade yapılmamak
+끊다|kesmek, bırakmak|담배를 끊다=sigarayı bırakmak;전화를 끊다=telefonu kapatmak
+관람|izleme, seyretme|영화 관람=film izleme;관람 시간=ziyaret saatleri
+궁금하다|merak etmek|결과가 궁금하다=sonucu merak etmek;궁금한 점=merak edilen nokta
+세우다|dikmek, ayakta durmasını sağlamak|계획을 세우다=plan yapmak;차를 세우다=arabayı durdurmak|dikmek, ayakta durmasını sağlamak; kurmak, oluşturmak
+차례|sıra, düzen|차례를 기다리다=sırasını beklemek;제 차례예요=sıra bende
+구입|satın alma|표 구입=bilet satın alma;온라인 구입=internetten alışveriş
+이제|artık, şimdi, bundan sonra|이제 시작이다=şimdi başlıyor;이제 그만=artık yeter
+틀림없이|mutlaka, kesinlikle|틀림없이 온다=mutlaka gelecek;틀림없이 성공하다=kesinlikle başarmak
+찬성|onay, destek|찬성하다=desteklemek;찬성 의견=destekleyen görüş
+넘어지다|düşmek, yere kapaklanmak|길에서 넘어지다=yolda düşmek;넘어져서 다치다=düşüp yaralanmak
+따로따로|ayrı ayrı, teker teker|따로따로 포장하다=ayrı ayrı paketlemek;따로따로 앉다=ayrı ayrı oturmak
+제각기|her biri kendine göre|제각기 다르다=her biri farklı olmak;제각기 의견을 말하다=her biri kendi görüşünü söylemek|her biri kendine göre, her biri farklı şekilde
+화해|barışma, uzlaşma|친구와 화해하다=arkadaşıyla barışmak;화해를 청하다=barışmayı teklif etmek
+값싸다|ucuz olmak|값싼 물건=ucuz eşya;값싸고 좋다=hem ucuz hem iyi olmak
+절약|tasarruf|전기 절약=elektrik tasarrufu;시간을 절약하다=zamandan tasarruf etmek
+해결|çözüm|문제 해결=sorun çözme;해결 방법=çözüm yolu
+마침|tam o anda|마침 잘 왔다=tam zamanında geldin;마침 그때=tam o sırada
+초대|davet|초대를 받다=davet almak;초대장=davetiye
+퇴원|taburcu olma|병원에서 퇴원하다=hastaneden taburcu olmak;퇴원 날짜=taburcu tarihi
+당연하다|doğal olmak, elbette|당연한 일=doğal bir şey;당연히 그렇다=elbette öyle
+들르다|uğramak|편의점에 들르다=markete uğramak;잠깐 들르다=kısa bir süre uğramak
+세다|saymak|돈을 세다=para saymak;숫자를 세다=sayıları saymak
+감정적|duygusal|감정적으로 대하다=duygusal davranmak;감정적인 반응=duygusal tepki
+무관심|ilgisizlik|정치에 무관심하다=siyasete ilgisiz olmak;무관심한 태도=ilgisiz tavır
+#Ek 4 · Orta seviye kelimeler
+정치|siyaset|정치에 관심이 있다=siyasete ilgisi olmak;정치인=siyasetçi
+추측|tahmin|추측이 맞다=tahmin doğru çıkmak;추측하다=tahmin etmek
+항공|havacılık|항공권=uçak bileti;항공사=havayolu şirketi
+위험하다|tehlikeli olmak|밤길이 위험하다=gece yolu tehlikeli olmak;위험한 일=tehlikeli iş
+돌아보다|geriye bakmak|뒤를 돌아보다=arkasına bakmak;지난날을 돌아보다=geçmişe bakmak
+기계|makine|기계를 고치다=makineyi tamir etmek;기계가 고장 나다=makine bozulmak
+야근|gece mesaisi|야근을 하다=fazla mesai yapmak;야근 수당=fazla mesai ücreti
+평균|ortalama|평균 점수=ortalama puan;평균보다 높다=ortalamadan yüksek olmak
+향기|koku|꽃 향기=çiçek kokusu;향기가 나다=güzel koku gelmek
+환영|karşılama|환영을 받다=sıcak karşılanmak;환영 파티=karşılama partisi
+똑똑하다|zeki olmak|똑똑한 학생=zeki öğrenci;아주 똑똑하다=çok zeki olmak
+내다|vermek, sunmak|돈을 내다=para ödemek;숙제를 내다=ödev teslim etmek
+줍다|almak, yerden toplamak|쓰레기를 줍다=çöp toplamak;지갑을 줍다=cüzdan bulmak (yerden)
+팔리다|satılmak|잘 팔리다=iyi satılmak;다 팔리다=hepsi satılmak
+과식|aşırı yeme|과식을 하다=aşırı yemek;과식하지 마세요=fazla yemeyin
+동의|onay, kabul|동의를 구하다=onay istemek;동의하다=katılmak, onaylamak
+빼앗다|almak, zorla el koymak|돈을 빼앗다=parasını zorla almak;마음을 빼앗다=gönlünü çelmek
+씹다|çiğnemek|껌을 씹다=sakız çiğnemek;잘 씹어 먹다=iyice çiğneyerek yemek
+접다|katlamak|종이를 접다=kâğıt katlamak;우산을 접다=şemsiyeyi kapatmak
+흔들다|sallamak|손을 흔들다=el sallamak;고개를 흔들다=başını sallamak
+칭찬|övgü|칭찬을 받다=övgü almak;칭찬하다=övmek
+두통|baş ağrısı|두통이 있다=başı ağrımak;두통약=baş ağrısı ilacı
+반복|tekrar|반복 연습=tekrar alıştırması;반복하다=tekrarlamak
+집들이|yeni ev partisi (taşınma kutlaması)|집들이를 하다=yeni ev partisi vermek;집들이 선물=yeni ev hediyesi
+구분하다|ayırt etmek, birbirinden ayırmak|색깔로 구분하다=renge göre ayırmak;잘 구분하다=iyi ayırt etmek|ayırt etmek, birbirinden ayırmak, sınıflandırmak (özellik)
+벌다|kazanmak (para)|돈을 벌다=para kazanmak;시간을 벌다=zaman kazanmak
+신나다|neşelenmek, coşmak|신나는 음악=coşkulu müzik;아이들이 신나다=çocuklar coşmak
+지키다|korumak, uymak|약속을 지키다=sözünü tutmak;규칙을 지키다=kurallara uymak
+이내|kısa süre içinde|일주일 이내=bir hafta içinde;10분 이내=10 dakika içinde
+마중하다|karşılamak|공항에서 마중하다=havalimanında karşılamak;친구를 마중하다=arkadaşını karşılamak
+털|tüy, kıl|고양이 털=kedi tüyü;털이 빠지다=tüy dökülmek
+연결|bağlantı|인터넷 연결=internet bağlantısı;연결이 끊기다=bağlantı kopmak
+서두르다|acele etmek|서둘러 가다=acele edip gitmek;서두르지 마세요=acele etmeyin
+불행|mutsuzluk|불행한 사고=talihsiz kaza;불행 중 다행=kötünün iyisi
+새벽|şafak, sabaha karşı|새벽에 일어나다=sabahın erken saatinde kalkmak;새벽 두 시=gece saat iki
+정리|düzenleme|방 정리=oda toparlama;정리를 하다=düzenlemek
+좌석|koltuk, oturma yeri|좌석을 예약하다=koltuk ayırtmak;창가 좌석=cam kenarı koltuk
+얼굴빛|yüz rengi, çehre|얼굴빛이 좋다=yüzü canlı görünmek;얼굴빛이 변하다=yüzünün rengi değişmek
+금지|yasak|주차 금지=park yasak;금지되다=yasaklanmak
+불평|şikâyet|불평을 하다=şikâyet etmek;불평이 많다=çok şikâyet etmek
+유지|koruma, sürdürme|건강 유지=sağlığı koruma;유지하다=sürdürmek
+장단점|artı ve eksi yönler|장단점을 비교하다=artı ve eksileri karşılaştırmak;각각의 장단점=her birinin artı ve eksileri
+배웅|uğurlama|배웅을 하다=uğurlamak;공항까지 배웅하다=havalimanına kadar uğurlamak
+밤늦다|gece geç saat olmak|밤늦게 귀가하다=gece geç saatte eve dönmek;밤늦도록 공부하다=gece geç saatlere kadar ders çalışmak
+비다|boş olmak|자리가 비다=yer boş olmak;빈 방=boş oda
+급히|aceleyle|급히 나가다=aceleyle çıkmak;급히 먹다=aceleyle yemek
+생각|düşünce, fikir|좋은 생각=iyi fikir;생각이 나다=aklına gelmek
+취업|işe girme|취업 준비=işe girmeye hazırlık;취업에 성공하다=iş bulmayı başarmak
+줄이다|azaltmak, eksiltmek, kısmak|소리를 줄이다=sesi kısmak;비용을 줄이다=masrafı azaltmak
+비서|sekreter|사장 비서=patronun sekreteri;비서로 일하다=sekreter olarak çalışmak
+중심|merkez|도시 중심=şehir merkezi;관심의 중심=ilgi odağı
+곱다|ince, zarif, güzel olmak|피부가 곱다=cildi pürüzsüz olmak;고운 마음=güzel kalp|ince, zarif, güzel olmak; yumuşak ve düzgün olmak
 `});
