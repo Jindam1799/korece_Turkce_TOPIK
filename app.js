@@ -644,6 +644,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
+ ['4.1','2026-11-27',{tr:["Açılış rehberine Türkçe sesli anlatım eklendi (TR altyazıda); geçince sıradaki ses hemen başlıyor, bitince otomatik ilerliyor (🔊/🔇 ile kapatılabilir)"],ko:['오프닝 안내에 튀르키예어 음성 내레이션 추가 (TR 자막일 때). 넘기면 다음 음성이 바로 나오고, 끝나면 자동으로 넘어가요 (🔊/🔇로 끄기)']}],
  ['4.0','2026-11-27',{tr:["Bitki arkadaşına verdiğin isim her yerde kullanılıyor (konuşma balonu, rehber, hikâye); kaydırma, yakınlaştırma ve kopyalama engellendi; lobide sürüm bilgisi"],ko:['식물 친구 이름을 정하면 말풍선·오프닝 안내·이야기에서 그 이름으로 불러요. 화면 스크롤·확대·복사 방지, 로비 아래 버전 표시']}],
  ['3.9','2026-11-27',{tr:["Bitki arkadaşına isim verince kendini tanıtıyor ve dokununca adını söylüyor; hoş geldin başlığı tek satır"],ko:['식물 친구에게 이름을 지어 주면 그 이름으로 자기소개를 하고, 누르면 이름을 말해요. 환영 인사 한 줄로']}],
  ['3.8','2026-11-27',{tr:["Çalışırken fon müziği hep kısık çalıyor, kelime sesi hemen ve net çıkıyor; efekt sesleri okumayla çakışmıyor"],ko:['공부 화면에서는 배경 음악을 계속 작게 틀고, 단어 음성은 크게 바로 나와요. 효과음이 음성과 부딪히지 않아요']}],
@@ -873,7 +874,8 @@ const SILENT=(()=>{const n=800,b=new ArrayBuffer(44+n),d=new DataView(b),w=(o,t)
  w(0,'RIFF');d.setUint32(4,36+n,true);w(8,'WAVE');w(12,'fmt ');d.setUint32(16,16,true);d.setUint16(20,1,true);d.setUint16(22,1,true);d.setUint32(24,8000,true);d.setUint32(28,8000,true);d.setUint16(32,1,true);d.setUint16(34,8,true);w(36,'data');d.setUint32(40,n,true);for(let k=0;k<n;k++)d.setUint8(44+k,128);
  return URL.createObjectURL(new Blob([b],{type:'audio/wav'}))})();
 document.addEventListener('pointerdown',()=>{if(gtUnlocked)return;gtUnlocked=true;
- try{GTA.src=SILENT;GTA.play().catch(()=>{})}catch(e){}},{capture:true});
+ try{GTA.src=SILENT;GTA.play().catch(()=>{})}catch(e){}
+ try{if(!GDA.src||GDA.src===location.href){GDA.src=SILENT;GDA.play().catch(()=>{})}}catch(e){}},{capture:true});
 // iOS ses motorunu önceden ısıt: ilk dokunuşta sessiz kısa okuma (ilk kelimede gecikme olmasın)
 let ttsWarm=false;function ttsWarmUp(){if(ttsWarm)return;ttsWarm=true;try{const u=new SpeechSynthesisUtterance(' ');u.volume=0;u.lang='ko-KR';if(voice)u.voice=voice;speechSynthesis.speak(u)}catch(e){}}
 document.addEventListener('pointerdown',()=>ttsWarmUp(),{capture:true,once:true});
@@ -934,9 +936,10 @@ const GD={"tr": {"ui": {"skip": "Geç ›", "tap": "dokun ›", "start": "Başla
 let gdLang=null;
 const gdT=()=>GD[gdLang]||GD[S.lang]||GD[Object.keys(GD)[0]];
 /* 음성 나레이션: audio/guide/<언어>/01.mp3 … 09.mp3 를 올린 뒤 해당 언어를 true 로 바꾸세요. */
-const GD_VOICE=Object.fromEntries(Object.keys(GD).map(k=>[k,false]));
+const GD_VOICE={tr:true,ko:false};
 const GDA=new Audio();GDA.preload='auto';let gdAuto=null;
 function gdStopVoice(){clearTimeout(gdAuto);try{GDA.pause()}catch(e){}GDA.onended=GDA.onerror=GDA.onloadedmetadata=null;BGM.duck(false)}
+const GDPRE={};function gdPre(i){const g=gdT();if(i>=g.s.length)return;const src=`audio/guide/${gdLang}/${String(i+1).padStart(2,'0')}.mp3`;if(!GDPRE[src]){const a=new Audio();a.preload='auto';a.src=src;GDPRE[src]=a}}
 function gdVoice(n,len){
  gdStopVoice();if(!GD_VOICE[gdLang]||S.gdMute)return 26;
  GDA.src=`audio/guide/${gdLang}/${String(n+1).padStart(2,'0')}.mp3`;
@@ -944,6 +947,7 @@ function gdVoice(n,len){
  GDA.onerror=()=>BGM.duck(false);
  GDA.onloadedmetadata=()=>{if(isFinite(GDA.duration)&&gdI===n)gdSpeed=Math.max(18,Math.min(90,GDA.duration*1000*.85/Math.max(1,len)))};
  BGM.duck(true);const pr=GDA.play();if(pr&&pr.catch)pr.catch(()=>BGM.duck(false));
+ gdPre(n+1);
  return 40;
 }
 let gdSpeed=26;
