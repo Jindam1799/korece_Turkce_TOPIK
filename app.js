@@ -47,7 +47,7 @@ const TX={
 tr:{sub:'Korece kelime ormanı · A1–B2 · TOPIK Ⅰ·Ⅱ',a2hsT:'📲 Ana ekrana ekle (uygulama gibi kullan)',igSub:'İletişim ve iş birliği',installBtn:'Ana ekrana ekle',
  and1:'Bu sayfayı Chrome\'da aç.',and2:'Sağ üstteki ⋮ menüsüne dokun.',and3:'“Ana ekrana ekle” ya da “Uygulamayı yükle”yi seç.',
  ios1:'Bu sayfayı Safari\'de aç.',ios2:'Alttaki Paylaş düğmesine (□↑) dokun.',ios3:'“Ana Ekrana Ekle”yi seç ve “Ekle”ye dokun.',feedback:'💬 덩어리숲 düzenli olarak güncellenmeye devam edecek. Çalışırken zorlandığınız bir şey ya da ihtiyacınız olan bir özellik olursa lütfen bize yazın!',rvH:'Kelime kontrolü (editör)',rvOpen:'Kontrol modunu aç',rvTitle:'Kelime kontrolü',rvSend:'Gönder',rvMean:'Türkçe anlam',rvPairs:'Eş kelimeler (Korece = Türkçe)',rvAdd:'+ Eş kelime ekle',rvNote:'Not (isteğe bağlı)',rvNotePh:'Örn. bu kelime eski, yerine … daha doğal',rvEmpty:'Bu filtrede kelime yok.',
- rvAll:'Tümü',rvTodo:'Bakılmadı',rvOkF:'Doğru',rvEditF:'Düzeltildi',rvDelF:'Kaldırılacak',rvOkBtn:'✓ Doğru',rvSaveBtn:'✓ Kaydet',rvDelBtn:'🗑 Kaldır',rvUndel:'↺ Geri al',
+ rvAll:'Tümü',rvTodo:'Bakılmadı',rvOkF:'Doğru',rvEditF:'Düzeltildi',rvDelF:'Kaldırılacak',rvNewF:'Yeni eklenen',rvOkBtn:'✓ Doğru',rvSaveBtn:'✓ Kaydet',rvDelBtn:'🗑 Kaldır',rvUndel:'↺ Geri al',
  rvStOk:'Doğru',rvDraft:'✎ Kaydedilmedi (taslak)',rvStEdit:'Düzeltildi',rvStDel:'Kaldırılacak',rvStat:(d,n,e,x)=>`Kontrol: ${d} / ${n} · düzeltilen ${e} · kaldırılacak ${x}`,
  rvxTitle:'Kontrolü gönder',rvxStat:(d,e,x)=>`Toplam ${d} kelimeye bakıldı · ${e} düzeltme · ${x} kaldırma`,rvxHow:'Dosyayı Wonju\'ya KakaoTalk ya da e-postayla gönder. Çalışmaların telefonda kayıtlı kalır, istediğin zaman devam edebilirsin.',rvxShare:'Paylaş (KakaoTalk, e-posta…)',rvxDown:'Dosyayı indir (.json)',rvxCsv:'Excel için indir (.csv)',rvxNoShare:'Bu tarayıcı paylaşmayı desteklemiyor; dosyayı indirip gönder.',codex:'Bitki rehberi',storyTitle:'Deongi\'nin hikâyesi',
  story1:'Deongi (덩이), Kore\'deki 덩어리숲 ormanından gelen küçük bir gönül tohumu. Bir bahar rüzgârı onu uçurup İstanbul\'a, Boğaz kıyısındaki lale bahçesine getirdi.',
@@ -93,7 +93,7 @@ tr:{sub:'Korece kelime ormanı · A1–B2 · TOPIK Ⅰ·Ⅱ',a2hsT:'📲 Ana ekr
 ko:{sub:'한국어 단어의 숲 · A1–B2 · TOPIK Ⅰ·Ⅱ',a2hsT:'📲 홈 화면에 추가하기 (앱처럼 쓰기)',igSub:'문의 및 협업',installBtn:'홈 화면에 추가',
  and1:'이 페이지를 Chrome에서 열어요.',and2:'오른쪽 위 ⋮ 메뉴를 눌러요.',and3:'“홈 화면에 추가” 또는 “앱 설치”를 골라요.',
  ios1:'이 페이지를 Safari에서 열어요.',ios2:'아래쪽 공유 버튼(□↑)을 눌러요.',ios3:'“홈 화면에 추가”를 고르고 “추가”를 눌러요.',feedback:'💬 덩어리숲은 앞으로도 꾸준히 업데이트돼요. 공부하면서 어려운 점이나 필요한 게 있으면 언제든 건의해 주세요!',rvH:'단어 검수 (편집자)',rvOpen:'검수 모드 열기',rvTitle:'단어 검수',rvSend:'보내기',rvMean:'튀르키예어 뜻',rvPairs:'짝꿍어휘 (한국어 = 튀르키예어)',rvAdd:'+ 짝꿍어휘 추가',rvNote:'메모 (선택)',rvNotePh:'예: 이 단어는 오래된 말, … 가 더 자연스러움',rvEmpty:'이 필터에 해당하는 단어가 없어요.',
- rvAll:'전체',rvTodo:'안 본 것',rvOkF:'맞음',rvEditF:'고침',rvDelF:'뺄 것',rvOkBtn:'✓ 맞아요',rvSaveBtn:'✓ 저장',rvDelBtn:'🗑 빼기',rvUndel:'↺ 되돌리기',
+ rvAll:'전체',rvTodo:'안 본 것',rvOkF:'맞음',rvEditF:'고침',rvDelF:'뺄 것',rvNewF:'새로 추가',rvOkBtn:'✓ 맞아요',rvSaveBtn:'✓ 저장',rvDelBtn:'🗑 빼기',rvUndel:'↺ 되돌리기',
  rvStOk:'맞음',rvDraft:'✎ 아직 저장 안 됨 (임시)',rvStEdit:'고침',rvStDel:'뺄 것',rvStat:(d,n,e,x)=>`검수 ${d} / ${n} · 고침 ${e} · 뺄 것 ${x}`,
  rvxTitle:'검수 결과 보내기',rvxStat:(d,e,x)=>`모두 ${d}개 확인 · 고침 ${e} · 뺄 것 ${x}`,rvxHow:'파일을 원주에게 카카오톡이나 이메일로 보내 주세요. 작업 내용은 휴대폰에 저장돼서 언제든 이어서 할 수 있어요.',rvxShare:'공유하기 (카카오톡, 이메일…)',rvxDown:'파일 내려받기 (.json)',rvxCsv:'엑셀용 내려받기 (.csv)',rvxNoShare:'이 브라우저는 공유를 지원하지 않아요. 파일을 내려받아 보내 주세요.',codex:'식물 도감',storyTitle:'덩이의 이야기',
  story1:'덩이는 한국의 덩어리숲에서 온 작은 마음씨예요. 어느 봄바람이 덩이를 이스탄불 보스포루스 해협 옆 튤립 정원까지 데려왔어요.',
@@ -566,6 +566,7 @@ let RV={items:{}};try{RV=JSON.parse(localStorage.getItem('deongeoriReview')||'{"
 RV.drafts=RV.drafts||{};
 const rvSave=()=>{try{localStorage.setItem('deongeoriReview',JSON.stringify(RV))}catch(e){}};
 let rvLv=null,rvUnit='all',rvFilter='all',rvList=[],rvI=0;
+const NEWSET=new Set(window.NEW_WORDS||[]);const isNew=w=>NEWSET.has(w.id);
 // nerede kaldığını hatırla
 function rvSavePos(){const w=rvList[rvI];RV.pos={lv:rvLv,unit:rvUnit,filter:rvFilter,id:w?w.id:null};rvSave()}
 // yazılan ama kaydedilmeyen değişiklikler (taslak)
@@ -575,15 +576,15 @@ const rvOrig=w=>({tr:w.tr,pairs:w.pairs.map(p=>[p.ko,p.tr])});
 function rvCur(w){const r=RV.items[w.id];return r&&r.st!=='del'&&r.tr!=null?{tr:r.tr,pairs:r.pairs}:rvOrig(w)}
 function rvBuild(){
  const L=lvById(rvLv);let ws=rvUnit==='all'?L.words:(L.units.find(u=>u.key===rvUnit)||L).words;
- if(rvFilter!=='all')ws=ws.filter(w=>{const st=(RV.items[w.id]||{}).st;return rvFilter==='todo'?!st:st===rvFilter});
+ if(rvFilter==='new')ws=ws.filter(isNew);else if(rvFilter!=='all')ws=ws.filter(w=>{const st=(RV.items[w.id]||{}).st;return rvFilter==='todo'?!st:st===rvFilter});
  rvList=ws;if(rvI>=rvList.length)rvI=Math.max(0,rvList.length-1);
 }
 function rvRender(){
  const L=lvById(rvLv);
  $('rvLv').innerHTML=LEVELS.map(x=>`<option value="${esc(x.id)}"${x.id===rvLv?' selected':''}>${esc(x.name)}</option>`).join('');
  $('rvUnit').innerHTML=`<option value="all">${esc(t('allUnits'))}</option>`+L.units.map(u=>`<option value="${esc(u.key)}"${u.key===rvUnit?' selected':''}>${esc(t('unitN',u.key))}</option>`).join('');
- $('rvFil').innerHTML=[['all','rvAll'],['todo','rvTodo'],['ok','rvOkF'],['edit','rvEditF'],['del','rvDelF']].map(([k,l])=>`<button data-rf="${k}" aria-pressed="${k===rvFilter}">${esc(t(l))}</button>`).join('');
- const all=L.words,st=all.map(w=>(RV.items[w.id]||{}).st),d=st.filter(Boolean).length;
+ $('rvFil').innerHTML=(L.words.some(isNew)?[['new','rvNewF']]:[]).concat([['all','rvAll'],['todo','rvTodo'],['ok','rvOkF'],['edit','rvEditF'],['del','rvDelF']]).map(([k,l])=>`<button data-rf="${k}" aria-pressed="${k===rvFilter}"${k==='new'?' class="rvnew"':''}>${esc(t(l))}${k==='new'?' · '+L.words.filter(isNew).length:''}</button>`).join('');
+ const all=rvFilter==='new'?L.words.filter(isNew):L.words,st=all.map(w=>(RV.items[w.id]||{}).st),d=st.filter(Boolean).length;
  $('rvBar').style.width=(d/all.length*100)+'%';
  $('rvStat').textContent=t('rvStat',d,all.length,st.filter(x=>x==='edit').length,st.filter(x=>x==='del').length);
  const w=rvList[rvI];
@@ -610,12 +611,13 @@ function rvStore(st){const w=rvList[rvI];if(!w)return;const v=rvRead();
  RV.items[w.id]=rec;delete RV.drafts[w.id];RV.updated=new Date().toISOString();rvSave()}
 function rvGo(d){rvBuild();rvI=Math.max(0,Math.min(rvList.length-1,rvI+d));rvRender();$('rvCard').scrollTop=0}
 function openReview(){if(!RV.unlocked){RV.unlocked=true;rvSave()}$('rvSet').hidden=false;
+ if(!RV.newStart&&NEWSET.size){RV.newStart=1;rvSave();rvLv='A1-A2';rvUnit='all';rvFilter='new';rvI=0}
  if(!rvLv&&RV.pos&&LEVELS.some(L=>L.id===RV.pos.lv)){const P=RV.pos;rvLv=P.lv;rvUnit=P.unit||'all';rvFilter=P.filter||'all';rvBuild();const i=rvList.findIndex(w=>w.id===P.id);rvI=i>=0?i:0}
  rvLv=rvLv||S.lv;rvBuild();show('review');rvRender()}
 $('bReview2').onclick=()=>{$('mSet').hidden=true;openReview()};
 window.addEventListener('hashchange',()=>{if(location.hash==='#kontrol'&&introDone)openReview()});
 $('rvQuit').onclick=()=>{show('home');renderHome()};
-$('rvLv').onchange=e=>{rvLv=e.target.value;rvUnit='all';rvI=0;rvBuild();rvRender()};
+$('rvLv').onchange=e=>{rvLv=e.target.value;rvUnit='all';rvI=0;if(rvFilter==='new'&&!lvById(rvLv).words.some(isNew))rvFilter='all';rvBuild();rvRender()};
 $('rvUnit').onchange=e=>{rvUnit=e.target.value;rvI=0;rvBuild();rvRender()};
 $('rvFil').addEventListener('click',e=>{const b=e.target.closest('[data-rf]');if(b){rvFilter=b.dataset.rf;rvI=0;rvBuild();rvRender()}});
 $('rvPrev').onclick=()=>rvGo(-1);$('rvNext').onclick=()=>rvGo(1);
@@ -644,6 +646,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
+ ['4.5','2026-11-27',{tr:["Kontrol modunda 'Yeni eklenen' filtresi: sadece yeni eklenen 651 kelime kontrol edilebiliyor"],ko:['검수 모드에 \'새로 추가\' 필터: 새로 들어간 651개 단어만 골라서 검수할 수 있어요']}],
  ['4.4','2026-11-27',{tr:["TOPIK II artık konulara göre: 20 konu (duygular, sağlık, ekonomi, toplum, kültür, bilim, sık fiiller…), 82 bölüm"],ko:['TOPIK Ⅱ를 주제별로 정리: 감정·건강·경제·사회·문화·과학·자주 쓰는 동사 등 20개 주제, 82단원']}],
  ['4.3','2026-11-27',{tr:["Kelime sayıları yuvarlandı: A1–A2 1000 (aile ve temel fiiller dahil 62 yeni), B1–B2 2000, TOPIK I 2000, TOPIK II 3500, Hanca 400"],ko:['단어 수 정리: A1–A2 1000 (가족·기본 동사 등 62개 새로), B1–B2 2000, TOPIK Ⅰ 2000, TOPIK Ⅱ 3500, 한자 400']}],
  ['4.2','2026-11-27',{tr:["Yeni yazı tipi: Nunito — ş, ğ, ı, İ gibi Türkçe harfler artık düzgün ve uyumlu görünüyor"],ko:['새 글꼴 Nunito 적용: 튀르키예어·아제르바이잔어 특수 글자(ş, ğ, ı, ə 등)가 깔끔하게 보여요']}],
