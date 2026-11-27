@@ -96,7 +96,7 @@
 고장이 나다|bozulmak (alet)|컴퓨터가 고장이 나다=bilgisayarın bozulması;자주 고장이 나다=sık sık bozulmak
 화면이 안 나오다|ekran görüntü vermemek|텔레비전 화면이 안 나오다=televizyon ekranı açılmamak;화면이 깨지다=ekranı kırılmak
 바람이 안 나오다|hava (rüzgâr) gelmemek|에어컨에서 바람이 안 나오다=klimadan hava gelmemek;선풍기 바람=vantilatör rüzgârı
-인터넷 연결이 안 되다|internete bağlanamamak|와이파이 연결이 안 되다=wi-Fi'ye bağlanamamak;인터넷이 끊기다=internet bağlantısı kesilmek
+인터넷 연결이 안 되다|internete bağlanamamak|와이파이 연결이 안 되다=Wi-Fi'ye bağlanamamak;인터넷이 끊기다=internet bağlantısı kesilmek
 버튼이 안 눌리다|düğmeye basılamamak|리모컨 버튼이 안 눌리다=kumanda tuşu basmamak;버튼을 누르다=düğmeye basmak
 수리를 맡기다|tamire bırakmak|휴대폰 수리를 맡기다=telefonu tamire vermek;서비스 센터에 맡기다=servise bırakmak
 이상한 소리가 나다|garip ses gelmek|세탁기에서 이상한 소리가 나다=çamaşır makinesinden garip ses gelmesi;소리가 크게 나다=yüksek ses çıkmak

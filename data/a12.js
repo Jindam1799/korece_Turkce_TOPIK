@@ -42,17 +42,17 @@
 아버지|baba|아버지께 전화하다=babayı aramak;아버지의 직업=babanın mesleği
 어머니|anne|어머니가 요리하다=annenin yemek yapması;어머니를 돕다=anneye yardım etmek
 부모님|anne baba, ebeveynler|부모님과 살다=anne babayla yaşamak;부모님께 감사하다=anne babaya teşekkür etmek
-형|ağabey (erkek için)|형이 한 명 있다=bir ağabeyi var;친한 형=yakın ağabey
-오빠|ağabey (kız için)|오빠가 있다=ağabeyi var;오빠와 놀다=ağabeyiyle oynamak
+형|abi (erkek için)|형이 한 명 있다=bir erkek kardeşi/abisi olmak;친한 형=yakın abi
+오빠|abi (kız için)|오빠가 있다=abisi olmak;오빠와 놀다=abisiyle oynamak
 누나|abla (erkek için)|누나가 결혼하다=ablanın evlenmesi;누나에게 물어보다=ablaya sormak
 언니|abla (kız için)|언니 옷=ablanın kıyafeti;언니와 쇼핑하다=ablayla alışveriş yapmak
-동생|küçük kardeş|동생이 두 명 있다=iki küçük kardeşi var;동생을 돌보다=küçük kardeşine bakmak
+동생|küçük kardeş|동생이 두 명 있다=iki küçük kardeşi olmak;동생을 돌보다=küçük kardeşine bakmak
 할아버지|dede|할아버지 댁=dedenin evi;할아버지가 되다=dede olmak
 할머니|büyükanne, nine|할머니가 만든 음식=ninenin yaptığı yemek;할머니를 뵙다=büyükanneyi ziyaret etmek
 남편|koca, eş|남편과 결혼하다=kocasıyla evlenmek;남편의 생일=kocanın doğum günü
 아내|karı, eş|아내를 사랑하다=eşini sevmek;아내와 여행하다=eşiyle seyahat etmek
 아들|oğul|아들이 태어나다=oğlunun doğması;큰아들=büyük oğul
-딸|kız evlat|딸이 하나 있다=bir kızı var;막내딸=en küçük kız
+딸|kız evlat|딸이 하나 있다=bir kızı olmak;막내딸=en küçük kız
 친구|arkadaş|친구를 만나다=arkadaşla buluşmak;친한 친구=yakın arkadaş
 #학교와 공부 (okul ve ders)
 공책|defter|공책에 쓰다=deftere yazmak;공책을 펴다=defteri açmak
@@ -460,7 +460,7 @@
 다이어트|diyet|다이어트를 하다=diyet yapmak;다이어트에 성공하다=diyette başarılı olmak
 밥|pilav; yemek|밥을 짓다=pilav pişirmek;밥 먹었어요?=Yemek yedin mi?
 물|su|물 한 잔=bir bardak su;물을 마시다=su içmek
-우유|süt|우유 한 잔=bir bardak süt;우유를 사다=süt almak
+우유|süt|우유 한 잔=bir bardak süt;우유를 사다=süt satın almak
 커피|kahve|커피 한 잔=bir fincan kahve;커피를 타다=kahve yapmak
 사과|elma|사과를 깎다=elma soymak;빨간 사과=kırmızı elma
 빵|ekmek|빵을 굽다=ekmek pişirmek;빵 한 조각=bir dilim ekmek
@@ -933,7 +933,7 @@
 마시다|içmek|물을 마시다=su içmek;커피를 마시다=kahve içmek
 보다|görmek, bakmak|영화를 보다=film izlemek;시험을 보다=sınava girmek
 자다|uyumak|일찍 자다=erken uyumak;잘 자요=iyi geceler
-일어나다|kalkmak, uyanmak|아침에 일어나다=sabah kalkmak;늦게 일어나다=geç kalkmak
+일어나다|kalkmak, uyanmak|아침에 일어나다=sabah kalkmak (uyanmak);늦게 일어나다=geç kalkmak (uyanmak)
 읽다|okumak|책을 읽다=kitap okumak;소리 내어 읽다=sesli okumak
 듣다|dinlemek, duymak|음악을 듣다=müzik dinlemek;수업을 듣다=ders almak
 말하다|söylemek, konuşmak|한국어로 말하다=Korece konuşmak;천천히 말하다=yavaş konuşmak
@@ -975,17 +975,17 @@
 최고|en iyi|최고의 선물=en iyi hediye;기분이 최고다=keyfi yerinde olmak
 부족하다|yetersiz olmak|시간이 부족하다=zaman yetersiz olmak;잠이 부족하다=uykusuz kalmak
 좋다|iyi, güzel olmak|날씨가 좋다=hava güzel;기분이 좋다=keyfi yerinde olmak
-맛있다|lezzetli olmak|맛있는 음식=lezzetli yemek;정말 맛있다=gerçekten lezzetli
-많다|çok olmak|사람이 많다=çok kalabalık;숙제가 많다=ödevi çok olmak
-비싸다|pahalı olmak|값이 비싸다=fiyatı pahalı;너무 비싸다=çok pahalı
-싸다|ucuz olmak|값이 싸다=fiyatı ucuz;싸게 사다=ucuza almak
-예쁘다|güzel, hoş olmak|꽃이 예쁘다=çiçek güzel;예쁜 옷=güzel kıyafet
-바쁘다|meşgul olmak|일이 바쁘다=işi yoğun olmak;요즘 바쁘다=bu aralar meşgul
+맛있다|lezzetli olmak|맛있는 음식=lezzetli yemek;정말 맛있다=gerçekten lezzetli olmak
+많다|çok olmak|사람이 많다=çok kalabalık olmak;숙제가 많다=ödevi çok olmak
+비싸다|pahalı olmak|값이 비싸다=fiyatı pahalı olmak;너무 비싸다=çok pahalı olmak
+싸다|ucuz olmak|값이 싸다=fiyatı ucuz olmak;싸게 사다=ucuza almak
+예쁘다|güzel, hoş olmak|꽃이 예쁘다=çiçek güzel olmak;예쁜 옷=güzel kıyafet
+바쁘다|meşgul olmak|일이 바쁘다=işi yoğun olmak;요즘 바쁘다=bu aralar meşgul olmak
 아프다|ağrımak, hasta olmak|머리가 아프다=başı ağrımak;많이 아프다=çok hasta olmak
 재미있다|eğlenceli, ilginç olmak|영화가 재미있다=film eğlenceli;재미있는 이야기=ilginç hikâye
 쉽다|kolay olmak|문제가 쉽다=soru kolay;쉽게 배우다=kolayca öğrenmek
 어렵다|zor olmak|한국어가 어렵다=Korece zor;어려운 단어=zor kelime
-피곤하다|yorgun olmak|너무 피곤하다=çok yorgun;피곤해 보이다=yorgun görünmek
+피곤하다|yorgun olmak|너무 피곤하다=çok yorgun olmak;피곤해 보이다=yorgun görünmek
 #부사와 표현 (zarflar ve ifadeler)
 좀|biraz, lütfen|좀 도와주세요=biraz yardım eder misiniz;좀 비싸다=biraz pahalı
 아주|çok|아주 좋다=çok iyi;아주 맛있다=çok lezzetli

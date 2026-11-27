@@ -168,7 +168,7 @@
 금지|yasak|주차 금지=park yasak;금지되다=yasaklanmak
 #문화·예술·여가 (kültür, sanat, boş zaman)
 어른을 존경하다|büyüklere saygı duymak|어른을 존경하는 문화=büyüklere saygı kültürü;존경하는 인물=saygı duyulan kişi
-정이 많다|sıcakkanlı olmak|한국 사람은 정이 많다=koreliler sıcakkanlı ve sevecen;정이 들다=bağlanmak
+정이 많다|sıcakkanlı olmak|한국 사람은 정이 많다=Koreliler sıcakkanlı ve sevecen;정이 들다=bağlanmak
 우리를 중요하게 생각하다|"biz"i önemsemek|'나'보다 '우리'를 중요하게 생각하다=“ben”den çok “biz”i önemsemek;공동체 의식=topluluk bilinci
 신발을 벗다|ayakkabıyı çıkarmak|집 안에서 신발을 벗다=evde ayakkabı çıkarmak;신발을 신다=ayakkabı giymek
 숟가락과 젓가락을 사용하다|kaşık ve çubuk kullanmak|식사할 때 숟가락과 젓가락을 사용하다=yemekte kaşık ve çubuk kullanmak;젓가락질이 서툴다=çubuk kullanmada acemi olmak

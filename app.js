@@ -652,6 +652,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
+ ['4.8','2026-11-27',{tr:["Aslı'nın kontrolü uygulandı: abi, temel sıfat ve fiil örnekleri (-mak/-mek biçimi), özel adlar (Kore, Seul, Noel, Wi-Fi)"],ko:['아슬르 검수 반영: 형·오빠 → abi, 기본 형용사·동사 예문 -mak 형태 통일, 고유명사 대문자']}],
  ['4.7','2026-11-27',{tr:["Açılış rehberindeki Türkçe anlatım artık Aslı'nın kendi sesiyle 💚"],ko:['오프닝 튀르키예어 내레이션을 아슬르의 실제 목소리로 교체 💚']}],
  ['4.6','2026-11-27',{tr:["B1–B2 de artık konulara göre: 19 konu, 51 bölüm (kelime ilerlemen korunuyor)"],ko:['B1–B2도 주제별로 정리: 19개 주제, 51단원 (단어 학습 기록은 그대로)']}],
  ['4.5','2026-11-27',{tr:["Kontrol modunda 'Yeni eklenen' filtresi: sadece yeni eklenen 651 kelime kontrol edilebiliyor"],ko:['검수 모드에 \'새로 추가\' 필터: 새로 들어간 651개 단어만 골라서 검수할 수 있어요']}],

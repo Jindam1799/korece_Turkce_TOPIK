@@ -250,7 +250,7 @@
 실력이 늘다|becerisi gelişmek|한국어 실력이 늘다=Korecesi gelişmek;요리 실력이 늘다=yemek becerisi gelişmek
 강의실|derslik, amfi|강의실에 들어가다=dersliğe girmek;강의실을 찾다=derslik aramak
 전공|ana dal|전공이 뭐예요?=Bölümünüz ne?;전공을 살리다=bölümüyle ilgili iş yapmak
-유학을 계획하다|yurt dışında okumayı planlamak|한국 유학을 계획하다=kore'de okumayı planlamak;유학 생활=yurt dışı öğrenci hayatı
+유학을 계획하다|yurt dışında okumayı planlamak|한국 유학을 계획하다=Kore'de okumayı planlamak;유학 생활=yurt dışı öğrenci hayatı
 대학원에 등록하다|lisansüstüne kaydolmak|한국 대학원에 등록하다=Kore'de lisansüstüne kaydolmak;등록 기간=kayıt dönemi
 유학원을 알아보다|eğitim danışmanlığı araştırmak|믿을 만한 유학원을 알아보다=güvenilir danışmanlık şirketi araştırmak;유학원 상담=eğitim danışmanlığı görüşmesi
 등록금을 내다|okul harcı ödemek|학기마다 등록금을 내다=her dönem harç ödemek;등록금이 비싸다=harç pahalı olmak

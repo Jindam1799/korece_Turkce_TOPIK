@@ -75,7 +75,7 @@
 기둥|sütun, direk|기둥에 부딪히다=direğe çarpmak;나라의 기둥=ülkenin direği
 연휴|uzun tatil|명절 연휴=bayram tatili;연휴를 보내다=tatili geçirmek
 지붕|çatı|지붕을 고치다=çatıyı onarmak;기와지붕=kiremit çatı
-장식|süs, dekorasyon|장식이 화려하다=süsü gösterişli olmak;크리스마스 장식=noel süsü
+장식|süs, dekorasyon|장식이 화려하다=süsü gösterişli olmak;크리스마스 장식=Noel süsü
 #건강·의료 (sağlık ve tıp)
 숨이 차다|nefes nefese kalmak|계단을 올라서 숨이 차다=merdiven çıkınca nefes nefese kalmak;숨이 차게 뛰다=nefes nefese koşmak
 전염병|salgın hastalık|전염병이 퍼지다=salgın yayılmak;전염병을 막다=salgını önlemek
@@ -376,7 +376,7 @@ SNS에 사진을 올리다|sosyal medyaya fotoğraf yüklemek|여행 사진을 S
 전망이 좋다|manzarası güzel olmak|전망이 좋은 방=manzaralı oda;전망대=seyir terası
 촬영지로 유명하다|çekim yeri olarak ünlü olmak|드라마 촬영지로 유명하다=dizi çekim yeri olarak ünlü olmak;촬영지를 방문하다=çekim yerini ziyaret etmek
 분위기를 풍기다|atmosfer yaymak|이국적인 분위기를 풍기다=egzotik bir hava yaymak;따뜻한 분위기를 풍기다=sıcak bir hava yaymak
-야경이 아름답다|gece manzarası güzel olmak|서울의 야경이 아름답다=seul'ün gece manzarası güzel olmak;야경을 구경하다=gece manzarasını seyretmek
+야경이 아름답다|gece manzarası güzel olmak|서울의 야경이 아름답다=Seul'ün gece manzarası güzel olmak;야경을 구경하다=gece manzarasını seyretmek
 역사를 느낄 수 있다|tarihi hissedebilmek|골목에서 역사를 느낄 수 있다=sokaklarda tarihi hissedebilmek;과거를 느끼다=geçmişi hissetmek
 위치하다|konumlanmak|도시 중심에 위치하다=şehir merkezinde yer almak;바닷가에 위치하다=sahilde bulunmak
 잔디밭|çimenlik|잔디밭에 앉다=çimenlere oturmak;잔디밭을 걷다=çimenlerde yürümek
