@@ -976,7 +976,7 @@ document.addEventListener('pointerdown',()=>setTimeout(()=>BGM.wake(),1500),{cap
 setInterval(()=>BGM.wake(),2500);
 
 // ---------- şu an çalan türkü (küçük durum çubuğu) ----------
-const NP={katibim:["Üsküdar'a Gider İken","위스퀴다르 가는 길에",'tr'],dere:["Dere Geliyor Dere","Dere Geliyor Dere",'tr'],onbesli:["Hey Onbeşli","Hey Onbeşli",'tr'],entari:["Entarisi Ala Benziyor","Entarisi Ala Benziyor",'tr'],
+const NP={katibim:["Üsküdar'a Gider İken","Üsküdar'a Gider İken",'tr'],dere:["Dere Geliyor Dere","Dere Geliyor Dere",'tr'],onbesli:["Hey Onbeşli","Hey Onbeşli",'tr'],entari:["Entarisi Ala Benziyor","Entarisi Ala Benziyor",'tr'],
  arirang:["Arirang (아리랑)","아리랑",'ko'],miryang:["Miryang Arirang (밀양아리랑)","밀양아리랑",'ko'],doraji:["Doraji Taryeong (도라지타령)","도라지타령",'ko']};
 let npCur=null;
 function npShow(n){npCur=n;const e=$('nowPlay');if(!e)return;const d=n&&NP[n];if(!d||!S.music){e.classList.remove('on');if(!$('mSong').hidden)$('mSong').hidden=true;return}
