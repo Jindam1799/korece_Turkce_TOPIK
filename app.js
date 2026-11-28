@@ -652,6 +652,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
+ ['5.1','2026-11-29',{tr:["Yeni fon müzikleri: Rumeli türküsü 'Dere Geliyor Dere' ve Kore halk şarkısı 'Arirang' (daegeum, gayageum, janggu). Şarkılar rastgele sırayla çalar"],ko:['새 배경 음악: 루멜리 민요 「Dere Geliyor Dere」, 한국 민요 「아리랑」(대금·가야금·장구). 곡이 랜덤 순서로 재생']}],
  ['5.0','2026-11-28',{tr:["Bir oyun bitip lobiye dönünce Deongi: sulama animasyonu, mutlu tepki ve 10 farklı konuşma balonu"],ko:['한 판을 마치고 로비로 돌아오면 물 주기 애니메이션 + 행복한 반응 + 말풍선 10종']}],
  ['4.9','2026-11-27',{tr:["Açılış rehberindeki Korece anlatım artık Wonju'nun kendi sesiyle"],ko:['오프닝 한국어 내레이션을 원주의 실제 목소리로 교체']}],
  ['4.8','2026-11-27',{tr:["Aslı'nın kontrolü uygulandı: abi, temel sıfat ve fiil örnekleri (-mak/-mek biçimi), özel adlar (Kore, Seul, Noel, Wi-Fi)"],ko:['아슬르 검수 반영: 형·오빠 → abi, 기본 형용사·동사 예문 -mak 형태 통일, 고유명사 대문자']}],
@@ -703,36 +704,70 @@ $('bNotesOk').onclick=()=>{$('mNotes').hidden=true};
 // ---------- arka plan müziği (WebAudio ile üretilir) ----------
 let lastSpeak=-1e9;
 const BGM=(()=>{
- // Anonim İstanbul türküsü "Üsküdar'a Gider İken" (Kâtibim), Bûselik — yavaş ve dinlendirici düzenleme
- // ney, bağlama, kanun ve yumuşak bendir. (Notalar: neyzenim.com bûselik versiyonu, La üzerinde)
- let studyOn=false,duckWatch=null,ctx=null,master=null,duckG=null,bus=null,timer=null,step=0,next=0,on=false,noise=null,pass=0;
- const S16=0.25,E=S16*2;// onaltılık 0,25 sn → dörtlük ≈ 60/dk
+ // Rastgele sırayla çalınan halk ezgileri (WebAudio ile üretilir):
+ //  · "Üsküdar'a Gider İken" (Kâtibim), İstanbul türküsü, Bûselik — ney, bağlama, kanun, bendir
+ //  · "Dere Geliyor Dere", Rumeli türküsü, Beyâtî, 9/8 karşılama (B yarım bemol)
+ //  · "아리랑 (Arirang)", Kore halk şarkısı (bonjo, 3/4) — daegeum, gayageum, janggu
+ let studyOn=false,duckWatch=null,ctx=null,master=null,duckG=null,bus=null,timer=null,next=0,on=false,noise=null,pass=0,song=null,fi=0,lastSong=-1;
+ const E=0.5;// bağlama tezene tremolosu için temel süre
  const N=m=>440*Math.pow(2,(m-69)/12);
- const A4=69,B4=71,C5=72,D5=74,Ee=76,F5=77,G5=79,Gs=68,R=null;
- // Her ölçü 2/4 = 8 onaltılık. [nota, uzunluk(onaltılık)]
- const M={
-  1:[[Ee,1],[F5,1],[Ee,1],[D5,1],[C5,1],[B4,1],[C5,1],[D5,1]],
-  2:[[Ee,1],[F5,1],[Ee,1],[D5,1],[C5,1],[B4,1],[A4,2]],
-  4:[[Ee,6],[R,2]],
-  5:[[B4,1],[D5,1],[C5,1],[B4,1],[B4,1],[A4,1],[A4,1],[Gs,1]],
-  6:[[A4,6],[R,2]],
-  7:[[A4,3],[Ee,1],[Ee,2],[Ee,2]],
-  8:[[F5,1],[Ee,1],[F5,1],[G5,1],[Ee,2],[Ee,2]],
-  9:[[D5,2],[D5,2],[C5,2],[D5,2]],
-  10:[[Ee,8]],
-  11:[[A4,3],[B4,1],[C5,2],[D5,2]],
-  13:[[B4,1],[D5,1],[C5,1],[B4,1],[B4,1],[A4,1],[Gs,1],[A4,1]],
-  14:[[B4,4],[R,4]],
-  17:[[B4,1],[D5,1],[C5,1],[B4,1],[B4,1],[A4,1],[A4,1],[Gs,1]],
-  18:[[A4,4],[R,4]],
+ const R=null;
+ // --- 1) Kâtibim (2/4, birim = onaltılık 0,25 sn) ---
+ const K={A4:69,B4:71,C5:72,D5:74,E5:76,F5:77,G5:79,Gs:68};
+ const KM={
+  1:[[K.E5,1],[K.F5,1],[K.E5,1],[K.D5,1],[K.C5,1],[K.B4,1],[K.C5,1],[K.D5,1]],
+  2:[[K.E5,1],[K.F5,1],[K.E5,1],[K.D5,1],[K.C5,1],[K.B4,1],[K.A4,2]],
+  4:[[K.E5,6],[R,2]],
+  5:[[K.B4,1],[K.D5,1],[K.C5,1],[K.B4,1],[K.B4,1],[K.A4,1],[K.A4,1],[K.Gs,1]],
+  6:[[K.A4,6],[R,2]],
+  7:[[K.A4,3],[K.E5,1],[K.E5,2],[K.E5,2]],
+  8:[[K.F5,1],[K.E5,1],[K.F5,1],[K.G5,1],[K.E5,2],[K.E5,2]],
+  9:[[K.D5,2],[K.D5,2],[K.C5,2],[K.D5,2]],
+  10:[[K.E5,8]],
+  11:[[K.A4,3],[K.B4,1],[K.C5,2],[K.D5,2]],
+  13:[[K.B4,1],[K.D5,1],[K.C5,1],[K.B4,1],[K.B4,1],[K.A4,1],[K.Gs,1],[K.A4,1]],
+  14:[[K.B4,4],[R,4]],
+  17:[[K.B4,1],[K.D5,1],[K.C5,1],[K.B4,1],[K.B4,1],[K.A4,1],[K.A4,1],[K.Gs,1]],
+  18:[[K.A4,4],[R,4]],
   0:[[R,8]]};
- M[3]=M[1];M[12]=M[2];M[15]=M[11];M[16]=M[2];
- // Akorlar (kök + beşli): Am, E, Dm, G
- const Am=[45,52,57],Em=[40,47,52],Dm=[38,45,50],G=[43,50,55];
- const CH={1:Am,2:Am,3:Am,4:Em,5:Em,6:Am,7:Am,8:Dm,9:G,10:Am,11:Am,12:Am,13:Em,14:Em,15:Am,16:Am,17:Em,18:Am,0:Am};
- // Form: A (1. ve 2. son) · B ×2 · C · nefes
- const FORM=[1,2,3,4,1,2,5,6,7,8,9,10,7,8,9,10,11,12,13,14,15,16,17,18,0,0];
- let lead='ney';
+ KM[3]=KM[1];KM[12]=KM[2];KM[15]=KM[11];KM[16]=KM[2];
+ const Am=[45,52,57],Em=[40,47,52],Dm=[38,45,50],G=[43,50,55],C=[36,43,48],D=[38,45,50],Bm=[35,42,47],Ems=[40,47,52];
+ // --- 2) Dere Geliyor Dere (9/8 = 2+2+2+3, birim = sekizlik) — B yarım bemol = 70.5 ---
+ const Bh=70.5;
+ const DM={
+  1:[[74,1],[76,1],[76,1],[76,1],[76,2],[74,1],[72,2]],
+  2:[[76,1],[74,1],[74,2],[72,1],[74,1],[Bh,1],[69,2]],
+  3:[[Bh,1],[72,1],[74,1],[76,1],[74,2],[Bh,1],[72,2]],
+  4:[[Bh,1],[69,1],[69,2],[69,3],[R,2]],
+  0:[[R,9]]};
+ // --- 3) 아리랑 (3/4, birim = sekizlik) — kaynak: geleneksel bonjo Arirang, Sol majör pentatonik ---
+ const T3=2/3;
+ const AM={
+  1:[[62,3],[64,1],[62,1],[64,1]],
+  2:[[67,3],[69,1],[67,1],[69,1]],
+  3:[[71,2],[69,T3],[71,T3],[69,T3],[67,1],[64,1]],
+  6:[[71,1],[69,1],[67,1],[64,1],[62,1],[64,1]],
+  7:[[67,3],[69,1],[67,2]],
+  8:[[67,6]],
+  9:[[74,4],[74,2]],
+  10:[[74,2],[71,2],[69,2]],
+  0:[[R,6]]};
+ AM[4]=AM[1];AM[5]=AM[2];AM[11]=AM[3];AM[12]=AM[1];AM[13]=AM[2];AM[14]=AM[6];AM[15]=AM[7];AM[16]=AM[8];
+ const SONGS=[
+  {name:'katibim',kit:'tr',u:.25,bar:8,M:KM,
+   CH:{1:Am,2:Am,3:Am,4:Em,5:Em,6:Am,7:Am,8:Dm,9:G,10:Am,11:Am,12:Am,13:Em,14:Em,15:Am,16:Am,17:Em,18:Am,0:Am},
+   FORM:[1,2,3,4,1,2,5,6,7,8,9,10,7,8,9,10,11,12,13,14,15,16,17,18,0,0],
+   perc(t,u){dum(t,.1);tek(t+4*u,.026);if(Math.random()<.5)tek(t+6*u,.016)}},
+  {name:'dere',kit:'tr',u:.27,bar:9,M:DM,
+   CH:{1:Am,2:Am,3:G,4:Am,0:Am},
+   FORM:[1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,0],
+   perc(t,u){dum(t,.1);tek(t+2*u,.024);dum(t+4*u,.07);tek(t+6*u,.022);tek(t+7.5*u,.016)}},
+  {name:'arirang',kit:'ko',u:.42,bar:6,M:AM,scale:[67,69,71,74,76],
+   CH:{1:G,2:G,3:G,4:D,5:G,6:Ems,7:C,8:G,9:Bm,10:D,11:G,12:D,13:G,14:Ems,15:C,16:G,0:G},
+   FORM:[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,0],
+   perc(t,u){kung(t,.09);deok(t,.02);deok(t+2*u,.018);kung(t+3*u,.06);deok(t+4*u,.016);if(Math.random()<.5)deok(t+5*u,.012)}}
+ ];
+ function pick(){let i;do i=Math.floor(Math.random()*SONGS.length);while(i===lastSong&&SONGS.length>1);lastSong=i;song=SONGS[i];fi=0;pass++}
  function reverb(){const len=ctx.sampleRate*3,b=ctx.createBuffer(2,len,ctx.sampleRate);for(let c=0;c<2;c++){const d=b.getChannelData(c);for(let i=0;i<len;i++)d[i]=(Math.random()*2-1)*Math.pow(1-i/len,2.4)}const r=ctx.createConvolver();r.buffer=b;return r}
  function init(){
   ctx=new (window.AudioContext||window.webkitAudioContext)();
@@ -778,20 +813,48 @@ const BGM=(()=>{
   g.gain.setValueAtTime(v,t);g.gain.exponentialRampToValueAtTime(.001,t+.45);o.connect(g);g.connect(bus);o.start(t);o.stop(t+.5)}
  function tek(t,v=.03){const n=ctx.createBufferSource(),f=ctx.createBiquadFilter(),g=ctx.createGain();n.buffer=noise;f.type='bandpass';f.frequency.value=2600;f.Q.value=1.1;
   g.gain.setValueAtTime(v,t);g.gain.exponentialRampToValueAtTime(.001,t+.08);n.connect(f);f.connect(g);g.connect(bus);n.start(t);n.stop(t+.1)}
+ // daegeum: derin nefesli bambu flüt, geniş vibrato ve aşağıdan kayarak giriş (sigimsae)
+ function daegeum(m,t,dur,v=.05){
+  const o=ctx.createOscillator(),o2=ctx.createOscillator(),g=ctx.createGain(),lfo=ctx.createOscillator(),lg=ctx.createGain();
+  o.type='sine';o2.type='triangle';o.frequency.value=N(m);o2.frequency.value=N(m);lfo.frequency.value=5.2;
+  lg.gain.setValueAtTime(0,t);lg.gain.linearRampToValueAtTime(4,t+Math.min(.3,dur*.4));lg.gain.linearRampToValueAtTime(14,t+Math.max(.35,dur*.9));lfo.connect(lg);lg.connect(o.detune);lg.connect(o2.detune);
+  o.detune.setValueAtTime(-70,t);o.detune.linearRampToValueAtTime(0,t+.14);o2.detune.setValueAtTime(-70,t);o2.detune.linearRampToValueAtTime(0,t+.14);
+  const g2=ctx.createGain();g2.gain.value=.3;
+  g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(v,t+.1);g.gain.setValueAtTime(v,t+Math.max(.12,dur-.15));g.gain.linearRampToValueAtTime(0,t+dur+.2);
+  const n=ctx.createBufferSource(),bp=ctx.createBiquadFilter(),ng=ctx.createGain();n.buffer=noise;n.loop=true;bp.type='bandpass';bp.frequency.value=N(m)*1.5;bp.Q.value=1.6;ng.gain.value=.018;
+  o.connect(g);o2.connect(g2);g2.connect(g);n.connect(bp);bp.connect(ng);ng.connect(g);g.connect(bus);
+  [o,o2,lfo,n].forEach(x=>{x.start(t);x.stop(t+dur+.3)});
+ }
+ // gayageum: yumuşak çekilen ipek tel; sonunda hafif titreşim (nonghyeon)
+ function gayageum(m,t,v=.06,len=1.6){
+  const o=ctx.createOscillator(),o2=ctx.createOscillator(),g=ctx.createGain(),f=ctx.createBiquadFilter(),g2=ctx.createGain();
+  o.type='triangle';o2.type='sine';o.frequency.value=N(m);o2.frequency.value=N(m)*2;g2.gain.value=.25;
+  [o,o2].forEach(x=>{x.detune.setValueAtTime(0,t+.18);x.detune.linearRampToValueAtTime(35,t+.4);x.detune.linearRampToValueAtTime(-10,t+.62);x.detune.linearRampToValueAtTime(0,t+.8)});
+  f.type='lowpass';f.frequency.setValueAtTime(3000,t);f.frequency.exponentialRampToValueAtTime(700,t+.6);
+  g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(v,t+.005);g.gain.exponentialRampToValueAtTime(.0006,t+len);
+  o.connect(f);o2.connect(g2);g2.connect(f);f.connect(g);g.connect(bus);o.start(t);o2.start(t);o.stop(t+len+.1);o2.stop(t+len+.1)}
+ // janggu: kung (sol, derin) ve deok (sağ, çubuk)
+ function kung(t,v=.1){const o=ctx.createOscillator(),g=ctx.createGain();o.type='sine';o.frequency.setValueAtTime(120,t);o.frequency.exponentialRampToValueAtTime(70,t+.3);
+  g.gain.setValueAtTime(v,t);g.gain.exponentialRampToValueAtTime(.001,t+.5);o.connect(g);g.connect(bus);o.start(t);o.stop(t+.55)}
+ function deok(t,v=.02){const n=ctx.createBufferSource(),f=ctx.createBiquadFilter(),g=ctx.createGain();n.buffer=noise;f.type='bandpass';f.frequency.value=1800;f.Q.value=2.2;
+  g.gain.setValueAtTime(v,t);g.gain.exponentialRampToValueAtTime(.001,t+.06);n.connect(f);f.connect(g);g.connect(bus);n.start(t);n.stop(t+.08)}
  function schedule(){
-  while(next<ctx.currentTime+1.4){
-   const pos=step%8,bar=Math.floor(step/8),fi=bar%FORM.length,id=FORM[fi],t=next;
-   if(fi===0&&pos===0){pass++;lead=pass%2?'ney':'saz'}
-   const ch=CH[id];
-   if(pos===0)pad(ch,t,S16*8);
-   // bendir: düm . . . tek . . .
-   if(id){if(pos===0)dum(t,.1);else if(pos===4)tek(t,.026);else if(pos===6&&Math.random()<.5)tek(t,.016)}
-   // kanun: akor notalarıyla yumuşak arpej
-   if(pos%2===1&&Math.random()<.6){const c=ch[Math.random()*3|0]+24+(Math.random()<.3?12:0);kanun(c,t,.022)}
+  if(!song)pick();
+  while(next<ctx.currentTime+1.6){
+   const s=song,id=s.FORM[fi],t=next,u=s.u,bd=s.bar*u,ch=s.CH[id]||s.CH[0],ko=s.kit==='ko',lead=pass%2?'a':'b';
+   pad(ch,t,bd);
+   if(id)s.perc(t,u);
+   // arpej: kanun (Türk) / gayageum (Kore)
+   for(let p=1;p<s.bar;p+=2)if(Math.random()<.55){const tt=t+p*u;
+    if(ko){const sc=s.scale;gayageum(sc[Math.random()*sc.length|0]+12,tt,.018,1.1)}
+    else kanun(ch[Math.random()*3|0]+24+(Math.random()<.3?12:0),tt,.022)}
    // melodi
-   let acc=0;for(const [m,l] of M[id]){if(acc===pos){if(m!==null){const dur=l*S16;
-     if(lead==='ney'){ney(m,t,dur*.97,.05);if(l>=4)kanun(m+12,t,.02)}else{sazNote(m,t,dur,.07);if(l>=4)ney(m-12,t,dur*.9,.02)}}break}acc+=l}
-   step++;next+=S16;
+   let acc=0;for(const[m,l]of s.M[id]){const tt=t+acc*u,dur=l*u;
+    if(m!==null){
+     if(ko){if(lead==='a'){daegeum(m,tt,dur*.97,.04);if(l>=3)gayageum(m-12,tt,.024)}else{gayageum(m,tt,.055,Math.max(1.2,dur*1.2));if(l>=3)daegeum(m-12,tt,dur*.9,.022)}}
+     else{if(lead==='a'){ney(m,tt,dur*.97,.05);if(l>=4)kanun(m+12,tt,.02)}else{sazNote(m,tt,dur,.07);if(l>=4)ney(m-12,tt,dur*.9,.02)}}}
+    acc+=l}
+   next+=bd;fi++;if(fi>=s.FORM.length)pick();
   }
  }
  function vol(){return (S.vol/100)*.75}
