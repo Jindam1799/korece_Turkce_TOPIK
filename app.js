@@ -407,7 +407,7 @@ function cardAnswer(knew){
 }
 $('kNo').onclick=()=>cardAnswer(false);$('kYes').onclick=()=>cardAnswer(true);
 $('cQuit').onclick=()=>{if(deck.i)finishCards();else{deck=null;show('home');renderHome()}};
-function finishCards(){save();show('result');renderResult()}
+function finishCards(){played=true;save();show('result');renderResult()}
 {let sx=null;$('flip').addEventListener('touchstart',e=>{sx=e.touches[0].clientX},{passive:true});
  $('flip').addEventListener('touchend',e=>{if(sx==null)return;const dx=e.changedTouches[0].clientX-sx;sx=null;if(Math.abs(dx)>70){e.preventDefault();cardAnswer(dx>0)}})}
 
@@ -434,7 +434,7 @@ $('pList').addEventListener('click',e=>{
 });
 
 // ---------- sonuç ----------
-function finish(){clearInterval(timer);state.phase='done';save();show('result');renderResult()}
+function finish(){played=true;clearInterval(timer);state.phase='done';save();show('result');renderResult()}
 let lastList=[];
 function renderResult(){
  $('rMini').innerHTML=art();
@@ -446,7 +446,7 @@ function renderResult(){
  $('rHome').textContent=t('home');$('rRetry').textContent=t('retryWrong');$('rRetry').disabled=!lastList.length;
 }
 $('rList').addEventListener('click',e=>{const b=e.target.closest('[data-s]');if(b)speak(sayText(BYID.get(b.dataset.s)),true)});
-$('rHome').onclick=()=>{state=null;deck=null;show('home');renderHome()};
+$('rHome').onclick=()=>{state=null;deck=null;show('home');renderHome();if(played){played=false;setTimeout(waterCheer,350)}};
 $('rRetry').onclick=()=>{const list=shuffle(lastList.slice());if(deck)startCards(list);else start('review',list)};
 $('bStart').onclick=()=>start('normal');
 $('bCards').onclick=()=>startCards();
@@ -652,6 +652,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
+ ['5.0','2026-11-28',{tr:["Bir oyun bitip lobiye dönünce Deongi: sulama animasyonu, mutlu tepki ve 10 farklı konuşma balonu"],ko:['한 판을 마치고 로비로 돌아오면 물 주기 애니메이션 + 행복한 반응 + 말풍선 10종']}],
  ['4.9','2026-11-27',{tr:["Açılış rehberindeki Korece anlatım artık Wonju'nun kendi sesiyle"],ko:['오프닝 한국어 내레이션을 원주의 실제 목소리로 교체']}],
  ['4.8','2026-11-27',{tr:["Aslı'nın kontrolü uygulandı: abi, temel sıfat ve fiil örnekleri (-mak/-mek biçimi), özel adlar (Kore, Seul, Noel, Wi-Fi)"],ko:['아슬르 검수 반영: 형·오빠 → abi, 기본 형용사·동사 예문 -mak 형태 통일, 고유명사 대문자']}],
  ['4.7','2026-11-27',{tr:["Açılış rehberindeki Türkçe anlatım artık Aslı'nın kendi sesiyle 💚"],ko:['오프닝 튀르키예어 내레이션을 아슬르의 실제 목소리로 교체 💚']}],
@@ -839,14 +840,35 @@ function cheerY(){const m=$('mascot'),hab=m.parentElement,hr=hab.getBoundingClie
   if(vb&&vb.height){const k=Math.min(r.width/vb.width,r.height/vb.height),oy=(r.height-vb.height*k)/2;return Math.max(40,Math.round(hr.bottom-(r.top+oy+(bb.y-vb.y)*k)+18))}}catch(e){}
  return hab.clientHeight-m.offsetTop+4}
 const NM_INTRO=[["안녕! 내 이름은 {N}! 앞으로 잘 부탁해요!", "Merhaba! Benim adım {N}. Tanıştığıma çok sevindim!", "excited"], ["새 이름 {N}, 정말 마음에 들어요!", "Yeni adım {N}, çok beğendim!", "spin"], ["저는 {N}! 같이 쑥쑥 자라요!", "Ben {N}! Birlikte büyüyelim!", "jump"]],NM_TAP=[["저 {N} 여기 있어요!", "Ben {N}, buradayım!", "wiggle"], ["제 이름 기억하죠? {N}!", "Adımı hatırlıyor musun? {N}!", "bounce"], ["{N}도 오늘 열심히 자랄게요!", "{N} de bugün çok çalışıp büyüyecek!", "excited"]];
-let nameIntro=false;
-function cheer(tap){
+let nameIntro=false,played=false,wTimer=[];
+// bir oyun bitince lobiye dönüşte: sulama + mutlu tepki + konuşma balonu
+const WATER=[["시원하다~ 고마워요!", "Oh, ferahladım! Teşekkürler!"], ["물 맛있어요! 꿀꺽꿀꺽", "Su çok lezzetli! Lık lık…"], ["{N} 쑥쑥 자라는 중!", "{N} hızla büyüyor!"], ["오늘도 수고했어요!", "Bugün de çok emek verdin!"], ["한 판 더 할까요?", "Bir el daha oynayalım mı?"], ["덕분에 힘이 나요!", "Senin sayende güçlendim!"], ["온몸이 반짝반짝해졌어요!", "Her yerim pırıl pırıl oldu!"], ["정답 하나하나가 다 양분이에요!", "Her doğru cevap bana besin oldu!"], ["와, 키가 조금 큰 것 같아요!", "Vay, sanki biraz uzadım!"], ["최고의 물 주기였어요!", "Bu en güzel sulamaydı!"]];let wLast=-1;
+const WCAN='<svg viewBox="0 0 80 60" aria-hidden="true"><path d="M22 20h34a4 4 0 0 1 4 4v24a6 6 0 0 1-6 6H24a6 6 0 0 1-6-6V24a4 4 0 0 1 4-4z" fill="#6fb6e6" stroke="#2f6b4f" stroke-width="3"/><path d="M60 26c12 0 14 18 2 20" fill="none" stroke="#2f6b4f" stroke-width="4" stroke-linecap="round"/><path d="M19 30L4 14" stroke="#2f6b4f" stroke-width="7" stroke-linecap="round"/><path d="M19 30L4 14" stroke="#6fb6e6" stroke-width="3" stroke-linecap="round"/><ellipse cx="3" cy="13" rx="5" ry="3.4" transform="rotate(-45 3 13)" fill="#2f6b4f"/><path d="M26 28h24" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".6"/></svg>';
+function waterCheer(){
+ const h=$('home'),m=$('mascot');if(!m||h.hidden||document.querySelector('.modal:not([hidden])')||!$('guide').hidden)return;
+ const hab=m.parentElement,hr=hab.getBoundingClientRect(),mr=m.getBoundingClientRect();
+ wTimer.forEach(clearTimeout);wTimer=[];hab.querySelectorAll('.wcan,.wdrops').forEach(e=>e.remove());
+ $('cheer').classList.remove('show');
+ const cx=mr.left+mr.width/2-hr.left,top=hr.height-(cheerY()-18);
+ const can=document.createElement('div');can.className='wcan';can.innerHTML=WCAN;can.style.left=(cx+6)+'px';can.style.top=Math.max(0,top-92)+'px';
+ const dr=document.createElement('div');dr.className='wdrops';dr.style.left=(cx-34)+'px';dr.style.top=Math.max(0,top-62)+'px';dr.style.height=Math.max(40,Math.min(70,top))+'px';
+ dr.innerHTML=[0,1,2,3,4,5,6].map(i=>`<i style="left:${4+i*9}px;animation-delay:${(i%4)*.12+(i>3?.06:0)}s"></i>`).join('');
+ hab.append(can,dr);
+ wTimer.push(setTimeout(()=>dr.classList.add('on'),450));
+ wTimer.push(setTimeout(()=>{m.classList.add('happy');try{BGM.sfx('ok')}catch(e){}},1100));
+ wTimer.push(setTimeout(()=>{can.classList.add('out');dr.classList.remove('on')},1900));
+ wTimer.push(setTimeout(()=>{can.remove();dr.remove();let i;do i=Math.floor(Math.random()*WATER.length);while(i===wLast&&WATER.length>1);wLast=i;
+  cheer(false,[WATER[i][0],WATER[i][1],Math.random()<.5?'excited':'jump']);hab.querySelectorAll('.wspark').forEach(e=>e.remove());
+  const sp=document.createElement('div');sp.className='wspark';sp.style.left=(cx-60)+'px';sp.style.top=(top-10)+'px';sp.innerHTML='<i></i><i></i><i></i><i></i>';hab.append(sp);wTimer.push(setTimeout(()=>sp.remove(),1400))},2300));
+}
+function cheer(tap,line){
  const b=$('cheer'),h=$('home'),m=$('mascot');if(!b||h.hidden||document.querySelector('.modal:not([hidden])')||!$('guide').hidden)return;
  let ko,tr,act;
  if(tap){let i;do i=Math.floor(Math.random()*TAPS.length);while(i===tpLast&&TAPS.length>1);tpLast=i;[ko,tr,act]=TAPS[i]}
  else{let i;do i=Math.floor(Math.random()*CHEERS.length);while(i===chLast&&CHEERS.length>1);chLast=i;[ko,tr]=CHEERS[i];act=M_ACTS[Math.floor(Math.random()*M_ACTS.length)]}
  if(nameIntro&&S.name){nameIntro=false;[ko,tr,act]=NM_INTRO[Math.floor(Math.random()*NM_INTRO.length)]}
  else if(tap&&S.name&&Math.random()<.35)[ko,tr,act]=NM_TAP[Math.floor(Math.random()*NM_TAP.length)];
+ if(line)[ko,tr,act]=line;
  ko=ko.split('{N}').join(PN());tr=tr.split('{N}').join(PN());
  b.innerHTML=`<b>${esc(ko)}</b>`+(S.lang==='ko'?'':`<small>${esc(tr)}</small>`);
  b.style.bottom=cheerY()+'px';
