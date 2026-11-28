@@ -652,7 +652,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
- ['5.3','2026-11-29',{tr:['Lobideki türkü çubuğuna dokun: türkünün hikâyesi, sözleri (Kâtibim, Arirang) ve çal / duraklat / sonraki türkü düğmeleri'],ko:['로비의 음악 표시를 누르면 곡 설명·가사(Kâtibim, 아리랑)와 재생/일시정지/다음 곡 버튼']}],
+ ['5.3','2026-11-29',{tr:['Lobideki türkü çubuğuna dokun: türkünün hikâyesi ve çal / duraklat / sonraki türkü düğmeleri'],ko:['로비의 음악 표시를 누르면 곡 설명과 재생/일시정지/다음 곡 버튼']}],
  ['5.2','2026-11-29',{tr:['Bitki arkadaşının adı artık lobide: Deongi\'ye ya da kartındaki adına dokun, istediğin zaman ismini değiştir'],ko:['식물 친구 이름을 로비에서 바로 변경: 덩이나 카드의 이름을 누르면 이름 바꾸기 창 (환영 창의 이름 칸은 삭제)']}],
  ['5.1','2026-11-29',{tr:["Yeni fon müzikleri: türküler 'Dere Geliyor Dere', 'Hey Onbeşli', 'Entarisi Ala Benziyor' ve Kore halk şarkıları 'Arirang', 'Miryang Arirang' ve 'Doraji Taryeong' (daegeum, gayageum, janggu). Şarkılar rastgele sırayla çalar; lobide şu an çalan türkünün adı görünür"],ko:['새 배경 음악: 튀르키예 민요 「Dere Geliyor Dere」·「Hey Onbeşli」·「Entarisi Ala Benziyor」, 한국 민요 「아리랑」·「밀양아리랑」·「도라지타령」(대금·가야금·장구). 곡이 랜덤 순서로 재생, 로비에 지금 나오는 곡 이름 표시']}],
  ['5.0','2026-11-28',{tr:["Bir oyun bitip lobiye dönünce Deongi: sulama animasyonu, mutlu tepki ve 10 farklı konuşma balonu"],ko:['한 판을 마치고 로비로 돌아오면 물 주기 애니메이션 + 행복한 반응 + 말풍선 10종']}],
@@ -984,12 +984,10 @@ function npShow(n){npCur=n;const e=$('nowPlay');if(!e)return;const d=n&&NP[n];if
  e.innerHTML=`<i aria-hidden="true">${pl?'♪':'❚❚'}</i><b>${esc(ko?d[1]:d[0])}</b><small>· ${esc(org)}</small>`;e.classList.add('on');e.classList.toggle('paused',!pl);
  e.setAttribute('aria-label',(ko?'곡 정보 보기: ':'Türkü bilgisi: ')+(ko?d[1]:d[0]));
  if(!$('mSong').hidden)renderSong()}
-// türkü açıklamaları (kendi sözlerimizle) ve 1929 öncesinden gelen anonim sözler
+// türkü açıklamaları (kendi sözlerimizle)
 const SONG_INFO={
  katibim:{tr:"İstanbul'un en bilinen türkülerinden biri. Üsküdar'a giderken yağmura yakalanan bir kâtibi anlatır. Aynı ezgi Balkanlar'dan Güney Asya'ya kadar pek çok ülkede farklı sözlerle söylenir.",
-  ko:"이스탄불을 대표하는 민요예요. 위스퀴다르로 가다가 비를 만난 서기(kâtip)를 노래해요. 같은 가락이 발칸반도부터 남아시아까지 여러 나라에서 다른 가사로 불려요.",
-  ly:[["Üsküdar'a gider iken aldı da bir yağmur","위스퀴다르로 가는 길에 비가 내렸네"],["Kâtibimin setresi uzun, eteği çamur","내 서기의 외투는 길고 옷자락은 진흙투성이"],["Kâtip uykudan uyanmış, gözleri mahmur","서기는 막 잠에서 깨어 눈이 아직 졸려"],["Kâtip benim, ben kâtibin, el ne karışır","서기는 내 사람, 나는 서기의 사람, 남이 무슨 상관이야"],["Kâtibime kolalı da gömlek ne güzel yaraşır","풀 먹인 셔츠가 내 서기에게 참 잘 어울리네"],null,
-   ["Üsküdar'a gider iken bir mendil buldum","위스퀴다르로 가는 길에 손수건을 하나 주웠네"],["Mendilimin içine de lokum doldurdum","손수건 안에 로쿰을 가득 담았지"],["Kâtibimi arar iken yanımda buldum","서기를 찾아 헤맸는데 바로 내 곁에 있었네"],["Kâtip benim, ben kâtibin, el ne karışır","서기는 내 사람, 나는 서기의 사람, 남이 무슨 상관이야"]]},
+  ko:"이스탄불을 대표하는 민요예요. 위스퀴다르로 가다가 비를 만난 서기(kâtip)를 노래해요. 같은 가락이 발칸반도부터 남아시아까지 여러 나라에서 다른 가사로 불려요."},
  dere:{tr:"Rumeli (Balkanlar) türküsü. 9/8'lik karşılama ritmiyle oynanan neşeli bir halk havasıdır; Beyâtî makamındadır.",
   ko:"루멜리(발칸반도의 튀르키예 문화권) 민요예요. 9/8박자 카르실라마 리듬에 맞춰 춤추는 흥겨운 곡이고, 베야티 마캄(음계)으로 되어 있어요."},
  onbesli:{tr:"Tokat yöresinin türküsü. Adı, Birinci Dünya Savaşı'nda askere alınan 1315 (1899) doğumlu gençlerden gelir. Kimileri ağıt, kimileri oturak havası olarak bilir.",
@@ -997,9 +995,7 @@ const SONG_INFO={
  entari:{tr:"Rumeli türküsü. Hicaz makamında ve 9/8'lik ritimle söylenen neşeli bir aşk türküsüdür.",
   ko:"루멜리 민요예요. 히자즈 마캄과 9/8박자로 부르는 흥겨운 사랑 노래로, 좋아하는 사람의 붉은 엔타리(긴 겉옷)를 노래해요."},
  arirang:{tr:"Kore'nin en çok bilinen halk şarkısı; 'gayriresmî milli marş' da denir. Yüzlerce bölgesel versiyonu vardır ve 2012'de UNESCO Somut Olmayan Kültürel Miras listesine girmiştir. Bu, Seul bölgesinin 'bonjo' Arirang'ıdır.",
-  ko:"한국을 대표하는 민요로 '비공식 국가'라고도 불려요. 지역마다 수많은 아리랑이 있고, 2012년 유네스코 인류무형문화유산에 올랐어요. 이 곡은 서울·경기 지역의 본조 아리랑이에요.",
-  ly:[["아리랑 아리랑 아라리요","Arirang, arirang, arariyo"],["아리랑 고개로 넘어간다","Arirang tepesini aşıp gidiyor"],["나를 버리고 가시는 님은","Beni bırakıp giden sevgilim"],["십 리도 못 가서 발병 난다","On li (4 km) gitmeden ayağı ağrıyacak"],null,
-   ["아리랑 아리랑 아라리요","Arirang, arirang, arariyo"],["아리랑 고개로 넘어간다","Arirang tepesini aşıp gidiyor"],["청천 하늘엔 잔별도 많고","Masmavi gökte yıldızlar ne çok"],["우리네 가슴엔 수심도 많다","Bizim gönlümüzde de dertler ne çok"]]},
+  ko:"한국을 대표하는 민요로 '비공식 국가'라고도 불려요. 지역마다 수많은 아리랑이 있고, 2012년 유네스코 인류무형문화유산에 올랐어요. 이 곡은 서울·경기 지역의 본조 아리랑이에요."},
  miryang:{tr:"Jeongseon ve Jindo Arirang'ıyla birlikte Kore'nin 'üç büyük Arirang'ından biri. Gyeongsang bölgesindeki Miryang şehrinin hızlı ve neşeli şarkısıdır (9/8 semachi ritmi).",
   ko:"정선·진도 아리랑과 함께 3대 아리랑으로 꼽혀요. 경상도 밀양의 노래로, 경쾌한 세마치장단 곡이에요."},
  doraji:{tr:"Gyeonggi bölgesi halk şarkısı. Dağda doraji (balon çiçeği kökü) toplamayı anlatır. Kuzey ve Güney Kore'de, Çin ve Japonya'da da çok sevilir.",
@@ -1011,9 +1007,7 @@ function renderSong(){const n=npCur||BGM.cur(),d=NP[n],I=SONG_INFO[n];if(!d||!I)
  $('sgTitle').textContent=ko?d[1]:d[0];$('sgOrg').textContent=songLang==='tr'?(ko?'튀르키예 민요':'Türk halk türküsü'):(ko?'한국 민요':'Kore halk şarkısı');
  $('sgDesc').textContent=ko?I.ko:I.tr;
  $('sgPlay').innerHTML=pl?IC_PAUSE:IC_PLAY;$('sgPlay').setAttribute('aria-label',pl?(ko?'일시정지':'Duraklat'):(ko?'재생':'Çal'));$('sgNext').innerHTML=IC_NEXT;$('sgNext').setAttribute('aria-label',ko?'다음 곡':'Sonraki türkü');
- $('sgLyT').textContent=ko?'가사':'Sözler';
- const showTr=(S.lang==='ko'?'ko':'tr')!==songLang;
- $('sgLy').innerHTML=I.ly?I.ly.map(l=>l?`<p><b>${esc(l[0])}</b>${showTr?`<small>${esc(l[1])}</small>`:''}</p>`:'<hr>').join(''):`<p class="none">${ko?'이 곡은 반주만 나와요. 가사는 준비 중이에요.':'Bu türkünün yalnızca ezgisi çalıyor; sözleri hazırlanıyor.'}</p>`;
+
  $('sgClose').textContent=ko?'닫기':'Kapat'}
 function openSong(){renderSong();$('mSong').hidden=false;$('mSong').querySelector('.box').scrollTop=0}
 $('nowPlay').addEventListener('click',openSong);
