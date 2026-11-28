@@ -453,7 +453,7 @@ $('bCards').onclick=()=>startCards();
 $('bReview').onclick=()=>start('review');
 
 document.addEventListener('keydown',e=>{
- if(!$('mLv').hidden||!$('mSet').hidden||!$('mWel').hidden||!$('mNotes').hidden||!$('mBook').hidden||!introDone||!$('review').hidden||!$('guide').hidden)return;
+ if(!$('mSong').hidden||!$('mName').hidden||!$('mLv').hidden||!$('mSet').hidden||!$('mWel').hidden||!$('mNotes').hidden||!$('mBook').hidden||!introDone||!$('review').hidden||!$('guide').hidden)return;
  if(state&&!$('game').hidden){
   if(state.phase==='q'&&/^[1-4]$/.test(e.key))answer(state.options[+e.key-1].id);
   else if(state.phase==='fb'&&e.key==='Enter'&&document.activeElement.tagName!=='BUTTON')$('fNext').click();
@@ -652,6 +652,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
+ ['5.3','2026-11-29',{tr:['Lobideki türkü çubuğuna dokun: türkünün hikâyesi, sözleri (Kâtibim, Arirang) ve çal / duraklat / sonraki türkü düğmeleri'],ko:['로비의 음악 표시를 누르면 곡 설명·가사(Kâtibim, 아리랑)와 재생/일시정지/다음 곡 버튼']}],
  ['5.2','2026-11-29',{tr:['Bitki arkadaşının adı artık lobide: Deongi\'ye ya da kartındaki adına dokun, istediğin zaman ismini değiştir'],ko:['식물 친구 이름을 로비에서 바로 변경: 덩이나 카드의 이름을 누르면 이름 바꾸기 창 (환영 창의 이름 칸은 삭제)']}],
  ['5.1','2026-11-29',{tr:["Yeni fon müzikleri: türküler 'Dere Geliyor Dere', 'Hey Onbeşli', 'Entarisi Ala Benziyor' ve Kore halk şarkıları 'Arirang', 'Miryang Arirang' ve 'Doraji Taryeong' (daegeum, gayageum, janggu). Şarkılar rastgele sırayla çalar; lobide şu an çalan türkünün adı görünür"],ko:['새 배경 음악: 튀르키예 민요 「Dere Geliyor Dere」·「Hey Onbeşli」·「Entarisi Ala Benziyor」, 한국 민요 「아리랑」·「밀양아리랑」·「도라지타령」(대금·가야금·장구). 곡이 랜덤 순서로 재생, 로비에 지금 나오는 곡 이름 표시']}],
  ['5.0','2026-11-28',{tr:["Bir oyun bitip lobiye dönünce Deongi: sulama animasyonu, mutlu tepki ve 10 farklı konuşma balonu"],ko:['한 판을 마치고 로비로 돌아오면 물 주기 애니메이션 + 행복한 반응 + 말풍선 10종']}],
@@ -844,7 +845,7 @@ const BGM=(()=>{
    perc(t,u){kung(t,.08);deok(t,.018);deok(t+2*u,.014);kung(t+3*u,.05);deok(t+4*u,.016);kung(t+6*u,.05);deok(t+7*u,.016);if(Math.random()<.5)deok(t+8*u,.011)}}
  ];
  function pick(){let i;do i=Math.floor(Math.random()*SONGS.length);while(i===lastSong&&SONGS.length>1);lastSong=i;song=SONGS[i];fi=0;pass++;
-  const nm=song.name,d=ctx?Math.max(0,(next-ctx.currentTime)*1000):0;setTimeout(()=>{if(on&&song&&song.name===nm)try{npShow(nm)}catch(e){}},d)}
+  const nm=song.name,d=ctx?Math.max(0,(next-ctx.currentTime)*1000):0;setTimeout(()=>{if(song&&song.name===nm)try{npShow(nm)}catch(e){}},d)}
  function reverb(){const len=ctx.sampleRate*3,b=ctx.createBuffer(2,len,ctx.sampleRate);for(let c=0;c<2;c++){const d=b.getChannelData(c);for(let i=0;i<len;i++)d[i]=(Math.random()*2-1)*Math.pow(1-i/len,2.4)}const r=ctx.createConvolver();r.buffer=b;return r}
  function init(){
   ctx=new (window.AudioContext||window.webkitAudioContext)();
@@ -936,8 +937,8 @@ const BGM=(()=>{
  }
  function vol(){return (S.vol/100)*.75}
  return{
-  start(){if(!S.music)return;try{if(!ctx)init();ctx.resume();if(on)return;on=true;next=ctx.currentTime+.1;schedule();try{npShow(song&&song.name)}catch(e){}timer=setInterval(schedule,300);
-   master.gain.cancelScheduledValues(ctx.currentTime);master.gain.setValueAtTime(master.gain.value,ctx.currentTime);master.gain.linearRampToValueAtTime(vol(),ctx.currentTime+3)}catch(e){}},
+  start(fast){if(!S.music)return;try{if(!ctx)init();ctx.resume();if(on)return;on=true;next=ctx.currentTime+.1;schedule();try{npShow(song&&song.name)}catch(e){}timer=setInterval(schedule,300);
+   master.gain.cancelScheduledValues(ctx.currentTime);master.gain.setValueAtTime(master.gain.value,ctx.currentTime);master.gain.linearRampToValueAtTime(vol(),ctx.currentTime+(fast?.6:3))}catch(e){}},
   stop(){if(!ctx||!on)return;on=false;clearInterval(timer);master.gain.cancelScheduledValues(ctx.currentTime);master.gain.setValueAtTime(master.gain.value,ctx.currentTime);master.gain.linearRampToValueAtTime(0,ctx.currentTime+.8)},
   setVol(){if(ctx&&on){master.gain.cancelScheduledValues(ctx.currentTime);master.gain.setTargetAtTime(vol(),ctx.currentTime,.1)}},
   // ses/okuma sırasında müziği yumuşakça kıs, bitince yavaşça geri aç; iOS'ta bitiş olayı gelmezse kendisi fark eder
@@ -959,7 +960,12 @@ const BGM=(()=>{
    else{pl(69,t0,.16,.5,2600,false);pl(64,t0+.17,.17,.9,1800,false);
     const o=ctx.createOscillator(),g=ctx.createGain();o.type='sine';o.frequency.setValueAtTime(110,t0+.17);o.frequency.exponentialRampToValueAtTime(55,t0+.4);g.gain.setValueAtTime(.18,t0+.17);g.gain.exponentialRampToValueAtTime(.001,t0+.45);o.connect(g);g.connect(out);o.start(t0+.17);o.stop(t0+.5)}
   }catch(e){}},
-  pause(){if(ctx)ctx.suspend()},resume(){if(ctx&&on)ctx.resume()}
+  pause(){if(ctx)ctx.suspend()},resume(){if(ctx&&on)ctx.resume()},
+  // kullanıcı kontrolleri: çal/duraklat, sonraki türkü
+  playing(){return on},cur(){return song&&song.name},
+  toggle(){if(on){this.stop();try{npShow(song&&song.name)}catch(e){}}else{S.music=true;save();this.start(true)}return on},
+  skip(){try{if(!ctx)init();if(on){const t=ctx.currentTime,old=bus;old.gain.cancelScheduledValues(t);old.gain.setValueAtTime(old.gain.value,t);old.gain.linearRampToValueAtTime(0,t+.35);setTimeout(()=>{try{old.disconnect()}catch(e){}},1500);
+    bus=ctx.createGain();bus.connect(duckG);next=t+.45;pick();schedule()}else{pick();this.start(true)}}catch(e){}}
  };
 })();
 $('bMusic').onclick=()=>{S.music=!S.music;save();renderSettings();if(S.music)BGM.start();else{BGM.stop();npShow(null)}};
@@ -973,9 +979,48 @@ setInterval(()=>BGM.wake(),2500);
 const NP={katibim:["Üsküdar'a Gider İken","위스퀴다르 가는 길에",'tr'],dere:["Dere Geliyor Dere","Dere Geliyor Dere",'tr'],onbesli:["Hey Onbeşli","Hey Onbeşli",'tr'],entari:["Entarisi Ala Benziyor","Entarisi Ala Benziyor",'tr'],
  arirang:["Arirang (아리랑)","아리랑",'ko'],miryang:["Miryang Arirang (밀양아리랑)","밀양아리랑",'ko'],doraji:["Doraji Taryeong (도라지타령)","도라지타령",'ko']};
 let npCur=null;
-function npShow(n){npCur=n;const e=$('nowPlay');if(!e)return;const d=n&&NP[n];if(!d||!S.music){e.classList.remove('on');return}
- const ko=S.lang==='ko',org=d[2]==='tr'?(ko?'튀르키예 민요':'Türk halk türküsü'):(ko?'한국 민요':'Kore halk şarkısı');
- e.innerHTML=`<i aria-hidden="true">♪</i><b>${esc(ko?d[1]:d[0])}</b><small>· ${esc(org)}</small>`;e.classList.add('on')}
+function npShow(n){npCur=n;const e=$('nowPlay');if(!e)return;const d=n&&NP[n];if(!d||!S.music){e.classList.remove('on');if(!$('mSong').hidden)$('mSong').hidden=true;return}
+ const ko=S.lang==='ko',org=d[2]==='tr'?(ko?'튀르키예 민요':'Türk halk türküsü'):(ko?'한국 민요':'Kore halk şarkısı'),pl=BGM.playing();
+ e.innerHTML=`<i aria-hidden="true">${pl?'♪':'❚❚'}</i><b>${esc(ko?d[1]:d[0])}</b><small>· ${esc(org)}</small>`;e.classList.add('on');e.classList.toggle('paused',!pl);
+ e.setAttribute('aria-label',(ko?'곡 정보 보기: ':'Türkü bilgisi: ')+(ko?d[1]:d[0]));
+ if(!$('mSong').hidden)renderSong()}
+// türkü açıklamaları (kendi sözlerimizle) ve 1929 öncesinden gelen anonim sözler
+const SONG_INFO={
+ katibim:{tr:"İstanbul'un en bilinen türkülerinden biri. Üsküdar'a giderken yağmura yakalanan bir kâtibi anlatır. Aynı ezgi Balkanlar'dan Güney Asya'ya kadar pek çok ülkede farklı sözlerle söylenir.",
+  ko:"이스탄불을 대표하는 민요예요. 위스퀴다르로 가다가 비를 만난 서기(kâtip)를 노래해요. 같은 가락이 발칸반도부터 남아시아까지 여러 나라에서 다른 가사로 불려요.",
+  ly:[["Üsküdar'a gider iken aldı da bir yağmur","위스퀴다르로 가는 길에 비가 내렸네"],["Kâtibimin setresi uzun, eteği çamur","내 서기의 외투는 길고 옷자락은 진흙투성이"],["Kâtip uykudan uyanmış, gözleri mahmur","서기는 막 잠에서 깨어 눈이 아직 졸려"],["Kâtip benim, ben kâtibin, el ne karışır","서기는 내 사람, 나는 서기의 사람, 남이 무슨 상관이야"],["Kâtibime kolalı da gömlek ne güzel yaraşır","풀 먹인 셔츠가 내 서기에게 참 잘 어울리네"],null,
+   ["Üsküdar'a gider iken bir mendil buldum","위스퀴다르로 가는 길에 손수건을 하나 주웠네"],["Mendilimin içine de lokum doldurdum","손수건 안에 로쿰을 가득 담았지"],["Kâtibimi arar iken yanımda buldum","서기를 찾아 헤맸는데 바로 내 곁에 있었네"],["Kâtip benim, ben kâtibin, el ne karışır","서기는 내 사람, 나는 서기의 사람, 남이 무슨 상관이야"]]},
+ dere:{tr:"Rumeli (Balkanlar) türküsü. 9/8'lik karşılama ritmiyle oynanan neşeli bir halk havasıdır; Beyâtî makamındadır.",
+  ko:"루멜리(발칸반도의 튀르키예 문화권) 민요예요. 9/8박자 카르실라마 리듬에 맞춰 춤추는 흥겨운 곡이고, 베야티 마캄(음계)으로 되어 있어요."},
+ onbesli:{tr:"Tokat yöresinin türküsü. Adı, Birinci Dünya Savaşı'nda askere alınan 1315 (1899) doğumlu gençlerden gelir. Kimileri ağıt, kimileri oturak havası olarak bilir.",
+  ko:"토카트 지방 민요예요. 제목의 '온베쉴리'는 1차 세계대전 때 징집된 1315년(서기 1899년)생 젊은이들을 가리켜요. 슬픈 애가로 보는 사람도, 흥겨운 노래로 보는 사람도 있어요."},
+ entari:{tr:"Rumeli türküsü. Hicaz makamında ve 9/8'lik ritimle söylenen neşeli bir aşk türküsüdür.",
+  ko:"루멜리 민요예요. 히자즈 마캄과 9/8박자로 부르는 흥겨운 사랑 노래로, 좋아하는 사람의 붉은 엔타리(긴 겉옷)를 노래해요."},
+ arirang:{tr:"Kore'nin en çok bilinen halk şarkısı; 'gayriresmî milli marş' da denir. Yüzlerce bölgesel versiyonu vardır ve 2012'de UNESCO Somut Olmayan Kültürel Miras listesine girmiştir. Bu, Seul bölgesinin 'bonjo' Arirang'ıdır.",
+  ko:"한국을 대표하는 민요로 '비공식 국가'라고도 불려요. 지역마다 수많은 아리랑이 있고, 2012년 유네스코 인류무형문화유산에 올랐어요. 이 곡은 서울·경기 지역의 본조 아리랑이에요.",
+  ly:[["아리랑 아리랑 아라리요","Arirang, arirang, arariyo"],["아리랑 고개로 넘어간다","Arirang tepesini aşıp gidiyor"],["나를 버리고 가시는 님은","Beni bırakıp giden sevgilim"],["십 리도 못 가서 발병 난다","On li (4 km) gitmeden ayağı ağrıyacak"],null,
+   ["아리랑 아리랑 아라리요","Arirang, arirang, arariyo"],["아리랑 고개로 넘어간다","Arirang tepesini aşıp gidiyor"],["청천 하늘엔 잔별도 많고","Masmavi gökte yıldızlar ne çok"],["우리네 가슴엔 수심도 많다","Bizim gönlümüzde de dertler ne çok"]]},
+ miryang:{tr:"Jeongseon ve Jindo Arirang'ıyla birlikte Kore'nin 'üç büyük Arirang'ından biri. Gyeongsang bölgesindeki Miryang şehrinin hızlı ve neşeli şarkısıdır (9/8 semachi ritmi).",
+  ko:"정선·진도 아리랑과 함께 3대 아리랑으로 꼽혀요. 경상도 밀양의 노래로, 경쾌한 세마치장단 곡이에요."},
+ doraji:{tr:"Gyeonggi bölgesi halk şarkısı. Dağda doraji (balon çiçeği kökü) toplamayı anlatır. Kuzey ve Güney Kore'de, Çin ve Japonya'da da çok sevilir.",
+  ko:"경기민요예요. 깊은 산에서 도라지를 캐는 모습을 노래하고, 남북한은 물론 중국·일본에서도 널리 사랑받아요."}};
+const IC_PLAY='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg>',IC_PAUSE='<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6.5" y="5.5" width="4" height="13" rx="1.3" fill="currentColor"/><rect x="13.5" y="5.5" width="4" height="13" rx="1.3" fill="currentColor"/></svg>',
+ IC_NEXT='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 6v12l8.5-6z" fill="currentColor"/><path d="M12 6v12l8.5-6z" fill="currentColor" opacity=".55"/></svg>';
+function renderSong(){const n=npCur||BGM.cur(),d=NP[n],I=SONG_INFO[n];if(!d||!I)return;const ko=S.lang==='ko',songLang=d[2]==='tr'?'tr':'ko',pl=BGM.playing();
+ $('sgNow').textContent=pl?(ko?'지금 나오는 곡':'Şu an çalıyor'):(ko?'일시정지됨':'Duraklatıldı');
+ $('sgTitle').textContent=ko?d[1]:d[0];$('sgOrg').textContent=songLang==='tr'?(ko?'튀르키예 민요':'Türk halk türküsü'):(ko?'한국 민요':'Kore halk şarkısı');
+ $('sgDesc').textContent=ko?I.ko:I.tr;
+ $('sgPlay').innerHTML=pl?IC_PAUSE:IC_PLAY;$('sgPlay').setAttribute('aria-label',pl?(ko?'일시정지':'Duraklat'):(ko?'재생':'Çal'));$('sgNext').innerHTML=IC_NEXT;$('sgNext').setAttribute('aria-label',ko?'다음 곡':'Sonraki türkü');
+ $('sgLyT').textContent=ko?'가사':'Sözler';
+ const showTr=(S.lang==='ko'?'ko':'tr')!==songLang;
+ $('sgLy').innerHTML=I.ly?I.ly.map(l=>l?`<p><b>${esc(l[0])}</b>${showTr?`<small>${esc(l[1])}</small>`:''}</p>`:'<hr>').join(''):`<p class="none">${ko?'이 곡은 반주만 나와요. 가사는 준비 중이에요.':'Bu türkünün yalnızca ezgisi çalıyor; sözleri hazırlanıyor.'}</p>`;
+ $('sgClose').textContent=ko?'닫기':'Kapat'}
+function openSong(){renderSong();$('mSong').hidden=false;$('mSong').querySelector('.box').scrollTop=0}
+$('nowPlay').addEventListener('click',openSong);
+$('sgPlay').onclick=()=>{BGM.toggle();renderSettings&&renderSettings();npShow(BGM.cur());renderSong()};
+$('sgNext').onclick=()=>{BGM.skip();setTimeout(()=>{npShow(BGM.cur());renderSong()},500)};
+$('sgClose').onclick=()=>{$('mSong').hidden=true};
+$('mSong').addEventListener('click',e=>{if(e.target.id==='mSong')$('mSong').hidden=true});
 // ---------- 덩이 응원 말풍선 ----------
 const CHEERS=[["오늘도 한 걸음!", "Bugün de bir adım!"], ["TOPIK 합격을 응원해요!", "TOPIK'te başarılar dilerim!"], ["천천히 해도 괜찮아요.", "Yavaş gitmek de olur."], ["할 수 있어요!", "Yapabilirsin!"], ["꾸준함이 실력이에요.", "Düzenli çalışmak en büyük güç."], ["틀려도 괜찮아요. 다시 하면 돼요!", "Yanlış yapmak sorun değil, tekrar dene!"], ["오늘은 단어 10개, 어때요?", "Bugün 10 kelimeye ne dersin?"], ["시험 잘 볼 거예요!", "Sınavın çok iyi geçecek!"], ["어제보다 오늘 더 잘하고 있어요.", "Bugün dünden daha iyisin."], ["한국어 실력이 쑥쑥 자라고 있어요!", "Korecen hızla büyüyor!"], ["파이팅!", "Haydi, sen yaparsın!"], ["조금씩, 매일매일.", "Azar azar, her gün."], ["포기하지 마세요!", "Sakın pes etme!"], ["잠깐 쉬어도 괜찮아요.", "Biraz mola vermek de iyidir."], ["열심히 하는 모습이 멋져요!", "Bu kadar çalışman harika!"], ["시험 날까지 같이 가요!", "Sınav gününe kadar birlikteyiz!"], ["단어 하나가 모여 문장이 돼요.", "Kelimeler birleşip cümle olur."], ["오늘의 노력이 내일의 합격!", "Bugünün emeği, yarının başarısı!"], ["{N}도 같이 공부할게요!", "{N} de seninle çalışıyor!"], ["물 한 잔 마시고 시작해요!", "Bir bardak su iç, sonra başlayalım!"]];
 const TAPS=[["히히, 간지러워요!", "Hihi, gıdıklanıyorum!", "laugh"], ["불렀어요?", "Beni mi çağırdın?", "jump"], ["같이 공부할까요?", "Birlikte çalışalım mı?", "bounce"], ["{N} 여기 있어요!", "{N} burada!", "wiggle"], ["오늘 기분 어때요?", "Bugün nasılsın?", "squish"], ["한 문제만 더 풀어요!", "Bir soru daha çözelim!", "excited"], ["우와, 반가워요!", "Vay, seni gördüğüme sevindim!", "spin"], ["공부할수록 저도 자라요!", "Sen çalıştıkça ben de büyüyorum!", "jump"], ["데굴데굴~ 구르기 보여 줄게요!", "Bak, sana takla atıyorum!", "roll"], ["콧수염 멋있죠?", "Bıyığım yakışıklı değil mi?", "laugh"]];
