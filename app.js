@@ -80,7 +80,7 @@ tr:{sub:'Korece kelime ormanı · A1–B2 · TOPIK Ⅰ·Ⅱ',a2hsT:'📲 Ana ekr
  sig:'— Koreli arkadaşınız Wonju (원주)',
  thanksPre:'Hazırlayanlar',roleMake:'Oyun yapımı ve tasarımı',roleCheck:'Kelime listeleri, kontrol ve düzeltme',thanksPost:'Aslı\'ya emeği için çok teşekkürler! 💚',
  how1:'Korece kelimeyi gör, dört seçenekten Türkçe anlamını seç.',how2:'Doğru cevaptan sonra eş kelime bonusuna katıl. Çevirmeli kartlarla da çalışabilirsin.',how3:'Her doğru cevap besin verir; bitki arkadaşın büyür.',
- namePh:'Bitki arkadaşının adı (isteğe bağlı)',chromeTxt:'Bir uygulamanın içindeki tarayıcıdasın. Sesli okuma için Chrome\'da açman daha iyi olur.',openChrome:'Chrome\'da aç',copy:'Kopyala',copied:'Kopyalandı ✓',
+ namePh:'Bitki arkadaşının adı (isteğe bağlı)',nmTitle:'Bitki arkadaşına isim ver',nmSub:'İstediğin zaman değiştirebilirsin. Boş bırakırsan adı 덩이 olur.',nmSave:'Kaydet',nmCancel:'Vazgeç',nmHint:'Dokun, isim ver!',nmEdit:'İsmi değiştir',chromeTxt:'Bir uygulamanın içindeki tarayıcıdasın. Sesli okuma için Chrome\'da açman daha iyi olur.',openChrome:'Chrome\'da aç',copy:'Kopyala',copied:'Kopyalandı ✓',
  rights:'Tüm hakları saklıdır.',biz:'İş birliği',
  credit:'Oyun yapımı ve tasarımı: Wonju Kim · Kontrol ve düzeltme: Aslıhan Erdoğan',
  settings:'Ayarlar',lang:'Dil',roundSize:'Bir turdaki kelime',sizeAll:'Tümü',sound:'Ses',sfxOn:'Efekt sesleri: Açık',sfxOff:'Efekt sesleri: Kapalı',autoOn:'Kelimeyi otomatik oku: Açık',autoOff:'Kelimeyi otomatik oku: Kapalı',test:'Sesi dene',voiceH:'Ses seçimi',vAuto:'Otomatik (kadın sesi)',vGT:'Google Çeviri sesi (kadın · internet)',vMale:'Erkek sesi',vLow1:'Biraz kalın ses',vLow2:'Kalın ses',vHQ:'gelişmiş',vHQ2:'premium',vOnline:'çevrimiçi',noVoice:'Bu tarayıcıda Korece ses bulunamadı. Chrome\'da Google 한국의 sesini kullanabilirsin.',speedH:'Okuma hızı',rSlow2:'Çok yavaş',rSlow:'Yavaş',rNorm:'Normal',name:'Bitki arkadaşının adı',
@@ -126,7 +126,7 @@ ko:{sub:'한국어 단어의 숲 · A1–B2 · TOPIK Ⅰ·Ⅱ',a2hsT:'📲 홈 �
  sig:'— 한국 친구 원주',
  thanksPre:'만든 사람들',roleMake:'게임 제작 및 기획',roleCheck:'단어 자료 · 검수 및 교정',thanksPost:'도와준 아슬르에게 정말 고마워요! 💚',
  how1:'한국어 단어를 보고 네 개의 보기에서 튀르키예어 뜻을 골라요.',how2:'맞히면 짝꿍어휘 보너스에 도전해요. 카드 뒤집기로도 공부할 수 있어요.',how3:'맞힐 때마다 양분이 쌓여 식물 친구가 자라요.',
- namePh:'식물 친구 이름 (선택)',chromeTxt:'앱 안의 브라우저에서는 음성이 안 나올 수 있어요. Chrome에서 여는 게 좋아요.',openChrome:'Chrome에서 열기',copy:'복사',copied:'복사됨 ✓',
+ namePh:'식물 친구 이름 (선택)',nmTitle:'식물 친구 이름 짓기',nmSub:'언제든지 다시 바꿀 수 있어요. 비워 두면 「덩이」가 돼요.',nmSave:'저장',nmCancel:'취소',nmHint:'눌러서 이름 짓기!',nmEdit:'이름 바꾸기',chromeTxt:'앱 안의 브라우저에서는 음성이 안 나올 수 있어요. Chrome에서 여는 게 좋아요.',openChrome:'Chrome에서 열기',copy:'복사',copied:'복사됨 ✓',
  rights:'All rights reserved.',biz:'비즈니스 협업',
  credit:'게임 제작 및 기획: Wonju Kim · 검수 및 교정: Aslıhan Erdoğan',
  settings:'설정',lang:'언어',roundSize:'한 판 단어 수',sizeAll:'전체',sound:'소리',sfxOn:'효과음: 켜짐',sfxOff:'효과음: 꺼짐',autoOn:'단어 자동 읽기: 켜짐',autoOff:'단어 자동 읽기: 꺼짐',test:'소리 들어 보기',voiceH:'목소리 선택',vAuto:'자동 (여성 목소리)',vGT:'구글 번역 목소리 (여성 · 인터넷)',vMale:'남자 목소리',vLow1:'조금 낮은 목소리',vLow2:'낮은 목소리',vHQ:'고음질',vHQ2:'프리미엄',vOnline:'온라인',noVoice:'이 브라우저에는 한국어 음성이 없어요. Chrome의 Google 한국의 음성을 쓸 수 있어요.',speedH:'읽기 속도',rSlow2:'아주 느리게',rSlow:'느리게',rNorm:'보통',name:'식물 친구 이름',
@@ -236,7 +236,7 @@ $('scene').innerHTML=sceneSVG();
 // ---------- ana sayfa ----------
 const curLevel=()=>lvById(S.lv);
 function pool(){const L=curLevel();return S.unit==='all'?L.words:(L.units.find(u=>u.key===S.unit)||{words:L.words}).words}
-function renderHome(){try{npShow(npCur)}catch(e){}
+function renderHome(){try{npShow(npCur);renderNameTag()}catch(e){}
  const L=S.level,a=xpStart(L),b=xpStart(L+1);
  $('mascot').innerHTML=art();
  $('cName').textContent=displayName();
@@ -508,7 +508,7 @@ $('bSfx').onclick=()=>{S.sfx=S.sfx===false;save();renderSettings();if(S.sfx)BGM.
 $('bTest').onclick=()=>speak('안녕하세요. 토픽 합격을 응원해요!',true);
 $('voiceSel').onchange=e=>{S.voice=e.target.value;save();pickVoice();speak('안녕하세요. 반가워요!',true)};
 $('rateChips').addEventListener('click',e=>{const b=e.target.closest('[data-rate]');if(!b)return;S.rate=+b.dataset.rate;save();renderSettings();speak('천천히 따라 읽어 보세요.',true)});
-$('nameSet').addEventListener('input',e=>{S.name=e.target.value.trim();save();renderHome();nameIntro=!!S.name});
+$('nameSet').addEventListener('input',e=>{S.name=e.target.value.trim();S.named=true;save();renderHome();nameIntro=!!S.name});
 $('bSet').onclick=()=>{renderSettings();$('mSet').hidden=false};
 $('bSetOk').onclick=()=>{$('mSet').hidden=true;if(nameIntro)setTimeout(()=>cheer(),350)};
 let resetArm=false;
@@ -563,7 +563,7 @@ function renderBook(){
  $('bkGrid').innerHTML=h;
 }
 function openBook(){bookFam=S.pet||null;$('mBook').querySelectorAll('[data-t]').forEach(el=>el.textContent=t(el.dataset.t));renderBook();$('mBook').hidden=false;$('mBook').querySelector('.box').scrollTop=0}
-$('bBook').onclick=openBook;$('mascot').addEventListener('click',()=>cheer(true));
+$('bBook').onclick=openBook;$('mascot').addEventListener('click',openName);$('nameTag').addEventListener('click',openName);
 $('bBookX').onclick=()=>{$('mBook').hidden=true};
 $('bkFam').addEventListener('click',e=>{const b=e.target.closest('[data-bf]');if(b){bookFam=b.dataset.bf;renderBook()}});
 
@@ -652,6 +652,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
+ ['5.2','2026-11-29',{tr:['Bitki arkadaşının adı artık lobide: Deongi\'ye ya da isim etiketine dokun, istediğin zaman ismini değiştir'],ko:['식물 친구 이름을 로비에서 바로 변경: 덩이나 이름표를 누르면 이름 바꾸기 창 (환영 창의 이름 칸은 삭제)']}],
  ['5.1','2026-11-29',{tr:["Yeni fon müzikleri: türküler 'Dere Geliyor Dere', 'Hey Onbeşli', 'Entarisi Ala Benziyor' ve Kore halk şarkıları 'Arirang', 'Miryang Arirang' ve 'Doraji Taryeong' (daegeum, gayageum, janggu). Şarkılar rastgele sırayla çalar; lobide şu an çalan türkünün adı görünür"],ko:['새 배경 음악: 튀르키예 민요 「Dere Geliyor Dere」·「Hey Onbeşli」·「Entarisi Ala Benziyor」, 한국 민요 「아리랑」·「밀양아리랑」·「도라지타령」(대금·가야금·장구). 곡이 랜덤 순서로 재생, 로비에 지금 나오는 곡 이름 표시']}],
  ['5.0','2026-11-28',{tr:["Bir oyun bitip lobiye dönünce Deongi: sulama animasyonu, mutlu tepki ve 10 farklı konuşma balonu"],ko:['한 판을 마치고 로비로 돌아오면 물 주기 애니메이션 + 행복한 반응 + 말풍선 10종']}],
  ['4.9','2026-11-27',{tr:["Açılış rehberindeki Korece anlatım artık Wonju'nun kendi sesiyle"],ko:['오프닝 한국어 내레이션을 원주의 실제 목소리로 교체']}],
@@ -1024,10 +1025,18 @@ function cheer(tap,line){
 $('cheer').addEventListener('click',e=>{e.stopPropagation();cheer(true)});
 setInterval(()=>{if(!document.hidden&&!$('cheer').classList.contains('show'))cheer()},10000);
 
+// ---------- isim etiketi + isim değiştirme ----------
+function renderNameTag(){const b=$('nameTag');if(!b)return;$('ntName').textContent=PN();b.classList.toggle('new',!S.named);$('ntHint').textContent=t('nmHint');b.setAttribute('aria-label',t('nmEdit')+': '+PN())}
+function openName(){const m=$('mName');m.querySelectorAll('[data-t]').forEach(el=>el.textContent=t(el.dataset.t));$('nmIn').value=S.name;$('nmIn').placeholder='덩이';$('nmArt').innerHTML=art();
+ $('cheer').classList.remove('show');m.hidden=false;setTimeout(()=>{try{$('nmIn').focus({preventScroll:true})}catch(e){}},80)}
+function saveName(){const n=$('nmIn').value.trim().slice(0,14),changed=n!==S.name;S.name=n;S.named=true;save();$('mName').hidden=true;renderHome();
+ if(changed)nameIntro=!!n;setTimeout(()=>cheer(),350)}
+$('nmOk').onclick=saveName;$('nmNo').onclick=()=>{$('mName').hidden=true};
+$('nmIn').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();saveName()}});
+$('mName').addEventListener('click',e=>{if(e.target.id==='mName')$('mName').hidden=true});
 // ---------- hoş geldin ----------
-$('bMsg').onclick=()=>{$('nameIn').value=S.name;$('mWel').hidden=false};
-$('bWel').onclick=()=>{const n=$('nameIn').value.trim();if(n&&n!==S.name)nameIntro=true;if(n)S.name=n;save();$('mWel').hidden=true;renderHome();
- setTimeout(()=>cheer(),400)};
+$('bMsg').onclick=()=>{$('mWel').hidden=false};
+$('bWel').onclick=()=>{$('mWel').hidden=true;renderHome();setTimeout(()=>cheer(),400)};
 
 // ---------- ses (kadın sesi öncelikli) ----------
 let voice=null,KOV=[],maleReal=null;
@@ -1113,7 +1122,7 @@ if(standalone)$('a2hs').hidden=true;
 // ---------- başlat ----------
 S.level=Math.max(S.level,levelOf(S.xp));
 applyLang();
-$('nameIn').value=S.name;
+
 $('iScene').innerHTML=sceneSVG(1);$('iMascot').innerHTML=art();
 /* ── 오프닝 안내 (덩이의 소개) ── */
 const GD={"tr": {"ui": {"skip": "Geç ›", "tap": "dokun ›", "start": "Başla! 🌱", "l1": "başlangıç", "l2": "orta", "l3": "ileri", "soon": "yakında!", "sun": "gün · güneş"}, "s": [["hello", "Herkese merhaba! <b>덩어리숲</b>'a hoş geldiniz!", "jump"], ["wonju", "<b>덩어리숲</b>, Türkiye'de yaşayan ve Korece öğrenmeye gönül vermiş herkes için <b>Wonju</b> tarafından oluşturulmuş bir Korece öğrenme uygulamasıdır.", "wave"], ["roof", "<b>Korece öğrenme yolculuğunuzda ihtiyaç duyabileceğiniz her şey, tek bir çatı altında!</b> Bu mottoyla yola çıkarak uygulamamızdaki içerikleri farklı öğrenme amaçlarına göre kategorilere ayırdık.", "squish"], ["levels", "Koreceye yeni başlayanlar ve hobi olarak öğrenenler için <b>A1-A2, B1-B2</b> ve <b>C1-C2</b> seviyelerinde kelime çalışmaları hazırladık. (C1-C2 çok yakında!)", "bounce"], ["topik", "TOPIK sınavına hazırlananlar, Kore'de eğitim almak veya iş hayatında Koreceyi kullanmak isteyenler için ise <b>TOPIK I (1-2급)</b> ve <b>TOPIK II (3-6급)</b> kelime kategorilerini oluşturduk.", "jump"], ["hanja", "Ayrıca, ileri seviyede Korece öğrenmek ve TOPIK II'de 5. ve 6. seviyelere ulaşmak isteyenler için <b>Hanja (한자)</b> çalışmalarına da yer verdik.", "wiggle"], ["grow", "Üstelik içeriklerimiz <b>sürekli güncelleniyor</b> ve her geçen gün geliştiriliyor.", "spin"], ["all", "Korece öğrenmek için ihtiyaç duyabileceğiniz bu kadar kapsamlı içeriği daha önce bir arada görmüş müydünüz?", "wave"], ["end", "Şimdi keşfetme sırası sizde! Korece öğrenme yolculuğunuzda yeni yol arkadaşınız: <b>덩어리숲</b>!", "spin"]]}, "ko": {"ui": {"skip": "건너뛰기 ›", "tap": "터치 ›", "start": "시작! 🌱", "l1": "입문", "l2": "중급", "l3": "고급", "soon": "곧 출시!", "sun": "날 · 해"}, "s": [["hello", "여러분 안녕하세요. <b>덩어리숲</b>에 오신 것을 환영합니다.", "jump"], ["wonju", "<b>덩어리숲</b>은 튀르키예에 살면서 한국어 공부에 마음을 쏟는 모든 분들을 위해 제가 만든 한국어 학습 앱입니다.", "wave"], ["roof", "<b>한국어 공부 여정에 필요한 모든 것을 한곳에 넣었습니다.</b> 이 모토로 출발해서 앱의 내용을 학습 목적에 따라 나눴어요.", "squish"], ["levels", "한국어를 처음 시작하거나 취미로 배우는 분들을 위해 <b>A1, A2, B1, B2, C1, C2</b> 단어를 준비했습니다. (C1, C2는 곧 업데이트돼요!)", "bounce"], ["topik", "TOPIK을 준비하거나 한국에서 공부하고 일하고 싶은 분들을 위해 <b>TOPIK Ⅰ</b>과 <b>TOPIK Ⅱ</b> 단어를 만들었어요.", "jump"], ["hanja", "고급 한국어를 배우고 TOPIK Ⅱ 5, 6급을 목표로 하는 분들을 위해 <b>한자</b> 공부도 넣었습니다.", "wiggle"], ["grow", "게다가 내용은 계속 업데이트될 거고요. 날마다 저희가 개선하고 수정하고 있습니다.", "spin"], ["all", "한국어 공부에 필요한 이렇게 풍부한 내용을 한곳에서 보기가 쉽지 않거든요. 특히 튀르키예어로 된 자료는 많이 없을 거예요.", "wave"], ["end", "자, 이제 여러분이 한국어 탐험을 할 차례입니다. 한국어 여정의 친구가 되어 드리겠습니다. <b>덩어리숲!</b>", "spin"]]}};
