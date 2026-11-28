@@ -239,9 +239,9 @@ function pool(){const L=curLevel();return S.unit==='all'?L.words:(L.units.find(u
 function renderHome(){try{npShow(npCur);renderNameTag()}catch(e){}
  const L=S.level,a=xpStart(L),b=xpStart(L+1);
  $('mascot').innerHTML=art();
- $('cName').textContent=displayName();
+ $('cName').textContent=PN();
  $('cLv').textContent='Lv.'+L;
- $('cGrowth').textContent=(S.name?growthName()+' · ':'')+t('nextGoal',L);
+ $('cGrowth').textContent=growthName()+' · '+t('nextGoal',L);
  $('xpText').textContent=t('xpLeft',S.xp-a,b-a);
  $('xpBar').style.width=Math.min(100,(S.xp-a)/(b-a)*100)+'%';
  const lw=curLevel().words,ln=lw.filter(w=>status(w)==='ok').length;
@@ -652,7 +652,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
- ['5.2','2026-11-29',{tr:['Bitki arkadaşının adı artık lobide: Deongi\'ye ya da isim etiketine dokun, istediğin zaman ismini değiştir'],ko:['식물 친구 이름을 로비에서 바로 변경: 덩이나 이름표를 누르면 이름 바꾸기 창 (환영 창의 이름 칸은 삭제)']}],
+ ['5.2','2026-11-29',{tr:['Bitki arkadaşının adı artık lobide: Deongi\'ye ya da kartındaki adına dokun, istediğin zaman ismini değiştir'],ko:['식물 친구 이름을 로비에서 바로 변경: 덩이나 카드의 이름을 누르면 이름 바꾸기 창 (환영 창의 이름 칸은 삭제)']}],
  ['5.1','2026-11-29',{tr:["Yeni fon müzikleri: türküler 'Dere Geliyor Dere', 'Hey Onbeşli', 'Entarisi Ala Benziyor' ve Kore halk şarkıları 'Arirang', 'Miryang Arirang' ve 'Doraji Taryeong' (daegeum, gayageum, janggu). Şarkılar rastgele sırayla çalar; lobide şu an çalan türkünün adı görünür"],ko:['새 배경 음악: 튀르키예 민요 「Dere Geliyor Dere」·「Hey Onbeşli」·「Entarisi Ala Benziyor」, 한국 민요 「아리랑」·「밀양아리랑」·「도라지타령」(대금·가야금·장구). 곡이 랜덤 순서로 재생, 로비에 지금 나오는 곡 이름 표시']}],
  ['5.0','2026-11-28',{tr:["Bir oyun bitip lobiye dönünce Deongi: sulama animasyonu, mutlu tepki ve 10 farklı konuşma balonu"],ko:['한 판을 마치고 로비로 돌아오면 물 주기 애니메이션 + 행복한 반응 + 말풍선 10종']}],
  ['4.9','2026-11-27',{tr:["Açılış rehberindeki Korece anlatım artık Wonju'nun kendi sesiyle"],ko:['오프닝 한국어 내레이션을 원주의 실제 목소리로 교체']}],
@@ -1026,7 +1026,7 @@ $('cheer').addEventListener('click',e=>{e.stopPropagation();cheer(true)});
 setInterval(()=>{if(!document.hidden&&!$('cheer').classList.contains('show'))cheer()},10000);
 
 // ---------- isim etiketi + isim değiştirme ----------
-function renderNameTag(){const b=$('nameTag');if(!b)return;$('ntName').textContent=PN();b.classList.toggle('new',!S.named);$('ntHint').textContent=t('nmHint');b.setAttribute('aria-label',t('nmEdit')+': '+PN())}
+function renderNameTag(){const b=$('nameTag');if(!b)return;$('cName').textContent=PN();b.classList.toggle('new',!S.named);$('ntHint').textContent=t('nmHint');b.setAttribute('aria-label',t('nmEdit')+': '+PN())}
 function openName(){const m=$('mName');m.querySelectorAll('[data-t]').forEach(el=>el.textContent=t(el.dataset.t));$('nmIn').value=S.name;$('nmIn').placeholder='덩이';$('nmArt').innerHTML=art();
  $('cheer').classList.remove('show');m.hidden=false;setTimeout(()=>{try{$('nmIn').focus({preventScroll:true})}catch(e){}},80)}
 function saveName(){const n=$('nmIn').value.trim().slice(0,14),changed=n!==S.name;S.name=n;S.named=true;save();$('mName').hidden=true;renderHome();
