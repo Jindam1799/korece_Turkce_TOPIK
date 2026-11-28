@@ -236,7 +236,7 @@ $('scene').innerHTML=sceneSVG();
 // ---------- ana sayfa ----------
 const curLevel=()=>lvById(S.lv);
 function pool(){const L=curLevel();return S.unit==='all'?L.words:(L.units.find(u=>u.key===S.unit)||{words:L.words}).words}
-function renderHome(){
+function renderHome(){try{npShow(npCur)}catch(e){}
  const L=S.level,a=xpStart(L),b=xpStart(L+1);
  $('mascot').innerHTML=art();
  $('cName').textContent=displayName();
@@ -652,7 +652,7 @@ $('rvxShare').onclick=async()=>{const f=new File([JSON.stringify(rvPayload(),nul
 
 // ---------- güncelleme notları ----------
 const NOTES=[
- ['5.1','2026-11-29',{tr:["Yeni fon müzikleri: Rumeli türküsü 'Dere Geliyor Dere' ve Kore halk şarkısı 'Arirang' (daegeum, gayageum, janggu). Şarkılar rastgele sırayla çalar"],ko:['새 배경 음악: 루멜리 민요 「Dere Geliyor Dere」, 한국 민요 「아리랑」(대금·가야금·장구). 곡이 랜덤 순서로 재생']}],
+ ['5.1','2026-11-29',{tr:["Yeni fon müzikleri: türküler 'Dere Geliyor Dere', 'Hey Onbeşli', 'Entarisi Ala Benziyor' ve Kore halk şarkıları 'Arirang', 'Miryang Arirang' ve 'Doraji Taryeong' (daegeum, gayageum, janggu). Şarkılar rastgele sırayla çalar; lobide şu an çalan türkünün adı görünür"],ko:['새 배경 음악: 튀르키예 민요 「Dere Geliyor Dere」·「Hey Onbeşli」·「Entarisi Ala Benziyor」, 한국 민요 「아리랑」·「밀양아리랑」·「도라지타령」(대금·가야금·장구). 곡이 랜덤 순서로 재생, 로비에 지금 나오는 곡 이름 표시']}],
  ['5.0','2026-11-28',{tr:["Bir oyun bitip lobiye dönünce Deongi: sulama animasyonu, mutlu tepki ve 10 farklı konuşma balonu"],ko:['한 판을 마치고 로비로 돌아오면 물 주기 애니메이션 + 행복한 반응 + 말풍선 10종']}],
  ['4.9','2026-11-27',{tr:["Açılış rehberindeki Korece anlatım artık Wonju'nun kendi sesiyle"],ko:['오프닝 한국어 내레이션을 원주의 실제 목소리로 교체']}],
  ['4.8','2026-11-27',{tr:["Aslı'nın kontrolü uygulandı: abi, temel sıfat ve fiil örnekleri (-mak/-mek biçimi), özel adlar (Kore, Seul, Noel, Wi-Fi)"],ko:['아슬르 검수 반영: 형·오빠 → abi, 기본 형용사·동사 예문 -mak 형태 통일, 고유명사 대문자']}],
@@ -708,6 +708,9 @@ const BGM=(()=>{
  //  · "Üsküdar'a Gider İken" (Kâtibim), İstanbul türküsü, Bûselik — ney, bağlama, kanun, bendir
  //  · "Dere Geliyor Dere", Rumeli türküsü, Beyâtî, 9/8 karşılama (B yarım bemol)
  //  · "아리랑 (Arirang)", Kore halk şarkısı (bonjo, 3/4) — daegeum, gayageum, janggu
+ //  · "밀양아리랑 (Miryang Arirang)", Kore halk şarkısı (9/8 semachi)
+ //  · "도라지타령 (Doraji Taryeong)", Gyeonggi halk şarkısı (9/8 semachi)
+ //  · "Hey Onbeşli" (Tokat) ve "Entarisi Ala Benziyor" (Rumeli, Hicaz) — Musa Çetiner notaları
  let studyOn=false,duckWatch=null,ctx=null,master=null,duckG=null,bus=null,timer=null,next=0,on=false,noise=null,pass=0,song=null,fi=0,lastSong=-1;
  const E=0.5;// bağlama tezene tremolosu için temel süre
  const N=m=>440*Math.pow(2,(m-69)/12);
@@ -753,6 +756,62 @@ const BGM=(()=>{
   10:[[74,2],[71,2],[69,2]],
   0:[[R,6]]};
  AM[4]=AM[1];AM[5]=AM[2];AM[11]=AM[3];AM[12]=AM[1];AM[13]=AM[2];AM[14]=AM[6];AM[15]=AM[7];AM[16]=AM[8];
+ // --- 4) 밀양아리랑 (9/8 세마치, birim = sekizlik) — kaynak: 김경호·신인자 창, 서정매 채보 notası ---
+ const MM={
+  1:[[74,1],[74,2],[72,1],[74,1],[72,1],[69,3]],
+  3:[[74,3],[72,1],[74,1],[72,1],[69,1],[67,1],[69,1]],
+  4:[[72,3],[72,1],[74,1],[72,1],[69,3]],
+  5:[[69,1],[69,2],[67,2],[65,1],[62,1],[65,2]],
+  6:[[69,1],[69,2],[67,2],[72,1],[69,2],[67,1]],
+  7:[[65,3],[65,1],[67,1],[65,1],[62,2],[60,1]],
+  8:[[62,3],[62,2],[65,1],[62,2],[R,1]],
+  9:[[62,2],[60,1],[62,2],[64,1],[62,3]],
+  11:[[74,1],[74,2],[72,1],[74,1],[72,1],[69,1],[67,1],[69,1]],
+  13:[[69,3],[67,2],[65,1],[62,1],[65,2]],
+  14:[[69,3],[67,2],[72,1],[69,2],[67,1]],
+  0:[[R,9]]};
+ MM[2]=MM[1];MM[10]=MM[9];MM[12]=MM[4];MM[15]=MM[7];MM[16]=MM[8];
+ const Dmk=[38,45,50],Fk=[41,48,53],Ck=[36,43,48];
+ // --- 5) Hey Onbeşli (Tokat, 4/4, birim = onaltılık) — Musa Çetiner notası; Si = 2 koma bemol (≈70.55) ---
+ const Bk=70.55;
+ const HM={
+  1:[[R,2],[72,1],[74,1],[76,2],[76,2],[76,2],[74,2],[76,2],[R,2]],
+  3:[[79,2],[79,1],[78,1],[79,1],[78,1],[79,1],[76,1],[76,1],[76,2],[74,1],[76,2],[74,.5],[72,.5],[74,1]],
+  4:[[72,1],[76,1],[74,2],[74,2],[74,2],[74,1],[76,1],[72,1],[76,1],[74,2],[R,2]],
+  5:[[74,2],[74,1],[Bk,1],[72,2],[Bk,1],[69,1],[69,2],[69,1],[67,1],[69,2],[Bk,1],[69,1]],
+  6:[[74,1],[72,1],[74,1],[Bk,1],[72,2],[Bk,1],[69,1],[69,4],[69,1],[67,1],[69,2]],
+  8:[[72,2],[74,1],[Bk,1],[72,2],[Bk,1],[69,1],[69,3],[69,1],[69,1],[67,1],[69,2]],
+  9:[[74,2],[74,1],[Bk,1],[72,2],[Bk,1],[69,1],[69,2],[69,1],[67,1],[69,1],[69,1],[Bk,1],[69,1]],
+  0:[[R,16]]};
+ HM[2]=HM[1];HM[7]=HM[5];HM[10]=HM[6];
+ // --- 6) Entarisi Ala Benziyor (Rumeli, 9/8, birim = sekizlik, Hicaz: Si♭ · Do♯) — Musa Çetiner notası ---
+ const EM={
+  1:[[74,1],[76,1],[77,1],[76,1],[74,1],[73,2],[73,2]],
+  2:[[69,1],[70,1],[74,1],[73,1],[70,1],[69,2],[76,2]],
+  3:[[74,1],[76,1],[77,1],[76,1],[74,1],[76,1],[74,1],[73,2]],
+  4:[[69,1],[70,1],[74,1],[73,1],[70,1],[69,2],[R,2]],
+  5:[[69,2],[74,2],[73,1],[74,2],[R,2]],
+  6:[[73,1],[74,1],[76,2],[77,1],[76,1],[74,1],[73,1],[70,1]],
+  7:[[76,1],[74,1],[73,2],[69,1],[70,2],[70,1],[69,1]],
+  8:[[76,1],[74,1],[73,2],[70,1],[69,2],[R,2]],
+  0:[[R,9]]};
+ const Ak=[45,52,57];
+ // --- 7) 도라지타령 (경기민요, 세마치 9/8, birim = sekizlik) ---
+ const TM={
+  1:[[69,3],[69,3],[69,3]],
+  2:[[69,3],[69,2],[67,1],[65,3]],
+  3:[[72,3],[72,3],[74,2],[72,1]],
+  5:[[67,2],[69,1],[69,3],[69,3]],
+  6:[[67,2],[69,1],[67,2],[65,1],[62,1],[60,2]],
+  7:[[62,3],[65,3],[65,2],[62,1]],
+  8:[[60,3],[60,3],[R,3]],
+  9:[[62,3],[62,2],[65,1],[60,3]],
+  11:[[65,3],[65,3],[65,2],[67,1]],
+  12:[[65,3],[65,3],[67,3]],
+  15:[[72,2],[72,1],[72,3],[74,2],[72,1]],
+  19:[[62,3],[65,3],[62,3]],
+  0:[[R,9]]};
+ TM[4]=TM[2];TM[10]=TM[9];TM[13]=TM[1];TM[14]=TM[2];TM[16]=TM[2];TM[17]=TM[5];TM[18]=TM[6];TM[20]=TM[8];
  const SONGS=[
   {name:'katibim',kit:'tr',u:.25,bar:8,M:KM,
    CH:{1:Am,2:Am,3:Am,4:Em,5:Em,6:Am,7:Am,8:Dm,9:G,10:Am,11:Am,12:Am,13:Em,14:Em,15:Am,16:Am,17:Em,18:Am,0:Am},
@@ -765,9 +824,26 @@ const BGM=(()=>{
   {name:'arirang',kit:'ko',u:.42,bar:6,M:AM,scale:[67,69,71,74,76],
    CH:{1:G,2:G,3:G,4:D,5:G,6:Ems,7:C,8:G,9:Bm,10:D,11:G,12:D,13:G,14:Ems,15:C,16:G,0:G},
    FORM:[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,0],
-   perc(t,u){kung(t,.09);deok(t,.02);deok(t+2*u,.018);kung(t+3*u,.06);deok(t+4*u,.016);if(Math.random()<.5)deok(t+5*u,.012)}}
+   perc(t,u){kung(t,.09);deok(t,.02);deok(t+2*u,.018);kung(t+3*u,.06);deok(t+4*u,.016);if(Math.random()<.5)deok(t+5*u,.012)}},
+  {name:'miryang',kit:'ko',u:.28,bar:9,M:MM,scale:[62,65,67,69,72,74],
+   CH:{1:Dmk,2:Dmk,3:Dmk,4:Fk,5:Dmk,6:Ck,7:Fk,8:Dmk,9:Dmk,10:Dmk,11:Dmk,12:Fk,13:Dmk,14:Ck,15:Fk,16:Dmk,0:Dmk},
+   FORM:[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,0],
+   perc(t,u){kung(t,.08);deok(t,.018);deok(t+2*u,.014);kung(t+3*u,.05);deok(t+4*u,.016);kung(t+6*u,.05);deok(t+7*u,.016);if(Math.random()<.5)deok(t+8*u,.011)}},
+  {name:'onbesli',kit:'tr',u:.2,bar:16,M:HM,
+   CH:{1:Am,2:Am,3:G,4:G,5:Am,6:Am,7:Am,8:Am,9:Am,10:Am,0:Am},
+   FORM:[1,2,1,2,3,4,5,6,7,8,9,10,0],
+   perc(t,u){dum(t,.1);tek(t+4*u,.024);dum(t+8*u,.07);tek(t+12*u,.024);if(Math.random()<.5)tek(t+14*u,.015)}},
+  {name:'entari',kit:'tr',u:.24,bar:9,M:EM,
+   CH:{1:Dm,2:Ak,3:Dm,4:Ak,5:Ak,6:Dm,7:Ak,8:Ak,0:Ak},
+   FORM:[1,2,3,4,1,2,3,4,5,6,5,6,7,8,7,8,5,6,7,8,1,2,3,4,0],
+   perc(t,u){dum(t,.1);tek(t+2*u,.024);dum(t+4*u,.07);tek(t+6*u,.022);tek(t+7.5*u,.016)}},
+  {name:'doraji',kit:'ko',u:.26,bar:9,M:TM,scale:[60,62,65,67,69,72],
+   CH:{1:Fk,2:Fk,3:Ck,4:Fk,5:Fk,6:Ck,7:Dmk,8:Ck,9:Dmk,10:Dmk,11:Fk,12:Fk,13:Fk,14:Fk,15:Ck,16:Fk,17:Fk,18:Ck,19:Dmk,20:Ck,0:Fk},
+   FORM:[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,0],
+   perc(t,u){kung(t,.08);deok(t,.018);deok(t+2*u,.014);kung(t+3*u,.05);deok(t+4*u,.016);kung(t+6*u,.05);deok(t+7*u,.016);if(Math.random()<.5)deok(t+8*u,.011)}}
  ];
- function pick(){let i;do i=Math.floor(Math.random()*SONGS.length);while(i===lastSong&&SONGS.length>1);lastSong=i;song=SONGS[i];fi=0;pass++}
+ function pick(){let i;do i=Math.floor(Math.random()*SONGS.length);while(i===lastSong&&SONGS.length>1);lastSong=i;song=SONGS[i];fi=0;pass++;
+  const nm=song.name,d=ctx?Math.max(0,(next-ctx.currentTime)*1000):0;setTimeout(()=>{if(on&&song&&song.name===nm)try{npShow(nm)}catch(e){}},d)}
  function reverb(){const len=ctx.sampleRate*3,b=ctx.createBuffer(2,len,ctx.sampleRate);for(let c=0;c<2;c++){const d=b.getChannelData(c);for(let i=0;i<len;i++)d[i]=(Math.random()*2-1)*Math.pow(1-i/len,2.4)}const r=ctx.createConvolver();r.buffer=b;return r}
  function init(){
   ctx=new (window.AudioContext||window.webkitAudioContext)();
@@ -859,7 +935,7 @@ const BGM=(()=>{
  }
  function vol(){return (S.vol/100)*.75}
  return{
-  start(){if(!S.music)return;try{if(!ctx)init();ctx.resume();if(on)return;on=true;next=ctx.currentTime+.1;schedule();timer=setInterval(schedule,300);
+  start(){if(!S.music)return;try{if(!ctx)init();ctx.resume();if(on)return;on=true;next=ctx.currentTime+.1;schedule();try{npShow(song&&song.name)}catch(e){}timer=setInterval(schedule,300);
    master.gain.cancelScheduledValues(ctx.currentTime);master.gain.setValueAtTime(master.gain.value,ctx.currentTime);master.gain.linearRampToValueAtTime(vol(),ctx.currentTime+3)}catch(e){}},
   stop(){if(!ctx||!on)return;on=false;clearInterval(timer);master.gain.cancelScheduledValues(ctx.currentTime);master.gain.setValueAtTime(master.gain.value,ctx.currentTime);master.gain.linearRampToValueAtTime(0,ctx.currentTime+.8)},
   setVol(){if(ctx&&on){master.gain.cancelScheduledValues(ctx.currentTime);master.gain.setTargetAtTime(vol(),ctx.currentTime,.1)}},
@@ -885,13 +961,20 @@ const BGM=(()=>{
   pause(){if(ctx)ctx.suspend()},resume(){if(ctx&&on)ctx.resume()}
  };
 })();
-$('bMusic').onclick=()=>{S.music=!S.music;save();renderSettings();S.music?BGM.start():BGM.stop()};
+$('bMusic').onclick=()=>{S.music=!S.music;save();renderSettings();if(S.music)BGM.start();else{BGM.stop();npShow(null)}};
 $('vol').addEventListener('input',e=>{S.vol=+e.target.value;save();BGM.setVol()});
 document.addEventListener('visibilitychange',()=>{document.hidden?BGM.pause():BGM.resume()});
 function voiceBusy(){try{return speechSynthesis.speaking||(!GTA.paused&&!GTA.ended)||(typeof GDA!=='undefined'&&!GDA.paused&&!GDA.ended)}catch(err){return false}}
 document.addEventListener('pointerdown',()=>setTimeout(()=>BGM.wake(),1500),{capture:true});
 setInterval(()=>BGM.wake(),2500);
 
+// ---------- şu an çalan türkü (küçük durum çubuğu) ----------
+const NP={katibim:["Üsküdar'a Gider İken","위스퀴다르 가는 길에",'tr'],dere:["Dere Geliyor Dere","Dere Geliyor Dere",'tr'],onbesli:["Hey Onbeşli","Hey Onbeşli",'tr'],entari:["Entarisi Ala Benziyor","Entarisi Ala Benziyor",'tr'],
+ arirang:["Arirang (아리랑)","아리랑",'ko'],miryang:["Miryang Arirang (밀양아리랑)","밀양아리랑",'ko'],doraji:["Doraji Taryeong (도라지타령)","도라지타령",'ko']};
+let npCur=null;
+function npShow(n){npCur=n;const e=$('nowPlay');if(!e)return;const d=n&&NP[n];if(!d||!S.music){e.classList.remove('on');return}
+ const ko=S.lang==='ko',org=d[2]==='tr'?(ko?'튀르키예 민요':'Türk halk türküsü'):(ko?'한국 민요':'Kore halk şarkısı');
+ e.innerHTML=`<i aria-hidden="true">♪</i><b>${esc(ko?d[1]:d[0])}</b><small>· ${esc(org)}</small>`;e.classList.add('on')}
 // ---------- 덩이 응원 말풍선 ----------
 const CHEERS=[["오늘도 한 걸음!", "Bugün de bir adım!"], ["TOPIK 합격을 응원해요!", "TOPIK'te başarılar dilerim!"], ["천천히 해도 괜찮아요.", "Yavaş gitmek de olur."], ["할 수 있어요!", "Yapabilirsin!"], ["꾸준함이 실력이에요.", "Düzenli çalışmak en büyük güç."], ["틀려도 괜찮아요. 다시 하면 돼요!", "Yanlış yapmak sorun değil, tekrar dene!"], ["오늘은 단어 10개, 어때요?", "Bugün 10 kelimeye ne dersin?"], ["시험 잘 볼 거예요!", "Sınavın çok iyi geçecek!"], ["어제보다 오늘 더 잘하고 있어요.", "Bugün dünden daha iyisin."], ["한국어 실력이 쑥쑥 자라고 있어요!", "Korecen hızla büyüyor!"], ["파이팅!", "Haydi, sen yaparsın!"], ["조금씩, 매일매일.", "Azar azar, her gün."], ["포기하지 마세요!", "Sakın pes etme!"], ["잠깐 쉬어도 괜찮아요.", "Biraz mola vermek de iyidir."], ["열심히 하는 모습이 멋져요!", "Bu kadar çalışman harika!"], ["시험 날까지 같이 가요!", "Sınav gününe kadar birlikteyiz!"], ["단어 하나가 모여 문장이 돼요.", "Kelimeler birleşip cümle olur."], ["오늘의 노력이 내일의 합격!", "Bugünün emeği, yarının başarısı!"], ["{N}도 같이 공부할게요!", "{N} de seninle çalışıyor!"], ["물 한 잔 마시고 시작해요!", "Bir bardak su iç, sonra başlayalım!"]];
 const TAPS=[["히히, 간지러워요!", "Hihi, gıdıklanıyorum!", "laugh"], ["불렀어요?", "Beni mi çağırdın?", "jump"], ["같이 공부할까요?", "Birlikte çalışalım mı?", "bounce"], ["{N} 여기 있어요!", "{N} burada!", "wiggle"], ["오늘 기분 어때요?", "Bugün nasılsın?", "squish"], ["한 문제만 더 풀어요!", "Bir soru daha çözelim!", "excited"], ["우와, 반가워요!", "Vay, seni gördüğüme sevindim!", "spin"], ["공부할수록 저도 자라요!", "Sen çalıştıkça ben de büyüyorum!", "jump"], ["데굴데굴~ 구르기 보여 줄게요!", "Bak, sana takla atıyorum!", "roll"], ["콧수염 멋있죠?", "Bıyığım yakışıklı değil mi?", "laugh"]];

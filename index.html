@@ -80,6 +80,9 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid 
 .wspark{position:absolute;width:120px;height:40px;pointer-events:none;z-index:3}.wspark i{position:absolute;width:12px;height:12px;background:#ffd54a;clip-path:polygon(50% 0,62% 38%,100% 50%,62% 62%,50% 100%,38% 62%,0 50%,38% 38%);animation:wsp 1.2s ease-out both}
 .wspark i:nth-child(1){left:6px;top:20px}.wspark i:nth-child(2){left:30px;top:-6px;animation-delay:.1s}.wspark i:nth-child(3){left:82px;top:-4px;animation-delay:.2s}.wspark i:nth-child(4){left:104px;top:22px;animation-delay:.05s}
 @keyframes wsp{0%{opacity:0;transform:scale(.2) rotate(0)}30%{opacity:1;transform:scale(1.3) rotate(40deg)}100%{opacity:0;transform:scale(.6) translateY(-16px) rotate(90deg)}}
+.nowplay{position:absolute;left:8px;top:8px;z-index:2;display:flex;align-items:center;gap:4px;max-width:calc(100% - 16px);padding:3px 10px 3px 8px;border-radius:999px;background:rgba(255,253,247,.82);border:1px solid rgba(47,107,79,.25);font:700 11px/1.3 Nunito,"Noto Sans KR",sans-serif;color:#2f6b4f;white-space:nowrap;overflow:hidden;opacity:0;transform:translateY(-4px);transition:opacity .5s,transform .5s;pointer-events:none}
+.nowplay.on{opacity:1;transform:none}.nowplay i{font-style:normal;display:inline-block;animation:npb 1.6s ease-in-out infinite}.nowplay b{overflow:hidden;text-overflow:ellipsis}.nowplay small{font-weight:600;color:var(--muted);font-size:10px}
+@keyframes npb{50%{transform:translateY(-2px) rotate(-8deg)}}
 .cheer{position:absolute;left:50%;bottom:60%;transform:translate(-50%,8px) scale(.85);opacity:0;pointer-events:none;max-width:min(78%,300px);background:#fffdf7;border:2px solid #2f6b4f;border-radius:18px;padding:8px 14px 9px;text-align:center;box-shadow:0 4px 0 rgba(47,107,79,.18);transition:opacity .3s,transform .35s cubic-bezier(.3,1.5,.5,1);z-index:3;font:inherit;color:var(--ink);cursor:pointer}
 .cheer.show{opacity:1;transform:translate(-50%,0) scale(1);pointer-events:auto}
 .cheer::after{content:"";position:absolute;left:50%;bottom:-9px;width:14px;height:14px;background:#fffdf7;border-right:2px solid #2f6b4f;border-bottom:2px solid #2f6b4f;transform:translateX(-50%) rotate(45deg)}
@@ -485,7 +488,7 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid 
    <button class="icon" id="bSet" data-al="settings"><svg><use href="#i-set"/></svg></button>
   </div>
   <div class="companion">
-   <div class="habitat"><div class="scene" id="scene" aria-hidden="true"></div><div class="mascot" id="mascot"></div><button class="cheer" id="cheer" aria-live="polite"></button></div>
+   <div class="habitat"><div class="scene" id="scene" aria-hidden="true"></div><div class="nowplay" id="nowPlay" aria-live="polite"></div><div class="mascot" id="mascot"></div><button class="cheer" id="cheer" aria-live="polite"></button></div>
    <div class="cinfo">
     <div class="crow"><span class="cname" id="cName"></span><span class="tag" id="cLv"></span></div>
     <div class="bar"><i id="xpBar"></i></div>
@@ -650,17 +653,17 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid 
  </div></div>
 </div>
 
-<script src="config.js?v=108"></script>
-<script src="char.js?v=108"></script>
-<script src="data/a12.js?v=108"></script>
-<script src="data/b11.js?v=108"></script>
-<script src="data/b12.js?v=108"></script>
-<script src="data/b21.js?v=108"></script>
-<script src="data/b22.js?v=108"></script>
-<script src="data/topik1.js?v=108"></script>
-<script src="data/topik2.js?v=108"></script>
-<script src="data/hanja.js?v=108"></script>
-<script src="data/new_words.js?v=108"></script>
-<script src="app.js?v=108"></script>
+<script src="config.js?v=109"></script>
+<script src="char.js?v=109"></script>
+<script src="data/a12.js?v=109"></script>
+<script src="data/b11.js?v=109"></script>
+<script src="data/b12.js?v=109"></script>
+<script src="data/b21.js?v=109"></script>
+<script src="data/b22.js?v=109"></script>
+<script src="data/topik1.js?v=109"></script>
+<script src="data/topik2.js?v=109"></script>
+<script src="data/hanja.js?v=109"></script>
+<script src="data/new_words.js?v=109"></script>
+<script src="app.js?v=109"></script>
 </body>
 </html>
